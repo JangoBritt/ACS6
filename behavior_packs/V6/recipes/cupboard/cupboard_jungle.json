@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_cupboard"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 3
+			},
+			"B": {
+				"item": "medieval:stripped_jungle_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:jungle_cupboard",
+			"count": 1
+		}
+	}
+}

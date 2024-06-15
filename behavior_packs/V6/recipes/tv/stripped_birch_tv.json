@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_birch_tv"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" A ",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_birch_log",
+				"data": 0
+			},
+			"A": {
+				"item": "minecraft:copper_ingot",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_birch_tv",
+			"count": 2
+		}
+	}
+}

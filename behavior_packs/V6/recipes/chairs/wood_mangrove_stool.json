@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:wood_mangrove_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:mangrove_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:mangrove_wood_post"
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:mangrove_book"}
+	],
+    "result": {
+      "item": "medieval:wood_mangrove_stool",
+	  "count": 1
+    }
+  }
+}

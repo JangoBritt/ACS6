@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_box0",
+			"properties": {
+				"medieval:facing_direction": [2,3,4,5]
+			}
+		},
+		"permutations": [
+			{"condition": "query.block_property('medieval:facing_direction') == 2","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 3","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 4","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 5","components": {"minecraft:rotation": [0,90,0]}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.box_0",
+			"minecraft:material_instances": {"*": {"texture": "m.stripped_jungle","render_method": "opaque"},"planks": {"texture": "m.jungle_planks","render_method": "opaque"}},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:creative_category": {"category": "items","group": "itemGroup.name.chest"},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:map_color": "#e39f6f"
+		},
+		"events": {
+			"set_facing_direction": {"set_block_property": {"medieval:facing_direction": "query.cardinal_facing_2d"}}
+		}
+	}
+}

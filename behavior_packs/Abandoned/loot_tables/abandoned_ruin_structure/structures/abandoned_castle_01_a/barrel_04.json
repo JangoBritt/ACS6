@@ -1,0 +1,112 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Potion
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

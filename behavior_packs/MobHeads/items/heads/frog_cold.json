@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:frog_cold_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_frog_cold_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:frog_cold"
+			}
+		}
+	}
+}

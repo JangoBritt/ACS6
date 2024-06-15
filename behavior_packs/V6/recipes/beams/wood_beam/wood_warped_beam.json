@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_wood_beam"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"#  "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_stem",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:warped_wood_beam",
+			"count": 6
+		}
+	}
+}

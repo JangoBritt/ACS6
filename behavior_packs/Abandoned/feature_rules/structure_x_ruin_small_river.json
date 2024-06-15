@@ -1,0 +1,47 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_ruin_small_river",
+      "places_feature": "nicothekid:structure_weight_x_ruin_small_forest_jungle"
+    },
+    "conditions": {
+      "placement_pass": "after_underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "desert"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "mesa"
+            },
+            {
+              "any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "river"
+								}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 1.5,
+      "x": 0,
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 26, 56 ]
+      },
+      "z": 0
+    }
+  }
+}

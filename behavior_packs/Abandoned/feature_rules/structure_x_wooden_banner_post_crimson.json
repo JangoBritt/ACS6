@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_wooden_banner_post_crimson",
+      "places_feature": "nicothekid:structure_weight_x_wooden_banner_post_crimson"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "crimson_forest"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 10.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 32, 104 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      }
+    }
+  }
+}

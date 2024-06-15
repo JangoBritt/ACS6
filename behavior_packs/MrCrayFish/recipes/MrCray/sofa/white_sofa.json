@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:white_sofa_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:white_wool"
+			},
+			"A": {
+				"item": "minecraft:stripped_spruce_log"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:white_wool"},
+			{"item": "minecraft:stripped_spruce_log"}
+		],
+		"result": {
+			"item": "mr:white_sofa_mr",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marco3x2",
+				"texture_width": 48,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [
+					0,
+					1.25,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "pintura",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "pintura",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-8,
+								0,
+								7
+							],
+							"size": [
+								48,
+								32,
+								1
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										48,
+										32
+									]
+								},
+								"east": {
+									"uv": [
+										46,
+										32
+									],
+									"uv_size": [
+										2,
+										32
+									]
+								},
+								"south": {
+									"uv": [
+										0,
+										32
+									],
+									"uv_size": [
+										48,
+										32
+									]
+								},
+								"west": {
+									"uv": [
+										0,
+										32
+									],
+									"uv_size": [
+										2,
+										32
+									]
+								},
+								"up": {
+									"uv": [
+										48,
+										64
+									],
+									"uv_size": [
+										-48,
+										-2
+									]
+								},
+								"down": {
+									"uv": [
+										48,
+										34
+									],
+									"uv_size": [
+										-48,
+										-2
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

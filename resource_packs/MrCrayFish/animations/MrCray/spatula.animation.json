@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mr.spatula.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [116.888, 51.17281, 1.0595],
+					"position": [1, 24, 3]
+				}
+			}
+		},
+		"animation.mr.spatula.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [87.5, 0, 0],
+					"position": [-0.1, 22, 1.6],
+					"scale": 0.85
+				}
+			}
+		}
+	}
+}

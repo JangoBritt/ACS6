@@ -1,0 +1,64 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:stripped_birch_coffee_table_short_mr",
+			"menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.mrCoffeeTableShort",
+                "is_hidden_in_commands": false
+            },
+			"states": {
+				"mr:n": [0,1],
+				"mr:s": [0,1],
+				"mr:w": [0,1],
+				"mr:e": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "(q.block_state('mr:n') == 1 && q.block_state('mr:s') == 1) || (q.block_state('mr:w') == 1 && q.block_state('mr:e') == 1)","components": {"minecraft:collision_box": {"origin": [-8,6,-8],"size": [16,2,16]},"minecraft:selection_box": {"origin": [-8,6,-8],"size": [16,2,16]}}}
+		],
+		"components": {
+			"tag:mr.stripped_birch_coffee_table_short": {},
+			"minecraft:geometry": {
+				"identifier":"geometry.mr.coffee_table_short",
+				"bone_visibility": {
+					"root": true,
+					"ne": "q.block_state('mr:n') == 0 && q.block_state('mr:e') == 0",
+					"nw": "q.block_state('mr:n') == 0 && q.block_state('mr:w') == 0",
+					"se": "q.block_state('mr:s') == 0 && q.block_state('mr:e') == 0",
+					"sw": "q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0"
+				}
+			},
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {"*": {"texture": "mr.stripped_birch","render_method": "opaque"},"wood": {"texture": "mr.wood_birch","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,8,16]},
+			"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,8,16]},
+			"minecraft:on_interact": {"condition": "q.block_face == 1 && q.is_item_name_any('slot.weapon.mainhand',0,'mr:stripped_birch_coffee_table_short_mr')", "event": "coffee_table_tall"},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"update":{
+				"sequence": [
+					{"condition": "q.block_neighbor_has_any_tag(0,0,-1,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:n": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(0,0,-1,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:n": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(0,0,1,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:s": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(0,0,1,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:s": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(-1,0,0,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:w": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(-1,0,0,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:w": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(1,0,0,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:e": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(1,0,0,'mr.stripped_birch_coffee_table_short')","set_block_state": {"mr:e": 0}}
+				]
+			},
+			"coffee_table_tall": {
+				"run_command": {"command": ["setblock ~~~ mr:stripped_birch_coffee_table_tall_mr[\"mr:commands\"=true]","playsound dig.wood @a ~ ~ ~"]},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

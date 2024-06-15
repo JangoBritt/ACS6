@@ -1,0 +1,463 @@
+{
+	"tiers": [
+		{
+			"groups": [
+				{ //FoxyNoTail
+					"num_to_select": 5,
+					"trades": [
+              //Foxy Mini Blocks
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:white_concrete"}],"gives": [{"item": "fmb:white_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:orange_concrete"}],"gives": [{"item": "fmb:orange_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:purple_concrete"}],"gives": [{"item": "fmb:purple_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:blue_concrete"}],"gives": [{"item": "fmb:blue_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:brown_concrete"}],"gives": [{"item": "fmb:brown_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:green_concrete"}],"gives": [{"item": "fmb:green_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:red_concrete"}],"gives": [{"item": "fmb:red_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:black_concrete"}],"gives": [{"item": "fmb:black_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:magenta_concrete"}],"gives": [{"item": "fmb:magenta_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:light_blue_concrete"}],"gives": [{"item": "fmb:light_blue_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:yellow_concrete"}],"gives": [{"item": "fmb:yellow_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:lime_concrete"}],"gives": [{"item": "fmb:lime_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:pink_concrete"}],"gives": [{"item": "fmb:pink_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:gray_concrete"}],"gives": [{"item": "fmb:gray_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:light_gray_concrete"}],"gives": [{"item": "fmb:light_gray_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:cyan_concrete"}],"gives": [{"item": "fmb:cyan_concrete_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:end_bricks"}],"gives": [{"item": "fmb:end_stone_bricks_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:end_stone"}],"gives": [{"item": "fmb:end_stone_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:purpur_block"}],"gives": [{"item": "fmb:purpur_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:undyed_shulker_box"}],"gives": [{"item": "fmb:shulker_box_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:white_stained_glass"}],"gives": [{"item": "fmb:white_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:orange_stained_glass"}],"gives": [{"item": "fmb:orange_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:purple_stained_glass"}],"gives": [{"item": "fmb:purple_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:blue_stained_glass"}],"gives": [{"item": "fmb:blue_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:brown_stained_glass"}],"gives": [{"item": "fmb:brown_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:green_stained_glass"}],"gives": [{"item": "fmb:green_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:red_stained_glass"}],"gives": [{"item": "fmb:red_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:black_stained_glass"}],"gives": [{"item": "fmb:black_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:magenta_stained_glass"}],"gives": [{"item": "fmb:magenta_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:light_blue_stained_glass"}],"gives": [{"item": "fmb:light_blue_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:yellow_stained_glass"}],"gives": [{"item": "fmb:yellow_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:lime_stained_glass"}],"gives": [{"item": "fmb:lime_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:pink_stained_glass"}],"gives": [{"item": "fmb:pink_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:gray_stained_glass"}],"gives": [{"item": "fmb:gray_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:light_gray_stained_glass"}],"gives": [{"item": "fmb:light_gray_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:cyan_stained_glass"}],"gives": [{"item": "fmb:cyan_stained_glass_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:chiseled_bookshelf"}],"gives": [{"item": "fmb:chiseled_bookshelf_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:scaffolding"}],"gives": [{"item": "fmb:scaffolding_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:sculk"}],"gives": [{"item": "fmb:sculk_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:chiseled_nether_bricks"}],"gives": [{"item": "fmb:chiseled_nether_bricks_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:chiseled_polished_blackstone"}],"gives": [{"item": "fmb:chiseled_polished_blackstone_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:crimson_nylium"}],"gives": [{"item": "fmb:crimson_nylium_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:crimson_planks"}],"gives": [{"item": "fmb:crimson_planks_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:crimson_stem"}],"gives": [{"item": "fmb:crimson_stem_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:gilded_blackstone"}],"gives": [{"item": "fmb:gilded_blackstone_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:glowstone"}],"gives": [{"item": "fmb:glowstone_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:nether_gold_ore"}],"gives": [{"item": "fmb:nether_gold_ore_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:quartz_ore"}],"gives": [{"item": "fmb:nether_quartz_ore_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:diamond_block"}],"gives": [{"item": "fmb:diamond_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:emerald_block"}],"gives": [{"item": "fmb:emerald_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:gold_block"}],"gives": [{"item": "fmb:gold_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:iron_block"}],"gives": [{"item": "fmb:iron_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:lapis_block"}],"gives": [{"item": "fmb:lapis_lazuli_block_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:barrel"}],"gives": [{"item": "fmb:barrel_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:beacon"}],"gives": [{"item": "fmb:beacon_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:blast_furnace"}],"gives": [{"item": "fmb:blast_furnace_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:cartography_table"}],"gives": [{"item": "fmb:cartography_table_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:chest"}],"gives": [{"item": "fmb:chest_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:crafting_table"}],"gives": [{"item": "fmb:crafting_table_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:enchanting_table"}],"gives": [{"item": "fmb:enchanting_table_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:ender_chest"}],"gives": [{"item": "fmb:ender_chest_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:fletching_table"}],"gives": [{"item": "fmb:fletching_table_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:furnace"}],"gives": [{"item": "fmb:furnace_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:jukebox"}],"gives": [{"item": "fmb:jukebox_spawn_egg","quantity": 8}]},
+              {"max_uses": 3,"wants": [{"item": "minecraft:emerald"},{"item": "minecraft:loom"}],"gives": [{"item": "fmb:loom_spawn_egg","quantity": 8}]}
+            ]
+				},
+				{ //ACS Player Heads, Uniques, Paintings, Lanterns
+					"num_to_select": 4,
+					"trades": [
+             //Paintings
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_sewer","quantity": 1}]},
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_reflection","quantity": 1}]},
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_spirit","quantity": 1}]},
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_pride","quantity": 1}]},
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_footbol","quantity": 1}]},
+			 {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_purple","quantity": 1}]},
+              //Seasonal
+              //Lanterns
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:sea_lantern"}],"gives": [{"item": "nicothekid:amethyst_lamp","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:andesite_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:bricks_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:cobbled_deepslate_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:soul_lantern"}],"gives": [{"item": "nicothekid:cobbled_deepslate_soul_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:cobblestone_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:sea_lantern"}],"gives": [{"item": "nicothekid:quartz_lamp","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:stone_bricks_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:stone_lantern","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:torch"}],"gives": [{"item": "nicothekid:wooden_lamp_bamboo","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}},{"item": "minecraft:lantern"}],"gives": [{"item": "nicothekid:wooden_lantern_bamboo","quantity": 1}]},
+              //Player Heads
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:arsey_rc_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:atlaskes_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:bigdog184382_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:calico_jacque_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:cdn_hambone_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:cragola_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:damo8030_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:darth_angelo_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:dcstar36_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:diatomicsloth19_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:dingozero_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:empresstitan_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:firemanking_316_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:firststorm5023_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:fr0mm1_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:garthcp_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:hillmanunited_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:jangobritt_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:jonahmacd_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:kailio_1980_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:mastatony_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:mids128_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:mxchlorine_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:ngarvi_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:oldcdngamer_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:purplelady1022_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:qwikstreet_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:raul_del_fuego_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:rezpint_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:sgtpreston2684_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:solaryard1998_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:stesko_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:tcc_segrub_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:tellis042_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:tonystar73_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:vvangowookie_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:wookieswife12_head_item","quantity": 1}]},
+              {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:xcggamesx_head_item","quantity": 1}]},
+              //Specials
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:cabbage","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:cabbage_seeds","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:onion","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:rice_panicle","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:rice","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:straw","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:tomato_seeds","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:tomato","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:bacon","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:ham","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:mutton_chops","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:minced_beef","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:salmon_slice","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:beef_patty","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:dog_food","quantity": 1}]},
+			  {"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:horse_feed","quantity": 1}]}	  
+            ]
+				},
+				{ //ACS5 Economy Purchases - Stones
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:0",
+									"quantity": 64
+								},
+								{
+									"item": "minecraft:stone:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:cobblestone",
+									"quantity": 64
+								},
+								{
+									"item": "minecraft:cobblestone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Stones
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:1",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:3",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:5",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Softs
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:dirt:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:gravel",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:sand:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:sandstone:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Deep
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:tuff",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:cobbled_deepslate",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:deepslate",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Nether
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:blackstone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:netherrack",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:end_stone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

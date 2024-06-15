@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "medieval:cobblestone_smokestack"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:cobblestone",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "medieval:cobblestone_smokestack",
+			"count": 1
+		}
+	}
+}

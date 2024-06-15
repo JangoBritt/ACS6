@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stove_left"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BCB",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stonebrick"
+			},
+			"B": {
+				"item": "minecraft:iron_bars"
+			},
+			"C": {
+				"item": "minecraft:coal"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stove_left",
+			"count": 1
+		}
+	}
+}

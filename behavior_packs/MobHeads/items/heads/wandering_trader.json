@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:wandering_trader_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_wandering_trader_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:wandering_trader"
+			}
+		}
+	}
+}

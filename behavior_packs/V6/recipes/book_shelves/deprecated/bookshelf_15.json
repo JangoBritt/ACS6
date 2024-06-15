@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:bookshelf_15"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:bookshelf"
+			}
+		],
+		"result": {
+			"item": "medieval:bookshelf_15",
+			"count": 1
+		}
+	}
+}

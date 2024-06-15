@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_warped_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_stem"
+			},
+			"A": {
+				"item": "minecraft:stripped_warped_stem"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_warped_stem"},
+			{"item": "minecraft:warped_stem"}
+		],
+		"result": {
+			"item": "mr:stripped_warped_cabinet_mr",
+			"count": 2
+		}
+	}
+}

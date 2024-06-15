@@ -1,0 +1,59 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Libraries
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/libraries.json"
+        }
+      ]
+    },
+    // Enchanted Books
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/enchanted_book.json"
+        }
+      ]
+    },
+    // Pottery Sherd
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/pottery_sherd.json"
+        }
+      ]
+    },
+    // Overworld Treasures
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/overworld_treasures.json"
+        }
+      ]
+    }
+  ]
+}

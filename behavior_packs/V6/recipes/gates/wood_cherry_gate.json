@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_wood_gate"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A#A",
+			"A#A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:cherry_wood_post"
+			},
+			"A": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cherry_wood_gate",
+			"count": 1
+		}
+	}
+}

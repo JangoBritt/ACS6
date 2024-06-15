@@ -1,0 +1,37 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Mobs Drops
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/mob_drops.json"
+        }
+      ]
+    },
+    // Overworld Gemstones
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/overworld_gemstones.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:wood_spruce_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:spruce_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:spruce_wood_post"
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:spruce_book"}
+	],
+    "result": {
+      "item": "medieval:wood_spruce_stool",
+	  "count": 1
+    }
+  }
+}

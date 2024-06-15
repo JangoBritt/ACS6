@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_drawer1"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 1
+			},
+			"B": {
+				"item": "medieval:stripped_spruce_mslab"
+			},
+			"C": {
+				"item": "minecraft:clock"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:spruce_drawer1",
+			"count": 1
+		}
+	}
+}

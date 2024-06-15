@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_birch_desk_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:birch_log"
+			},
+			"A": {
+				"item": "minecraft:birch_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:birch_planks"},
+			{"item": "minecraft:birch_log"}
+		],
+		"result": {
+			"item": "mr:wood_birch_desk_mr",
+			"count": 2
+		}
+	}
+}

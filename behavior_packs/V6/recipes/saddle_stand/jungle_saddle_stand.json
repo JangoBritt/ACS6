@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_saddle_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AAA",
+			"B B"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:stripped_jungle_log"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:jungle_book"}
+		],
+		"result": {
+			"item": "medieval:jungle_saddle_stand",
+			"count": 1
+		}
+	}
+}

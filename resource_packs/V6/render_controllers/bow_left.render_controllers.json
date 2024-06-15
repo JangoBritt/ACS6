@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bow_left": {
+      "geometry": "Geometry.bow_left",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Texture.weapon_bow"
+      ]
+    }
+  }
+}

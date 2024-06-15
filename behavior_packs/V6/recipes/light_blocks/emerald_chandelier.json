@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:emerald_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"AAA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:emerald_chandelier",
+			"count": 2
+		}
+	}
+}

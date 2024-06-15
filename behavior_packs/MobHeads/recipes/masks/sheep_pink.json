@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fmh:sheep_pink_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "fmh:sheep_pink_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "fmh:sheep_pink_item"}
+		],
+		"result": [
+			{
+				"item": "fmh:sheep_pink_mask",
+				"count": 1
+			}
+		]
+	}
+}

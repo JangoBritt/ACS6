@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_darkoak_mail_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"A",
+			"A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:chest"
+			},
+			"A": {
+				"item": "mr:wood_darkoak_fence_mr"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:chest"},
+			{"item": "mr:wood_darkoak_fence_mr"}
+		],
+		"result": {
+			"item": "mr:wood_darkoak_mail_mr",
+			"count": 1
+		}
+	}
+}

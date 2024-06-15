@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_oak_gate",
+			"properties": {
+				"medieval:facing_direction": [0,1,2,3,4,5],
+				"medieval:close": [true,false]
+			}
+		},
+		"permutations": [
+			{"condition": "query.block_property('medieval:facing_direction') == 2","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 3","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 4","components": {"minecraft:rotation": [0,90,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 5","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "query.block_property('medieval:close') == true","components": {"minecraft:geometry": "geometry.fence_gate_1","minecraft:on_interact": {"event": "open"}}},
+			{"condition": "query.block_property('medieval:close') == false","components": {"minecraft:geometry": "geometry.fence_gate_1o","minecraft:entity_collision": false,"minecraft:on_interact": {"event": "close"}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.fence_gate_1",
+			"tag:wood": {},
+			"minecraft:material_instances": {"*": {"texture": "stripped_oak","render_method": "opaque"}},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:creative_category": {"category": "construction","group": "itemGroup.name.fenceGate"},
+			"minecraft:on_interact": {"event": "open"},
+			"minecraft:entity_collision": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
+			"minecraft:pick_collision": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:map_color": "#f0b030"
+		},
+		"events": {
+			"set_facing_direction": {"set_block_property": {"medieval:facing_direction": "query.cardinal_facing_2d"}},
+			"open": {"run_command": {"command": "playsound random.door_open @a ~ ~ ~"},"set_block_property": {"medieval:close": false}},
+			"close": {"run_command": {"command": "playsound random.door_close @a ~ ~ ~"},"set_block_property": {"medieval:close": true}}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stacked_cherry_log"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:cherry_log",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "medieval:stacked_cherry_log",
+			"count": 4
+		}
+	}
+}

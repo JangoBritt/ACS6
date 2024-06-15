@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_wood_cupboard"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:mangrove_planks",
+				"data": 0
+			},
+			"B": {
+				"item": "medieval:mangrove_wood_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:mangrove_wood_cupboard",
+			"count": 1
+		}
+	}
+}

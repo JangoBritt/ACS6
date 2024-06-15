@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marco": {
+			"geometry": "geometry.marco",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.marco"
+			],
+			"filter_lighting": true
+		},
+		"controller.render.marco_glow": {
+			"geometry": "geometry.marco",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.marco"
+			],
+			"filter_lighting": true,
+			"ignore_lighting": true
+		}
+	}
+}

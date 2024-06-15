@@ -1,0 +1,274 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.athos_avatars.rotateZ": {
+			"states": {
+				"rotateZ_default": {
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_0": {
+					"animations": [
+						"rotateZ_0"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_45": {
+					"animations": [
+						"rotateZ_45"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_90": {
+					"animations": [
+						"rotateZ_90"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_135": {
+					"animations": [
+						"rotateZ_135"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_180": {
+					"animations": [
+						"rotateZ_180"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_225": {
+					"animations": [
+						"rotateZ_225"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_270": "query.mark_variant == 270"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_270": {
+					"animations": [
+						"rotateZ_270"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						},
+						{
+							"rotateZ_315": "query.mark_variant == 315"
+						}
+					]
+				},
+				"rotateZ_315": {
+					"animations": [
+						"rotateZ_315"
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"rotateZ_0": "query.mark_variant == 0"
+						},
+						{
+							"rotateZ_45": "query.mark_variant == 45"
+						},
+						{
+							"rotateZ_90": "query.mark_variant == 90"
+						},
+						{
+							"rotateZ_135": "query.mark_variant == 135"
+						},
+						{
+							"rotateZ_180": "query.mark_variant == 180"
+						},
+						{
+							"rotateZ_225": "query.mark_variant == 225"
+						}
+					]
+				}
+			}
+		}
+	}
+}

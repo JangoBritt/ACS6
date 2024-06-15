@@ -1,0 +1,48 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_x_ruin_small_piglin_01"
+    },
+    "structure_name": "mystructure:ruin_small_piglin_01",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          {
+            "tags": "query.any_tag('custom_plant')"
+          },
+          {
+            "tags": "query.any_tag('custom_sprouts')"
+          },
+          {
+            "tags": "query.any_tag('bone_pile')"
+          },
+          "minecraft:air",
+          "minecraft:brown_mushroom",
+          "minecraft:crimson_fungus",
+          "minecraft:crimson_roots",
+          "minecraft:fire",
+          "minecraft:glow_lichen",
+          "minecraft:nether_sprouts",
+          "minecraft:red_mushroom",
+          "minecraft:soul_fire",
+          "minecraft:twisting_vines",
+          "minecraft:warped_fungus",
+          "minecraft:warped_roots",
+          "minecraft:weeping_vines",
+          "minecraft:nether_wart_block",
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight",
+          "minecraft:crimson_stem",
+          "minecraft:warped_stem",
+          "minecraft:basalt",
+          "minecraft:flowing_lava"
+        ]
+      }
+    }
+  }
+}

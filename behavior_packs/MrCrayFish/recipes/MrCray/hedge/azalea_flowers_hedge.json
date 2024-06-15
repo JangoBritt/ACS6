@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:azalea_flowers_hedge_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:azalea_leaves_flowered"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:azalea_leaves_flowered"}
+		],
+		"result": {
+			"item": "mr:azalea_flowers_hedge_mr",
+			"count": 12
+		}
+	}
+}

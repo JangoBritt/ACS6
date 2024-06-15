@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:cherry_streetlight_0_item",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cherry"
+			},
+			"minecraft:display_name": {
+				"value": "item.medieval:cherry_streetlight_0_item"
+			},
+			"minecraft:icon": {
+				"texture": "m.cherry_streetlight_0_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:cherry_streetlight_0",
+				"use_block_description": true
+			}
+		}
+	}
+}

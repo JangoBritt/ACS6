@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_box2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:birch_wood_post"
+			},
+			"C": {
+				"item": "minecraft:planks",
+				"data": 2
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
+		"result": {
+			"item": "medieval:birch_box2",
+			"count": 2
+		}
+	}
+}

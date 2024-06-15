@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:frigde_dark_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#I#",
+			"ICI",
+			"#I#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gray_concrete"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:gray_concrete"},
+			{"item": "minecraft:iron_ingot"},
+			{"item": "minecraft:chest"}
+		],
+		"result": {
+			"item": "mr:frigde_dark_mr",
+			"count": 1
+		}
+	}
+}

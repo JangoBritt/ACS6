@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:darkoak_hedge_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:leaves2",
+				"data": 1
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:leaves2"}
+		],
+		"result": {
+			"item": "mr:darkoak_hedge_mr",
+			"count": 12
+		}
+	}
+}

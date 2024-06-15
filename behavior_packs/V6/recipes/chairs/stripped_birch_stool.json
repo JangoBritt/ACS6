@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:stripped_birch_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:birch_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:stripped_birch_post"
+		}
+    },
+    "result": {
+      "item": "medieval:stripped_birch_stool",
+	  "count": 1
+    }
+  }
+}

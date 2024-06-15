@@ -1,0 +1,1324 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "athos_avatars:oldcdngamer_head",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": true
+		},
+		"component_groups": {
+			"athos_avatars:default": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_altitude",
+										"subject": "self",
+										"operator": ">=",
+										"value": 330
+									},
+									{
+										"test": "is_altitude",
+										"subject": "self",
+										"operator": "<=",
+										"value": -64
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:pickup"
+						}
+					]
+				}
+			},
+			"athos_avatars:pickup": {
+				"minecraft:instant_despawn": {}
+			},
+			"athos_avatars:scaleS": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "Sit",
+					"pull_in_entities": false,
+					"crouching_skip_interact": true,
+					"family_types": [
+						"player"
+					],
+					"seats": {
+						"position": [
+							0,
+							0.1,
+							0
+						]
+					}
+				},
+				"minecraft:scale": {
+					"value": 0.5
+				}
+			},
+			"athos_avatars:scaleM": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "Sit",
+					"pull_in_entities": false,
+					"crouching_skip_interact": true,
+					"family_types": [
+						"player"
+					],
+					"seats": {
+						"position": [
+							0,
+							0.3,
+							0
+						]
+					}
+				},
+				"minecraft:scale": {
+					"value": 0.9
+				}
+			},
+			"athos_avatars:scaleL": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "Sit",
+					"pull_in_entities": false,
+					"crouching_skip_interact": true,
+					"family_types": [
+						"player"
+					],
+					"seats": {
+						"position": [
+							0,
+							0.4,
+							0
+						]
+					}
+				},
+				"minecraft:scale": {
+					"value": 1.25
+				}
+			},
+			"athos_avatars:rotateX": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 0
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_45"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 45
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_90"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 90
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_135"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 135
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_180"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 180
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_225"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 225
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_270"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 270
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_315"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_variant",
+										"value": 315
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateX_0"
+						}
+					]
+				}
+			},
+			"athos_avatars:rotateX_0": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"athos_avatars:rotateX_45": {
+				"minecraft:variant": {
+					"value": 45
+				}
+			},
+			"athos_avatars:rotateX_90": {
+				"minecraft:variant": {
+					"value": 90
+				}
+			},
+			"athos_avatars:rotateX_135": {
+				"minecraft:variant": {
+					"value": 135
+				}
+			},
+			"athos_avatars:rotateX_180": {
+				"minecraft:variant": {
+					"value": 180
+				}
+			},
+			"athos_avatars:rotateX_225": {
+				"minecraft:variant": {
+					"value": 225
+				}
+			},
+			"athos_avatars:rotateX_270": {
+				"minecraft:variant": {
+					"value": 270
+				}
+			},
+			"athos_avatars:rotateX_315": {
+				"minecraft:variant": {
+					"value": 315
+				}
+			},
+			"athos_avatars:rotateY": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 0
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_45"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 45
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_90"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 90
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_135"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 135
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_180"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 180
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_225"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 225
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_270"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 270
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_315"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"value": 315
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateY_0"
+						}
+					]
+				}
+			},
+			"athos_avatars:rotateY_0": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"athos_avatars:rotateY_45": {
+				"minecraft:skin_id": {
+					"value": 45
+				}
+			},
+			"athos_avatars:rotateY_90": {
+				"minecraft:skin_id": {
+					"value": 90
+				}
+			},
+			"athos_avatars:rotateY_135": {
+				"minecraft:skin_id": {
+					"value": 135
+				}
+			},
+			"athos_avatars:rotateY_180": {
+				"minecraft:skin_id": {
+					"value": 180
+				}
+			},
+			"athos_avatars:rotateY_225": {
+				"minecraft:skin_id": {
+					"value": 225
+				}
+			},
+			"athos_avatars:rotateY_270": {
+				"minecraft:skin_id": {
+					"value": 270
+				}
+			},
+			"athos_avatars:rotateY_315": {
+				"minecraft:skin_id": {
+					"value": 315
+				}
+			},
+			"athos_avatars:rotateZ": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 0
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_45"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 45
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_90"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 90
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_135"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 135
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_180"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 180
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_225"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 225
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_270"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 270
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_315"
+						},
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_mark_variant",
+										"value": 315
+									}
+								]
+							},
+							"target": "self",
+							"event": "athos_avatars:rotateZ_0"
+						}
+					]
+				}
+			},
+			"athos_avatars:rotateZ_0": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"athos_avatars:rotateZ_45": {
+				"minecraft:mark_variant": {
+					"value": 45
+				}
+			},
+			"athos_avatars:rotateZ_90": {
+				"minecraft:mark_variant": {
+					"value": 90
+				}
+			},
+			"athos_avatars:rotateZ_135": {
+				"minecraft:mark_variant": {
+					"value": 135
+				}
+			},
+			"athos_avatars:rotateZ_180": {
+				"minecraft:mark_variant": {
+					"value": 180
+				}
+			},
+			"athos_avatars:rotateZ_225": {
+				"minecraft:mark_variant": {
+					"value": 225
+				}
+			},
+			"athos_avatars:rotateZ_270": {
+				"minecraft:mark_variant": {
+					"value": 270
+				}
+			},
+			"athos_avatars:rotateZ_315": {
+				"minecraft:mark_variant": {
+					"value": 315
+				}
+			}
+		},
+		"components": {
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:mark_variant": {
+				"value": 0
+			},
+			"minecraft:skin_id": {
+				"value": 0
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"interact_text": "Sit",
+				"pull_in_entities": false,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"seats": {
+					"position": [
+						0,
+						0.3,
+						0
+					]
+				}
+			},
+			"minecraft:scale": {
+				"value": 0.9
+			},
+			"minecraft:navigation.generic": {
+				"can_sink": false
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_altitude",
+									"subject": "self",
+									"operator": ">=",
+									"value": 330
+								},
+								{
+									"test": "is_altitude",
+									"subject": "self",
+									"operator": "<=",
+									"value": -64
+								}
+							]
+						},
+						"target": "self",
+						"event": "athos_avatars:pickup"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"hurt_item": 0,
+						"interact_text": "ScaleMicro",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "white_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:scaleS",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "ScaleMini",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "gray_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:scaleM",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "ScaleLarge",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "black_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:scaleL",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "RotationAlign",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "red_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:rotateAlign",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "RotateX",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "green_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:rotateX",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "RotateY",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "blue_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:rotateY",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "RotateZ",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "yellow_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:rotateZ",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "PositionX",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "orange_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionX",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "Position-X",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "brown_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionXM",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "PositionY",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "pink_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionY",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "Position-Y",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "purple_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionYM",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "PositionZ",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "lime_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionZ",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "Position-Z",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "player",
+										"value": "cyan_dye"
+									}
+								]
+							},
+							"event": "athos_avatars:positionZM",
+							"target": "self"
+						},
+						"play_sounds": "drop.slot",
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"hurt_item": 0,
+						"interact_text": "PickUp",
+						"on_interact": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_sneaking",
+										"subject": "player"
+									}
+								]
+							},
+							"event": "athos_avatars:pickup",
+							"target": "self"
+						},
+						"play_sounds": "pop",
+						"swing": true,
+						"use_item": false,
+						"spawn_items": {
+							"table": "loot_tables/heads/members/oldcdngamer_head.json"
+						}
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player_head",
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.5
+			},
+			"minecraft:health": {
+				"value": 0.5,
+				"max": 0.5
+			},
+			"minecraft:nameable": {},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"athos_avatars:default",
+						"athos_avatars:scaleM"
+					]
+				}
+			},
+			"athos_avatars:pickup": {
+				"add": {
+					"component_groups": [
+						"athos_avatars:pickup"
+					]
+				}
+			},
+			"athos_avatars:scaleS": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:scaleM",
+						"athos_avatars:scaleL"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:scaleS"
+					]
+				}
+			},
+			"athos_avatars:scaleM": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:scaleS",
+						"athos_avatars:scaleL"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:scaleM"
+					]
+				}
+			},
+			"athos_avatars:scaleL": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:scaleS",
+						"athos_avatars:scaleM"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:scaleL"
+					]
+				}
+			},
+			"athos_avatars:rotateX": {
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				}
+			},
+			"athos_avatars:rotateX_0": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_0"
+					]
+				}
+			},
+			"athos_avatars:rotateX_45": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_45"
+					]
+				}
+			},
+			"athos_avatars:rotateX_90": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_90"
+					]
+				}
+			},
+			"athos_avatars:rotateX_135": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_135"
+					]
+				}
+			},
+			"athos_avatars:rotateX_180": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_180"
+					]
+				}
+			},
+			"athos_avatars:rotateX_225": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_225"
+					]
+				}
+			},
+			"athos_avatars:rotateX_270": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_270"
+					]
+				}
+			},
+			"athos_avatars:rotateX_315": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateX"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateX_315"
+					]
+				}
+			},
+			"athos_avatars:rotateY": {
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				}
+			},
+			"athos_avatars:rotateY_0": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_0"
+					]
+				}
+			},
+			"athos_avatars:rotateY_45": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_45"
+					]
+				}
+			},
+			"athos_avatars:rotateY_90": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_90"
+					]
+				}
+			},
+			"athos_avatars:rotateY_135": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_135"
+					]
+				}
+			},
+			"athos_avatars:rotateY_180": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_180"
+					]
+				}
+			},
+			"athos_avatars:rotateY_225": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_225"
+					]
+				}
+			},
+			"athos_avatars:rotateY_270": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_270"
+					]
+				}
+			},
+			"athos_avatars:rotateY_315": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateY"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateY_315"
+					]
+				}
+			},
+			"athos_avatars:rotateZ": {
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_0": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_0"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_45": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_45"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_90": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_90"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_135": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_135"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_180": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_180"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_225": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_225"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_270": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_270"
+					]
+				}
+			},
+			"athos_avatars:rotateZ_315": {
+				"remove": {
+					"component_groups": [
+						"athos_avatars:rotateZ"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_avatars:rotateZ_315"
+					]
+				}
+			},
+			"athos_avatars:rotateAlign": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~ ~ 0 ~"
+					]
+				}
+			},
+			"athos_avatars:positionX": {
+				"run_command": {
+					"command": [
+						"tp @s ~0.05 ~ ~"
+					]
+				}
+			},
+			"athos_avatars:positionXM": {
+				"run_command": {
+					"command": [
+						"tp @s ~-0.05 ~ ~"
+					]
+				}
+			},
+			"athos_avatars:positionY": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~0.05 ~"
+					]
+				}
+			},
+			"athos_avatars:positionYM": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~-0.05 ~"
+					]
+				}
+			},
+			"athos_avatars:positionZ": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~ ~0.05"
+					]
+				}
+			},
+			"athos_avatars:positionZM": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~ ~-0.05"
+					]
+				}
+			}
+		}
+	}
+}

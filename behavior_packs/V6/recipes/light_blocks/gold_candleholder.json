@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:gold_candleholder"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"B",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:gold_candleholder",
+			"count": 1
+		}
+	}
+}

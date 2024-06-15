@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.copper_golem": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "alive": "query.is_sitting && query.variant != 3"
+                        }
+                    ]
+                },
+                "alive": {
+                    "on_entry": [
+                        "/tag @s add copper_golem_sitting",
+                        "/event entity @s athos_golem:sitting_button_press"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.is_sitting && query.variant != 3"
+                        }
+                    ],
+                    "on_exit": [
+                        "/tag @s remove copper_golem_sitting",
+                        "/playanimation @s animation.copper_golem.sit2",
+                        "/event entity @s athos_golem:sitting_button_press2"
+                    ]
+                }
+            }
+        }
+    }
+}

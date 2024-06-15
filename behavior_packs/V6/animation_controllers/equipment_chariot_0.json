@@ -1,0 +1,130 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.equipment_chariot_0": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"add_barrel_apple": "q.is_item_name_any('slot.inventory',2,'minecraft:apple')"
+						},
+						{
+							"add_barrel_golden_apple": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_apple')"
+						},
+						{
+							"add_barrel_bamboo": "q.is_item_name_any('slot.inventory',2,'minecraft:bamboo')"
+						},
+						{
+							"add_barrel_beetroot": "q.is_item_name_any('slot.inventory',2,'minecraft:beetroot')"
+						},
+						{
+							"add_barrel_cod": "q.is_item_name_any('slot.inventory',2,'minecraft:cod')"
+						},
+						{
+							"add_barrel_salmon": "q.is_item_name_any('slot.inventory',2,'minecraft:salmon')"
+						},
+						{
+							"add_barrel_potato": "q.is_item_name_any('slot.inventory',2,'minecraft:potato')"
+						},
+						{
+							"add_barrel_carrot": "q.is_item_name_any('slot.inventory',2,'minecraft:carrot')"
+						},
+						{
+							"no_equipment": "!q.is_item_name_any('slot.inventory',2,'minecraft:apple','minecraft:bamboo')"
+						}
+					]
+				},
+				"add_barrel_apple": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_apple"
+					]
+				},
+				"add_barrel_golden_apple": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_golden_apple"
+					]
+				},
+				"add_barrel_bamboo": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_bamboo"
+					]
+				},
+				"add_barrel_beetroot": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_beetroot"
+					]
+				},
+				"add_barrel_cod": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_cod"
+					]
+				},
+				"add_barrel_salmon": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_salmon"
+					]
+				},
+				"add_barrel_potato": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_potato"
+					]
+				},
+				"add_barrel_carrot": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel_carrot"
+					]
+				},
+				"no_equipment": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:no_equipment"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_sculk_pit"
+    },
+    "features": [
+      [ "nicothekid:structure_x_sculk_pit_01", 100 ]
+    ]
+  }
+}

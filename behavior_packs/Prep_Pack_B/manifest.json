@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["AthosCraft"]
+	},
+	"header": {
+		"description": "Pack By §6AthosCraft§r | World Preparation Files | Visit §9www.athoscraft.com§r",
+		"name": "§aPrep Pack§r v1.0",
+		"uuid": "6dbf0b33-d0c6-4090-8004-331fe3e16622",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "0c6583cf-d9b2-4c54-b048-e4f050628292",
+		"version": [1, 0, 0]
+	}]
+}

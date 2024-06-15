@@ -1,0 +1,100 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_fossil_large_x_surface",
+      "places_feature": "nicothekid:structure_weight_x_fossil_large"
+    },
+    "conditions": {
+      "placement_pass": "before_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "extreme_hills"
+            },
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "forest"
+                },
+                {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "taiga"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jagged_peaks"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "frozen_peaks"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "desert"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mesa"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "savanna"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mooshroom_island"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "beach"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.05,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz) + -3",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      }
+    }
+  }
+}

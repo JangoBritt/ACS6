@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:stripped_bamboo_pendulum_clock_item",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.bamboo"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "m.stripped_bamboo_pendulum_clock_item"
+			},
+			"minecraft:display_name": {
+				"value": "item.medieval:stripped_bamboo_clock_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:stripped_bamboo_pendulum_clock",
+				"use_block_description": true
+			}
+		}
+	}
+}

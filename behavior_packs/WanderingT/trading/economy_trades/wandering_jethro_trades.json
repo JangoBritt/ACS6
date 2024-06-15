@@ -1,0 +1,344 @@
+{
+	"tiers": [
+		{
+			"groups": [
+
+				{ //Jethro Llamasbane
+					"num_to_select": 5,
+					"trades": [
+						{"max_uses":3,"wants":[{"item":"fmh:trader_llama_llama_gray_item","quantity":1}],"gives":[{"item":"minecraft:emerald","quantity":{"min":1,"max":2}}]},
+						{"max_uses":3,"wants":[{"item":"fmh:trader_llama_llama_brown_item","quantity":1}],"gives":[{"item":"minecraft:emerald","quantity":{"min":1,"max":2}}]},
+						{"max_uses":3,"wants":[{"item":"fmh:trader_llama_llama_creamy_item","quantity":1}],"gives":[{"item":"minecraft:emerald","quantity":{"min":1,"max":2}}]},
+						{"max_uses":3,"wants":[{"item":"fmh:trader_llama_llama_white_item","quantity":1}],"gives":[{"item":"minecraft:emerald","quantity":{"min":1,"max":2}}]},
+						{"max_uses":1,"wants":[{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "minecraft:saddle","quantity": 1}]}
+					]
+				},
+				{ //ACS Player Heads, Uniques, Paintings, Lanterns
+					"num_to_select": 4,
+					"trades": [
+						//Paintings
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_s3","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_s4","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_painting:painting_s5","quantity": 1}]},
+						//Seasonal
+						//Lanterns
+						//Player Heads
+						//Specials
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:eagle_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:hedgehog_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:mouse_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:owl_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:parrot_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:penguin_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:pigeon_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:snail_item","quantity": 1}]},
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:sunflower_item","quantity": 1}]}
+					]
+				},
+				{ //ACS5 Economy Purchases - Stones
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:0",
+									"quantity": 64
+								},
+								{
+									"item": "minecraft:stone:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:cobblestone",
+									"quantity": 64
+								},
+								{
+									"item": "minecraft:cobblestone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Stones
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:1",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:3",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:stone:5",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Softs
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:dirt:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:gravel",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:sand:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:sandstone:0",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Deep
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:tuff",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:cobbled_deepslate",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:deepslate",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{ //ACS5 Economy Purchases - Nether
+					"num_to_select": 1,
+					"trades": [
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:blackstone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:netherrack",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "minecraft:end_stone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "athos_currency:coin",
+									"quantity": {
+										"min": 5,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

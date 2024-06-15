@@ -1,0 +1,265 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_potato_chariot_0",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "food",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "potato6",
+					"parent": "food",
+					"pivot": [-2.5, 11.075, 1.925],
+					"rotation": [17.1097, 3.7317, -11.9384],
+					"cubes": [
+						{
+							"origin": [-2.35927, 20.9866, 10.11161],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato5",
+					"parent": "food",
+					"pivot": [-1, 18.5, 3.25],
+					"rotation": [-114.7255, 17.3564, 170.7517],
+					"cubes": [
+						{
+							"origin": [-7.88914, 28.10805, 11.20394],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato4",
+					"parent": "food",
+					"pivot": [3, 19.5, -2],
+					"rotation": [55.5817, -50.9321, -8.455],
+					"cubes": [
+						{
+							"origin": [7.32479, 23.65953, 8.76526],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato3",
+					"parent": "food",
+					"pivot": [-2.25, 18, -2.25],
+					"rotation": [27.4161, 1.2988, -7.3873],
+					"cubes": [
+						{
+							"origin": [-2.98052, 25.96232, 7.85042],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato2",
+					"parent": "food",
+					"pivot": [2.5, 14.5, 1.45],
+					"rotation": [10.183, -88.762, 58.0815],
+					"cubes": [
+						{
+							"origin": [6.72328, 18.02862, 12.52948],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato",
+					"parent": "food",
+					"pivot": [-2, 12.75, -1.5],
+					"rotation": [59.1341, -6.9067, 5.0285],
+					"cubes": [
+						{
+							"origin": [-4.96346, 12.31514, 11.97227],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "food2",
+					"pivot": [0, 0, 16.5]
+				},
+				{
+					"name": "potato7",
+					"parent": "food2",
+					"pivot": [-2.5, 11.075, 18.425],
+					"rotation": [17.1097, 3.7317, -11.9384],
+					"cubes": [
+						{
+							"origin": [-2.35927, 20.9866, 26.61161],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato8",
+					"parent": "food2",
+					"pivot": [-1, 18.5, 19.75],
+					"rotation": [-114.7255, 17.3564, 170.7517],
+					"cubes": [
+						{
+							"origin": [-7.88914, 28.10805, 27.70394],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato9",
+					"parent": "food2",
+					"pivot": [3, 19.5, 14.5],
+					"rotation": [55.5817, -50.9321, -8.455],
+					"cubes": [
+						{
+							"origin": [7.32479, 23.65953, 25.26526],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato10",
+					"parent": "food2",
+					"pivot": [-2.25, 18, 14.25],
+					"rotation": [27.4161, 1.2988, -7.3873],
+					"cubes": [
+						{
+							"origin": [-2.98052, 25.96232, 24.35042],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato11",
+					"parent": "food2",
+					"pivot": [2.5, 14.5, 17.95],
+					"rotation": [10.183, -88.762, 58.0815],
+					"cubes": [
+						{
+							"origin": [6.72328, 18.02862, 29.02948],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				},
+				{
+					"name": "potato12",
+					"parent": "food2",
+					"pivot": [-2, 12.75, 15],
+					"rotation": [59.1341, -6.9067, 5.0285],
+					"cubes": [
+						{
+							"origin": [-4.96346, 12.31514, 28.47227],
+							"size": [5, 4, 6],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [10, 8], "material_instance": "potato"},
+								"east": {"uv": [8, 20], "uv_size": [12, -8], "material_instance": "potato"},
+								"south": {"uv": [8, 8], "uv_size": [10, 8], "material_instance": "potato"},
+								"west": {"uv": [18, 12], "uv_size": [-10, 8], "material_instance": "potato"},
+								"up": {"uv": [18, 20], "uv_size": [-10, -12], "material_instance": "potato"},
+								"down": {"uv": [24, 24], "uv_size": [-10, -12], "material_instance": "potato"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

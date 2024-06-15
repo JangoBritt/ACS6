@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ruin_column"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ruin_column_01", 100 ],
+      [ "nicothekid:structure_x_ruin_column_02", 100 ],
+      [ "nicothekid:structure_x_ruin_column_03", 100 ],
+      [ "nicothekid:structure_x_ruin_column_04", 100 ],
+      [ "nicothekid:structure_x_ruin_column_05", 100 ],
+      [ "nicothekid:structure_x_ruin_column_06", 100 ]
+    ]
+  }
+}

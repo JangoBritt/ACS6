@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.barrel_chariot_0": {
+			"part_visibility": [
+				{ "top": "query.is_baby && query.skin_id == 0" }
+			],
+			"geometry": "Geometry.barrel",
+			"materials": [
+				{ "*": "Material.texture_alpha" }
+			],
+			"textures": [
+				"Texture.barrel"
+			]
+		}
+	}
+}

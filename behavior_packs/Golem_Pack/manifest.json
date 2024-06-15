@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["AthosCraft"]
+	},
+	"header": {
+		"description": "Pack By §6AthosCraft§r | Copper & Tuff Golems | §cExperimental Required§r | Visit §9www.athoscraft.com§r",
+		"name": "§aGolem Pack§r v6.0.1 [B]",
+		"uuid": "25f31836-beb8-4f79-85f1-b3377e01ff07",
+		"version": [6, 0, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "75442c59-17b5-457a-8f2e-609c5befe1d8",
+		"version": [6, 0, 1]
+	}],
+	"dependencies": [{
+		"uuid": "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09",
+		"version": [6, 0, 1]
+	}]
+}

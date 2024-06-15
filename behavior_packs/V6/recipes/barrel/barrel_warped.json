@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_barrel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			"BCB",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:warped_slab",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:warped_planks"
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:warped_barrel",
+			"count": 1
+		}
+	}
+}

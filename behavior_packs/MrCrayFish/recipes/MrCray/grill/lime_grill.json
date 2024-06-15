@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:lime_grill_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"I I",
+			"I I"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:lime_terracotta"
+			},
+			"A": {
+				"item": "minecraft:iron_bars"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:lime_terracotta"},
+			{"item": "minecraft:iron_bars"},
+			{"item": "minecraft:iron_ingot"}
+		],
+		"result": {
+			"item": "mr:lime_grill_mr",
+			"count": 1
+		}
+	}
+}

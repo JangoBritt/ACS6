@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_oak_bridge"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AAA",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:planks",
+				"data": 0
+			},
+			"A": {
+				"item": "medieval:stripped_oak_post"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_oak_bridge",
+			"count": 2
+		}
+	}
+}

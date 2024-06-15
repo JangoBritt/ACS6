@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pink_carpet_diamond_pattern"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:carpet",
+				"data": 6
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:pink_carpet_diamond_pattern",
+			"count": 1
+		}
+	}
+}

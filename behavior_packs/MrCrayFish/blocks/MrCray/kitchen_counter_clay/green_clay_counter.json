@@ -1,0 +1,80 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:green_clay_counter_mr",
+			"menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.mrClayCounter",
+                "is_hidden_in_commands": false
+            },
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"mr:r": [1,0],
+				"mr:l": [1,0],
+				"mr:fr": [0,1],
+				"mr:fl": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"tag:mr.counter_n": {}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"tag:mr.counter_s": {}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"tag:mr.counter_w": {}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"tag:mr.counter_e": {}}}
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.mr.counter",
+				"bone_visibility": {
+					"n": "q.block_state('minecraft:cardinal_direction') == 'north'",
+					"right_n": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:r') == 1",
+					"left_n": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:l') == 1",
+					"front_n": "q.block_state('minecraft:cardinal_direction') == 'north' && (q.block_state('mr:fr') == 1 || q.block_state('mr:fl') == 1)",
+					"fr_n": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:fr') == 1",
+					"fl_n": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:fl') == 1",
+					"s": "q.block_state('minecraft:cardinal_direction') == 'south'",
+					"right_s": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:r') == 1",
+					"left_s": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:l') == 1",
+					"front_s": "q.block_state('minecraft:cardinal_direction') == 'south' && (q.block_state('mr:fr') == 1 || q.block_state('mr:fl') == 1)",
+					"fr_s": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:fr') == 1",
+					"fl_s": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:fl') == 1",
+					"w": "q.block_state('minecraft:cardinal_direction') == 'west'",
+					"right_w": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:r') == 1",
+					"left_w": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:l') == 1",
+					"front_w": "q.block_state('minecraft:cardinal_direction') == 'west' && (q.block_state('mr:fr') == 1 || q.block_state('mr:fl') == 1)",
+					"fr_w": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:fr') == 1",
+					"fl_w": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:fl') == 1",
+					"e": "q.block_state('minecraft:cardinal_direction') == 'east'",
+					"right_e": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:r') == 1",
+					"left_e": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:l') == 1",
+					"front_e": "q.block_state('minecraft:cardinal_direction') == 'east' && (q.block_state('mr:fr') == 1 || q.block_state('mr:fl') == 1)",
+					"fr_e": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:fr') == 1",
+					"fl_e": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:fl') == 1"
+				}
+			},
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {"*": {"texture": "mr.clay_green","render_method": "opaque"},"counter": {"texture": "mr.concrete_white","render_method": "opaque"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
+			"minecraft:light_dampening": 1,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"update": {
+				"sequence": [
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(0,0,1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_s')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(1,0,0,'mr.counter_n'))","set_block_state": {"mr:r": 0}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(0,0,1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_s')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(1,0,0,'mr.counter_n'))","set_block_state": {"mr:r": 1}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(0,0,1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_n')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(1,0,0,'mr.counter_s'))","set_block_state": {"mr:l": 0}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(0,0,1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_n')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(1,0,0,'mr.counter_s'))","set_block_state": {"mr:l": 1}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(0,0,1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(1,0,0,'mr.counter_s')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_n'))","set_block_state": {"mr:fl": 1}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(0,0,1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(1,0,0,'mr.counter_s')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_n'))","set_block_state": {"mr:fl": 0}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(0,0,1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(1,0,0,'mr.counter_n')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_s'))","set_block_state": {"mr:fr": 1}},
+					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(0,0,1,'mr.counter_e')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(0,0,-1,'mr.counter_w')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(1,0,0,'mr.counter_n')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(-1,0,0,'mr.counter_s'))","set_block_state": {"mr:fr": 0}}
+				]
+			}
+		}
+	}
+}

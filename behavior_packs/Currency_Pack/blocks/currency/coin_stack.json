@@ -1,0 +1,111 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "athos_currency:coin_stack",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.currency"
+			},
+			"properties": {
+				"athos_currency:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/currency/coin_stack.json",
+			"minecraft:geometry": "geometry.coin_stack",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "coin_stack",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-6
+				],
+				"size": [
+					8,
+					7,
+					8
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-4,
+					0,
+					-6
+				],
+				"size": [
+					8,
+					7,
+					8
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0.1,
+			"minecraft:on_player_placing": {
+				"event": "athos_currency:update_rotation"
+			}
+		},
+		"events": {
+			"athos_currency:update_rotation": {
+				"set_block_property": {
+					"athos_currency:block_rotation": "query.cardinal_facing_2d"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('athos_currency:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('athos_currency:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('athos_currency:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('athos_currency:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		]
+	}
+}

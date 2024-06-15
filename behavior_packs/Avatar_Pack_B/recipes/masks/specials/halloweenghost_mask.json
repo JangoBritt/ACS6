@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "athos_avatars:halloweenghost_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "athos_avatars:halloweenghost_head_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_avatars:halloweenghost_head_item"}
+		],
+		"result": [
+			{
+				"item": "athos_avatars:halloweenghost_mask",
+				"count": 1
+			}
+		]
+	}
+}

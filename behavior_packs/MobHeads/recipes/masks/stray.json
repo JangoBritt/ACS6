@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fmh:stray_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "fmh:stray_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "fmh:stray_item"}
+		],
+		"result": [
+			{
+				"item": "fmh:stray_mask",
+				"count": 1
+			}
+		]
+	}
+}

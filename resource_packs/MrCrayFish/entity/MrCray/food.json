@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mr:food_mr",
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"geometry": {
+				"default": "geometry.mr.food"
+			},
+			"textures": {
+				"kelp": "textures/MrCray/items/kelp",
+				"cod": "textures/MrCray/items/fish_raw",
+				"potato": "textures/MrCray/items/potato",
+				"porkchop": "textures/MrCray/items/porkchop_raw",
+				"beef": "textures/MrCray/items/beef_raw",
+				"chicken": "textures/MrCray/items/chicken_raw",
+				"mutton": "textures/MrCray/items/mutton_raw",
+				"rabbit": "textures/MrCray/items/rabbit_raw",
+				"salmon": "textures/MrCray/items/fish_salmon_raw",
+
+				"kelp_cooked": "textures/MrCray/items/dried_kelp",
+				"cod_cooked": "textures/MrCray/items/fish_cooked",
+				"potato_cooked": "textures/MrCray/items/potato_baked",
+				"porkchop_cooked": "textures/MrCray/items/porkchop_cooked",
+				"beef_cooked": "textures/MrCray/items/beef_cooked",
+				"chicken_cooked": "textures/MrCray/items/chicken_cooked",
+				"mutton_cooked": "textures/MrCray/items/mutton_cooked",
+				"rabbit_cooked": "textures/MrCray/items/rabbit_cooked",
+				"salmon_cooked": "textures/MrCray/items/fish_salmon_cooked"
+			},
+			"render_controllers": [
+				"controller.render.mr.food"
+			],
+			"particle_effects": {
+				"smoke": "mr:smoke_particle_mr",
+				"fire": "mr:fire_mr"
+			},
+			"animations": {
+				"particle_smoke": "animation.mr.food.particle",
+				"particle_fire": "animation.mr.food.fire"
+			},
+			"scripts": {
+				"animate": [
+					{"particle_smoke": "q.property('mr:cooked')"},
+					"particle_fire"
+				]
+			}
+		}
+	}
+}

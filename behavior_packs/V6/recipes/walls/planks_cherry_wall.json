@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_planks_wall_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_planks",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cherry_planks_wall_0",
+			"count": 12
+		}
+	}
+}

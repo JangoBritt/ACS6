@@ -1,0 +1,31 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:darkoak_planks_chair0"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"  A",
+		"###",
+		"A A"
+	],
+	"key": {
+	  "#": {
+	    "item": "minecraft:planks",
+	"data": 5
+	  },
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:darkoak_book"}
+	],
+    "result": {
+      "item": "medieval:darkoak_planks_chair0",
+	  "count": 3
+    }
+  }
+}

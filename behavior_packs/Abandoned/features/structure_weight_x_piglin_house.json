@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_piglin_house"
+    },
+    "features": [
+      [ "nicothekid:structure_x_piglin_house_01", 1 ],
+      [ "nicothekid:structure_x_piglin_house_02", 1 ],
+      [ "nicothekid:structure_x_piglin_house_03", 1 ]
+    ]
+  }
+}

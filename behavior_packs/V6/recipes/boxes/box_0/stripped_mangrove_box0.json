@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_box0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:stripped_mangrove_post"
+			},
+			"B": {
+				"item": "medieval:stripped_mangrove_beam_double"
+			},
+			"C": {
+				"item": "minecraft:mangrove_planks",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:stripped_mangrove_box0",
+			"count": 2
+		}
+	}
+}

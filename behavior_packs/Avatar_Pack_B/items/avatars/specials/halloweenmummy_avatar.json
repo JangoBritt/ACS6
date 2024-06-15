@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:halloweenmummy_avatar_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "halloweenmummy_avatar_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:halloweenmummy_avatar"
+			}
+		}
+	}
+}

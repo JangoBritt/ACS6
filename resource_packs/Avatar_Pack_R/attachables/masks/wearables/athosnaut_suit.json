@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "athos_avatars:athosnaut_suit",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/avatars/wearables/athosnaut/athosnaut_suit",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				//"default": "geometry.athos_avatars.humanoid_default"
+				"default": "geometry.villager_robe"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

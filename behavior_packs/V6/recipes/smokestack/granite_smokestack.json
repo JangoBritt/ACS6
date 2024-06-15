@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "medieval:granite_smokestack"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:stone",
+				"data": 1
+			}
+		],
+		"result": {
+			"item": "medieval:granite_smokestack",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_wood_cupboard"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 4
+			},
+			"B": {
+				"item": "medieval:acacia_wood_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:acacia_wood_cupboard",
+			"count": 1
+		}
+	}
+}

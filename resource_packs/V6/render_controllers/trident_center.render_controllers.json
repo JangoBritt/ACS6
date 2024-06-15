@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.trident_center": {
+      "geometry": "Geometry.trident_center",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Texture.weapon_trident"
+      ]
+    }
+  }
+}

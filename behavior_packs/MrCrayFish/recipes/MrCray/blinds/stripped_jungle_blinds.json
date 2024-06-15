@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_jungle_blinds_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_jungle_log"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_jungle_log"},
+			{"item": "minecraft:stick"}
+		],
+		"result": {
+			"item": "mr:stripped_jungle_blinds_mr",
+			"count": 2
+		}
+	}
+}

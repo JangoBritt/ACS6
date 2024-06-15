@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.axe_left": {
+      "arrays": {
+        "textures": {
+          "Array.axe_left": [
+          	"Texture.no_texture",
+            "Texture.weapon_axe_wood",
+            "Texture.weapon_axe_stone",
+            "Texture.weapon_axe_iron",
+            "Texture.weapon_axe_gold",
+            "Texture.weapon_axe_diamond",
+            "Texture.weapon_axe_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.axe_left",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.axe_left[query.variant-6]"
+      ]
+    }
+  }
+}

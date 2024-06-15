@@ -1,0 +1,158 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "nicothekid:block_x_structure_ancient_castle_x_singleblock"
+    },
+    "places_block": "nicothekid:structure_ancient_castle",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      {
+        "tags": "query.any_tag('custom_carpet')"
+      },
+      {
+        "tags": "query.any_tag('custom_crops')"
+      },
+      {
+        "tags": "query.any_tag('custom_flower')"
+      },
+      {
+        "tags": "query.any_tag('custom_fungus')"
+      },
+      {
+        "tags": "query.any_tag('custom_grass')"
+      },
+      {
+        "tags": "query.any_tag('custom_plant')"
+      },
+      {
+        "tags": "query.any_tag('custom_sapling')"
+      },
+      {
+        "tags": "query.any_tag('custom_sprouts')"
+      },
+      "minecraft:air",
+      "minecraft:azalea",
+      "minecraft:big_dripleaf",
+      "minecraft:brown_mushroom",
+      "minecraft:cave_vines",
+      "minecraft:crimson_fungus",
+      "minecraft:crimson_roots",
+      "minecraft:deadbush",
+      "minecraft:double_plant",
+      "minecraft:fire",
+      "minecraft:flowering_azalea",
+      "minecraft:flowing_water",
+      "minecraft:glow_lichen",
+      "minecraft:kelp",
+      "minecraft:moss_carpet",
+      "minecraft:nether_sprouts",
+      "minecraft:pink_petals",
+      "minecraft:red_mushroom",
+      "minecraft:sculk_vein",
+      "minecraft:seagrass",
+      "minecraft:small_dripleaf_block",
+      "minecraft:snow_layer",
+      "minecraft:soul_fire",
+      "minecraft:tallgrass",
+      "minecraft:twisting_vines",
+      "minecraft:vine",
+      "minecraft:warped_fungus",
+      "minecraft:warped_roots",
+      "minecraft:water",
+      "minecraft:web",
+      "minecraft:weeping_vines"
+    ],
+    "may_attach_to": {
+			"bottom": [
+			  {
+          "tags": "query.any_tag('custom_dirt')"
+        },
+        {
+          "tags": "query.any_tag('custom_netherrack')"
+        },
+        {
+          "tags": "query.any_tag('custom_ore')"
+        },
+        {
+          "tags": "query.any_tag('custom_stone')"
+        },
+        {
+          "tags": "query.any_tag('grassed_stones')"
+        },
+        {
+          "tags": "query.any_tag('mossed_stones')"
+        },
+        {
+          "tags": "query.any_tag('myceliumed_stones')"
+        },
+				"minecraft:andesite",
+				"minecraft:basalt",
+				"minecraft:black_terracotta",
+				"minecraft:blackstone",
+				"minecraft:brown_terracotta",
+				"minecraft:calcite",
+				"minecraft:clay",
+				"minecraft:coal_ore",
+				"minecraft:cobbled_deepslate",
+				"minecraft:cobblestone",
+				"minecraft:crimson_nylium",
+				"minecraft:cyan_terracotta",
+				"minecraft:deepslate",
+				"minecraft:deepslate_coal_ore",
+				"minecraft:deepslate_copper_ore",
+				"minecraft:deepslate_diamond_ore",
+				"minecraft:deepslate_emerald_ore",
+				"minecraft:deepslate_gold_ore",
+				"minecraft:deepslate_iron_ore",
+				"minecraft:deepslate_lapis_ore",
+				"minecraft:deepslate_redstone_ore",
+				"minecraft:diamond_ore",
+				"minecraft:diorite",
+				"minecraft:dirt",
+				"minecraft:dirt_with_roots",
+				"minecraft:dripstone_block",
+				"minecraft:emerald_ore",
+				"minecraft:gold_ore",
+				"minecraft:granite",
+				"minecraft:grass_block",
+				"minecraft:gravel",
+				"minecraft:gray_terracotta",
+				"minecraft:green_terracotta",
+				"minecraft:hardened_clay",
+				"minecraft:iron_ore",
+				"minecraft:lapis_ore",
+				"minecraft:light_blue_terracotta",
+				"minecraft:light_gray_terracotta",
+				"minecraft:lime_terracotta",
+				"minecraft:lit_deepslate_redstone_ore",
+				"minecraft:lit_redstone_ore",
+				"minecraft:magenta_terracotta",
+				"minecraft:magma",
+				"minecraft:moss_block",
+				"minecraft:mossy_cobblestone",
+				"minecraft:mud",
+				"minecraft:mycelium",
+				"minecraft:nether_gold_ore",
+				"minecraft:netherrack",
+				"minecraft:obsidian",
+				"minecraft:orange_terracotta",
+				"minecraft:pink_terracotta",
+				"minecraft:podzol",
+				"minecraft:purple_terracotta",
+				"minecraft:quartz_ore",
+				"minecraft:red_sandstone",
+				"minecraft:red_terracotta", 
+				"minecraft:redstone_ore",
+				"minecraft:sandstone",
+				"minecraft:sculk",
+				"minecraft:stone",
+				"minecraft:tuff",
+				"minecraft:warped_nylium",
+				"minecraft:white_terracotta",
+				"minecraft:yellow_terracotta"
+			]
+		}
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:blue_clay_drawer_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blue_terracotta"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:blue_terracotta"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:chest"}
+		],
+		"result": {
+			"item": "mr:blue_clay_drawer_mr",
+			"count": 4
+		}
+	}
+}

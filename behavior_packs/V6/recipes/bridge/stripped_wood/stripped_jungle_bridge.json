@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_jungle_bridge"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AAA",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:planks",
+				"data": 3
+			},
+			"A": {
+				"item": "medieval:stripped_jungle_post"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_jungle_bridge",
+			"count": 2
+		}
+	}
+}

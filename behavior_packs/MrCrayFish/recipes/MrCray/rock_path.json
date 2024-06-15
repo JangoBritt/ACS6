@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:rock_path_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A",
+			"A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stone"
+			},
+			"A": {
+				"item": "minecraft:andesite"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stone"},
+			{"item": "minecraft:andesite"}
+		],
+		"result": {
+			"item": "mr:rock_path_mr",
+			"count": 16
+		}
+	}
+}

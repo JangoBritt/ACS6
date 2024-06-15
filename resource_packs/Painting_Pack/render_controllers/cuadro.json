@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.cuadro": {
+			"geometry": "geometry.cuadro",
+			"filter_lighting": true,
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"query.property('athos_painting:paint')==1?texture.cuadro1:0"
+			]
+		},
+		"controller.render.cuadro_glow": {
+			"geometry": "geometry.cuadro",
+			"filter_lighting": true,
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"query.property('athos_painting:paint')==1?texture.cuadro1:0"
+			],
+			"ignore_lighting": true
+		}
+	}
+}

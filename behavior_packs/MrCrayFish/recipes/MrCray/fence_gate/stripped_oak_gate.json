@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_oak_gate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_oak_log"
+			},
+			"A": {
+				"item": "minecraft:fence_gate"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_oak_log"},
+			{"item": "minecraft:fence_gate"}
+		],
+		"result": {
+			"item": "mr:stripped_oak_gate_mr",
+			"count": 2
+		}
+	}
+}

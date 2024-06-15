@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_easel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			},
+			"S": {
+				"item": "medieval:stripped_mangrove_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:mangrove_easel",
+			"count": 1
+		}
+	}
+}

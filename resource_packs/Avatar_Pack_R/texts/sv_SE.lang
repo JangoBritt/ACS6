@@ -1,0 +1,684 @@
+## Members:
+
+action.hint.exit.athos_avatars:arsey_rc_head=Jump to Exit
+entity.athos_avatars:arsey_rc_avatar.name=Arsey's Avatar
+entity.athos_avatars:arsey_rc_head.name=Arsey's Head
+item.athos_avatars:arsey_rc_avatar_item=Arsey's Avatar
+item.athos_avatars:arsey_rc_head_item=Arsey's Head
+item.athos_avatars:arsey_rc_mask=Arsey's Mask
+
+action.hint.exit.athos_avatars:atlaskes_head=Jump to Exit
+entity.athos_avatars:atlaskes_avatar.name=Atlaskes's Avatar
+entity.athos_avatars:atlaskes_head.name=Atlaskes's Head
+item.athos_avatars:atlaskes_avatar_item=Atlaskes's Avatar
+item.athos_avatars:atlaskes_head_item=Atlaskes's Head
+item.athos_avatars:atlaskes_mask=Atlaskes's Mask
+
+action.hint.exit.athos_avatars:bigdog184382_head=Jump to Exit
+entity.athos_avatars:bigdog184382_avatar.name=Bigdog's Avatar
+entity.athos_avatars:bigdog184382_head.name=Bigdog's Head
+item.athos_avatars:bigdog184382_avatar_item=Bigdog's Avatar
+item.athos_avatars:bigdog184382_head_item=Bigdog's Head
+item.athos_avatars:bigdog184382_mask=Bigdog's Mask
+
+action.hint.exit.athos_avatars:calico_jacque_head=Jump to Exit
+entity.athos_avatars:calico_jacque_avatar.name=Calico Jacque's Avatar
+entity.athos_avatars:calico_jacque_head.name=Calico Jacque's Head
+item.athos_avatars:calico_jacque_avatar_item=Calico Jacque's Avatar
+item.athos_avatars:calico_jacque_head_item=Calico Jacque's Head
+item.athos_avatars:calico_jacque_mask=Calico Jacque's Mask
+
+action.hint.exit.athos_avatars:cdn_hambone_head=Jump to Exit
+entity.athos_avatars:cdn_hambone_avatar.name=Hambone's Avatar
+entity.athos_avatars:cdn_hambone_head.name=Hambone's Head
+item.athos_avatars:cdn_hambone_avatar_item=Hambone's Avatar
+item.athos_avatars:cdn_hambone_head_item=Hambone's Head
+item.athos_avatars:cdn_hambone_mask=Hambone's Mask
+
+action.hint.exit.athos_avatars:cragola_head=Jump to Exit
+entity.athos_avatars:cragola_avatar.name=Cragola's Avatar
+entity.athos_avatars:cragola_head.name=Cragola's Head
+item.athos_avatars:cragola_avatar_item=Cragola's Avatar
+item.athos_avatars:cragola_head_item=Cragola's Head
+item.athos_avatars:cragola_mask=Cragola's Mask
+
+action.hint.exit.athos_avatars:damo8030_head=Jump to Exit
+entity.athos_avatars:damo8030_avatar.name=Damo's Avatar
+entity.athos_avatars:damo8030_head.name=Damo's Head
+item.athos_avatars:damo8030_avatar_item=Damo's Avatar
+item.athos_avatars:damo8030_head_item=Damo's Head
+item.athos_avatars:damo8030_mask=Damo's Mask
+
+action.hint.exit.athos_avatars:darth_angelo_head=Jump to Exit
+entity.athos_avatars:darth_angelo_avatar.name=Darth Angelo's Avatar
+entity.athos_avatars:darth_angelo_head.name=Darth Angelo's Head
+item.athos_avatars:darth_angelo_avatar_item=Darth Angelo's Avatar
+item.athos_avatars:darth_angelo_head_item=Darth Angelo's Head
+item.athos_avatars:darth_angelo_mask=Darth Angelo's Mask
+
+action.hint.exit.athos_avatars:dcstar36_head=Jump to Exit
+entity.athos_avatars:dcstar36_avatar.name=Dcstar's Avatar
+entity.athos_avatars:dcstar36_head.name=Dcstar's Head
+item.athos_avatars:dcstar36_avatar_item=Dcstar's Avatar
+item.athos_avatars:dcstar36_head_item=Dcstar's Head
+item.athos_avatars:dcstar36_mask=Dcstar's Mask
+
+action.hint.exit.athos_avatars:diatomicsloth19_head=Jump to Exit
+entity.athos_avatars:diatomicsloth19_avatar.name=DiatomicSloth's Avatar
+entity.athos_avatars:diatomicsloth19_head.name=DiatomicSloth's Head
+item.athos_avatars:diatomicsloth19_avatar_item=DiatomicSloth's Avatar
+item.athos_avatars:diatomicsloth19_head_item=DiatomicSloth's Head
+item.athos_avatars:diatomicsloth19_mask=DiatomicSloth's Mask
+
+action.hint.exit.athos_avatars:dingozero_head=Jump to Exit
+entity.athos_avatars:dingozero_avatar.name=DingoZero's Avatar
+entity.athos_avatars:dingozero_head.name=DingoZero's Head
+item.athos_avatars:dingozero_avatar_item=DingoZero's Avatar
+item.athos_avatars:dingozero_head_item=DingoZero's Head
+item.athos_avatars:dingozero_mask=DingoZero's Mask
+
+action.hint.exit.athos_avatars:empresstitan_head=Jump to Exit
+entity.athos_avatars:empresstitan_avatar.name=EMPRESSTlTAN's Avatar
+entity.athos_avatars:empresstitan_head.name=EMPRESSTlTAN's Head
+item.athos_avatars:empresstitan_avatar_item=EMPRESSTlTAN's Avatar
+item.athos_avatars:empresstitan_head_item=EMPRESSTlTAN's Head
+item.athos_avatars:empresstitan_mask=EMPRESSTlTAN's Mask
+
+action.hint.exit.athos_avatars:firemanking_316_head=Jump to Exit
+entity.athos_avatars:firemanking_316_avatar.name=FiremanKing's Avatar
+entity.athos_avatars:firemanking_316_head.name=FiremanKing's Head
+item.athos_avatars:firemanking_316_avatar_item=FiremanKing's Avatar
+item.athos_avatars:firemanking_316_head_item=FiremanKing's Head
+item.athos_avatars:firemanking_316_mask=FiremanKing's Mask
+
+action.hint.exit.athos_avatars:firststorm5023_head=Jump to Exit
+entity.athos_avatars:firststorm5023_avatar.name=FirstStorm's Avatar
+entity.athos_avatars:firststorm5023_head.name=FirstStorm's Head
+item.athos_avatars:firststorm5023_avatar_item=FirstStorm's Avatar
+item.athos_avatars:firststorm5023_head_item=FirstStorm's Head
+item.athos_avatars:firststorm5023_mask=FirstStorm's Mask
+
+action.hint.exit.athos_avatars:fr0mm1_head=Jump to Exit
+entity.athos_avatars:fr0mm1_avatar.name=Fr0mm1's Avatar
+entity.athos_avatars:fr0mm1_head.name=Fr0mm1's Head
+item.athos_avatars:fr0mm1_avatar_item=Fr0mm1's Avatar
+item.athos_avatars:fr0mm1_head_item=Fr0mm1's Head
+item.athos_avatars:fr0mm1_mask=Fr0mm1's Mask
+
+action.hint.exit.athos_avatars:garthcp_head=Jump to Exit
+entity.athos_avatars:garthcp_avatar.name=garthcp's Avatar
+entity.athos_avatars:garthcp_head.name=garthcp's Head
+item.athos_avatars:garthcp_avatar_item=garthcp's Avatar
+item.athos_avatars:garthcp_head_item=garthcp's Head
+item.athos_avatars:garthcp_mask=garthcp's Mask
+
+action.hint.exit.athos_avatars:hillmanunited_head=Jump to Exit
+entity.athos_avatars:hillmanunited_avatar.name=Hillmanunited 's Avatar
+entity.athos_avatars:hillmanunited_head.name=Hillmanunited 's Head
+item.athos_avatars:hillmanunited_avatar_item=Hillmanunited 's Avatar
+item.athos_avatars:hillmanunited_head_item=Hillmanunited 's Head
+item.athos_avatars:hillmanunited_mask=Hillmanunited's Mask
+
+action.hint.exit.athos_avatars:jangobritt_head=Jump to Exit
+entity.athos_avatars:jangobritt_avatar.name=JangoBritt's Avatar
+entity.athos_avatars:jangobritt_head.name=JangoBritt's Head
+item.athos_avatars:jangobritt_avatar_item=JangoBritt's Avatar
+item.athos_avatars:jangobritt_head_item=JangoBritt's Head
+item.athos_avatars:jangobritt_mask=JangoBritt's Mask
+
+action.hint.exit.athos_avatars:jonahmacd_head=Jump to Exit
+entity.athos_avatars:jonahmacd_avatar.name=JonahMacD's Avatar
+entity.athos_avatars:jonahmacd_head.name=JonahMacD's Head
+item.athos_avatars:jonahmacd_avatar_item=JonahMacD's Avatar
+item.athos_avatars:jonahmacd_head_item=JonahMacD's Head
+item.athos_avatars:jonahmacd_mask=JonahMacD's Mask
+
+action.hint.exit.athos_avatars:kailio_1980_head=Jump to Exit
+entity.athos_avatars:kailio_1980_avatar.name=Kailio's Avatar
+entity.athos_avatars:kailio_1980_head.name=Kailio's Head
+item.athos_avatars:kailio_1980_avatar_item=Kailio's Avatar
+item.athos_avatars:kailio_1980_head_item=Kailio's Head
+item.athos_avatars:kailio_1980_mask=Kailio's Mask
+
+action.hint.exit.athos_avatars:mastatony_head=Jump to Exit
+entity.athos_avatars:mastatony_avatar.name=MastaTony's Avatar
+entity.athos_avatars:mastatony_head.name=MastaTony's Head
+item.athos_avatars:mastatony_avatar_item=MastaTony's Avatar
+item.athos_avatars:mastatony_head_item=MastaTony's Head
+item.athos_avatars:mastatony_mask=MastaTony's Mask
+
+action.hint.exit.athos_avatars:mids128_head=Jump to Exit
+entity.athos_avatars:mids128_avatar.name=Mids's Avatar
+entity.athos_avatars:mids128_head.name=Mids's Head
+item.athos_avatars:mids128_avatar_item=Mids's Avatar
+item.athos_avatars:mids128_head_item=Mids's Head
+item.athos_avatars:mids128_mask=Mids's Mask
+
+action.hint.exit.athos_avatars:mxchlorine_head=Jump to Exit
+entity.athos_avatars:mxchlorine_avatar.name=MxChlorine's Avatar
+entity.athos_avatars:mxchlorine_head.name=MxChlorine's Head
+item.athos_avatars:mxchlorine_avatar_item=MxChlorine's Avatar
+item.athos_avatars:mxchlorine_head_item=MxChlorine's Head
+item.athos_avatars:mxchlorine_mask=MxChlorine's Mask
+
+action.hint.exit.athos_avatars:ngarvi_head=Jump to Exit
+entity.athos_avatars:ngarvi_avatar.name=Ngarvi's Avatar
+entity.athos_avatars:ngarvi_head.name=Ngarvi's Head
+item.athos_avatars:ngarvi_avatar_item=Ngarvi's Avatar
+item.athos_avatars:ngarvi_head_item=Ngarvi's Head
+item.athos_avatars:ngarvi_mask=Ngarvi's Mask
+
+action.hint.exit.athos_avatars:oldcdngamer_head=Jump to Exit
+entity.athos_avatars:oldcdngamer_avatar.name=OldCdnGamer's Avatar
+entity.athos_avatars:oldcdngamer_head.name=OldCdnGamer's Head
+item.athos_avatars:oldcdngamer_avatar_item=OldCdnGamer's Avatar
+item.athos_avatars:oldcdngamer_head_item=OldCdnGamer's Head
+item.athos_avatars:oldcdngamer_mask=OldCdnGamer's Mask
+
+action.hint.exit.athos_avatars:purplelady1022_head=Jump to Exit
+entity.athos_avatars:purplelady1022_avatar.name=Purplelady's Avatar
+entity.athos_avatars:purplelady1022_head.name=Purplelady's Head
+item.athos_avatars:purplelady1022_avatar_item=Purplelady's Avatar
+item.athos_avatars:purplelady1022_head_item=Purplelady's Head
+item.athos_avatars:purplelady1022_mask=Purplelady's Mask
+
+action.hint.exit.athos_avatars:qwikstreet_head=Jump to Exit
+entity.athos_avatars:qwikstreet_avatar.name=Qwikstreet's Avatar
+entity.athos_avatars:qwikstreet_head.name=Qwikstreet's Head
+item.athos_avatars:qwikstreet_avatar_item=Qwikstreet's Avatar
+item.athos_avatars:qwikstreet_head_item=Qwikstreet's Head
+item.athos_avatars:qwikstreet_mask=Qwikstreet's Mask
+
+action.hint.exit.athos_avatars:raul_del_fuego_head=Jump to Exit
+entity.athos_avatars:raul_del_fuego_avatar.name=Raul Del Fuego's Avatar
+entity.athos_avatars:raul_del_fuego_head.name=Raul Del Fuego's Head
+item.athos_avatars:raul_del_fuego_avatar_item=Raul Del Fuego's Avatar
+item.athos_avatars:raul_del_fuego_head_item=Raul Del Fuego's Head
+item.athos_avatars:raul_del_fuego_mask=Raul Del Fuego's Mask
+
+action.hint.exit.athos_avatars:rezpint_head=Jump to Exit
+entity.athos_avatars:rezpint_avatar.name=Rezpint's Avatar
+entity.athos_avatars:rezpint_head.name=Rezpint's Head
+item.athos_avatars:rezpint_avatar_item=Rezpint's Avatar
+item.athos_avatars:rezpint_head_item=Rezpint's Head
+item.athos_avatars:rezpint_mask=Rezpint's Mask
+
+action.hint.exit.athos_avatars:sgtpreston2684_head=Jump to Exit
+entity.athos_avatars:sgtpreston2684_avatar.name=Preston's Avatar
+entity.athos_avatars:sgtpreston2684_head.name=Preston's Head
+item.athos_avatars:sgtpreston2684_avatar_item=Preston's Avatar
+item.athos_avatars:sgtpreston2684_head_item=Preston's Head
+item.athos_avatars:sgtpreston2684_mask=Preston's Mask
+
+action.hint.exit.athos_avatars:solaryard1998_head=Jump to Exit
+entity.athos_avatars:solaryard1998_avatar.name=SolarYard's Avatar
+entity.athos_avatars:solaryard1998_head.name=SolarYard's Head
+item.athos_avatars:solaryard1998_avatar_item=SolarYard's Avatar
+item.athos_avatars:solaryard1998_head_item=SolarYard's Head
+item.athos_avatars:solaryard1998_mask=SolarYard's Mask
+
+action.hint.exit.athos_avatars:stesko_head=Jump to Exit
+entity.athos_avatars:stesko_avatar.name=Stesko's Avatar
+entity.athos_avatars:stesko_head.name=Stesko's Head
+item.athos_avatars:stesko_avatar_item=Stesko's Avatar
+item.athos_avatars:stesko_head_item=Stesko's Head
+item.athos_avatars:stesko_mask=Stesko's Mask
+
+action.hint.exit.athos_avatars:tcc_segrub_head=Jump to Exit
+entity.athos_avatars:tcc_segrub_avatar.name=Segrub's Avatar
+entity.athos_avatars:tcc_segrub_head.name=Segrub's Head
+item.athos_avatars:tcc_segrub_avatar_item=Segrub's Avatar
+item.athos_avatars:tcc_segrub_head_item=Segrub's Head
+item.athos_avatars:tcc_segrub_mask=Segrub's Mask
+
+action.hint.exit.athos_avatars:tellis042_head=Jump to Exit
+entity.athos_avatars:tellis042_avatar.name=Tellis's Avatar
+entity.athos_avatars:tellis042_head.name=Tellis's Head
+item.athos_avatars:tellis042_avatar_item=Tellis's Avatar
+item.athos_avatars:tellis042_head_item=Tellis's Head
+item.athos_avatars:tellis042_mask=Tellis's Mask
+
+action.hint.exit.athos_avatars:tonystar73_head=Jump to Exit
+entity.athos_avatars:tonystar73_avatar.name=Tonystar73's Avatar
+entity.athos_avatars:tonystar73_head.name=Tonystar73's Head
+item.athos_avatars:tonystar73_avatar_item=Tonystar73's Avatar
+item.athos_avatars:tonystar73_head_item=Tonystar73's Head
+item.athos_avatars:tonystar73_mask=Tonystar73's Mask
+
+action.hint.exit.athos_avatars:vvangowookie_head=Jump to Exit
+entity.athos_avatars:vvangowookie_avatar.name=VVangoWookie's Avatar
+entity.athos_avatars:vvangowookie_head.name=VVangoWookie's Head
+item.athos_avatars:vvangowookie_avatar_item=VVangoWookie's Avatar
+item.athos_avatars:vvangowookie_head_item=VVangoWookie's Head
+item.athos_avatars:vvangowookie_mask=VVangoWookie's Mask
+
+action.hint.exit.athos_avatars:wookieswife12_head=Jump to Exit
+entity.athos_avatars:wookieswife12_avatar.name=Wookieswife's Avatar
+entity.athos_avatars:wookieswife12_head.name=Wookieswife's Head
+item.athos_avatars:wookieswife12_avatar_item=Wookieswife's Avatar
+item.athos_avatars:wookieswife12_head_item=Wookieswife's Head
+item.athos_avatars:wookieswife12_mask=Wookieswife's Mask
+
+action.hint.exit.athos_avatars:xcggamesx_head=Jump to Exit
+entity.athos_avatars:xcggamesx_avatar.name=CGgames's Avatar
+entity.athos_avatars:xcggamesx_head.name=CGgames's Head
+item.athos_avatars:xcggamesx_avatar_item=CGgames's Avatar
+item.athos_avatars:xcggamesx_head_item=CGgames's Head
+item.athos_avatars:xcggamesx_mask=CGgames's Mask
+
+
+
+## Specials:
+
+action.hint.exit.athos_avatars:ahsokatano_head=Jump to Exit
+entity.athos_avatars:ahsokatano_avatar.name=[Athos] Ahsoka Tano's Avatar
+entity.athos_avatars:ahsokatano_head.name=[Athos] Ahsoka Tano's Head
+item.athos_avatars:ahsokatano_avatar_item=[Athos] Ahsoka Tano's Avatar
+item.athos_avatars:ahsokatano_head_item=[Athos] Ahsoka Tano's Head
+item.athos_avatars:ahsokatano_mask=[Athos] Ahsoka Tano's Mask
+
+action.hint.exit.athos_avatars:anakinskywalker_head=Jump to Exit
+entity.athos_avatars:anakinskywalker_avatar.name=[Athos] Anakin Skywalker's Avatar
+entity.athos_avatars:anakinskywalker_head.name=[Athos] Anakin Skywalker's Head
+item.athos_avatars:anakinskywalker_avatar_item=[Athos] Anakin Skywalker's Avatar
+item.athos_avatars:anakinskywalker_head_item=[Athos] Anakin Skywalker's Head
+item.athos_avatars:anakinskywalker_mask=[Athos] Anakin Skywalker's Mask
+
+action.hint.exit.athos_avatars:beetlejuice_head=Jump to Exit
+entity.athos_avatars:beetlejuice_avatar.name=[Athos] Beetlejuice's Avatar
+entity.athos_avatars:beetlejuice_head.name=[Athos] Beetlejuice's Head
+item.athos_avatars:beetlejuice_avatar_item=[Athos] Beetlejuice's Avatar
+item.athos_avatars:beetlejuice_head_item=[Athos] Beetlejuice's Head
+item.athos_avatars:beetlejuice_mask=[Athos] Beetlejuice's Mask
+
+action.hint.exit.athos_avatars:bobafett_head=Jump to Exit
+entity.athos_avatars:bobafett_avatar.name=[Athos] Boba Fett's Avatar
+entity.athos_avatars:bobafett_head.name=[Athos] Boba Fett's Head
+item.athos_avatars:bobafett_avatar_item=[Athos] Boba Fett's Avatar
+item.athos_avatars:bobafett_head_item=[Athos] Boba Fett's Head
+item.athos_avatars:bobafett_mask=[Athos] Boba Fett's Mask
+
+action.hint.exit.athos_avatars:c3po_head=Jump to Exit
+entity.athos_avatars:c3po_avatar.name=[Athos] C3-PO's Avatar
+entity.athos_avatars:c3po_head.name=[Athos] C3-PO's Head
+item.athos_avatars:c3po_avatar_item=[Athos] C3-PO's Avatar
+item.athos_avatars:c3po_head_item=[Athos] C3-PO's Head
+item.athos_avatars:c3po_mask=[Athos] C3-PO's Mask
+
+action.hint.exit.athos_avatars:chewbacca_head=Jump to Exit
+entity.athos_avatars:chewbacca_avatar.name=[Athos] Chewbacca's Avatar
+entity.athos_avatars:chewbacca_head.name=[Athos] Chewbacca's Head
+item.athos_avatars:chewbacca_avatar_item=[Athos] Chewbacca's Avatar
+item.athos_avatars:chewbacca_head_item=[Athos] Chewbacca's Head
+item.athos_avatars:chewbacca_mask=[Athos] Chewbacca's Mask
+
+action.hint.exit.athos_avatars:christmaself_head=Jump to Exit
+entity.athos_avatars:christmaself_avatar.name=[Athos] Christmas Elf's Avatar
+entity.athos_avatars:christmaself_head.name=[Athos] Christmas Elf's Head
+item.athos_avatars:christmaself_avatar_item=[Athos] Christmas Elf's Avatar
+item.athos_avatars:christmaself_head_item=[Athos] Christmas Elf's Head
+item.athos_avatars:christmaself_mask=[Athos] Christmas Elf's Mask
+
+action.hint.exit.athos_avatars:darthvader_head=Jump to Exit
+entity.athos_avatars:darthvader_avatar.name=[Athos] Darth Vader's Avatar
+entity.athos_avatars:darthvader_head.name=[Athos] Darth Vader's Head
+item.athos_avatars:darthvader_avatar_item=[Athos] Darth Vader's Avatar
+item.athos_avatars:darthvader_head_item=[Athos] Darth Vader's Head
+item.athos_avatars:darthvader_mask=[Athos] Darth Vader's Mask
+
+action.hint.exit.athos_avatars:frakensteinmonster_head=Jump to Exit
+entity.athos_avatars:frakensteinmonster_avatar.name=[Athos] Frakenstein Monster's Avatar
+entity.athos_avatars:frakensteinmonster_head.name=[Athos] Frakenstein Monster's Head
+item.athos_avatars:frakensteinmonster_avatar_item=[Athos] Frakenstein Monster's Avatar
+item.athos_avatars:frakensteinmonster_head_item=[Athos] Frakenstein Monster's Head
+item.athos_avatars:frakensteinmonster_mask=[Athos] Frakenstein Monster's Mask
+
+action.hint.exit.athos_avatars:generalackbar_head=Jump to Exit
+entity.athos_avatars:generalackbar_avatar.name=[Athos] General Ackbar's Avatar
+entity.athos_avatars:generalackbar_head.name=[Athos] General Ackbar's Head
+item.athos_avatars:generalackbar_avatar_item=[Athos] General Ackbar's Avatar
+item.athos_avatars:generalackbar_head_item=[Athos] General Ackbar's Head
+item.athos_avatars:generalackbar_mask=[Athos] General Ackbar's Mask
+
+action.hint.exit.athos_avatars:halloweenclown_head=Jump to Exit
+entity.athos_avatars:halloweenclown_avatar.name=[Athos] Halloween Clown's Avatar
+entity.athos_avatars:halloweenclown_head.name=[Athos] Halloween Clown's Head
+item.athos_avatars:halloweenclown_avatar_item=[Athos] Halloween Clown's Avatar
+item.athos_avatars:halloweenclown_head_item=[Athos] Halloween Clown's Head
+item.athos_avatars:halloweenclown_mask=[Athos] Halloween Clown's Mask
+
+action.hint.exit.athos_avatars:halloweenghost_head=Jump to Exit
+entity.athos_avatars:halloweenghost_avatar.name=[Athos] Halloween Ghost's Avatar
+entity.athos_avatars:halloweenghost_head.name=[Athos] Halloween Ghost's Head
+item.athos_avatars:halloweenghost_avatar_item=[Athos] Halloween Ghost's Avatar
+item.athos_avatars:halloweenghost_head_item=[Athos] Halloween Ghost's Head
+item.athos_avatars:halloweenghost_mask=[Athos] Halloween Ghost's Mask
+
+action.hint.exit.athos_avatars:halloweenmummy_head=Jump to Exit
+entity.athos_avatars:halloweenmummy_avatar.name=[Athos] Halloween Mummy's Avatar
+entity.athos_avatars:halloweenmummy_head.name=[Athos] Halloween Mummy's Head
+item.athos_avatars:halloweenmummy_avatar_item=[Athos] Halloween Mummy's Avatar
+item.athos_avatars:halloweenmummy_head_item=[Athos] Halloween Mummy's Head
+item.athos_avatars:halloweenmummy_mask=[Athos] Halloween Mummy's Mask
+
+action.hint.exit.athos_avatars:halloweenscarecrow_head=Jump to Exit
+entity.athos_avatars:halloweenscarecrow_avatar.name=[Athos] Halloween Scarecrow's Avatar
+entity.athos_avatars:halloweenscarecrow_head.name=[Athos] Halloween Scarecrow's Head
+item.athos_avatars:halloweenscarecrow_avatar_item=[Athos] Halloween Scarecrow's Avatar
+item.athos_avatars:halloweenscarecrow_head_item=[Athos] Halloween Scarecrow's Head
+item.athos_avatars:halloweenscarecrow_mask=[Athos] Halloween Scarecrow's Mask
+
+action.hint.exit.athos_avatars:hansolo_head=Jump to Exit
+entity.athos_avatars:hansolo_avatar.name=[Athos] Han Solo's Avatar
+entity.athos_avatars:hansolo_head.name=[Athos] Han Solo's Head
+item.athos_avatars:hansolo_avatar_item=[Athos] Han Solo's Avatar
+item.athos_avatars:hansolo_head_item=[Athos] Han Solo's Head
+item.athos_avatars:hansolo_mask=[Athos] Han Solo's Mask
+
+action.hint.exit.athos_avatars:jabbathehutt_head=Jump to Exit
+entity.athos_avatars:jabbathehutt_head.name=[Athos] Jabba The Hut's Head
+item.athos_avatars:jabbathehutt_head_item=[Athos] Jabba The Hut's Head
+item.athos_avatars:jabbathehutt_mask=[Athos] Jabba The Hut's Mask
+
+action.hint.exit.athos_avatars:jackskellington_head=Jump to Exit
+entity.athos_avatars:jackskellington_avatar.name=[Athos] Jackskellington's Avatar
+entity.athos_avatars:jackskellington_head.name=[Athos] Jackskellington's Head
+item.athos_avatars:jackskellington_avatar_item=[Athos] Jackskellington's Avatar
+item.athos_avatars:jackskellington_head_item=[Athos] Jackskellington's Head
+item.athos_avatars:jackskellington_mask=[Athos] Jackskellington's Mask
+
+action.hint.exit.athos_avatars:kyloren_head=Jump to Exit
+entity.athos_avatars:kyloren_avatar.name=[Athos] Kylo Ren's Avatar
+entity.athos_avatars:kyloren_head.name=[Athos] Kylo Ren's Head
+item.athos_avatars:kyloren_avatar_item=[Athos] Kylo Ren's Avatar
+item.athos_avatars:kyloren_head_item=[Athos] Kylo Ren's Head
+item.athos_avatars:kyloren_mask=[Athos] Kylo Ren's Mask
+
+action.hint.exit.athos_avatars:lukeskywalker_head=Jump to Exit
+entity.athos_avatars:lukeskywalker_avatar.name=[Athos] Luke Skywalker's Avatar
+entity.athos_avatars:lukeskywalker_head.name=[Athos] Luke Skywalker's Head
+item.athos_avatars:lukeskywalker_avatar_item=[Athos] Luke Skywalker's Avatar
+item.athos_avatars:lukeskywalker_head_item=[Athos] Luke Skywalker's Head
+item.athos_avatars:lukeskywalker_mask=[Athos] Luke Skywalker's Mask
+
+action.hint.exit.athos_avatars:mandalorianhelmet_head=Jump to Exit
+entity.athos_avatars:mandalorianhelmet_avatar.name=[Athos] Mandalorian Helmet's Avatar
+entity.athos_avatars:mandalorianhelmet_head.name=[Athos] Mandalorian Helmet's Head
+item.athos_avatars:mandalorianhelmet_avatar_item=[Athos] Mandalorian Helmet's Avatar
+item.athos_avatars:mandalorianhelmet_head_item=[Athos] Mandalorian Helmet's Head
+item.athos_avatars:mandalorianhelmet_mask=[Athos] Mandalorian Helmet's Mask
+
+action.hint.exit.athos_avatars:obiwankenobi_head=Jump to Exit
+entity.athos_avatars:obiwankenobi_avatar.name=[Athos] Obi Wan Kenobi's Avatar
+entity.athos_avatars:obiwankenobi_head.name=[Athos] Obi Wan Kenobi's Head
+item.athos_avatars:obiwankenobi_avatar_item=[Athos] Obi Wan Kenobi's Avatar
+item.athos_avatars:obiwankenobi_head_item=[Athos] Obi Wan Kenobi's Head
+item.athos_avatars:obiwankenobi_mask=[Athos] Obi Wan Kenobi's Mask
+
+action.hint.exit.athos_avatars:oogieboogie_head=Jump to Exit
+entity.athos_avatars:oogieboogie_avatar.name=[Athos] Oogie Boogie's Avatar
+entity.athos_avatars:oogieboogie_head.name=[Athos] Oogie Boogie's Head
+item.athos_avatars:oogieboogie_avatar_item=[Athos] Oogie Boogie's Avatar
+item.athos_avatars:oogieboogie_head_item=[Athos] Oogie Boogie's Head
+item.athos_avatars:oogieboogie_mask=[Athos] Oogie Boogie's Mask
+
+action.hint.exit.athos_avatars:padmeamidala_head=Jump to Exit
+entity.athos_avatars:padmeamidala_avatar.name=[Athos] Padme Amidala's Avatar
+entity.athos_avatars:padmeamidala_head.name=[Athos] Padme Amidala's Head
+item.athos_avatars:padmeamidala_avatar_item=[Athos] Padme Amidala's Avatar
+item.athos_avatars:padmeamidala_head_item=[Athos] Padme Amidala's Head
+item.athos_avatars:padmeamidala_mask=[Athos] Padme Amidala's Mask
+
+action.hint.exit.athos_avatars:princessleia_head=Jump to Exit
+entity.athos_avatars:princessleia_avatar.name=[Athos] Princess Leia's Avatar
+entity.athos_avatars:princessleia_head.name=[Athos] Princess Leia's Head
+item.athos_avatars:princessleia_avatar_item=[Athos] Princess Leia's Avatar
+item.athos_avatars:princessleia_head_item=[Athos] Princess Leia's Head
+item.athos_avatars:princessleia_mask=[Athos] Princess Leia's Mask
+
+action.hint.exit.athos_avatars:rebelpilot_head=Jump to Exit
+entity.athos_avatars:rebelpilot_avatar.name=[Athos] Rebel Pilot's Avatar
+entity.athos_avatars:rebelpilot_head.name=[Athos] Rebel Pilot's Head
+item.athos_avatars:rebelpilot_avatar_item=[Athos] Rebel Pilot's Avatar
+item.athos_avatars:rebelpilot_head_item=[Athos] Rebel Pilot's Head
+item.athos_avatars:rebelpilot_mask=[Athos] Rebel Pilot's Mask
+
+action.hint.exit.athos_avatars:rebeltrooper_head=Jump to Exit
+entity.athos_avatars:rebeltrooper_avatar.name=[Athos] Rebel Trooper's Avatar
+entity.athos_avatars:rebeltrooper_head.name=[Athos] Rebel Trooper's Head
+item.athos_avatars:rebeltrooper_avatar_item=[Athos] Rebel Trooper's Avatar
+item.athos_avatars:rebeltrooper_head_item=[Athos] Rebel Trooper's Head
+item.athos_avatars:rebeltrooper_mask=[Athos] Rebel Trooper's Mask
+
+action.hint.exit.athos_avatars:santaclaus_head=Jump to Exit
+entity.athos_avatars:santaclaus_avatar.name=[Athos] Santa Claus's Avatar
+entity.athos_avatars:santaclaus_head.name=[Athos] Santa Claus's Head
+item.athos_avatars:santaclaus_avatar_item=[Athos] Santa Claus's Avatar
+item.athos_avatars:santaclaus_head_item=[Athos] Santa Claus's Head
+item.athos_avatars:santaclaus_mask=[Athos] Santa Claus's Mask
+
+action.hint.exit.athos_avatars:scouttrooper_head=Jump to Exit
+entity.athos_avatars:scouttrooper_avatar.name=[Athos] Scouttrooper's Avatar
+entity.athos_avatars:scouttrooper_head.name=[Athos] Scouttrooper's Head
+item.athos_avatars:scouttrooper_avatar_item=[Athos] Scouttrooper's Avatar
+item.athos_avatars:scouttrooper_head_item=[Athos] Scouttrooper's Head
+item.athos_avatars:scouttrooper_mask=[Athos] Scouttrooper's Mask
+
+action.hint.exit.athos_avatars:stormtrooper_head=Jump to Exit
+entity.athos_avatars:stormtrooper_avatar.name=[Athos] Stormtrooper's Avatar
+entity.athos_avatars:stormtrooper_head.name=[Athos] Stormtrooper's Head
+item.athos_avatars:stormtrooper_avatar_item=[Athos] Stormtrooper's Avatar
+item.athos_avatars:stormtrooper_head_item=[Athos] Stormtrooper's Head
+item.athos_avatars:stormtrooper_mask=[Athos] Stormtrooper's Mask
+
+action.hint.exit.athos_avatars:tuskenraider_head=Jump to Exit
+entity.athos_avatars:tuskenraider_avatar.name=[Athos] Tusken Raider's Avatar
+entity.athos_avatars:tuskenraider_head.name=[Athos] Tusken Raider's Head
+item.athos_avatars:tuskenraider_avatar_item=[Athos] Tusken Raider's Avatar
+item.athos_avatars:tuskenraider_head_item=[Athos] Tusken Raider's Head
+item.athos_avatars:tuskenraider_mask=[Athos] Tusken Raider's Mask
+
+action.hint.exit.athos_avatars:zombienurse_head=Jump to Exit
+entity.athos_avatars:zombienurse_avatar.name=[Athos] Zombie Nurse's Avatar
+entity.athos_avatars:zombienurse_head.name=[Athos] Zombie Nurse's Head
+item.athos_avatars:zombienurse_avatar_item=[Athos] Zombie Nurse's Avatar
+item.athos_avatars:zombienurse_head_item=[Athos] Zombie Nurse's Head
+item.athos_avatars:zombienurse_mask=[Athos] Zombie Nurse's Mask
+
+
+
+## Uniques:
+
+action.hint.exit.athos_avatars:bluepresent=Jump to Exit
+entity.athos_avatars:bluepresent.name=[Athos] Blue Present
+item.athos_avatars:bluepresent_item=[Athos] Blue Present
+
+action.hint.exit.athos_avatars:chewbaccaplushie=Jump to Exit
+entity.athos_avatars:chewbaccaplushie.name=[Athos] Chewbacca Plushie
+item.athos_avatars:chewbaccaplushie_item=[Athos] Chewbacca Plushie
+
+action.hint.exit.athos_avatars:christmaspudding=Jump to Exit
+entity.athos_avatars:christmaspudding.name=[Athos] Christmas Pudding
+item.athos_avatars:christmaspudding_item=[Athos] Christmas Pudding
+
+action.hint.exit.athos_avatars:coppergolem=Jump to Exit
+entity.athos_avatars:coppergolem.name=[Athos] Copper Golem
+item.athos_avatars:coppergolem_item=[Athos] Copper Golem
+
+action.hint.exit.athos_avatars:cushion=Jump to Exit
+entity.athos_avatars:cushion.name=[Athos] Cushion
+item.athos_avatars:cushion_item=[Athos] Cushion
+
+action.hint.exit.athos_avatars:darthmaulplushie=Jump to Exit
+entity.athos_avatars:darthmaulplushie.name=[Athos] Darth Maul Plushie
+item.athos_avatars:darthmaulplushie_item=[Athos] Darth Maul Plushie
+
+action.hint.exit.athos_avatars:dreidel=Jump to Exit
+entity.athos_avatars:dreidel.name=[Athos] Dreidel
+item.athos_avatars:dreidel_item=[Athos] Dreidel
+
+action.hint.exit.athos_avatars:eagle=Jump to Exit
+entity.athos_avatars:eagle.name=[Athos] Eagle
+item.athos_avatars:eagle_item=[Athos] Eagle
+
+action.hint.exit.athos_avatars:goldballornament=Jump to Exit
+entity.athos_avatars:goldballornament.name=[Athos] Gold Ball Ornament
+item.athos_avatars:goldballornament_item=[Athos] Gold Ball Ornament
+
+action.hint.exit.athos_avatars:greenballornament=Jump to Exit
+entity.athos_avatars:greenballornament.name=[Athos] Green Ball Ornament
+item.athos_avatars:greenballornament_item=[Athos] Green Ball Ornament
+
+action.hint.exit.athos_avatars:grogu=Jump to Exit
+entity.athos_avatars:grogu.name=[Athos] Grogu
+item.athos_avatars:grogu_item=[Athos] Grogu
+
+action.hint.exit.athos_avatars:hansoloplushie=Jump to Exit
+entity.athos_avatars:hansoloplushie.name=[Athos] Han Solo Plushie
+item.athos_avatars:hansoloplushie_item=[Athos] Han Solo Plushie
+
+action.hint.exit.athos_avatars:hedgehog=Jump to Exit
+entity.athos_avatars:hedgehog.name=[Athos] Hedgehog
+item.athos_avatars:hedgehog_item=[Athos] Hedgehog
+
+action.hint.exit.athos_avatars:holidayham=Jump to Exit
+entity.athos_avatars:holidayham.name=[Athos] Holiday Ham
+item.athos_avatars:holidayham_item=[Athos] Holiday Ham
+
+action.hint.exit.athos_avatars:lukeskywalkerplushie=Jump to Exit
+entity.athos_avatars:lukeskywalkerplushie.name=[Athos] Luke Skywalker Plushie
+item.athos_avatars:lukeskywalkerplushie_item=[Athos] Luke Skywalker Plushie
+
+action.hint.exit.athos_avatars:menorah=Jump to Exit
+entity.athos_avatars:menorah.name=[Athos] Menorah
+item.athos_avatars:menorah_item=[Athos] Menorah
+
+action.hint.exit.athos_avatars:mouse=Jump to Exit
+entity.athos_avatars:mouse.name=[Athos] Mouse
+item.athos_avatars:mouse_item=[Athos] Mouse
+
+action.hint.exit.athos_avatars:owl=Jump to Exit
+entity.athos_avatars:owl.name=[Athos] Owl
+item.athos_avatars:owl_item=[Athos] Owl
+
+action.hint.exit.athos_avatars:oxidizedcoppergolem=Jump to Exit
+entity.athos_avatars:oxidizedcoppergolem.name=[Athos] Oxidized Copper Golem
+item.athos_avatars:oxidizedcoppergolem_item=[Athos] Oxidized Copper Golem
+
+action.hint.exit.athos_avatars:parrot=Jump to Exit
+entity.athos_avatars:parrot.name=[Athos] Parrot
+item.athos_avatars:parrot_item=[Athos] Parrot
+
+action.hint.exit.athos_avatars:penguin=Jump to Exit
+entity.athos_avatars:penguin.name=[Athos] Penguin
+item.athos_avatars:penguin_item=[Athos] Penguin
+
+action.hint.exit.athos_avatars:pigeon=Jump to Exit
+entity.athos_avatars:pigeon.name=[Athos] Pigeon
+item.athos_avatars:pigeon_item=[Athos] Pigeon
+
+action.hint.exit.athos_avatars:piggybank=Jump to Exit
+entity.athos_avatars:piggybank.name=[Athos] Piggy Bank
+item.athos_avatars:piggybank_item=[Athos] Piggy Bank
+
+action.hint.exit.athos_avatars:princessleiaplushie=Jump to Exit
+entity.athos_avatars:princessleiaplushie.name=[Athos] Princess Leia Plushie
+item.athos_avatars:princessleiaplushie_item=[Athos] Princess Leia Plushie
+
+action.hint.exit.athos_avatars:purpledice=Jump to Exit
+entity.athos_avatars:purpledice.name=[Athos] Purple Dice
+item.athos_avatars:purpledice_item=[Athos] Purple Dice
+
+action.hint.exit.athos_avatars:r2d2plushie=Jump to Exit
+entity.athos_avatars:r2d2plushie.name=[Athos] R2D2 Plushie
+item.athos_avatars:r2d2plushie_item=[Athos] R2D2 Plushie
+
+action.hint.exit.athos_avatars:redballornament=Jump to Exit
+entity.athos_avatars:redballornament.name=[Athos] Red Ball Ornament
+item.athos_avatars:redballornament_item=[Athos] Red Ball Ornament
+
+action.hint.exit.athos_avatars:redbutton=Jump to Exit
+entity.athos_avatars:redbutton.name=[Athos] Red Button
+item.athos_avatars:redbutton_item=[Athos] Red Button
+
+action.hint.exit.athos_avatars:redpresent=Jump to Exit
+entity.athos_avatars:redpresent.name=[Athos] Red Present
+item.athos_avatars:redpresent_item=[Athos] Red Present
+
+action.hint.exit.athos_avatars:snail=Jump to Exit
+entity.athos_avatars:snail.name=[Athos] Snail
+item.athos_avatars:snail_item=[Athos] Snail
+
+action.hint.exit.athos_avatars:snowglobe=Jump to Exit
+entity.athos_avatars:snowglobe.name=[Athos] Snow Globe
+item.athos_avatars:snowglobe_item=[Athos] Snow Globe
+
+action.hint.exit.athos_avatars:sunflower=Jump to Exit
+entity.athos_avatars:sunflower.name=[Athos] Sunflower
+item.athos_avatars:sunflower_item=[Athos] Sunflower
+
+action.hint.exit.athos_avatars:toypolicecar=Jump to Exit
+entity.athos_avatars:toypolicecar.name=[Athos] Toy Police Car
+item.athos_avatars:toypolicecar_item=[Athos] Toy Police Car
+
+action.hint.exit.athos_avatars:toyswatvan=Jump to Exit
+entity.athos_avatars:toyswatvan.name=[Athos] Toy Swat Van
+item.athos_avatars:toyswatvan_item=[Athos] Toy Swat Van
+
+action.hint.exit.athos_avatars:zeroghostdog=Jump to Exit
+entity.athos_avatars:zeroghostdog.name=[Athos] Zero Ghost Dog
+item.athos_avatars:zeroghostdog_item=[Athos] Zero Ghost Dog
+
+
+
+## Wearables:
+
+item.athos_avatars:big_bunny_ears_mask=[Athos] Big Bunny Ears
+item.athos_avatars:bunny_ears_mask=[Athos] Bunny Ears
+item.athos_avatars:bunny_mask_mask=[Athos] Bunny Mask
+item.athos_avatars:cat_ears_mask=[Athos] Cat Ears
+item.athos_avatars:cat_ears2_mask=[Athos] Cat Ears
+item.athos_avatars:easter_crown_mask=[Athos] Easter Crown
+item.athos_avatars:egirlglasses_mask=[Athos] eGirl Glasses
+item.athos_avatars:elf_hat_mask=[Athos] Elf Hat
+item.athos_avatars:goldcrown_mask=[Athos] Gold Crown
+item.athos_avatars:imperialhat_mask=[Athos] Imperial Hat
+item.athos_avatars:iskall_piece_mask=[Athos] Iskall's EyePiece
+item.athos_avatars:jason_mask_mask=[Athos] Jason Mask
+item.athos_avatars:mumbostache_mask=[Athos] Mumbo's Moustache
+item.athos_avatars:nether_crown_mask=[Athos] Nether Crown
+item.athos_avatars:pumpkin_mask_mask=[Athos] Pumpkin Mask
+item.athos_avatars:santa_hat_mask=[Athos] Santa Hat
+item.athos_avatars:scream_mask_mask=[Athos] Scream Mask
+item.athos_avatars:stereo_glasses_mask=[Athos] 3D Glasses
+item.athos_avatars:sunglasses_mask=[Athos] Sunglases
+item.athos_avatars:xwing_helmet_mask=[Athos] X-Wing Helmet
+
+
+
+action.hint.exit.athos_avatars:novaemcarlo_head=Jump to Exit
+entity.athos_avatars:novaemcarlo_avatar.name=Nova's Avatar
+entity.athos_avatars:novaemcarlo_head.name=Nova's Head
+item.athos_avatars:novaemcarlo_avatar_item=Nova's Avatar
+item.athos_avatars:novaemcarlo_head_item=Nova's Head
+item.athos_avatars:novaemcarlo_mask=Nova's Mask
+
+
+action.hint.exit.athos_avatars:xraistin_head=Jump to Exit
+entity.athos_avatars:xraistin_avatar.name=xRaistin's Avatar
+entity.athos_avatars:xraistin_head.name=xRaistin's Head
+item.athos_avatars:xraistin_avatar_item=xRaistin's Avatar
+item.athos_avatars:xraistin_head_item=xRaistin's Head
+item.athos_avatars:xraistin_mask=xRaistin's Mask
+
+item.athos_avatars:jangoeye_mask=[Athos] Jango's EyePiece
+
+item.athos_avatars:athosnaut_mask=[Athos] Athosnaut Helmet
+item.athos_avatars:athosnaut_suit=[Athos] Athosnaut Suit
+
+action.hint.exit.athos_avatars:lifesupport_head=Jump to Exit
+entity.athos_avatars:lifesupport.name=Life Support Unit
+item.athos_avatars:lifesupport_item=[Athos] Life Support Unit
+
+item.athos_avatars:dead_astronaut_mask=[Athos] Damaged Astronaut Helmet
+item.athos_avatars:dead_astronaut_suit=[Athos] Damaged Astronaut Suit

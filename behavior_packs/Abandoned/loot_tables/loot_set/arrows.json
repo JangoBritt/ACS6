@@ -1,0 +1,39 @@
+{
+  "pools": [
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 6,
+                "max": 42
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:cookie_jar_0",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.cookieJar",
+                "is_hidden_in_commands": false
+            },
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:quantity": [0,1,2,3,4,5,6,7,8,9,10,11,12]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] }}},
+			{"condition": "q.block_state('medieval:quantity') == 1","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_1.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 2","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_2.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 3","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_3.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 4","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_4.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 5","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_5.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 6","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_6.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 7","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_7.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 8","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_8.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 9","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_9.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 10","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_10.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 11","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_11.json"}},
+			{"condition": "q.block_state('medieval:quantity') == 12","components": {"minecraft:loot": "loot_tables/medieval_furniture/cookie_jar/cookie_jar_12.json"}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.cookie_jar",
+				"bone_visibility": {
+					"jar": true,
+					"cookie": "q.block_state('medieval:quantity') >= 1",
+					"cookie2": "q.block_state('medieval:quantity') >= 2",
+					"cookie3": "q.block_state('medieval:quantity') >= 3",
+					"cookie4": "q.block_state('medieval:quantity') >= 4",
+					"cookie5": "q.block_state('medieval:quantity') >= 5",
+					"cookie6": "q.block_state('medieval:quantity') >= 6",
+					"cookie7": "q.block_state('medieval:quantity') >= 7",
+					"cookie8": "q.block_state('medieval:quantity') >= 8",
+					"cookie9": "q.block_state('medieval:quantity') >= 9",
+					"cookie10": "q.block_state('medieval:quantity') >= 10",
+					"cookie11": "q.block_state('medieval:quantity') >= 11",
+					"cookie12": "q.block_state('medieval:quantity') == 12"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.cookie_jar","render_method": "alpha_test","ambient_occlusion": false},"cookie": {"texture": "m.cookie","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:on_interact": {"event": "add_cookie"},
+			"minecraft:collision_box": {"origin": [-6,0.0,-6],"size": [12,16,12]},
+			"minecraft:selection_box": {"origin": [-6,0.0,-6],"size": [12,16,12]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#24abab"
+		},
+		"events": {
+			"add_cookie": {
+				"sequence": [
+					{"condition": "q.block_state('medieval:quantity') < 12 && q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cookie')","set_block_state": {"medieval:quantity": "q.block_state('medieval:quantity') +1"},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"},"decrement_stack": {}},
+					{"condition": "q.block_state('medieval:quantity') > 0 && !q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cookie')","set_block_state": {"medieval:quantity": "q.block_state('medieval:quantity') -1"},"run_command": {"command": ["playsound block.itemframe.remove_item @a ~ ~ ~"]},"spawn_loot": {"table": "loot_tables/medieval_furniture/drops/cookie.json"}}
+				]
+			}
+		}
+	}
+}

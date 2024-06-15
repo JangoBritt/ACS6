@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_illager_camp"
+    },
+    "features": [
+      [ "nicothekid:structure_x_illager_camp_01_a", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_b", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_c", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_d", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_e", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_f", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_g", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_h", 100 ],
+      [ "nicothekid:structure_x_illager_camp_01_i", 100 ]
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.m.pendulum_clock.move": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"pendulum": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.75": [0, 0, 5],
+						"1.5": [0, 0, -5]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "m.tic"
+				},
+				"0.75": {
+					"effect": "m.tac"
+				}
+			}
+		},
+		"animation.m.pendulum_clock.time": {
+			"loop": true,
+			"bones": {
+				"clock2": {
+					"rotation": [0, 0, "-query.time_of_day * 720"]
+				},
+				"minute": {
+					"rotation": [0, 0, "math.mod(-(query.time_of_day*8640),360)"]
+				}
+			}
+		}
+	}
+}

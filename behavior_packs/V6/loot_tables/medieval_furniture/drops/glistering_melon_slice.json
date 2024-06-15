@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+	  "rolls": 1,
+	  "entries": [
+	    {
+		  "type": "item",
+		  "name": "minecraft:glistering_melon_slice",
+		  "weight": 1
+		}
+	  ]
+	}
+  ]
+}

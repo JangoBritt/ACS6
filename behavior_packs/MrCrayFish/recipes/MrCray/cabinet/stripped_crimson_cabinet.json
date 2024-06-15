@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_crimson_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:crimson_stem"
+			},
+			"A": {
+				"item": "minecraft:stripped_crimson_stem"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_crimson_stem"},
+			{"item": "minecraft:crimson_stem"}
+		],
+		"result": {
+			"item": "mr:stripped_crimson_cabinet_mr",
+			"count": 2
+		}
+	}
+}

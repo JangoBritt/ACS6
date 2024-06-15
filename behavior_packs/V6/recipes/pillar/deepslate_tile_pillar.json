@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "endx:deepslate_tile_pillar"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:deepslate_tiles",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "endx:deepslate_tile_pillar",
+			"count": 1
+		}
+	}
+}

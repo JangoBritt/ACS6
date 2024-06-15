@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_pigstep",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "medieval:spruce_gramophone",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

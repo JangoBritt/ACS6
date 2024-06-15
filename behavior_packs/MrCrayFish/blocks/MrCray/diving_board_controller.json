@@ -1,0 +1,43 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:board_controller_mr",
+			"states": {
+				"mr:direction": [0,1,2,3]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('mr:direction') == 0","components": {"minecraft:transformation": {"rotation": [0,0,0]},"tag:mr.board_n": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["north"],"block_filter": [{"tags": "q.any_tag('mr.diving_board')"}]}]}}},
+			{"condition": "q.block_state('mr:direction') == 1","components": {"minecraft:transformation": {"rotation": [0,180,0]},"tag:mr.board_s": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["south"],"block_filter": [{"tags": "q.any_tag('mr.diving_board')"}]}]}}},
+			{"condition": "q.block_state('mr:direction') == 2","components": {"minecraft:transformation": {"rotation": [0,90,0]},"tag:mr.board_e": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["west"],"block_filter": [{"tags": "q.any_tag('mr.diving_board')"}]}]}}},
+			{"condition": "q.block_state('mr:direction') == 3","components": {"minecraft:transformation": {"rotation": [0,-90,0]},"tag:mr.board_w": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["east"],"block_filter": [{"tags": "q.any_tag('mr.diving_board')"}]}]}}}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.mr.board",
+			"minecraft:loot": "empty",
+			"minecraft:on_placed":{"event": "rotation"},
+			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "opaque"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "opaque"}},
+			"minecraft:on_fall_on":{"condition":"!q.is_sneaking","event": "bounce","min_fall_distance": 0.5},
+			"minecraft:collision_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},
+			"minecraft:selection_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#ED8116"
+		},
+		"events": {
+			"rotation": {
+				"sequence": [
+					{"condition": "q.block_neighbor_has_any_tag(0,0,1,'mr.diving_board_n')","set_block_state": {"mr:direction": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(0,0,-1,'mr.diving_board_s')","set_block_state": {"mr:direction": 1}},
+					{"condition": "q.block_neighbor_has_any_tag(1,0,0,'mr.diving_board_e')","set_block_state": {"mr:direction": 2}},
+					{"condition": "q.block_neighbor_has_any_tag(-1,0,0,'mr.diving_board_w')","set_block_state": {"mr:direction": 3}}
+				]
+			},
+			"bounce": {
+				"run_command": {"command": ["effect @e[r=0.7] levitation 1 10 true","effect @e[r=0.7] jump_boost 2 9 true","playsound mr.diving_bounce @a ~~~"]}
+			}
+		}
+	}
+}

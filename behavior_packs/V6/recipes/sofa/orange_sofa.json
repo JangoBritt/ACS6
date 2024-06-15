@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:orange_sofa"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:orange_wool"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:orange_sofa",
+			"count": 1
+		}
+	}
+}

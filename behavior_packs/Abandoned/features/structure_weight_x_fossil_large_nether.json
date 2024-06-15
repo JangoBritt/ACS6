@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_fossil_large_nether"
+    },
+    "features": [
+      [ "nicothekid:structure_x_fossil_large_nether_01", 20 ],
+      [ "nicothekid:structure_x_fossil_large_nether_02", 20 ],
+      [ "nicothekid:structure_x_fossil_large_nether_03", 20 ],
+      [ "nicothekid:structure_x_fossil_medium_01", 100 ],
+      [ "nicothekid:structure_x_fossil_medium_02", 100 ],
+      [ "nicothekid:structure_x_fossil_medium_03", 100 ],
+      [ "nicothekid:structure_x_fossil_medium_04", 100 ],
+      [ "nicothekid:structure_x_fossil_medium_05", 100 ]
+    ]
+  }
+}

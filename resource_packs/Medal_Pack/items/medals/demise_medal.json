@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_medal:demise_medal",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "demise_medal",
+			"minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

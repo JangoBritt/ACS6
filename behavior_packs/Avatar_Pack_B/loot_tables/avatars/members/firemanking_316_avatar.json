@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "athos_avatars:firemanking_316_avatar_item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

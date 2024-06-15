@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_acacia_coffee_table_short_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:acacia_log"
+			},
+			"A": {
+				"item": "minecraft:acacia_planks"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "mr:wood_acacia_coffee_table_short_mr",
+			"count": 4
+		}
+	}
+}

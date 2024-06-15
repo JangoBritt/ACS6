@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_cave_dweller_house_01"
+    },
+    "features": [
+      [ "nicothekid:structure_x_cave_dweller_house_01_a", 100 ]
+    ]
+  }
+}

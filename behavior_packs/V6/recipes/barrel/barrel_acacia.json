@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_barrel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			"BCB",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wooden_slab",
+				"data": 4
+			},
+			"B": {
+				"item": "minecraft:planks",
+				"data": 4
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:acacia_barrel",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:block_x_structure_ancient_castle",
+      "places_feature": "nicothekid:block_x_structure_ancient_castle_x_singleblock"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "overworld"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 5.0,
+      "x": 0,
+      "y": {
+        "distribution": "uniform",
+        "extent": [ -54, -16 ]
+      },
+      "z": 0
+    }
+  }
+}

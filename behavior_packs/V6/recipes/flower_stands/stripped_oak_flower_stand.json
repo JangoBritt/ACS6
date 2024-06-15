@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:oak_flower_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AA",
+			"BB",
+			"CC"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:flower_pot"
+			},
+			"A": {
+				"item": "medieval:stripped_oak_post"
+			},
+			"C": {
+				"item": "medieval:stripped_oak_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "medieval:oak_flower_stand",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,152 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:tall_window_upper_close",
+			"properties": {
+				"medieval:direction": [0,1,2,3],
+				"medieval:side": [true,false],
+				"medieval:texture": [0,1,2,3,4,5,6,7,8]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_property('medieval:direction') == 0","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "q.block_property('medieval:direction') == 1","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "q.block_property('medieval:direction') == 2","components": {"minecraft:rotation": [0,90,0]}},
+			{"condition": "q.block_property('medieval:direction') == 3","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "q.block_property('medieval:side') == true","components": {"minecraft:geometry": "geometry.m.tall_window_top_close_0"}},
+			{"condition": "q.block_property('medieval:side') == false","components": {"minecraft:geometry": "geometry.m.tall_window_top_close_1"}},
+			{"condition": "q.block_property('medieval:texture') == 0","components": {"minecraft:material_instances": {"*": {"texture": "stripped_acacia","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#ED8116"}},
+			{"condition": "q.block_property('medieval:texture') == 1","components": {"minecraft:material_instances": {"*": {"texture": "stripped_birch","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#FFF7AF"}},
+			{"condition": "q.block_property('medieval:texture') == 2","components": {"minecraft:material_instances": {"*": {"texture": "stripped_crimson","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#A30052"}},
+			{"condition": "q.block_property('medieval:texture') == 3","components": {"minecraft:material_instances": {"*": {"texture": "stripped_darkoak","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#452308"}},
+			{"condition": "q.block_property('medieval:texture') == 4","components": {"minecraft:material_instances": {"*": {"texture": "stripped_jungle","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#FFB078"}},
+			{"condition": "q.block_property('medieval:texture') == 5","components": {"minecraft:material_instances": {"*": {"texture": "stripped_mangrove_log_side","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#96262A"}},
+			{"condition": "q.block_property('medieval:texture') == 6","components": {"minecraft:material_instances": {"*": {"texture": "stripped_oak","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#D2923B"}},
+			{"condition": "q.block_property('medieval:texture') == 7","components": {"minecraft:material_instances": {"*": {"texture": "stripped_spruce","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#8E5430"}},
+			{"condition": "q.block_property('medieval:texture') == 8","components": {"minecraft:material_instances": {"*": {"texture": "stripped_warped","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},"minecraft:map_color": "#148C8B"}}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.m.tall_window_top_close_0",
+			"tag:tall_window":{},
+			"tag:tall_window_close": {},
+			"tag:medieval_furniture": {},
+			"minecraft:loot": "empty",
+			"minecraft:creative_category": {"category": "commands","group": "itemGroup.name.unobtainableBlocks"},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["stripped_acacia_tall_window","stripped_birch_tall_window","stripped_crimson_tall_window","stripped_darkoak_tall_window","stripped_jungle_tall_window","stripped_mangrove_tall_window","stripped_oak_tall_window","stripped_spruce_tall_window","stripped_warped_tall_window"]}]},
+			"minecraft:on_placed":{"event": "rotation"},
+			"minecraft:on_interact": {"event": "open","target": "self"},
+			"minecraft:breathability": "air",
+			"minecraft:entity_collision": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:pick_collision": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:block_light_absorption": 1.0,
+			"minecraft:block_light_emission": 0.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8
+		},
+		"events": {
+			"rotation": {
+				"sequence": [
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'side')","set_block_property": {"medieval:side": false}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_south')","set_block_property": {"medieval:direction": 1}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_east')","set_block_property": {"medieval:direction": 2}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_west')","set_block_property": {"medieval:direction": 3}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_acacia')","set_block_property": {"medieval:texture": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_birch')","set_block_property": {"medieval:texture": 1}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_crimson')","set_block_property": {"medieval:texture": 2}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_darkoak')","set_block_property": {"medieval:texture": 3}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_jungle')","set_block_property": {"medieval:texture": 4}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_mangrove')","set_block_property": {"medieval:texture": 5}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_oak')","set_block_property": {"medieval:texture": 6}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_spruce')","set_block_property": {"medieval:texture": 7}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'tall_window_warped')","set_block_property": {"medieval:texture": 8}}
+				]
+			},
+			"open": {
+				"sequence": [
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 0 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_acacia_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 1 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_birch_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 2 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_crimson_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 3 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_darkoak_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 4 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_jungle_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 5 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_mangrove_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 6 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_oak_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 7 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_spruce_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=2,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=3,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=4,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == true","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=5,\"medieval:side\"=true,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 0 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=2,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 1 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=3,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 2 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=4,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"condition": "q.block_property('medieval:direction') == 3 && q.block_property('medieval:texture') == 8 && q.block_property('medieval:side') == false","run_command":{"command":["setblock ~ ~-1 ~ medieval:stripped_warped_tall_window [\"medieval:direction\"=5,\"medieval:side\"=false,\"medieval:open\"=2]"]}},
+					{"run_command":{"command":["playsound open.wooden_door @a ~ ~ ~","setblock ~ ~ ~ medieval:tall_window_upper_open"]}}
+				]
+			}
+		}
+	}
+}

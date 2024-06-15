@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:planks_acacia_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:acacia_log"
+			},
+			"A": {
+				"item": "minecraft:acacia_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:acacia_log"},
+			{"item": "minecraft:acacia_planks"}
+		],
+		"result": {
+			"item": "mr:planks_acacia_cabinet_mr",
+			"count": 2
+		}
+	}
+}

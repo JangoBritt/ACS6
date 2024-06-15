@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_bowl0"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_cherry_log",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cherry_bowl0",
+			"count": 3
+		}
+	}
+}

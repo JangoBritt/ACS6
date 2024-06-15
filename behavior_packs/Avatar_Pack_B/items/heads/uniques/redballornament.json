@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:redballornament_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "redballornament_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:redballornament"
+			}
+		}
+	}
+}

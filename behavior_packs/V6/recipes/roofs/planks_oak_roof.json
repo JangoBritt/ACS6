@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:oak_planks_mslab"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:oak_planks_mslab",
+			"count": 12
+		}
+	}
+}

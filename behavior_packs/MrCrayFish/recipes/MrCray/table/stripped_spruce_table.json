@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_spruce_table_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			" A ",
+			" A "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_spruce_log"
+			},
+			"A": {
+				"item": "minecraft:spruce_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:spruce_book"}
+		],
+		"result": {
+			"item": "mr:stripped_spruce_table_mr",
+			"count": 4
+		}
+	}
+}

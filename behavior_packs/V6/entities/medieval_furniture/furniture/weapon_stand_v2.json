@@ -1,0 +1,1524 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "medieval:weapon_stand_ev2",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+              "animate": [
+                "equip_tool",
+                "equip_tool_left",
+                "equip_tool_right"
+              ]
+            },
+            "animations": {
+              "equip_tool":"controller.animation.equip_tool_center",
+              "equip_tool_left":"controller.animation.equip_tool_left",
+              "equip_tool_right":"controller.animation.equip_tool_right"
+            }
+    },
+    "component_groups": {
+    	"medieval:center_default": {
+            "minecraft:mark_variant": {
+              "value": 0
+            }
+          },
+          "medieval:wood_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 1
+            }
+          },
+          "medieval:stone_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 2
+            }
+          },
+          "medieval:iron_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 3
+            }
+          },
+          "medieval:gold_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 4
+            }
+          },
+          "medieval:diamond_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 5
+            }
+          },
+          "medieval:netherite_sword_center": {
+            "minecraft:mark_variant": {
+              "value": 6
+            }
+          },
+          "medieval:wood_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 7
+            }
+          },
+          "medieval:stone_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 8
+            }
+          },
+          "medieval:iron_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 9
+            }
+          },
+          "medieval:gold_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 10
+            }
+          },
+          "medieval:diamond_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 11
+            }
+          },
+          "medieval:netherite_axe_center": {
+            "minecraft:mark_variant": {
+              "value": 12
+            }
+          },
+          "medieval:wood_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 13
+            }
+          },
+          "medieval:stone_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 14
+            }
+          },
+          "medieval:iron_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 15
+            }
+          },
+          "medieval:gold_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 16
+            }
+          },
+          "medieval:diamond_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 17
+            }
+          },
+          "medieval:netherite_pickaxe_center": {
+            "minecraft:mark_variant": {
+              "value": 18
+            }
+          },
+          "medieval:wood_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 19
+            }
+          },
+          "medieval:stone_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 20
+            }
+          },
+          "medieval:iron_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 21
+            }
+          },
+          "medieval:gold_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 22
+            }
+          },
+          "medieval:diamond_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 23
+            }
+          },
+          "medieval:netherite_hoe_center": {
+            "minecraft:mark_variant": {
+              "value": 24
+            }
+          },
+          "medieval:wood_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 25
+            }
+          },
+          "medieval:stone_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 26
+            }
+          },
+          "medieval:iron_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 27
+            }
+          },
+          "medieval:gold_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 28
+            }
+          },
+          "medieval:diamond_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 29
+            }
+          },
+          "medieval:netherite_shovel_center": {
+            "minecraft:mark_variant": {
+              "value": 30
+            }
+          },
+          "medieval:trident_center": {
+            "minecraft:mark_variant": {
+              "value": 31
+            }
+          },
+          "medieval:shield_center": {
+            "minecraft:mark_variant": {
+              "value": 32
+            }
+          },
+          "medieval:bow_center": {
+            "minecraft:mark_variant": {
+              "value": 33
+            }
+          },
+          "medieval:crossbow_center": {
+            "minecraft:mark_variant": {
+              "value": 34
+            }
+          },
+          "medieval:handsaw_center": {
+            "minecraft:mark_variant": {
+              "value": 35
+            }
+          },
+          "medieval:left_default": {
+            "minecraft:variant": {
+              "value": 0
+            }
+          },
+          "medieval:wood_sword_left": {
+            "minecraft:variant": {
+              "value": 1
+            }
+          },
+          "medieval:stone_sword_left": {
+            "minecraft:variant": {
+              "value": 2
+            }
+          },
+          "medieval:iron_sword_left": {
+            "minecraft:variant": {
+              "value": 3
+            }
+          },
+          "medieval:gold_sword_left": {
+            "minecraft:variant": {
+              "value": 4
+            }
+          },
+          "medieval:diamond_sword_left": {
+            "minecraft:variant": {
+              "value": 5
+            }
+          },
+          "medieval:netherite_sword_left": {
+            "minecraft:variant": {
+              "value": 6
+            }
+          },
+          "medieval:wood_axe_left": {
+            "minecraft:variant": {
+              "value": 7
+            }
+          },
+          "medieval:stone_axe_left": {
+            "minecraft:variant": {
+              "value": 8
+            }
+          },
+          "medieval:iron_axe_left": {
+            "minecraft:variant": {
+              "value": 9
+            }
+          },
+          "medieval:gold_axe_left": {
+            "minecraft:variant": {
+              "value": 10
+            }
+          },
+          "medieval:diamond_axe_left": {
+            "minecraft:variant": {
+              "value": 11
+            }
+          },
+          "medieval:netherite_axe_left": {
+            "minecraft:variant": {
+              "value": 12
+            }
+          },
+          "medieval:wood_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 13
+            }
+          },
+          "medieval:stone_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 14
+            }
+          },
+          "medieval:iron_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 15
+            }
+          },
+          "medieval:gold_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 16
+            }
+          },
+          "medieval:diamond_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 17
+            }
+          },
+          "medieval:netherite_pickaxe_left": {
+            "minecraft:variant": {
+              "value": 18
+            }
+          },
+          "medieval:wood_hoe_left": {
+            "minecraft:variant": {
+              "value": 19
+            }
+          },
+          "medieval:stone_hoe_left": {
+            "minecraft:variant": {
+              "value": 20
+            }
+          },
+          "medieval:iron_hoe_left": {
+            "minecraft:variant": {
+              "value": 21
+            }
+          },
+          "medieval:gold_hoe_left": {
+            "minecraft:variant": {
+              "value": 22
+            }
+          },
+          "medieval:diamond_hoe_left": {
+            "minecraft:variant": {
+              "value": 23
+            }
+          },
+          "medieval:netherite_hoe_left": {
+            "minecraft:variant": {
+              "value": 24
+            }
+          },
+          "medieval:wood_shovel_left": {
+            "minecraft:variant": {
+              "value": 25
+            }
+          },
+          "medieval:stone_shovel_left": {
+            "minecraft:variant": {
+              "value": 26
+            }
+          },
+          "medieval:iron_shovel_left": {
+            "minecraft:variant": {
+              "value": 27
+            }
+          },
+          "medieval:gold_shovel_left": {
+            "minecraft:variant": {
+              "value": 28
+            }
+          },
+          "medieval:diamond_shovel_left": {
+            "minecraft:variant": {
+              "value": 29
+            }
+          },
+          "medieval:netherite_shovel_left": {
+            "minecraft:variant": {
+              "value": 30
+            }
+          },
+          "medieval:trident_left": {
+            "minecraft:variant": {
+              "value": 31
+            }
+          },
+          "medieval:shield_left": {
+            "minecraft:variant": {
+              "value": 32
+            }
+          },
+          "medieval:bow_left": {
+            "minecraft:variant": {
+              "value": 33
+            }
+          },
+          "medieval:crossbow_left": {
+            "minecraft:variant": {
+              "value": 34
+            }
+          },
+          "medieval:handsaw_left": {
+            "minecraft:variant": {
+              "value": 35
+            }
+          },
+          "medieval:right_default": {
+            "minecraft:skin_id": {
+              "value": 0
+            }
+          },
+          "medieval:wood_sword_right": {
+            "minecraft:skin_id": {
+              "value": 1
+            }
+          },
+          "medieval:stone_sword_right": {
+            "minecraft:skin_id": {
+              "value": 2
+            }
+          },
+          "medieval:iron_sword_right": {
+            "minecraft:skin_id": {
+              "value": 3
+            }
+          },
+          "medieval:gold_sword_right": {
+            "minecraft:skin_id": {
+              "value": 4
+            }
+          },
+          "medieval:diamond_sword_right": {
+            "minecraft:skin_id": {
+              "value": 5
+            }
+          },
+          "medieval:netherite_sword_right": {
+            "minecraft:skin_id": {
+              "value": 6
+            }
+          },
+          "medieval:wood_axe_right": {
+            "minecraft:skin_id": {
+              "value": 7
+            }
+          },
+          "medieval:stone_axe_right": {
+            "minecraft:skin_id": {
+              "value": 8
+            }
+          },
+          "medieval:iron_axe_right": {
+            "minecraft:skin_id": {
+              "value": 9
+            }
+          },
+          "medieval:gold_axe_right": {
+            "minecraft:skin_id": {
+              "value": 10
+            }
+          },
+          "medieval:diamond_axe_right": {
+            "minecraft:skin_id": {
+              "value": 11
+            }
+          },
+          "medieval:netherite_axe_right": {
+            "minecraft:skin_id": {
+              "value": 12
+            }
+          },
+          "medieval:wood_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 13
+            }
+          },
+          "medieval:stone_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 14
+            }
+          },
+          "medieval:iron_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 15
+            }
+          },
+          "medieval:gold_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 16
+            }
+          },
+          "medieval:diamond_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 17
+            }
+          },
+          "medieval:netherite_pickaxe_right": {
+            "minecraft:skin_id": {
+              "value": 18
+            }
+          },
+          "medieval:wood_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 19
+            }
+          },
+          "medieval:stone_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 20
+            }
+          },
+          "medieval:iron_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 21
+            }
+          },
+          "medieval:gold_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 22
+            }
+          },
+          "medieval:diamond_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 23
+            }
+          },
+          "medieval:netherite_hoe_right": {
+            "minecraft:skin_id": {
+              "value": 24
+            }
+          },
+          "medieval:wood_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 25
+            }
+          },
+          "medieval:stone_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 26
+            }
+          },
+          "medieval:iron_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 27
+            }
+          },
+          "medieval:gold_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 28
+            }
+          },
+          "medieval:diamond_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 29
+            }
+          },
+          "medieval:netherite_shovel_right": {
+            "minecraft:skin_id": {
+              "value": 30
+            }
+          },
+          "medieval:trident_right": {
+            "minecraft:skin_id": {
+              "value": 31
+            }
+          },
+          "medieval:shield_right": {
+            "minecraft:skin_id": {
+              "value": 32
+            }
+          },
+          "medieval:bow_right": {
+            "minecraft:skin_id": {
+              "value": 33
+            }
+          },
+          "medieval:crossbow_right": {
+            "minecraft:skin_id": {
+              "value": 34
+            }
+          },
+          "medieval:handsaw_right": {
+            "minecraft:skin_id": {
+              "value": 35
+            }
+          },
+			"medieval:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"medieval:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "medieval:entity_despawned"
+				}
+			}
+    },
+    "components": {
+    	"minecraft:nameable": {
+            "always_show": false,
+            "allow_name_tag_renaming": false
+          },
+          "minecraft:equippable": {
+            "slots": [
+              {
+                "slot": 0,
+                "item": "minecraft:diamond_sword",
+                "accepted_items": [
+                  "minecraft:diamond_sword",
+                  "minecraft:diamond_axe",
+                  "minecraft:diamond_hoe",
+                  "minecraft:diamond_pickaxe",
+                  "minecraft:diamond_shovel",
+                  "minecraft:netherite_sword",
+                  "minecraft:netherite_axe",
+                  "minecraft:netherite_hoe",
+                  "minecraft:netherite_pickaxe",
+                  "minecraft:netherite_shovel",
+                  "minecraft:iron_sword",
+                  "minecraft:iron_axe",
+                  "minecraft:iron_hoe",
+                  "minecraft:iron_pickaxe",
+                  "minecraft:iron_shovel",
+                  "minecraft:golden_sword",
+                  "minecraft:golden_axe",
+                  "minecraft:golden_hoe",
+                  "minecraft:golden_pickaxe",
+                  "minecraft:golden_shovel",
+                  "minecraft:stone_sword",
+                  "minecraft:stone_axe",
+                  "minecraft:stone_hoe",
+                  "minecraft:stone_pickaxe",
+                  "minecraft:stone_shovel",
+                  "minecraft:wooden_sword",
+                  "minecraft:wooden_axe",
+                  "minecraft:wooden_hoe",
+                  "minecraft:wooden_pickaxe",
+                  "minecraft:wooden_shovel",
+                  "minecraft:trident",
+                  "minecraft:shield",
+                  "minecraft:bow",
+                  "minecraft:crossbow",
+                  "medieval:handsaw"
+                ]
+              },
+              {
+                "slot": 1,
+                "item": "minecraft:diamond_sword",
+                "accepted_items": [
+                  "minecraft:diamond_sword",
+                  "minecraft:diamond_axe",
+                  "minecraft:diamond_hoe",
+                  "minecraft:diamond_pickaxe",
+                  "minecraft:diamond_shovel",
+                  "minecraft:netherite_sword",
+                  "minecraft:netherite_axe",
+                  "minecraft:netherite_hoe",
+                  "minecraft:netherite_pickaxe",
+                  "minecraft:netherite_shovel",
+                  "minecraft:iron_sword",
+                  "minecraft:iron_axe",
+                  "minecraft:iron_hoe",
+                  "minecraft:iron_pickaxe",
+                  "minecraft:iron_shovel",
+                  "minecraft:golden_sword",
+                  "minecraft:golden_axe",
+                  "minecraft:golden_hoe",
+                  "minecraft:golden_pickaxe",
+                  "minecraft:golden_shovel",
+                  "minecraft:stone_sword",
+                  "minecraft:stone_axe",
+                  "minecraft:stone_hoe",
+                  "minecraft:stone_pickaxe",
+                  "minecraft:stone_shovel",
+                  "minecraft:wooden_sword",
+                  "minecraft:wooden_axe",
+                  "minecraft:wooden_hoe",
+                  "minecraft:wooden_pickaxe",
+                  "minecraft:wooden_shovel",
+                  "minecraft:trident",
+                  "minecraft:shield",
+                  "minecraft:bow",
+                  "minecraft:crossbow",
+                  "medieval:handsaw"
+                ]
+              },
+              {
+                "slot": 2,
+                "item": "minecraft:diamond_sword",
+                "accepted_items": [
+                  "minecraft:diamond_sword",
+                  "minecraft:diamond_axe",
+                  "minecraft:diamond_hoe",
+                  "minecraft:diamond_pickaxe",
+                  "minecraft:diamond_shovel",
+                  "minecraft:netherite_sword",
+                  "minecraft:netherite_axe",
+                  "minecraft:netherite_hoe",
+                  "minecraft:netherite_pickaxe",
+                  "minecraft:netherite_shovel",
+                  "minecraft:iron_sword",
+                  "minecraft:iron_axe",
+                  "minecraft:iron_hoe",
+                  "minecraft:iron_pickaxe",
+                  "minecraft:iron_shovel",
+                  "minecraft:golden_sword",
+                  "minecraft:golden_axe",
+                  "minecraft:golden_hoe",
+                  "minecraft:golden_pickaxe",
+                  "minecraft:golden_shovel",
+                  "minecraft:stone_sword",
+                  "minecraft:stone_axe",
+                  "minecraft:stone_hoe",
+                  "minecraft:stone_pickaxe",
+                  "minecraft:stone_shovel",
+                  "minecraft:wooden_sword",
+                  "minecraft:wooden_axe",
+                  "minecraft:wooden_hoe",
+                  "minecraft:wooden_pickaxe",
+                  "minecraft:wooden_shovel",
+                  "minecraft:trident",
+                  "minecraft:shield",
+                  "minecraft:bow",
+                  "minecraft:crossbow",
+                  "medieval:handsaw"
+                ]
+              }
+            ]
+          },
+          "minecraft:inventory": {
+          "inventory_size": 18,
+          "container_type": "horse"
+        },
+        "minecraft:is_chested":{},
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:equip_item": {
+      },
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 1
+      },
+      "minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{"block": {"name": "minecraft:air"},"entered_block_event": {"event": "medieval:despawn","target": "self"}}
+				]
+			},
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+			"medieval:despawn": {
+				"run_command": {
+					"command": [
+						"kill @s",
+						"kill @e[type=item,name=chest,c=1,r=2]"
+					]
+				}
+			},
+			"medieval:no_weapon_center": {
+            "add": {
+              "component_groups": [
+                "medieval:center_default"
+              ]
+            }
+          },
+			"medieval:wood_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_sword_center"
+              ]
+            }
+          },
+          "medieval:stone_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_sword_center"
+              ]
+            }
+          },
+          "medieval:gold_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_sword_center"
+              ]
+            }
+          },
+          "medieval:iron_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_sword_center"
+              ]
+            }
+          },
+          "medieval:diamond_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_sword_center"
+              ]
+            }
+          },
+          "medieval:netherite_sword_center": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_sword_center"
+              ]
+            }
+          },
+          "medieval:wood_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_axe_center"
+              ]
+            }
+          },
+          "medieval:stone_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_axe_center"
+              ]
+            }
+          },
+          "medieval:gold_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_axe_center"
+              ]
+            }
+          },
+          "medieval:iron_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_axe_center"
+              ]
+            }
+          },
+          "medieval:diamond_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_axe_center"
+              ]
+            }
+          },
+          "medieval:netherite_axe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_axe_center"
+              ]
+            }
+          },
+          "medieval:wood_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:stone_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:gold_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:iron_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:diamond_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:netherite_pickaxe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_pickaxe_center"
+              ]
+            }
+          },
+          "medieval:wood_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_hoe_center"
+              ]
+            }
+          },
+          "medieval:stone_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_hoe_center"
+              ]
+            }
+          },
+          "medieval:gold_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_hoe_center"
+              ]
+            }
+          },
+          "medieval:iron_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_hoe_center"
+              ]
+            }
+          },
+          "medieval:diamond_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_hoe_center"
+              ]
+            }
+          },
+          "medieval:netherite_hoe_center": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_hoe_center"
+              ]
+            }
+          },
+          "medieval:wood_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_shovel_center"
+              ]
+            }
+          },
+          "medieval:stone_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_shovel_center"
+              ]
+            }
+          },
+          "medieval:gold_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_shovel_center"
+              ]
+            }
+          },
+          "medieval:iron_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_shovel_center"
+              ]
+            }
+          },
+          "medieval:diamond_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_shovel_center"
+              ]
+            }
+          },
+          "medieval:netherite_shovel_center": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_shovel_center"
+              ]
+            }
+          },
+          "medieval:trident_center": {
+            "add": {
+              "component_groups": [
+                "medieval:trident_center"
+              ]
+            }
+          },
+          "medieval:shield_center": {
+            "add": {
+              "component_groups": [
+                "medieval:shield_center"
+              ]
+            }
+          },
+          "medieval:bow_center": {
+            "add": {
+              "component_groups": [
+                "medieval:bow_center"
+              ]
+            }
+          },
+          "medieval:crossbow_center": {
+            "add": {
+              "component_groups": [
+                "medieval:crossbow_center"
+              ]
+            }
+          },
+          "medieval:handsaw_center": {
+            "add": {
+              "component_groups": [
+                "medieval:handsaw_center"
+              ]
+            }
+          },
+          "medieval:no_weapon_left": {
+            "add": {
+              "component_groups": [
+                "medieval:left_default"
+              ]
+            }
+          },
+			"medieval:wood_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_sword_left"
+              ]
+            }
+          },
+          "medieval:stone_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_sword_left"
+              ]
+            }
+          },
+          "medieval:gold_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_sword_left"
+              ]
+            }
+          },
+          "medieval:iron_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_sword_left"
+              ]
+            }
+          },
+          "medieval:diamond_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_sword_left"
+              ]
+            }
+          },
+          "medieval:netherite_sword_left": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_sword_left"
+              ]
+            }
+          },
+          "medieval:wood_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_axe_left"
+              ]
+            }
+          },
+          "medieval:stone_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_axe_left"
+              ]
+            }
+          },
+          "medieval:gold_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_axe_left"
+              ]
+            }
+          },
+          "medieval:iron_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_axe_left"
+              ]
+            }
+          },
+          "medieval:diamond_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_axe_left"
+              ]
+            }
+          },
+          "medieval:netherite_axe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_axe_left"
+              ]
+            }
+          },
+          "medieval:wood_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:stone_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:gold_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:iron_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:diamond_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:netherite_pickaxe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_pickaxe_left"
+              ]
+            }
+          },
+          "medieval:wood_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_hoe_left"
+              ]
+            }
+          },
+          "medieval:stone_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_hoe_left"
+              ]
+            }
+          },
+          "medieval:gold_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_hoe_left"
+              ]
+            }
+          },
+          "medieval:iron_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_hoe_left"
+              ]
+            }
+          },
+          "medieval:diamond_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_hoe_left"
+              ]
+            }
+          },
+          "medieval:netherite_hoe_left": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_hoe_left"
+              ]
+            }
+          },
+          "medieval:wood_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_shovel_left"
+              ]
+            }
+          },
+          "medieval:stone_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_shovel_left"
+              ]
+            }
+          },
+          "medieval:gold_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_shovel_left"
+              ]
+            }
+          },
+          "medieval:iron_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_shovel_left"
+              ]
+            }
+          },
+          "medieval:diamond_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_shovel_left"
+              ]
+            }
+          },
+          "medieval:netherite_shovel_left": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_shovel_left"
+              ]
+            }
+          },
+          "medieval:trident_left": {
+            "add": {
+              "component_groups": [
+                "medieval:trident_left"
+              ]
+            }
+          },
+          "medieval:shield_left": {
+            "add": {
+              "component_groups": [
+                "medieval:shield_left"
+              ]
+            }
+          },
+          "medieval:bow_left": {
+            "add": {
+              "component_groups": [
+                "medieval:bow_left"
+              ]
+            }
+          },
+          "medieval:crossbow_left": {
+            "add": {
+              "component_groups": [
+                "medieval:crossbow_left"
+              ]
+            }
+          },
+          "medieval:handsaw_left": {
+            "add": {
+              "component_groups": [
+                "medieval:handsaw_left"
+              ]
+            }
+          },
+          "medieval:no_weapon_right": {
+            "add": {
+              "component_groups": [
+                "medieval:right_default"
+              ]
+            }
+          },
+			"medieval:wood_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_sword_right"
+              ]
+            }
+          },
+          "medieval:stone_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_sword_right"
+              ]
+            }
+          },
+          "medieval:gold_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_sword_right"
+              ]
+            }
+          },
+          "medieval:iron_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_sword_right"
+              ]
+            }
+          },
+          "medieval:diamond_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_sword_right"
+              ]
+            }
+          },
+          "medieval:netherite_sword_right": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_sword_right"
+              ]
+            }
+          },
+          "medieval:wood_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_axe_right"
+              ]
+            }
+          },
+          "medieval:stone_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_axe_right"
+              ]
+            }
+          },
+          "medieval:gold_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_axe_right"
+              ]
+            }
+          },
+          "medieval:iron_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_axe_right"
+              ]
+            }
+          },
+          "medieval:diamond_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_axe_right"
+              ]
+            }
+          },
+          "medieval:netherite_axe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_axe_right"
+              ]
+            }
+          },
+          "medieval:wood_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:stone_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:gold_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:iron_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:diamond_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:netherite_pickaxe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_pickaxe_right"
+              ]
+            }
+          },
+          "medieval:wood_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_hoe_right"
+              ]
+            }
+          },
+          "medieval:stone_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_hoe_right"
+              ]
+            }
+          },
+          "medieval:gold_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_hoe_right"
+              ]
+            }
+          },
+          "medieval:iron_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_hoe_right"
+              ]
+            }
+          },
+          "medieval:diamond_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_hoe_right"
+              ]
+            }
+          },
+          "medieval:netherite_hoe_right": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_hoe_right"
+              ]
+            }
+          },
+          "medieval:wood_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:wood_shovel_right"
+              ]
+            }
+          },
+          "medieval:stone_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:stone_shovel_right"
+              ]
+            }
+          },
+          "medieval:gold_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:gold_shovel_right"
+              ]
+            }
+          },
+          "medieval:iron_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:iron_shovel_right"
+              ]
+            }
+          },
+          "medieval:diamond_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:diamond_shovel_right"
+              ]
+            }
+          },
+          "medieval:netherite_shovel_right": {
+            "add": {
+              "component_groups": [
+                "medieval:netherite_shovel_right"
+              ]
+            }
+          },
+          "medieval:trident_right": {
+            "add": {
+              "component_groups": [
+                "medieval:trident_right"
+              ]
+            }
+          },
+          "medieval:shield_right": {
+            "add": {
+              "component_groups": [
+                "medieval:shield_right"
+              ]
+            }
+          },
+          "medieval:bow_right": {
+            "add": {
+              "component_groups": [
+                "medieval:bow_right"
+              ]
+            }
+          },
+          "medieval:crossbow_right": {
+            "add": {
+              "component_groups": [
+                "medieval:crossbow_right"
+              ]
+            }
+          },
+          "medieval:handsaw_right": {
+            "add": {
+              "component_groups": [
+                "medieval:handsaw_right"
+              ]
+            }
+          },
+			"medieval:no_particle": {
+				"add": {
+					"component_groups": [
+						"medieval:no_particle"
+					]
+				}
+			}
+    }
+  }
+}

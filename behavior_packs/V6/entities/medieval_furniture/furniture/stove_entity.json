@@ -1,0 +1,122 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:stove_entity",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"property:cooking_top": {"type": "bool","default": false,"client_sync": false},
+				"property:cooking_middle": {"type": "bool","default": false,"client_sync": false},
+				"property:cooking_bottom": {"type": "bool","default": false,"client_sync": false},
+				"property:stove_on": {"type": "bool","default": false,"client_sync": false}
+			},
+			"scripts": {
+				"animate": [
+					{"start_cooking_item_top": "query.property('property:cooking_top') == true"},
+					{"start_cooking_item_middle": "query.property('property:cooking_middle') == true"},
+					{"start_cooking_item_bottom": "query.property('property:cooking_bottom') == true"},
+					"cooking_top",
+					"cooking_middle",
+					"cooking_bottom"
+				]
+			},
+			"animations": {
+				"start_cooking_item_top": "animation.start_cooking_item_top",
+				"start_cooking_item_middle": "animation.start_cooking_item_middle",
+				"start_cooking_item_bottom": "animation.start_cooking_item_bottom",
+				"cooking_top":"controller.animation.cooking_top",
+				"cooking_middle":"controller.animation.cooking_middle",
+				"cooking_bottom":"controller.animation.cooking_bottom"
+			}
+		},
+		"component_groups": {			
+			"medieval:despawn": {"minecraft:instant_despawn": {}},
+			"medieval:no_particle": {"minecraft:transformation": {"delay": 0,"into": "medieval:entity_despawned"}}
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family":{
+				"family":[ "inanimate", "player"]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 6,
+				"can_be_siphoned_from": false,
+				"container_type": "container"
+			},
+			"minecraft:is_chested":{},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:equip_item": {},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.7
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{"block": {"name": "minecraft:air"},"entered_block_event": {"event": "medieval:despawn","target": "self"}}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"medieval:despawn": {"run_command": {"command": ["kill @s","kill @e[type=item,name=chest,c=1,r=2]"]}},
+			"minecraft:entity_spawned": {},
+
+			"medieval:stove_on": {"set_property": {
+				"property:stove_on": true
+			}},
+			"medieval:stove_off": {"set_property": {
+				"property:stove_on": false
+			}},
+
+			"medieval:start_cooking_top": {"set_property": {
+				"property:cooking_top": true
+			}},
+			"medieval:stop_cooking_top": {"set_property": {
+				"property:cooking_top": false
+			}},
+			"medieval:start_cooking_middle": {"set_property": {
+				"property:cooking_middle": true
+			}},
+			"medieval:stop_cooking_middle": {"set_property": {
+				"property:cooking_middle": false
+			}},
+			"medieval:start_cooking_bottom": {"set_property": {
+				"property:cooking_bottom": true
+			}},
+			"medieval:stop_cooking_bottom": {"set_property": {
+				"property:cooking_bottom": false
+			}},
+
+			"medieval:no_particle": {"add": {"component_groups": ["medieval:no_particle"]}}
+		}
+	}
+}

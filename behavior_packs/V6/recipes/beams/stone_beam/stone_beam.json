@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stone_beam"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"#  "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stone",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stone_beam",
+			"count": 6
+		}
+	}
+}

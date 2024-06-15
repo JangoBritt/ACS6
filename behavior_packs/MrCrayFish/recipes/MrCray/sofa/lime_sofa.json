@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:lime_sofa_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:lime_wool"
+			},
+			"A": {
+				"item": "minecraft:stripped_spruce_log"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:lime_wool"},
+			{"item": "minecraft:stripped_spruce_log"}
+		],
+		"result": {
+			"item": "mr:lime_sofa_mr",
+			"count": 2
+		}
+	}
+}

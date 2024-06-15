@@ -1,0 +1,28 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_x_ruin_small_caves_05"
+    },
+    "structure_name": "mystructure:ruin_small_caves_05",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:water",
+          "minecraft:flowing_water",
+          "minecraft:lava",
+          "minecraft:flowing_lava",
+          "minecraft:glow_lichen",
+          "minecraft:sculk_vein",
+          "minecraft:moss_carpet",
+          "minecraft:tallgrass",
+          "minecraft:vine"
+        ]
+      }
+    }
+  }
+}

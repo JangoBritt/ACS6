@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_wood_flower_stand_side"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AB",
+			"BC",
+			"CA"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:flower_pot"
+			},
+			"A": {
+				"item": "medieval:darkoak_wood_post"
+			},
+			"C": {
+				"item": "medieval:darkoak_wood_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "medieval:darkoak_wood_flower_stand_side",
+			"count": 1
+		}
+	}
+}

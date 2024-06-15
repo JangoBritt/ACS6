@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_box2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:darkoak_wood_post"
+			},
+			"C": {
+				"item": "minecraft:planks",
+				"data": 5
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "medieval:darkoak_box2",
+			"count": 2
+		}
+	}
+}

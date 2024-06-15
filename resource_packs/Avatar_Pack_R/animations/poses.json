@@ -1,0 +1,2364 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.athos_avatars.default": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sneak1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -2,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -25,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -5.7,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -5.7,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -28,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -28,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "waist": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        28,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        1.25,
+                        9
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sneak2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        17.5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        -2
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -12.5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -2,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        22.5,
+                        -7.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -40,
+                        10,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -22.5,
+                        2.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        15,
+                        -7.5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "waist": {
+                    "position": [
+                        0,
+                        -1,
+                        -1
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.stand1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -5,
+                        0,
+                        -2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -7.5,
+                        0,
+                        7.5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        2.5,
+                        5,
+                        -7.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        2.5,
+                        5,
+                        5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        2.5,
+                        -5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.stand2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        -2.5,
+                        5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        10,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        2.5,
+                        -2.5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.walk1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        5,
+                        -2.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -0.25,
+                        -1.25
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -5,
+                        -2.5,
+                        -2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        20,
+                        -5,
+                        2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -25,
+                        5,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -17.5,
+                        2.5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        15,
+                        -2.5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.walk2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        5,
+                        7.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -0.25,
+                        -1.25
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        -5,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -30,
+                        -5,
+                        2.5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        22.5,
+                        5,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        12.5,
+                        2.5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -17.5,
+                        -2.5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.run1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        15,
+                        -5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -3
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -7.5,
+                        -5,
+                        2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -65,
+                        0,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        35,
+                        5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        50,
+                        2.5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -40,
+                        -5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.run2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        35,
+                        -2.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -2,
+                        -6
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -25,
+                        0,
+                        2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        52.5,
+                        0,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        1
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -80,
+                        5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -37.5,
+                        2.5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        60,
+                        -5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sit1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -7,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        5,
+                        0,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -17.5,
+                        5,
+                        5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -7.5,
+                        -10,
+                        -7.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -87.5,
+                        17.5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        -8,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -87.5,
+                        -17.5,
+                        2.5
+                    ],
+                    "position": [
+                        0,
+                        -8,
+                        0
+                    ]
+                },
+                "root": {
+                    "position": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sit2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        2.5,
+                        15,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        -8,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        7.5,
+                        -7.5,
+                        2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -92.5,
+                        -15,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -90,
+                        12.5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -87.5,
+                        17.5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        -10,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -87.5,
+                        -17.5,
+                        2.5
+                    ],
+                    "position": [
+                        0,
+                        -10,
+                        0
+                    ]
+                },
+                "root": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sleep1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        2.5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        -2.5
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        -90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        -16
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.sleep2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        45,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        5,
+                        5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        -5,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        5,
+                        5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        -5,
+                        -5
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        -90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        -16
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.dead1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -1,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -5,
+                        20,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        10,
+                        60
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        -10,
+                        -80
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        10,
+                        10
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        5,
+                        -30
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        -90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        -16
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.dead2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -1,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -20,
+                        40,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        10,
+                        120
+                    ],
+                    "position": [
+                        -1,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        -10,
+                        -100
+                    ],
+                    "position": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        5,
+                        10,
+                        20
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        2,
+                        -5,
+                        -50
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        -90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        -16
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.point1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        2.5,
+                        -2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -87.5,
+                        -2.5,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        0.4,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        5,
+                        10,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -2.5,
+                        5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        2.5,
+                        -2.5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.point2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        5,
+                        -2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -110,
+                        0,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        -0.6,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        15,
+                        10,
+                        -7.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        7.5,
+                        5,
+                        2.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -2.5,
+                        -2.5,
+                        -2.5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.wave1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -2.5,
+                        2.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -2.5,
+                        0,
+                        2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -147.15419,
+                        -8.57942,
+                        -26.23653
+                    ],
+                    "position": [
+                        -1,
+                        3,
+                        -1
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        7.5,
+                        7.5,
+                        -7.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        7.5,
+                        5,
+                        5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        2.5,
+                        -5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.wave2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        1,
+                        -2.5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -0.8
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -2.5,
+                        0,
+                        -2.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        15
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -5,
+                        -2.5,
+                        -145
+                    ],
+                    "position": [
+                        1.8,
+                        1.6,
+                        -0.4
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -2.5,
+                        5,
+                        5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        2.5,
+                        -5
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.dive1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        -5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -55,
+                        0,
+                        -5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        5,
+                        -2.5,
+                        140
+                    ],
+                    "position": [
+                        -2,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        10,
+                        -145
+                    ],
+                    "position": [
+                        2,
+                        1,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        25,
+                        17.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        7.5,
+                        -17.5,
+                        -5
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        50,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        12
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.dive2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -70,
+                        0,
+                        -5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        12.5,
+                        12.5,
+                        45
+                    ],
+                    "position": [
+                        0,
+                        -3,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        25,
+                        -155
+                    ],
+                    "position": [
+                        2,
+                        2,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        7.5,
+                        12.5,
+                        17.5
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        15,
+                        -10,
+                        -17.5
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        67.5,
+                        0,
+                        20
+                    ],
+                    "position": [
+                        0,
+                        2,
+                        12
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.float1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -19,
+                        9.5,
+                        4.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -106,
+                        67,
+                        -34
+                    ],
+                    "position": [
+                        0,
+                        0.4,
+                        -1
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -6.5,
+                        4.8,
+                        -68
+                    ],
+                    "position": [
+                        0,
+                        -1,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        10,
+                        7.4,
+                        21
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        3.5,
+                        -19.5,
+                        -8.5
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        -22.5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        5,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.float2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        30,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        23.5,
+                        2,
+                        4.5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -111,
+                        19.5,
+                        11
+                    ],
+                    "position": [
+                        0,
+                        0.4,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -94,
+                        -17.7,
+                        2
+                    ],
+                    "position": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -60,
+                        7.4,
+                        21
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        3
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -31.5,
+                        -19.5,
+                        -3.5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        4
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        5,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.facepalm": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        25,
+                        0,
+                        -2.5
+                    ],
+                    "position": [
+                        -0.5,
+                        -1.3,
+                        -4
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        12.5,
+                        0,
+                        -5
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -140,
+                        -47.5,
+                        -5
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -2
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -10,
+                        32.5,
+                        10
+                    ],
+                    "position": [
+                        1,
+                        1,
+                        -1
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -5,
+                        5,
+                        5
+                    ],
+                    "position": [
+                        0,
+                        -0.6,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        2.5,
+                        -2.5,
+                        -2.5
+                    ],
+                    "position": [
+                        0,
+                        -0.5,
+                        0
+                    ]
+                },
+                "waist": {
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "staff": {
+                    "position": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "gun": {
+                    "rotation": [
+                        2.5,
+                        0,
+                        -12.5
+                    ],
+                    "position": [
+                        -0.6,
+                        22.65,
+                        -16
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.heap1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        4,
+                        15,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -2
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -5,
+                        92.5,
+                        10
+                    ],
+                    "position": [
+                        -2,
+                        0,
+                        3
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -4.97133,
+                        -6.74365,
+                        148.42388
+                    ],
+                    "position": [
+                        -2,
+                        1,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        5,
+                        -12.5,
+                        -105
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -15,
+                        10,
+                        10
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -2.5,
+                        5,
+                        -30
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        4,
+                        14
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.heap2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        16.5,
+                        -10,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        -5,
+                        -20,
+                        10
+                    ],
+                    "position": [
+                        -2,
+                        0,
+                        1
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        15.02867,
+                        -31.74365,
+                        113.42388
+                    ],
+                    "position": [
+                        -2,
+                        1,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -32.23782,
+                        19.35349,
+                        -103.94774
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -25,
+                        10,
+                        10
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        3
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -30,
+                        5,
+                        -30
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        3
+                    ]
+                },
+                "root": {
+                    "rotation": [
+                        90,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        4,
+                        14
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.surprise1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -2.5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        1.5
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        5,
+                        -5,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -82.5,
+                        87.5,
+                        35
+                    ],
+                    "position": [
+                        0,
+                        1,
+                        -0.5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        -85,
+                        -70,
+                        -25
+                    ],
+                    "position": [
+                        0.9,
+                        0.7,
+                        -1.2
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        -10,
+                        5,
+                        16
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        -7.5,
+                        -2.5,
+                        -19.5
+                    ]
+                },
+                "waist": {
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "staff": {
+                    "position": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.surprise2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        -2.5,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        1.5
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        5,
+                        -5,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0.5,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        -82.5,
+                        87.5,
+                        -52.5
+                    ],
+                    "position": [
+                        -1.2,
+                        0,
+                        -0.5
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        -70,
+                        -25
+                    ],
+                    "position": [
+                        0.8,
+                        -0.3,
+                        -1.2
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        5,
+                        6
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        2.5,
+                        -2.5,
+                        -12
+                    ]
+                },
+                "waist": {
+                    "position": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "staff": {
+                    "position": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.blank1": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.blank2": {
+            "loop": true,
+            "bones": {
+                "body": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightSleeve": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftArm": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "rightLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "leftLeg": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        }
+    }
+}

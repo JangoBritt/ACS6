@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_wood_cabinet_tall"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:birch_wood_cupboard"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:birch_wood_cabinet_tall",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_painting:painting_collab",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"marco": "textures/entity/marco_3x2",
+				"cuadro1": "textures/cuadro3x2/3x2_collab"
+			},
+			"geometry": {
+				"marco": "geometry.marco3x2",
+				"cuadro": "geometry.cuadro3x2"
+			},
+			"render_controllers": [
+				"controller.render.marco",
+				"controller.render.cuadro"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"norte": "animation.cuadro.norte",
+				"sur": "animation.cuadro.sur",
+				"este": "animation.cuadro.este",
+				"oeste": "animation.cuadro.oeste",
+				"scale0": "animation.cuadro.scale0",
+				"scale1": "animation.cuadro.scale1",
+				"scale2": "animation.cuadro.scale2"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"norte": "query.property('athos_painting:rotation')==0"
+					},
+					{
+						"sur": "query.property('athos_painting:rotation')==1"
+					},
+					{
+						"este": "query.property('athos_painting:rotation')==2"
+					},
+					{
+						"oeste": "query.property('athos_painting:rotation')==3"
+					},
+					{
+						"scale0": "query.property('athos_painting:scale')==0"
+					},
+					{
+						"scale1": "query.property('athos_painting:scale')==1"
+					}
+				]
+			}
+		}
+	}
+}

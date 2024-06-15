@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:tatami_mat"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "farmersdelight:tatami"
+            }
+        },
+        "result": {
+            "item": "farmersdelight:tatami_mat",
+            "count": 2
+        }
+    }
+}

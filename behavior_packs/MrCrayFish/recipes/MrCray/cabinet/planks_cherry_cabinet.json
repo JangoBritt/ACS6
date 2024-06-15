@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:planks_cherry_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_log"
+			},
+			"A": {
+				"item": "minecraft:cherry_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:cherry_log"},
+			{"item": "minecraft:cherry_planks"}
+		],
+		"result": {
+			"item": "mr:planks_cherry_cabinet_mr",
+			"count": 2
+		}
+	}
+}

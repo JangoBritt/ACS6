@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_box2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:stripped_spruce_post"
+			},
+			"C": {
+				"item": "minecraft:planks",
+				"data": 1
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:stripped_spruce_box2",
+			"count": 2
+		}
+	}
+}

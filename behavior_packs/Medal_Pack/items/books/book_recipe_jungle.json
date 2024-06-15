@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_misc:jungle_book",
+			"menu_category": {
+				"category": "items",
+				"group": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+                    "minecraft:bookshelf_books"
+                ]
+            },
+			"minecraft:icon": {
+				"textures": {
+					"default": "jungle_book"
+				}
+			},
+			"minecraft:fuel": {
+				"duration": 5
+			},
+			"minecraft:display_name": {
+				"value": "§lThe Jungle Book§r§f\nNot by Rudyard Kipling"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": 0,
+				"can_always_eat": true
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 1,
+				"use_duration": 8
+			},
+			"minecraft:use_animation": "none"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+   "num_mip_levels" : 4,
+   "padding" : 8,
+   "resource_pack_name" : "vanilla",
+   "texture_data" : {
+      "glass_connected" : {
+         "textures" : "textures/blocks/connected_glass"
+      },
+      "stained_glass_connected" : {
+         "textures" : [
+            "textures/blocks/connected_glass_white",
+            "textures/blocks/connected_glass_orange",
+            "textures/blocks/connected_glass_magenta",
+            "textures/blocks/connected_glass_light_blue",
+            "textures/blocks/connected_glass_yellow",
+            "textures/blocks/connected_glass_lime",
+            "textures/blocks/connected_glass_pink",
+            "textures/blocks/connected_glass_gray",
+            "textures/blocks/connected_glass_silver",
+            "textures/blocks/connected_glass_cyan",
+            "textures/blocks/connected_glass_purple",
+            "textures/blocks/connected_glass_blue",
+            "textures/blocks/connected_glass_brown",
+            "textures/blocks/connected_glass_green",
+            "textures/blocks/connected_glass_red",
+            "textures/blocks/connected_glass_black"
+         ]
+      }
+   },
+   "texture_name" : "atlas.terrain"
+}

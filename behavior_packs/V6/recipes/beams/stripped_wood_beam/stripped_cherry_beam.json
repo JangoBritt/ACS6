@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_cherry_beam"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"#  "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_cherry_log",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_cherry_beam",
+			"count": 6
+		}
+	}
+}

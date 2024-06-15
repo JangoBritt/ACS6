@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_wood_gate0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A#A",
+			"A#A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:crimson_wood_beam_left_inclined"
+			},
+			"A": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:crimson_wood_gate0",
+			"count": 1
+		}
+	}
+}

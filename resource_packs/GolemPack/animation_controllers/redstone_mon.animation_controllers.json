@@ -1,0 +1,54 @@
+
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.redstone_mon.attack": {
+			"initial_state": "default",
+			"states": {
+				"attack": {
+					"animations": [
+						"attacking"
+					],
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0.0"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attack_time > 0.0"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		},
+		"controller.animation.redstone_mon.walk": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		},
+		"controller.animation.redstone_mon.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"redstone_mon.general"
+					],
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

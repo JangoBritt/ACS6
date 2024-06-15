@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+	  "rolls": 1,
+	  "entries": [
+	    {
+		  "type": "item",
+		  "name": "medieval:beer_mug_empty_item",
+		  "weight": 1
+		}
+	  ]
+	}
+  ]
+}

@@ -1,0 +1,2168 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.couch_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 0], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -7],
+							"size": [12, 4, 11],
+							"uv": {
+								"north": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 6.5], "uv_size": [3, 2.75], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, 4],
+							"size": [12, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 8.5], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 6.75], "uv_size": [-3, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [12, 2, 1],
+							"uv": {
+								"north": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "wool_carpet"},
+								"south": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [2, 9.25], "uv_size": [3, 0.25], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [14, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, 6],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [14, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [2, 15, 12],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.5, 6], "uv_size": [0.5, 3], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-0.5, -3], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-4, 4, -6],
+							"size": [11, 4, 12],
+							"uv": {
+								"north": {"uv": [2.5, 7.5], "uv_size": [2.75, 1], "material_instance": "pillow"},
+								"east": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 7.5], "uv_size": [2.75, 1], "material_instance": "pillow"},
+								"west": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"up": {"uv": [4.5, 9], "uv_size": [-2.75, -3], "material_instance": "pillow"},
+								"down": {"uv": [4.5, 9], "uv_size": [-2.75, -3], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [7, 4, -6],
+							"size": [1, 2, 12],
+							"uv": {
+								"north": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 9], "uv_size": [-0.25, -3], "material_instance": "pillow"},
+								"down": {"uv": [1.75, 8.5], "uv_size": [-0.25, -3], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 2], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [12, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.75], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.5], "uv_size": [-3, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -4],
+							"size": [12, 4, 11],
+							"uv": {
+								"north": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 6.5], "uv_size": [3, 2.75], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, 7],
+							"size": [12, 2, 1],
+							"uv": {
+								"south": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [2, 9.25], "uv_size": [3, 0.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [6, 4, -6],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 2], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [2, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -6],
+							"size": [2, 15, 12],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [3, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 6], "uv_size": [0.5, 3], "material_instance": "pillow"},
+								"down": {"uv": [2.5, 9], "uv_size": [-0.5, -3], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7, 4, -6],
+							"size": [11, 4, 12],
+							"uv": {
+								"north": {"uv": [2.5, 7.5], "uv_size": [2.75, 1], "material_instance": "pillow"},
+								"east": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 7.5], "uv_size": [2.75, 1], "material_instance": "pillow"},
+								"west": {"uv": [2, 7.5], "uv_size": [3, 1], "material_instance": "pillow"},
+								"up": {"uv": [5.25, 9], "uv_size": [-2.75, -3], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 9], "uv_size": [-2.75, -3], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [1, 2, 12],
+							"uv": {
+								"north": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [2, 8], "uv_size": [3, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [5.5, 8.5], "uv_size": [-0.25, -3], "material_instance": "pillow"},
+								"down": {"uv": [1.75, 8.5], "uv_size": [-0.25, -3], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_corner_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 16, 14],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -7.5],
+							"size": [2, 15, 11.5],
+							"uv": {
+								"north": {"uv": [4.25, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.75], "uv_size": [0.5, 2.875], "material_instance": "pillow"},
+								"down": {"uv": [2.5, 9.125], "uv_size": [-0.5, -2.875], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, 4],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [4.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 8.5], "uv_size": [3.375, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.375, 6.75], "uv_size": [-3.375, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [14, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.5], "uv_size": [3.5, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-3.5, -3.5], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_corner_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -6],
+							"size": [2, 16, 14],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 2], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -4],
+							"size": [2, 15, 11.5],
+							"uv": {
+								"north": {"uv": [4.25, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 6.5], "uv_size": [0.5, 2.875], "material_instance": "pillow"},
+								"down": {"uv": [2.5, 8.375], "uv_size": [-0.5, -2.875], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, -6],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [4.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 6.25], "uv_size": [3.375, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.375, 9], "uv_size": [-3.375, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [14, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 6], "uv_size": [3.5, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-3.5, -3.5], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_corner_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [2, 16, 14],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 2], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -4],
+							"size": [2, 15, 11.5],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [4.25, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.25, 6.5], "uv_size": [0.5, 2.875], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 8.375], "uv_size": [-0.5, -2.875], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [4.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 6.25], "uv_size": [3.375, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.375, 9], "uv_size": [-3.375, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [14, 4, 14],
+							"uv": {
+								"north": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 6], "uv_size": [3.5, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.5, -3.5], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_corner_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 3.67213], "uv_size": [0.78689, 0.52459], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 3.67213], "uv_size": [0.78689, 0.52459], "material_instance": "stripped_wood"},
+								"south": {"uv": [3.40984, 3.67213], "uv_size": [0.78689, 0.52459], "material_instance": "stripped_wood"},
+								"west": {"uv": [3.40984, 3.67213], "uv_size": [0.78689, 0.52459], "material_instance": "stripped_wood"},
+								"down": {"uv": [3.40984, 0.78689], "uv_size": [0.78689, -0.78689], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 16, 14],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [14, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 0], "uv_size": [2, 14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -7.5],
+							"size": [2, 15, 11.5],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [4.25, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [2, 5.75], "uv_size": [2.875, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.25, 5.5], "uv_size": [0.5, 2.875], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 9.375], "uv_size": [-0.5, -2.875], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, 4],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [3.375, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [4.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [2, 8.5], "uv_size": [3.375, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.375, 6.75], "uv_size": [-3.375, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [14, 4, 14],
+							"uv": {
+								"north": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [2, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.5], "uv_size": [3.5, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.5], "uv_size": [-3.5, -3.5], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_large_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, -6],
+							"size": [15, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 6.25], "uv_size": [3.75, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-3.75, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [16, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 6], "uv_size": [4, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9.25], "uv_size": [-4, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, 7],
+							"size": [16, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 8.5], "uv_size": [4, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 8], "uv_size": [-4, -0.25], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_large_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -7.5],
+							"size": [2, 15, 15],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"down": {"uv": [2.25, 9.5], "uv_size": [-0.5, -3.75], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7, 4, -8],
+							"size": [13, 4, 16],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.5], "uv_size": [3.25, 4], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 9.5], "uv_size": [-3.25, -4], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [1, 2, 16],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [5.25, 5.5], "uv_size": [0.25, 4], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9.5], "uv_size": [-0.25, -4], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_large_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, 4],
+							"size": [15, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 8.5], "uv_size": [3.75, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 6.75], "uv_size": [-3.75, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -7],
+							"size": [16, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.75], "uv_size": [4, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-4, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 7.75], "uv_size": [4, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 8.75], "uv_size": [-4, -0.25], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_large_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -7.5],
+							"size": [2, 15, 15],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.75, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.5], "uv_size": [-0.5, -3.75], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [13, 4, 16],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [4, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.5], "uv_size": [3.25, 4], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.5], "uv_size": [-3.25, -4], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [7, 4, -8],
+							"size": [1, 2, 16],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.25, 8], "uv_size": [4, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.5], "uv_size": [0.25, 4], "material_instance": "pillow"},
+								"down": {"uv": [1.75, 9.5], "uv_size": [-0.25, -4], "material_instance": "pillow"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_left_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, 4],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 8.5], "uv_size": [3.25, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 6.75], "uv_size": [-3.25, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -7],
+							"size": [14, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.75], "uv_size": [3.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [14, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 7.75], "uv_size": [3.5, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 8.75], "uv_size": [-3.5, -0.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_left_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -7.5],
+							"size": [2, 15, 13.5],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [2.25, 9], "uv_size": [-0.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7, 4, -8],
+							"size": [13, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.5], "uv_size": [3.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 9], "uv_size": [-3.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [1, 2, 14],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [5.25, 5.5], "uv_size": [0.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-0.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_left_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, -6],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 6.25], "uv_size": [3.25, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.25, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [14, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 6], "uv_size": [3.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.25], "uv_size": [-3.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, 7],
+							"size": [14, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 8.5], "uv_size": [3.5, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 8], "uv_size": [-3.5, -0.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [6, 4, -6],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [2, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_left_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [2, 15, 13.5],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-0.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [13, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.5], "uv_size": [3.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [14, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [7, 4, -6],
+							"size": [1, 2, 14],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.5], "uv_size": [0.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [1.75, 9], "uv_size": [-0.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_right_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, 6],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 14], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-7.5, 4, 4],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 8.5], "uv_size": [3.25, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 6.75], "uv_size": [-3.25, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -7],
+							"size": [14, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.75], "uv_size": [3.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [14, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 7.75], "uv_size": [3.5, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 8.75], "uv_size": [-3.5, -0.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [2, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_right_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [6, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [2, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [4, 4, -6],
+							"size": [2, 15, 13.5],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [2.25, 9], "uv_size": [-0.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-7, 4, -6],
+							"size": [13, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [2, 5.5], "uv_size": [3.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.25, 9], "uv_size": [-3.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [1, 2, 14],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [5.25, 5.5], "uv_size": [0.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5.5, 9], "uv_size": [-0.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_right_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [13.5, 15, 2],
+							"uv": {
+								"north": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 6.25], "uv_size": [3.25, 0.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.25, -0.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -6],
+							"size": [14, 4, 13],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"south": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"west": {"uv": [2.25, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 6], "uv_size": [3.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9.25], "uv_size": [-3.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, 7],
+							"size": [14, 2, 1],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [5, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.25, 8.5], "uv_size": [3.5, 0.25], "material_instance": "pillow"},
+								"down": {"uv": [4.75, 8], "uv_size": [-3.5, -0.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-8, 4, -6],
+							"size": [2, 7, 14],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [16, 16], "uv_size": [-2, -14], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 14], "uv_size": [-2, -14], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 16], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.couch_right_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 12], "uv_size": [16, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 16], "uv_size": [16, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [2, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"south": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 0], "uv_size": [2, 16], "material_instance": "stripped_wood"},
+								"down": {"uv": [16, 16], "uv_size": [-2, -16], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-6, 4, -7.5],
+							"size": [2, 15, 13.5],
+							"uv": {
+								"north": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"east": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"south": {"uv": [2, 5.75], "uv_size": [0.5, 3.75], "material_instance": "pillow"},
+								"west": {"uv": [1.75, 5.75], "uv_size": [3.25, 3.75], "material_instance": "pillow"},
+								"up": {"uv": [4.5, 5.75], "uv_size": [0.5, 3.25], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-0.5, -3.25], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, -8],
+							"size": [13, 4, 14],
+							"uv": {
+								"north": {"uv": [1.5, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"south": {"uv": [2, 7.5], "uv_size": [3.25, 1], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 7.5], "uv_size": [3.5, 1], "material_instance": "pillow"},
+								"up": {"uv": [1.75, 5.5], "uv_size": [3.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [5, 9], "uv_size": [-3.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [7, 4, -8],
+							"size": [1, 2, 14],
+							"uv": {
+								"north": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"east": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"south": {"uv": [1.25, 8], "uv_size": [0.25, 0.5], "material_instance": "pillow"},
+								"west": {"uv": [1.5, 8], "uv_size": [3.5, 0.5], "material_instance": "pillow"},
+								"up": {"uv": [1.5, 5.5], "uv_size": [0.25, 3.5], "material_instance": "pillow"},
+								"down": {"uv": [1.75, 9], "uv_size": [-0.25, -3.5], "material_instance": "pillow"}
+							}
+						},
+						{
+							"origin": [-6, 4, 6],
+							"size": [14, 7, 2],
+							"uv": {
+								"north": {"uv": [2, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 5], "uv_size": [14, 7], "material_instance": "stripped_wood"},
+								"west": {"uv": [14, 5], "uv_size": [2, 7], "material_instance": "stripped_wood"},
+								"up": {"uv": [14, 16], "uv_size": [-14, -2], "material_instance": "stripped_wood"},
+								"down": {"uv": [14, 2], "uv_size": [-14, -2], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [0, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"east": {"uv": [0, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"south": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"west": {"uv": [13, 14], "uv_size": [3, 2], "material_instance": "stripped_wood"},
+								"down": {"uv": [13, 3], "uv_size": [3, -3], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

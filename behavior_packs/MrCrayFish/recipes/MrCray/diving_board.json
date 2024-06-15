@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:diving_board_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"SSS",
+			"G  "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:white_concrete"
+			},
+			"S": {
+				"item": "minecraft:slime_ball"
+			},
+			"G": {
+				"item": "minecraft:gray_concrete"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:slime_ball"},
+			{"item": "minecraft:gray_concrete"}
+		],
+		"result": {
+			"item": "mr:diving_board_mr",
+			"count": 1
+		}
+	}
+}

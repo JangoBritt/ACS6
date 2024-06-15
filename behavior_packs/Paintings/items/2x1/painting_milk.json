@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_painting:painting_milk",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "s_painting_spartan"
+			},
+			"minecraft:block_placer": {
+				"block": "athos_painting:block_milk"
+			}
+		}
+	}
+}

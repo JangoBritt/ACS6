@@ -1,0 +1,81 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Mobs Drops
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/plants.json"
+        }
+      ]
+    },
+    // Tools
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/tools.json"
+        }
+      ]
+    },
+    // Enchanted Books
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/enchanted_book.json"
+        }
+      ]
+    },
+    // Lingering Potions
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/lingering_potions.json"
+        }
+      ]
+    },
+    // Arrows
+    {
+      "rolls": 18,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/arrows.json"
+        }
+      ]
+    },
+    // Bows & Crossbows
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/bows_crossbows.json"
+        }
+      ]
+    }
+  ]
+}

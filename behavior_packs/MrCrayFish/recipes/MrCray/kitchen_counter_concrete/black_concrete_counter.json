@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:black_concrete_counter_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:black_concrete"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:black_concrete"},
+			{"item": "minecraft:white_concrete"}
+		],
+		"result": {
+			"item": "mr:black_concrete_counter_mr",
+			"count": 9
+		}
+	}
+}

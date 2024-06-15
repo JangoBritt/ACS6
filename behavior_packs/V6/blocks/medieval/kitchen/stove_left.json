@@ -1,0 +1,93 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stove_left",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.cookieJar",
+                "is_hidden_in_commands": false
+            },
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:stove_on": [false,true],
+				"medieval:placed":[false,true],
+				"medieval:log": {"values":{"min":0,"max":15}}
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,0,0] },"tag:m.stove_left_south":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,180,0] },"tag:m.stove_left_north":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] },"tag:m.stove_left_east":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] },"tag:m.stove_left_west":{}}},
+			{"condition": "q.block_state('medieval:stove_on') == false && q.block_state('medieval:placed')","components": {"minecraft:material_instances": {"*": {"texture": "m.stove","render_method": "alpha_test","ambient_occlusion": false},"coal_lit": {"texture": "m.stove_coal","render_method": "alpha_test","ambient_occlusion": false},"fire": {"texture": "campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_state('medieval:stove_on')","components": {"minecraft:random_ticking": {"on_tick": {"event": "consume_coal"}},"minecraft:light_emission": 15,"tag:m.stove_on":{}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.stove",
+				"bone_visibility": {
+					"root": "q.block_state('medieval:placed')",
+					"log": "q.block_state('medieval:log') > 0 && q.block_state('medieval:placed')",
+					"fire": "q.block_state('medieval:stove_on') && q.block_state('medieval:placed')",
+					"item": "!q.block_state('medieval:placed')"
+				}
+			},
+			"minecraft:on_placed": {"event": "set_block"},
+			"minecraft:on_interact": {"event": "add_coal"},
+			"minecraft:material_instances": {"*": {"texture": "m.stove","render_method": "alpha_test","ambient_occlusion": false},"coal_lit": {"texture": "m.coal_lit","render_method": "alpha_test","ambient_occlusion": false},"fire": {"texture": "campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [2,2],"looping": true},
+			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
+			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#24abab"
+		},
+		"events": {
+			"set_block": {
+				"sequence": [
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('medieval:placed')","run_command": {"command": ["setblock ~1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"north\"] keep","summon medieval:stove_entity ~0.5 ~-0.5 ~ ~~ minecraft:entity_spawned Stove"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('medieval:placed')","run_command": {"command": ["setblock ~-1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"south\"] keep","summon medieval:stove_entity ~-0.5 ~-0.5 ~ ~~ minecraft:entity_spawned Stove"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('medieval:placed')","run_command": {"command": ["setblock ~ ~ ~1 medieval:stove_right[\"medieval:direction\"= \"east\"] keep","summon medieval:stove_entity ~ ~-0.5 ~0.5 ~~ minecraft:entity_spawned Stove"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('medieval:placed')","run_command": {"command": ["setblock ~ ~ ~-1 medieval:stove_right[\"medieval:direction\"= \"west\"] keep","summon medieval:stove_entity ~ ~-0.5 ~-0.5 ~~ minecraft:entity_spawned Stove"]}},
+
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('medieval:stove_on')","run_command": {"command": ["setblock ~1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"north\",\"medieval:stove_on\"= true] replace","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=1,z=~,dz=0] medieval:stove_on"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('medieval:stove_on')","run_command": {"command": ["setblock ~-1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"south\",\"medieval:stove_on\"= true] replace","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=-1,z=~,dz=0] medieval:stove_on"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('medieval:stove_on')","run_command": {"command": ["setblock ~ ~ ~1 medieval:stove_right[\"medieval:direction\"= \"east\",\"medieval:stove_on\"= true] replace","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=0,z=~,dz=1] medieval:stove_on"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('medieval:stove_on')","run_command": {"command": ["setblock ~ ~ ~-1 medieval:stove_right[\"medieval:direction\"= \"west\",\"medieval:stove_on\"= true] replace","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=0,z=~,dz=-1] medieval:stove_on"]}},
+
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('medieval:stove_on') && q.block_neighbor_has_any_tag(1,0,0,'m.stove_north')","run_command": {"command": ["setblock ~1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"north\",\"medieval:stove_on\"= false]","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=1,z=~,dz=0] medieval:stove_off"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('medieval:stove_on') && q.block_neighbor_has_any_tag(-1,0,0,'m.stove_south')","run_command": {"command": ["setblock ~-1 ~ ~ medieval:stove_right[\"medieval:direction\"= \"south\",\"medieval:stove_on\"= false]","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=-1,z=~,dz=0] medieval:stove_off"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('medieval:stove_on') && q.block_neighbor_has_any_tag(0,0,1,'m.stove_east')","run_command": {"command": ["setblock ~ ~ ~1 medieval:stove_right[\"medieval:direction\"= \"east\",\"medieval:stove_on\"= false]","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=0,z=~,dz=1] medieval:stove_off"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('medieval:stove_on') && q.block_neighbor_has_any_tag(0,0,-1,'m.stove_west')","run_command": {"command": ["setblock ~ ~ ~-1 medieval:stove_right[\"medieval:direction\"= \"west\",\"medieval:stove_on\"= false]","event entity @e[type=medieval:stove_entity,c=1,x=~,dx=0,z=~,dz=-1] medieval:stove_off"]}},
+
+					{"condition": "q.block_state('medieval:log') == 0","set_block_state": {"medieval:stove_on": false}},
+					{"set_block_state": {"medieval:placed": true}}
+				]
+			},
+			"update": {
+				"sequence": [
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(1,0,0,'m.stove_north')","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(-1,0,0,'m.stove_south')","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(0,0,1,'m.stove_east')","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(0,0,-1,'m.stove_west')","run_command": {"command": "setblock ~ ~ ~ air destroy"}}
+				]
+			},
+			"add_coal": {
+				"sequence": [
+					{"condition": "q.block_state('medieval:log') < 15 && q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:acacia_log','minecraft:birch_log','minecraft:cherry_log','minecraft:crimson_stem','minecraft:dark_oak_log','minecraft:jungle_log','minecraft:mangrove_log','minecraft:oak_log','minecraft:spruce_log','minecraft:warped_stem')","set_block_state": {"medieval:log": 15},"decrement_stack":{},"run_command":{"command":["playsound dig.wood @a ~~~"]}},
+					{"condition": "q.block_state('medieval:log') > 0 &&  q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:flint_and_steel')","set_block_state": {"medieval:stove_on": true},"run_command":{"command":["playsound fire.ignite @a ~~~"]}}
+				]
+			},
+			"consume_coal": {
+				"sequence": [
+					{"condition": "q.block_state('medieval:log') > 0","set_block_state": {"medieval:log": "q.block_state('medieval:log') -1"}}
+				]
+			}
+		}
+	}
+}

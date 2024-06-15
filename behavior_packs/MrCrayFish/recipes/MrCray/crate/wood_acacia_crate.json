@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_acacia_crate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"A A",
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:acacia_log"
+			},
+			"A": {
+				"item": "minecraft:acacia_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:acacia_planks"},
+			{"item": "minecraft:acacia_log"}
+		],
+		"result": {
+			"item": "mr:wood_acacia_crate_mr",
+			"count": 2
+		}
+	}
+}

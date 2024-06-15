@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_bowl0"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_warped_stem",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:warped_bowl0",
+			"count": 3
+		}
+	}
+}

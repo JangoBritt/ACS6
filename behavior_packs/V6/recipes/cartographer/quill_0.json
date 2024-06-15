@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:quill_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BFB",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"B": {
+				"item": "minecraft:black_dye"
+			},
+			"F": {
+				"item": "minecraft:feather"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:quill_0",
+			"count": 1
+		}
+	}
+}

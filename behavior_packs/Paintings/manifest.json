@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["AthosCraft"]
+	},
+	"header": {
+		"description": "Pack By §6AthosCraft§r | Additional Paintings | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
+		"name": "§aPaintings Pack§r v6.0 [B]",
+		"uuid": "91879d55-d90a-411b-8aff-21b58979b6a3",
+		"version": [6, 0, 1],
+		"min_engine_version": [1, 19, 0]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "a4c65bc6-c872-40d5-b5ed-d069671fb69a",
+		"version": [6, 0, 1]
+	}],
+	"dependencies": [{
+		"uuid": "f71c753f-e73d-4959-ab45-af8ab1dafa80",
+		"version": [6, 0, 1]
+	}]
+}

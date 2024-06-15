@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.m.player.sleep": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [12, 0, 0]
+				},
+				"body": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -13, 0]
+				},
+				"leftArm": {
+					"rotation": [26, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [26, 0, 0]
+				},
+				"leftLeg": {
+					"rotation": [-22, 18, 0],
+					"position": [0, -1, -12]
+				},
+				"rightLeg": {
+					"rotation": [-22, -18, 0],
+					"position": [0, -1, -12]
+				}
+			},
+			"particle_effects": {}
+		},
+		"animation.m.player.sleep2": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [20, 0, 0]
+				},
+				"body": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -13, 0]
+				},
+				"leftArm": {
+					"rotation": [35.35126, 0, -14.22984]
+				},
+				"rightArm": {
+					"rotation": [33.70015, 0, 39.94783]
+				},
+				"leftLeg": {
+					"rotation": [-22, 18, 0],
+					"position": [0, -1, -12]
+				},
+				"rightLeg": {
+					"rotation": [-22, -18, 0],
+					"position": [0, -1, -12]
+				}
+			},
+			"particle_effects": {}
+		}
+	}
+}

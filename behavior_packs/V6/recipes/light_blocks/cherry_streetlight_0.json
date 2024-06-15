@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_streetlight_0_item"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"A",
+			"#"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:stripped_cherry_post"
+			},
+			"#": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:cherry_book"}
+		],
+		"result": {
+			"item": "medieval:cherry_streetlight_0_item",
+			"count": 1
+		}
+	}
+}

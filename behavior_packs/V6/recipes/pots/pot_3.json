@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pot_3"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:hardened_clay",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:sapling",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:pot_3",
+			"count": 2
+		}
+	}
+}

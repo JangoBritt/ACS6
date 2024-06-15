@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:sgtpreston2684_head_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sgtpreston2684_head_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:sgtpreston2684_head"
+			}
+		}
+	}
+}

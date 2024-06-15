@@ -1,0 +1,188 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mr.table",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bot",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2, 0, -2],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_n",
+					"pivot": [0, 0, -3],
+					"cubes": [
+						{
+							"origin": [-2, 0, -5],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_nw",
+					"pivot": [3, 0, -3],
+					"cubes": [
+						{
+							"origin": [1, 0, -5],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_ne",
+					"pivot": [-3, 0, -3],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_e",
+					"pivot": [-3, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -2],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_w",
+					"pivot": [3, 0, 0],
+					"cubes": [
+						{
+							"origin": [1, 0, -2],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_sw",
+					"pivot": [3, 0, 3],
+					"cubes": [
+						{
+							"origin": [1, 0, 1],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_s",
+					"pivot": [0, 0, 3],
+					"cubes": [
+						{
+							"origin": [-2, 0, 1],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot_se",
+					"pivot": [-3, 0, 3],
+					"cubes": [
+						{
+							"origin": [-5, 0, 1],
+							"size": [4, 14, 4],
+							"uv": {
+								"north": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"east": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"south": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"west": {"uv": [6, 2], "uv_size": [4, 14], "material_instance": "bot"},
+								"down": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "bot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "top",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 14, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "top"},
+								"east": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "top"},
+								"south": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "top"},
+								"west": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "top"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "top"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "top"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

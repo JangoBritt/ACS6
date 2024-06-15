@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_easel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			},
+			"S": {
+				"item": "medieval:stripped_crimson_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:crimson_easel",
+			"count": 1
+		}
+	}
+}

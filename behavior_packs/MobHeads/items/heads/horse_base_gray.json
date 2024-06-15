@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:horse_base_gray_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_horse_base_gray_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:horse_base_gray"
+			}
+		}
+	}
+}

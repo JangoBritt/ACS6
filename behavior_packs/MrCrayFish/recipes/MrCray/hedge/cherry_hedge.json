@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:cherry_hedge_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_leaves"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:cherry_leaves"}
+		],
+		"result": {
+			"item": "mr:cherry_hedge_mr",
+			"count": 12
+		}
+	}
+}

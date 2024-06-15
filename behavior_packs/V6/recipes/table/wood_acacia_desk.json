@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_acacia_table0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 4
+			},
+			"B": {
+				"item": "medieval:acacia_wood_mslab"
+			},
+			"C": {
+				"item": "medieval:acacia_wood_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:wood_acacia_table0",
+			"count": 1
+		}
+	}
+}

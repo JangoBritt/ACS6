@@ -1,0 +1,191 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_avatars:kailio_1980_avatar",
+			"materials": {
+				"default": "npc"
+			},
+			"textures": {
+				"skin1": "textures/avatars/members/kailio_1980/skin1",
+				"skin2": "textures/avatars/members/kailio_1980/skin2",
+				"skin3": "textures/avatars/members/kailio_1980/skin3"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.scale = 1.0;",
+					"variable.style = 0;", // 0 = Steve (Wide Arms) 1 = Alex (Thin Arms)
+					"variable.skin = 0;",
+					"variable.skin = (query.is_sheared ? 0 : (query.is_baby ? 1 : (query.is_powered ? 2 : 0)));"
+				],
+				"scale": "variable.scale",
+				"animate": [
+					"look_at_target_controller",
+					{
+						"pose1": "query.mark_variant == 0"
+					},
+					{
+						"pose2": "query.mark_variant == 1"
+					},
+					{
+						"pose3": "query.mark_variant == 2"
+					},
+					{
+						"pose4": "query.mark_variant == 3"
+					},
+					{
+						"pose5": "query.mark_variant == 4"
+					},
+					{
+						"pose6": "query.mark_variant == 5"
+					},
+					{
+						"pose7": "query.mark_variant == 6"
+					},
+					{
+						"pose8": "query.mark_variant == 7"
+					},
+					{
+						"pose9": "query.mark_variant == 8"
+					},
+					{
+						"pose10": "query.mark_variant == 9"
+					},
+					{
+						"pose11": "query.mark_variant == 10"
+					},
+					{
+						"pose12": "query.mark_variant == 11"
+					},
+					{
+						"pose13": "query.mark_variant == 12"
+					},
+					{
+						"pose14": "query.mark_variant == 13"
+					},
+					{
+						"pose15": "query.mark_variant == 14"
+					},
+					{
+						"pose16": "query.mark_variant == 15"
+					},
+					{
+						"pose17": "query.mark_variant == 16"
+					},
+					{
+						"pose18": "query.mark_variant == 17"
+					},
+					{
+						"pose19": "query.mark_variant == 18"
+					},
+					{
+						"pose20": "query.mark_variant == 19"
+					},
+					{
+						"pose21": "query.mark_variant == 20"
+					},
+					{
+						"pose22": "query.mark_variant == 21"
+					},
+					{
+						"pose23": "query.mark_variant == 22"
+					},
+					{
+						"pose24": "query.mark_variant == 23"
+					},
+					{
+						"pose25": "query.mark_variant == 24"
+					},
+					{
+						"pose26": "query.mark_variant == 25"
+					},
+					{
+						"pose27": "query.mark_variant == 26"
+					},
+					{
+						"pose28": "query.mark_variant == 27"
+					},
+					{
+						"pose29": "query.mark_variant == 28"
+					},
+					{
+						"pose30": "query.mark_variant == 29"
+					},
+					{
+						"head1": "query.skin_id == 0"
+					},
+					{
+						"head2": "query.skin_id == 1"
+					},
+					{
+						"head3": "query.skin_id == 2"
+					},
+					{
+						"head4": "query.skin_id == 3"
+					},
+					{
+						"head5": "query.skin_id == 4"
+					},
+					{
+						"head6": "query.skin_id == 5"
+					},
+					{
+						"head7": "query.skin_id == 6"
+					},
+					{
+						"head8": "query.skin_id == 7"
+					}
+				]
+			},
+			"animations": {
+				"look_at_target_controller": "controller.animation.athos_avatars.look_at_target",
+				"athos_avatars_look_at_target": "animation.athos_avatars.look_at_target",
+				"pose1": "animation.athos_avatars.default",
+				"pose2": "animation.athos_avatars.sneak1",
+				"pose3": "animation.athos_avatars.sneak2",
+				"pose4": "animation.athos_avatars.stand1",
+				"pose5": "animation.athos_avatars.stand2",
+				"pose6": "animation.athos_avatars.walk1",
+				"pose7": "animation.athos_avatars.walk2",
+				"pose8": "animation.athos_avatars.run1",
+				"pose9": "animation.athos_avatars.run2",
+				"pose10": "animation.athos_avatars.sit1",
+				"pose11": "animation.athos_avatars.sit2",
+				"pose12": "animation.athos_avatars.sleep1",
+				"pose13": "animation.athos_avatars.sleep2",
+				"pose14": "animation.athos_avatars.dead1",
+				"pose15": "animation.athos_avatars.dead2",
+				"pose16": "animation.athos_avatars.point1",
+				"pose17": "animation.athos_avatars.point2",
+				"pose18": "animation.athos_avatars.wave1",
+				"pose19": "animation.athos_avatars.wave2",
+				"pose20": "animation.athos_avatars.dive1",
+				"pose21": "animation.athos_avatars.dive2",
+				"pose22": "animation.athos_avatars.float1",
+				"pose23": "animation.athos_avatars.float2",
+				"pose24": "animation.athos_avatars.facepalm",
+				"pose25": "animation.athos_avatars.heap1",
+				"pose26": "animation.athos_avatars.heap2",
+				"pose27": "animation.athos_avatars.surprise1",
+				"pose28": "animation.athos_avatars.surprise2",
+				"pose29": "animation.athos_avatars.blank1",
+				"pose30": "animation.athos_avatars.blank2",
+				"head1": "animation.athos_avatars.headAngle1",
+				"head2": "animation.athos_avatars.headAngle2",
+				"head3": "animation.athos_avatars.headAngle3",
+				"head4": "animation.athos_avatars.headAngle4",
+				"head5": "animation.athos_avatars.headAngle5",
+				"head6": "animation.athos_avatars.headAngle6",
+				"head7": "animation.athos_avatars.headAngle7",
+				"head8": "animation.athos_avatars.headAngle8"
+			},
+			"geometry": {
+				"default": "geometry.athos_avatars.humanoid_default"
+			},
+			"render_controllers": [
+				"controller.render.athos_avatars.avatars"
+			],
+			"enable_attachables": true
+		}
+	}
+}

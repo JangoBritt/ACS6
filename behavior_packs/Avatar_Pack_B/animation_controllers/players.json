@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.athos_avatars.player_heads": {
+			"initial_state": "alive",
+			"states": {
+				"alive": {
+					"transitions": [
+						{
+							"dead": "!query.is_alive"
+						}
+					]
+				},
+				"dead": {
+					"transitions": [
+						{
+							"alive": "query.is_alive"
+						}
+					],
+					"on_entry": [
+						"/function players"
+					],
+					"on_exit": [
+						"/function demise_death"
+					]
+				}
+			}
+		}
+	}
+}

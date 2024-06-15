@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:spatula_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"I",
+			"B"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_bars"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"B": {
+				"item": "minecraft:black_wool"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:iron_bars"},
+			{"item": "minecraft:iron_ingot"},
+			{"item": "minecraft:black_wool"}
+		],
+		"result": {
+			"item": "mr:spatula_mr",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+   "glass" : {
+      "sound" : "glass",
+      "textures" : "glass_connected"
+   },
+   "stained_glass" : {
+      "sound" : "glass",
+      "textures" : "stained_glass_connected"
+   }
+}

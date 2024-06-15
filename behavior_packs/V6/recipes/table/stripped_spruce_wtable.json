@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_wtable"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#G#",
+			"SSS",
+			"S S"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_spruce_log",
+				"data": 0
+			},
+			"G": {
+				"item": "minecraft:glass",
+				"data": 0
+			},
+			"S": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:spruce_book"}
+		],
+		"result": {
+			"item": "medieval:stripped_spruce_wtable",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+	  "rolls": 1,
+	  "entries": [
+	    {
+		  "type": "item",
+		  "name": "medieval:stripped_acacia_tall_window_item",
+		  "weight": 1
+		}
+	  ]
+	}
+  ]
+}

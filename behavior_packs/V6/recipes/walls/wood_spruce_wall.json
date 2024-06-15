@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_wood_wall"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"#",
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:log",
+				"data": 1
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:spruce_wood_wall",
+			"count": 12
+		}
+	}
+}

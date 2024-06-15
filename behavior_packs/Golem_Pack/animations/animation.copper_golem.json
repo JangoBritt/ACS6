@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.golem_random_animation": {
+			"loop": true,
+			"animation_length": 4.26,
+			"timeline": {
+				"0.1": [
+					"/execute @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.head_spin",
+					"/execute @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.look_around",
+					"/scoreboard objectives add golem_animation dummy",
+					"/scoreboard players random @s golem_animation 0 35",
+					"/execute @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.head_spin",
+					"/execute @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.look_around"
+				]
+			}
+		},
+		"animation.copper_golem_oxidize": {
+			"loop": true,
+			"animation_length": 60,
+			"timeline": {
+				"0.1": [
+					"/scoreboard objectives add oxidationcounter dummy",
+					"/scoreboard objectives add oxidationevent dummy",
+					"/scoreboard objectives add oxidationrandom dummy",
+					"/scoreboard players add @s oxidationevent 1",
+					"/execute @s[scores={oxidationevent=5..39},tag=!oxidation_checked] ~~~ scoreboard players random @s oxidationrandom 5 35",
+					"/event entity @s[scores={oxidationrandom=20},tag=weathered_copper_golem] athos_golem:oxidized",
+					"/event entity @s[scores={oxidationevent=40..90000},tag=weathered_copper_golem] athos_golem:oxidized",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=oxidized_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=oxidized_copper_golem] oxidationrandom 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=oxidized_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=oxidized_copper_golem] oxidationrandom 0",
+					"/event entity @s[scores={oxidationrandom=20},tag=exposed_copper_golem] athos_golem:weathered",
+					"/event entity @s[scores={oxidationevent=40..90000},tag=exposed_copper_golem] athos_golem:weathered",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=weathered_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=weathered_copper_golem] oxidationrandom 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=weathered_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=weathered_copper_golem] oxidationrandom 0",
+					"/event entity @s[scores={oxidationrandom=20},tag=normal_copper_golem] athos_golem:exposed",
+					"/event entity @s[scores={oxidationevent=40..90000},tag=normal_copper_golem] athos_golem:exposed",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=exposed_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationrandom=20},tag=exposed_copper_golem] oxidationrandom 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=exposed_copper_golem] oxidationevent 0",
+					"/scoreboard players set @s[scores={oxidationevent=40..90000},tag=exposed_copper_golem] oxidationrandom 0"
+				]
+			}
+		}
+	}
+}

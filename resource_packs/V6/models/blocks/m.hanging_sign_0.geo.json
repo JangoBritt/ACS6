@@ -1,0 +1,122 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.hanging_sign_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "hanging_sign",
+					"pivot": [3, 7.9, -1.1],
+					"cubes": [
+						{
+							"origin": [-1.5, 11, -7],
+							"size": [3, 3, 15],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [14, 3], "material_instance": "awood"},
+								"west": {"uv": [2, 2], "uv_size": [14, 3], "material_instance": "awood"},
+								"up": {"uv": [10, 14], "uv_size": [-3, -14], "material_instance": "awood"},
+								"down": {"uv": [10, 16], "uv_size": [-3, -14], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.6, 10.9, 1.975],
+							"size": [3.2, 3.2, 2],
+							"uv": {
+								"east": {"uv": [1, 11], "uv_size": [4, 3], "material_instance": "metal2"},
+								"west": {"uv": [1, 11], "uv_size": [4, 3], "material_instance": "metal2"},
+								"up": {"uv": [5, 14], "uv_size": [-4, -3], "material_instance": "metal2"},
+								"down": {"uv": [5, 14], "uv_size": [-4, -3], "material_instance": "metal2"}
+							}
+						},
+						{
+							"origin": [-1.6, 10.9, -5.025],
+							"size": [3.2, 3.2, 2],
+							"uv": {
+								"east": {"uv": [1, 11], "uv_size": [4, 3], "material_instance": "metal2"},
+								"west": {"uv": [1, 11], "uv_size": [4, 3], "material_instance": "metal2"},
+								"up": {"uv": [5, 14], "uv_size": [-4, -3], "material_instance": "metal2"},
+								"down": {"uv": [5, 14], "uv_size": [-4, -3], "material_instance": "metal2"}
+							}
+						},
+						{
+							"origin": [-1, -2.65, -7],
+							"size": [2, 8, 13],
+							"uv": {
+								"north": {"uv": [0, 7], "uv_size": [0.5, 4.5], "material_instance": "wood"},
+								"east": {"uv": [0.5, 7], "uv_size": [3.5, 4.5], "material_instance": "wood"},
+								"south": {"uv": [7.5, 7], "uv_size": [0.5, 4.5], "material_instance": "wood"},
+								"west": {"uv": [0.5, 7], "uv_size": [3.5, 4.5], "material_instance": "wood"},
+								"up": {"uv": [0.5, 12], "uv_size": [-0.5, -5], "material_instance": "wood"},
+								"down": {"uv": [4.75, 12], "uv_size": [-0.5, -6], "material_instance": "wood"}
+							}
+						},
+						{
+							"origin": [0.08485, 5.36, -5.42485],
+							"size": [0, 1.92, 2.88],
+							"pivot": [0, 11, -3.9],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [11, 10], "uv_size": [3, 2], "material_instance": "lantern"}
+							}
+						},
+						{
+							"origin": [-1.35515, 6.32, -3.98485],
+							"size": [2.88, 3.84, 0],
+							"pivot": [0, 11, -3.9],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [11, 1], "uv_size": [3, 4], "material_instance": "lantern"}
+							}
+						},
+						{
+							"origin": [0.08485, 9.2, -5.42485],
+							"size": [0, 1.92, 2.88],
+							"pivot": [0, 11, -3.9],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [11, 6], "uv_size": [3, 2], "material_instance": "lantern"}
+							}
+						},
+						{
+							"origin": [0.08485, 9.2, 1.57515],
+							"size": [0, 1.92, 2.88],
+							"pivot": [0, 11, 3.1],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [11, 6], "uv_size": [3, 2], "material_instance": "lantern"}
+							}
+						},
+						{
+							"origin": [-1.35515, 6.32, 3.01515],
+							"size": [2.88, 3.84, 0],
+							"pivot": [0, 11, 3.1],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [11, 1], "uv_size": [3, 4], "material_instance": "lantern"}
+							}
+						},
+						{
+							"origin": [0.08485, 5.36, 1.57515],
+							"size": [0, 1.92, 2.88],
+							"pivot": [0, 11, 3.1],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [11, 10], "uv_size": [3, 2], "material_instance": "lantern"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

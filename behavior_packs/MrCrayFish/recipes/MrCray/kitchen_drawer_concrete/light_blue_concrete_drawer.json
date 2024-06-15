@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:light_blue_concrete_drawer_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:light_blue_concrete"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:light_blue_concrete"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:chest"}
+		],
+		"result": {
+			"item": "mr:light_blue_concrete_drawer_mr",
+			"count": 4
+		}
+	}
+}

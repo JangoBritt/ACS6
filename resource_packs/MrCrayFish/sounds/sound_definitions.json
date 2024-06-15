@@ -1,0 +1,122 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.inventory_entities": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                "sounds/damage/hit3"
+            ]
+        },
+        "mr.cabinet_open": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/cabinet/open",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.cabinet_close": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/cabinet/close",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.bedside_cabinet_open": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/bedside_cabinet/open",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.bedside_cabinet_close": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/bedside_cabinet/close",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.bounce": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/trampoline/bounce",
+                    "volume": 2.5
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.diving_bounce": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/diving_board/bounce",
+                    "volume": 1.0
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.fridge_open": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/fridge/open",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.fridge_close": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/fridge/close",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.grill_flip": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/grill/flip",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.blinds_open": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/blinds/open",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "mr.blinds_close": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/MrCray/blinds/close",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        }
+    }
+}

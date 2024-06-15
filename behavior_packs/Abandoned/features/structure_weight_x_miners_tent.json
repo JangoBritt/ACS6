@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_miners_tent"
+    },
+    "features": [
+      [ "nicothekid:structure_x_miners_tent_01_a", 100 ],
+      [ "nicothekid:structure_x_miners_tent_02_a", 100 ]
+    ]
+  }
+}

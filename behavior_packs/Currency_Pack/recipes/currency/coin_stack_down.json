@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "athos_currency:coin_stack_down"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B"
+		],
+		"key": {
+			"B": {
+				"item": "athos_currency:coin_stack",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "athos_currency:coin",
+			"count": 7
+		}
+	}
+}

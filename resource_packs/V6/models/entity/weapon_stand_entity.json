@@ -1,0 +1,41 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.weapon_stand_entity",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [9, 16.6, 3.6],
+					"rotation": [10, -57.5, 90]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightarm",
+					"pivot": [8, 9.6, 4.6]
+				},
+				{
+					"name": "leftarm",
+					"parent": "body",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "leftItem",
+					"pivot": [6, 15, 1]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "frame": {
+    "blockshape": "invisible",
+    "textures": "itemframe_background",
+    "sound": "itemframe"
+  }}

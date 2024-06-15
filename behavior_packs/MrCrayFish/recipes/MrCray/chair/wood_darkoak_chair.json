@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_darkoak_chair_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:dark_oak_log"
+			},
+			"A": {
+				"item": "minecraft:dark_oak_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:dark_oak_planks"},
+			{"item": "minecraft:dark_oak_log"}
+		],
+		"result": {
+			"item": "mr:wood_darkoak_chair_mr",
+			"count": 4
+		}
+	}
+}

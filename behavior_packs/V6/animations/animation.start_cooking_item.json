@@ -1,0 +1,77 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.start_cooking_item_top": {
+		    "animation_length": 5.0,
+			"loop": true,
+			"timeline": {
+				"4.99": [
+				    "/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_chicken\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_porkchop\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_beef\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_mutton\" mainhand"
+				],
+			    "5.0": [
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_rabbit\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_cod\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=0}] run function cooking/stove_top",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=0}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_salmon\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=0}] run function cooking/stove_top"
+			    ]
+			}
+		},
+		"animation.start_cooking_item_middle": {
+		    "animation_length": 5.0,
+			"loop": true,
+			"timeline": {
+				"4.99":[
+					"/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_chicken\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_porkchop\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_beef\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_mutton\" mainhand"
+				],
+			    "5.0": [
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_rabbit\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_cod\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=2}] run function cooking/stove_middle",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=2}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_salmon\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=2}] run function cooking/stove_middle"
+			    ]
+			}
+		},
+		"animation.start_cooking_item_bottom": {
+		    "animation_length": 5.0,
+			"loop": true,
+			"timeline": {
+				"4.99":[
+				    "/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_chicken\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=chicken,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_porkchop\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=porkchop,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_beef\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=beef,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_mutton\" mainhand"
+				],
+			    "5.0": [
+					"/execute at @s if entity @s[hasitem={item=mutton,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_rabbit\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=rabbit,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_cod\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=cod,location=slot.inventory,slot=4}] run function cooking/stove_bottom",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=4}] run loot spawn ~~~ loot \"medieval_furniture/drops/cooked_salmon\" mainhand",
+					"/execute at @s if entity @s[hasitem={item=salmon,location=slot.inventory,slot=4}] run function cooking/stove_bottom"
+			    ]
+			}
+		}
+	}
+}

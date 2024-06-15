@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_barrel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			"BCB",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wooden_slab",
+				"data": 2
+			},
+			"B": {
+				"item": "minecraft:planks",
+				"data": 2
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:birch_barrel",
+			"count": 1
+		}
+	}
+}

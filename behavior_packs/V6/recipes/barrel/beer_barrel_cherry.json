@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:beer_barrel_cherry"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot"
+			},
+			"B": {
+				"item": "medieval:cherry_barrel"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:beer_barrel_cherry",
+			"count": 1
+		}
+	}
+}

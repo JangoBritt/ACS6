@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_hut_warped_wood"
+    },
+    "features": [
+      [ "nicothekid:structure_x_hut_warped_wood_01", 1 ]
+    ]
+  }
+}

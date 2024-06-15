@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_wood_support"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###",
+			"  A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:warped_wood_mslab"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:warped_wood_support",
+			"count": 3
+		}
+	}
+}

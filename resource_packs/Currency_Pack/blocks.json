@@ -1,0 +1,13 @@
+{
+	"coin_crate": {
+		"textures": {
+			"up": "coin_crate_up",
+			"down": "coin_crate_down",
+			"side": "coin_crate_side"
+		},
+		"sound": "wood"
+	},
+	"coin_stack": {
+		"sound": "chain"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "item",
+					"name": "mr:stripped_spruce_coffee_table_short_mr",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

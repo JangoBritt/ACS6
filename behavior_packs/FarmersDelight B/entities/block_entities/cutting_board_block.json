@@ -1,0 +1,79 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "farmersdelight:cutting_board",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+			"properties": {
+				"farmersdelight:is_block_mode": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+    },
+    "component_groups": {
+      "farmersdelight:cutting_board_despawn": {
+        "minecraft:despawn": {},
+        "minecraft:instant_despawn": {
+          "remove_child_entities": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": {},
+          "deals_damage": false
+        }
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "randomInterval": true,
+        "time": [
+          0.0,
+          0.0
+        ],
+        "time_down_event": {
+          "event": "farmersdelight:cutting_board_tick"
+        }
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:scale": 0,
+      "minecraft:type_family": {
+        "family": [
+          "farmersdelight_tick_block_entity"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:breathable": {
+        "breathes_solids": true
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    "events": {
+      "farmersdelight:despawn": {
+        "add": {
+          "component_groups": [
+            "farmersdelight:cutting_board_despawn"
+          ]
+        }
+      },
+      "farmersdelight:cutting_board_tick": {}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_toilet"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" B ",
+			"#C#",
+			" # "
+		],
+		"key": {
+			"C": {
+				"item": "minecraft:water_bucket",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 4
+			},
+			"B": {
+				"item": "medieval:stripped_acacia_wall",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:acacia_toilet",
+			"count": 3
+		}
+	}
+}

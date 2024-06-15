@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_mangrove_desk_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:mangrove_log"
+			},
+			"A": {
+				"item": "minecraft:mangrove_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:mangrove_planks"},
+			{"item": "minecraft:mangrove_log"}
+		],
+		"result": {
+			"item": "mr:wood_mangrove_desk_mr",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_acacia_mslab"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_acacia_log",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_acacia_mslab",
+			"count": 12
+		}
+	}
+}

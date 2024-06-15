@@ -1,0 +1,604 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "athos_golem:rascal",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "rascal",
+          "mob"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_path_over_water": true,
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "can_walk": true,
+        "avoid_water": true
+      },
+      "minecraft:annotation.open_door": {},
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 7,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:nameable": {}
+    },
+    "component_groups": {
+      "idle": {
+        "minecraft:behavior.look_at_player": {
+          "priority": 8,
+          "look_distance": 8,
+          "probability": 0.02
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority": 9
+        },
+        "minecraft:mark_variant": {
+          "value": 0
+        }
+      },
+      "clear": {
+        "minecraft:entity_sensor": {
+          "relative_range": true,
+          "sensor_range": 3,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "operator": "not",
+                "test": "has_ability",
+                "subject": "other",
+                "value": "invulnerable"
+              }
+            ]
+          },
+          "event": "spotted_starts"
+        }
+      },
+      "shocked_starts": {
+        "minecraft:timer": {
+          "time": 0.5,
+          "looping": false,
+          "time_down_event": {
+            "event": "run_away_1"
+          }
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "amplifier": 10,
+              "visible": false,
+              "ambient": false,
+              "duration": 0.5
+            }
+          ]
+        },
+        "minecraft:is_stunned": {}
+      },
+      "shocked_1": {
+        "minecraft:timer": {
+          "time": 0.5,
+          "looping": false,
+          "time_down_event": {
+            "event": "run_away_2"
+          }
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "amplifier": 10,
+              "visible": false,
+              "ambient": false,
+              "duration": 0.5
+            }
+          ]
+        },
+        "minecraft:is_stunned": {}
+      },
+      "shocked_2": {
+        "minecraft:timer": {
+          "time": 0.5,
+          "looping": false,
+          "time_down_event": {
+            "event": "run_away_3"
+          }
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "amplifier": 10,
+              "visible": false,
+              "ambient": false,
+              "duration": 0.5
+            }
+          ]
+        },
+        "minecraft:is_stunned": {}
+      },
+      "shocked_3": {
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "amplifier": 10,
+              "visible": false,
+              "ambient": false,
+              "duration": 3.5
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": 1.2,
+          "looping": false,
+          "time_down_event": {
+            "event": "rascal_reward"
+          }
+        },
+        "minecraft:is_stunned": {}
+      },
+      "round_1": {
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 6,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 1.25,
+              "walk_speed_multiplier": 1.25
+            }
+          ]
+        },
+        "minecraft:entity_sensor": {
+          "relative_range": true,
+          "sensor_range": 2,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "operator": "not",
+                "test": "has_ability",
+                "subject": "other",
+                "value": "invulnerable"
+              }
+            ]
+          },
+          "event": "spotted_1"
+        }
+      },
+      "round_2": {
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 20,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 1.25,
+              "walk_speed_multiplier": 1.25
+            }
+          ]
+        },
+        "minecraft:entity_sensor": {
+          "relative_range": true,
+          "sensor_range": 2,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "operator": "not",
+                "test": "has_ability",
+                "subject": "other",
+                "value": "invulnerable"
+              }
+            ]
+          },
+          "event": "spotted_2"
+        }
+      },
+      "round_3": {
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 20,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 1.25,
+              "walk_speed_multiplier": 1.25
+            }
+          ]
+        },
+        "minecraft:entity_sensor": {
+          "relative_range": true,
+          "sensor_range": 2,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "operator": "not",
+                "test": "has_ability",
+                "subject": "other",
+                "value": "invulnerable"
+              }
+            ]
+          },
+          "event": "spotted_3"
+        }
+      },
+      "hidding_1": {
+        "minecraft:timer": {
+          "time": 20,
+          "looping": false,
+          "time_down_event": {
+            "event": "round_1"
+          }
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 16,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 2,
+              "walk_speed_multiplier": 2
+            }
+          ]
+        }
+      },
+      "hidding_2": {
+        "minecraft:timer": {
+          "time": 20,
+          "looping": false,
+          "time_down_event": {
+            "event": "round_2"
+          }
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 16,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 2.2,
+              "walk_speed_multiplier": 2.2
+            }
+          ]
+        }
+      },
+      "hidding_3": {
+        "minecraft:timer": {
+          "time": 20,
+          "looping": false,
+          "time_down_event": {
+            "event": "round_3"
+          }
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 1,
+          "max_dist": 32,
+          "max_flee": 64,
+          "avoid_target_xz": 32,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 16,
+              "max_flee": 64,
+              "sprint_speed_multiplier": 2.5,
+              "walk_speed_multiplier": 2.5
+            }
+          ]
+        }
+      },
+      "gift": {
+        "minecraft:behavior.look_at_player": {
+          "priority": 8,
+          "look_distance": 8,
+          "probability": 1
+        },
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:behavior.drop_item_for": {
+          "priority": 1,
+          "cooldown": 0.2,
+          "seconds_before_pickup": 2,
+          "offering_distance": 6,
+          "minimum_teleport_distance": 128,
+          "speed_multiplier": 0.1,
+          "search_range": 1,
+          "search_height": 1,
+          "target_range": [
+            10,
+            4,
+            10
+          ],
+          "goal_radius": 6,
+          "entity_types": [
+            {}
+          ],
+          "loot_table": "loot_tables/entities/rascal_loot.json",
+          "on_drop_attempt": {
+            "target": "self",
+            "event": "starting_over"
+          }
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "clear",
+            "idle"
+          ]
+        }
+      },
+      "spotted_starts": {
+        "add": {
+          "component_groups": [
+            "shocked_starts"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "clear"
+          ]
+        }
+      },
+      "spotted_1": {
+        "add": {
+          "component_groups": [
+            "shocked_1"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "round_1",
+            "hidding_1"
+          ]
+        }
+      },
+      "spotted_2": {
+        "add": {
+          "component_groups": [
+            "shocked_2"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "round_2",
+            "hidding_2"
+          ]
+        }
+      },
+      "spotted_3": {
+        "add": {
+          "component_groups": [
+            "shocked_3"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "round_3",
+            "hidding_3"
+          ]
+        }
+      },
+      "run_away_1": {
+        "add": {
+          "component_groups": [
+            "hidding_1"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "shocked_starts"
+          ]
+        }
+      },
+      "run_away_2": {
+        "add": {
+          "component_groups": [
+            "hidding_2"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "shocked_1"
+          ]
+        }
+      },
+      "run_away_3": {
+        "add": {
+          "component_groups": [
+            "hidding_3"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "shocked_2"
+          ]
+        }
+      },
+      "rascal_reward": {
+        "add": {
+          "component_groups": [
+            "gift"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "shocked_3",
+            "round_3",
+            "idle"
+          ]
+        }
+      },
+      "starting_over": {
+        "add": {
+          "component_groups": [
+            "idle",
+            "clear"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "gift"
+          ]
+        }
+      },
+      "round_1": {
+        "add": {
+          "component_groups": [
+            "round_1"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "hidding_1"
+          ]
+        }
+      },
+      "round_2": {
+        "add": {
+          "component_groups": [
+            "round_2"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "hidding_2"
+          ]
+        }
+      },
+      "round_3": {
+        "add": {
+          "component_groups": [
+            "round_3"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "hidding_3"
+          ]
+        }
+      }
+    }
+  }
+}

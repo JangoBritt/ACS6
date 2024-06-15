@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "athos_avatars:raul_del_fuego_avatar_item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

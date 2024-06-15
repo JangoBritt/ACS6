@@ -1,0 +1,1100 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "athos_golem:copper_golem",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"random_animation",
+					"oxidize",
+					"behavior_controller"
+				]
+			},
+			"animations": {
+				"copper_golem_controller": "controller.animation.copper_golem",
+				"random_animation": "animation.golem_random_animation",
+				"oxidize": "animation.copper_golem_oxidize",
+				"behavior_controller": "controller.animation.copper_golem"
+			}
+		},
+		"component_groups": {
+			"athos_golem:copper_golem_alive": {
+				"minecraft:movement.basic": {},
+				"minecraft:jump.static": {},
+				"minecraft:can_climb": {},
+				"minecraft:follow_range": {
+					"value": 64
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 4,
+					"interval": 1000,
+					"speed_multiplier": 0.8,
+					"xz_dist": 8
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 5,
+					"look_distance": 8,
+					"probability": 0.015
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 6
+				}
+			},
+			"athos_golem:normal_copper_golem": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:movement": {
+					"value": 0.3
+				}
+			},
+			"athos_golem:exposed_copper_golem": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:movement": {
+					"value": 0.25
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:exposed_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:weathered_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:oxidized_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:amethyst_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:gilded_netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:emerald_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:quartz_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:glowing_obsidian_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:shulker_axe"
+										}
+									]
+								},
+								"event": "athos_golem:exposed_golem_scrape"
+							},
+							"hurt_item": 1,
+							"swing": true,
+							"interact_text": "action.interact.scrape"
+						}
+					]
+				}
+			},
+			"athos_golem:weathered_copper_golem": {
+				"minecraft:variant": {
+					"value": 2
+				},
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:exposed_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:weathered_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:oxidized_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:amethyst_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:gilded_netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:emerald_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:quartz_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:glowing_obsidian_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:shulker_axe"
+										}
+									]
+								},
+								"event": "athos_golem:weathered_golem_scrape"
+							},
+							"hurt_item": 1,
+							"swing": true,
+							"interact_text": "action.interact.scrape"
+						}
+					]
+				}
+			},
+			"athos_golem:oxidized_copper_golem": {
+				"minecraft:variant": {
+					"value": 3
+				},
+				"minecraft:movement": {
+					"value": -1.0
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:exposed_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:weathered_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:oxidized_copper_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:amethyst_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:gilded_netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:emerald_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:quartz_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:glowing_obsidian_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "athos_golem:shulker_axe"
+										}
+									]
+								},
+								"event": "athos_golem:oxidized_golem_scrape"
+							},
+							"hurt_item": 1,
+							"swing": true,
+							"interact_text": "action.interact.scrape"
+						}
+					]
+				}
+			},
+			"athos_golem:button_ready": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 3,
+					"search_range": 25,
+					"search_height": 25,
+					"tick_interval": 1.0,
+					"stay_duration": 2,
+					"goal_radius": 0.2,
+					"target_selection_method": "nearest",
+					"target_blocks": [
+						"wooden_button",
+						"birch_button",
+						"spruce_button",
+						"jungle_button",
+						"acacia_button",
+						"dark_oak_button"
+					],
+					"on_reach": [
+						{
+							"event": "athos_golem:press_button1"
+						}
+					]
+				}
+			},
+			"athos_golem:button_ready2": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 1,
+					"search_range": 1,
+					"search_height": 1,
+					"tick_interval": 1.0,
+					"stay_duration": 2,
+					"goal_radius": 0.2,
+					"target_selection_method": "nearest",
+					"target_blocks": [
+						"wooden_button",
+						"birch_button",
+						"spruce_button",
+						"jungle_button",
+						"acacia_button",
+						"dark_oak_button"
+					],
+					"on_reach": [
+						{
+							"event": "athos_golem:press_button1"
+						}
+					]
+				}
+			},
+			"athos_golem:button_press_timer": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": 0.68,
+					"time_down_event": {
+						"event": "athos_golem:button_press_timer_done"
+					}
+				}
+			},
+			"athos_golem:button_press_timer2": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": 0.95,
+					"time_down_event": {
+						"event": "athos_golem:button_press_timer_done2"
+					}
+				}
+			},
+			"athos_golem:button_refresh": {
+				"minecraft:behavior.avoid_block": {
+					"priority": 5,
+					"tick_interval": 5,
+					"search_range": 10,
+					"search_height": 10,
+					"walk_speed_modifier": 0.8,
+					"sprint_speed_modifier": 0.6,
+					"target_selection_method": "nearest",
+					"target_blocks": [
+						"wooden_button",
+						"birch_button",
+						"spruce_button",
+						"acacia_button",
+						"jungle_button",
+						"dark_oak_button"
+					]
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time": 1,
+					"time_down_event": {
+						"event": "athos_golem:button_refresh"
+					}
+				}
+			},
+			"athos_golem:copper_golem_wild": {
+				"minecraft:tameable": {
+					"probability": 1,
+					"tame_items": "copper_ingot",
+					"tame_event": {
+						"event": "athos_golem:on_tame",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 4,
+					"must_reach": true,
+					"must_see": true,
+					"entity_types": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "monster"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"operator": "!=",
+										"value": "creeper"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"operator": "!=",
+										"value": "mobvotejs7:tuff_golem"
+									}
+								]
+							},
+							"within_default": 10
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "hoglin"
+									},
+									{
+										"test": "is_difficulty",
+										"operator": "!=",
+										"value": "peaceful"
+									}
+								]
+							},
+							"max_dist": 16
+						},
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "zoglin"
+									},
+									{
+										"test": "is_difficulty",
+										"operator": "!=",
+										"value": "peaceful"
+									}
+								]
+							},
+							"max_dist": 16
+						}
+					]
+				}
+			},
+			"athos_golem:copper_golem_tame": {
+				"minecraft:is_tamed": {},
+				"minecraft:behavior.follow_owner": {
+					"priority": 6,
+					"speed_multiplier": 1.0,
+					"start_distance": 8,
+					"stop_distance": 3
+				},
+				"minecraft:attack": {
+					"damage": 8
+				},
+				"minecraft:sittable": {},
+				"minecraft:behavior.owner_hurt_by_target": {
+					"priority": 3
+				},
+				"minecraft:behavior.owner_hurt_target": {
+					"priority": 4
+				}
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"all_of": [
+							{
+								"test": "has_tag",
+								"subject": "self",
+								"value": "oxidized_copper_golem"
+							}
+						]
+					},
+					"event": "athos_golem:animation_oxidized"
+				}
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"track_target": true
+			},
+			"minecraft:behavior.move_towards_target": {
+				"priority": 4,
+				"speed_multiplier": 0.8,
+				"within_radius": 32
+			},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "copper_ingot",
+						"heal_amount": 4
+					},
+					{
+						"item": "copper_block",
+						"heal_amount": 40
+					}
+				]
+			},
+			"minecraft:behavior.stay_while_sitting": {
+				"priority": 2
+			},
+			"minecraft:preferred_path": {
+				"max_fall_blocks": 4,
+				"jump_cost": 1,
+				"default_block_cost": 50,
+				"preferred_path_blocks": [
+					{
+						"cost": 1,
+						"blocks": [
+							"copper_block",
+							"cut_copper",
+							"cut_copper_slab",
+							"cut_copper_stairs",
+							"double_cut_copper_slab",
+							"exposed_copper",
+							"exposed_cut_copper",
+							"exposed_cut_copper_slab",
+							"exposed_cut_copper_stairs",
+							"exposed_double_cut_copper_slab",
+							"weathered_copper",
+							"weathered_cut_copper",
+							"weathered_cut_copper_slab",
+							"weathered_cut_copper_stairs",
+							"weathered_double_cut_copper_slab",
+							"oxidized_copper",
+							"oxidized_cut_copper",
+							"oxidized_cut_copper_slab",
+							"oxidized_cut_copper_stairs",
+							"oxidized_double_cut_copper_slab",
+							"raw_copper_block",
+							"waxed_copper",
+							"waxed_cut_copper",
+							"waxed_cut_copper_slab",
+							"waxed_cut_copper_stairs",
+							"waxed_double_cut_copper_slab",
+							"waxed_exposed_copper",
+							"waxed_exposed_cut_copper",
+							"waxed_exposed_cut_copper_slab",
+							"waxed_exposed_cut_copper_stairs",
+							"waxed_exposed_double_cut_copper_slab",
+							"waxed_weathered_copper",
+							"waxed_weathered_cut_copper",
+							"waxed_weathered_cut_copper_slab",
+							"waxed_weathered_cut_copper_stairs",
+							"waxed_weathered_double_cut_copper_slab",
+							"waxed_oxidized_copper",
+							"waxed_oxidized_cut_copper",
+							"waxed_oxidized_cut_copper_slab",
+							"waxed_oxidized_cut_copper_stairs",
+							"waxed_oxidized_double_cut_copper_slab",
+							"raw_copper_block"
+						]
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:type_family": {
+				"family": [
+					"copper_golem",
+					"mob"
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 40,
+				"max": 40
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": false,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"on_damage": {
+						"filters": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "lightning"
+							}
+						],
+						"event": "athos_golem:lightning_deoxidize"
+					},
+					"deals_damage": false
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "button_press"
+							}
+						},
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								}
+							],
+							"event": "athos_golem:lightning_deoxidize"
+						},
+						"deals_damage": false
+					},
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0.9
+			},
+			"minecraft:leashable": {
+				"soft_distance": 2,
+				"hard_distance": 8,
+				"max_distance": 12
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/copper_golem.json"
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"athos_golem:button_refresh": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"execute @s[tag=!copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready",
+								"execute @s[tag=copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready2"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"athos_golem:button_refresh"
+							]
+						}
+					},
+					{
+						"weight": 19,
+						"run_command": {
+							"command": [
+								"testfor @s"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"athos_golem:normal_copper_golem",
+						"athos_golem:button_ready",
+						"athos_golem:copper_golem_wild",
+						"athos_golem:copper_golem_alive"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s add normal_copper_golem"
+					]
+				}
+			},
+			"athos_golem:on_tame": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:copper_golem_wild"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:copper_golem_tame"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playanimation @s animation.copper_golem.head_spin",
+						"effect @s slowness 1 255 true"
+					]
+				}
+			},
+			"athos_golem:press_button1": {
+				"add": {
+					"component_groups": [
+						"athos_golem:button_press_timer"
+					]
+				},
+				"run_command": {
+					"command": [
+						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
+						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
+						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
+						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
+					]
+				}
+			},
+			"athos_golem:button_press_timer_done2": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:button_ready"
+					]
+				},
+				"run_command": {
+					"command": [
+						"event entity @s athos_golem:button_refresh_start",
+						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.arms a 1 a a"
+					]
+				}
+			},
+			"athos_golem:button_press_timer_done": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:button_press_timer"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:button_press_timer2"
+					]
+				},
+				"run_command": {
+					"command": [
+						"execute @s[tag=!oxidized_copper_golem] ~~~ summon athos_golem:golem_button_press ~~~"
+					]
+				}
+			},
+			"athos_golem:button_refresh_start": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:button_ready"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:button_refresh"
+					]
+				}
+			},
+			"athos_golem:button_ready": {
+				"add": {
+					"component_groups": [
+						"athos_golem:button_ready"
+					]
+				}
+			},
+			"athos_golem:button_ready2": {
+				"add": {
+					"component_groups": [
+						"athos_golem:button_ready2"
+					]
+				}
+			},
+			"athos_golem:exposed": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:normal_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:exposed_copper_golem"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s add exposed_copper_golem",
+						"tag @s remove normal_copper_golem"
+					]
+				}
+			},
+			"athos_golem:weathered": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:exposed_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:weathered_copper_golem"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s add weathered_copper_golem",
+						"tag @s remove exposed_copper_golem"
+					]
+				}
+			},
+			"athos_golem:oxidized": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:weathered_copper_golem",
+						"athos_golem:copper_golem_alive"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:oxidized_copper_golem"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s add oxidized_copper_golem",
+						"tag @s remove weathered_copper_golem"
+					]
+				}
+			},
+			"athos_golem:exposed_golem_scrape": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:exposed_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:normal_copper_golem"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s remove exposed_copper_golem",
+						"tag @s add normal_copper_golem",
+						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"effect @s slowness 1 255 true",
+						"playsound scrape @a[r=10]"
+					]
+				}
+			},
+			"athos_golem:weathered_golem_scrape": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:weathered_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:exposed_copper_golem"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s remove weathered_copper_golem",
+						"tag @s add exposed_copper_golem",
+						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"effect @s slowness 1 255 true",
+						"playsound scrape @a[r=10]"
+					]
+				}
+			},
+			"athos_golem:oxidized_golem_scrape": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:oxidized_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:weathered_copper_golem",
+						"athos_golem:copper_golem_alive"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s remove oxidized_copper_golem",
+						"tag @s add weathered_copper_golem",
+						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"effect @s slowness 1 255 true",
+						"playsound scrape @a[r=10]"
+					]
+				}
+			},
+			"athos_golem:lightning_deoxidize": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:exposed_copper_golem",
+						"athos_golem:weathered_copper_golem",
+						"athos_golem:oxidized_copper_golem"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:normal_copper_golem",
+						"athos_golem:copper_golem_alive"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s remove exposed_copper_golem",
+						"tag @s remove weathered_copper_golem",
+						"tag @s remove oxidized_copper_golem",
+						"tag @s add normal_copper_golem"
+					]
+				}
+			},
+			"athos_golem:sitting_button_press": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:button_ready"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:button_refresh"
+					]
+				}
+			},
+			"athos_golem:sitting_button_press2": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:button_ready2"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"athos_golem:button_refresh"
+					]
+				}
+			},
+			"athos_golem:animation_oxidized": {
+				"remove": {
+					"component_groups": [
+						"athos_golem:copper_golem_alive"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_box2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:crimson_wood_post"
+			},
+			"C": {
+				"item": "minecraft:crimson_planks"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:crimson_box2",
+			"count": 2
+		}
+	}
+}

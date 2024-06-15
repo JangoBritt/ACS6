@@ -1,0 +1,46 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:wine_bottle_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.beer"
+			},
+			"minecraft:display_name": {
+				"value": "item.medieval:wine_bottle_item"
+			},
+			"minecraft:icon": {
+				"texture": "m.wine_bottle_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:wine_bottle",
+				"use_block_description": true
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:use_animation": "drink",
+			"minecraft:food": {
+				"can_always_eat": true,
+				"nutrition" : 3,
+				"saturation_modifier": "normal",
+				"effects": [
+					{
+					  "name": "nausea",
+					  "chance": 0.3,
+					  "duration": 9,
+					  "amplifier": 2
+					},
+					{
+					  "name": "hunger",
+					  "chance": 0.5,
+					  "duration": 60,
+					  "amplifier": 2
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,481 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.equip_tool_right": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sword_wood_right": "q.is_item_name_any('slot.inventory',2,'minecraft:wooden_sword')"
+						},
+                        {
+							"sword_stone_right": "q.is_item_name_any('slot.inventory',2,'minecraft:stone_sword')"
+						},
+                        {
+							"sword_gold_right": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_sword')"
+						},
+                        {
+							"sword_iron_right": "q.is_item_name_any('slot.inventory',2,'minecraft:iron_sword')"
+						},
+						{
+							"sword_diamond_right": "q.is_item_name_any('slot.inventory',2,'minecraft:diamond_sword')"
+						},
+                        {
+							"sword_netherite_right": "q.is_item_name_any('slot.inventory',2,'minecraft:netherite_sword')"
+						},
+						{
+							"axe_wood_right": "q.is_item_name_any('slot.inventory',2,'minecraft:wooden_axe')"
+						},
+                        {
+							"axe_stone_right": "q.is_item_name_any('slot.inventory',2,'minecraft:stone_axe')"
+						},
+                        {
+							"axe_gold_right": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_axe')"
+						},
+                        {
+							"axe_iron_right": "q.is_item_name_any('slot.inventory',2,'minecraft:iron_axe')"
+						},
+						{
+							"axe_diamond_right": "q.is_item_name_any('slot.inventory',2,'minecraft:diamond_axe')"
+						},
+                        {
+							"axe_netherite_right": "q.is_item_name_any('slot.inventory',2,'minecraft:netherite_axe')"
+						},
+                        {
+							"pickaxe_wood_right": "q.is_item_name_any('slot.inventory',2,'minecraft:wooden_pickaxe')"
+						},
+                        {
+							"pickaxe_stone_right": "q.is_item_name_any('slot.inventory',2,'minecraft:stone_pickaxe')"
+						},
+                        {
+							"pickaxe_gold_right": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_pickaxe')"
+						},
+                        {
+							"pickaxe_iron_right": "q.is_item_name_any('slot.inventory',2,'minecraft:iron_pickaxe')"
+						},
+						{
+							"pickaxe_diamond_right": "q.is_item_name_any('slot.inventory',2,'minecraft:diamond_pickaxe')"
+						},
+                        {
+							"pickaxe_netherite_right": "q.is_item_name_any('slot.inventory',2,'minecraft:netherite_pickaxe')"
+						},
+                        {
+							"hoe_wood_right": "q.is_item_name_any('slot.inventory',2,'minecraft:wooden_hoe')"
+						},
+                        {
+							"hoe_stone_right": "q.is_item_name_any('slot.inventory',2,'minecraft:stone_hoe')"
+						},
+                        {
+							"hoe_gold_right": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_hoe')"
+						},
+                        {
+							"hoe_iron_right": "q.is_item_name_any('slot.inventory',2,'minecraft:iron_hoe')"
+						},
+						{
+							"hoe_diamond_right": "q.is_item_name_any('slot.inventory',2,'minecraft:diamond_hoe')"
+						},
+                        {
+							"hoe_netherite_right": "q.is_item_name_any('slot.inventory',2,'minecraft:netherite_hoe')"
+						},
+						{
+							"shovel_wood_right": "q.is_item_name_any('slot.inventory',2,'minecraft:wooden_shovel')"
+						},
+                        {
+							"shovel_stone_right": "q.is_item_name_any('slot.inventory',2,'minecraft:stone_shovel')"
+						},
+                        {
+							"shovel_gold_right": "q.is_item_name_any('slot.inventory',2,'minecraft:golden_shovel')"
+						},
+                        {
+							"shovel_iron_right": "q.is_item_name_any('slot.inventory',2,'minecraft:iron_shovel')"
+						},
+						{
+							"shovel_diamond_right": "q.is_item_name_any('slot.inventory',2,'minecraft:diamond_shovel')"
+						},
+                        {
+							"shovel_netherite_right": "q.is_item_name_any('slot.inventory',2,'minecraft:netherite_shovel')"
+						},
+                        {
+							"trident_right": "q.is_item_name_any('slot.inventory',2,'minecraft:trident')"
+						},
+						{
+							"shield_right": "q.is_item_name_any('slot.inventory',2,'minecraft:shield')"
+						},
+                        {
+							"bow_right": "q.is_item_name_any('slot.inventory',2,'minecraft:bow')"
+						},
+						{
+							"crossbow_right": "q.is_item_name_any('slot.inventory',2,'minecraft:crossbow')"
+						},
+						{
+							"handsaw_right": "q.is_item_name_any('slot.inventory',2,'medieval:handsaw')"
+						},
+                        {
+							"no_weapon_right": "!q.is_item_name_any('slot.inventory',2,'minecraft:wooden_sword','minecraft:stone_sword','minecraft:golden_sword','minecraft:iron_sword','minecraft:diamond_sword','minecraft:netherite_sword','minecraft:wooden_axe','minecraft:stone_axe','minecraft:golden_axe','minecraft:iron_axe','minecraft:diamond_axe','minecraft:netherite_axe','minecraft:wooden_pickaxe','minecraft:stone_pickaxe','minecraft:golden_pickaxe','minecraft:iron_pickaxe','minecraft:diamond_pickaxe','minecraft:netherite_pickaxe','minecraft:wooden_hoe','minecraft:stone_hoe','minecraft:golden_hoe','minecraft:iron_hoe','minecraft:diamond_hoe','minecraft:netherite_hoe','minecraft:wooden_shovel','minecraft:stone_shovel','minecraft:golden_shovel','minecraft:iron_shovel','minecraft:diamond_shovel','minecraft:netherite_shovel','minecraft:trident','minecraft:shield','minecraft:bow','minecraft:crossbow','medieval:handsaw')"
+						}
+					]
+				},
+				"sword_wood_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:wood_sword_right"
+					]
+				},
+                "sword_stone_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:stone_sword_right"
+					]
+				},
+                "sword_gold_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:gold_sword_right"
+					]
+				},
+                "sword_iron_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:iron_sword_right"
+					]
+				},
+				"sword_diamond_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:diamond_sword_right"
+					]
+				},
+                "sword_netherite_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:netherite_sword_right"
+					]
+				},
+				"axe_wood_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:wood_axe_right"
+					]
+				},
+                "axe_stone_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:stone_axe_right"
+					]
+				},
+                "axe_gold_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:gold_axe_right"
+					]
+				},
+                "axe_iron_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:iron_axe_right"
+					]
+				},
+				"axe_diamond_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:diamond_axe_right"
+					]
+				},
+                "axe_netherite_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:netherite_axe_right"
+					]
+				},
+                "pickaxe_wood_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:wood_pickaxe_right"
+					]
+				},
+                "pickaxe_stone_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:stone_pickaxe_right"
+					]
+				},
+                "pickaxe_gold_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:gold_pickaxe_right"
+					]
+				},
+                "pickaxe_iron_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:iron_pickaxe_right"
+					]
+				},
+				"pickaxe_diamond_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:diamond_pickaxe_right"
+					]
+				},
+                "pickaxe_netherite_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:netherite_pickaxe_right"
+					]
+				},
+                "hoe_wood_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:wood_hoe_right"
+					]
+				},
+                "hoe_stone_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:stone_hoe_right"
+					]
+				},
+                "hoe_gold_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:gold_hoe_right"
+					]
+				},
+                "hoe_iron_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:iron_hoe_right"
+					]
+				},
+				"hoe_diamond_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:diamond_hoe_right"
+					]
+				},
+                "hoe_netherite_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:netherite_hoe_right"
+					]
+				},
+				"shovel_wood_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:wood_shovel_right"
+					]
+				},
+                "shovel_stone_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:stone_shovel_right"
+					]
+				},
+                "shovel_gold_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:gold_shovel_right"
+					]
+				},
+                "shovel_iron_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:iron_shovel_right"
+					]
+				},
+				"shovel_diamond_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:diamond_shovel_right"
+					]
+				},
+                "shovel_netherite_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:netherite_shovel_right"
+					]
+				},
+				"trident_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:trident_right"
+					]
+				},
+				"shield_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:shield_right"
+					]
+				},
+				"bow_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:bow_right"
+					]
+				},
+				"crossbow_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:crossbow_right"
+					]
+				},
+				"handsaw_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:handsaw_right"
+					]
+				},
+				"no_weapon_right": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+                        "/event entity @e[r=0.1] medieval:no_weapon_right"
+					]
+				}
+			}
+        }
+	}
+}

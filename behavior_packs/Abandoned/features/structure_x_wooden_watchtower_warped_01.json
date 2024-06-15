@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_x_wooden_watchtower_warped_01"
+    },
+    "structure_name": "mystructure:wooden_watchtower_warped_01",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          {
+            "tags": "query.any_tag('custom_plant')"
+          },
+          {
+            "tags": "query.any_tag('custom_sprouts')"
+          },
+          {
+            "tags": "query.any_tag('bone_pile')"
+          },
+          "minecraft:air",
+          "minecraft:brown_mushroom",
+          "minecraft:crimson_fungus",
+          "minecraft:crimson_roots",
+          "minecraft:fire",
+          "minecraft:glow_lichen",
+          "minecraft:nether_sprouts",
+          "minecraft:red_mushroom",
+          "minecraft:soul_fire",
+          "minecraft:twisting_vines",
+          "minecraft:warped_fungus",
+          "minecraft:warped_roots",
+          "minecraft:weeping_vines"
+        ]
+      }
+    }
+  }
+}

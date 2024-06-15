@@ -1,0 +1,76 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rascal.move" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"walk" : "query.modified_move_speed"
+						}
+					],
+					"transitions" : [
+						{
+							"spotted" : "query.is_stunned"
+						}
+					]
+				},
+				"spotted" : {
+					"animations" : [ "spotted" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_stunned && query.mark_variant == 0"
+						},
+						{
+							"give" : "query.all_animations_finished && query.mark_variant == 1"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"give" : {
+					"animations" : [ "give" ],
+					"transitions" : [
+						{
+							"default" : "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.rascal.give": {
+			"initial_state": "nothing",
+			"states": {
+				"nothing": {
+					"animations" : [ 
+						{
+							"walk_arms" : "query.modified_move_speed"
+						}
+						],
+					"transitions": [
+						{ "holding": "variable.is_holding_right" }
+					]
+				},
+				"non_hold" : {
+					"animations" : [ "non_hold" ],
+					"transitions" : [
+						{ "holding": "variable.is_holding_right" },
+						{
+							"nothing" : "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"holding": {
+					"animations": [
+				 "hold_item"
+					],
+					"transitions": [
+						{ "non_hold": "!variable.is_holding_right" }
+					]
+				}
+			}
+		}
+	}
+}

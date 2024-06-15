@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fmh:tadpole_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "fmh:tadpole_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "fmh:tadpole_item"}
+		],
+		"result": [
+			{
+				"item": "fmh:tadpole_mask",
+				"count": 1
+			}
+		]
+	}
+}

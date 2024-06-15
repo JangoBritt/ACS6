@@ -1,0 +1,57 @@
+{
+	"resource_pack_name": "medal_pack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+        //--- Medals --- //
+		"purple_safe_medal": {
+			"textures": "textures/medals/purple_safe_medal"
+		},
+        "demise_medal": {
+			"textures": "textures/medals/demise_medal"
+		},
+
+
+        //--- Trophies --- //
+		"trophy_gold": {
+			"textures": "textures/items/trophy_gold"
+		},
+		"trophy_tnt": {
+			"textures": "textures/items/trophy_tnt"
+		},
+
+        //--- Books --- //
+        "space_book": {
+            "textures": "textures/books/space_book"
+        },
+        "acacia_book": {
+            "textures": "textures/books/acacia_book"
+        },
+        "bamboo_book": {
+            "textures": "textures/books/bamboo_book"
+        },
+        "birch_book": {
+            "textures": "textures/books/birch_book"
+        },
+        "cherry_book": {
+            "textures": "textures/books/cherry_book"
+        },
+        "darkoak_book": {
+            "textures": "textures/books/darkoak_book"
+        },
+        "jungle_book": {
+            "textures": "textures/books/jungle_book"
+        },
+        "mangrove_book": {
+            "textures": "textures/books/mangrove_book"
+        },
+        "nether_book": {
+            "textures": "textures/books/nether_book"
+        },
+        "oak_book": {
+            "textures": "textures/books/oak_book"
+        },
+        "spruce_book": {
+            "textures": "textures/books/spruce_book"
+        }
+	}
+}

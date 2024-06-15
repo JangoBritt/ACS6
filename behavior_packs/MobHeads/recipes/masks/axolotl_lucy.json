@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fmh:axolotl_lucy_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "fmh:axolotl_lucy_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "fmh:axolotl_lucy_item"}
+		],
+		"result": [
+			{
+				"item": "fmh:axolotl_lucy_mask",
+				"count": 1
+			}
+		]
+	}
+}

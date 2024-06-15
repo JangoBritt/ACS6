@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:cyan_concrete_drawer_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cyan_concrete"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:cyan_concrete"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:chest"}
+		],
+		"result": {
+			"item": "mr:cyan_concrete_drawer_mr",
+			"count": 4
+		}
+	}
+}

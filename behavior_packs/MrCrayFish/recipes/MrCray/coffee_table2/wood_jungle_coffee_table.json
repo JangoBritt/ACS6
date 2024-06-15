@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_jungle_coffee_table_tall_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "mr:wood_jungle_coffee_table_short_mr"
+			}
+		},
+		"unlock": [
+			{"item": "mr:wood_jungle_coffee_table_short_mr"}
+		],
+		"result": {
+			"item": "mr:wood_jungle_coffee_table_tall_mr",
+			"count": 1
+		}
+	}
+}

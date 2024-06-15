@@ -1,0 +1,22 @@
+{
+ "format_version": "1.8.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "athos_medals:trophy_demise",
+   "materials": {
+    "default": "skeleton"
+   },
+   "textures": {
+    "default": "textures/entity/trophy/trophy_tnt"
+   },
+   "geometry": {
+    "default": "geometry.trophy"
+   },
+   "render_controllers": [ "controller.render.default" ],
+   "spawn_egg": {
+    "texture": "trophy_tnt",
+    "texture_index": 0
+   }
+  }
+ }
+}

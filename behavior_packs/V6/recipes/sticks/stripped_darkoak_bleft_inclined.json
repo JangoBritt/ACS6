@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "medieval:stripped_darkoak_beam_left_inclined"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:stripped_dark_oak_log",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "medieval:stripped_darkoak_beam_left_inclined",
+      "count": 12
+    }
+  }
+}

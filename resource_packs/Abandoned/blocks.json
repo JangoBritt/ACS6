@@ -1,0 +1,79 @@
+{
+  "format_version": [ 1, 1, 0 ],
+  "nicothekid:spawner_allay": {
+    "textures": "nicothekid_spawner_allay",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_blaze": {
+    "textures": "nicothekid_spawner_blaze",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_cat": {
+    "textures": "nicothekid_spawner_cat",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_hoglin": {
+    "textures": "nicothekid_spawner_hoglin",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_pig": {
+    "textures": "nicothekid_spawner_pig",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_piglin": {
+    "textures": "nicothekid_spawner_piglin",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_piglin_brute": {
+    "textures": "nicothekid_spawner_piglin_brute",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_pillager": {
+    "textures": "nicothekid_spawner_pillager",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_rabbit": {
+    "textures": "nicothekid_spawner_rabbit",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_skeleton": {
+    "textures": "nicothekid_spawner_skeleton",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_skeleton_horse": {
+    "textures": "nicothekid_spawner_skeleton_horse",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_villager": {
+    "textures": "nicothekid_spawner_villager",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_witch": {
+    "textures": "nicothekid_spawner_witch",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_wither_skeleton": {
+    "textures": "nicothekid_spawner_wither_skeleton",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zoglin": {
+    "textures": "nicothekid_spawner_zoglin",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombie_horse": {
+    "textures": "nicothekid_spawner_zombie_horse",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombie_villager": {
+    "textures": "nicothekid_spawner_zombie_villager",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombified_piglin": {
+    "textures": "nicothekid_spawner_zombified_piglin",
+    "sound": "stone"
+  },
+  "nicothekid:structure_ancient_castle": {
+    "textures": "nicothekid_structure_ancient_castle",
+    "sound": "stone"
+  }
+}

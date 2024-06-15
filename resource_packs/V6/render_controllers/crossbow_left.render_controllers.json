@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.crossbow_left": {
+      "geometry": "Geometry.crossbow_left",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Texture.weapon_crossbow"
+      ]
+    }
+  }
+}

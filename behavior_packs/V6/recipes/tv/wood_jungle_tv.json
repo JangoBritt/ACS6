@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_jungle_tv"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" A ",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:jungle_log",
+				"data": 0
+			},
+			"A": {
+				"item": "minecraft:copper_ingot",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:jungle_book"}
+		],
+		"result": {
+			"item": "medieval:wood_jungle_tv",
+			"count": 2
+		}
+	}
+}

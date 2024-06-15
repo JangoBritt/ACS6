@@ -1,0 +1,74 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "athos_golem:golem_button_press",
+            "runtime_identifier": "minecraft:arrow",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "athos_golem:despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "button_press",
+                    "weeweejuice"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.8,
+                "height": 0.8
+            },
+            "minecraft:projectile": {
+                "on_hit": {
+                    "impact_damage": {
+                        "filter": "blaze",
+                        "damage": 0,
+                        "knockback": false
+                    },
+                    "stick_in_ground": {
+                        "shake_time": 0.35
+                    },
+                    "arrow_effect": {}
+                },
+                "power": 1.6,
+                "gravity": 0.05,
+                "uncertainty_base": 16,
+                "uncertainty_multiplier": 4,
+                "anchor": 1,
+                "should_bounce": true,
+                "offset": [
+                    0,
+                    0.5,
+                    0
+                ]
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:timer": {
+                "looping": false,
+                "time": 0.01,
+                "time_down_event": {
+                    "event": "despawn"
+                }
+            }
+        },
+        "events": {
+            "despawn": {
+                "add": {
+                    "component_groups": [
+                        "athos_golem:despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

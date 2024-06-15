@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_wood_fence1"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:darkoak_wood_post",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:darkoak_wood_fence1",
+			"count": 2
+		}
+	}
+}

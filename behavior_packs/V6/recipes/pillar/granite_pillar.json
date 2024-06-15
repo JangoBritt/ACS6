@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "endx:granite_pillar"
+		},
+		"tags": [ "granitecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:stone",
+				"data": 1
+			}
+		],
+		"result": {
+			"item": "endx:granite_pillar",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_darkoak_weapon_stand"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"ABA",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:log2",
+				"data": 1
+			},
+			"B": {
+				"item": "medieval:darkoak_wood_beam_up",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "medieval:wood_darkoak_weapon_stand",
+			"count": 1
+		}
+	}
+}

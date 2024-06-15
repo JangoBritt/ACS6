@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ruin_small_piglin"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ruin_small_piglin_01", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_02", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_03", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_04", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_05", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_06", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_07", 1 ],
+      [ "nicothekid:structure_x_ruin_small_piglin_08", 1 ]
+    ]
+  }
+}

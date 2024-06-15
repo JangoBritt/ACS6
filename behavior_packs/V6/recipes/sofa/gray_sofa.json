@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:gray_sofa"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gray_wool"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:gray_sofa",
+			"count": 1
+		}
+	}
+}

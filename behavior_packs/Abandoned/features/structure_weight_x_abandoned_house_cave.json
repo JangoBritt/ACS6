@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_abandoned_house_cave"
+    },
+    "features": [
+      [ "nicothekid:structure_x_abandoned_house_cave_01_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_cave_02_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_cave_03_a", 100 ]
+    ]
+  }
+}

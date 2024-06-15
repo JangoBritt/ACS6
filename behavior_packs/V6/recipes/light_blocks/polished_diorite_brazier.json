@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:polished_diorite_brazier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			" B ",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:coal"
+			},
+			"B": {
+				"item": "minecraft:stone",
+				"data": 4
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:polished_diorite_brazier",
+			"count": 2
+		}
+	}
+}

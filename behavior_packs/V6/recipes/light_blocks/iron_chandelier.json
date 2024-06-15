@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:iron_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"AAA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:iron_chandelier",
+			"count": 2
+		}
+	}
+}

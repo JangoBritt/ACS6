@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:jungle_drawer2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 3
+			},
+			"B": {
+				"item": "medieval:stripped_jungle_mslab"
+			},
+			"C": {
+				"item": "minecraft:book"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:jungle_drawer2",
+			"count": 1
+		}
+	}
+}

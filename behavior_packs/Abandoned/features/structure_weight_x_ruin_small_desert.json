@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ruin_small_desert"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ruin_small_desert_01", 100 ],
+      [ "nicothekid:structure_x_ruin_small_desert_02", 100 ],
+      [ "nicothekid:structure_x_ruin_small_desert_03", 100 ],
+      [ "nicothekid:structure_x_ruin_small_desert_04", 100 ],
+      [ "nicothekid:structure_x_ruin_small_desert_05", 100 ],
+      [ "nicothekid:structure_x_ruin_small_desert_06", 100 ]
+    ]
+  }
+}

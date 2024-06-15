@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:milk_bottle"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#W",
+            "WW"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:milk_bucket"
+            },
+            "W": {
+                "item": "minecraft:glass_bottle"
+            }
+        },
+        "result": [
+            {
+                "item": "farmersdelight:milk_bottle",
+                "count": 3
+            },
+            {
+                "item": "minecraft:bucket"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.copper_golem": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"default": "1.0"
+						},
+						{
+							"look_at_target": "1.0"
+						}
+					],
+					"transitions": [
+						{
+							"moving": "query.ground_speed >= 0.1 && query.variant != 3"
+						},
+						{
+							"sitting" : "query.is_sitting && query.variant != 3"
+						},
+						{
+							"oxidized" : "query.variant == 3"
+						}
+					]
+				},
+				"moving": {
+					"animations": [
+						{
+							"move": "1.0"
+						},
+						{
+							"look_at_target": "1.0"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.ground_speed < 0.1"
+						},
+						{
+							"sitting" : "query.is_sitting && query.variant != 3"
+						},
+						{
+							"oxidized" : "query.variant == 3"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [
+						{
+							"sit": "1.0"
+						},
+						{
+							"look_at_target": "1.0"
+						}
+					],
+					"transitions": [
+						{
+							"moving": "query.ground_speed >= 0.1 && query.variant != 3 && !query.is_sitting"
+						},
+						{
+							"default": "query.ground_speed < 0.1 && !query.is_sitting"
+						},
+						{
+							"oxidized" : "query.variant == 3"
+						}
+					]
+				},
+				"oxidized": {
+					"animations": [
+						{
+							"default2": "1.0"
+						}
+					],
+					"transitions": [
+						{
+							"moving": "query.ground_speed >= 0.1 && query.variant != 3 && !query.is_sitting"
+						},
+						{
+							"default": "query.ground_speed < 0.1 && !query.is_sitting && query.variant != 3"
+						},
+						{
+							"sitting" : "query.is_sitting && query.variant != 3"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_abandoned_chapel_badlands"
+    },
+    "features": [
+      [ "nicothekid:structure_x_abandoned_chapel_badlands_01_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_chapel_badlands_01_b", 100 ],
+      [ "nicothekid:structure_x_abandoned_chapel_badlands_01_c", 100 ]
+    ]
+  }
+}

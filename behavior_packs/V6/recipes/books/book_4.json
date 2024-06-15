@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:book_4"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"C ",
+			"AB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:book"
+			},
+			"B": {
+				"item": "minecraft:black_dye"
+			},
+			"C": {
+				"item": "minecraft:purple_dye"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:book_4",
+			"count": 1
+		}
+	}
+}

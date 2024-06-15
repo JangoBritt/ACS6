@@ -1,0 +1,107 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.archery",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "archery",
+					"pivot": [0, -1, -2],
+					"cubes": [
+						{
+							"origin": [-6, 7.28, -3.2],
+							"size": [12, 12, 2.4],
+							"uv": {
+								"north": {"uv": [0, 16], "uv_size": [16, 16]},
+								"east": {"uv": [0, 16], "uv_size": [2, 16]},
+								"south": {"uv": [0, 16], "uv_size": [16, 16]},
+								"west": {"uv": [0, 16], "uv_size": [2, 16]},
+								"up": {"uv": [16, 18], "uv_size": [-16, -2]},
+								"down": {"uv": [16, 32], "uv_size": [-16, -2]}
+							}
+						},
+						{
+							"origin": [-6, 3.68, -0.2],
+							"size": [12, 1.2, 1.2],
+							"uv": {
+								"north": {"uv": [18, 5], "uv_size": [10, 1]},
+								"east": {"uv": [17, 4], "uv_size": [1, 1]},
+								"south": {"uv": [19, 1], "uv_size": [10, 1]},
+								"west": {"uv": [19, 5], "uv_size": [1, 1]},
+								"up": {"uv": [28, 6], "uv_size": [-10, -1]},
+								"down": {"uv": [28, 10], "uv_size": [-10, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "archery",
+					"pivot": [-4.8, 6.6, 0],
+					"rotation": [0, 0, 25],
+					"cubes": [
+						{
+							"origin": [-6, 0.08, -0.8],
+							"size": [2.4, 16.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3, 15]},
+								"east": {"uv": [9, 0], "uv_size": [3, 15]},
+								"south": {"uv": [5, 1], "uv_size": [3, 15]},
+								"west": {"uv": [6, 0], "uv_size": [3, 15]},
+								"up": {"uv": [6, 5], "uv_size": [-3, -3]},
+								"down": {"uv": [9, 7], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "archery",
+					"pivot": [4.8, 6.6, 0],
+					"rotation": [0, 0, -25],
+					"cubes": [
+						{
+							"origin": [3.6, 0.08, -0.8],
+							"size": [2.4, 16.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3, 15]},
+								"east": {"uv": [9, 0], "uv_size": [3, 15]},
+								"south": {"uv": [5, 1], "uv_size": [3, 15]},
+								"west": {"uv": [6, 0], "uv_size": [3, 15]},
+								"up": {"uv": [6, 5], "uv_size": [-3, -3]},
+								"down": {"uv": [9, 7], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "archery",
+					"pivot": [0, 7.2, 4.8],
+					"rotation": [25, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1.2, 0.08, 4],
+							"size": [2.4, 16.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3, 15]},
+								"east": {"uv": [9, 0], "uv_size": [3, 15]},
+								"south": {"uv": [5, 1], "uv_size": [3, 15]},
+								"west": {"uv": [6, 0], "uv_size": [3, 15]},
+								"up": {"uv": [6, 5], "uv_size": [-3, -3]},
+								"down": {"uv": [9, 7], "uv_size": [-3, -3]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.athos_avatars.look_at_target": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        "athos_avatars_look_at_target"
+                    ]
+                }
+            }
+        }
+    }
+}

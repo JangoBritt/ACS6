@@ -1,0 +1,200 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cabinet_tall_book_downs",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [14, 1, 14],
+							"uv": {
+								"north": {"uv": [1, 15], "uv_size": [14, 1], "material_instance": "planks"},
+								"east": {"uv": [2, 15], "uv_size": [14, 1], "material_instance": "planks"},
+								"south": {"uv": [1, 15], "uv_size": [14, 1], "material_instance": "planks"},
+								"west": {"uv": [0, 15], "uv_size": [14, 1], "material_instance": "planks"},
+								"up": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-7, 15, -7],
+							"size": [14, 1, 14],
+							"uv": {
+								"north": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "planks"},
+								"east": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "planks"},
+								"south": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "planks"},
+								"west": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "planks"},
+								"up": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-8, 0, -7],
+							"size": [1, 16, 14],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"east": {"uv": [1, 0], "uv_size": [14, 16], "material_instance": "planks"},
+								"south": {"uv": [15, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"west": {"uv": [1, 0], "uv_size": [14, 16], "material_instance": "planks"},
+								"up": {"uv": [16, 15], "uv_size": [-1, -14], "material_instance": "planks"},
+								"down": {"uv": [16, 15], "uv_size": [-1, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "planks"},
+								"east": {"uv": [15, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "planks"},
+								"west": {"uv": [0, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"up": {"uv": [16, 1], "uv_size": [-16, -1], "material_instance": "planks"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -1], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [7, 0, -7],
+							"size": [1, 16, 14],
+							"uv": {
+								"north": {"uv": [15, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"east": {"uv": [1, 0], "uv_size": [14, 16], "material_instance": "planks"},
+								"south": {"uv": [0, 0], "uv_size": [1, 16], "material_instance": "planks"},
+								"west": {"uv": [1, 0], "uv_size": [14, 16], "material_instance": "planks"},
+								"up": {"uv": [1, 15], "uv_size": [-1, -14], "material_instance": "planks"},
+								"down": {"uv": [1, 15], "uv_size": [-1, -14], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "book",
+					"parent": "bone2",
+					"pivot": [4, 1, 0],
+					"rotation": [0, 90, 90],
+					"cubes": [
+						{
+							"origin": [-0.5, 1, -12.6],
+							"size": [9, 2.7, 12.6],
+							"uv": {
+								"north": {"uv": [0, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"east": {"uv": [0, 11.11111], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"south": {"uv": [4, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"west": {"uv": [0.44444, 9.33333], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"up": {"uv": [8, 0], "uv_size": [6.22222, 9.33333], "material_instance": "book"},
+								"down": {"uv": [6.22222, 9.33333], "uv_size": [-6.22222, -9.33333], "material_instance": "book"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book3",
+					"parent": "bone2",
+					"pivot": [-3.5, 1.45, 0.25],
+					"rotation": [0, 90, 102.5],
+					"cubes": [
+						{
+							"origin": [-7.55, 1.45, -11.09],
+							"size": [8.1, 2.43, 11.34],
+							"uv": {
+								"north": {"uv": [0, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"east": {"uv": [0, 11.11111], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"south": {"uv": [4, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"west": {"uv": [0.44444, 9.33333], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"up": {"uv": [8, 0], "uv_size": [6.22222, 9.33333], "material_instance": "book"},
+								"down": {"uv": [6.22222, 9.33333], "uv_size": [-6.22222, -9.33333], "material_instance": "book"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book2",
+					"parent": "bone2",
+					"pivot": [0.25, 1.1, -2],
+					"rotation": [0, 90, 95],
+					"cubes": [
+						{
+							"origin": [-4.25, 1.1, -14.6],
+							"size": [9, 2.7, 12.6],
+							"uv": {
+								"north": {"uv": [0, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"east": {"uv": [0, 11.11111], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"south": {"uv": [4, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"west": {"uv": [0.44444, 9.33333], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"up": {"uv": [8, 0], "uv_size": [6.22222, 9.33333], "material_instance": "book"},
+								"down": {"uv": [6.22222, 9.33333], "uv_size": [-6.22222, -9.33333], "material_instance": "book"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book4",
+					"parent": "bone2",
+					"pivot": [-5.7, 0.95, -2.2],
+					"rotation": [0, 90, 82.5],
+					"cubes": [
+						{
+							"origin": [-9.345, 0.95, -12.406],
+							"size": [7.29, 2.187, 10.206],
+							"uv": {
+								"north": {"uv": [0, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"east": {"uv": [0, 11.11111], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"south": {"uv": [4, 9.33333], "uv_size": [6.22222, 1.77778], "material_instance": "book"},
+								"west": {"uv": [0.44444, 9.33333], "uv_size": [9.33333, 1.77778], "material_instance": "book"},
+								"up": {"uv": [8, 0], "uv_size": [6.22222, 9.33333], "material_instance": "book"},
+								"down": {"uv": [6.22222, 9.33333], "uv_size": [-6.22222, -9.33333], "material_instance": "book"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone",
+					"pivot": [-7, 8, 7],
+					"rotation": [0, -80, 0],
+					"cubes": [
+						{
+							"origin": [4, 12, 7.5],
+							"size": [1.5, 4, 0.5],
+							"uv": {
+								"north": {"uv": [7, 5], "uv_size": [1.5, 4], "material_instance": "metal"},
+								"east": {"uv": [7, 5], "uv_size": [0.5, 4], "material_instance": "metal"},
+								"south": {"uv": [7, 5], "uv_size": [1.5, 4], "material_instance": "metal"},
+								"west": {"uv": [7, 5], "uv_size": [0.5, 4], "material_instance": "metal"},
+								"up": {"uv": [7, 5], "uv_size": [1.5, 0.5], "material_instance": "metal"},
+								"down": {"uv": [8.5, 8.5], "uv_size": [-1.5, -0.5], "material_instance": "metal"}
+							}
+						},
+						{
+							"origin": [-7, 1, 6.5],
+							"size": [14, 15, 1],
+							"uv": {
+								"north": {"uv": [1, 0], "uv_size": [14, 15], "material_instance": "awood"},
+								"east": {"uv": [0, 0], "uv_size": [1, 15], "material_instance": "awood"},
+								"south": {"uv": [1, 0], "uv_size": [14, 15], "material_instance": "awood"},
+								"west": {"uv": [15, 0], "uv_size": [1, 15], "material_instance": "awood"},
+								"up": {"uv": [15, 16], "uv_size": [-14, -1], "material_instance": "awood"},
+								"down": {"uv": [15, 1], "uv_size": [-14, -1], "material_instance": "awood"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

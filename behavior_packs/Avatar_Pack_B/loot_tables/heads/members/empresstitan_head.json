@@ -1,0 +1,13 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "athos_avatars:empresstitan_head_item"
+				}
+			]
+		}
+	]
+}

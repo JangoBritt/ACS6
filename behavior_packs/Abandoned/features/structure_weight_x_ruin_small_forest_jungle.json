@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ruin_small_forest_jungle"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ruin_small_jungle_01", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_02", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_03", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_04", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_05", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_06", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_07", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_08", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_09", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_10", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_11", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_12", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_13", 20 ],
+      [ "nicothekid:structure_x_ruin_small_jungle_14", 20 ],
+      [ "nicothekid:structure_x_ruin_small_forest_01", 10 ],
+      [ "nicothekid:structure_x_ruin_small_forest_02", 10 ],
+      [ "nicothekid:structure_x_ruin_small_forest_03", 10 ],
+      [ "nicothekid:structure_x_ruin_small_forest_04", 10 ]
+    ]
+  }
+}

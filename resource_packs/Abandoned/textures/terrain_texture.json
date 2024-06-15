@@ -1,0 +1,65 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "nicothekid_spawner_allay": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_allay"
+    },
+    "nicothekid_spawner_blaze": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_blaze"
+    },
+    "nicothekid_spawner_cat": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_cat"
+    },
+    "nicothekid_spawner_hoglin": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_hoglin"
+    },
+    "nicothekid_spawner_pig": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_pig"
+    },
+    "nicothekid_spawner_piglin": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_piglin"
+    },
+    "nicothekid_spawner_piglin_brute": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_piglin_brute"
+    },
+    "nicothekid_spawner_pillager": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_pillager"
+    },
+    "nicothekid_spawner_rabbit": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_rabbit"
+    },
+    "nicothekid_spawner_skeleton": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_skeleton"
+    },
+    "nicothekid_spawner_skeleton_horse": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_skeleton_horse"
+    },
+    "nicothekid_spawner_villager": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_villager"
+    },
+    "nicothekid_spawner_witch": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_witch"
+    },
+    "nicothekid_spawner_wither_skeleton": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_wither_skeleton"
+    },
+    "nicothekid_spawner_zoglin": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_zoglin"
+    },
+    "nicothekid_spawner_zombie_horse": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_zombie_horse"
+    },
+    "nicothekid_spawner_zombie_villager": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_zombie_villager"
+    },
+    "nicothekid_spawner_zombified_piglin": {
+      "textures": "textures/blocks/ars/nicothekid_spawner_zombified_piglin"
+    },
+    "nicothekid_structure_ancient_castle": {
+      "textures": "textures/blocks/ars/nicothekid_structure_ancient_castle"
+    }
+  }
+}

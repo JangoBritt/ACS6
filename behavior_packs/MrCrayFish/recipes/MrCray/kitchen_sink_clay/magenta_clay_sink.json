@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:magenta_clay_sink_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#I#",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:magenta_terracotta"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:bucket"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:magenta_terracotta"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:bucket"},
+			{"item": "minecraft:iron_ingot"}
+		],
+		"result": {
+			"item": "mr:magenta_clay_sink_mr",
+			"count": 2
+		}
+	}
+}

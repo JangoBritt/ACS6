@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:mangrove_green_chair"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"#B ",
+		"###",
+		"A A"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:stripped_mangrove_log",
+			"data": 0
+		},
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		},
+		"B": {
+			"item": "minecraft:carpet",
+			"data": 13
+		}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+      "item": "medieval:mangrove_green_chair",
+	  "count": 3
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "athos_medals:trophy_gold",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "athos_medals"
+        ]
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:navigation.walk": {},
+      "minecraft:movement.basic": {},
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      },
+      "minecraft:physics": {},
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/trophy_gold.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 1.42
+      }
+    }
+  }
+}

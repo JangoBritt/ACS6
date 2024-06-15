@@ -1,0 +1,14 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"plop_ui": {
+			"sounds": [
+				{
+					"name": "sounds/plop",
+					"volume": 1,
+					"load_on_low_memory": true
+				}
+			]
+		}
+	}
+}

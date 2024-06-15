@@ -1,0 +1,77 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cooking_top": {
+			"states": {
+				"default": {
+					"transitions": [
+                        {
+							"start_cooking_top": "q.is_item_name_any('slot.inventory',0,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') && query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:stop_cooking_top"
+					]
+				},
+                "start_cooking_top": {
+					"transitions": [
+                        {
+							"default": "!q.is_item_name_any('slot.inventory',0,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') || !query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:start_cooking_top"
+					]
+				}
+			}
+        },
+		"controller.animation.cooking_middle": {
+			"states": {
+				"default": {
+					"transitions": [
+                        {
+							"start_cooking_middle": "q.is_item_name_any('slot.inventory',2,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') && query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:stop_cooking_middle"
+					]
+				},
+                "start_cooking_middle": {
+					"transitions": [
+                        {
+							"default": "!q.is_item_name_any('slot.inventory',2,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') || !query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:start_cooking_middle"
+					]
+				}
+			}
+        },
+		"controller.animation.cooking_bottom": {
+			"states": {
+				"default": {
+					"transitions": [
+                        {
+							"start_cooking_bottom": "q.is_item_name_any('slot.inventory',4,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') && query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:stop_cooking_bottom"
+					]
+				},
+                "start_cooking_bottom": {
+					"transitions": [
+						{
+							"default": "!q.is_item_name_any('slot.inventory',4,'minecraft:chicken','minecraft:porkchop','minecraft:beef','minecraft:mutton','minecraft:rabbit','minecraft:cod','minecraft:salmon') || !query.property('property:stove_on')"
+						}
+					],
+					"on_entry": [
+                        "@s medieval:start_cooking_bottom"
+					]
+				}
+			}
+        }
+	}
+}

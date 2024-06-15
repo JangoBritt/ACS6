@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_bamboo_bucket"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A A",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_bamboo_block",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:bamboo_book"}
+		],
+		"result": {
+			"item": "medieval:stripped_bamboo_bucket",
+			"count": 3
+		}
+	}
+}

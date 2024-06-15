@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wandering Trader Plus RP v1.0.4",
+		"description": "Wandering Trader Plus v1.0.4 by Redstone Games - https://www.redstonegames.com.br",
+		"uuid": "b1c6e1b7-221b-4b6d-8691-85e35cf0e113",
+		"version": [6, 0, 0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"description": "Resource Pack",
+			"type": "resources",
+			"uuid": "2c134112-a51c-ffaf-1edd-7b122af53333",
+			"version": [6, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["RedstoneGamesBr"],
+		"url": "https://www.redstonegames.com.br/wandering-trader-plus-addon-minecraft-bedrock/"
+	}
+}

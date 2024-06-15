@@ -1,0 +1,1105 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_apple_chariot_0",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "food",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "apple8",
+					"parent": "food",
+					"pivot": [1.51429, 13.5, 4.78571],
+					"rotation": [9.8536, -1.6159, 7.3393],
+					"cubes": [
+						{
+							"origin": [1.66449, 26.56713, 5.94201],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 30.56713, 5.94201],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 25.56713, 5.94201],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-3.33551, 26.56713, 5.94201],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 26.56713, 9.94201],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 26.56713, 4.94201],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone10",
+					"parent": "apple8",
+					"pivot": [0.5299, 18.57373, 5.30533],
+					"cubes": [
+						{
+							"origin": [-0.68551, 31.55963, 7.58076],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-1.38551, 32.25963, 7.86076],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.78551, 32.95963, 7.86076],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.08551, 32.25963, 7.86076],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple7",
+					"parent": "food",
+					"pivot": [-2.23571, 18.1, 2.78571],
+					"rotation": [-18.6566, -52.9089, 19.4495],
+					"cubes": [
+						{
+							"origin": [-3.18229, 31.19403, 0.59298],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 35.19403, 0.59298],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 30.19403, 0.59298],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-8.18229, 31.19403, 0.59298],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 31.19403, 4.59298],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 31.19403, -0.40702],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone9",
+					"parent": "apple7",
+					"pivot": [-3.2201, 23.17373, 3.30533],
+					"cubes": [
+						{
+							"origin": [-5.53229, 36.18653, 2.23173],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-6.23229, 36.88653, 2.51173],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.63229, 37.58653, 2.51173],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-6.93229, 36.88653, 2.51173],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple6",
+					"parent": "food",
+					"pivot": [-2.23571, 15.3, 8.43571],
+					"rotation": [-27.6804, 62.23, -32.3987],
+					"cubes": [
+						{
+							"origin": [3.57458, 28.23789, 7.40695],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 32.23789, 7.40695],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 27.23789, 7.40695],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-1.42542, 28.23789, 7.40695],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 28.23789, 11.40695],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 28.23789, 6.40695],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone8",
+					"parent": "apple6",
+					"pivot": [-3.2201, 20.37373, 8.95533],
+					"cubes": [
+						{
+							"origin": [1.22458, 33.23039, 9.0457],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.52458, 33.93039, 9.3257],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.87542, 34.63039, 9.3257],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.17542, 33.93039, 9.3257],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple5",
+					"parent": "food",
+					"pivot": [3.06429, 18.25, 8.73571],
+					"rotation": [12.0906, 43.4041, 2.8557],
+					"cubes": [
+						{
+							"origin": [4.58696, 31.42534, 9.92868],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 35.42534, 9.92868],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 30.42534, 9.92868],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.41304, 31.42534, 9.92868],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 31.42534, 13.92868],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 31.42534, 8.92868],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "apple5",
+					"pivot": [2.0799, 23.32373, 9.25533],
+					"cubes": [
+						{
+							"origin": [2.23696, 36.41784, 11.56743],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [1.53696, 37.11784, 11.84743],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.13696, 37.81784, 11.84743],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.83696, 37.11784, 11.84743],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "food2",
+					"pivot": [0, 0, 23.5]
+				},
+				{
+					"name": "apple2",
+					"parent": "food2",
+					"pivot": [3.06429, 18.25, 25.23571],
+					"rotation": [12.0906, 43.4041, 2.8557],
+					"cubes": [
+						{
+							"origin": [4.58696, 31.42534, 26.42868],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 35.42534, 26.42868],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 30.42534, 26.42868],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.41304, 31.42534, 26.42868],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 31.42534, 30.42868],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.58696, 31.42534, 25.42868],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "apple2",
+					"pivot": [2.0799, 23.32373, 25.75533],
+					"cubes": [
+						{
+							"origin": [2.23696, 36.41784, 28.06743],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [1.53696, 37.11784, 28.34743],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.13696, 37.81784, 28.34743],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.83696, 37.11784, 28.34743],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple3",
+					"parent": "food2",
+					"pivot": [-2.23571, 15.3, 24.93571],
+					"rotation": [-27.6804, 62.23, -32.3987],
+					"cubes": [
+						{
+							"origin": [3.57458, 28.23789, 23.90695],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 32.23789, 23.90695],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 27.23789, 23.90695],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-1.42542, 28.23789, 23.90695],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 28.23789, 27.90695],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.42542, 28.23789, 22.90695],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "apple3",
+					"pivot": [-3.2201, 20.37373, 25.45533],
+					"cubes": [
+						{
+							"origin": [1.22458, 33.23039, 25.5457],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [0.52458, 33.93039, 25.8257],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.87542, 34.63039, 25.8257],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-0.17542, 33.93039, 25.8257],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple4",
+					"parent": "food2",
+					"pivot": [-2.23571, 18.1, 19.28571],
+					"rotation": [-18.6566, -52.9089, 19.4495],
+					"cubes": [
+						{
+							"origin": [-3.18229, 31.19403, 17.09298],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 35.19403, 17.09298],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 30.19403, 17.09298],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-8.18229, 31.19403, 17.09298],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 31.19403, 21.09298],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.18229, 31.19403, 16.09298],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "apple4",
+					"pivot": [-3.2201, 23.17373, 19.80533],
+					"cubes": [
+						{
+							"origin": [-5.53229, 36.18653, 18.73173],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-6.23229, 36.88653, 19.01173],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-7.63229, 37.58653, 19.01173],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-6.93229, 36.88653, 19.01173],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "apple9",
+					"parent": "food2",
+					"pivot": [1.51429, 13.5, 21.28571],
+					"rotation": [9.8536, -1.6159, 7.3393],
+					"cubes": [
+						{
+							"origin": [1.66449, 26.56713, 22.44201],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [3, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [14, 16], "uv_size": [-8, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"down": {"uv": [20, 22], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 30.56713, 22.44201],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 18], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [20, 18], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [10, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [16, 18], "uv_size": [-8, -8], "material_instance": "apple"},
+								"down": {"uv": [13, 28], "uv_size": [-8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 25.56713, 22.44201],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [12, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"east": {"uv": [12, 8], "uv_size": [8, 2], "material_instance": "apple"},
+								"south": {"uv": [18, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"west": {"uv": [8, 14], "uv_size": [8, 2], "material_instance": "apple"},
+								"up": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"down": {"uv": [8, 18], "uv_size": [8, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-3.33551, 26.56713, 22.44201],
+							"size": [1, 4, 4],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [8, 16], "uv_size": [8, -8], "material_instance": "apple"},
+								"south": {"uv": [8, 18], "uv_size": [2, -8], "material_instance": "apple"},
+								"west": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"down": {"uv": [12, 18], "uv_size": [-2, -8], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 26.56713, 26.44201],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [4, 19], "uv_size": [8, 8], "material_instance": "apple"},
+								"east": {"uv": [6, 16], "uv_size": [2, -8], "material_instance": "apple"},
+								"south": {"uv": [18, 16], "uv_size": [-8, -8], "material_instance": "apple"},
+								"west": {"uv": [14, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [10, 20], "uv_size": [8, 2], "material_instance": "apple"},
+								"down": {"uv": [8, 12], "uv_size": [8, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.33551, 26.56713, 21.44201],
+							"size": [4, 4, 1],
+							"uv": {
+								"north": {"uv": [16, 12], "uv_size": [-8, 8], "material_instance": "apple"},
+								"east": {"uv": [12, 14], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [3, 18], "uv_size": [8, 8], "material_instance": "apple"},
+								"west": {"uv": [8, 12], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [16, 10], "uv_size": [-8, 2], "material_instance": "apple"},
+								"down": {"uv": [18, 20], "uv_size": [-8, -2], "material_instance": "apple"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone11",
+					"parent": "apple9",
+					"pivot": [0.5299, 18.57373, 21.80533],
+					"cubes": [
+						{
+							"origin": [-0.68551, 31.55963, 24.08076],
+							"size": [0.7, 2.8, 0.7],
+							"uv": {
+								"north": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"east": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"south": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"west": {"uv": [28, 16], "uv_size": [2, 8], "material_instance": "apple"},
+								"up": {"uv": [28, 16], "uv_size": [2, 2], "material_instance": "apple"},
+								"down": {"uv": [30, 24], "uv_size": [-2, -2], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-1.38551, 32.25963, 24.36076],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"east": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [22, 20], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [24, 20], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [22, 20], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [23.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.78551, 32.95963, 24.36076],
+							"size": [0.7, 1.4, 0.07],
+							"uv": {
+								"north": {"uv": [26, 18], "uv_size": [2, 2], "material_instance": "apple"},
+								"east": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"south": {"uv": [26, 18], "uv_size": [2, 4], "material_instance": "apple"},
+								"west": {"uv": [26, 18], "uv_size": [0.14, 2.8], "material_instance": "apple"},
+								"up": {"uv": [26, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [27.4, 20.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						},
+						{
+							"origin": [-2.08551, 32.25963, 24.36076],
+							"size": [0.7, 2.1, 0.07],
+							"uv": {
+								"north": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"east": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"south": {"uv": [24, 18], "uv_size": [2, 6], "material_instance": "apple"},
+								"west": {"uv": [24, 18], "uv_size": [0.14, 4.2], "material_instance": "apple"},
+								"up": {"uv": [24, 18], "uv_size": [1.4, 0.14], "material_instance": "apple"},
+								"down": {"uv": [25.4, 22.14], "uv_size": [-1.4, -0.14], "material_instance": "apple"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

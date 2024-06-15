@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cobblestone_mossy_mslab"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:mossy_cobblestone",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cobblestone_mossy_mslab",
+			"count": 12
+		}
+	}
+}

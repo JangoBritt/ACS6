@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:spruce_lime_chair"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"#B ",
+		"###",
+		"A A"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:stripped_spruce_log",
+			"data": 0
+		},
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		},
+		"B": {
+			"item": "minecraft:carpet",
+			"data": 5
+		}
+		},
+		"unlock": [
+			{"item": "athos_misc:spruce_book"}
+		],
+		"result": {
+      "item": "medieval:spruce_lime_chair",
+	  "count": 3
+    }
+  }
+}

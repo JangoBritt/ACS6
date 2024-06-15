@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "medieval:stacked_acacia_log"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:acacia_log",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "medieval:stacked_acacia_log",
+			"count": 4
+		}
+	}
+}

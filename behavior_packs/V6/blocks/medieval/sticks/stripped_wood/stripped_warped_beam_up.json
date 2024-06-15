@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_warped_beam_up",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.warped"
+			},
+			"traits": {
+				"minecraft:placement_position": {"enabled_states": ["minecraft:vertical_half"]},
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:vertical_half') == 'top'","components": {"minecraft:geometry": "geometry.stick_up"}},
+			{"condition": "q.block_state('minecraft:vertical_half') == 'bottom'","components": {"minecraft:geometry": "geometry.stick_down","minecraft:collision_box": {"origin": [-8.0,0.0,4.0],"size": [16,4,4]},"minecraft:selection_box": {"origin": [-8.0,0.0,4.0],"size": [16,4,4]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0, 180, 0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0, 0, 0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0, 90, 0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0, -90, 0] }}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:material_instances": {"*": {"texture": "stripped_warped","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-8.0,12.0,4.0],"size": [16,4,4]},
+			"minecraft:selection_box": {"origin": [-8.0,12.0,4.0],"size": [16,4,4]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#24abab"
+		}
+	}
+}

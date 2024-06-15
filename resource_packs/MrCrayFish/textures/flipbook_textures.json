@@ -1,0 +1,7 @@
+[
+	{
+		"flipbook_texture": "textures/MrCray/water_flow",
+		"atlas_tile": "mr.water_flow",
+		"ticks_per_frame": 2
+	}
+]

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:stripped_oak_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:oak_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:stripped_oak_post"
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:oak_book"}
+	],
+    "result": {
+      "item": "medieval:stripped_oak_stool",
+	  "count": 1
+    }
+  }
+}

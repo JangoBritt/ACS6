@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_wood_flower_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AA",
+			"BB",
+			"CC"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:flower_pot"
+			},
+			"A": {
+				"item": "medieval:mangrove_wood_post"
+			},
+			"C": {
+				"item": "medieval:mangrove_wood_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:mangrove_wood_flower_stand",
+			"count": 1
+		}
+	}
+}

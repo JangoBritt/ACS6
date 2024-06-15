@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_wood_chair0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"  A",
+			"###",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_log",
+				"data": 0
+			},
+			"A": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:cherry_book"}
+		],
+		"result": {
+			"item": "medieval:cherry_wood_chair0",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.redstone_mon.say": {
+			"sounds": [
+				"sounds/mob/monstrosity/idle1",
+				"sounds/mob/monstrosity/idle2",
+				"sounds/mob/monstrosity/breath"
+			]
+		},
+		"mob.redstone_mon.death": {
+			"sounds": [
+				"sounds/mob/monstrosity/death"
+			]
+		},
+		"mob.redstone_mon.hurt": {
+			"sounds": [
+				"sounds/mob/monstrosity/hurt1",
+				"sounds/mob/monstrosity/hurt2"
+			]
+		},
+		"mob.redstone_mon.step": {
+			"sounds": [
+				"sounds/mob/monstrosity/step1",
+				"sounds/mob/monstrosity/step2",
+				"sounds/mob/monstrosity/step3"
+			]
+		},
+		"mob.key_golem.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/key_golem/keypanic",
+				"sounds/mob/key_golem/keyhappy"
+			]
+		},
+		"mob.key_golem.death": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/key_golem/keypanic"
+			]
+		},
+		"mob.key_golem.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/key_golem/hurt1"
+			]
+		},
+		"mob.key_golem.summon": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/key_golem/keyhappy"
+			]
+		}
+	}
+}

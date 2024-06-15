@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:sunflower_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sunflower_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:sunflower"
+			}
+		}
+	}
+}

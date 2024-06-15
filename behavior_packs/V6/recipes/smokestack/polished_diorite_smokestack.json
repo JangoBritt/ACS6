@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "medieval:polished_diorite_smokestack"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:stone",
+				"data": 4
+			}
+		],
+		"result": {
+			"item": "medieval:polished_diorite_smokestack",
+			"count": 1
+		}
+	}
+}

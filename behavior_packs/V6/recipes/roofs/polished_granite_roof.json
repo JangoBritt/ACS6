@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:polished_granite_mslab"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stone",
+				"data": 2
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:polished_granite_mslab",
+			"count": 12
+		}
+	}
+}

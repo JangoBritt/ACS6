@@ -1,0 +1,56 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:wood_streetlight",
+			"properties": {
+				"medieval:direction":[0,1,2,3],
+				"medieval:texture": [0,1,2,3,4,5,6],
+				"medieval:type": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_property('medieval:direction') == 0","components": {"minecraft:rotation": [0,0,0],"tag:north_streetlight": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["north"],"block_filter": [{"tags": "q.any_tag('streetlight_0_top')"}]}]}}},
+			{"condition": "q.block_property('medieval:direction') == 1","components": {"minecraft:rotation": [0,180,0],"tag:south_streetlight": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["south"],"block_filter": [{"tags": "q.any_tag('streetlight_0_top')"}]}]}}},
+			{"condition": "q.block_property('medieval:direction') == 2","components": {"minecraft:rotation": [0,90,0],"tag:east_streetlight": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["west"],"block_filter": [{"tags": "q.any_tag('streetlight_0_top')"}]}]}}},
+			{"condition": "q.block_property('medieval:direction') == 3","components": {"minecraft:rotation": [0,-90,0],"tag:west_streetlight": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["east"],"block_filter": [{"tags": "q.any_tag('streetlight_0_top')"}]}]}}},
+			{"condition": "q.block_property('medieval:texture') == 0 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_acacia","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 1 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_birch","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 2 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_darkoak","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 3 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_jungle","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 4 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 5 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_oak","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 6 && q.block_property('medieval:type') == 0","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_spruce","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 0 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_acacia","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 1 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_birch","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 2 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_darkoak","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 3 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_jungle","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 4 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 5 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_oak","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 6 && q.block_property('medieval:type') == 1","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_spruce","render_method": "alpha_test"},"metal2": {"texture": "m.lantern","render_method": "alpha_test"},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:type') == 0","components": {"minecraft:loot": "loot_tables/medieval_furniture/drops/lantern.json"}},
+			{"condition": "q.block_property('medieval:type') == 1","components": {"minecraft:loot": "loot_tables/medieval_furniture/drops/soul_lantern.json"}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry":"geometry.m.streetlight_north",
+			"minecraft:on_interact": {"event": "remove_lantern"},
+			"minecraft:creative_category": {"category": "commands","group": "itemGroup.name.unobtainable"},
+			"minecraft:entity_collision": {"origin": [-3,0,-1],"size": [6,16,9]},
+			"minecraft:pick_collision": {"origin": [-3,0,-1],"size": [6,16,9]},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:block_light_emission": 1.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.1,
+			"minecraft:map_color": "#969696"
+		},
+		"events": {
+			"remove_lantern": {
+				"sequence": [
+					{"condition": "q.block_property('medieval:type') == 0 && q.is_sneaking","run_command": {"command": ["playsound block.itemframe.remove_item @a ~ ~ ~","setblock ~~~ air"]},"spawn_loot": {"table": "loot_tables/medieval_furniture/drops/lantern.json"}},
+					{"condition": "q.block_property('medieval:type') == 1 && q.is_sneaking","run_command": {"command": ["playsound block.itemframe.remove_item @a ~ ~ ~","setblock ~~~ air"]},"spawn_loot": {"table": "loot_tables/medieval_furniture/drops/soul_lantern.json"}}
+				]
+			}
+		}
+	}
+}

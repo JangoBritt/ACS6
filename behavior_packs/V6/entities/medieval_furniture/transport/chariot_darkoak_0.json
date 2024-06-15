@@ -1,0 +1,515 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:chariot_darkoak_0",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {"animate": ["equipment","barrel"]},
+			"animations": {"equipment": "controller.animation.equipment_chariot_0","barrel": "controller.animation.barrel_chariot_0"}
+		},
+		"component_groups": {
+			"minecraft:horse_saddled": {
+				"minecraft:is_saddled": {},
+				"minecraft:input_ground_controlled": {},
+				"minecraft:can_power_jump": {},
+				"minecraft:behavior.player_ride_tamed": {}
+			},
+			"medieval:can_move": {
+				"minecraft:navigation.walk": {
+					"can_path_over_water": true,
+					"avoid_water": true,
+					"avoid_damage_blocks": true
+				},
+				"minecraft:movement.basic": {},
+				"minecraft:behavior.random_stroll": {
+					"priority": 6,
+					"speed_multiplier": 0.7
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 7,
+					"look_distance": 6.0,
+					"probability": 0.02
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 8
+				}
+			},
+			"medieval:no_equipment": {"minecraft:skin_id": {"value": 0}},
+			"medieval:armor_leather": {"minecraft:skin_id": {"value": 1}},
+			"medieval:armor_iron": {"minecraft:skin_id": {"value": 2}},
+			"medieval:armor_gold": {"minecraft:skin_id": {"value": 3}},
+			"medieval:armor_diamond": {"minecraft:skin_id": {"value": 4}},
+			"medieval:add_barrel": {"minecraft:is_baby": {}},
+			"medieval:add_barrel_apple": {"minecraft:skin_id": {"value": 5}},
+			"medieval:add_barrel_golden_apple": {"minecraft:skin_id": {"value": 6}},
+			"medieval:add_barrel_bamboo": {"minecraft:skin_id": {"value": 7}},
+			"medieval:add_barrel_beetroot": {"minecraft:skin_id": {"value": 8}},
+			"medieval:add_barrel_cod": {"minecraft:skin_id": {"value": 9}},
+			"medieval:add_barrel_salmon": {"minecraft:skin_id": {"value": 10}},
+			"medieval:add_barrel_potato": {"minecraft:skin_id": {"value": 11}},
+			"medieval:add_barrel_carrot": {"minecraft:skin_id": {"value": 12}},
+			"medieval:become_horse": {"minecraft:transformation": {"into": "minecraft:horse","drop_inventory": true,"keep_level": true,"keep_owner":true}},
+			"minecraft:base_white": {"minecraft:variant": {"value": 0}},
+			"minecraft:base_creamy": {"minecraft:variant": {"value": 1}},
+			"minecraft:base_chestnut": {"minecraft:variant": {"value": 2}},
+			"minecraft:base_brown": {"minecraft:variant": {"value": 3}},
+			"minecraft:base_black": {"minecraft:variant": {"value": 4}},
+			"minecraft:base_gray": {"minecraft:variant": {"value": 5}},
+			"minecraft:base_darkbrown": {"minecraft:variant": {"value": 6}},
+			"minecraft:markings_none": {"minecraft:mark_variant": {"value": 0}},
+			"minecraft:markings_white_details": {"minecraft:mark_variant": {"value": 1}},
+			"minecraft:markings_white_fields": {"minecraft:mark_variant": {"value": 2}},
+			"minecraft:markings_white_dots": {"minecraft:mark_variant": {"value": 3}},
+			"minecraft:markings_black_dots": {"minecraft:mark_variant": {"value": 4}}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_bred": "Math.Random(1,7)",
+				"on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/medieval_furniture/chariot_0/horse_chariot_darkoak_0.json"
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "rider_count",
+									"subject": "self",
+									"operator": "==",
+									"value": 0
+								}
+							]
+						},
+						"event": "medieval:no_movement"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "rider_count",
+									"subject": "self",
+									"operator": "==",
+									"value": 1
+								}
+							]
+						},
+						"event": "medieval:can_move"
+					}
+				]
+			},
+			"minecraft:behavior.run_around_like_crazy": {
+				"priority": 1,
+				"speed_multiplier": 1.2
+			},
+			"minecraft:behavior.breed": {
+				"priority": 2,
+				"speed_multiplier": 1.0
+			},
+			"minecraft:is_tamed": {},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"interact_text": "action.interact.ride.horse",
+				"seats": {
+					"position": [
+						0.0,
+						1.1,
+						1.35
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"play_sounds": "armor.equip_generic",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"none_of": [
+											{
+												"test": "has_equipment",
+												"subject": "self",
+												"domain": "inventory",
+												"value": "leather_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "self",
+												"domain": "inventory",
+												"value": "iron_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "self",
+												"domain": "inventory",
+												"value": "golden_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "self",
+												"domain": "inventory",
+												"value": "diamond_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "self",
+												"domain": "inventory",
+												"value": "barrel"
+											}
+										]
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "player",
+												"domain": "hand",
+												"value": "leather_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "player",
+												"domain": "hand",
+												"value": "iron_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "player",
+												"domain": "hand",
+												"value": "golden_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "player",
+												"domain": "hand",
+												"value": "diamond_horse_armor"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "player",
+												"domain": "hand",
+												"value": "barrel"
+											}
+										]
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": false
+									}
+								]
+							},
+							"target": "self"
+						},
+						"equip_item_slot": 1,
+						"interact_text": "action.interact.equiphorsearmor"
+					},
+					{
+						"play_sounds": "saddle",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"domain": "inventory",
+										"operator": "not",
+										"value": "saddle"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "saddle"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": false
+									}
+								]
+							},
+							"target": "self"
+						},
+						"equip_item_slot": 0,
+						"interact_text": "action.interact.saddle"
+					},
+					{
+						"play_sounds": "random.anvil_use",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "medieval:handsaw"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": false
+									}
+								]
+							},
+							"target": "self",
+							"event": "medieval:become_horse"
+						},
+						"use_item": true,
+						"transform_to_item": "medieval:chariot_darkoak_0_item",
+						"interact_text": "action.interact.remove_chariot"
+					}
+				]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 29,
+				"can_be_siphoned_from": true,
+				"container_type": "horse"
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:equippable": {
+				"slots": [
+					{
+						"slot": 0,
+						"item": "saddle",
+						"accepted_items": [
+							"saddle"
+						],
+						"on_equip": {
+							"event": "minecraft:horse_saddled"
+						},
+						"on_unequip": {
+							"event": "minecraft:horse_unsaddled"
+						}
+					},
+					{
+						"slot": 1,
+						"item": "horsearmoriron",
+						"accepted_items": [
+							"horsearmorleather",
+							"horsearmoriron",
+							"horsearmorgold",
+							"horsearmordiamond",
+							"barrel"
+						]
+					}
+				]
+			},
+			"minecraft:is_chested": {},
+			"minecraft:type_family": {
+				"family": [
+					"horse",
+					"mob"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 1.6
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 2,
+						"height": 1.6,
+						"pivot": [
+							0,
+							0.75,
+							0.8
+						]
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": {
+					"range_min": 15,
+					"range_max": 30
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": {
+					"range_min": 0.1125,
+					"range_max": 0.3375
+				}
+			},
+			"minecraft:jump.static": {},
+			"minecraft:nameable": {},
+			"minecraft:horse.jump_strength": {
+				"value": {
+					"range_min": 0.4,
+					"range_max": 1.0
+				}
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4.0,
+				"hard_distance": 6.0,
+				"max_distance": 10.0
+			},
+			"minecraft:balloonable": {},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "wheat",
+						"heal_amount": 2
+					},
+					{
+						"item": "sugar",
+						"heal_amount": 1
+					},
+					{
+						"item": "hay_block",
+						"heal_amount": 20
+					},
+					{
+						"item": "apple",
+						"heal_amount": 3
+					},
+					{
+						"item": "golden_carrot",
+						"heal_amount": 4
+					},
+					{
+						"item": "golden_apple",
+						"heal_amount": 10
+					},
+					{
+						"item": "appleEnchanted",
+						"heal_amount": 10
+					},
+					{
+						"item": "farmersdelight:horse_feed",
+						"effects": [
+							{
+								"name": "speed",
+								"duration": 300,
+								"amplifier": 1
+							},
+							{
+								"name": "jump_boost",
+								"duration": 300
+							}
+						]
+					}
+				]
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.panic": {
+				"priority": 3,
+				"speed_multiplier": 1.2
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 5,
+				"speed_multiplier": 1.2,
+				"items": [
+					"golden_apple",
+					"appleEnchanted",
+					"golden_carrot"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{"randomize": [{"weight": 1,"add": {"component_groups": ["minecraft:base_white"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_creamy"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_chestnut"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_brown"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_black"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_gray"]}},{"weight": 1,"add": {"component_groups": ["minecraft:base_darkbrown"]}}]},
+					{"randomize": [{"weight": 1,"add": {"component_groups": ["minecraft:markings_none"]}},{"weight": 1,"add": {"component_groups": ["minecraft:markings_white_details"]}},{"weight": 1,"add": {"component_groups": ["minecraft:markings_white_fields"]}},{"weight": 1,"add": {"component_groups": ["minecraft:markings_white_dots"]}},{"weight": 1,"add": {"component_groups": ["minecraft:markings_black_dots"]}}]}
+				]
+			},
+			"medieval:become_horse": {"add": {"component_groups": ["medieval:become_horse"]}},
+			"minecraft:horse_saddled": {"add": {"component_groups": ["minecraft:horse_saddled"]}},
+			"minecraft:horse_unsaddled": {"remove": {"component_groups": ["minecraft:horse_saddled"]}},
+			"medieval:can_move": {"add": {"component_groups": ["medieval:can_move"]}},
+			"medieval:no_movement": {"remove": {"component_groups": ["medieval:can_move"]}},
+			"medieval:add_barrel": {"add": {"component_groups": ["medieval:add_barrel"]}},
+			"medieval:remove_barrel": {"remove": {"component_groups": ["medieval:add_barrel"]}},
+			"medieval:add_barrel_apple": {"add": {"component_groups": ["medieval:add_barrel_apple"]}},
+			"medieval:add_barrel_golden_apple": {"add": {"component_groups": ["medieval:add_barrel_golden_apple"]}},
+			"medieval:add_barrel_bamboo": {"add": {"component_groups": ["medieval:add_barrel_bamboo"]}},
+			"medieval:add_barrel_beetroot": {"add": {"component_groups": ["medieval:add_barrel_beetroot"]}},
+			"medieval:add_barrel_cod": {"add": {"component_groups": ["medieval:add_barrel_cod"]}},
+			"medieval:add_barrel_salmon": {"add": {"component_groups": ["medieval:add_barrel_salmon"]}},
+			"medieval:add_barrel_potato": {"add": {"component_groups": ["medieval:add_barrel_potato"]}},
+			"medieval:add_barrel_carrot": {"add": {"component_groups": ["medieval:add_barrel_carrot"]}},
+			"medieval:no_equipment": {"add": {"component_groups": ["medieval:no_equipment"]}},
+			"minecraft:make_white": {"add": {"component_groups": ["minecraft:base_white"]}},
+			"minecraft:make_creamy": {"add": {"component_groups": ["minecraft:base_creamy"]}},
+			"minecraft:make_chestnut": {"add": {"component_groups": ["minecraft:base_chestnut"]}},
+			"minecraft:make_brown": {"add": {"component_groups": ["minecraft:base_brown"]}},
+			"minecraft:make_black": {"add": {"component_groups": ["minecraft:base_black"]}},
+			"minecraft:make_gray": {"add": {"component_groups": ["minecraft:base_gray"]}},
+			"minecraft:make_darkbrown": {"add": {"component_groups": ["minecraft:base_darkbrown"]}},
+			"minecraft:entity_transformed": {
+				"sequence": [
+					{"filters": {"test": "is_variant","subject": "other","value": 0},"add": {"component_groups": [	"minecraft:base_white"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 1},"add": {"component_groups": [	"minecraft:base_creamy"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 2},"add": {"component_groups": [	"minecraft:base_chestnut"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 3},"add": {"component_groups": [	"minecraft:base_brown"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 4},"add": {"component_groups": [	"minecraft:base_black"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 5},"add": {"component_groups": [	"minecraft:base_gray"]}},
+					{"filters": {"test": "is_variant","subject": "other","value": 6},"add": {"component_groups": [	"minecraft:base_darkbrown"]}},
+					{"filters": {"test": "is_mark_variant","subject": "other","value": 0},"add": {"component_groups": [	"minecraft:markings_none"]}},
+					{"filters": {"test": "is_mark_variant","subject": "other","value": 1},"add": {"component_groups": [	"minecraft:markings_white_details"]}},
+					{"filters": {"test": "is_mark_variant","subject": "other","value": 2},"add": {"component_groups": [	"minecraft:markings_white_fields"]}},
+					{"filters": {"test": "is_mark_variant","subject": "other","value": 3},"add": {"component_groups": [	"minecraft:markings_white_dots"]}},
+					{"filters": {"test": "is_mark_variant","subject": "other","value": 4},"add": {"component_groups": [	"minecraft:markings_black_dots"]}}
+				]
+			}
+		}
+	}
+}

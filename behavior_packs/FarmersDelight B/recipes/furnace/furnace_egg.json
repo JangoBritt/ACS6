@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "farmersdelight:egg"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "minecraft:egg",
+        "output": "farmersdelight:fried_egg"
+    }
+}

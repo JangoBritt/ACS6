@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.mr.food": {
+			"part_visibility": [
+				{ "kelp": "q.variant == 0 && !(q.property('mr:cooked') && q.property('mr:flipped'))" },
+				{ "kelp_cooked*": "q.variant == 0 && q.property('mr:cooked') && q.property('mr:flipped')" },
+				{ "cod": "q.variant == 1 && !(q.property('mr:cooked') && q.property('mr:flipped'))" },
+				{ "cod_cooked*": "q.variant == 1 && q.property('mr:cooked') && q.property('mr:flipped')" },
+				{ "potato": "q.variant == 2 && !(q.property('mr:cooked') && q.property('mr:flipped'))" },
+				{ "potato_cooked*": "q.variant == 2 && q.property('mr:cooked') && q.property('mr:flipped')" },
+				{ "porkchop": "q.variant == 3 && !(q.property('mr:cooked') && q.property('mr:flipped'))" },
+				{ "porkchop_cooked*": "q.variant == 3 && q.property('mr:cooked') && q.property('mr:flipped')" },
+				{ "beef": "q.variant == 4" },
+				{ "chicken": "q.variant == 5" },
+				{ "mutton": "q.variant == 6" },
+				{ "rabbit": "q.variant == 7" },
+				{ "salmon": "q.variant == 8" }
+			],
+			"arrays": {
+				"textures": {
+					"Array.food_texture": [
+						"Texture.kelp",
+						"Texture.cod",
+						"Texture.potato",
+						"Texture.porkchop",
+						"Texture.beef",
+						"Texture.chicken",
+						"Texture.mutton",
+						"Texture.rabbit",
+						"Texture.salmon",
+						"Texture.kelp_cooked",
+						"Texture.cod_cooked",
+						"Texture.potato_cooked",
+						"Texture.porkchop_cooked",
+						"Texture.beef_cooked",
+						"Texture.chicken_cooked",
+						"Texture.mutton_cooked",
+						"Texture.rabbit_cooked",
+						"Texture.salmon_cooked"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{"*": "Material.default"}
+			],
+			"textures": ["Array.food_texture[(q.property('mr:cooked') && q.property('mr:flipped') ? q.variant + 9 : q.variant)]"]
+		}
+	}
+}

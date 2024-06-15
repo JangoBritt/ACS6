@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_warped_coffee_table_tall_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "mr:stripped_warped_coffee_table_short_mr"
+			}
+		},
+		"unlock": [
+			{"item": "mr:stripped_warped_coffee_table_short_mr"}
+		],
+		"result": {
+			"item": "mr:stripped_warped_coffee_table_tall_mr",
+			"count": 1
+		}
+	}
+}

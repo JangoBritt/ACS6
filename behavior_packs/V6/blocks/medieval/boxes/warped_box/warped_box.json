@@ -1,0 +1,168 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:warped_box",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.warpedWood",
+                "is_hidden_in_commands": false
+            },
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:food": {"values": {"min":0,"max":15}},
+				"medieval:close": [true,false]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]}}},
+			{"condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:close') == false","components": {"minecraft:on_interact": {"event": "add_item"}}},
+			{"condition": "q.block_state('medieval:food') == 1","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_apple",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"apple": {"texture": "m.apple","render_method": "alpha_test"},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 2","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_beetroot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"beetroot": {"texture": "m.beetroot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 3","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_carrot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"carrot": {"texture": "m.carrot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 4","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_bamboo",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"bamboo": {"texture": "m.bamboo","render_method": "alpha_test","ambient_occlusion": false},"bamboo_leaf": {"texture": "m.bamboo_leaf","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 5","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_potato",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"potato": {"texture": "m.potato","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 6","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_apple",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"apple": {"texture": "m.golden_apple","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 7","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_carrot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"carrot": {"texture": "m.golden_carrot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 8","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_block",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"block_side": {"texture": "m.melon_side","render_method": "alpha_test","ambient_occlusion": false},"block_up": {"texture": "m.melon_top","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 9","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_block",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"block_side": {"texture": "m.pumpkin_side","render_method": "alpha_test","ambient_occlusion": false},"block_up": {"texture": "m.pumpkin_top","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 10","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_wheat",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"wheat": {"texture": "m.wheat","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 11","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_diamond",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"diamond": {"texture": "m.diamond","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 12","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_emerald",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"emerald": {"texture": "m.emerald","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 13","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_ingot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"ingot": {"texture": "m.iron_ingot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 14","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_ingot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"ingot": {"texture": "m.gold_ingot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') == 15","components": {"minecraft:geometry": {
+				"identifier": "geometry.m.box_ingot",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},"minecraft:material_instances": {"ingot": {"texture": "m.copper_ingot","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}}}},
+			{"condition": "q.block_state('medieval:food') != 0 && q.block_state('medieval:close') == false","components": {"minecraft:on_interact": {"event": "close"}}},
+			{"condition": "q.block_state('medieval:close') == false","components": {"minecraft:collision_box": {"origin": [-8.0, 0.0, -8.0],"size": [16, 11, 16]},"minecraft:selection_box": {"origin": [-8.0, 0.0, -8.0],"size": [16, 11, 16]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.box_item",
+				"bone_visibility": {
+					"box_top": "q.block_state('medieval:close')"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.wood_warped","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:on_interact": {"event": "open"},
+			"minecraft:collision_box": {"origin": [-8.0, 0.0, -8.0],"size": [16, 16, 16]},
+			"minecraft:selection_box": {"origin": [-8.0, 0.0, -8.0],"size": [16, 16, 16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"add_item": {
+				"sequence": [
+					{"condition": "q.get_equipped_item_name('main_hand') == 'apple'","set_block_state": {"medieval:food": 1},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'beetroot'","set_block_state": {"medieval:food": 2},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'carrot'","set_block_state": {"medieval:food": 3},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'bamboo'","set_block_state": {"medieval:food": 4},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'potato'","set_block_state": {"medieval:food": 5},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'golden_apple'","set_block_state": {"medieval:food": 6},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'golden_carrot'","set_block_state": {"medieval:food": 7},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'melon_block'","set_block_state": {"medieval:food": 8},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'pumpkin'","set_block_state": {"medieval:food": 9},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'wheat'","set_block_state": {"medieval:food": 10},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'diamond'","set_block_state": {"medieval:food": 11},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'emerald'","set_block_state": {"medieval:food": 12},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'iron_ingot'","set_block_state": {"medieval:food": 13},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'gold_ingot'","set_block_state": {"medieval:food": 14},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'copper_ingot'","set_block_state": {"medieval:food": 15},"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"}},
+					{"condition": "!q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:apple','minecraft:carrot','minecraft:beetroot','minecraft:bamboo','minecraft:potato','minecraft:golden_apple','minecraft:golden_carrot','minecraft:melon_block','minecraft:pumpkin','minecraft:wheat','minecraft:diamond','minecraft:emerald','minecraft:iron_ingot','minecraft:gold_ingot','minecraft:copper_ingot')","set_block_state": {"medieval:close": true},"run_command": {"command": "playsound block.barrel.close @a ~ ~ ~"}}
+				]
+			},
+			"close": {
+				"sequence": [
+					{"condition": "q.is_sneaking","set_block_state": {"medieval:food": 0},"run_command": {"command": "playsound block.itemframe.remove_item @a ~ ~ ~"}},
+					{"condition": "!q.is_sneaking","set_block_state": {"medieval:close": true},"run_command": {"command":"playsound block.barrel.close @a ~ ~ ~"}}
+				]
+			},
+			"open": {
+				"set_block_state": {"medieval:close": false},
+				"run_command": {"command":"playsound block.barrel.open @a ~ ~ ~"}
+			}
+		}
+	}
+}

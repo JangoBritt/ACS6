@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:light_gray_wt_robe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B ",
+			"BAB",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "medieval:blue_wt_robe"
+			},
+			"B": {
+				"item": "minecraft:light_gray_dye"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:blue_wt_robe"}
+		],
+		"result": {
+			"item": "medieval:light_gray_wt_robe",
+			"count": 1
+		}
+	}
+}

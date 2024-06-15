@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_oak_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:oak_log"
+			},
+			"A": {
+				"item": "minecraft:stripped_oak_log"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_oak_log"},
+			{"item": "minecraft:oak_log"}
+		],
+		"result": {
+			"item": "mr:stripped_oak_cabinet_mr",
+			"count": 2
+		}
+	}
+}

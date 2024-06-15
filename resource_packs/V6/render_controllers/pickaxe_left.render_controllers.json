@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pickaxe_left": {
+      "arrays": {
+        "textures": {
+          "Array.pickaxe_left": [
+          	"Texture.no_texture",
+            "Texture.weapon_pickaxe_wood",
+            "Texture.weapon_pickaxe_stone",
+            "Texture.weapon_pickaxe_iron",
+            "Texture.weapon_pickaxe_gold",
+            "Texture.weapon_pickaxe_diamond",
+            "Texture.weapon_pickaxe_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.pickaxe_left",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.pickaxe_left[query.variant-12]"
+      ]
+    }
+  }
+}

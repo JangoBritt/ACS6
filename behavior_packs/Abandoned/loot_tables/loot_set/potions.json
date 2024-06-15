@@ -1,0 +1,94 @@
+{
+  "pools": [
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": {
+                "min": 5,
+                "max": 41
+              }
+            }
+          ]
+        },
+        {"type": "item","weight": 100,"name": "farmersdelight:apple_cider","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "farmersdelight:glow_berry_custard","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "farmersdelight:hot_cocoa","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 100,"name": "farmersdelight:melon_juice","functions": [{"function": "set_count","count": 1}]}
+      ]
+    }
+  ]
+}

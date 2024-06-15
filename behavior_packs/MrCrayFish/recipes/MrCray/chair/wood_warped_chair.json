@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_warped_chair_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_stem"
+			},
+			"A": {
+				"item": "minecraft:warped_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:warped_planks"},
+			{"item": "minecraft:warped_stem"}
+		],
+		"result": {
+			"item": "mr:wood_warped_chair_mr",
+			"count": 4
+		}
+	}
+}

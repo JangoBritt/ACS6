@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_oak_box1"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:stripped_oak_post"
+			},
+			"B": {
+				"item": "medieval:stripped_oak_beam_right_inclined"
+			},
+			"C": {
+				"item": "minecraft:planks",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_oak_box1",
+			"count": 2
+		}
+	}
+}

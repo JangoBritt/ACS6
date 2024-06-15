@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_golem:copper_golem",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"normal": "textures/entity/copper_golem",
+				"exposed": "textures/entity/exposed_copper_golem",
+				"weathered": "textures/entity/weathered_copper_golem",
+				"oxidized": "textures/entity/oxidized_copper_golem"
+			},
+			"geometry": {
+				"default": "geometry.copper_golem"
+			},
+			"animations": {
+				"move": "animation.copper_golem.move",
+				"default": "animation.copper_golem.default",
+				"default2": "animation.copper_golem.default2",
+				"button_press": "animation.copper_golem.button_press",
+				"head_spin": "animation.copper_golem.head_spin",
+				"look_around": "animation.copper_golem.look_around",
+				"look_at_target": "animation.copper_golem.look_at_target",
+				"sit": "animation.copper_golem.sit"
+			},
+			"render_controllers": [
+				"controller.render.copper_golem"
+			],
+			"animation_controllers": [
+				{
+					"setup": "controller.animation.copper_golem"
+				}
+			],
+			"spawn_egg": {
+				"base_color": "#db7e24",
+				"overlay_color": "#994f4f"
+			}
+		}
+	}
+}

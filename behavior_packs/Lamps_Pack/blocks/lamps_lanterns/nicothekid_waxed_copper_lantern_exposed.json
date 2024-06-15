@@ -1,0 +1,228 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:waxed_copper_lantern_exposed",
+      "menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.candles"
+			},
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [ "minecraft:block_face" ]
+        }
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Waxed Exposed Copper Lantern",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_waxed_copper_lantern_exposed",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_copper_lantern",
+        "bone_visibility": {
+          "main": true,
+          "side_extension": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'south' || query.block_state('minecraft:block_face') == 'west'",
+          "top_extension": "query.block_state('minecraft:block_face') == 'down'"
+        }
+      },
+      "minecraft:map_color": "#c47630",
+      "minecraft:breathability": "air",
+      "minecraft:collision_box": {
+        "origin": [ -6, 0, -6 ],
+        "size": [ 12, 13, 12 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -6, 0, -6 ],
+        "size": [ 12, 13, 12 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 13,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 50.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.2
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_waxed_copper_lantern_exposed.json",
+			"minecraft:on_interact": {
+        "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+        "event": "nicothekid:copper_lantern_interaction",
+        "target": "self"
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "tag:waxed_copper_lantern_exposed": {},
+      "tag:copper_lantern": {},
+      "tag:custom_lantern": {},
+      "tag:stone": {},
+      "tag:metal": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 90, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 180, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, -90, 0 ]
+          }
+        }
+      }
+    ],
+    "events": {
+      "nicothekid:copper_lantern_interaction": {
+				"sequence": [
+					{
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+						"trigger": {
+							"event": "nicothekid:copper_lantern_waxing_off",
+							"target": "self"
+						}
+					}
+				]
+			},
+      "nicothekid:copper_lantern_waxing_off": {
+        "sequence": [
+          {
+						"run_command": {
+							"command": [
+								"playsound copper.wax.off @a[r=8] ~ ~ ~ 1 1.0 1.0",
+								"particle nicothekid:copper_lantern_wax_off_particle ~ ~ ~"
+							]
+						}
+					},
+					{
+            "damage": {
+              "type": "durability",
+              "target": "item",
+              "amount": 1
+            }
+          },
+          {
+						"trigger": {
+							"event": "nicothekid:copper_lantern_waxing_off_trasformation",
+							"target": "self"
+						}
+					}
+        ]
+      },
+      "nicothekid:copper_lantern_waxing_off_trasformation": {
+				"sequence": [
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'down'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "down"
+                }
+              }
+            }
+					},
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'up'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "up"
+                }
+              }
+            }
+					},
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'north'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "north"
+                }
+              }
+            }
+					},
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'west'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "west"
+                }
+              }
+            }
+					},
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'south'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "south"
+                }
+              }
+            }
+					},
+					{
+						"condition": "query.block_state('minecraft:block_face') == 'east'",
+						"set_block": {
+              "block_type": {
+                "name": "nicothekid:copper_lantern_exposed",
+                "states": {
+                  "minecraft:block_face": "east"
+                }
+              }
+            }
+					}
+				]
+			}
+    }
+  }
+}

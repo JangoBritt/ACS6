@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.carpet_0_5",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "carpet5",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -4],
+							"size": [16, 1, 8],
+							"uv": {
+								"east": {"uv": [4, 15], "uv_size": [8, 1]},
+								"west": {"uv": [4, 15], "uv_size": [8, 1]},
+								"up": {"uv": [16, 12], "uv_size": [-16, -8]},
+								"down": {"uv": [16, 12], "uv_size": [-16, -8]}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 1, 4],
+							"uv": {
+								"north": {"uv": [0, 15], "uv_size": [16, 1]},
+								"east": {"uv": [12, 15], "uv_size": [4, 1]},
+								"west": {"uv": [0, 15], "uv_size": [4, 1]},
+								"up": {"uv": [16, 12], "uv_size": [-16, -4]},
+								"down": {"uv": [16, 8], "uv_size": [-16, -4]}
+							}
+						},
+						{
+							"origin": [-8, 0, 4],
+							"size": [16, 1, 4],
+							"uv": {
+								"east": {"uv": [0, 15], "uv_size": [4, 1]},
+								"south": {"uv": [0, 15], "uv_size": [16, 1]},
+								"west": {"uv": [12, 15], "uv_size": [4, 1]},
+								"up": {"uv": [16, 8], "uv_size": [-16, -4]},
+								"down": {"uv": [16, 12], "uv_size": [-16, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_jungle_table0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:planks",
+				"data": 3
+			},
+			"B": {
+				"item": "medieval:jungle_wood_mslab"
+			},
+			"C": {
+				"item": "medieval:jungle_wood_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:jungle_book"}
+		],
+		"result": {
+			"item": "medieval:wood_jungle_table0",
+			"count": 1
+		}
+	}
+}

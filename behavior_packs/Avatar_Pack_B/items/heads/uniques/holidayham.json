@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:holidayham_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "holidayham_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:holidayham"
+			}
+		}
+	}
+}

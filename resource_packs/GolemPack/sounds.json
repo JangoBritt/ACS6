@@ -1,0 +1,59 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"athos_golem:rascal": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.evocation_illager.death",
+					"hurt": "mob.witch.hurt",
+					"stun": "mob.villager.haggle",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.sheep.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					1.7,
+					2.1
+				],
+				"volume": 1
+			},
+			"athos_golem:tuff_golem": {
+				"events": {
+					"ambient": "",
+					"death": "break.tuff",
+					"hurt": "hit.tuff",
+					"step": {
+						"pitch": 2,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"athos_golem:redstone_mon": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.redstone_mon.idle",
+					"hurt": "mob.redstone_mon.hurt",
+					"death": "mob.redstone_mon.death",
+					"prepare.summon": "mob.redstone_mon.summon",
+					"step": {
+						"sound": "mob.cow.step",
+						"volume": 0.15,
+						"pitch": 1.0
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:polar_bear_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_polar_bear_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:polar_bear"
+			}
+		}
+	}
+}

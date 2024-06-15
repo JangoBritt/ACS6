@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+	  "rolls": 1,
+	  "entries": [
+	    {
+		  "type": "item",
+		  "name": "medieval:chariot_acacia_0_item",
+		  "weight": 1
+		}
+	  ]
+	}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_flower_stand_side"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AB",
+			"BC",
+			"CA"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:flower_pot"
+			},
+			"A": {
+				"item": "medieval:stripped_acacia_post"
+			},
+			"C": {
+				"item": "medieval:stripped_acacia_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:acacia_flower_stand_side",
+			"count": 1
+		}
+	}
+}

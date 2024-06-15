@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:mangrove_bookshelf_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"PPP",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:mangrove_planks"
+			},
+			"P": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:mangrove_bookshelf_0",
+			"count": 1
+		}
+	}
+}

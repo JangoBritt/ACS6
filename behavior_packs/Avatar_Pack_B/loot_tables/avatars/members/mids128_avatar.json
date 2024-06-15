@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "athos_avatars:mids128_avatar_item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

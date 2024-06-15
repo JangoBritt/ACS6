@@ -1,0 +1,288 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "farmersdelight:cabbage_block",
+            "properties": {
+                "farmersdelight:growth": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage0",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            2,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage1",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            8,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage2",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            11,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage3",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage4",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage5",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage6",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 7",
+                "components": {
+                    "minecraft:loot": "loot_tables/farmersdelight/crops/farmersdelight_cabbage_riped.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cabbages_stage7",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') >= 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:loot": "loot_tables/farmersdelight/crops/farmersdelight_cabbage.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+            "minecraft:flammable": {
+                "catch_chance_modifier": 30,
+                "destroy_chance_modifier": 30
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:geometry": "geometry.crop_cross",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.0
+            },
+            "minecraft:breathability": "air",
+            "minecraft:collision_box": false,
+            "minecraft:on_interact": {
+                "event": "farmersdelight:on_interact"
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "farmland",
+                            "farmersdelight:rich_soil_farmland"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "grow_stage",
+                    "target": "self"
+                }
+            },
+            "tag:crop": {},
+            "tag:max_growth:7": {},
+            "tag:growth_property:farmersdelight:growth": {}
+        },
+        "events": {
+            "grow_stage": {
+                "randomize": [
+                    {
+                        "weight": 5
+                    },
+                    {
+                        "weight": 12,
+                        "sequence": [
+                            {
+                                "condition": "query.block_state('farmersdelight:growth')<7",
+                                "set_block_state": {
+                                    "farmersdelight:growth": "(query.block_state('farmersdelight:growth')<7) ? query.block_state('farmersdelight:growth') + 1 : 7"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "farmersdelight:on_interact": {
+                "sequence": [
+                    {
+                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<7)",
+                        "randomize": [
+                            {
+                                "weight": 5
+                            },
+                            {
+                                "weight": 12,
+                                "sequence": [
+                                    {
+                                        "set_block_state": {
+                                            "farmersdelight:growth": "(query.block_state('farmersdelight:growth')<4) ? query.block_state('farmersdelight:growth') + 3 : 7"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<7)",
+                        "decrement_stack": {}
+                    },
+                    {
+                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<7)",
+                        "run_command": {
+                            "command": [
+                                "particle minecraft:crop_growth_emitter ~~~"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "query.block_state('farmersdelight:growth')==7",
+                        "set_block_state": {
+                            "farmersdelight:growth": 0
+                        }
+                    },
+                    {
+                        "condition": "query.block_state('farmersdelight:growth')==7",
+                        "spawn_loot":{
+                            "table": "loot_tables/farmersdelight/crops/farmersdelight_cabbage_riped.json"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

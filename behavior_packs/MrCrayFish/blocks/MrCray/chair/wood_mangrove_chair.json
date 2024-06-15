@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:wood_mangrove_chair_mr",
+			"menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.mrChair",
+                "is_hidden_in_commands": false
+            },
+			"states": {
+				"mr:direction": [0,1,2,3]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('mr:direction') == 0","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{"condition": "q.block_state('mr:direction') == 1","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{"condition": "q.block_state('mr:direction') == 2","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{"condition": "q.block_state('mr:direction') == 3","components": {"minecraft:transformation": { "rotation": [0,270,0]}}}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.mr.chair",
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {"*": {"texture": "mr.wood_mangrove","render_method": "opaque"},"wood": {"texture": "mr.stripped_mangrove","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-6.5,0.0,-6.5],"size": [13,10,13]},
+			"minecraft:selection_box": {"origin": [-6.5,0.0,-6.5],"size": [13,10,13]},
+			"minecraft:on_interact": {"event": "sit_on_chair"},
+			"minecraft:on_player_placing": {"event": "block_placed"},
+			"minecraft:light_dampening": 1,
+			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"sit_on_chair": {
+				"sequence": [
+					{"condition": "q.block_state('mr:direction') == 0","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~ ~ ~1","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_state('mr:direction') == 1","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~ ~ ~-1","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_state('mr:direction') == 2","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~1 ~ ~","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_state('mr:direction') == 3","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~-1 ~ ~","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}}
+				]
+			},
+			"block_placed": {
+				"set_block_state": {"mr:direction": "q.cardinal_facing_2d - 2"}
+			}
+		}
+	}
+}

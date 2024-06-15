@@ -1,0 +1,120 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bench",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "chair",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bench",
+					"parent": "chair",
+					"pivot": [-5.26061, 4.4933, -5.23378],
+					"rotation": [-10, 0, 10],
+					"cubes": [
+						{
+							"origin": [-6.2, 0.3, -6.2],
+							"size": [2, 9, 2],
+							"uv": {
+								"north": {"uv": [1, 7], "uv_size": [2, 9]},
+								"east": {"uv": [13, 7], "uv_size": [2, 9]},
+								"south": {"uv": [13, 7], "uv_size": [2, 9]},
+								"west": {"uv": [1, 7], "uv_size": [2, 9]},
+								"up": {"uv": [13, 1], "uv_size": [2, 2]},
+								"down": {"uv": [15, 15], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bench2",
+					"parent": "chair",
+					"pivot": [5.26061, 4.4933, -5.23378],
+					"rotation": [-10, 0, -10],
+					"cubes": [
+						{
+							"origin": [4.2, 0.3, -6.2],
+							"size": [2, 9, 2],
+							"uv": {
+								"north": {"uv": [13, 7], "uv_size": [2, 9]},
+								"east": {"uv": [13, 7], "uv_size": [2, 9]},
+								"south": {"uv": [1, 7], "uv_size": [2, 9]},
+								"west": {"uv": [1, 7], "uv_size": [2, 9]},
+								"up": {"uv": [1, 1], "uv_size": [2, 2]},
+								"down": {"uv": [3, 15], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bench3",
+					"parent": "chair",
+					"pivot": [-5.2, 4.73532, 5.2],
+					"rotation": [10, 0, 10],
+					"cubes": [
+						{
+							"origin": [-6.2, 0.23532, 4.2],
+							"size": [2, 9, 2],
+							"uv": {
+								"north": {"uv": [1, 7], "uv_size": [2, 9]},
+								"east": {"uv": [1, 7], "uv_size": [2, 9]},
+								"south": {"uv": [13, 7], "uv_size": [2, 9]},
+								"west": {"uv": [13, 7], "uv_size": [2, 9]},
+								"up": {"uv": [13, 13], "uv_size": [2, 2]},
+								"down": {"uv": [15, 3], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bench4",
+					"parent": "chair",
+					"pivot": [4.2003, 4.53532, 5.20339],
+					"rotation": [10, 0, -10],
+					"cubes": [
+						{
+							"origin": [4.2, 0.03532, 4.2],
+							"size": [2, 9, 2],
+							"uv": {
+								"north": {"uv": [13, 7], "uv_size": [2, 9]},
+								"east": {"uv": [1, 7], "uv_size": [2, 9]},
+								"south": {"uv": [1, 7], "uv_size": [2, 9]},
+								"west": {"uv": [13, 7], "uv_size": [2, 9]},
+								"up": {"uv": [1, 13], "uv_size": [2, 2]},
+								"down": {"uv": [3, 3], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "chair",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 8, -7],
+							"size": [14, 2, 14],
+							"uv": {
+								"north": {"uv": [1, 5], "uv_size": [14, 2]},
+								"east": {"uv": [1, 5], "uv_size": [14, 2]},
+								"south": {"uv": [1, 5], "uv_size": [14, 2]},
+								"west": {"uv": [1, 5], "uv_size": [14, 2]},
+								"up": {"uv": [1, 1], "uv_size": [14, 14]},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

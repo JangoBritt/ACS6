@@ -1,0 +1,17 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:bookshelf_12",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destroy_time": 1.5,
+      "minecraft:explosion_resistance": 3,
+      "minecraft:block_light_absorption": 7,
+      "minecraft:map_color": "#8c6930",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

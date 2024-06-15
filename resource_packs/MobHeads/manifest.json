@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "v3.4.0 - Pack by FoxyNoTail - Wearable and Placeable Mob Heads - Visit www.foxynotail.com for more packs & add-ons - \u00a92023, FoxyNoTail",
+        "name": "Mob Heads [Experimental] v3.4.0",
+        "uuid": "8cc04773-f094-4871-9998-d7a1bc27fbdf",
+        "version": [
+            3,
+            4,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            18,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "fc712f37-c89e-4a63-b0d0-0365a42c4f3e",
+            "version": [
+                3,
+                4,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "f8898c09-6d29-44fe-8303-15dfda9aba44",
+            "version": [
+                3,
+                4,
+                0
+            ]
+        }
+    ]
+}

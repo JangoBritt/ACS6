@@ -1,0 +1,88 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:big_barrel_cherry",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.beer",
+                "is_hidden_in_commands": false
+            },
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:placed":[false,true],
+				"medieval:bottom": [false, true] 
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,0,0] },"tag:m.barrel_lbb_south":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,180,0] },"tag:m.barrel_lbb_north":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] },"tag:m.barrel_lbb_east":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] },"tag:m.barrel_lbb_west":{}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:m.barrel_bot": {},
+			"minecraft:geometry": "geometry.m.big_barrel",
+			"minecraft:on_placed": {"event": "set_block"},
+			"minecraft:on_interact": {"event": "add_coal"},
+			"minecraft:material_instances": {"*": {"texture": "m.cherry_beer_barrel","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [2,2],"looping": true},
+			"minecraft:collision_box": {"origin": [-5.6,0.0,-8],"size": [13.6,16,16]},
+			"minecraft:selection_box": {"origin": [-5.6,0.0,-8],"size": [13.6,16,16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#24abab"
+		},
+		"events": {
+			"set_block": {
+				"sequence": [
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('medieval:placed')","run_command": {"command": [
+						"setblock ~1 ~ ~ medieval:big_barrel_rbb[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~ ~ ~1 medieval:big_barrel_lfb[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~1 ~ ~1 medieval:big_barrel_rfb[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~ ~1 ~ medieval:big_barrel_lbt[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~1 ~1 ~ medieval:big_barrel_rbt[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~ ~1 ~1 medieval:big_barrel_lft[\"medieval:direction\"= \"north\"] keep",
+						"setblock ~1 ~1 ~1 medieval:big_barrel_rft[\"medieval:direction\"= \"north\"] keep"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('medieval:placed')","run_command": {"command": [
+						"setblock ~-1 ~ ~ medieval:big_barrel_rbb[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~ ~ ~-1 medieval:big_barrel_lfb[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~-1 ~ ~-1 medieval:big_barrel_rfb[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~ ~1 ~ medieval:big_barrel_lbt[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~-1 ~1 ~ medieval:big_barrel_rbt[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~ ~1 ~-1 medieval:big_barrel_lft[\"medieval:direction\"= \"south\"] keep",
+						"setblock ~-1 ~1 ~-1 medieval:big_barrel_rft[\"medieval:direction\"= \"south\"] keep"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('medieval:placed')","run_command": {"command": [
+						"setblock ~ ~ ~1 medieval:big_barrel_rbb[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~-1 ~ ~ medieval:big_barrel_lfb[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~-1 ~ ~1 medieval:big_barrel_rfb[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~ ~1 ~ medieval:big_barrel_lbt[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~ ~1 ~1 medieval:big_barrel_rbt[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~-1 ~1 ~ medieval:big_barrel_lft[\"medieval:direction\"= \"east\"] keep",
+						"setblock ~-1 ~1 ~1 medieval:big_barrel_rft[\"medieval:direction\"= \"east\"] keep"]}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('medieval:placed')","run_command": {"command": [
+						"setblock ~ ~ ~-1 medieval:big_barrel_rbb[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~1 ~ ~ medieval:big_barrel_lfb[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~1 ~ ~-1 medieval:big_barrel_rfb[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~ ~1 ~ medieval:big_barrel_lbt[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~ ~1 ~-1 medieval:big_barrel_rbt[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~1 ~1 ~ medieval:big_barrel_lft[\"medieval:direction\"= \"west\"] keep",
+						"setblock ~1 ~1 ~-1 medieval:big_barrel_rft[\"medieval:direction\"= \"west\"] keep"]}},
+					{"set_block_state": {"medieval:placed": true}}
+				]
+			},
+			"update": {
+				"sequence": [
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && (!q.block_neighbor_has_any_tag(1,0,0,'m.barrel_rbb_north') || !q.block_neighbor_has_any_tag(0,0,1,'m.barrel_lfb_north') || !q.block_neighbor_has_any_tag(1,0,1,'m.barrel_rfb_north') || !q.block_neighbor_has_any_tag(0,1,0,'m.barrel_lbt_north') || !q.block_neighbor_has_any_tag(1,1,0,'m.barrel_rbt_north') || !q.block_neighbor_has_any_tag(0,1,1,'m.barrel_lft_north') || !q.block_neighbor_has_any_tag(1,1,1,'m.barrel_rft_north'))","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && (!q.block_neighbor_has_any_tag(-1,0,0,'m.barrel_rbb_south') || !q.block_neighbor_has_any_tag(0,0,-1,'m.barrel_lfb_south') || !q.block_neighbor_has_any_tag(-1,0,-1,'m.barrel_rfb_south') || !q.block_neighbor_has_any_tag(0,1,0,'m.barrel_lbt_south') || !q.block_neighbor_has_any_tag(-1,1,0,'m.barrel_rbt_south') || !q.block_neighbor_has_any_tag(0,1,-1,'m.barrel_lft_south') || !q.block_neighbor_has_any_tag(-1,1,-1,'m.barrel_rft_south'))","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && (!q.block_neighbor_has_any_tag(0,0,1,'m.barrel_rbb_east') || !q.block_neighbor_has_any_tag(-1,0,0,'m.barrel_lfb_east') || !q.block_neighbor_has_any_tag(-1,0,1,'m.barrel_rfb_east') || !q.block_neighbor_has_any_tag(0,1,0,'m.barrel_lbt_east') || !q.block_neighbor_has_any_tag(0,1,1,'m.barrel_rbt_east') || !q.block_neighbor_has_any_tag(-1,1,0,'m.barrel_lft_east') || !q.block_neighbor_has_any_tag(-1,1,1,'m.barrel_rft_east'))","run_command": {"command": "setblock ~ ~ ~ air destroy"}},
+					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && (!q.block_neighbor_has_any_tag(0,0,-1,'m.barrel_rbb_west') || !q.block_neighbor_has_any_tag(1,0,0,'m.barrel_lfb_west') || !q.block_neighbor_has_any_tag(1,0,-1,'m.barrel_rfb_west') || !q.block_neighbor_has_any_tag(0,1,0,'m.barrel_lbt_west') || !q.block_neighbor_has_any_tag(0,1,-1,'m.barrel_rbt_west') || !q.block_neighbor_has_any_tag(1,1,0,'m.barrel_lft_west') || !q.block_neighbor_has_any_tag(1,1,-1,'m.barrel_rft_west'))","run_command": {"command": "setblock ~ ~ ~ air destroy"}}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_box"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:acacia_wood_post"
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:acacia_box",
+			"count": 2
+		}
+	}
+}

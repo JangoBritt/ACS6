@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_warped_tall_window_item"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA",
+			"BB",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_warped_stem",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:glass",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_warped_tall_window_item",
+			"count": 3
+		}
+	}
+}

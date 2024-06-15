@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:oak_planks_bench"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"###",
+		"A A"
+	],
+	"key": {
+	  "#": {
+	    "item": "minecraft:planks",
+	"data": 0
+	  },
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:oak_book"}
+	],
+    "result": {
+      "item": "medieval:oak_planks_bench",
+	  "count": 3
+    }
+  }
+}

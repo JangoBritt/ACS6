@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:pendulum_clock",
+			"enable_attachables": false,
+			"hide_armor": true,
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval_blocks/blocks/book_shelves/spruce_pendulum_clock"
+			},
+			"geometry": {
+				"default": "geometry.m.pendulum_clock"
+			},
+			"animations": {
+				"time": "animation.m.pendulum_clock.move",
+				"pendulum": "animation.m.pendulum_clock.time"
+			},
+			"sound_effects": {
+				"m.tic": "m.tic_pendulum_clock",
+				"m.tac": "m.tac_pendulum_clock"
+			},
+			"scripts": {
+				"animate": [
+					"time",
+					"pendulum"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

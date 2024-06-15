@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_spruce_crate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"A A",
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:spruce_log"
+			},
+			"A": {
+				"item": "minecraft:spruce_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:spruce_planks"},
+			{"item": "minecraft:spruce_log"}
+		],
+		"result": {
+			"item": "mr:wood_spruce_crate_mr",
+			"count": 2
+		}
+	}
+}

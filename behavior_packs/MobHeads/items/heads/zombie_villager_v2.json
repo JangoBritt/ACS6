@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:zombie_villager_v2_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_zombie_villager_v2_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:zombie_villager_v2"
+			}
+		}
+	}
+}

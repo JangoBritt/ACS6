@@ -1,0 +1,103 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Plants 
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/plants.json"
+        }
+      ]
+    },
+    // Crops
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/crops.json"
+        }
+      ]
+    },
+    // Foods 
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/foods.json"
+        }
+      ]
+    },
+    // Mobs Drops
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/mob_drops.json"
+        }
+      ]
+    },
+    // Materials
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/materials.json"
+        }
+      ]
+    },
+    // Minerals 
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/minerals.json"
+        }
+      ]
+    },
+    // Armors
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/armors.json"
+        }
+      ]
+    },
+    // Arrows
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/armor_trims.json"
+        }
+      ]
+    }
+  ]
+}

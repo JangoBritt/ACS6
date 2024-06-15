@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_bookshelf_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"PPP",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:bamboo_block"
+			},
+			"P": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:bamboo_book"}
+		],
+		"result": {
+			"item": "medieval:bamboo_bookshelf_0",
+			"count": 1
+		}
+	}
+}

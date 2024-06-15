@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:chariot_oak_0_item"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"# #",
+			"###",
+			"B B"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks",
+				"data": 0
+			},
+			"B": {
+				"item": "medieval:wheel_item"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:chariot_oak_0_item",
+			"count": 1
+		}
+	}
+}

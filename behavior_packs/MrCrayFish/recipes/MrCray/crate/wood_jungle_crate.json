@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_jungle_crate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"A A",
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:jungle_log"
+			},
+			"A": {
+				"item": "minecraft:jungle_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:jungle_planks"},
+			{"item": "minecraft:jungle_log"}
+		],
+		"result": {
+			"item": "mr:wood_jungle_crate_mr",
+			"count": 2
+		}
+	}
+}

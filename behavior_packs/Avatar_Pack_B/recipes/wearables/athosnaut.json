@@ -1,0 +1,41 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "athos_avatars:athosnaut_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XHX",
+			"BGB"
+		],
+		"key": {
+			"X": {
+				"item": "farmersdelight:canvas"
+			},
+			"H": {
+				"item": "minecraft:iron_helmet"
+			},
+			"B": {
+				"item": "minecraft:glass_bottle"
+			},
+			"G": {
+				"item": "minecraft:glass_pane"
+			}
+		},
+		"unlock": [
+			{
+			  "item": "athos_misc:space_book"
+			}
+		  ],
+		"result": [
+			{
+				"item": "athos_avatars:athosnaut_mask",
+				"count": 1
+			}
+		]
+	}
+}

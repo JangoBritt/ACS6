@@ -1,0 +1,204 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mr.sofa",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 3, -8],
+							"size": [16, 3, 16],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [16, 3], "material_instance": "wood"},
+								"east": {"uv": [0, 10], "uv_size": [16, 3], "material_instance": "wood"},
+								"south": {"uv": [0, 10], "uv_size": [16, 3], "material_instance": "wood"},
+								"west": {"uv": [0, 10], "uv_size": [16, 3], "material_instance": "wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "wood"}
+							}
+						},
+						{
+							"origin": [-8, 6, -8],
+							"size": [16, 4, 16],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [16, 4]},
+								"east": {"uv": [0, 6], "uv_size": [16, 4]},
+								"south": {"uv": [0, 6], "uv_size": [16, 4]},
+								"west": {"uv": [0, 6], "uv_size": [16, 4]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						},
+						{
+							"origin": [-8, 10, -8],
+							"size": [16, 10, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 10]},
+								"east": {"uv": [12, 0], "uv_size": [4, 10]},
+								"south": {"uv": [0, 0], "uv_size": [16, 10]},
+								"west": {"uv": [0, 0], "uv_size": [4, 10]},
+								"up": {"uv": [16, 4], "uv_size": [-16, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "f_right",
+					"parent": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"east": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"south": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"west": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"down": {"uv": [16, 16], "uv_size": [-3, -3], "material_instance": "wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "f_left",
+					"parent": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [5, 0, -8],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"east": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"south": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"west": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"down": {"uv": [3, 16], "uv_size": [-3, -3], "material_instance": "wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [8, 9, -7],
+							"size": [2, 1, 15],
+							"uv": {
+								"north": {"uv": [14, 6], "uv_size": [2, 1]},
+								"south": {"uv": [0, 6], "uv_size": [2, 1]},
+								"west": {"uv": [1, 6], "uv_size": [15, 1]},
+								"down": {"uv": [2, 15], "uv_size": [-2, -15]}
+							}
+						},
+						{
+							"origin": [6, 10, -7],
+							"size": [4, 4, 15],
+							"uv": {
+								"north": {"uv": [12, 2], "uv_size": [4, 4]},
+								"east": {"uv": [0, 2], "uv_size": [15, 4]},
+								"south": {"uv": [0, 2], "uv_size": [4, 4]},
+								"west": {"uv": [1, 2], "uv_size": [15, 4]},
+								"up": {"uv": [4, 16], "uv_size": [-4, -15]}
+							}
+						},
+						{
+							"origin": [5, 0, 5],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"east": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"south": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"west": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"down": {"uv": [3, 3], "uv_size": [-3, -3], "material_instance": "wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "right",
+					"parent": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-10, 9, -7],
+							"size": [2, 1, 15],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [2, 1]},
+								"east": {"uv": [0, 6], "uv_size": [15, 1]},
+								"south": {"uv": [14, 6], "uv_size": [2, 1]},
+								"down": {"uv": [16, 15], "uv_size": [-2, -15]}
+							}
+						},
+						{
+							"origin": [-10, 10, -7],
+							"size": [4, 4, 15],
+							"uv": {
+								"north": {"uv": [0, 2], "uv_size": [4, 4]},
+								"east": {"uv": [0, 2], "uv_size": [15, 4]},
+								"south": {"uv": [12, 2], "uv_size": [4, 4]},
+								"west": {"uv": [1, 2], "uv_size": [15, 4]},
+								"up": {"uv": [16, 16], "uv_size": [-4, -15]}
+							}
+						},
+						{
+							"origin": [-8, 0, 5],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"east": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"south": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"west": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
+								"down": {"uv": [16, 3], "uv_size": [-3, -3], "material_instance": "wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "c_right",
+					"parent": "sofa",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 10, -4],
+							"size": [4, 10, 12],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [12, 10]},
+								"south": {"uv": [12, 0], "uv_size": [4, 10]},
+								"west": {"uv": [4, 0], "uv_size": [12, 10]},
+								"up": {"uv": [16, 16], "uv_size": [-4, -12]}
+							}
+						}
+					]
+				},
+				{
+					"name": "c_left",
+					"parent": "sofa",
+					"pivot": [12, 0, 0],
+					"cubes": [
+						{
+							"origin": [4, 10, -4],
+							"size": [4, 10, 12],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [12, 10]},
+								"south": {"uv": [0, 0], "uv_size": [4, 10]},
+								"west": {"uv": [4, 0], "uv_size": [12, 10]},
+								"up": {"uv": [4, 16], "uv_size": [-4, -12]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:warped_bucket"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A A",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_warped_stem",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:warped_bucket",
+			"count": 3
+		}
+	}
+}

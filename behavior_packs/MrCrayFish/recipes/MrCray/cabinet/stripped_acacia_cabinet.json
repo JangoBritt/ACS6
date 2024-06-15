@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_acacia_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AA#",
+			"A #",
+			"AA#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:acacia_log"
+			},
+			"A": {
+				"item": "minecraft:stripped_acacia_log"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_acacia_log"},
+			{"item": "minecraft:acacia_log"}
+		],
+		"result": {
+			"item": "mr:stripped_acacia_cabinet_mr",
+			"count": 2
+		}
+	}
+}

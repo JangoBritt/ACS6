@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:bacon_and_eggs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:cooked_bacon"
+            },
+            {
+                "tag": "farmersdelight:is_cooked_egg"
+            },
+            {
+                "tag": "farmersdelight:is_cooked_egg"
+            },
+            {
+                "item": "farmersdelight:cooked_bacon"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": {
+            "item": "farmersdelight:bacon_and_eggs"
+        }
+    }
+}

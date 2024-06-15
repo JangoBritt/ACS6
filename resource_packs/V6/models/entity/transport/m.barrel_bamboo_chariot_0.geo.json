@@ -1,0 +1,842 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_bamboo_chariot_0",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "food",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bamboo17",
+					"parent": "food",
+					"pivot": [-0.452, 18.6, -0.02],
+					"rotation": [5.2696, -56.93958, -4.695],
+					"cubes": [
+						{
+							"origin": [5.23645, 26.63027, 3.05089],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 35.43027, 5.45089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 36.23027, 6.25089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 37.03027, 7.05089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 37.83027, 7.85089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo18",
+					"parent": "food",
+					"pivot": [-0.202, 14.1, 2.98],
+					"rotation": [-11.54725, 46.79417, -11.78751],
+					"cubes": [
+						{
+							"origin": [-4.05445, 23.29289, 5.84435],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 32.09289, 8.24435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 32.89289, 9.04435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 33.69289, 9.84435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 34.49289, 10.64435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo19",
+					"parent": "food",
+					"pivot": [2.798, 14.6, 0.98],
+					"rotation": [-171.06234, 61.97554, -172.02084],
+					"cubes": [
+						{
+							"origin": [-3.25091, 23.47094, -2.8569],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 32.27094, -0.4569],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 33.07094, 0.3431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 33.87094, 1.1431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 34.67094, 1.9431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo20",
+					"parent": "food",
+					"pivot": [-2.452, 14.6, -0.02],
+					"rotation": [163.85086, -64.48759, -171.10225],
+					"cubes": [
+						{
+							"origin": [4.01672, 21.97853, -6.10662],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 30.77853, -3.70662],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 31.57853, -2.90662],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 32.37853, -2.10662],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 33.17853, -1.30662],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo21",
+					"parent": "food",
+					"pivot": [-0.702, 14.6, -2.52],
+					"rotation": [178.41385, 7.96423, -174.61622],
+					"cubes": [
+						{
+							"origin": [-1.12606, 22.73082, -11.13812],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 31.53082, -8.73812],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 32.33082, -7.93812],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 33.13082, -7.13812],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 33.93082, -6.33812],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo22",
+					"parent": "food",
+					"pivot": [2.798, 14.5, -2.52],
+					"rotation": [178.85099, 40.56721, -170.19151],
+					"cubes": [
+						{
+							"origin": [-0.66123, 22.53781, -10.87433],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 31.33781, -8.47433],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 32.13781, -7.67433],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 32.93781, -6.87433],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 33.73781, -6.07433],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "food2",
+					"pivot": [0, 0, 24],
+					"rotation": [0, -2.5, 0]
+				},
+				{
+					"name": "bamboo2",
+					"parent": "food2",
+					"pivot": [-0.452, 18.6, 16.48],
+					"rotation": [5.2696, -56.93958, -4.695],
+					"cubes": [
+						{
+							"origin": [5.23645, 26.63027, 19.55089],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 35.43027, 21.95089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 36.23027, 22.75089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 37.03027, 23.55089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [5.95645, 37.83027, 24.35089],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo3",
+					"parent": "food2",
+					"pivot": [-0.202, 14.1, 19.48],
+					"rotation": [-11.54725, 46.79417, -11.78751],
+					"cubes": [
+						{
+							"origin": [-4.05445, 23.29289, 22.34435],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 32.09289, 24.74435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 32.89289, 25.54435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 33.69289, 26.34435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-3.33445, 34.49289, 27.14435],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo4",
+					"parent": "food2",
+					"pivot": [2.798, 14.6, 17.48],
+					"rotation": [-171.06234, 61.97554, -172.02084],
+					"cubes": [
+						{
+							"origin": [-3.25091, 23.47094, 13.6431],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 32.27094, 16.0431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 33.07094, 16.8431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 33.87094, 17.6431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-2.53091, 34.67094, 18.4431],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo5",
+					"parent": "food2",
+					"pivot": [-2.452, 14.6, 16.48],
+					"rotation": [163.85086, -64.48759, -171.10225],
+					"cubes": [
+						{
+							"origin": [4.01672, 21.97853, 10.39338],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 30.77853, 12.79338],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 31.57853, 13.59338],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 32.37853, 14.39338],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [4.73672, 33.17853, 15.19338],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo6",
+					"parent": "food2",
+					"pivot": [-0.702, 14.6, 13.98],
+					"rotation": [178.41385, 7.96423, -174.61622],
+					"cubes": [
+						{
+							"origin": [-1.12606, 22.73082, 5.36188],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 31.53082, 7.76188],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 32.33082, 8.56188],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 33.13082, 9.36188],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [-0.40606, 33.93082, 10.16188],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo7",
+					"parent": "food2",
+					"pivot": [2.798, 14.5, 13.98],
+					"rotation": [178.85099, 40.56721, -170.19151],
+					"cubes": [
+						{
+							"origin": [-0.66123, 22.53781, 5.62567],
+							"size": [2.4, 12.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"east": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"west": {"uv": [0, 0], "uv_size": [6, 32], "material_instance": "bamboo"},
+								"up": {"uv": [26, 0], "uv_size": [6, 6], "material_instance": "bamboo"},
+								"down": {"uv": [32, 14], "uv_size": [-6, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 31.33781, 8.02567],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [18, 14], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 32.13781, 8.82567],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [6, 8], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 32.93781, 9.62567],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 10], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 2], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						},
+						{
+							"origin": [0.05877, 33.73781, 10.42567],
+							"size": [0.08, 0.8, 2.4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"east": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"south": {"uv": [0, 0], "uv_size": [0.2, 2], "material_instance": "bamboo"},
+								"west": {"uv": [26, 4], "uv_size": [6, 2], "material_instance": "bamboo"},
+								"up": {"uv": [0, 0], "uv_size": [0.2, 6], "material_instance": "bamboo"},
+								"down": {"uv": [0.2, 6], "uv_size": [-0.2, -6], "material_instance": "bamboo"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

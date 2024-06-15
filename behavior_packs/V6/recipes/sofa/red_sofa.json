@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:red_sofa"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:red_wool"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:red_sofa",
+			"count": 1
+		}
+	}
+}

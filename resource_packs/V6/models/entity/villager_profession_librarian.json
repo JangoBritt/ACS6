@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"geometry.villager_profession_librarian": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "waist",
+				"parent": "root",
+				"pivot": [0, 12, 0]
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, 24, 0]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, 24, 0]
+			},
+			{
+				"name": "hat",
+				"parent": "head",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [32, 0], "inflate": 0.65},
+					{"origin": [-4, 32.5, -4], "size": [8, 3, 8], "uv": [0, 0], "inflate": 0.6}
+				]
+			},
+			{
+				"name": "jacket",
+				"parent": "body",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 4, -2], "size": [8, 20, 4], "uv": [0, 39], "inflate": 0.65}
+				]
+			}
+		]
+	}
+}

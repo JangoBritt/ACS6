@@ -1,0 +1,19 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+		"identifier": "endx:brick_pillar"
+		},
+		"tags": [ "stonecutter" ],
+		"ingredients": [
+			{
+				"item": "minecraft:brick_block",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "endx:brick_pillar",
+			"count": 1
+		}
+	}
+}

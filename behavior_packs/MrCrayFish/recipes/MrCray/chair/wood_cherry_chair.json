@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_cherry_chair_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"A A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_log"
+			},
+			"A": {
+				"item": "minecraft:cherry_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:cherry_planks"},
+			{"item": "minecraft:cherry_log"}
+		],
+		"result": {
+			"item": "mr:wood_cherry_chair_mr",
+			"count": 4
+		}
+	}
+}

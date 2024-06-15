@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_bookshelf_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"PPP",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_planks"
+			},
+			"P": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:cherry_book"}
+		],
+		"result": {
+			"item": "medieval:cherry_bookshelf_0",
+			"count": 1
+		}
+	}
+}

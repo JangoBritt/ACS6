@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:bottle",
+			"properties": {
+				"medieval:facing_direction": [0,1,2,3,4,5]
+			}
+		},
+		"permutations": [
+			{"condition": "query.block_property('medieval:facing_direction') == 2","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 3","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 4","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 5","components": {"minecraft:rotation": [0,90,0]}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.bottle",
+			"minecraft:material_instances": {"*": {"texture": "bottle","render_method": "blend"}},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:creative_category": {"category": "equipment","group": "itemGroup.name.bottle"},
+			"minecraft:entity_collision": {"origin": [-3.5,0.0,-3.5],"size": [7,16,7]},
+			"minecraft:pick_collision": {"origin": [-3.5,0.0,-3.5],"size": [7,16,7]},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 1.8,
+			"minecraft:map_color": "#24abab",
+			"minecraft:destroy_time": 1
+		},
+		"events": {
+			"set_facing_direction": {
+				"set_block_property": {
+					"medieval:facing_direction": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

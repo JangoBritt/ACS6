@@ -1,0 +1,26 @@
+{
+  "pools": [
+
+    // Splash Potions
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_data",
+              "data": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

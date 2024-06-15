@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:workbench_left"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" H ",
+			"SSS",
+			"###"
+		],
+		"key": {
+			"H": {
+				"item": "medieval:handsaw"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"item": "minecraft:planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:planks"},
+			{"item": "medieval:handsaw"},
+			{"item": "minecraft:stick"}
+		],
+		"result": {
+			"item": "medieval:workbench_left",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "medieval:smooth_quartz_beam_left_inclined"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:quartz_block",
+        "data": 3
+      }
+    ],
+    "result": {
+      "item": "medieval:smooth_quartz_beam_left_inclined",
+      "count": 12
+    }
+  }
+}

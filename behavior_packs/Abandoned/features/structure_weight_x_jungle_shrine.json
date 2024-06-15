@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_jungle_shrine"
+    },
+    "features": [
+      [ "nicothekid:structure_x_jungle_shrine_01", 100 ],
+      [ "nicothekid:structure_x_jungle_shrine_02", 100 ],
+      [ "nicothekid:structure_x_jungle_shrine_03", 100 ]
+    ]
+  }
+}

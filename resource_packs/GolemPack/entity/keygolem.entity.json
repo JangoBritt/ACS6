@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "athos_golem:key_golem",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/key_golem"
+      },
+      "geometry": {
+        "default": "geometry.key_golem"
+      },
+      "animations": {
+        "setup": "animation.pig.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.key_golem"
+      ],
+      "spawn_egg": {
+        "base_color": "#de9a12",
+        "overlay_color": "#f7ae1b"
+      }
+    }
+  }
+}

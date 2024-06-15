@@ -1,0 +1,579 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "athos_golem:tuff_golem",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "pickup_item_delay": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 3,
+          "time_down_event": {
+            "event": "pickup_item_delay_complete"
+          }
+        }
+      },
+      "pickup_item": {
+        "minecraft:behavior.pickup_items": {
+          "priority": 2,
+          "max_dist": 32,
+          "search_height": 32,
+          "goal_radius": 2.2,
+          "speed_multiplier": 0.9,
+          "pickup_based_on_chance": false,
+          "can_pickup_any_item": false,
+          "can_pickup_to_hand_or_equipment": false,
+          "pickup_same_items_as_in_hand": true
+        }
+      },
+      "sleepy": {
+        "minecraft:type_family": {
+          "family": [
+            "tuff_golem",
+            "inanimate"
+          ]
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "equals",
+                      "value": false
+                    }
+                  ]
+                },
+                "target": "self"
+              },
+              "cause": "entity_attack",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "equals",
+                      "value": true
+                    }
+                  ]
+                },
+                "event": "awake",
+                "target": "self"
+              },
+              "cause": "entity_attack",
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "awake",
+                "target": "self"
+              },
+              "give_item": false,
+              "take_item": false,
+              "interact_text": "Awake"
+            }
+          ]
+        }
+      },
+      "sleepy_spawned": {
+        "minecraft:type_family": {
+          "family": [
+            "tuff_golem",
+            "inanimate"
+          ]
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "equals",
+                      "value": false
+                    }
+                  ]
+                },
+                "target": "self"
+              },
+              "cause": "entity_attack",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "equals",
+                      "value": true
+                    }
+                  ]
+                },
+                "event": "awake_spawned",
+                "target": "self"
+              },
+              "cause": "entity_attack",
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "awake",
+                "target": "self"
+              },
+              "give_item": false,
+              "take_item": false,
+              "interact_text": "Awake"
+            }
+          ]
+        }
+      },
+      "vote": {
+        "minecraft:equipment": {
+          "table": "loot_tables/entities/mobvote2022/tuff_golem_equipment.json"
+        }
+      },
+      "idle": {
+        "minecraft:type_family": {
+          "family": [
+            "tuff_golem",
+            "mob"
+          ]
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 1,
+          "xz_dist": 16
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority": 8
+        },
+        "minecraft:behavior.look_at_player": {
+          "priority": 8,
+          "target_distance": 6.0,
+          "probability": 0.02
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:mark_variant": {
+          "value": 0
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "display",
+                "target": "self"
+              },
+              "give_item": true,
+              "take_item": false,
+              "interact_text": "Give"
+            }
+          ]
+        }
+      },
+      "display": {
+        "minecraft:type_family": {
+          "family": [
+            "tuff_golem",
+            "mob"
+          ]
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 0.7,
+          "xz_dist": 16
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority": 8
+        },
+        "minecraft:behavior.look_at_player": {
+          "priority": 8,
+          "target_distance": 6.0,
+          "probability": 0.02
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:mark_variant": {
+          "value": 0
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "idle",
+                "target": "self"
+              },
+              "give_item": false,
+              "take_item": true,
+              "interact_text": "Take"
+            }
+          ]
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "equals",
+                      "value": true
+                    }
+                  ]
+                },
+                "event": "sleep",
+                "target": "self"
+              },
+              "cause": "entity_attack",
+              "deals_damage": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/mobvote2022/tuff_golem.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.75,
+        "height": 1.25
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:nameable": {},
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:health": {
+        "value": 40
+      },
+      "minecraft:ambient_sound_interval": {
+        "value": 5.0,
+        "range": 5.0,
+        "event_name": "ambient",
+        "event_names": [
+          {
+            "event_name": "ambient.tame",
+            "condition": "query.is_using_item"
+          },
+          {
+            "event_name": "ambient",
+            "condition": "!query.is_using_item"
+          }
+        ]
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 0.24
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:follow_range": {
+        "value": 1024
+      },
+      "minecraft:physics": {},
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:inventory": {
+        "inventory_size": 1
+      },
+      "minecraft:behavior.beg": {
+        "priority": 9,
+        "look_distance": 8,
+        "look_time": [
+          2,
+          4
+        ],
+        "items": 1
+      },
+      "minecraft:behavior.follow_owner": {
+        "priority": 6,
+        "speed_multiplier": 8,
+        "start_distance": 16,
+        "stop_distance": 4,
+        "can_teleport": false,
+        "ignore_vibration": false
+      }
+    },
+    "events": {
+      "pickup_item_delay": {
+        "remove": {
+          "component_groups": [
+            "pickup_item"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "pickup_item_delay"
+          ]
+        }
+      },
+      "pickup_item_delay_complete": {
+        "remove": {
+          "component_groups": [
+            "pickup_item_delay"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "pickup_item"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "pickup_item",
+                "sleepy_spawned"
+              ]
+            }
+          },
+          {
+            "weight": 0,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "pickup_item",
+                "sleepy_spawned",
+                "vote"
+              ]
+            }
+          }
+        ]
+      },
+      "display": {
+        "add": {
+          "component_groups": [
+            "display"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "idle",
+            "sleepy"
+          ]
+        }
+      },
+      "idle": {
+        "add": {
+          "component_groups": [
+            "idle"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "display",
+            "sleepy"
+          ]
+        }
+      },
+      "sleep": {
+        "add": {
+          "component_groups": [
+            "sleepy"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "display",
+            "idle"
+          ]
+        }
+      },
+      "awake": {
+        "remove": {
+          "component_groups": [
+            "sleepy"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "display"
+          ]
+        }
+      },
+      "awake_spawned": {
+        "remove": {
+          "component_groups": [
+            "sleepy_spawned"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "idle"
+          ]
+        }
+      }
+    }
+  }
+}

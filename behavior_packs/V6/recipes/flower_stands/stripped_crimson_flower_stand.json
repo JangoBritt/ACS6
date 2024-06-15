@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_flower_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AA",
+			"BB",
+			"CC"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:flower_pot"
+			},
+			"A": {
+				"item": "medieval:stripped_crimson_post"
+			},
+			"C": {
+				"item": "medieval:stripped_crimson_mslab"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:crimson_flower_stand",
+			"count": 1
+		}
+	}
+}

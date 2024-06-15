@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_triple_saddle_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"A",
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:birch_saddle_stand"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
+		"result": {
+			"item": "medieval:birch_triple_saddle_stand",
+			"count": 1
+		}
+	}
+}

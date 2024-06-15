@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cherry_barrel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			"BCB",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cherry_slab",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cherry_planks"
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cherry_barrel",
+			"count": 1
+		}
+	}
+}

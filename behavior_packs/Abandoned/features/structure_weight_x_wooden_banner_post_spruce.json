@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_wooden_banner_post_spruce"
+    },
+    "features": [
+      [ "nicothekid:structure_x_wooden_banner_post_spruce_01", 1 ]
+    ]
+  }
+}

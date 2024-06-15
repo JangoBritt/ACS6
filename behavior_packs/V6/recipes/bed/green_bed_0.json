@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bed_0_green"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"PPP"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:planks",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:green_wool"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:bed_0_green",
+			"count": 1
+		}
+	}
+}

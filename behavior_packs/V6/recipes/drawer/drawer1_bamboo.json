@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:bamboo_drawer1"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_bamboo_block",
+				"data": 0
+			},
+			"B": {
+				"item": "medieval:bamboo_mslab"
+			},
+			"C": {
+				"item": "minecraft:clock"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:bamboo_drawer1",
+			"count": 1
+		}
+	}
+}

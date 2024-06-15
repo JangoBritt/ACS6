@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cobblestone_soul_brazier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			" B ",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:soul_sand"
+			},
+			"B": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cobblestone_soul_brazier",
+			"count": 2
+		}
+	}
+}

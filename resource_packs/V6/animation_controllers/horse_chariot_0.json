@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.horse_chariot_0": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"default"
+					],
+					"transitions": [
+						{
+							"grazing": "!query.has_rider && query.modified_move_speed < 0.3 && query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"grazing": {
+					"animations": [
+						"grazing"
+					],
+					"transitions": [
+						{
+							"default": "query.ground_speed && query.modified_move_speed > 0.2"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

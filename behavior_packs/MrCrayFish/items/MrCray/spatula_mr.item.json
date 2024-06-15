@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mr:spatula_mr",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.mrGrill"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "mr.spatula"
+			},
+			"minecraft:display_name": {
+				"value": "item.mr:spatula_mr"
+			},
+			"minecraft:durability":{
+				"max_durability": 1500
+			}
+		}
+	}
+}

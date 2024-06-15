@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_tall_window_item",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.door"
+			},
+			"minecraft:display_name": {
+				"value": "item.medieval:stripped_mangrove_tall_window_item"
+			},
+			"minecraft:icon": {
+				"texture": "mangrove_tall_window"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:stripped_mangrove_tall_window",
+				"use_block_description": true
+			}
+		}
+	}
+}

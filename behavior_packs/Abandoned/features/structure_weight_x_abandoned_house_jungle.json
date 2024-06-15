@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_abandoned_house_jungle"
+    },
+    "features": [
+      [ "nicothekid:structure_x_abandoned_house_jungle_01_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_01_b", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_01_c", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_02_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_02_b", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_02_c", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_03_a", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_03_b", 100 ],
+      [ "nicothekid:structure_x_abandoned_house_jungle_03_c", 100 ]
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:white_grill_mr",
+			"menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.mrGrill",
+                "is_hidden_in_commands": false
+            },
+			"states": {
+				"mr:food_0": [0,1],
+				"mr:food_1": [0,1],
+				"mr:food_2": [0,1],
+				"mr:food_3": [0,1]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.mr.grill",
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {"*": {"texture": "mr.clay_white","render_method": "alpha_test"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "alpha_test"},"mesh": {"texture": "mr.mesh","render_method": "alpha_test"}},
+			"minecraft:on_interact": {"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:beef','minecraft:chicken','minecraft:kelp','minecraft:cod','minecraft:salmon','minecraft:mutton','minecraft:porkchop','minecraft:potato','minecraft:rabbit')","event": "add_food"},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [5,5],"looping": true},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"update": {
+				"sequence": [
+					{"condition": "q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 1","run_command": {"command": ["execute positioned ~~0.4~ unless entity @e[type=mr:food_mr,r=0.4] run setblock ~~~ mr:white_grill_mr"]}}
+				]
+			},
+			"add_food": {
+				"sequence": [
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:beef') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:beef_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:beef') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:beef_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:beef') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:beef_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:beef') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:beef_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:chicken') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:chicken_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:chicken') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:chicken_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:chicken') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:chicken_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:chicken') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:chicken_mr"]},"set_block_state": {"mr:food_3": 1}},
+					
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cod') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:cod_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cod') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:cod_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cod') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:cod_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:cod') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:cod_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:kelp') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:kelp_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:kelp') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:kelp_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:kelp') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:kelp_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:kelp') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:kelp_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:mutton') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:mutton_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:mutton') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:mutton_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:mutton') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:mutton_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:mutton') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:mutton_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:porkchop') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:porkchop_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:porkchop') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:porkchop_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:porkchop') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:porkchop_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:porkchop') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:porkchop_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:potato') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:potato_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:potato') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:potato_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:potato') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:potato_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:potato') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:potato_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:rabbit') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:rabbit_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:rabbit') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:rabbit_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:rabbit') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:rabbit_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:rabbit') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:rabbit_mr"]},"set_block_state": {"mr:food_3": 1}},
+
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:salmon') && q.block_state('mr:food_0') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~0.2 facing @p mr:salmon_mr"]},"set_block_state": {"mr:food_0": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:salmon') && q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~0.2 facing @p mr:salmon_mr"]},"set_block_state": {"mr:food_1": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:salmon') && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~0.2 ~0.4 ~-0.2 facing @p mr:salmon_mr"]},"set_block_state": {"mr:food_2": 1}},
+					{"condition": "q.is_item_name_any('slot.weapon.mainhand',0,'minecraft:salmon') && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 0","run_command": {"command": ["playsound block.itemframe.add_item @a ~~~","summon mr:food_mr ~-0.2 ~0.4 ~-0.2 facing @p mr:salmon_mr"]},"set_block_state": {"mr:food_3": 1}},
+					{"condition": "!(q.block_state('mr:food_0') == 1 && q.block_state('mr:food_1') == 1 && q.block_state('mr:food_2') == 1 && q.block_state('mr:food_3') == 1)","decrement_stack": {}}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_cherry_park_bench_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_cherry_log"
+			},
+			"A": {
+				"item": "minecraft:cherry_planks"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:stripped_cherry_log"},
+			{"item": "minecraft:cherry_planks"}
+		],
+		"result": {
+			"item": "mr:stripped_cherry_park_bench_mr",
+			"count": 4
+		}
+	}
+}

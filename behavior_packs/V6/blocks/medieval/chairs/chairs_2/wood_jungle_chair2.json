@@ -1,0 +1,48 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:jungle_wood_chair2",
+			"properties": {
+				"medieval:facing_direction": [2,3,4,5]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_property('medieval:facing_direction') == 2","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "q.block_property('medieval:facing_direction') == 3","components": {"minecraft:rotation": [0,180,0],"tag:chair_south": {}}},
+			{"condition": "q.block_property('medieval:facing_direction') == 4","components": {"minecraft:rotation": [0,90,0],"tag:chair_east": {}}},
+			{"condition": "q.block_property('medieval:facing_direction') == 5","components": {"minecraft:rotation": [0,-90,0],"tag:chair_west": {}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.chairs_3_bot",
+			"minecraft:material_instances": {"*": {"texture": "m.wood_jungle","render_method": "opaque"}},
+			"tag:m.wood_chair": {},
+			"minecraft:breathability": "air",
+			"minecraft:on_placed": {"event": "block"},
+			"minecraft:ticking": {"on_tick":{"event": "break"},"range": [0.1,0.1],"looping": true},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:creative_category": {"category": "construction","group": "itemGroup.name.jungleChairs"},
+			"minecraft:entity_collision": {"origin": [-7.0,0.0,-7.0],"size": [14,9,14]},
+			"minecraft:pick_collision": {"origin": [-7.0,0.0,-7.0],"size": [14,16,14]},
+			"minecraft:on_interact": {"event": "sit"},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:map_color": "#e39f6f"
+		},
+		"events": {
+			"block": {"run_command": {"command": "setblock ~ ~1 ~ medieval:chair_wood_0_top keep"}},
+			"break": {"sequence": [{"condition": "!(q.block_neighbor_has_any_tag(0,1,0,'chair_top'))","run_command": {"command": "setblock ~~~ air destroy"}}]},
+			"sit": {
+				"sequence": [
+					{"condition": "q.block_property('medieval:facing_direction') == 2","run_command": {"command": ["execute unless entity @e[type=medieval:sit_bench,r=0.5] run summon medieval:sit_bench ~ ~-0.1 ~ facing ~ ~ ~1","execute as @e[type=medieval:sit_bench,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_property('medieval:facing_direction') == 3","run_command": {"command": ["execute unless entity @e[type=medieval:sit_bench,r=0.5] run summon medieval:sit_bench ~ ~-0.1 ~ facing ~ ~ ~-1","execute as @e[type=medieval:sit_bench,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_property('medieval:facing_direction') == 4","run_command": {"command": ["execute unless entity @e[type=medieval:sit_bench,r=0.5] run summon medieval:sit_bench ~ ~-0.1 ~ facing ~1 ~ ~","execute as @e[type=medieval:sit_bench,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
+					{"condition": "q.block_property('medieval:facing_direction') == 5","run_command": {"command": ["execute unless entity @e[type=medieval:sit_bench,r=0.5] run summon medieval:sit_bench ~ ~-0.1 ~ facing ~-1 ~ ~","execute as @e[type=medieval:sit_bench,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}}
+				]
+			},
+			"set_facing_direction": {"set_block_property": {"medieval:facing_direction": "q.cardinal_facing_2d"}}
+		}
+	}
+}

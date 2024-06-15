@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_table_2"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:stripped_mangrove_post"
+			},
+			"B": {
+				"item": "medieval:stripped_mangrove_mslab"
+			},
+			"C": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:stripped_mangrove_table_2",
+			"count": 1
+		}
+	}
+}

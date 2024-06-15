@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "components": {
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:bookshelf_books"
+        ]
+      },
+      "minecraft:icon": {
+        "texture": "farmersdelight:book_farmersdelight"
+      }
+    },
+    "description": {
+      "identifier": "farmersdelight:book_farmersdelight",
+      "menu_category": {
+        "category": "Items",
+        "group": "itemGroup.name.items"
+      }
+    }
+  }
+}

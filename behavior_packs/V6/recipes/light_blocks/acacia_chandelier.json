@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"C#C",
+			"#S#",
+			"C#C"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:stripped_acacia_beam_up"
+			},
+			"C": {
+				"item": "minecraft:chain"
+			},
+			"S": {
+				"item": "minecraft:stripped_acacia_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:acacia_chandelier",
+			"count": 2
+		}
+	}
+}

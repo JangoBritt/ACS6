@@ -1,0 +1,73 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:mangrove_hedge_mr",
+			"menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.mrHedge",
+                "is_hidden_in_commands": false
+            },
+			"states": {
+				"mr:n": [0,1],
+				"mr:s": [0,1],
+				"mr:w": [0,1],
+				"mr:e": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-4],"size": [8,16,8]},"minecraft:selection_box": {"origin": [-4,0,-4],"size": [8,16,8]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-8],"size": [8,16,12]},"minecraft:selection_box": {"origin": [-4,0,-8],"size": [8,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-4],"size": [8,16,12]},"minecraft:selection_box": {"origin": [-4,0,-4],"size": [8,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-4],"size": [12,16,8]},"minecraft:selection_box": {"origin": [-4,0,-4],"size": [12,16,8]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-4],"size": [12,16,8]},"minecraft:selection_box": {"origin": [-8,0,-4],"size": [12,16,8]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-8],"size": [8,16,16]},"minecraft:selection_box": {"origin": [-4,0,-8],"size": [8,16,16]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-4],"size": [16,16,8]},"minecraft:selection_box": {"origin": [-8,0,-4],"size": [16,16,8]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-8],"size": [12,16,12]},"minecraft:selection_box": {"origin": [-4,0,-8],"size": [12,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [12,16,12]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [12,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-4],"size": [12,16,12]},"minecraft:selection_box": {"origin": [-4,0,-4],"size": [12,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-4],"size": [12,16,12]},"minecraft:selection_box": {"origin": [-8,0,-4],"size": [12,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 0 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,12]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 0 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-4],"size": [16,16,12]},"minecraft:selection_box": {"origin": [-8,0,-4],"size": [16,16,12]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 1 && q.block_state('mr:e') == 0","components": {"minecraft:collision_box": {"origin": [-4,0,-8],"size": [12,16,16]},"minecraft:selection_box": {"origin": [-4,0,-8],"size": [12,16,16]}}},
+			{"condition": "q.block_state('mr:n') == 1 && q.block_state('mr:s') == 1 && q.block_state('mr:w') == 0 && q.block_state('mr:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [12,16,16]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [12,16,16]}}}
+		],
+		"components": {
+			"tag:mr.hedge": {},
+			"minecraft:geometry": {
+				"identifier":"geometry.mr.hedge",
+				"bone_visibility": {
+					"root": true,
+					"n": "q.block_state('mr:n') == 1",
+					"s": "q.block_state('mr:s') == 1",
+					"w": "q.block_state('mr:w') == 1",
+					"e": "q.block_state('mr:e') == 1"
+				}
+			},
+			"minecraft:breathability": "air",
+			"minecraft:material_instances": {"*": {"texture": "mr.leaves_mangrove","render_method": "blend"}},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:flammable": {"catch_chance_modifier":20,"destroy_chance_modifier":20},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 1.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.2},
+			"minecraft:map_color": "#f7781e"
+		},
+		"events": {
+			"update":{
+				"sequence": [
+					{"condition": "q.block_neighbor_has_any_tag(0,0,-1,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:n": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(0,0,-1,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:n": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(0,0,1,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:s": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(0,0,1,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:s": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(-1,0,0,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:w": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(-1,0,0,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:w": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(1,0,0,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:e": 1}},
+					{"condition": "!q.block_neighbor_has_any_tag(1,0,0,'mr.hedge','mr.fence','mr.gate','fence_block','metal','stone','wood','grass','dirt','sand','gravel')","set_block_state": {"mr:e": 0}}
+				]
+			}
+		}
+	}
+}

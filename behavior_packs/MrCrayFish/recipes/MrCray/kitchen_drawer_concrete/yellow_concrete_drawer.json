@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:yellow_concrete_drawer_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:yellow_concrete"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:yellow_concrete"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:chest"}
+		],
+		"result": {
+			"item": "mr:yellow_concrete_drawer_mr",
+			"count": 4
+		}
+	}
+}

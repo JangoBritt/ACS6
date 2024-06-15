@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_avatars:hansolo_head",
+			"materials": {
+				"default": "npc"
+			},
+			"textures": {
+				"default": "textures/avatars/specials/hansolo/skin1"
+			},
+			"geometry": {
+				"default": "geometry.athos_avatars.player_head"
+			},
+			"scripts": {
+				"animate": [
+					"rotateX",
+					"rotateY",
+					"rotateZ"
+				]
+			},
+			"animations": {
+				"rotateX_default": "animation.athos_avatars.rotateX_default",
+				"rotateX_0": "animation.athos_avatars.rotateX_0",
+				"rotateX_45": "animation.athos_avatars.rotateX_45",
+				"rotateX_90": "animation.athos_avatars.rotateX_90",
+				"rotateX_135": "animation.athos_avatars.rotateX_135",
+				"rotateX_180": "animation.athos_avatars.rotateX_180",
+				"rotateX_225": "animation.athos_avatars.rotateX_225",
+				"rotateX_270": "animation.athos_avatars.rotateX_270",
+				"rotateX_315": "animation.athos_avatars.rotateX_315",
+				"rotateX": "controller.animation.athos_avatars.rotateX",
+				"rotateY_default": "animation.athos_avatars.rotateY_default",
+				"rotateY_0": "animation.athos_avatars.rotateY_0",
+				"rotateY_45": "animation.athos_avatars.rotateY_45",
+				"rotateY_90": "animation.athos_avatars.rotateY_90",
+				"rotateY_135": "animation.athos_avatars.rotateY_135",
+				"rotateY_180": "animation.athos_avatars.rotateY_180",
+				"rotateY_225": "animation.athos_avatars.rotateY_225",
+				"rotateY_270": "animation.athos_avatars.rotateY_270",
+				"rotateY_315": "animation.athos_avatars.rotateY_315",
+				"rotateY": "controller.animation.athos_avatars.rotateY",
+				"rotateZ_default": "animation.athos_avatars.rotateZ_default",
+				"rotateZ_0": "animation.athos_avatars.rotateZ_0",
+				"rotateZ_45": "animation.athos_avatars.rotateZ_45",
+				"rotateZ_90": "animation.athos_avatars.rotateZ_90",
+				"rotateZ_135": "animation.athos_avatars.rotateZ_135",
+				"rotateZ_180": "animation.athos_avatars.rotateZ_180",
+				"rotateZ_225": "animation.athos_avatars.rotateZ_225",
+				"rotateZ_270": "animation.athos_avatars.rotateZ_270",
+				"rotateZ_315": "animation.athos_avatars.rotateZ_315",
+				"rotateZ": "controller.animation.athos_avatars.rotateZ"
+			},
+			"render_controllers": [
+				"controller.render.athos_avatars.player_head"
+			]
+		}
+	}
+}

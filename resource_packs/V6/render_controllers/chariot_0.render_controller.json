@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.chariot_0": {
+			"geometry": "Geometry.chariot_0",
+			"textures": [
+				"Texture.chariot_0"
+			],
+			"materials": [
+				{
+					"*": "Material.texture_alpha"
+				}
+			]
+		}
+	}
+}

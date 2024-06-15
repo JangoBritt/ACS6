@@ -1,0 +1,85 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cabinet_tall_open_tops",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-7, 14, -7],
+							"size": [14, 1, 14],
+							"uv": {
+								"north": {"uv": [1, 1], "uv_size": [14, 1], "material_instance": "planks"},
+								"east": {"uv": [1, 1], "uv_size": [14, 1], "material_instance": "planks"},
+								"south": {"uv": [1, 1], "uv_size": [14, 1], "material_instance": "planks"},
+								"west": {"uv": [1, 1], "uv_size": [14, 1], "material_instance": "planks"},
+								"up": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-8, 0, -7],
+							"size": [1, 15, 14],
+							"uv": {
+								"north": {"uv": [0, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"east": {"uv": [1, 1], "uv_size": [14, 15], "material_instance": "planks"},
+								"south": {"uv": [15, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"west": {"uv": [1, 1], "uv_size": [14, 15], "material_instance": "planks"},
+								"up": {"uv": [16, 15], "uv_size": [-1, -14], "material_instance": "planks"},
+								"down": {"uv": [16, 15], "uv_size": [-1, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 15, 1],
+							"uv": {
+								"north": {"uv": [0, 1], "uv_size": [16, 15], "material_instance": "planks"},
+								"east": {"uv": [15, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"south": {"uv": [0, 1], "uv_size": [16, 15], "material_instance": "planks"},
+								"west": {"uv": [0, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"up": {"uv": [16, 1], "uv_size": [-16, -1], "material_instance": "planks"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -1], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [7, 0, -7],
+							"size": [1, 15, 14],
+							"uv": {
+								"north": {"uv": [15, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"east": {"uv": [1, 1], "uv_size": [14, 15], "material_instance": "planks"},
+								"south": {"uv": [0, 1], "uv_size": [1, 15], "material_instance": "planks"},
+								"west": {"uv": [1, 1], "uv_size": [14, 15], "material_instance": "planks"},
+								"up": {"uv": [1, 15], "uv_size": [-1, -14], "material_instance": "planks"},
+								"down": {"uv": [1, 15], "uv_size": [-1, -14], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-8, 15, -8],
+							"size": [16, 1, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "awood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "awood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "awood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "awood"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "awood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "awood"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

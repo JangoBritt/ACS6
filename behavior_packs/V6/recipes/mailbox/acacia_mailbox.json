@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_mailbox_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"I I",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:acacia_planks"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:acacia_mailbox_0",
+			"count": 1
+		}
+	}
+}

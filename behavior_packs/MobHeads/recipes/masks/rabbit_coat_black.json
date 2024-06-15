@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fmh:rabbit_coat_black_mask_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"X": {
+				"item": "fmh:rabbit_coat_black_item"
+			},
+			"#": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "fmh:rabbit_coat_black_item"}
+		],
+		"result": [
+			{
+				"item": "fmh:rabbit_coat_black_mask",
+				"count": 1
+			}
+		]
+	}
+}

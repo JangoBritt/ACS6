@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:piglin_brute_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_piglin_brute_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:piglin_brute"
+			}
+		}
+	}
+}

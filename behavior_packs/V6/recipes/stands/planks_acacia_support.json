@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_planks_support"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"###",
+			"  A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:acacia_planks_mslab"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:acacia_planks_support",
+			"count": 3
+		}
+	}
+}

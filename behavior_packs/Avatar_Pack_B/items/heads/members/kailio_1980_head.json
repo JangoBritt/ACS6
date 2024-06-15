@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:kailio_1980_head_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "kailio_1980_head_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:kailio_1980_head"
+			}
+		}
+	}
+}

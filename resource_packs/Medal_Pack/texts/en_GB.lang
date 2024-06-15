@@ -1,0 +1,12 @@
+item.athos_medal:purple_safe_medal.name=Purple Safe Medal
+item.athos_medal:demise_medal.name=Demise Participant Medal
+
+
+tile.athos_medal:donor_certificate.name=§bAthos Certificate§r
+tile.athos_medal:demise_trophy.name=§gDemise 1st Place Trophy!§r
+
+item.spawn_egg.entity.athos_medals:trophy_demise.name=[Athos] §gDemise 1st Place Trophy§r
+entity.athos_medals:trophy_demise=[Athos] §gDemise 1st Place Trophy§r
+
+item.spawn_egg.entity.athos_medals:trophy_gold.name=Gold Trophy
+entity.athos_medals:trophy_gold=Gold Trophy

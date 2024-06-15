@@ -1,0 +1,113 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.athos_avatars.rotateZ_default": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_0": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_45": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        45
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_90": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        90
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_135": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        135
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_180": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        180
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_225": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        225
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_270": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        270
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.rotateZ_315": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        0,
+                        0,
+                        315
+                    ]
+                }
+            }
+        }
+    }
+}

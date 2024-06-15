@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wandering Trader Plus BP v1.0.4",
+		"description": "Wandering Trader Plus v1.0.4 by Redstone Games - https://www.redstonegames.com.br",
+		"uuid": "fcd5a4e5-887c-4496-955c-5a89ab947f12",
+		"version": [6, 0, 0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack",
+			"version": [6, 0, 0],
+			"uuid": "a3b1e5c9-df2a-4c69-9b84-d16f8d79dd36",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b1c6e1b7-221b-4b6d-8691-85e35cf0e113",
+			"version": [6, 0, 0]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "standard",
+			"name": "Standard",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "xmas",
+			"name": "X-Mas",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "halloween",
+			"name": "Halloween",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "starwars",
+			"name": "Star Wars",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "easter",
+			"name": "Easter",
+			"memory_tier": 1
+		}
+	],
+	"metadata": {
+		"authors": ["RedstoneGamesBr"],
+		"url": "https://www.redstonegames.com.br/wandering-trader-plus-addon-minecraft-bedrock/"
+	}
+}

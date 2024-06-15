@@ -1,0 +1,59 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_piglin_tower",
+      "places_feature": "nicothekid:structure_weight_x_piglin_tower"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "basalt_deltas"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "crimson_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether_wastes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "soulsand_valley"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "warped_forest"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 3.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 32, 104 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      }
+    }
+  }
+}

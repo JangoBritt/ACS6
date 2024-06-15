@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_birch_fence_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:birch_log"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:birch_log"},
+			{"item": "minecraft:stick"}
+		],
+		"result": {
+			"item": "mr:wood_birch_fence_mr",
+			"count": 12
+		}
+	}
+}

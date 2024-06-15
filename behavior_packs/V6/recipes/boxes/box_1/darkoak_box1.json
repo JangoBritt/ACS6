@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:darkoak_box1"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "medieval:darkoak_wood_post"
+			},
+			"B": {
+				"item": "medieval:darkoak_wood_beam_right_inclined"
+			},
+			"C": {
+				"item": "minecraft:planks",
+				"data": 5
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "medieval:darkoak_box1",
+			"count": 2
+		}
+	}
+}

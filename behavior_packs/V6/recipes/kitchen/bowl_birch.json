@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:birch_bowl0"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_birch_log",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:frame"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
+		"result": {
+			"item": "medieval:birch_bowl0",
+			"count": 3
+		}
+	}
+}

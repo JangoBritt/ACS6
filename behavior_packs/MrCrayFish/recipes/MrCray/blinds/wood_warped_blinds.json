@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_warped_blinds_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_stem"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:warped_stem"},
+			{"item": "minecraft:stick"}
+		],
+		"result": {
+			"item": "mr:wood_warped_blinds_mr",
+			"count": 2
+		}
+	}
+}

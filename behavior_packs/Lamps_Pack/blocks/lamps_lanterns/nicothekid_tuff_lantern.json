@@ -1,0 +1,114 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:tuff_lantern",
+      "menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.candles"
+			},
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [ "minecraft:block_face" ]
+        }
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Tuff Lantern",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_tuff_lantern",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_stone_lantern",
+        "bone_visibility": {
+          "main": true,
+          "bottom_extension": "query.block_state('minecraft:block_face') == 'up'",
+          "side_extension": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'south' || query.block_state('minecraft:block_face') == 'west'",
+          "top_extension": "query.block_state('minecraft:block_face') == 'down'"
+        }
+      },
+      "minecraft:map_color": "#5d5d52",
+      "minecraft:breathability": "air",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 15,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 25.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.2
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_tuff_lantern.json",
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+      },
+      "tag:tuff_lantern": {},
+      "tag:custom_lantern": {},
+      "tag:stone": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 0, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 90, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, 180, 0 ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [ 0, -90, 0 ]
+          }
+        }
+      }
+    ]
+  }
+}

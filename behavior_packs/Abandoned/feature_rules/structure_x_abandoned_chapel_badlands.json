@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nicothekid:structure_x_abandoned_chapel_badlands",
+      "places_feature": "nicothekid:structure_weight_x_abandoned_chapel_badlands"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mesa"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "savanna"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.01,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          "query.heightmap(variable.worldx, variable.worldz) + -8",
+          "query.heightmap(variable.worldx, variable.worldz) + -9"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ -16, 16 ]
+      }
+    }
+  }
+}

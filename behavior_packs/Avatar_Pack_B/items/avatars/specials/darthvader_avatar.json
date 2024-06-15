@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_avatars:darthvader_avatar_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "darthvader_avatar_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "athos_avatars:darthvader_avatar"
+			}
+		}
+	}
+}

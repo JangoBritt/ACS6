@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_wooden_bench_mangrove"
+    },
+    "features": [
+      [ "nicothekid:structure_x_wooden_bench_mangrove_01", 100 ],
+      [ "nicothekid:structure_x_wooden_bench_mangrove_02", 100 ],
+      [ "nicothekid:structure_x_wooden_bench_mangrove_03", 100 ],
+      [ "nicothekid:structure_x_wooden_bench_mangrove_04", 100 ]
+    ]
+  }
+}

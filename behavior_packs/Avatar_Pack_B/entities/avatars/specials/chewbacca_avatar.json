@@ -1,0 +1,1987 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "athos_avatars:chewbacca_avatar",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "athos_avatars:default": {
+                "minecraft:skin_id": {
+                    "value": 0
+                },
+                "minecraft:mark_variant": {
+                    "value": 0
+                },
+                "minecraft:is_sheared": {}
+            },
+            "athos_avatars:unlocked": {
+                "minecraft:navigation.walk": {},
+                "minecraft:equip_item": {},
+                "minecraft:behavior.equip_item": {
+                    "priority": 1
+                },
+                "minecraft:behavior.pickup_items": {
+                    "priority": 2,
+                    "max_dist": 10,
+                    "goal_radius": 2,
+                    "pickup_based_on_chance": false,
+                    "can_pickup_any_item": true
+                },
+                "minecraft:shareables": {
+                    "all_items": true,
+					"all_items_max_amount": 1,
+                    "all_items_surplus_amount": 0,
+                    "all_items_want_amount": 1,
+                    "items": [
+                        {
+                            "item": "minecraft:netherite_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 0
+                        },
+                        {
+                            "item": "minecraft:diamond_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 1
+                        },
+                        {
+                            "item": "minecraft:trident",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 2
+                        },
+                        {
+                            "item": "minecraft:iron_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 3
+                        },
+                        {
+                            "item": "minecraft:stone_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 4
+                        },
+                        {
+                            "item": "minecraft:golden_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 5
+                        },
+                        {
+                            "item": "minecraft:wooden_sword",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 6
+                        },
+                        {
+                            "item": "minecraft:bow",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 7
+                        },
+                        {
+                            "item": "minecraft:netherite_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 0
+                        },
+                        {
+                            "item": "minecraft:diamond_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 1
+                        },
+                        {
+                            "item": "minecraft:iron_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 2
+                        },
+                        {
+                            "item": "minecraft:chainmail_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 3
+                        },
+                        {
+                            "item": "minecraft:golden_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 4
+                        },
+                        {
+                            "item": "minecraft:leather_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 5
+                        },
+                        {
+                            "item": "minecraft:turtle_helmet",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 6
+                        },
+                        {
+                            "item": "minecraft:netherite_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 0
+                        },
+                        {
+                            "item": "minecraft:diamond_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 1
+                        },
+                        {
+                            "item": "minecraft:iron_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 2
+                        },
+                        {
+                            "item": "minecraft:chainmail_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 3
+                        },
+                        {
+                            "item": "minecraft:golden_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 4
+                        },
+                        {
+                            "item": "minecraft:leather_chestplate",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 5
+                        },
+                        {
+                            "item": "minecraft:netherite_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 0
+                        },
+                        {
+                            "item": "minecraft:diamond_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 1
+                        },
+                        {
+                            "item": "minecraft:iron_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 2
+                        },
+                        {
+                            "item": "minecraft:chainmail_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 3
+                        },
+                        {
+                            "item": "minecraft:golden_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 4
+                        },
+                        {
+                            "item": "minecraft:leather_leggings",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 5
+                        },
+                        {
+                            "item": "minecraft:netherite_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 0
+                        },
+                        {
+                            "item": "minecraft:diamond_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 1
+                        },
+                        {
+                            "item": "minecraft:iron_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 2
+                        },
+                        {
+                            "item": "minecraft:chainmail_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 3
+                        },
+                        {
+                            "item": "minecraft:golden_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 4
+                        },
+                        {
+                            "item": "minecraft:leather_boots",
+                            "want_amount": 1,
+                            "surplus_amount": 1,
+                            "priority": 5
+                        }
+                    ]
+                },
+                "minecraft:health": {
+                    "value": 5,
+                    "max": 5
+                },
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 29
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose1"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose2"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose3"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose4"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose5"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose6"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 5
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose7"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 6
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose8"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 7
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose9"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 8
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose10"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose11"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 10
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose12"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 11
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose13"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 12
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose14"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 13
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose15"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 14
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose16"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose17"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 16
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose18"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 17
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose19"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 18
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose20"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 19
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose21"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 20
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose22"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 21
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose23"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 22
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose24"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 23
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose25"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 24
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose26"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 25
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose27"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 26
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose28"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 27
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose29"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_blue_dye"
+                                        },
+                                        {
+                                            "test": "is_mark_variant",
+                                            "value": 28
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:pose30"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "red_dye"
+                                },
+                                "event": "athos_avatars:rotateAlign"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "green_dye"
+                                },
+                                "event": "athos_avatars:rotateX"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "blue_dye"
+                                },
+                                "event": "athos_avatars:rotateXM"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "orange_dye"
+                                },
+                                "event": "athos_avatars:positionX"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "brown_dye"
+                                },
+                                "event": "athos_avatars:positionXM"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "pink_dye"
+                                },
+                                "event": "athos_avatars:positionY"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "purple_dye"
+                                },
+                                "event": "athos_avatars:positionYM"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "lime_dye"
+                                },
+                                "event": "athos_avatars:positionZ"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "cyan_dye"
+                                },
+                                "event": "athos_avatars:positionZM"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "white_dye"
+                                },
+                                "event": "athos_avatars:scaleS"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "gray_dye"
+                                },
+                                "event": "athos_avatars:scaleM"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "black_dye"
+                                },
+                                "event": "athos_avatars:scaleL"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "magenta_dye"
+                                },
+                                "event": "athos_avatars:lock"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 7
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle1"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle2"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle3"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle4"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle5"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle6"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 5
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle7"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "light_gray_dye"
+                                        },
+                                        {
+                                            "test": "is_skin_id",
+                                            "value": 6
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:headAngle8"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "yellow_dye"
+                                        },
+                                        {
+                                            "test": "has_component",
+                                            "value": "minecraft:is_sheared"
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:skin2"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "yellow_dye"
+                                        },
+                                        {
+                                            "test": "has_component",
+                                            "value": "minecraft:is_baby"
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:skin3"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        },
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "player",
+                                            "value": "yellow_dye"
+                                        },
+                                        {
+                                            "test": "has_component",
+                                            "value": "minecraft:is_charged"
+                                        }
+                                    ]
+                                },
+                                "event": "athos_avatars:skin1"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        }
+                    ]
+                },
+                "minecraft:nameable": {}
+            },
+            "athos_avatars:locked": {
+                "minecraft:damage_sensor": {
+                    "triggers": {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                },
+                "minecraft:health": {
+                    "value": 999999,
+                    "max": 999999
+                },
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "test": "has_equipment",
+                                    "subject": "player",
+                                    "value": "magenta_dye"
+                                },
+                                "event": "athos_avatars:unlock"
+                            },
+                            "swing": true,
+                            "play_sounds": "drop.slot"
+                        }
+                    ]
+                }
+            },
+            "athos_avatars:skin1": {
+                "minecraft:is_sheared": {}
+            },
+            "athos_avatars:skin2": {
+                "minecraft:is_baby": {}
+            },
+            "athos_avatars:skin3": {
+                "minecraft:is_charged": {}
+            },
+            "athos_avatars:pose1": {
+                "minecraft:mark_variant": {
+                    "value": 0
+                }
+            },
+            "athos_avatars:pose2": {
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "athos_avatars:pose3": {
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            },
+            "athos_avatars:pose4": {
+                "minecraft:mark_variant": {
+                    "value": 3
+                }
+            },
+            "athos_avatars:pose5": {
+                "minecraft:mark_variant": {
+                    "value": 4
+                }
+            },
+            "athos_avatars:pose6": {
+                "minecraft:mark_variant": {
+                    "value": 5
+                }
+            },
+            "athos_avatars:pose7": {
+                "minecraft:mark_variant": {
+                    "value": 6
+                }
+            },
+            "athos_avatars:pose8": {
+                "minecraft:mark_variant": {
+                    "value": 7
+                }
+            },
+            "athos_avatars:pose9": {
+                "minecraft:mark_variant": {
+                    "value": 8
+                }
+            },
+            "athos_avatars:pose10": {
+                "minecraft:mark_variant": {
+                    "value": 9
+                }
+            },
+            "athos_avatars:pose11": {
+                "minecraft:mark_variant": {
+                    "value": 10
+                }
+            },
+            "athos_avatars:pose12": {
+                "minecraft:mark_variant": {
+                    "value": 11
+                }
+            },
+            "athos_avatars:pose13": {
+                "minecraft:mark_variant": {
+                    "value": 12
+                }
+            },
+            "athos_avatars:pose14": {
+                "minecraft:mark_variant": {
+                    "value": 13
+                }
+            },
+            "athos_avatars:pose15": {
+                "minecraft:mark_variant": {
+                    "value": 14
+                }
+            },
+            "athos_avatars:pose16": {
+                "minecraft:mark_variant": {
+                    "value": 15
+                }
+            },
+            "athos_avatars:pose17": {
+                "minecraft:mark_variant": {
+                    "value": 16
+                }
+            },
+            "athos_avatars:pose18": {
+                "minecraft:mark_variant": {
+                    "value": 17
+                }
+            },
+            "athos_avatars:pose19": {
+                "minecraft:mark_variant": {
+                    "value": 18
+                }
+            },
+            "athos_avatars:pose20": {
+                "minecraft:mark_variant": {
+                    "value": 19
+                }
+            },
+            "athos_avatars:pose21": {
+                "minecraft:mark_variant": {
+                    "value": 20
+                }
+            },
+            "athos_avatars:pose22": {
+                "minecraft:mark_variant": {
+                    "value": 21
+                }
+            },
+            "athos_avatars:pose23": {
+                "minecraft:mark_variant": {
+                    "value": 22
+                }
+            },
+            "athos_avatars:pose24": {
+                "minecraft:mark_variant": {
+                    "value": 23
+                }
+            },
+            "athos_avatars:pose25": {
+                "minecraft:mark_variant": {
+                    "value": 24
+                }
+            },
+            "athos_avatars:pose26": {
+                "minecraft:mark_variant": {
+                    "value": 25
+                }
+            },
+            "athos_avatars:pose27": {
+                "minecraft:mark_variant": {
+                    "value": 26
+                }
+            },
+            "athos_avatars:pose28": {
+                "minecraft:mark_variant": {
+                    "value": 27
+                }
+            },
+            "athos_avatars:pose29": {
+                "minecraft:mark_variant": {
+                    "value": 28
+                }
+            },
+            "athos_avatars:pose30": {
+                "minecraft:mark_variant": {
+                    "value": 29
+                }
+            },
+            "athos_avatars:headAngle1": {
+                "minecraft:skin_id": {
+                    "value": 0
+                }
+            },
+            "athos_avatars:headAngle2": {
+                "minecraft:skin_id": {
+                    "value": 1
+                }
+            },
+            "athos_avatars:headAngle3": {
+                "minecraft:skin_id": {
+                    "value": 2
+                }
+            },
+            "athos_avatars:headAngle4": {
+                "minecraft:skin_id": {
+                    "value": 3
+                }
+            },
+            "athos_avatars:headAngle5": {
+                "minecraft:skin_id": {
+                    "value": 4
+                }
+            },
+            "athos_avatars:headAngle6": {
+                "minecraft:skin_id": {
+                    "value": 5
+                }
+            },
+            "athos_avatars:headAngle7": {
+                "minecraft:skin_id": {
+                    "value": 6
+                }
+            },
+            "athos_avatars:headAngle8": {
+                "minecraft:skin_id": {
+                    "value": 7
+                }
+            },
+            "athos_avatars:scaleS": {
+                "minecraft:scale": {
+                    "value": 0.75
+                }
+            },
+            "athos_avatars:scaleM": {
+                "minecraft:scale": {
+                    "value": 1
+                }
+            },
+            "athos_avatars:scaleL": {
+                "minecraft:scale": {
+                    "value": 1.25
+                }
+            }
+        },
+        "components": {
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_altitude",
+                                    "subject": "self",
+                                    "operator": ">=",
+                                    "value": 330
+                                },
+                                {
+                                    "test": "is_altitude",
+                                    "subject": "self",
+                                    "operator": "<=",
+                                    "value": -64
+                                }
+                            ]
+                        },
+                        "target": "self",
+                        "event": "athos_avatars:despawn"
+                    }
+                ]
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/avatars/specials/chewbacca_avatar.json"
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "npc"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 2
+            },
+            "minecraft:knockback_resistance": {
+                "value": 100,
+                "max": 100
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "fall",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:persistent": {},
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:conditional_bandwidth_optimization": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:default",
+                        "athos_avatars:scaleM",
+                        "athos_avatars:unlocked",
+                        "athos_avatars:skin1"
+                    ]
+                }
+            },
+            "athos_avatars:skin1": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:skin2",
+                        "athos_avatars:skin3"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:skin1"
+                    ]
+                }
+            },
+            "athos_avatars:skin2": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:skin1",
+                        "athos_avatars:skin3"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:skin2"
+                    ]
+                }
+            },
+            "athos_avatars:skin3": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:skin1",
+                        "athos_avatars:skin2"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:skin3"
+                    ]
+                }
+            },
+            "athos_avatars:pose1": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose1"
+                    ]
+                }
+            },
+            "athos_avatars:pose2": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose2"
+                    ]
+                }
+            },
+            "athos_avatars:pose3": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose3"
+                    ]
+                }
+            },
+            "athos_avatars:pose4": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose4"
+                    ]
+                }
+            },
+            "athos_avatars:pose5": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose5"
+                    ]
+                }
+            },
+            "athos_avatars:pose6": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose6"
+                    ]
+                }
+            },
+            "athos_avatars:pose7": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose7"
+                    ]
+                }
+            },
+            "athos_avatars:pose8": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose8"
+                    ]
+                }
+            },
+            "athos_avatars:pose9": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose9"
+                    ]
+                }
+            },
+            "athos_avatars:pose10": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose10"
+                    ]
+                }
+            },
+            "athos_avatars:pose11": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose11"
+                    ]
+                }
+            },
+            "athos_avatars:pose12": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose12"
+                    ]
+                }
+            },
+            "athos_avatars:pose13": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose13"
+                    ]
+                }
+            },
+            "athos_avatars:pose14": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose14"
+                    ]
+                }
+            },
+            "athos_avatars:pose15": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose15"
+                    ]
+                }
+            },
+            "athos_avatars:pose16": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose16"
+                    ]
+                }
+            },
+            "athos_avatars:pose17": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose17"
+                    ]
+                }
+            },
+            "athos_avatars:pose18": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose18"
+                    ]
+                }
+            },
+            "athos_avatars:pose19": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose19"
+                    ]
+                }
+            },
+            "athos_avatars:pose20": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose20"
+                    ]
+                }
+            },
+            "athos_avatars:pose21": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose21"
+                    ]
+                }
+            },
+            "athos_avatars:pose22": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose22"
+                    ]
+                }
+            },
+            "athos_avatars:pose23": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose23"
+                    ]
+                }
+            },
+            "athos_avatars:pose24": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose24"
+                    ]
+                }
+            },
+            "athos_avatars:pose25": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose25"
+                    ]
+                }
+            },
+            "athos_avatars:pose26": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose26"
+                    ]
+                }
+            },
+            "athos_avatars:pose27": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose27"
+                    ]
+                }
+            },
+            "athos_avatars:pose28": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose28"
+                    ]
+                }
+            },
+            "athos_avatars:pose29": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose29"
+                    ]
+                }
+            },
+            "athos_avatars:pose30": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:pose30"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle1": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle1"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle2": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle2"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle3": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle3"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle4": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle4"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle5": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle5"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle6": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle6"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle7": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle7"
+                    ]
+                }
+            },
+            "athos_avatars:headAngle8": {
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:headAngle8"
+                    ]
+                }
+            },
+            "athos_avatars:rotateAlign": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~ ~ 0 ~"
+                    ]
+                }
+            },
+            "athos_avatars:rotateX": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~ ~ ~15"
+                    ]
+                }
+            },
+            "athos_avatars:rotateXM": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~ ~ ~-15"
+                    ]
+                }
+            },
+            "athos_avatars:positionX": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~0.05 ~ ~"
+                    ]
+                }
+            },
+            "athos_avatars:positionXM": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~-0.05 ~ ~"
+                    ]
+                }
+            },
+            "athos_avatars:positionY": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~0.05 ~"
+                    ]
+                }
+            },
+            "athos_avatars:positionYM": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~-0.05 ~"
+                    ]
+                }
+            },
+            "athos_avatars:positionZ": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~ ~0.05"
+                    ]
+                }
+            },
+            "athos_avatars:positionZM": {
+                "run_command": {
+                    "command": [
+                        "tp @s ~ ~ ~-0.05"
+                    ]
+                }
+            },
+            "athos_avatars:lock": {
+                "run_command": {
+                    "command": [
+                        "title @p actionbar Locked"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:unlocked"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:locked"
+                    ]
+                }
+            },
+            "athos_avatars:unlock": {
+                "run_command": {
+                    "command": [
+                        "title @p actionbar Unlocked"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:locked"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:unlocked"
+                    ]
+                }
+            },
+            "athos_avatars:scaleS": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:scaleM",
+                        "athos_avatars:scaleL"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:scaleS"
+                    ]
+                }
+            },
+            "athos_avatars:scaleM": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:scaleS",
+                        "athos_avatars:scaleL"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:scaleM"
+                    ]
+                }
+            },
+            "athos_avatars:scaleL": {
+                "remove": {
+                    "component_groups": [
+                        "athos_avatars:scaleS",
+                        "athos_avatars:scaleM"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "athos_avatars:scaleL"
+                    ]
+                }
+            }
+        }
+    }
+}

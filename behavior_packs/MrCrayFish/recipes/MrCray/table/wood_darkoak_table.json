@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_darkoak_table_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			" A ",
+			" A "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:dark_oak_log"
+			},
+			"A": {
+				"item": "minecraft:stripped_dark_oak_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:darkoak_book"}
+		],
+		"result": {
+			"item": "mr:wood_darkoak_table_mr",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:sleep",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"medieval:despawn": {"minecraft:instant_despawn": {}},
+			"medieval:has_rider": {"minecraft:environment_sensor": {"triggers": [{"filters": {"all_of": [{"test": "rider_count","subject": "self","operator": "==","value": 0}]},"event": "medieval:despawn_remove"}]},"minecraft:timer": {"looping": true,"time": 0,"time_down_event": {"event": "medieval:add_time"}}}
+		},
+		"components": {
+			"minecraft:rideable": {"seat_count": 1,"seats": [{"position": [0, 0, 0.1]}],"family_types": ["player"]},
+			"minecraft:collision_box": {"width": 0,"height": 0},
+			"minecraft:environment_sensor": {"triggers": [{"filters": {"all_of": [{"test": "rider_count","subject": "self","operator": "==","value": 0}]},"event": "medieval:despawn"},{"filters": {"all_of": [{"test": "rider_count","subject": "self","operator": "==","value": 1}]},"event": "medieval:has_rider"}]},
+			"minecraft:pushable": {"is_pushable": false,"is_pushable_by_piston": false},
+			"minecraft:physics": {"has_collision": false,"has_gravity": false},
+			"minecraft:damage_sensor": {"triggers": [{"cause": "all","deals_damage": false}]},
+			"minecraft:health": {"value": 1,"max": 1},
+			"minecraft:inside_block_notifier": {"block_list": [{"block": {"name": "minecraft:air"},"entered_block_event": {"event": "medieval:despawn","target": "self"}}]},
+			"minecraft:custom_hit_test": {"hitboxes": [{"width": 0.0,"height": 0.0,"pivot": [0,0,0]}]}
+		},
+		"events": {
+			"medieval:despawn": {"run_command": {"command": ["playanimation @p[tag=is_sleep,r=1.5] animation.player.crossbow_hold","tag @p[tag=is_sleep,r=0.5] remove is_sleep"]},"add": {"component_groups": ["medieval:despawn"]}},
+			"medieval:despawn_remove": {"run_command": {"command": ["playanimation @p[tag=is_sleep,r=1.5] animation.player.crossbow_hold","tag @p[tag=is_sleep,r=1.5] remove is_sleep"]},"add": {"component_groups": ["medieval:despawn"]}},
+			"medieval:has_rider": {"run_command": {"command": ["playanimation @p[tag=is_sleep,r=1] animation.m.player.sleep animation.m.player.sleep 1"]},"add": {"component_groups": ["medieval:has_rider"]}},
+			"medieval:add_time": {"sequence":[{"filters":{"all_of":[{"test":"hourly_clock_time","operator":">=","value":12000},{"test":"hourly_clock_time","operator":"<","value":24000},{"test":"in_nether","operator":"==","value":false},{"test":"has_biome_tag","operator":"!=","value":"the_end"}]},"run_command": {"command": ["time add 30"]}}]}
+		}
+	}
+}

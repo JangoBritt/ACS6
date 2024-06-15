@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:stripped_crimson_table"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"###",
+		" A "
+	],
+	"key": {
+	  "#": {
+	    "item": "minecraft:stripped_crimson_stem",
+	"data": 0
+	  },
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+      "item": "medieval:stripped_crimson_table",
+	  "count": 3
+    }
+  }
+}

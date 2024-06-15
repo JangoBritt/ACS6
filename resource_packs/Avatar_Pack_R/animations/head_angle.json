@@ -1,0 +1,101 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.athos_avatars.headAngle1": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle2": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this+15",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle3": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this+30",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle4": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this+45",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle5": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this-15",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle6": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this-30",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle7": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this-45",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        },
+        "animation.athos_avatars.headAngle8": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "rotation": [
+                        "-this-90",
+                        "-this",
+                        "-this"
+                    ]
+                }
+            }
+        }
+    }
+}

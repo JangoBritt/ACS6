@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_wooden_skull_post_oak"
+    },
+    "features": [
+      [ "nicothekid:structure_x_wooden_skull_post_oak_01", 1 ],
+      [ "nicothekid:structure_x_wooden_skull_post_oak_02", 1 ]
+    ]
+  }
+}

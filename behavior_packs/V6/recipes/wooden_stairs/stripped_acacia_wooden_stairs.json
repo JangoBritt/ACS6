@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_acacia_wooden_stairs"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A  ",
+			"BA ",
+			" BA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_acacia_log",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_acacia_wooden_stairs",
+			"count": 4
+		}
+	}
+}

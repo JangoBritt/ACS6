@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["AthosCraft"]
+	},
+	"header": {
+		"description": "Pack By §6AthosCraft§r | Lamps & Lanterns Pack | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
+		"name": "§aLamps Pack§r v1.1 [B]",
+		"uuid": "9d353284-b745-4ebc-a6fc-c90a89c0f952",
+		"version": [1, 1, 0],
+		"min_engine_version": [1, 20, 81]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "8cb8238a-ea20-43a0-b5fa-6c4cffbbb308",
+		"version": [1, 1, 0]
+	}],
+	"dependencies": [{
+		"uuid": "08c307b7-e699-4a1e-b318-ecddb7a081b8",
+		"version": [1, 1, 0]
+	}]
+}

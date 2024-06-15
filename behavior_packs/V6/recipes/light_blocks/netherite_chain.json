@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:netherite_chain_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:netherite_ingot",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:netherite_chain_0",
+			"count": 4
+		}
+	}
+}

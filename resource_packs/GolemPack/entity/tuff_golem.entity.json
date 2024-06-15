@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_golem:tuff_golem",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/tuff_golem/tuff_golem",
+				"sleep": "textures/entity/tuff_golem/tuff_golem_rest"
+			},
+			"geometry": {
+				"default": "geometry.tuff_golem"
+			},
+			"scripts": {
+				"scale": "1",
+				"pre_animation": [
+					"variable.holding_tool = query.is_item_name_any('slot.weapon.mainhand','minecraft:bone','minecraft:pointed_dripstone','minecraft:stick','minecraft:bamboo','minecraft:blaze_rod','minecraft:bow','minecraft:wooden_sword','minecraft:stone_sword','minecraft:iron_sword','minecraft:golden_sword','minecraft:diamond_sword','minecraft:netherite_sword','minecraft:wooden_axe','minecraft:stone_axe','minecraft:iron_axe','minecraft:golden_axe','minecraft:diamond_axe','minecraft:netherite_axe','minecraft:wooden_shovel','minecraft:stone_shovel','minecraft:iron_shovel','minecraft:golden_shovel','minecraft:diamond_shovel','minecraft:netherite_shovel','minecraft:wooden_pickaxe','minecraft:stone_pickaxe','minecraft:iron_pickaxe','minecraft:golden_pickaxe','minecraft:diamond_pickaxe','minecraft:netherite_pickaxe','minecraft:wooden_hoe','minecraft:stone_hoe','minecraft:iron_hoe','minecraft:golden_hoe','minecraft:diamond_hoe','minecraft:netherite_hoe');",
+					"variable.holding_crossbow = query.is_item_name_any('slot.weapon.mainhand', 'minecraft:crossbow');",
+					"variable.holding_shield = query.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield');",
+					"variable.holding_bow_position = query.is_item_name_any('slot.weapon.mainhand', 'minecraft:bow');",
+					"variable.holding_trident_position = query.is_item_name_any('slot.weapon.mainhand', 'minecraft:trident');"
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.tuff_golem.look_at_target.default",
+				"walk": "animation.tuff_golem.walk",
+				"walk_arms": "animation.tuff_golem.walk_arms",
+				"hold_item": "animation.tuff_golem.hold_item",
+				"non_hold": "animation.tuff_golem.no_hold_item",
+				"awake": "animation.tuff_golem.awake",
+				"sleep": "animation.tuff_golem.sleep"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.tuff_golem.move"
+				},
+				{
+					"holding": "controller.animation.tuff_golem.holding"
+				}
+			],
+			"render_controllers": [
+				"controller.render.tuff_golem_2022"
+			],
+			"enable_attachables": true,
+			"held_item_ignores_lighting": false,
+			"spawn_egg": {
+				"base_color": "#777874",
+				"overlay_color": "#62CEEF"
+			}
+		}
+	}
+}

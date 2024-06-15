@@ -1,0 +1,199 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "name": "loot_tables/loot_set/potions.json"
+        },
+        {
+          "type": "loot_table",
+          "weight": 20,
+          "name": "loot_tables/loot_set/music_dics.json"
+        },
+        {
+          "type": "loot_table",
+          "weight": 15,
+          "name": "loot_tables/loot_set/pottery_sherd.json"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "loot_tables/loot_set/enchanted_book.json"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/armor_trims.json"
+        }
+      ]
+    },
+    // Plants 
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/plants.json"
+        }
+      ]
+    },
+    // Crops
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/crops.json"
+        }
+      ]
+    },
+    // Foods 
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/foods.json"
+        }
+      ]
+    },
+    // Mobs Drops
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/mob_drops.json"
+        }
+      ]
+    },
+    // Materials
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/materials.json"
+        }
+      ]
+    },
+    // Minerals 
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/minerals.json"
+        }
+      ]
+    },
+    // Objects
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/objects.json"
+        }
+      ]
+    },
+    // Potion
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/potions.json"
+        }
+      ]
+    },
+    // Tools
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/tools.json"
+        }
+      ]
+    },
+    // Weapons
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/weapons.json"
+        }
+      ]
+    },
+    // Armors
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/armors.json"
+        }
+      ]
+    },
+    // Enchanted Books
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/enchanted_book.json"
+        }
+      ]
+    },
+    // Pottery Sherd
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/pottery_sherd.json"
+        }
+      ]
+    },
+    // Arrows
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/arrows.json"
+        }
+      ]
+    }
+  ]
+}

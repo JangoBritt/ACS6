@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:stripped_jungle_stool"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"ABA"
+	],
+	"key": {
+	  "B": {
+	    "item": "medieval:jungle_planks_bench"
+	  },
+		"A": {
+			"item": "medieval:stripped_jungle_post"
+		}
+    },
+	"unlock": [
+		{"item": "athos_misc:jungle_book"}
+	],
+    "result": {
+      "item": "medieval:stripped_jungle_stool",
+	  "count": 1
+    }
+  }
+}

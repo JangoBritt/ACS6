@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "medieval:weapon_stand_entity",
+      "materials": {
+        "default": "piglin"
+      },
+      "textures": {
+        "default": "textures/entity/empty"
+      },
+      "geometry": {
+        "default": "geometry.weapon_stand_entity"
+      },
+      "render_controllers": [ "controller.render.weapon_stand_entity" ],
+      "enable_attachables": true
+    }
+  }
+}

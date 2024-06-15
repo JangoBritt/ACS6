@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ruin_small_caves"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ruin_small_caves_01", 100 ],
+      [ "nicothekid:structure_x_ruin_small_caves_02", 100 ],
+      [ "nicothekid:structure_x_ruin_small_caves_03", 100 ],
+      [ "nicothekid:structure_x_ruin_small_caves_04", 100 ],
+      [ "nicothekid:structure_x_ruin_small_caves_05", 100 ],
+      [ "nicothekid:structure_x_ruin_small_caves_06", 100 ]
+    ]
+  }
+}

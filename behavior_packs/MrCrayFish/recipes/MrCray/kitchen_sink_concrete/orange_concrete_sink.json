@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:orange_concrete_sink_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#I#",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:orange_concrete"
+			},
+			"A": {
+				"item": "minecraft:white_concrete"
+			},
+			"C": {
+				"item": "minecraft:bucket"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:orange_concrete"},
+			{"item": "minecraft:white_concrete"},
+			{"item": "minecraft:bucket"},
+			{"item": "minecraft:iron_ingot"}
+		],
+		"result": {
+			"item": "mr:orange_concrete_sink_mr",
+			"count": 2
+		}
+	}
+}

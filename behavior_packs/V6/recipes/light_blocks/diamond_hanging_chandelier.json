@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:diamond_hanging_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" B ",
+			"BCB",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			},
+			"C": {
+				"item": "medieval:diamond_chandelier",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:diamond_hanging_chandelier",
+			"count": 1
+		}
+	}
+}

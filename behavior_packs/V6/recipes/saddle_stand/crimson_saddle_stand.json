@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:crimson_saddle_stand"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AAA",
+			"B B"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:stripped_crimson_stem"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "medieval:crimson_saddle_stand",
+			"count": 1
+		}
+	}
+}

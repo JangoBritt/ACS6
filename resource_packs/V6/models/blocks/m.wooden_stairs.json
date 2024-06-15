@@ -1,0 +1,172 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.wooden_stairs",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "left",
+					"parent": "bone",
+					"pivot": [-4.5, 8, 0],
+					"cubes": [
+						{
+							"origin": [2.1, 0.65685, 3.65685],
+							"size": [3.8, 13, 4],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"east": {"uv": [2, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"south": {"uv": [2, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"west": {"uv": [2, 3], "uv_size": [4, 13], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot",
+					"parent": "left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [2, 0, 2],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [10, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"east": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"south": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"west": {"uv": [10, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"up": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"down": {"uv": [6, 6], "uv_size": [-4, -4], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "left",
+					"pivot": [-4.5, 8, 0],
+					"cubes": [
+						{
+							"origin": [2.1, -8.34315, 3.65685],
+							"size": [3.8, 9, 4],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"east": {"uv": [2, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"south": {"uv": [2, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"west": {"uv": [2, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"down": {"uv": [6, 4], "uv_size": [-4, -4], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "right",
+					"parent": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5.9, 0.65685, 3.65685],
+							"size": [3.8, 13, 4],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [10, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"east": {"uv": [10, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"south": {"uv": [10, 3], "uv_size": [4, 13], "material_instance": "planks"},
+								"west": {"uv": [10, 3], "uv_size": [4, 13], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bot2",
+					"parent": "right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 0, 2],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"east": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"south": {"uv": [10, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"west": {"uv": [10, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"up": {"uv": [2, 12], "uv_size": [4, 4], "material_instance": "planks"},
+								"down": {"uv": [14, 6], "uv_size": [-4, -4], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "top2",
+					"parent": "right",
+					"pivot": [-4.5, 8, 0],
+					"cubes": [
+						{
+							"origin": [-5.9, -8.34315, 3.65685],
+							"size": [3.8, 9, 4],
+							"pivot": [0, 0, 0],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"east": {"uv": [10, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"south": {"uv": [10, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"west": {"uv": [10, 0], "uv_size": [4, 9], "material_instance": "planks"},
+								"down": {"uv": [14, 4], "uv_size": [-4, -4], "material_instance": "planks"}
+							}
+						}
+					]
+				},
+				{
+					"name": "root",
+					"parent": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [0, 4, -8],
+							"size": [8, 4, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [8, 8], "uv_size": [8, 4], "material_instance": "block"},
+								"east": {"uv": [0, 8], "uv_size": [16, 4], "material_instance": "block"},
+								"south": {"uv": [0, 8], "uv_size": [8, 4], "material_instance": "block"},
+								"west": {"uv": [0, 8], "uv_size": [16, 4], "material_instance": "block"},
+								"up": {"uv": [8, 16], "uv_size": [-8, -16], "material_instance": "block"},
+								"down": {"uv": [8, 16], "uv_size": [-8, -16], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [-8, 12, -8],
+							"size": [8, 4, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 4], "material_instance": "block"},
+								"east": {"uv": [0, 0], "uv_size": [16, 4], "material_instance": "block"},
+								"south": {"uv": [8, 0], "uv_size": [8, 4], "material_instance": "block"},
+								"west": {"uv": [0, 0], "uv_size": [16, 4], "material_instance": "block"},
+								"up": {"uv": [16, 16], "uv_size": [-8, -16], "material_instance": "block"},
+								"down": {"uv": [16, 16], "uv_size": [-8, -16], "material_instance": "block"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

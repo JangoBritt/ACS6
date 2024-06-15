@@ -1,0 +1,20 @@
+{
+	"resource_pack_name": "currency_pack",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"coin_crate_down": {
+			"textures": "textures/currency/coin_crate_down"
+		},
+		"coin_crate_side": {
+			"textures": "textures/currency/coin_crate_side"
+		},
+		"coin_crate_up": {
+			"textures": "textures/currency/coin_crate_up"
+		},
+		"coin_stack": {
+			"textures": "textures/currency/coin_stack"
+		}
+	}
+}

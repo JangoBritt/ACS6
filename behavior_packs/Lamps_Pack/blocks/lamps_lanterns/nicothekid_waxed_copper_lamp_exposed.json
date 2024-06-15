@@ -1,0 +1,94 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:waxed_copper_lamp_exposed",
+      "menu_category": {
+				"category": "items",
+				"group": "items"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Waxed Exposed Copper Lamp",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_waxed_copper_lamp_exposed",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_unit_cube"
+      },
+      "minecraft:map_color": "#ff8201",
+      "minecraft:breathability": "solid",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 13,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 50.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_waxed_copper_lamp_exposed.json",
+      "minecraft:on_interact": {
+        "condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+        "event": "nicothekid:copper_lamp_interaction",
+        "target": "self"
+      },
+      "tag:waxed_copper_lamp_exposed": {},
+      "tag:copper_lamp": {},
+      "tag:custom_lamp": {},
+      "tag:stone": {},
+      "tag:metal": {}
+    },
+    "events": {
+      "nicothekid:copper_lamp_interaction": {
+				"sequence": [
+					{
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+						"trigger": {
+							"event": "nicothekid:copper_lamp_waxing_off",
+							"target": "self"
+						}
+					}
+				]
+			},
+      "nicothekid:copper_lamp_waxing_off": {
+        "sequence": [
+          {
+						"run_command": {
+							"command": [
+								"playsound copper.wax.off @a[r=8] ~ ~ ~ 1 1.0 1.0",
+								"particle nicothekid:copper_lantern_wax_off_particle ~ ~ ~"
+							]
+						}
+					},
+          {
+            "damage": {
+              "type": "durability",
+              "target": "item",
+              "amount": 1
+            }
+          },
+          {
+            "set_block": {
+              "block_type": "nicothekid:copper_lamp_exposed"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

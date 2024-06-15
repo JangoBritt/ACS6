@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stripped_spruce_fence0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A#A",
+			"A#A"
+		],
+		"key": {
+			"#": {
+				"item": "medieval:stripped_spruce_beam_double"
+			},
+			"A": {
+				"item": "medieval:stripped_spruce_post",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stripped_spruce_fence0",
+			"count": 2
+		}
+	}
+}

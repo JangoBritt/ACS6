@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["AthosCraft"]
+	},
+	"header": {
+		"description": "Pack By §6AthosCraft§r | Connected Glass | Visit §9www.athoscraft.com§r",
+		"name": "§aGlass Pack§r v1.0",
+		"uuid": "43120e01-773d-4667-a1cd-fb5d6fb84543",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 17, 40]
+	},
+	"modules": [{
+		"type": "resources",
+		"uuid": "0a24662f-ce8c-4993-b712-69659f4f492e",
+		"version": [1, 0, 0]
+	}]
+}

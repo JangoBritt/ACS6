@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.shovel_right": {
+      "arrays": {
+        "textures": {
+          "Array.shovel_right": [
+          	"Texture.no_texture",
+            "Texture.weapon_shovel_wood",
+            "Texture.weapon_shovel_stone",
+            "Texture.weapon_shovel_iron",
+            "Texture.weapon_shovel_gold",
+            "Texture.weapon_shovel_diamond",
+            "Texture.weapon_shovel_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.shovel_right",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.shovel_right[query.skin_id-24]"
+      ]
+    }
+  }
+}

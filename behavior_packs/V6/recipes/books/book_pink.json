@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:book_pink"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"AB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:book"
+			},
+			"B": {
+				"item": "minecraft:pink_dye"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:book_pink",
+			"count": 1
+		}
+	}
+}

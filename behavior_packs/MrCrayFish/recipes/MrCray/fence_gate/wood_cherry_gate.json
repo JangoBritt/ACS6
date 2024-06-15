@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_cherry_gate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_log"
+			},
+			"A": {
+				"item": "minecraft:cherry_fence_gate"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:cherry_log"},
+			{"item": "minecraft:cherry_fence_gate"}
+		],
+		"result": {
+			"item": "mr:wood_cherry_gate_mr",
+			"count": 2
+		}
+	}
+}

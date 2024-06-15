@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:gold_hanging_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" B ",
+			"BCB",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			},
+			"C": {
+				"item": "medieval:gold_chandelier",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:gold_hanging_chandelier",
+			"count": 1
+		}
+	}
+}

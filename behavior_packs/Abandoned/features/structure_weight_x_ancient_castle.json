@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_ancient_castle"
+    },
+    "features": [
+      [ "nicothekid:structure_x_ancient_castle_01", 100 ]
+    ]
+  }
+}

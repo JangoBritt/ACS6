@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "medieval:crimson_gray_chair"
+    },
+	"tags": [ "workbench" ],
+	"pattern": [
+		"#B ",
+		"###",
+		"A A"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:stripped_crimson_stem",
+			"data": 0
+		},
+		"A": {
+			"item": "minecraft:stick",
+			"data": 0
+		},
+		"B": {
+			"item": "minecraft:carpet",
+			"data": 7
+		}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+      "item": "medieval:crimson_gray_chair",
+	  "count": 3
+    }
+  }
+}

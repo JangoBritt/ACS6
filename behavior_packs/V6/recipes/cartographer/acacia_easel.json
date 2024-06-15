@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:acacia_easel"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"###",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			},
+			"S": {
+				"item": "medieval:stripped_acacia_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
+		"result": {
+			"item": "medieval:acacia_easel",
+			"count": 1
+		}
+	}
+}

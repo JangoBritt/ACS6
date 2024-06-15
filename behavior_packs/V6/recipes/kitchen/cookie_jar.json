@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:cookie_jar_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#",
+			"G"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks"
+			},
+			"G": {
+				"item": "minecraft:glass"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:cookie_jar_0",
+			"count": 1
+		}
+	}
+}

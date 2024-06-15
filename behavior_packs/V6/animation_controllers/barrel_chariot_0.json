@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.barrel_chariot_0": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"add_barrel": "q.is_item_name_any('slot.inventory',1,'minecraft:barrel')"
+						},
+						{
+							"remove_barrel": "!q.is_item_name_any('slot.inventory',1,'minecraft:barrel')"
+						}
+					]
+				},
+				"add_barrel": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:add_barrel"
+					]
+				},
+				"remove_barrel": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/event entity @e[r=0.1] medieval:remove_barrel"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "athos_golem:rascal",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/rascal"
+			},
+			"geometry": {
+				"default": "geometry.rascal"
+			},
+			"animations": {
+				"setup": "animation.rascal.setup",
+				"spotted": "animation.rascal.spotted",
+				"give": "animation.rascal.give",
+				"walk": "animation.rascal.walk",
+				"look_at_target": "animation.rascal.look_at_target.default",
+				"move": "controller.animation.rascal.move"
+			},
+			"scripts": {
+				"scale": "1.1",
+				"animate": [
+					"setup",
+					"look_at_target",
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.rascal_2022"
+			],
+			"spawn_egg": {
+				"base_color": "#556862",
+				"overlay_color": "#9BD7DB"
+			}
+		}
+	}
+}

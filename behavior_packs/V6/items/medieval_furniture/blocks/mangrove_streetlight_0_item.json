@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:mangrove_streetlight_0_item",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.mangrove"
+			},
+			"minecraft:display_name": {
+				"value": "item.medieval:mangrove_streetlight_0_item"
+			},
+			"minecraft:icon": {
+				"texture": "m.mangrove_streetlight_0_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:mangrove_streetlight_0",
+				"use_block_description": true
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:emerald_chain_0"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:emerald_chain_0",
+			"count": 4
+		}
+	}
+}

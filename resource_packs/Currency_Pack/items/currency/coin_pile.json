@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_currency:coin_pile",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "coin_pile",
+			"minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

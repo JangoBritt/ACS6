@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:axolotl_lucy_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_axolotl_lucy_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:axolotl_lucy"
+			}
+		}
+	}
+}

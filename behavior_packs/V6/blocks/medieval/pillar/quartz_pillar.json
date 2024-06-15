@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "endx:smooth_quartz_pillar",
+			"properties": {"endx:state": [0,1,2,3]}
+		},
+		"permutations": [
+			{"condition": "query.block_property('endx:state') == 0","components": {"minecraft:geometry": "geometry.pillar_0"}},
+			{"condition": "query.block_property('endx:state') == 1","components": {"minecraft:geometry": "geometry.pillar_1"}},
+			{"condition": "query.block_property('endx:state') == 2","components": {"minecraft:geometry": "geometry.pillar_2"}},
+			{"condition": "query.block_property('endx:state') == 3","components": {"minecraft:geometry": "geometry.pillar_3"}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.pillar_0",
+			"minecraft:material_instances": {"*": {"texture": "smoth_quartz_block","render_method": "opaque"}},
+			"minecraft:ticking": {"on_tick":{"event": "update"},"range": [0,0],"looping": true},
+			"minecraft:creative_category": {"category": "construction","group": "itemGroup.name.pillar"},
+			"tag:pillar": {},
+			"minecraft:entity_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,16]},
+			"minecraft:pick_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,16]},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 6.0,
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#F9F2EC"
+		},
+		"events": {
+			"update": {
+				"sequence": [
+					{"condition": "!q.block_neighbor_has_any_tag(0,1,0,'pillar') && !q.block_neighbor_has_any_tag(0,-1,0,'pillar')","set_block_property": {"endx:state": 0}},
+					{"condition": "q.block_neighbor_has_any_tag(0,1,0,'pillar') && !q.block_neighbor_has_any_tag(0,-1,0,'pillar')","set_block_property": {"endx:state": 1}},
+					{"condition": "q.block_neighbor_has_any_tag(0,-1,0,'pillar') && !q.block_neighbor_has_any_tag(0,1,0,'pillar')","set_block_property": {"endx:state": 2}},
+					{"condition": "q.block_neighbor_has_any_tag(0,1,0,'pillar') && q.block_neighbor_has_any_tag(0,-1,0,'pillar')","set_block_property": {"endx:state": 3}}
+				]
+			}
+		}
+	}
+}

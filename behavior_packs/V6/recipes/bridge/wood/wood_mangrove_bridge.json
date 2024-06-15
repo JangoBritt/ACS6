@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_mangrove_bridge"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"AAA",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:mangrove_planks",
+				"data": 0
+			},
+			"A": {
+				"item": "medieval:mangrove_wood_post"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:wood_mangrove_bridge",
+			"count": 2
+		}
+	}
+}

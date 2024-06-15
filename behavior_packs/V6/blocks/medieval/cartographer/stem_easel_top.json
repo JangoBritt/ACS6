@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stem_easel_top"
+		},
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:m.stem_easel_top": {},
+			"minecraft:loot": "empty",
+			"minecraft:geometry": "geometry.m.no_stairs",
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('m.stem_easel')"}]}]},
+			"minecraft:material_instances": {"*": {"texture": "m.empty","render_method": "alpha_test"}},
+			"minecraft:collision_box": {"origin": [-7,0.0,-7],"size": [14,14,14]},
+			"minecraft:selection_box": {"origin": [-7,0.0,-7],"size": [14,14,14]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#24abab"
+		}
+	}
+}

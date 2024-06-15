@@ -1,0 +1,227 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "medieval:weapon_stand_entity",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+			"medieval:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"medieval:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "medieval:entity_despawned"
+				}
+			}
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:equip_item": {
+      },
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 0.2
+      },
+      "minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+      "minecraft:navigation.walk": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{"block": {"name": "minecraft:air"},"entered_block_event": {"event": "medieval:despawn","target": "self"}}
+				]
+			},
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:behavior.equip_item": {
+        "priority": 5
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 6,
+        "max_dist": 0.0,
+        "goal_radius": 2,
+        "speed_multiplier": 0,
+        "pickup_based_on_chance": false,
+        "can_pickup_any_item": false
+      },
+      "minecraft:shareables": {
+        "items": [
+          {
+            "item": "minecraft:golden_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:golden_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:golden_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:golden_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:golden_shovel",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:netherite_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:netherite_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:netherite_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:netherite_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:netherite_shovel",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:diamond_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:diamond_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:diamond_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:diamond_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:diamond_shovel",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_shovel",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:stone_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:stone_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:stone_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:stone_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:stone_shovel",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:wooden_sword",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:wooden_axe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:wooden_hoe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:wooden_pickaxe",
+            "priority": 1
+          },
+          {
+            "item": "minecraft:wooden_shovel",
+            "priority": 1
+          },
+          {
+            "item": "medieval:handsaw",
+            "priority": 1
+          }
+        ]
+      }
+    },
+    "events": {
+			"medieval:despawn": {
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
+				}
+			},
+			"medieval:no_particle": {
+				"add": {
+					"component_groups": [
+						"medieval:no_particle"
+					]
+				}
+			},
+			"medieval:remove_tools": {
+				"run_command": {
+					"command": [
+						"summon medieval:weapon_stand_entity ~ ~ ~",
+						"kill @s"
+					]
+				}
+			}
+    }
+  }
+}

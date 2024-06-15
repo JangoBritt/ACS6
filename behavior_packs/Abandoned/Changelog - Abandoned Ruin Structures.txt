@@ -1,0 +1,70 @@
+Abandoned & Ruin Structures
+
+[Version: 1.10]
+          "New Additional & Changes"
+GENERAL:
+- Updated for compatibility with Minecraft version 1.20.51.
+- Fixed the resource pack importing on PCs.
+
+STRUCTURES:
+- Added Wooden Crimson Banner Post
+- Added Wooden Warped Banner Post
+- Added Wooden Crimson Lantern Post
+- Added Wooden Warped Lantern Post
+- Added Wooden Crimson Campfire
+- Added Wooden Warped Campfire
+- Added Wooden Crimson Watchtower
+- Added Wooden Warped Watchtower
+- Added Wooden Crimson Hut
+- Added Wooden Warped Hut
+- Added Small Piglin's Ruin (8 variants)
+- Added Piglin's Camp
+- Added Giant Fossil (3 variants)
+- Added Piglin's House (3 variants)
+- Added Wither Skeleton Crypt
+- Added Piglin's Tower
+- Added Wither Shrine
+- Added Piglin's Fort
+- Added 5 new variant of Large Fossil.
+- Large Fossils can now also generate in Nether biome.
+- All the Small Wooden Structures - generation rate is decreased.
+
+
+
+[Version: 1.9]
+          "New Additional & Changes"
+GENERAL:
+- Updated for compatibility with Minecraft version 1.20.50.
+
+STRUCTURES:
+- Abandoned Lumberjack House now have a unique and randomized loot set.
+- Abandoned Tower now have a unique and randomized loot set.
+- Abandoned Dungeon Tower now have a unique and randomized loot set.
+- Ancient Castle now have a unique and randomized loot set.
+- Ancient Fort now have a unique and randomized loot set.
+- Ancient Tomb now have a unique and randomized loot set.
+- Ancient Vex Fort now have a unique and randomized loot set.
+- Cave Dweller House now have a unique and randomized loot set.
+- Cave Library now have a unique and randomized loot set.
+- Creeper Head Statue now have a unique and randomized loot set.
+- Copper Vault now have a unique and randomized loot set.
+- Giant Mound now have a unique and randomized loot set.
+- Grand Ice Tower now have a unique and randomized loot set.
+- Grave now have a unique and randomized loot set.
+- Hobbit House now have a unique and randomized loot set.
+- Ice Tower now have a unique and randomized loot set.
+- Illager Camp now have a unique and randomized loot set.
+- Illager Fort now have a unique and randomized loot set.
+- Illager Garrison now have a unique and randomized loot set.
+- Illager Tower now have a unique and randomized loot set.
+- Jungle Pyramid now have a unique and randomized loot set.
+- Lost Ship now have a unique and randomized loot set.
+- Ruin Desert House now have a unique and randomized loot set.
+- Ruin Forest House now have a unique and randomized loot set.
+- Small Desert Ruins now have a unique and randomized loot set.
+- Tomb now have a unique and randomized loot set.
+- Witch Hut Tower now have a unique and randomized loot set.
+- Zombie Crypt now have a unique and randomized loot set.
+- Fixed the bug on structures for not spawning the mob inside.
+
+

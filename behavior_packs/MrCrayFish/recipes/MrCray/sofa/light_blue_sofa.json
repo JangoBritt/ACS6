@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:light_blue_sofa_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#  ",
+			"###",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:light_blue_wool"
+			},
+			"A": {
+				"item": "minecraft:stripped_spruce_log"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:light_blue_wool"},
+			{"item": "minecraft:stripped_spruce_log"}
+		],
+		"result": {
+			"item": "mr:light_blue_sofa_mr",
+			"count": 2
+		}
+	}
+}

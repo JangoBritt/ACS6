@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.athos_avatars.avatars": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.skin1",
+						"Texture.skin2",
+						"Texture.skin3"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"part_visibility": [
+				{
+					"*": true
+				},
+				{
+					"leftArmAlex": "variable.style == 1"
+				},
+				{
+					"leftArmSteve": "variable.style == 0"
+				},
+				{
+					"rightArmAlex": "variable.style == 1"
+				},
+				{
+					"rightArmSteve": "variable.style == 0"
+				},
+				{
+					"leftSleeve2": "variable.style == 1"
+				},
+				{
+					"leftSleeve": "variable.style == 0"
+				},
+				{
+					"rightSleeve2": "variable.style == 1"
+				},
+				{
+					"rightSleeve": "variable.style == 0"
+				}
+			],
+			"textures": [
+				"Array.skins[variable.skin]"
+			]
+		}
+	}
+}

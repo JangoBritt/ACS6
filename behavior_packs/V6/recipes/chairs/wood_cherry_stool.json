@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:wood_cherry_stool"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"ABA"
+		],
+		"key": {
+			"B": {
+				"item": "medieval:cherry_planks_bench"
+			},
+			"A": {
+				"item": "medieval:cherry_wood_post"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:cherry_book"}
+		],
+		"result": {
+			"item": "medieval:wood_cherry_stool",
+			"count": 1
+		}
+	}
+}

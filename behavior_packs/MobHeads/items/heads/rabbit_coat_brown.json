@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:rabbit_coat_brown_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_rabbit_coat_brown_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:rabbit_coat_brown"
+			}
+		}
+	}
+}

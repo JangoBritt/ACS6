@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hoe_center": {
+      "arrays": {
+        "textures": {
+          "Array.hoe": [
+          	"Texture.no_texture",
+            "Texture.weapon_hoe_wood",
+            "Texture.weapon_hoe_stone",
+            "Texture.weapon_hoe_iron",
+            "Texture.weapon_hoe_gold",
+            "Texture.weapon_hoe_diamond",
+            "Texture.weapon_hoe_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.hoe_center",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.hoe[query.mark_variant-18]"
+      ]
+    }
+  }
+}

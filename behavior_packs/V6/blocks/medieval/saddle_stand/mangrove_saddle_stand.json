@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:mangrove_saddle_stand",
+			"properties": {
+				"medieval:facing_direction": [0,1,2,3,4,5],
+				"medieval:status": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "query.block_property('medieval:facing_direction') == 2","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 3","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 4","components": {"minecraft:rotation": [0,90,0]}},
+			{"condition": "query.block_property('medieval:facing_direction') == 5","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "query.block_property('medieval:status') == 1","components": {"minecraft:geometry": "geometry.saddle_stand2","minecraft:loot": "loot_tables/saddle_stand/mangrove_saddle_stand.json","minecraft:on_interact": {"event": "remove","target": "self"}}}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.saddle_stand",
+			"tag:medieval_furniture": {},
+			"minecraft:material_instances": {"wsaddle": {"texture": "saddle_horse","render_method": "opaque"},"*": {"texture": "stripped_mangrove_log_side","render_method": "opaque"}},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:on_interact": {"condition": "query.get_equipped_item_name == 'saddle'","event": "add","target": "self"},
+			"minecraft:entity_collision": {"origin": [-4.5,0.0,-8.0],"size": [9,15,16]},
+			"minecraft:pick_collision": {"origin": [-4.5,0.0,-8.0],"size": [9,15,16]},
+			"minecraft:creative_category": {"category": "items","group": "itemGroup.name.mangrove"},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:map_color": "#f0b030"
+		},
+		"events": {
+			"set_facing_direction": {"set_block_property": {"medieval:facing_direction": "query.cardinal_facing_2d"}},
+			"add": {"run_command": {"command": "playsound block.itemframe.add_item @a ~ ~ ~"},"decrement_stack": {},"set_block_property": {"medieval:status": 1}},
+			"remove": {"run_command": {"command": "playsound block.itemframe.remove_item @a ~ ~ ~"},"spawn_loot": {"table": "loot_tables/drops/saddle.json"},"set_block_property": {"medieval:status": 0}}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "medieval:cherry_wood_beam_right_inclined"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:cherry_log",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "medieval:cherry_wood_beam_right_inclined",
+      "count": 12
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pools": [
+    // Ore Block 
+    {
+      "rolls": 26,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/ore_blocks.json"
+        }
+      ]
+    }
+  ]
+}

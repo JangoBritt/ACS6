@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:beer_mug_empty_item"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:spruce_planks"
+			},
+			"A": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:beer_mug_empty_item",
+			"count": 3
+		}
+	}
+}

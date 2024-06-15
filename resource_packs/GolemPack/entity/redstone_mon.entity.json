@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "athos_golem:redstone_mon",
+      "materials": {
+        "default": "pillager"
+      },
+      "textures": {
+        "default": "textures/entity/redstone_mon"
+      },
+      "geometry": {
+        "default": "geometry.redstone_mon"
+      },
+      "spawn_egg": {
+        "base_color": "#ff8c929e",
+        "overlay_color": "#ffff0000"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+          "general",
+          "attack"
+        ]
+      },
+      "animations": {
+        "walking": "animation.redstone_mon.walk",
+        "redstone_mon.general": "animation.redstone_mon.general",
+        "attacking": "animation.redstone_mon.attack",
+        "general": "controller.animation.redstone_mon.general",
+        "attack": "controller.animation.redstone_mon.attack",
+        "move": "controller.animation.redstone_mon.walk"
+      },
+      "render_controllers": [
+        "controller.render.redstone_mon"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

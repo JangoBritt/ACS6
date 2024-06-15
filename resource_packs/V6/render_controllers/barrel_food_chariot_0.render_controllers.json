@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.barrel_food_chariot_0": {
+			"arrays": {
+				"textures": {
+					"Array.food_texture": [
+						"Texture.barrel_apple",
+						"Texture.barrel_golden_apple",
+						"Texture.barrel_bamboo",
+						"Texture.barrel_beetroot",
+						"Texture.barrel_cod",
+						"Texture.barrel_salmon",
+						"Texture.barrel_potato",
+						"Texture.barrel_carrot"
+					]
+				},
+				"geometries": {
+					"Array.food_model": [
+						"Geometry.barrel_apple",
+						"Geometry.barrel_apple",
+						"Geometry.barrel_bamboo",
+						"Geometry.barrel_beetroot",
+						"Geometry.barrel_cod",
+						"Geometry.barrel_salmon",
+						"Geometry.barrel_potato",
+						"Geometry.barrel_carrot"
+					]
+				}
+			},
+			"geometry": "Array.food_model[query.skin_id-5]",
+			"materials": [
+				{"*": "Material.texture_alpha"}
+			],
+			"textures": ["Array.food_texture[query.skin_id-5]"]
+		}
+	}
+}

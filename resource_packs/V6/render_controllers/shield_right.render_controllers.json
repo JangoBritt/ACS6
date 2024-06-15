@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.shield_right": {
+      "geometry": "Geometry.shield_right",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Texture.weapon_shield"
+      ]
+    }
+  }
+}

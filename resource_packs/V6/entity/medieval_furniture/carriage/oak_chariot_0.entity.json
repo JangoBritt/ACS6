@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:oak_chariot_0",
+			"enable_attachables": true,
+			"hide_armor": false,
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/medieval_blocks/carriages/chariot_0"
+			},
+			"geometry": {
+				"default": "geometry.m.normal_chariot_0"
+			},
+			"animations": {
+				"walk_chariot": "animation.m.chariot_0.walk"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk_chariot": "query.ground_speed"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 23
+			}
+		}
+	}
+}

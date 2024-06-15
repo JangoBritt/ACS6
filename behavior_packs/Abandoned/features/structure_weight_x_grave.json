@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_grave"
+    },
+    "features": [
+      [ "nicothekid:structure_x_grave_01", 100 ],
+      [ "nicothekid:structure_x_grave_02", 100 ],
+      [ "nicothekid:structure_x_grave_03", 100 ],
+      [ "nicothekid:structure_x_grave_04", 100 ],
+      [ "nicothekid:structure_x_grave_05", 100 ],
+      [ "nicothekid:structure_x_grave_06", 100 ],
+      [ "nicothekid:structure_x_grave_07", 100 ],
+      [ "nicothekid:structure_x_grave_08", 100 ],
+      [ "nicothekid:structure_x_grave_09", 100 ]
+    ]
+  }
+}

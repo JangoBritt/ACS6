@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "nicothekid:structure_weight_x_lost_ship"
+    },
+    "features": [
+      [ "nicothekid:structure_x_lost_ship_01_a", 50 ],
+      [ "nicothekid:structure_x_lost_ship_02_a", 20 ]
+    ]
+  }
+}

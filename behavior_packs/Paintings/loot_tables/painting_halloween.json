@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "athos_painting:painting_halloween",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:bed_0_controller",
+			"states": {
+				"medieval:facing_direction": [1,2,3,4],
+				"medieval:top": [false,true],
+				"medieval:texture": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+				"medieval:side": [0,1,2,3]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:facing_direction') == 1","components": {"minecraft:transformation": {"rotation": [0,0,0]},"tag:bed0_north": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["south"],"block_filter": [{"tags": "q.any_tag('bed_0_top')"}]}]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 2","components": {"minecraft:transformation": {"rotation": [0,180,0]},"tag:bed0_south": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["north"],"block_filter": [{"tags": "q.any_tag('bed_0_top')"}]}]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 3","components": {"minecraft:transformation": {"rotation": [0,90,0]},"tag:bed0_east": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["east"],"block_filter": [{"tags": "q.any_tag('bed_0_top')"}]}]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 4","components": {"minecraft:transformation": {"rotation": [0,-90,0]},"tag:bed0_west": {},"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["west"],"block_filter": [{"tags": "q.any_tag('bed_0_top')"}]}]}}},
+			{"condition": "q.block_state('medieval:texture') == 0","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "black_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 1","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "blue_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 2","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "brown_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 3","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "cyan_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 4","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "gray_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 5","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "green_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 6","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "light_blue_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 7","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "light_gray_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 8","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "lime_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 9","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "magenta_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 10","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "orange_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 11","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "pink_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 12","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "purple_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 13","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "red_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 14","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "white_bed","render_method": "opaque"}}}},
+			{"condition": "q.block_state('medieval:texture') == 15","components": {"minecraft:material_instances": {"planks": {"texture": "oak_planks","render_method": "opaque"},"*": {"texture": "stripped_oak","render_method": "opaque"},"bed": {"texture": "yellow_bed","render_method": "opaque"}}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.bed_0_bot",
+				"bone_visibility": {
+					"bed_left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+					"bed_right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+					"center": "q.block_state('medieval:side') == 0",
+					"left": "q.block_state('medieval:side') == 1",
+					"right": "q.block_state('medieval:side') == 2",
+					"middle": "q.block_state('medieval:side') == 3",
+					"top_left": "q.block_state('medieval:top') == true && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
+					"top_right": "q.block_state('medieval:top') == true && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)"
+				}
+			},
+			"minecraft:loot": "empty",
+			"minecraft:on_placed":{"event": "rotation"},
+			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
+			"minecraft:collision_box": {"origin": [-8.0,0.0,-8.0],"size": [16,8,16]},
+			"minecraft:selection_box": {"origin": [-8.0,0.0,-8.0],"size": [16,8,16]},
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#ED8116"
+		},
+		"events": {
+			"rotation": {
+				"sequence": [
+					{"condition": "q.block_neighbor_has_any_tag(0,0,-1,'bed_0_north')","set_block_state": {"medieval:facing_direction": 1}},
+					{"condition": "q.block_neighbor_has_any_tag(0,0,1,'bed_0_south')","set_block_state": {"medieval:facing_direction": 2}},
+					{"condition": "q.block_neighbor_has_any_tag(-1,0,0,'bed_0_east')","set_block_state": {"medieval:facing_direction": 3}},
+					{"condition": "q.block_neighbor_has_any_tag(1,0,0,'bed_0_west')","set_block_state": {"medieval:facing_direction": 4}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','black_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','black_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','black_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','black_bed_0')","set_block_state": {"medieval:texture": 0}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','blue_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','blue_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','blue_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','blue_bed_0')","set_block_state": {"medieval:texture": 1}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','brown_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','brown_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','brown_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','brown_bed_0')","set_block_state": {"medieval:texture": 2}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','cyan_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','cyan_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','cyan_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','cyan_bed_0')","set_block_state": {"medieval:texture": 3}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','gray_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','gray_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','gray_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','gray_bed_0')","set_block_state": {"medieval:texture": 4}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','green_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','green_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','green_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','green_bed_0')","set_block_state": {"medieval:texture": 5}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','light_blue_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','light_blue_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','light_blue_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','light_blue_bed_0')","set_block_state": {"medieval:texture": 6}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','light_gray_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','light_gray_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','light_gray_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','light_gray_bed_0')","set_block_state": {"medieval:texture": 7}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','lime_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','lime_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','lime_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','lime_bed_0')","set_block_state": {"medieval:texture": 8}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','magenta_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','magenta_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','magenta_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','magenta_bed_0')","set_block_state": {"medieval:texture": 9}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','orange_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','orange_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','orange_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','orange_bed_0')","set_block_state": {"medieval:texture": 10}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','pink_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','pink_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','pink_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','pink_bed_0')","set_block_state": {"medieval:texture": 11}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','purple_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','purple_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','purple_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','purple_bed_0')","set_block_state": {"medieval:texture": 12}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','red_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','red_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','red_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','red_bed_0')","set_block_state": {"medieval:texture": 13}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','white_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','white_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','white_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','white_bed_0')","set_block_state": {"medieval:texture": 14}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','yellow_bed_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','yellow_bed_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','yellow_bed_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','yellow_bed_0')","set_block_state": {"medieval:texture": 15}}
+				]
+			},
+			"update": {
+				"sequence": [
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','bed_state_0') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','bed_state_0') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','bed_state_0') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','bed_state_0')","set_block_state": {"medieval:side": 0}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','bed_state_1') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','bed_state_1') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','bed_state_1') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','bed_state_1')","set_block_state": {"medieval:side": 1}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','bed_state_2') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','bed_state_2') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','bed_state_2') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','bed_state_2')","set_block_state": {"medieval:side": 2}},
+					{"condition": "q.block_neighbor_has_all_tags(0,0,-1,'bed_0_north','bed_state_3') || q.block_neighbor_has_all_tags(0,0,1,'bed_0_south','bed_state_3') || q.block_neighbor_has_all_tags(-1,0,0,'bed_0_east','bed_state_3') || q.block_neighbor_has_all_tags(1,0,0,'bed_0_west','bed_state_3')","set_block_state": {"medieval:side": 3}},
+					{"condition": "q.block_neighbor_has_all_tags(0,1,0,'bed0_north') && q.block_state('medieval:facing_direction') == 1","set_block_state": {"medieval:top": true}},
+					{"condition": "q.block_neighbor_has_all_tags(0,1,0,'bed0_south') && q.block_state('medieval:facing_direction') == 2","set_block_state": {"medieval:top": true}},
+					{"condition": "q.block_neighbor_has_all_tags(0,1,0,'bed0_east') && q.block_state('medieval:facing_direction') == 3","set_block_state": {"medieval:top": true}},
+					{"condition": "q.block_neighbor_has_all_tags(0,1,0,'bed0_west') && q.block_state('medieval:facing_direction') == 4","set_block_state": {"medieval:top": true}},
+					{"condition": "!q.block_neighbor_has_all_tags(0,1,0,'bed0_north') && q.block_state('medieval:facing_direction') == 1","set_block_state": {"medieval:top": false}},
+					{"condition": "!q.block_neighbor_has_all_tags(0,1,0,'bed0_south') && q.block_state('medieval:facing_direction') == 2","set_block_state": {"medieval:top": false}},
+					{"condition": "!q.block_neighbor_has_all_tags(0,1,0,'bed0_east') && q.block_state('medieval:facing_direction') == 3","set_block_state": {"medieval:top": false}},
+					{"condition": "!q.block_neighbor_has_all_tags(0,1,0,'bed0_west') && q.block_state('medieval:facing_direction') == 4","set_block_state": {"medieval:top": false}}
+				]
+			}
+		}
+	}
+}

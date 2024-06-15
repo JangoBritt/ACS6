@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "fmh:horse_base_brown_mask",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/heads/horse_base_brown",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.fmh_head_helmet"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

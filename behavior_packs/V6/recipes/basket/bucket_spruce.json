@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:spruce_bucket"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"A A",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stripped_spruce_log",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "medieval:spruce_bucket",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_oak_crate_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#A#",
+			"A A",
+			"#A#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_oak_log"
+			},
+			"A": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:oak_book"}
+		],
+		"result": {
+			"item": "mr:stripped_oak_crate_mr",
+			"count": 2
+		}
+	}
+}

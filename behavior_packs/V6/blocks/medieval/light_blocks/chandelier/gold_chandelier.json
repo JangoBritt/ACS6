@@ -1,0 +1,82 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:gold_chandelier",
+			"properties": {
+				"medieval:facing_wall": [1,2,3,4,5],
+				"medieval:facing_direction": [0,1,2,3],
+				"medieval:texture": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_property('medieval:facing_wall') == 2","components": {"minecraft:geometry": "geometry.m.chandelier_wall","minecraft:entity_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:pick_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:rotation": [0,180,0]}},
+			{"condition": "q.block_property('medieval:facing_wall') == 3","components": {"minecraft:geometry": "geometry.m.chandelier_wall","minecraft:entity_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:pick_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:rotation": [0,0,0]}},
+			{"condition": "q.block_property('medieval:facing_wall') == 4","components": {"minecraft:geometry": "geometry.m.chandelier_wall","minecraft:entity_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:pick_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:rotation": [0,-90,0]}},
+			{"condition": "q.block_property('medieval:facing_wall') == 5","components": {"minecraft:geometry": "geometry.m.chandelier_wall","minecraft:entity_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:pick_collision": {"origin": [-8.0,0.0,-8.0],"size": [16,16,7]},"minecraft:rotation": [0,90,0]}},
+			{"condition": "q.block_property('medieval:facing_direction') == 0 && q.block_property('medieval:facing_wall') == 1","components": {"minecraft:rotation": [0,0,0]}},
+			{"condition": "q.block_property('medieval:facing_direction') == 1 && q.block_property('medieval:facing_wall') == 1","components": {"minecraft:rotation": [0,180,0]}},
+			{"condition": "q.block_property('medieval:facing_direction') == 2 && q.block_property('medieval:facing_wall') == 1","components": {"minecraft:rotation": [0,90,0]}},
+			{"condition": "q.block_property('medieval:facing_direction') == 3 && q.block_property('medieval:facing_wall') == 1","components": {"minecraft:rotation": [0,-90,0]}},
+			{"condition": "q.block_property('medieval:texture') == 0","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_normal","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 1","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_black","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 2","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_blue","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 3","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_brown","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 4","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_cyan","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 5","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_gray","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 6","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_green","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 7","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_light_blue","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 8","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_light_gray","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 9","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_lime","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 10","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_magenta","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 11","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_orange","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 12","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_pink","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 13","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_purple","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 14","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_red","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_property('medieval:texture') == 15","components": {"minecraft:material_instances": {"candle": {"texture": "m.candle_yellow","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.m.chandelier",
+			"minecraft:material_instances": {"candle": {"texture": "m.candle_normal","render_method": "alpha_test","ambient_occlusion": false},"*": {"texture": "m.gold_chandelier","render_method": "alpha_test","ambient_occlusion": false},"fire_candle": {"texture": "m.fire_candle","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
+			"minecraft:on_player_placing": {"event": "set_facing_direction"},
+			"minecraft:on_interact": {"event": "change"},
+			"minecraft:creative_category": {"category": "items","group": "itemGroup.name.candles"},
+			"minecraft:entity_collision": {"origin": [-8.0,0.0,-3.0],"size": [16,16,6]},
+			"minecraft:pick_collision": {"origin": [-8.0,0.0,-3.0],"size": [16,16,6]},
+			"minecraft:block_light_absorption": 0.0,
+			"minecraft:block_light_emission": 1.0,
+			"minecraft:explosion_resistance": 3.0,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:map_color": "#FFE731"
+		},
+		"events": {
+			"set_facing_direction": {
+				"sequence": [
+					{"set_block_property": {"medieval:facing_wall": "q.cardinal_block_face_placed_on"}},
+					{"set_block_property": {"medieval:facing_direction": "((q.head_y_rotation(0) >= -45 && q.head_y_rotation(0) < 0.0) ? 0 :((q.head_y_rotation(0) >= 0.0 && q.head_y_rotation(0) < 45) ? 0 :((q.head_y_rotation(0) >= 45 && q.head_y_rotation(0) < 135) ? 2 :((q.head_y_rotation(0) >= 135 && q.head_y_rotation(0) < 180.0) ? 1 :((q.head_y_rotation(0) >= -180.0 && q.head_y_rotation(0) < -135) ? 1 :((q.head_y_rotation(0) >= -135 && q.head_y_rotation(0) < -45) ? 3 : 0))))))"}}
+				]
+			},
+			"change": {
+				"sequence": [
+					{"condition": "q.get_equipped_item_name('main_hand') == 'candle'","set_block_property": {"medieval:texture": 0}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'black_candle'","set_block_property": {"medieval:texture": 1}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'blue_candle'","set_block_property": {"medieval:texture": 2}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'brown_candle'","set_block_property": {"medieval:texture": 3}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'cyan_candle'","set_block_property": {"medieval:texture": 4}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'gray_candle'","set_block_property": {"medieval:texture": 5}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'green_candle'","set_block_property": {"medieval:texture": 6}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'light_blue_candle'","set_block_property": {"medieval:texture": 7}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'light_gray_candle'","set_block_property": {"medieval:texture": 8}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'lime_candle'","set_block_property": {"medieval:texture": 9}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'magenta_candle'","set_block_property": {"medieval:texture": 10}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'orange_candle'","set_block_property": {"medieval:texture": 11}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'pink_candle'","set_block_property": {"medieval:texture": 12}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'purple_candle'","set_block_property": {"medieval:texture": 13}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'red_candle'","set_block_property": {"medieval:texture": 14}},
+					{"condition": "q.get_equipped_item_name('main_hand') == 'yellow_candle'","set_block_property": {"medieval:texture": 15}}
+				]
+			}
+		}
+	}
+}

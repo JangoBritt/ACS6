@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "athos_avatars:cdn_hambone_avatar_item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

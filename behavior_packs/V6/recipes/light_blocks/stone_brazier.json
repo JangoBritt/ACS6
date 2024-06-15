@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:stone_brazier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"BAB",
+			" B ",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:coal"
+			},
+			"B": {
+				"item": "minecraft:stone",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:stone_brazier",
+			"count": 2
+		}
+	}
+}

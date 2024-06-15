@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tuff_golem.move" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"walk" : "query.modified_move_speed"
+						},
+						"look_at_target"
+					],
+					"transitions" : [
+						{
+							"sleep" : "query.mark_variant == 1"
+						}
+					]
+				},
+				"awake" : {
+					"animations" : [ "awake", "look_at_target" ],
+					"transitions" : [
+						{
+							"default" : "query.all_animations_finished"
+						}
+					]
+				},
+				"sleep" : {
+					"animations" : [ "sleep" ],
+					"transitions" : [
+						{
+							"awake" : "query.mark_variant == 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.tuff_golem.holding": {
+			"initial_state": "nothing",
+			"states": {
+				"nothing": {
+					"animations" : [ 
+						{
+							"walk_arms" : "query.modified_move_speed"
+						}
+						],
+					"transitions": [
+						{ "holding": "variable.is_holding_right" }
+					]
+				},
+				"non_hold" : {
+					"animations" : [ "non_hold" ],
+					"transitions" : [
+						{ "holding": "variable.is_holding_right" },
+						{
+							"nothing" : "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"holding": {
+					"animations": [
+				 "hold_item"
+					],
+					"transitions": [
+						{ "non_hold": "!variable.is_holding_right" }
+					]
+				}
+			}
+		}
+	}
+}

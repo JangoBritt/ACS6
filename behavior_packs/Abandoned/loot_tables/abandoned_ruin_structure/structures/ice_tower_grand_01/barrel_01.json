@@ -1,0 +1,37 @@
+{
+  "pools": [
+    // Athos
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/loot_set/athos_loot.json"
+        }
+      ]
+    },
+    // Crops
+    {
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/crops.json"
+        }
+      ]
+    },
+    // Foods 
+    {
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 100,
+          "name": "loot_tables/loot_set/foods.json"
+        }
+      ]
+    }
+  ]
+}

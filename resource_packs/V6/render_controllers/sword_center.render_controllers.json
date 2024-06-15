@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.sword_center": {
+      "arrays": {
+        "textures": {
+          "Array.sword": [
+          	"Texture.no_texture",
+            "Texture.weapon_sword_wood",
+            "Texture.weapon_sword_stone",
+            "Texture.weapon_sword_iron",
+            "Texture.weapon_sword_gold",
+            "Texture.weapon_sword_diamond",
+            "Texture.weapon_sword_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.sword_center",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.sword[query.mark_variant]"
+      ]
+    }
+  }
+}

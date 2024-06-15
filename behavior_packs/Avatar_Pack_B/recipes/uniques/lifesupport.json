@@ -1,0 +1,48 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "athos_avatars:lifesupport_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"WGW",
+			"PDP",
+			"BIB"
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:potion",
+				"data": 19
+			},
+			"G": {
+				"item": "minecraft:lime_stained_glass_pane"
+			},
+			"P": {
+				"item": "minecraft:wind_charge"
+			},
+			"D": {
+				"item": "minecraft:dispenser"
+			},
+			"I": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "minecraft:iron_bars"
+			}
+		},
+		"unlock": [
+			{
+			  "item": "athos_misc:space_book"
+			}
+		  ],
+		"result": [
+			{
+				"item": "athos_avatars:lifesupport_item",
+				"count": 1
+			}
+		]
+	}
+}

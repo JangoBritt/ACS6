@@ -1,0 +1,22 @@
+{
+ "format_version": "1.8.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "athos_medals:trophy_gold",
+   "materials": {
+    "default": "skeleton"
+   },
+   "textures": {
+    "default": "textures/entity/trophy/trophy_gold"
+   },
+   "geometry": {
+    "default": "geometry.trophy"
+   },
+   "render_controllers": [ "controller.render.default" ],
+   "spawn_egg": {
+    "texture": "trophy_gold",
+    "texture_index": 0
+   }
+  }
+ }
+}

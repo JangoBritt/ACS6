@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "MrCrayFish's Furniture Behavior Pack | Port §bBy EndXenoc",
+        "name": "§bMrCrayFish's Furniture §fBehavior Pack",
+        "uuid": "438024d9-66a9-4cd8-ba41-bf61188c57b2",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            30
+        ]
+    },
+    "modules": [
+        {
+            "description": "MrCrayFish's Furniture Behavior Pack | Port §bBy EndXenoc",
+            "type": "data",
+            "uuid": "f6216dec-5c9e-492a-aad6-6d9685acc1c5",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+	"dependencies": [
+		{
+			"uuid": "789cca7c-3df6-4109-8bfa-401324da390b",
+			"version": [
+				0,
+				0,
+				1
+			]
+		}
+	]
+}

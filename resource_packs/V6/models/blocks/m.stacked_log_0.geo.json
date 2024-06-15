@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.stacked_log_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [1.49714, -6.4, -2.11914],
+							"size": [4, 16, 4],
+							"pivot": [2.99714, 2, 0.13086],
+							"rotation": [-90, -2.5, 0],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"east": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"south": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"west": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"up": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"},
+								"down": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"}
+							}
+						},
+						{
+							"origin": [-4.09857, -6.05, -2.06543],
+							"size": [4, 16, 4],
+							"pivot": [-1.49857, 2.25, -0.06543],
+							"rotation": [-90, 2.5, 0],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"east": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"south": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"west": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"up": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"},
+								"down": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"}
+							}
+						},
+						{
+							"origin": [-1.18331, -1.75, -2.36472],
+							"size": [4, 16, 4],
+							"pivot": [0.81669, 6.25, -0.36472],
+							"rotation": [-90, 2.5, 0],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"east": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"south": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"west": {"uv": [10, 0], "uv_size": [-4, 16], "material_instance": "log_side"},
+								"up": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"},
+								"down": {"uv": [11, 5], "uv_size": [-6, 6], "material_instance": "log_top"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "medieval:spruce_wood_beam_up"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "minecraft:log",
+        "data": 1
+      }
+    ],
+    "result": {
+      "item": "medieval:spruce_wood_beam_up",
+      "count": 16
+    }
+  }
+}

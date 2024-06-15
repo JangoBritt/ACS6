@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:pot_0"
+		},
+		"tags": [ "workbench" ],
+		"pattern": [
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:hardened_clay",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:red_sandstone",
+				"data": 1
+			}
+		},
+		"unlock": [
+			{"item": "medieval:workbench_left"}
+		],
+		"result": {
+			"item": "medieval:pot_0",
+			"count": 2
+		}
+	}
+}
