@@ -13,4 +13,6 @@ jobs:
       with:
         server: 9323.node.apexhosting.gdn
         username: JangoBritt.1111000
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.APEXFTP }}
+        server-dir: /worlds/ACS6_V1.0/
+        
