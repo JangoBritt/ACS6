@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - "Live"
+name: 🚀 Deploy to Live Server
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: 9301.node.apexhosting.gdn
+        username: JangoBritt.1718234
+        password: ${{ secrets.APEXFTP }}
+        server-dir: default/worlds/ACS6_V1.0/
+        
