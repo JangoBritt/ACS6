@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - "Test"
 name: 🚀 Deploy to Test Server
 jobs:
   web-deploy:
