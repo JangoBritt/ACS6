@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - "Live"
 name: 🚀 Deploy to Live Server
 jobs:
   web-deploy:
