@@ -1,5 +1,5 @@
 on: push
-name: 🚀 Deploy to Test Server
+name: 🚀 Deploy to Live Server
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -14,5 +14,5 @@ jobs:
         server: 9301.node.apexhosting.gdn
         username: JangoBritt.1718234
         password: ${{ secrets.APEXFTP }}
-        server-dir: /worlds/ACS6_V1.0/
+        server-dir: default/worlds/ACS6_V1.0/
         
