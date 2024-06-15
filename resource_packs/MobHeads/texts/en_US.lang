@@ -1,3 +1,11 @@
+item.fmh:breeze_item=Breeze Head
+entity.fmh:breeze.name=Breeze
+action.hint.exit.fmh:breeze=Jump to Exit
+
+item.fmh:bogged_item=Bogged Head
+entity.fmh:bogged.name=Bogged
+action.hint.exit.fmh:bogged=Jump to Exit
+
 item.fmh:allay_item=Allay Head
 entity.fmh:allay.name=Allay
 action.hint.exit.fmh:allay=Jump to Exit
@@ -731,6 +739,8 @@ item.fmh:zombie_villager_v2_item=Zombie Villager V2 Head
 entity.fmh:zombie_villager_v2.name=Zombie Villager V2
 action.hint.exit.fmh:zombie_villager_v2=Jump to Exit
 
+item.fmh:bogged_mask=Bogged Mask
+item.fmh:breeze=Breeze Mask
 item.fmh:allay_mask=Allay Mask
 item.fmh:axolotl_blue_mask=Axolotl Blue Mask
 item.fmh:axolotl_cyan_mask=Axolotl Cyan Mask
