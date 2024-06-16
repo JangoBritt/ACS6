@@ -1,0 +1,14 @@
+Lamps & Lanterns
+
+[Version: 1.8.1]
+GENERAL:
+- Updated for compatibility with Minecraft version 1.21.0.
+- Added a subpack for scripting events.
+- Added the recipe unlocking for custom block and custom items.
+
+          "On scripting events only!"
+GENERAL:
+- The Holiday Creator Feature toggle will no longer be needed when you use the Scripting Events subpack.
+
+VANILLA FEATURES:
+- Torch and soul torch can now be inserted and removed inside the carved pumpkin by interacting with its face while sneaking. To remove the torch inside, you must have no item in your mainhand.

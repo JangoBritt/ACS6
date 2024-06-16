@@ -1,22 +1,50 @@
 {
-	"format_version": 2,
-	"metadata": {
-		"authors": ["AthosCraft"]
+  "format_version": 2,
+  "header": {
+    "name": "Lamps & Lanterns (v1.8.1) [Behavior Pack]",
+    "description": "Adding more light blocks for your survival game.",
+    "uuid": "10001000-1223-1111-1111-a000a000a000",
+    "version": [ 1, 8, 1 ],
+    "min_engine_version": [ 1, 20, 30 ]
+  },
+  "metadata": {
+		"authors": [ "NicoTheKid" ],
+		"url": "https://mcpedl.com/user/dangel/"
 	},
-	"header": {
-		"description": "Pack By §6AthosCraft§r | Lamps & Lanterns Pack | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
-		"name": "§aLamps Pack§r v1.1 [B]",
-		"uuid": "9d353284-b745-4ebc-a6fc-c90a89c0f952",
-		"version": [1, 1, 0],
-		"min_engine_version": [1, 20, 81]
-	},
-	"modules": [{
-		"type": "data",
-		"uuid": "8cb8238a-ea20-43a0-b5fa-6c4cffbbb308",
-		"version": [1, 1, 0]
-	}],
-	"dependencies": [{
-		"uuid": "08c307b7-e699-4a1e-b318-ecddb7a081b8",
-		"version": [1, 1, 0]
-	}]
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "10001000-1223-1111-1111-100010001000",
+      "version": [ 1, 8, 1 ]
+    },
+    {
+			"type": "script",
+			"language": "javascript",
+			"uuid": "10001000-1223-1111-1111-100010001000",
+			"entry": "scripts/main.js",
+			"version": [ 1, 8, 1 ]
+		}
+  ],
+  "dependencies": [
+    {
+      "uuid": "20002000-1223-2222-2222-b000b000b000",
+      "version": [ 1, 8, 1 ]
+    },
+    {
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		}
+  ],
+  "subpacks": [
+    {
+      "folder_name": "fully_scripting_events",
+      "name": "§e§lFully Scripting Events§r - Add more functions, but it may also add more bugs, especially on PC.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "none_scripting_events",
+      "name": "§e§lNone Scripting Events§r - No new additional functions but it less bugs.",
+      "memory_tier": 1
+    }
+  ]
 }

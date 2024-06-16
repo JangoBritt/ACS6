@@ -1,3 +1,5 @@
+## Lamps & Lanterns
+
 tile.nicothekid:amethyst_lamp.name=Amethyst Lamp
 tile.nicothekid:andesite_lantern.name=Andesite Lantern
 tile.nicothekid:andesite_soul_lantern.name=Andesite Soul Lantern
@@ -69,10 +71,6 @@ tile.nicothekid:stone_lantern.name=Stone Lantern
 tile.nicothekid:stone_soul_lantern.name=Stone Soul Lantern
 tile.nicothekid:tuff_lantern.name=Tuff Lantern
 tile.nicothekid:tuff_soul_lantern.name=Tuff Soul Lantern
-tile.nicothekid:waxed_copper_lamp.name=Waxed Copper Lamp
-tile.nicothekid:waxed_copper_lamp_exposed.name=Waxed Exposed Copper Lamp
-tile.nicothekid:waxed_copper_lamp_oxidized.name=Waxed Oxidized Copper Lamp
-tile.nicothekid:waxed_copper_lamp_weathered.name=Waxed Weathered Copper Lamp
 tile.nicothekid:waxed_copper_lantern.name=Waxed Copper Lantern
 tile.nicothekid:waxed_copper_lantern_exposed.name=Waxed Exposed Copper Lantern
 tile.nicothekid:waxed_copper_lantern_oxidized.name=Waxed Oxidized Copper Lantern
@@ -99,5 +97,3 @@ tile.nicothekid:wooden_lantern_mangrove.name=Wooden Mangrove Lantern
 tile.nicothekid:wooden_lantern_oak.name=Wooden Oak Lantern
 tile.nicothekid:wooden_lantern_spruce.name=Wooden Spruce Lantern
 tile.nicothekid:wooden_lantern_warped.name=Wooden Warped Lantern
-
-
