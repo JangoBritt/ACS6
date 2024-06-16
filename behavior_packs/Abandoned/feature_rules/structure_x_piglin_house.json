@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_piglin_house",
@@ -9,26 +9,30 @@
       "placement_pass": "underground_pass",
       "minecraft:biome_filter": [
         {
-          "any_of": [
+          "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "basalt_deltas"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "crimson_forest"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "nether_wastes"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "warped_forest"
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "nether_wastes"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "crimson_forest"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "warped_forest"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "basalt_deltas"
+                }
+              ]
             }
           ]
         }

@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Abandoned & Ruin Structures (v1.10.10) [Behavior Pack]",
+    "name": "Abandoned & Ruin Structures (v1.10.11) [Behavior Pack]",
     "description": "Discover more structure in your world exploration.",
     "uuid": "10001000-ab12-1111-1111-a000a000a000",
-    "version": [ 1, 10, 10 ],
+    "version": [ 1, 10, 11 ],
     "min_engine_version": [ 1, 20, 30 ]
   },
   "metadata": {
@@ -15,20 +15,20 @@
     {
       "type": "data",
       "uuid": "10001000-ab12-1111-1111-100010001000",
-      "version": [ 1, 10, 10 ]
+      "version": [ 1, 10, 11 ]
     },
     {
 			"type": "script",
 			"language": "javascript",
-			"uuid": "ea5d80b7-b814-350e-7044-b7a50a642baa",
+			"uuid": "ea5d80b7-ab12-350e-7044-b7a50a642baa",
 			"entry": "scripts/main.js",
-			"version": [ 1, 10, 10 ]
+			"version": [ 1, 10, 11 ]
 		}
   ],
   "dependencies": [
     {
       "uuid": "20002000-ab12-2222-2222-b000b000b000",
-      "version": [ 1, 10, 10 ]
+      "version": [ 1, 10, 11 ]
     },
     {
 			"module_name": "@minecraft/server",

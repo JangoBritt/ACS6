@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_illager_camp",
@@ -30,19 +30,14 @@
                 {
 									"test": "has_biome_tag",
 									"operator": "==",
-									"value": "flower_forest"
-								},
-								{
-									"test": "has_biome_tag",
-									"operator": "==",
 									"value": "forest"
 								},
                 {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swamp"
-                },
-                {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+								{
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "jungle"
@@ -50,7 +45,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "taiga"
+                  "value": "swamp"
                 },
                 {
                   "test": "has_biome_tag",

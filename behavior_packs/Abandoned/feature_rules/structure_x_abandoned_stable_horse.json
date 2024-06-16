@@ -11,36 +11,6 @@
         {
           "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "cold"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "frozen"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "ice"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "forest"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "jungle"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "extreme_hills"
-            },
-            {
               "any_of": [
                 {
                   "test": "has_biome_tag",

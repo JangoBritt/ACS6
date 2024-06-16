@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_lost_ship",
@@ -14,6 +14,11 @@
               "test": "has_biome_tag",
               "operator": "!=",
               "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "frozen"
             },
             {
               "any_of": [
@@ -42,6 +47,11 @@
 									"operator": "==",
 									"value": "flower_forest"
 								},
+								{
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
@@ -50,17 +60,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "jungle"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "taiga"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "mesa"
+                  "value": "mangrove_swamp"
                 },
                 {
                   "test": "has_biome_tag",
@@ -70,12 +70,22 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "mooshroom_island"
+                  "value": "mesa"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "river"
                 },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "beach"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mooshroom_island"
                 }
               ]
             }

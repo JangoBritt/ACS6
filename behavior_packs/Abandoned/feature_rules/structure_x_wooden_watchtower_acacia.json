@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_wooden_watchtower_acacia",
@@ -15,12 +15,12 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "mesa_plateau_stone"
+                  "value": "savanna"
                 },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "savanna"
+                  "value": "mesa"
                 }
               ]
             }

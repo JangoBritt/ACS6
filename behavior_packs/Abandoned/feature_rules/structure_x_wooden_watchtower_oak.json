@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_wooden_watchtower_oak",
@@ -13,22 +13,17 @@
             {
               "test": "has_biome_tag",
               "operator": "!=",
-              "value": "cold"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "ice"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "frozen"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
               "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "roofed"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "taiga"
             },
             {
               "any_of": [
@@ -40,7 +35,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "birch"
+                  "value": "forest"
                 },
                 {
 									"test": "has_biome_tag",

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_crypt_skeleton_x_surface",
@@ -11,26 +11,6 @@
         {
           "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "birch"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "jungle"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "extreme_hills"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "river"
-            },
-            {
               "any_of": [
                 {
                   "test": "has_biome_tag",
@@ -40,22 +20,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "overgrown_jungle"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "forest"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swamp"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swampland"
+                  "value": "roofed"
                 },
                 {
                   "test": "has_biome_tag",
@@ -65,7 +30,12 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "mooshroom_island"
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "grove"
                 }
               ]
             }

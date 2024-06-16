@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_abandoned_tower",
@@ -13,11 +13,6 @@
             {
               "test": "has_biome_tag",
               "operator": "!=",
-              "value": "jungle"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
               "value": "roofed"
             },
             {
@@ -25,7 +20,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "corrupted_forest"
+                  "value": "overgrown_jungle"
                 },
                 {
                   "test": "has_biome_tag",
@@ -33,24 +28,39 @@
                   "value": "plains"
                 },
                 {
-									"test": "has_biome_tag",
-									"operator": "==",
-									"value": "flower_forest"
-								},
-                {
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "forest"
                 },
                 {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+								{
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "ice_plains"
+                  "value": "jungle"
                 },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "taiga"
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mangrove_swamp"
+                },
+								{
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "extreme_hills"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "cherry_grove"
                 },
                 {
                   "test": "has_biome_tag",
@@ -60,12 +70,31 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "mountains"
+                  "value": "grove"
                 },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "extreme_hills"
+                  "value": "snowy_slopes"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "savanna"
+                },
+                {
+                  "all_of": [
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "==",
+                      "value": "ice_plains"
+                    },
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "!=",
+                      "value": "mutated"
+                    }
+                  ]
                 }
               ]
             }

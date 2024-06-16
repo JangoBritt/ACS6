@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_ice_tower",
@@ -11,27 +11,7 @@
         {
           "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "beach"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "river"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "ocean"
-            },
-            {
               "any_of": [
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "ice"
-                },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
@@ -40,7 +20,17 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "cold"
+                  "value": "grove"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "snowy_slopes"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jagged_peaks"
                 },
                 {
                   "test": "has_biome_tag",
@@ -48,9 +38,18 @@
                   "value": "frozen_peaks"
                 },
                 {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "grove"
+                  "all_of": [
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "==",
+                      "value": "ocean"
+                    },
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "==",
+                      "value": "frozen"
+                    }
+                  ]
                 }
               ]
             }

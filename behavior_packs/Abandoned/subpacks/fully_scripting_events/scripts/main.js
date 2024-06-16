@@ -32,7 +32,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
         if (block.permutation.matches("nicothekid:spawner_allay")) {
           system.run(() => {
             block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-            block.dimension.spawnEntity("athos_golem:copper_golem", { x: blockLocation.x + 0.5, y: blockLocation.y, z: blockLocation.z + 0.5 })
+            block.dimension.spawnEntity("minecraft:allay", { x: blockLocation.x + 0.5, y: blockLocation.y, z: blockLocation.z + 0.5 })
           });
         }
         if (block.permutation.matches("nicothekid:spawner_blaze")) {
