@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:disc_music",
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"geometry": {
+				"default": "geometry.disc",
+				"disc_11": "geometry.disc_11"
+			},
+			"textures": {
+				"disc_11": "textures/medieval_blocks/blocks/gramophone/disc_11",
+				"disc_13": "textures/medieval_blocks/blocks/gramophone/disc_13",
+				"disc_blocks": "textures/medieval_blocks/blocks/gramophone/disc_blocks",
+				"disc_cat": "textures/medieval_blocks/blocks/gramophone/disc_cat",
+				"disc_chirp": "textures/medieval_blocks/blocks/gramophone/disc_chirp",
+				"disc_far": "textures/medieval_blocks/blocks/gramophone/disc_far",
+				"disc_mall": "textures/medieval_blocks/blocks/gramophone/disc_mall",
+				"disc_mellohi": "textures/medieval_blocks/blocks/gramophone/disc_mellohi",
+				"disc_otherside": "textures/medieval_blocks/blocks/gramophone/disc_otherside",
+				"disc_pigstep": "textures/medieval_blocks/blocks/gramophone/disc_pigstep",
+				"disc_stal": "textures/medieval_blocks/blocks/gramophone/disc_stal",
+				"disc_strad": "textures/medieval_blocks/blocks/gramophone/disc_strad",
+				"disc_wait": "textures/medieval_blocks/blocks/gramophone/disc_wait",
+				"disc_ward": "textures/medieval_blocks/blocks/gramophone/disc_ward",
+				"disc_5": "textures/medieval_blocks/blocks/gramophone/disc_5",
+				"disc_relic": "textures/medieval_blocks/blocks/gramophone/disc_relic",
+				"disc_creator": "textures/medieval_blocks/blocks/gramophone/disc_creator",
+				"disc_creator_music_box": "textures/medieval_blocks/blocks/gramophone/disc_creator_music_box",
+				"disc_precipice": "textures/medieval_blocks/blocks/gramophone/disc_precipice"
+			},
+			"render_controllers": [
+				"controller.render.disc_music"
+			],
+			"particle_effects": {
+				"particle_note_5": "medieval:note_disc_5"
+			},
+			"animations": {
+				"def_animation": "animation.disc.record"
+			},
+			"scripts": {
+				"animate": [
+					"def_animation"
+				]
+			}
+		}
+	}
+}

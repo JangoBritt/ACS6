@@ -9,7 +9,7 @@
 		"m.birch_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/birch"]},
 		"m.cherry_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/cherry"]},
 		"m.crimson_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/crimson"]},
-		"m.darkoak_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/darkoak"]},
+		"m.dark_oak_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/darkoak"]},
 		"m.jungle_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/jungle"]},
 		"m.mangrove_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/mangrove"]},
 		"m.oak_gramophone": { "textures": [ "textures/medieval_blocks/blocks/gramophone/oak"]},

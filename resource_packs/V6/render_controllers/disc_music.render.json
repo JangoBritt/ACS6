@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.disc_music": {
+			"arrays": {
+				"textures": {
+					"Array.disc_texture": [
+						"Texture.disc_11",
+						"Texture.disc_13",
+						"Texture.disc_blocks",
+						"Texture.disc_cat",
+						"Texture.disc_chirp",
+						"Texture.disc_far",
+						"Texture.disc_mall",
+						"Texture.disc_mellohi",
+						"Texture.disc_otherside",
+						"Texture.disc_pigstep",
+						"Texture.disc_stal",
+						"Texture.disc_strad",
+						"Texture.disc_wait",
+						"Texture.disc_ward",
+						"Texture.disc_5",
+						"Texture.disc_relic",
+						"Texture.disc_creator",
+						"Texture.disc_creator_music_box",
+						"Texture.disc_precipice"
+					]
+				},
+				"geometries": {
+					"Array.disc_model": [
+						"Geometry.default",
+						"Geometry.disc_11"
+					]
+				}
+			},
+			"geometry": "Array.disc_model[(q.variant == 0 ? 1 : 0)]",
+			"materials": [
+				{"*": "Material.default"}
+			],
+			"textures": ["Array.disc_texture[query.variant]"]
+		}
+	}
+}

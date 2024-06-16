@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:block": {
 		"description": {
-			"identifier": "medieval:warped_gramophone",
+			"identifier": "medieval:darkoak_gramophone",
 			"properties": {
 				"medieval:facing_direction": [2,3,4,5],
 				"medieval:disc": [false,true]
@@ -18,8 +18,8 @@
 			"tag:medieval_furniture": {},
 			"minecraft:breathability": "air",
 			"minecraft:geometry": "geometry.m.gramophone",
-			"minecraft:material_instances": {"*": {"texture": "m.warped_gramophone","render_method": "opaque"},"gramophone": {"texture": "m.gramophone","render_method": "opaque"},"planks": {"texture": "m.warped_planks","render_method": "opaque"}},
-			"minecraft:creative_category": {"category": "items","group": "itemGroup.name.warped"},
+			"minecraft:material_instances": {"*": {"texture": "m.dark_oak_gramophone","render_method": "opaque"},"gramophone": {"texture": "m.gramophone","render_method": "opaque"},"planks": {"texture": "m.darkoak_planks","render_method": "opaque"}},
+			"minecraft:creative_category": {"category": "items","group": "itemGroup.name.darkoak"},
 			"minecraft:on_player_placing": {"event": "set_facing_direction"},
 			"minecraft:on_interact": {"event": "add_sound"},
 			"minecraft:entity_collision": {"origin": [-7.0,0.0,-7.0],"size": [14,6,14]},
@@ -27,7 +27,7 @@
 			"minecraft:block_light_absorption": 0.0,
 			"minecraft:explosion_resistance": 3.0,
 			"minecraft:destroy_time": 0.8,
-			"minecraft:map_color": "#228579"
+			"minecraft:map_color": "#000000"
 		},
 		"events": {
 			"add_sound":{

@@ -11,6 +11,28 @@
 						"3.0": [0, 360, 0]
 					}
 				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_note_5",
+					"locator": "note"
+				},
+				"0.6": {
+					"effect": "particle_note_5",
+					"locator": "note"
+				},
+				"1.2": {
+					"effect": "particle_note_5",
+					"locator": "note"
+				},
+				"1.8": {
+					"effect": "particle_note_5",
+					"locator": "note"
+				},
+				"2.4": {
+					"effect": "particle_note_5",
+					"locator": "note"
+				}
 			}
 		}
 	}

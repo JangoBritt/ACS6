@@ -1002,6 +1002,7 @@ tile.medieval:mangrove_gramophone.name=Mangrove Wood Gramophone
 tile.medieval:oak_gramophone.name=Oak Wood Gramophone
 tile.medieval:spruce_gramophone.name=Spruce Wood Gramophone
 tile.medieval:warped_gramophone.name=Warped Wood Gramophone
+tile.medieval:cherry_gramophone.name=Cherry Wood Gramophone
 
 tile.endx:andesite_pillar.name=Andesite Pillar
 tile.endx:polished_andesite_pillar.name=Polished Andesite Pillar
@@ -1357,7 +1358,6 @@ tile.medieval:cherry_flower_stand.name=Cherry Wood Flower Shelf
 tile.medieval:cherry_flower_stand_side.name=Cherry Wood Flower Shelf
 tile.medieval:cherry_wood_flower_stand.name=Cherry Wood Flower Shelf
 tile.medieval:cherry_wood_flower_stand_side.name=Cherry Wood Flower Shelf
-tile.medieval:cherry_gramophone.name=Cherry Wood Gramophone
 tile.medieval:cherry_bowl0.name=Cherry Bowl
 tile.medieval:cherry_planks_mslab.name=Cherry Planks Small Slab
 tile.medieval:cherry_wood_mslab.name=Cherry Wood Small Slab
@@ -1771,3 +1771,7 @@ item.medieval:beer_mug_fill_item=Filled Beer Mug
 translation.red_flower_dont_work=Flowers don't work, try using bone meal
 
 container.m.cabinet_tall=Cabinet Tall
+
+medieval.music_disc_creator=§bNow playing: Lena Raine - Creator
+medieval.music_disc_creator_music_box=§bNow playing: Lena Raine - Creator (Music Box)
+medieval.music_disc_precipice=§bNow playing: Aaron Cherof - Precipice

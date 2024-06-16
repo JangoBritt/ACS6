@@ -1,0 +1,419 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:disc_music",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"medieval:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "medieval:entity_despawned"
+				}
+			},
+			"disc_11": {
+				"minecraft:variant": {"value": 0},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_11.json"}
+			},
+			"disc_13": {
+				"minecraft:variant": {"value": 1},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_13.json"}
+			},
+			"disc_blocks": {
+				"minecraft:variant": {"value": 2},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_blocks.json"}
+			},
+			"disc_cat": {
+				"minecraft:variant": {"value": 3},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_cat.json"}
+			},
+			"disc_chirp": {
+				"minecraft:variant": {"value": 4},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_chirp.json"}
+			},
+			"disc_far": {
+				"minecraft:variant": {"value": 5},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_far.json"}
+			},
+			"disc_mall": {
+				"minecraft:variant": {"value": 6},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_mall.json"}
+			},
+			"disc_mellohi": {
+				"minecraft:variant": {"value": 7},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_mellohi.json"}
+			},
+			"disc_otherside": {
+				"minecraft:variant": {"value": 8},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_otherside.json"}
+			},
+			"disc_pigstep": {
+				"minecraft:variant": {"value": 9},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_pigstep.json"}
+			},
+			"disc_stal": {
+				"minecraft:variant": {"value": 10},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_stal.json"}
+			},
+			"disc_strad": {
+				"minecraft:variant": {"value": 11},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_strad.json"}
+			},
+			"disc_wait": {
+				"minecraft:variant": {"value": 12},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_wait.json"}
+			},
+			"disc_ward": {
+				"minecraft:variant": {"value": 13},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_ward.json"}
+			},
+			"disc_5": {
+				"minecraft:variant": {"value": 14},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_5.json"}
+			},
+			"disc_relic": {
+				"minecraft:variant": {"value": 15},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_relic.json"}
+			},
+			"disc_creator": {
+				"minecraft:variant": {"value": 16},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_creator.json"}
+			},
+			"disc_creator_music_box": {
+				"minecraft:variant": {"value": 17},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_creator_music_box.json"}
+			},
+			"disc_precipice": {
+				"minecraft:variant": {"value": 18},
+				"minecraft:loot":{"table": "loot_tables/med/gramophone/disc_precipice.json"}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {"family": ["block"]},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {},
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "medieval:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			}
+		},
+		"events": {
+			"medieval:no_particle": {
+				"add": {"component_groups": ["medieval:no_particle"]}
+			},
+			"medieval:despawn": {
+				"sequence": [
+					{"run_command": {"command": ["playsound block.itemframe.remove_item @a ~~~","kill @s"]}},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 0 },
+						"run_command": { "command": [ "stopsound @a record.11" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 1 },
+						"run_command": { "command": [ "stopsound @a record.13" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 2 },
+						"run_command": { "command": [ "stopsound @a record.blocks" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 3 },
+						"run_command": { "command": [ "stopsound @a record.cat" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 4 },
+						"run_command": { "command": [ "stopsound @a record.chirp" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 5 },
+						"run_command": { "command": [ "stopsound @a record.far" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 6 },
+						"run_command": { "command": [ "stopsound @a record.mall" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 7 },
+						"run_command": { "command": [ "stopsound @a record.mellohi" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 8 },
+						"run_command": { "command": [ "stopsound @a record.otherside" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 9 },
+						"run_command": { "command": [ "stopsound @a record.pigstep" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 10 },
+						"run_command": { "command": [ "stopsound @a record.stal" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 11 },
+						"run_command": { "command": [ "stopsound @a record.strad" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 12 },
+						"run_command": { "command": [ "stopsound @a record.wait" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 13 },
+						"run_command": { "command": [ "stopsound @a record.ward" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 14 },
+						"run_command": { "command": [ "stopsound @a record.5" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 15 },
+						"run_command": { "command": [ "stopsound @a record.relic" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 16 },
+						"run_command": { "command": [ "stopsound @a record.creator" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 17 },
+						"run_command": { "command": [ "stopsound @a record.creator_music_box" ] }
+					},
+					{
+						"filters": { "test": "is_variant", "subject": "self", "operator": "equals", "value": 18 },
+						"run_command": { "command": [ "stopsound @a record.precipice" ] }
+					}
+				]
+			},
+			"disc_11": {
+				"add": {"component_groups": ["disc_11"]},
+				"run_command": {
+					"command": [
+						"playsound record.11 @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_11\"}]}"
+					]
+				}
+			},
+			"disc_13": {
+				"add": {"component_groups": ["disc_13"]},
+				"run_command": {
+					"command": [
+						"playsound record.13 @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_13\"}]}"
+					]
+				}
+			},
+			"disc_blocks": {
+				"add": {"component_groups": ["disc_blocks"]},
+				"run_command": {
+					"command": [
+						"playsound record.blocks @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_blocks\"}]}"
+					]
+				}
+			},
+			"disc_cat": {
+				"add": {"component_groups": ["disc_cat"]},
+				"run_command": {
+					"command": [
+						"playsound record.cat @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_cat\"}]}"
+					]
+				}
+			},
+			"disc_chirp": {
+				"add": {"component_groups": ["disc_chirp"]},
+				"run_command": {
+					"command": [
+						"playsound record.chirp @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_chirp\"}]}"
+					]
+				}
+			},
+			"disc_far": {
+				"add": {"component_groups": ["disc_far"]},
+				"run_command": {
+					"command": [
+						"playsound record.far @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_far\"}]}"
+					]
+				}
+			},
+			"disc_mall": {
+				"add": {"component_groups": ["disc_mall"]},
+				"run_command": {
+					"command": [
+						"playsound record.mall @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_mall\"}]}"
+					]
+				}
+			},
+			"disc_mellohi": {
+				"add": {"component_groups": ["disc_mellohi"]},
+				"run_command": {
+					"command": [
+						"playsound record.mellohi @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_mellohi\"}]}"
+					]
+				}
+			},
+			"disc_otherside": {
+				"add": {"component_groups": ["disc_otherside"]},
+				"run_command": {
+					"command": [
+						"playsound record.otherside @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_otherside\"}]}"
+					]
+				}
+			},
+			"disc_pigstep": {
+				"add": {"component_groups": ["disc_pigstep"]},
+				"run_command": {
+					"command": [
+						"playsound record.pigstep @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_pigstep\"}]}"
+					]
+				}
+			},
+			"disc_stal": {
+				"add": {"component_groups": ["disc_stal"]},
+				"run_command": {
+					"command": [
+						"playsound record.stal @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_stal\"}]}"
+					]
+				}
+			},
+			"disc_strad": {
+				"add": {"component_groups": ["disc_strad"]},
+				"run_command": {
+					"command": [
+						"playsound record.strad @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_strad\"}]}"
+					]
+				}
+			},
+			"disc_wait": {
+				"add": {"component_groups": ["disc_wait"]},
+				"run_command": {
+					"command": [
+						"playsound record.wait @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_wait\"}]}"
+					]
+				}
+			},
+			"disc_ward": {
+				"add": {"component_groups": ["disc_ward"]},
+				"run_command": {
+					"command": [
+						"playsound record.ward @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_ward\"}]}"
+					]
+				}
+			},
+			"disc_5": {
+				"add": {"component_groups": ["disc_5"]},
+				"run_command": {
+					"command": [
+						"playsound record.5 @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_5\"}]}"
+					]
+				}
+			},
+			"disc_relic": {
+				"add": {"component_groups": ["disc_relic"]},
+				"run_command": {
+					"command": [
+						"playsound record.relic @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_relic\"}]}"
+					]
+				}
+			},
+			"disc_creator": {
+				"add": {"component_groups": ["disc_creator"]},
+				"run_command": {
+					"command": [
+						"playsound record.creator @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_creator\"}]}"
+					]
+				}
+			},
+			"disc_creator_music_box": {
+				"add": {"component_groups": ["disc_creator_music_box"]},
+				"run_command": {
+					"command": [
+						"playsound record.creator_music_box @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_creator_music_box\"}]}"
+					]
+				}
+			},
+			"disc_precipice": {
+				"add": {"component_groups": ["disc_precipice"]},
+				"run_command": {
+					"command": [
+						"playsound record.precipice @a ~~~",
+						"playsound block.itemframe.add_item @a ~~~",
+						"titleraw @p actionbar {\"rawtext\":[{\"translate\":\"medieval.music_disc_precipice\"}]}"
+					]
+				}
+			}
+		}
+	}
+}
