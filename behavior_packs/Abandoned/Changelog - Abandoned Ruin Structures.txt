@@ -1,70 +1,35 @@
 Abandoned & Ruin Structures
 
-[Version: 1.10]
-          "New Additional & Changes"
+[Version: 1.10.11]
 GENERAL:
-- Updated for compatibility with Minecraft version 1.20.51.
-- Fixed the resource pack importing on PCs.
+- Updated for compatibility with Minecraft version 1.21.0.
+
+
+[Version: 1.10.10]
+GENERAL:
+- Updated for compatibility with Minecraft version 1.20.81.
+- Added a subpack for scripting events.
+- Fixed the bug where some structures won't generate on overworld surfaces.
+- Fixed the Mob spawner appeared black & purple texture.
 
 STRUCTURES:
-- Added Wooden Crimson Banner Post
-- Added Wooden Warped Banner Post
-- Added Wooden Crimson Lantern Post
-- Added Wooden Warped Lantern Post
-- Added Wooden Crimson Campfire
-- Added Wooden Warped Campfire
-- Added Wooden Crimson Watchtower
-- Added Wooden Warped Watchtower
-- Added Wooden Crimson Hut
-- Added Wooden Warped Hut
-- Added Small Piglin's Ruin (8 variants)
-- Added Piglin's Camp
-- Added Giant Fossil (3 variants)
-- Added Piglin's House (3 variants)
-- Added Wither Skeleton Crypt
-- Added Piglin's Tower
-- Added Wither Shrine
-- Added Piglin's Fort
-- Added 5 new variant of Large Fossil.
-- Large Fossils can now also generate in Nether biome.
-- All the Small Wooden Structures - generation rate is decreased.
+- Abandoned Castle can now also generate in the Windswept Hills & Meadow biomes.
+- Abandoned Plains Chapel can now also generate in the Snowy Plains & Savanna biomes. And it will no longer generate in Dark Forest biome.
+- Abandoned Plains House can now also generate in the Meadow biome. And it will no longer generate in the Taiga, Snowy Taiga & Corrupted Forest biomes.
+- Abandoned Taiga House can now also generate in the Windswept Forest & Hills biomes. And it will no longer generate in the Ice Spikes biome.
+- Abandoned Lumberjack House can now also generate in the Windswept Forest & Savanna biomes. And it will no longer generate in the Ice Spikes biome.
+- Abandoned Tower can now also generate in the Jungle, Swamp, Mangrove Swamp, Savanna, & Overgrown Jungle biome. And it will no longer generate in the Ice Spikes & Corrupted Forest biomes.
+- Abandoned Tower Dungeon can now also generate in the Savanna biome. And it will no longer generate in the Ice Spikes & Corrupted Forest biomes.
+- Wither Shrine generate rate has decreased.
+- Zombie Crypt can now also generate in the Flower Forest, & Mangrove Swamp surfaces. And it will no longer generate in the Snowy Taiga & Corrupted Forest surfaces.
+- Skeleon Crypt can now also generate in the Grove surfaces. And it will no longer generate in the Forest, Mushroom Fields, Overgrown Jungle surfaces.
+- Large Fossil can now also generate in the Mangrove Swamp & Windswept Hills surfaces.
+- Giant Fallen Acacia Log can now also generate in the Wooded Badlands biome.
+- Hobbit House can now also generate in the Mossy Forest biome.
+- Grand Ice Tower can now also generate in the Snowy Slopes, Jagged Peaks, & Frozen Ocean surfaces. And it will no longer generate in the Snowy Taiga surfaces.
+- Lost Ship can now also generate in the Mangrove Swamp & River biomes.
+- Witch Tower Hut can now also generate in the Mangrove Swamp & Mossy Forest biomes.
 
-
-
-[Version: 1.9]
-          "New Additional & Changes"
+          "On scripting events only!"
 GENERAL:
-- Updated for compatibility with Minecraft version 1.20.50.
-
-STRUCTURES:
-- Abandoned Lumberjack House now have a unique and randomized loot set.
-- Abandoned Tower now have a unique and randomized loot set.
-- Abandoned Dungeon Tower now have a unique and randomized loot set.
-- Ancient Castle now have a unique and randomized loot set.
-- Ancient Fort now have a unique and randomized loot set.
-- Ancient Tomb now have a unique and randomized loot set.
-- Ancient Vex Fort now have a unique and randomized loot set.
-- Cave Dweller House now have a unique and randomized loot set.
-- Cave Library now have a unique and randomized loot set.
-- Creeper Head Statue now have a unique and randomized loot set.
-- Copper Vault now have a unique and randomized loot set.
-- Giant Mound now have a unique and randomized loot set.
-- Grand Ice Tower now have a unique and randomized loot set.
-- Grave now have a unique and randomized loot set.
-- Hobbit House now have a unique and randomized loot set.
-- Ice Tower now have a unique and randomized loot set.
-- Illager Camp now have a unique and randomized loot set.
-- Illager Fort now have a unique and randomized loot set.
-- Illager Garrison now have a unique and randomized loot set.
-- Illager Tower now have a unique and randomized loot set.
-- Jungle Pyramid now have a unique and randomized loot set.
-- Lost Ship now have a unique and randomized loot set.
-- Ruin Desert House now have a unique and randomized loot set.
-- Ruin Forest House now have a unique and randomized loot set.
-- Small Desert Ruins now have a unique and randomized loot set.
-- Tomb now have a unique and randomized loot set.
-- Witch Hut Tower now have a unique and randomized loot set.
-- Zombie Crypt now have a unique and randomized loot set.
-- Fixed the bug on structures for not spawning the mob inside.
-
-
+- All the custom blocks function events are now run by scripting.

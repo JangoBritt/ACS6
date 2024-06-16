@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_ruin_small_ocean",
@@ -13,17 +13,7 @@
             {
               "test": "has_biome_tag",
               "operator": "!=",
-              "value": "legacy_frozen_ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "frozen_ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "deep_frozen_ocean"
+              "value": "frozen"
             },
             {
               "any_of": [

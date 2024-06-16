@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_tomb_x_surface",
@@ -10,11 +10,6 @@
       "minecraft:biome_filter": [
         {
           "all_of": [
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "ocean"
-            },
             {
               "any_of": [
                 {
@@ -27,22 +22,17 @@
 									"operator": "==",
 									"value": "overgrown_jungle"
 								},
-                {
-									"test": "has_biome_tag",
-									"operator": "==",
-									"value": "flower_forest"
-								},
 								{
 									"test": "has_biome_tag",
 									"operator": "==",
 									"value": "forest"
 								},
                 {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swamp"
-                },
-                {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "flower_forest"
+								},
+								{
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "jungle"
@@ -50,7 +40,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "taiga"
+                  "value": "swamp"
                 },
                 {
                   "test": "has_biome_tag",

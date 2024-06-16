@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_witch_hut_tower",
@@ -25,7 +25,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "taiga"
+                  "value": "mossy_forest"
                 },
                 {
                   "test": "has_biome_tag",
@@ -35,7 +35,17 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
+                  "value": "taiga"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
                   "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mangrove_swamp"
                 },
                 {
                   "test": "has_biome_tag",

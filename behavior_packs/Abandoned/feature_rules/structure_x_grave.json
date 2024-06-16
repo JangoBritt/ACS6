@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_grave",
@@ -10,16 +10,6 @@
       "minecraft:biome_filter": [
         {
           "all_of": [
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "river"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
-              "value": "ocean"
-            },
             {
               "any_of": [
                 {
@@ -52,6 +42,11 @@
 									"operator": "==",
 									"value": "flower_forest"
 								},
+								{
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
@@ -60,17 +55,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "swampland"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "jungle"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "taiga"
+                  "value": "extreme_hills"
                 },
                 {
                   "test": "has_biome_tag",
@@ -81,11 +66,6 @@
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "meadow"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "extreme_hills"
                 },
                 {
                   "test": "has_biome_tag",

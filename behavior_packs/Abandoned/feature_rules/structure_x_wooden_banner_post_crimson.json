@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_wooden_banner_post_crimson",
@@ -9,11 +9,15 @@
       "placement_pass": "underground_pass",
       "minecraft:biome_filter": [
         {
-          "any_of": [
+          "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "crimson_forest"
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "crimson_forest"
+                }
+              ]
             }
           ]
         }

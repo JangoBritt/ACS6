@@ -5,7 +5,7 @@
       "identifier": "nicothekid:structure_weight_x_wooden_banner_post_darkoak"
     },
     "features": [
-      [ "nicothekid:structure_x_wooden_banner_post_darkoak_01", 1 ]
+      [ "nicothekid:structure_x_wooden_banner_post_darkoak_01", 100 ]
     ]
   }
 }

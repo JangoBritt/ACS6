@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_abandoned_tower_dungeon",
@@ -20,6 +20,16 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
+                  "value": "mossy_forest"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "overgrown_jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
                   "value": "plains"
                 },
                 {
@@ -32,6 +42,11 @@
 									"operator": "==",
 									"value": "flower_forest"
 								},
+								{
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "jungle"
+                },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
@@ -40,22 +55,21 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "swampland"
+                  "value": "savanna"
                 },
                 {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "jungle"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "ice_plains"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "taiga"
+                  "all_of": [
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "==",
+                      "value": "ice_plains"
+                    },
+                    {
+                      "test": "has_biome_tag",
+                      "operator": "!=",
+                      "value": "mutated"
+                    }
+                  ]
                 }
               ]
             }

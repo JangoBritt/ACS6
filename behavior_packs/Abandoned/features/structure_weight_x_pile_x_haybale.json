@@ -5,9 +5,9 @@
       "identifier": "nicothekid:structure_weight_x_pile_x_haybale"
     },
     "features": [
-      [ "nicothekid:structure_x_pile_x_haybale_01", 100 ],
-      [ "nicothekid:structure_x_pile_x_haybale_02", 100 ],
-      [ "nicothekid:structure_x_pile_x_haybale_03", 100 ]
+      ["nicothekid:structure_x_pile_x_haybale_01", 1],
+      ["nicothekid:structure_x_pile_x_haybale_02", 1],
+      ["nicothekid:structure_x_pile_x_haybale_03", 1]
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_crypt_zombie_x_surface",
@@ -13,25 +13,15 @@
             {
               "test": "has_biome_tag",
               "operator": "!=",
-              "value": "taiga"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "!=",
               "value": "extreme_hills"
             },
             {
               "test": "has_biome_tag",
               "operator": "!=",
-              "value": "river"
+              "value": "taiga"
             },
             {
               "any_of": [
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "corrupted_forest"
-                },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
@@ -50,17 +40,22 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "swamp"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swampland"
+                  "value": "flower_forest"
                 },
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "mangrove_swamp"
                 }
               ]
             }

@@ -5,7 +5,7 @@
       "identifier": "nicothekid:structure_weight_x_wooden_banner_post_jungle"
     },
     "features": [
-      [ "nicothekid:structure_x_wooden_banner_post_jungle_01", 1 ]
+      [ "nicothekid:structure_x_wooden_banner_post_jungle_01", 100 ]
     ]
   }
 }

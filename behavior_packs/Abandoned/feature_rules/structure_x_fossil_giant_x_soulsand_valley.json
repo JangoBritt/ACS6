@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_fossil_giant_x_soulsand_valley",
@@ -9,11 +9,15 @@
       "placement_pass": "first_pass",
       "minecraft:biome_filter": [
         {
-          "any_of": [
+          "all_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "soulsand_valley"
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "soulsand_valley"
+                }
+              ]
             }
           ]
         }

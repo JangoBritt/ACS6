@@ -1,5 +1,5 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
       "identifier": "nicothekid:structure_x_ruin_small_forest_jungle",
@@ -42,17 +42,7 @@
 									"operator": "==",
 									"value": "flower_forest"
 								},
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swamp"
-                },
-                {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "swampland"
-                },
-                {
+								{
                   "test": "has_biome_tag",
                   "operator": "==",
                   "value": "jungle"
@@ -60,7 +50,7 @@
                 {
                   "test": "has_biome_tag",
                   "operator": "==",
-                  "value": "taiga"
+                  "value": "swamp"
                 },
                 {
                   "test": "has_biome_tag",
