@@ -201,6 +201,17 @@
               "count": 1
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:armadillo_scute",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }
