@@ -159,7 +159,6 @@
         "entries": [
             {"type": "item","weight": 50,"name": "athos_avatars:cushion_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:eagle_item","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_avatars:frog_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:hedgehog_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:mouse_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:owl_item","functions": [{"function": "set_count","count": 1}]},
