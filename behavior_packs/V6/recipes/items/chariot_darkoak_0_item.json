@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:wheel_item"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:chariot_darkoak_0_item",
 			"count": 1
 		}

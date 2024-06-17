@@ -18,7 +18,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cyan_wool"}
 		],
 		"result": {
 			"item": "medieval:cyan_sofa",

@@ -15,7 +15,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bone_block"}
 		],
 		"result": {
 			"item": "medieval:bone_block_mslab",

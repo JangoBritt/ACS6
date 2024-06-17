@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_cherry_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cherry_cupboard",
 			"count": 1
 		}

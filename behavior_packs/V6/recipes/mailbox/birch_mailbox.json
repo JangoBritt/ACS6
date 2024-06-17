@@ -18,12 +18,12 @@
 			},
 			"I": {
 				"item": "minecraft:iron_ingot"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:birch_mailbox_0",
 			"count": 1
 		}

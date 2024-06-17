@@ -16,12 +16,12 @@
 			"#": {
 				"item": "minecraft:cherry_planks",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cherry_planks_wall_0",
 			"count": 12
 		}

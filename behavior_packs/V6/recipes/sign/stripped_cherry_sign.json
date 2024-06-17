@@ -18,12 +18,12 @@
 			},
 			"P": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_cherry_sign",
 			"count": 4
 		}

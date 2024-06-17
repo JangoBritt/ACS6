@@ -14,12 +14,12 @@
 		"key": {
 			"#": {
 				"item": "minecraft:stripped_bamboo_block"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_bamboo_beam",
 			"count": 6
 		}

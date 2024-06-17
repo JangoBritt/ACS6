@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_birch_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:birch_cupboard",
 			"count": 1
 		}

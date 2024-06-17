@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:beer_barrel_birch"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:big_barrel_birch",
 			"count": 1
 		}

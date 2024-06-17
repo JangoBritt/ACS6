@@ -18,12 +18,12 @@
 			},
 			"P": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_birch_sign",
 			"count": 4
 		}

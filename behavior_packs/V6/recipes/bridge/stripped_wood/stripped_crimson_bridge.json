@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:stripped_crimson_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_crimson_bridge",
 			"count": 2
 		}

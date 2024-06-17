@@ -18,12 +18,12 @@
 			"A": {
 				"item": "minecraft:stick",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_bamboo_gate1",
 			"count": 1
 		}

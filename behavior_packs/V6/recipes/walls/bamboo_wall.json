@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:bamboo_block",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:bamboo_wall_0",
 			"count": 12
 		}

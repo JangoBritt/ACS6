@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:log",
 				"data": 2
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:birch_wood_mslab",
 			"count": 12
 		}

@@ -22,12 +22,12 @@
 			"C": {
 				"item": "minecraft:planks",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_oak_box0",
 			"count": 2
 		}

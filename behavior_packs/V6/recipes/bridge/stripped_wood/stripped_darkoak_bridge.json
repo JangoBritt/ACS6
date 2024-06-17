@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:stripped_darkoak_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_darkoak_bridge",
 			"count": 2
 		}

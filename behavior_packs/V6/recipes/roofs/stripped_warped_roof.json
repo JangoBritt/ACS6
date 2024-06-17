@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:stripped_warped_stem",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_warped_mslab",
 			"count": 12
 		}

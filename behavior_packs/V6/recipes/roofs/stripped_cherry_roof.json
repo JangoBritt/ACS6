@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:stripped_cherry_log",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_cherry_mslab",
 			"count": 12
 		}

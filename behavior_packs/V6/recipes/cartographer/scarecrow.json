@@ -24,7 +24,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:carved_pumpkin"}
 		],
 		"result": {
 			"item": "medieval:scarecrow_item",

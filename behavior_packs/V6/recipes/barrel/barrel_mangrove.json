@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:frame"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_barrel",
 			"count": 1
 		}

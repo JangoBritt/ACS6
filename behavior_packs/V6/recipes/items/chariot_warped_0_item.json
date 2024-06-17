@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:wheel_item"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:chariot_warped_0_item",
 			"count": 1
 		}

@@ -21,12 +21,12 @@
 			},
 			"C": {
 				"item": "minecraft:clock"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:crimson_wood_drawer1",
 			"count": 1
 		}

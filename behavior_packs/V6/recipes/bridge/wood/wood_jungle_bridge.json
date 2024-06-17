@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:jungle_wood_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:wood_jungle_bridge",
 			"count": 2
 		}

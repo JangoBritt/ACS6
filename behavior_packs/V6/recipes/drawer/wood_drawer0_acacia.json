@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:paper"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:acacia_wood_drawer0",
 			"count": 1
 		}

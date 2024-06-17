@@ -21,12 +21,12 @@
 			},
 			"C": {
 				"item": "minecraft:paper"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:warped_drawer0",
 			"count": 1
 		}

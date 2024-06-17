@@ -18,12 +18,12 @@
 			},
 			"C": {
 				"item": "minecraft:frame"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_acacia_box",
 			"count": 2
 		}

@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:birch_wood_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:birch_wood_cabinet_tall",
 			"count": 1
 		}

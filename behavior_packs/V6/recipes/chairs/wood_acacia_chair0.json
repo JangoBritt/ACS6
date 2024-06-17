@@ -20,6 +20,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
     "result": {
       "item": "medieval:acacia_wood_chair0",
 	  "count": 3

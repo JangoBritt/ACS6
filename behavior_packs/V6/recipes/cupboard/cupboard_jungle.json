@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_jungle_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:jungle_cupboard",
 			"count": 1
 		}

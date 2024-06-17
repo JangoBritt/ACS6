@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:cobblestone",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cobblestone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cobblestone_mslab",
 			"count": 12
 		}

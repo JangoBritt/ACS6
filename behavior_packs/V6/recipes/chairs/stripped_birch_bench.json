@@ -19,6 +19,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
     "result": {
       "item": "medieval:stripped_birch_bench",
 	  "count": 3

@@ -27,7 +27,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_planks"}
 		],
 		"result": {
 			"item": "medieval:globe_0",

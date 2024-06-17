@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:jungle_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_jungle",
 			"count": 1
 		}

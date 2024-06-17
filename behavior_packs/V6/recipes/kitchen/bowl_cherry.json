@@ -19,7 +19,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "athos_misc:cherry_book"}
 		],
 		"result": {
 			"item": "medieval:cherry_bowl0",

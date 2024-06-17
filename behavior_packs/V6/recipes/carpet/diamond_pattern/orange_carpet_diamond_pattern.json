@@ -17,7 +17,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:orange_carpet"}
 		],
 		"result": {
 			"item": "medieval:orange_carpet_diamond_pattern",

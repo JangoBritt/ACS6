@@ -19,6 +19,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:jungle_book"}
+		],
     "result": {
       "item": "medieval:jungle_planks_bench",
 	  "count": 3

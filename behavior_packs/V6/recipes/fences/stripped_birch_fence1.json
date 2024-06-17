@@ -15,12 +15,12 @@
 			"A": {
 				"item": "medieval:stripped_birch_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_birch_fence1",
 			"count": 2
 		}

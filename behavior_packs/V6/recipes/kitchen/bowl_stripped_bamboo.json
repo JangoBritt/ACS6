@@ -16,12 +16,12 @@
 			},
 			"B": {
 				"item": "minecraft:frame"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_bamboo_bowl0",
 			"count": 3
 		}

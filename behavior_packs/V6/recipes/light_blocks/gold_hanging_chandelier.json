@@ -24,12 +24,12 @@
 			"C": {
 				"item": "medieval:gold_chandelier",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:gold_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:gold_hanging_chandelier",
 			"count": 1
 		}

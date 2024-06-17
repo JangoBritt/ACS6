@@ -21,12 +21,12 @@
 			},
 			"C": {
 				"item": "minecraft:book"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:warped_drawer2",
 			"count": 1
 		}

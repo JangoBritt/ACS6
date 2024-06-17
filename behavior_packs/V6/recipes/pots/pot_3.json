@@ -20,7 +20,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:hardened_clay"}
 		],
 		"result": {
 			"item": "medieval:pot_3",

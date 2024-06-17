@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:copper_ingot",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:copper_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:copper_bars_0",
 			"count": 16
 		}

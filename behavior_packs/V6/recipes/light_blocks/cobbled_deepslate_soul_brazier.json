@@ -18,12 +18,12 @@
 			},
 			"B": {
 				"item": "minecraft:cobbled_deepslate"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cobbled_deepslate"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cobbled_deepslate_soul_brazier",
 			"count": 2
 		}

@@ -24,12 +24,12 @@
 			"C": {
 				"item": "medieval:netherite_chandelier",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:netherite_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:netherite_hanging_chandelier",
 			"count": 1
 		}

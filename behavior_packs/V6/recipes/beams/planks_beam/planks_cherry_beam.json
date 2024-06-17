@@ -14,12 +14,12 @@
 		"key": {
 			"#": {
 				"item": "minecraft:cherry_planks"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cherry_planks_beam",
 			"count": 6
 		}

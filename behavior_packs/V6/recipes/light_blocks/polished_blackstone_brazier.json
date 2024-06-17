@@ -18,12 +18,12 @@
 			},
 			"B": {
 				"item": "minecraft:polished_blackstone"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:blackstone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:polished_blackstone_brazier",
 			"count": 2
 		}

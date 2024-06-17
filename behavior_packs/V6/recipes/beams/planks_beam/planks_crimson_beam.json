@@ -15,12 +15,12 @@
 			"#": {
 				"item": "minecraft:crimson_planks",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:crimson_planks_beam",
 			"count": 6
 		}

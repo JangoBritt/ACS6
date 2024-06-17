@@ -15,12 +15,12 @@
 			"A": {
 				"item": "medieval:stripped_oak_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_oak_fence1",
 			"count": 2
 		}

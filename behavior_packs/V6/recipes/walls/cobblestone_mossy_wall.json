@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:mossy_cobblestone",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mossy_cobblestone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cobblestone_mossy_walls",
 			"count": 12
 		}

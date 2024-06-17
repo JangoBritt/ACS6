@@ -23,7 +23,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:feather"}
 		],
 		"result": {
 			"item": "medieval:quill_0",

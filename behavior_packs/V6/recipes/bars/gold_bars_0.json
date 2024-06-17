@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:gold_ingot",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:gold_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:gold_bars_0",
 			"count": 16
 		}

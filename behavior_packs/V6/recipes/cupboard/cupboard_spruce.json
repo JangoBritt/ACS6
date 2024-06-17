@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_spruce_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:spruce_cupboard",
 			"count": 1
 		}

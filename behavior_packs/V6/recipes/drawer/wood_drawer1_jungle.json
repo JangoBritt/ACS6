@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:clock"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:jungle_wood_drawer1",
 			"count": 1
 		}

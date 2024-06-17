@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:mangrove_planks",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_planks_wall",
 			"count": 12
 		}

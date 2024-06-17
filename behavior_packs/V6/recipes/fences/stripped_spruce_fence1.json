@@ -15,12 +15,12 @@
 			"A": {
 				"item": "medieval:stripped_spruce_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_spruce_fence1",
 			"count": 2
 		}

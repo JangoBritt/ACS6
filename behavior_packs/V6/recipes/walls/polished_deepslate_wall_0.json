@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:polished_deepslate",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cobbled_deepslate"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:polished_deepslate_wall_0",
 			"count": 12
 		}

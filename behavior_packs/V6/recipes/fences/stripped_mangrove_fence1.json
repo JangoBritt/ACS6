@@ -15,12 +15,12 @@
 			"A": {
 				"item": "medieval:stripped_mangrove_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_mangrove_fence1",
 			"count": 2
 		}

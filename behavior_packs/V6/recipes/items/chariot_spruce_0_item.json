@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:wheel_item"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:chariot_spruce_0_item",
 			"count": 1
 		}

@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:spruce_wood_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:wood_spruce_bridge",
 			"count": 2
 		}

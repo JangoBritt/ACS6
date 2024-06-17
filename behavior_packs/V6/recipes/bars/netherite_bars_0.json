@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:netherite_ingot",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:netherite_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:netherite_bars_0",
 			"count": 16
 		}

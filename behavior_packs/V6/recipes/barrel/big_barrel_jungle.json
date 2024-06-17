@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:beer_barrel_jungle"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:big_barrel_jungle",
 			"count": 1
 		}

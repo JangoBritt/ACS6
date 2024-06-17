@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:warped_stem",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:warped_wood_wall",
 			"count": 12
 		}

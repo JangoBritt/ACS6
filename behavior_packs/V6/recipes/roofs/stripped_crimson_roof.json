@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:stripped_crimson_stem",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_crimson_mslab",
 			"count": 12
 		}

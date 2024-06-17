@@ -16,7 +16,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:empty_map"}
 		],
 		"result": {
 			"item": "medieval:scroll_0",

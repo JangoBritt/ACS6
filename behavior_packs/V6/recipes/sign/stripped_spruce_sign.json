@@ -18,12 +18,12 @@
 			},
 			"P": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_spruce_sign",
 			"count": 4
 		}

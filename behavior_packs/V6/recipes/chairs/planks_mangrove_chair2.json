@@ -24,6 +24,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
     "result": {
       "item": "medieval:mangrove_planks_chair2",
 	  "count": 3
