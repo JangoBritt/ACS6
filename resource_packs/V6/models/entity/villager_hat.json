@@ -36,6 +36,15 @@
 				"cubes": [
 					{"origin": [-4, 24.2, -4], "size": [8, 8, 8], "uv": [32, 0], "inflate": 1.1}
 				]
+			},
+			{
+				"name": "brim",
+				"parent": "head",
+				"pivot": [0, 24, 0],
+				"rotation": [-90, 0, 0],
+				"cubes": [
+					{"origin": [-8, 16, -4.5], "size": [16, 16, 1], "uv": [30, 47], "inflate": 0.1}
+				]
 			}
 		]
 	}
