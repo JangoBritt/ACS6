@@ -1,7 +1,0 @@
-{
-	"resource_pack_name": "medal_pack",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"purple_safe_medal": {"textures": "textures/medals/purple_safe_medal"}
-	}
-}

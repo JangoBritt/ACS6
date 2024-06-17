@@ -7,16 +7,16 @@
 		"description": "Pack By §6AthosCraft§r | Currency Pack | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
 		"name": "§aCurrency Pack§r v6.0 [B]",
 		"uuid": "16dd192c-48b4-4318-b95a-deae1b50ab72",
-		"version": [6, 0, 0],
+		"version": [6, 0, 1],
 		"min_engine_version": [1, 20, 81]
 	},
 	"modules": [{
 		"type": "data",
 		"uuid": "e9093a1b-73b0-4451-a5fe-ee3927bec79e",
-		"version": [6, 0, 0]
+		"version": [6, 0, 1]
 	}],
 	"dependencies": [{
 		"uuid": "910ddcde-dac0-4e42-846d-bbd345f6869e",
-		"version": [6, 0, 0]
+		"version": [6, 0, 1]
 	}]
 }

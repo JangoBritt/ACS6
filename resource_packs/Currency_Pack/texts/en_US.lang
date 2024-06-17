@@ -1,7 +1,7 @@
 item.athos_currency:coin.name=Coin
 item.athos_currency:coin_bundle.name=Bundle of Coins
-item.athos_currency:coin_pile.name=Pile of Coins
 tile.athos_currency:coin_crate.name=Coin Crate
+item.athos_currency:coin_pile.name=Pile of Coins
 tile.athos_currency:coin_stack.name=Stack of Coins
 
 

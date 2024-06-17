@@ -22,6 +22,7 @@ give @s[name="MastaTony"] athos_avatars:mastatony_head_item
 give @s[name="Mids128"] athos_avatars:mids128_head_item
 give @s[name="MxChlorine"] athos_avatars:mxchlorine_head_item
 give @s[name="Ngarvi"] athos_avatars:ngarvi_head_item
+give @s[name="NovaEmcarlo"] athos_avatars:novaemcarlo_head_item
 give @s[name="OldCdnGamer"] athos_avatars:oldcdngamer_head_item
 give @s[name="Purplelady1022"] athos_avatars:purplelady1022_head_item
 give @s[name="Qwikstreet"] athos_avatars:qwikstreet_head_item
@@ -36,6 +37,4 @@ give @s[name="Tonystar73"] athos_avatars:tonystar73_head_item
 give @s[name="VVangoWookie"] athos_avatars:vvangowookie_head_item
 give @s[name="Wookieswife12"] athos_avatars:wookieswife12_head_item
 give @s[name="xCGgamesx"] athos_avatars:xcggamesx_head_item
-give @s[name="Nova"] athos_avatars:novaemcarlo_head_item
-
 give @s[name="xRaistin"] athos_avatars:xraistin_head_item
