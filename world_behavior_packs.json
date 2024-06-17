@@ -59,7 +59,7 @@
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //Athos Medals
-		"version" : [ 6, 0, 3 ]
+		"version" : [ 6, 0, 4 ]
 	},
 	
 	{
@@ -69,7 +69,7 @@
 	
 	{
 		"pack_id" : "16dd192c-48b4-4318-b95a-deae1b50ab72", //Athos Currency
-		"version" : [ 6, 0, 0 ]
+		"version" : [ 6, 0, 1 ]
 	},
 	
 	{
@@ -80,6 +80,6 @@
 	
 	{
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //Athos Avatars
-		"version" : [ 6, 0, 7 ]
+		"version" : [ 6, 0, 8 ]
 	}
 ]

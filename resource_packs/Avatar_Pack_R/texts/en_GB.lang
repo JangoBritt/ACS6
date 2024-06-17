@@ -168,6 +168,13 @@ item.athos_avatars:ngarvi_avatar_item=Ngarvi's Avatar
 item.athos_avatars:ngarvi_head_item=Ngarvi's Head
 item.athos_avatars:ngarvi_mask=Ngarvi's Mask
 
+action.hint.exit.athos_avatars:novaemcarlo_head=Jump to Exit
+entity.athos_avatars:novaemcarlo_avatar.name=Nova's Avatar
+entity.athos_avatars:novaemcarlo_head.name=Nova's Head
+item.athos_avatars:novaemcarlo_avatar_item=Nova's Avatar
+item.athos_avatars:novaemcarlo_head_item=Nova's Head
+item.athos_avatars:novaemcarlo_mask=Nova's Mask
+
 action.hint.exit.athos_avatars:oldcdngamer_head=Jump to Exit
 entity.athos_avatars:oldcdngamer_avatar.name=OldCdnGamer's Avatar
 entity.athos_avatars:oldcdngamer_head.name=OldCdnGamer's Head
@@ -265,6 +272,13 @@ entity.athos_avatars:xcggamesx_head.name=CGgames's Head
 item.athos_avatars:xcggamesx_avatar_item=CGgames's Avatar
 item.athos_avatars:xcggamesx_head_item=CGgames's Head
 item.athos_avatars:xcggamesx_mask=CGgames's Mask
+
+action.hint.exit.athos_avatars:xraistin_head=Jump to Exit
+entity.athos_avatars:xraistin_avatar.name=xRaistin's Avatar
+entity.athos_avatars:xraistin_head.name=xRaistin's Head
+item.athos_avatars:xraistin_avatar_item=xRaistin's Avatar
+item.athos_avatars:xraistin_head_item=xRaistin's Head
+item.athos_avatars:xraistin_mask=xRaistin's Mask
 
 
 
@@ -545,6 +559,10 @@ action.hint.exit.athos_avatars:holidayham=Jump to Exit
 entity.athos_avatars:holidayham.name=[Athos] Holiday Ham
 item.athos_avatars:holidayham_item=[Athos] Holiday Ham
 
+action.hint.exit.athos_avatars:lifesupport_head=Jump to Exit
+entity.athos_avatars:lifesupport.name=Life Support Unit
+item.athos_avatars:lifesupport_item=[Athos] Life Support Unit
+
 action.hint.exit.athos_avatars:lukeskywalkerplushie=Jump to Exit
 entity.athos_avatars:lukeskywalkerplushie.name=[Athos] Luke Skywalker Plushie
 item.athos_avatars:lukeskywalkerplushie_item=[Athos] Luke Skywalker Plushie
@@ -633,17 +651,22 @@ item.athos_avatars:zeroghostdog_item=[Athos] Zero Ghost Dog
 
 ## Wearables:
 
+item.athos_avatars:athosnaut_mask=[Athos] Athosnaut Helmet
+item.athos_avatars:athosnaut_suit=[Athos] Athosnaut Suit
 item.athos_avatars:big_bunny_ears_mask=[Athos] Big Bunny Ears
 item.athos_avatars:bunny_ears_mask=[Athos] Bunny Ears
 item.athos_avatars:bunny_mask_mask=[Athos] Bunny Mask
 item.athos_avatars:cat_ears_mask=[Athos] Cat Ears
 item.athos_avatars:cat_ears2_mask=[Athos] Cat Ears
+item.athos_avatars:dead_astronaut_mask=[Athos] Damaged Astronaut Helmet
+item.athos_avatars:dead_astronaut_suit=[Athos] Damaged Astronaut Suit
 item.athos_avatars:easter_crown_mask=[Athos] Easter Crown
 item.athos_avatars:egirlglasses_mask=[Athos] eGirl Glasses
 item.athos_avatars:elf_hat_mask=[Athos] Elf Hat
 item.athos_avatars:goldcrown_mask=[Athos] Gold Crown
 item.athos_avatars:imperialhat_mask=[Athos] Imperial Hat
 item.athos_avatars:iskall_piece_mask=[Athos] Iskall's EyePiece
+item.athos_avatars:jangoeye_mask=[Athos] Jango's EyePiece
 item.athos_avatars:jason_mask_mask=[Athos] Jason Mask
 item.athos_avatars:mumbostache_mask=[Athos] Mumbo's Moustache
 item.athos_avatars:nether_crown_mask=[Athos] Nether Crown
@@ -653,32 +676,3 @@ item.athos_avatars:scream_mask_mask=[Athos] Scream Mask
 item.athos_avatars:stereo_glasses_mask=[Athos] 3D Glasses
 item.athos_avatars:sunglasses_mask=[Athos] Sunglases
 item.athos_avatars:xwing_helmet_mask=[Athos] X-Wing Helmet
-
-
-
-action.hint.exit.athos_avatars:novaemcarlo_head=Jump to Exit
-entity.athos_avatars:novaemcarlo_avatar.name=Nova's Avatar
-entity.athos_avatars:novaemcarlo_head.name=Nova's Head
-item.athos_avatars:novaemcarlo_avatar_item=Nova's Avatar
-item.athos_avatars:novaemcarlo_head_item=Nova's Head
-item.athos_avatars:novaemcarlo_mask=Nova's Mask
-
-
-action.hint.exit.athos_avatars:xraistin_head=Jump to Exit
-entity.athos_avatars:xraistin_avatar.name=xRaistin's Avatar
-entity.athos_avatars:xraistin_head.name=xRaistin's Head
-item.athos_avatars:xraistin_avatar_item=xRaistin's Avatar
-item.athos_avatars:xraistin_head_item=xRaistin's Head
-item.athos_avatars:xraistin_mask=xRaistin's Mask
-
-item.athos_avatars:jangoeye_mask=[Athos] Jango's EyePiece
-
-item.athos_avatars:athosnaut_mask=[Athos] Athosnaut Helmet
-item.athos_avatars:athosnaut_suit=[Athos] Athosnaut Suit
-
-action.hint.exit.athos_avatars:lifesupport_head=Jump to Exit
-entity.athos_avatars:lifesupport.name=Life Support Unit
-item.athos_avatars:lifesupport_item=[Athos] Life Support Unit
-
-item.athos_avatars:dead_astronaut_mask=[Athos] Damaged Astronaut Helmet
-item.athos_avatars:dead_astronaut_suit=[Athos] Damaged Astronaut Suit

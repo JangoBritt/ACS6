@@ -1,9 +1,19 @@
 [
-	"textures/medals/purple_safe_medal",
-	"textures/medals/demise_medal",
-	"textures/items/trophy_gold",
+	"textures/books/acacia_book",
+	"textures/books/bamboo_book",
+	"textures/books/birch_book",
+	"textures/books/cherry_book",
+	"textures/books/darkoak_book",
+	"textures/books/jungle_book",
+	"textures/books/mangrove_book",
+	"textures/books/nether_book",
+	"textures/books/oak_book",
+	"textures/books/space_book",
+	"textures/books/spruce_book",
 	"textures/entity/trophy/trophy_gold",
+	"textures/entity/trophy/trophy_tnt",
+	"textures/items/trophy_gold",
 	"textures/items/trophy_tnt",
-	"textures/entity/trophy/trophy_tnt"
-
+	"textures/medals/demise_medal",
+	"textures/medals/purple_safe_medal"
 ]

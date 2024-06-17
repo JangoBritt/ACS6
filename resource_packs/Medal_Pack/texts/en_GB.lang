@@ -1,7 +1,6 @@
 item.athos_medal:purple_safe_medal.name=Purple Safe Medal
 item.athos_medal:demise_medal.name=Demise Participant Medal
 
-
 tile.athos_medal:donor_certificate.name=§bAthos Certificate§r
 tile.athos_medal:demise_trophy.name=§gDemise 1st Place Trophy!§r
 
@@ -10,3 +9,15 @@ entity.athos_medals:trophy_demise=[Athos] §gDemise 1st Place Trophy§r
 
 item.spawn_egg.entity.athos_medals:trophy_gold.name=Gold Trophy
 entity.athos_medals:trophy_gold=Gold Trophy
+
+item.athos_misc:space_book.name=§lSpaceFlight Technology§r§f\nLearn the Technology for Travelling to Mars
+item.athos_misc:acacia_book.name=§lSavanna Furnishings r§f\nWorking with Acacia Wood
+item.athos_misc:bamboo_book.name=§l竹子非常堅固§r§f\nBamboo Very Strong
+item.athos_misc:birch_book.name=§lBirch, Balsa, Ply§r§f\n and other softwood furnishings 
+item.athos_misc:cherry_book.name=§lPop your Cherry§r§f\n Building Cherry Furniture
+item.athos_misc:darkoak_book.name=§lMastering the Dark Arts§r§f\n... Dark Oak, that is
+item.athos_misc:jungle_book.name=§lThe Jungle Book§r§f\nNot by Rudyard Kipling
+item.athos_misc:mangrove_book.name=§lSearching the Man Grove§r§f\n Just to be totally P.C.
+item.athos_misc:nether_book.name=§lNether Carpentry§r§f\n A discussion on Weird Wood
+item.athos_misc:oak_book.name=§lGot Wood?§r§f\n Well get some Oak, and then build a table"
+item.athos_misc:spruce_book.name=§lSprucing up the place§r§f\nFurnishings from the Snowy North
