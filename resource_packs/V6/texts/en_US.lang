@@ -1775,3 +1775,8 @@ container.m.cabinet_tall=Cabinet Tall
 medieval.music_disc_creator=§bNow playing: Lena Raine - Creator
 medieval.music_disc_creator_music_box=§bNow playing: Lena Raine - Creator (Music Box)
 medieval.music_disc_precipice=§bNow playing: Aaron Cherof - Precipice
+
+
+item.medieval:villager_hat_librarian=Librarian Hat
+item.medieval:villager_profession_librarian=Librarian Robe
+item.medieval:villager_hat_farmer=Farmer Hat
