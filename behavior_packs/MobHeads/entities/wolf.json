@@ -100,10 +100,10 @@
               -0.1
             ]
           }
-        },
-        "minecraft:loot": {
-          "table": "loot_tables/entities/wolf_angry.json"
-        }
+        }//,
+        //"minecraft:loot": {
+        //  "table": "loot_tables/entities/wolf_angry.json"
+        //}
       },
       "minecraft:wolf_wild": {
         "minecraft:behavior.avoid_mob_type": {
@@ -216,10 +216,11 @@
               -0.1
             ]
           }
-        },
-        "minecraft:loot": {
-          "table": "loot_tables/entities/wolf_wild.json"
-        }
+        }//,
+        //"minecraft:loot": {
+        //  "table": "loot_tables/entities/wolf_wild.json"
+        //}
+        
       },
       "minecraft:wolf_increased_max_health": {
         "minecraft:health": {
@@ -268,10 +269,10 @@
         "minecraft:sittable": {},
         "minecraft:is_dyeable": {
           "interact_text": "action.interact.dye"
-        },
-        "minecraft:loot": {
-          "table": "loot_tables/entities/wolf_tame.json"
-        }
+        }//,
+        //"minecraft:loot": {
+        //  "table": "loot_tables/entities/wolf_tame.json"
+        //}
       },
       "minecraft:wolf_armorable": {
         "minecraft:interact": {
@@ -410,46 +411,73 @@
       "minecraft:wolf_pale": {
         "minecraft:variant": {
           "value": 0
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_wild.json"
         }
       },
       "minecraft:wolf_ashen": {
         "minecraft:variant": {
           "value": 1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_ashen.json"
         }
       },
       "minecraft:wolf_black": {
         "minecraft:variant": {
           "value": 2
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_black.json"
         }
       },
       "minecraft:wolf_chestnut": {
         "minecraft:variant": {
           "value": 3
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_chestnut.json"
         }
       },
       "minecraft:wolf_rusty": {
         "minecraft:variant": {
           "value": 4
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_rusty.json"
         }
       },
       "minecraft:wolf_snowy": {
         "minecraft:variant": {
           "value": 5
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_snowy.json"
         }
       },
       "minecraft:wolf_spotted": {
         "minecraft:variant": {
           "value": 6
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_spotted.json"
         }
       },
       "minecraft:wolf_striped": {
         "minecraft:variant": {
           "value": 7
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_striped.json"
         }
       },
       "minecraft:wolf_woods": {
         "minecraft:variant": {
           "value": 8
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/wolf_woods.json"
         }
       }
     },

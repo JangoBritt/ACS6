@@ -490,5 +490,21 @@
     "textures/heads/zombie_pigman",
     "textures/heads/zombie_pigman",
     "textures/heads/zombie_villager_v2",
-    "textures/heads/zombie_villager_v2"
+    "textures/heads/zombie_villager_v2",
+    "textures/heads/wolf_ashen",
+    "textures/heads/wolf_ashen_angry",
+    "textures/heads/wolf_black",
+    "textures/heads/wolf_black_angry",
+    "textures/heads/wolf_chestnut",
+    "textures/heads/wolf_chestnut_angry",
+    "textures/heads/wolf_rusty",
+    "textures/heads/wolf_rusty_angry",
+    "textures/heads/wolf_snowy",
+    "textures/heads/wolf_snowy_angry",
+    "textures/heads/wolf_spotted",
+    "textures/heads/wolf_spotted_angry",
+    "textures/heads/wolf_striped",
+    "textures/heads/wolf_striped_angry",
+    "textures/heads/wolf_woods",
+    "textures/heads/wolf_woods_angry"
 ]
