@@ -20,12 +20,12 @@
 			"B": {
 				"item": "minecraft:stick",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_crimson_wooden_stairs",
 			"count": 4
 		}

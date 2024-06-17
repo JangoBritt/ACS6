@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:brick_block",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:brick_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:brick_block_wall",
 			"count": 12
 		}

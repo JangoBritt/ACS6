@@ -18,12 +18,12 @@
 			},
 			"B": {
 				"item": "minecraft:mossy_cobblestone"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mossy_cobblestone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mossy_cobblestone_brazier",
 			"count": 2
 		}

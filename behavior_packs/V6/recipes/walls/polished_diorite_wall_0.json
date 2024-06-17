@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:stone",
 				"data": 4
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:diorite"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:polished_diorite_wall_0",
 			"count": 12
 		}

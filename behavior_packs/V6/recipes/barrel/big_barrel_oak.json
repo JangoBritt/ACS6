@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:beer_barrel_oak"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:big_barrel_oak",
 			"count": 1
 		}

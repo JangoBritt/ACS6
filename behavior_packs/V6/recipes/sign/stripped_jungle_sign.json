@@ -18,12 +18,12 @@
 			},
 			"P": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_jungle_sign",
 			"count": 4
 		}

@@ -15,12 +15,12 @@
 			},
 			"A": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_darkoak_support",
 			"count": 3
 		}

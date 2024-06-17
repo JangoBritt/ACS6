@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:stripped_warped_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_warped_bridge",
 			"count": 2
 		}

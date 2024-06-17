@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:book"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:darkoak_wood_drawer2",
 			"count": 1
 		}

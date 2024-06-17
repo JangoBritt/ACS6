@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:bamboo_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_bamboo_bridge",
 			"count": 2
 		}

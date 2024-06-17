@@ -20,6 +20,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
     "result": {
       "item": "medieval:birch_wood_chair1",
 	  "count": 3

@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:warped_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:warped_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:warped_cabinet_tall",
 			"count": 1
 		}

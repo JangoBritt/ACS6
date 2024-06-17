@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:stripped_spruce_log",
 			"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_spruce_wall",
 			"count": 12
 		}

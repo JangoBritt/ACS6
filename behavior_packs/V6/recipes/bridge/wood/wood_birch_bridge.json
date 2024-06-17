@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "medieval:birch_wood_post"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:wood_birch_bridge",
 			"count": 2
 		}

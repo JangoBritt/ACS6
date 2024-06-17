@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:bamboo_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:bamboo_cupboard",
 			"count": 1
 		}

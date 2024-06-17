@@ -15,12 +15,12 @@
 			"#": {
 				"item": "minecraft:deepslate_bricks",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cobbled_deepslate"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:deepslate_brick_beam",
 			"count": 6
 		}

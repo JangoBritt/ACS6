@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:crimson_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_crimson",
 			"count": 1
 		}

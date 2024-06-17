@@ -18,12 +18,12 @@
 			"A": {
 				"item": "minecraft:stick",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:cherry_wood_gate1",
 			"count": 1
 		}

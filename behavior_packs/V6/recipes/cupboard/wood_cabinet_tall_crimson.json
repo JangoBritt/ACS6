@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:crimson_wood_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:crimson_wood_cabinet_tall",
 			"count": 1
 		}

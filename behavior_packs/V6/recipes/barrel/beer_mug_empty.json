@@ -16,12 +16,12 @@
 			},
 			"A": {
 				"item": "minecraft:iron_ingot"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:iron_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_mug_empty_item",
 			"count": 3
 		}

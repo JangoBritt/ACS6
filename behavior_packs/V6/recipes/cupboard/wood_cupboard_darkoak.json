@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:darkoak_wood_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:darkoak_wood_cupboard",
 			"count": 1
 		}

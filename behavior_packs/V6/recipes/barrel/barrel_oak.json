@@ -23,12 +23,12 @@
 			},
 			"C": {
 				"item": "minecraft:frame"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:oak_barrel",
 			"count": 1
 		}

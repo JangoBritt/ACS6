@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:spruce_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_spruce",
 			"count": 1
 		}

@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:bamboo_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:bamboo_cabinet_tall",
 			"count": 1
 		}

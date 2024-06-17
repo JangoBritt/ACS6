@@ -18,12 +18,12 @@
 			"A": {
 				"item": "medieval:acacia_wood_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:acacia_wood_fence0",
 			"count": 2
 		}

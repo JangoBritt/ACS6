@@ -15,12 +15,12 @@
 			"#": {
 				"item": "minecraft:planks",
 				"data": 5
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:darkoak_planks_beam",
 			"count": 6
 		}

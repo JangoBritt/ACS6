@@ -27,7 +27,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "athos_misc:oak_book"}
 		],
 		"result": {
 			"item": "medieval:oak_toilet",

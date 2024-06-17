@@ -24,7 +24,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:wheat"}
 		],
 		"result": {
 			"item": "medieval:wine_bottle_item",

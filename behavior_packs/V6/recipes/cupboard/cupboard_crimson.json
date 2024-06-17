@@ -18,12 +18,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_crimson_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:crimson_cupboard",
 			"count": 1
 		}

@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:stone",
 				"data": 5
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:andesite"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:andesite_wall_0",
 			"count": 12
 		}

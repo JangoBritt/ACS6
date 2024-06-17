@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:mangrove_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_cabinet_tall",
 			"count": 1
 		}

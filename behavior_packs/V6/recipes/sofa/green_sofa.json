@@ -18,7 +18,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:green_wool"}
 		],
 		"result": {
 			"item": "medieval:green_sofa",

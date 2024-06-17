@@ -20,12 +20,12 @@
 			"B": {
 				"item": "minecraft:potion",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:copper_ingot"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:weathered_copper_bars_0",
 			"count": 4
 		}

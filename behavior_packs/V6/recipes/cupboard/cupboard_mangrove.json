@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:stripped_mangrove_mslab"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_cupboard",
 			"count": 1
 		}

@@ -23,12 +23,12 @@
 			},
 			"C": {
 				"item": "minecraft:frame"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:acacia_barrel",
 			"count": 1
 		}

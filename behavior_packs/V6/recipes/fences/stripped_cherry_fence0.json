@@ -18,12 +18,12 @@
 			"A": {
 				"item": "medieval:stripped_cherry_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_cherry_fence0",
 			"count": 2
 		}

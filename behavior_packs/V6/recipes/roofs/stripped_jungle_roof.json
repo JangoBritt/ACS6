@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:stripped_jungle_log",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_jungle_mslab",
 			"count": 12
 		}

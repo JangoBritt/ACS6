@@ -19,12 +19,12 @@
 			"B": {
 				"item": "minecraft:stone",
 				"data": 6
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:andesite"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:polished_andesite_brazier",
 			"count": 2
 		}

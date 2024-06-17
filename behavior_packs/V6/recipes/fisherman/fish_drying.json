@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:iron_ingot"}
 		],
 		"result": {
 			"item": "medieval:fish_drying",

@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:cherry_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_cherry",
 			"count": 1
 		}

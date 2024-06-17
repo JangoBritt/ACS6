@@ -23,7 +23,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:book"}
 		],
 		"result": {
 			"item": "medieval:book_2",

@@ -12,12 +12,12 @@
 			"#": {
 				"item": "minecraft:blackstone",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:blackstone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:blackstone_mslab",
 			"count": 12
 		}

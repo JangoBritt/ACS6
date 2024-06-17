@@ -16,6 +16,9 @@
 			"item": "medieval:stripped_acacia_post"
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
     "result": {
       "item": "medieval:stripped_acacia_stool",
 	  "count": 1

@@ -18,12 +18,12 @@
 			"A": {
 				"item": "medieval:stripped_crimson_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_crimson_fence0",
 			"count": 2
 		}

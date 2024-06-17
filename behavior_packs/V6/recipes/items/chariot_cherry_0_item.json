@@ -19,12 +19,12 @@
 			},
 			"B": {
 				"item": "medieval:wheel_item"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:cherry_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:chariot_cherry_0_item",
 			"count": 1
 		}

@@ -18,12 +18,12 @@
 			"A": {
 				"item": "minecraft:stick",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:oak_wood_gate",
 			"count": 1
 		}

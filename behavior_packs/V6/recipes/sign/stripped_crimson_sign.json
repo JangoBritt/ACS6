@@ -18,12 +18,12 @@
 			},
 			"P": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_crimson_sign",
 			"count": 4
 		}

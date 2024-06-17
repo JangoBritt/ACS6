@@ -20,12 +20,12 @@
 			"A": {
 				"item": "minecraft:copper_ingot",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:birch_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stripped_birch_tv",
 			"count": 2
 		}

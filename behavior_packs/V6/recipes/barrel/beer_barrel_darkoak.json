@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:darkoak_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_darkoak",
 			"count": 1
 		}

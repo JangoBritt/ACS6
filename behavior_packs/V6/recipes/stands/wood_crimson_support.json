@@ -15,12 +15,12 @@
 			},
 			"A": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:crimson_stem"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:crimson_wood_support",
 			"count": 3
 		}

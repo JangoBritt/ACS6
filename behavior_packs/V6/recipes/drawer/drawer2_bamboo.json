@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:book"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:bamboo_block"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:bamboo_drawer2",
 			"count": 1
 		}

@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:diamond",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:diamond"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:diamond_bars_0",
 			"count": 16
 		}

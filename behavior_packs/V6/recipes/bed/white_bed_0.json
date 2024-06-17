@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:white_wool"}
 		],
 		"result": {
 			"item": "medieval:bed_0_white",

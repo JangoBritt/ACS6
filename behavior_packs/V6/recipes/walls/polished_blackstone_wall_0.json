@@ -14,12 +14,12 @@
 			"#": {
 				"item": "minecraft:polished_blackstone",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:blackstone"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:polished_blackstone_wall_0",
 			"count": 12
 		}

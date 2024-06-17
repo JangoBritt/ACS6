@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:stripped_acacia_log",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:acacia_bucket",
 			"count": 3
 		}

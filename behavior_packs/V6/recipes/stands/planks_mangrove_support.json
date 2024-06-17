@@ -15,12 +15,12 @@
 			},
 			"A": {
 				"item": "minecraft:stick"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_planks_support",
 			"count": 3
 		}

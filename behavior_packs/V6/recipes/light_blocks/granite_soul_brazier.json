@@ -19,12 +19,12 @@
 			"B": {
 				"item": "minecraft:stone",
 				"data": 1
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:granite"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:granite_soul_brazier",
 			"count": 2
 		}

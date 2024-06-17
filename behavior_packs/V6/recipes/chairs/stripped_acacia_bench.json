@@ -19,6 +19,9 @@
 			"data": 0
 		}
     },
+		"unlock": [
+			{"item": "athos_misc:acacia_book"}
+		],
     "result": {
       "item": "medieval:stripped_acacia_bench",
 	  "count": 3

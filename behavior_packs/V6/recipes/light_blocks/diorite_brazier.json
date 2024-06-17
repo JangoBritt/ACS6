@@ -19,12 +19,12 @@
 			"B": {
 				"item": "minecraft:stone",
 				"data": 3
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:diorite"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:diorite_brazier",
 			"count": 2
 		}

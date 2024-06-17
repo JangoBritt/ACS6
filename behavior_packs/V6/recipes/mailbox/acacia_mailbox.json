@@ -18,12 +18,12 @@
 			},
 			"I": {
 				"item": "minecraft:iron_ingot"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:acacia_mailbox_0",
 			"count": 1
 		}

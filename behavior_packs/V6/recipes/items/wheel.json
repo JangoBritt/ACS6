@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:planks"}
 		],
 		"result": {
 			"item": "medieval:wheel_item",

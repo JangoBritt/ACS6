@@ -17,12 +17,12 @@
 			},
 			"B": {
 				"item": "medieval:acacia_barrel"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:acacia_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:beer_barrel_acacia",
 			"count": 1
 		}

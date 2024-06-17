@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:darkoak_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:dark_oak_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:darkoak_cabinet_tall",
 			"count": 1
 		}

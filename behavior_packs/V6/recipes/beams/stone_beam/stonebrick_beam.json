@@ -15,12 +15,12 @@
 			"#": {
 				"item": "minecraft:stonebrick",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:stonebrick"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:stonebrick_beam",
 			"count": 6
 		}

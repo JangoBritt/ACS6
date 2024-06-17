@@ -24,12 +24,12 @@
 			"C": {
 				"item": "medieval:emerald_chandelier",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:emerald"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:emerald_hanging_chandelier",
 			"count": 1
 		}

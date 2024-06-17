@@ -15,12 +15,12 @@
 			"A": {
 				"item": "medieval:mangrove_wood_post",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:mangrove_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:mangrove_wood_fence1",
 			"count": 2
 		}

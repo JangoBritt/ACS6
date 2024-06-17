@@ -20,7 +20,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:glass"}
 		],
 		"result": {
 			"item": "medieval:cookie_jar_0",

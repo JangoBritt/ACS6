@@ -22,12 +22,12 @@
 			},
 			"C": {
 				"item": "minecraft:paper"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:jungle_drawer0",
 			"count": 1
 		}

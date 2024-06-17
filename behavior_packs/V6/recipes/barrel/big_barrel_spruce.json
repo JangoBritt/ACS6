@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:beer_barrel_spruce"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:spruce_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:big_barrel_spruce",
 			"count": 1
 		}

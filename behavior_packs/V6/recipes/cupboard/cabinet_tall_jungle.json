@@ -14,12 +14,12 @@
 		"key": {
 			"A": {
 				"item": "medieval:jungle_cupboard"
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:jungle_log"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:jungle_cabinet_tall",
 			"count": 1
 		}

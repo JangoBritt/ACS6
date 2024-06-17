@@ -15,12 +15,12 @@
 			"A": {
 				"item": "minecraft:emerald",
 				"data": 0
-			}
-		},
+		}
+    },
 		"unlock": [
-			{"item": "medieval:workbench_left"}
+			{"item": "minecraft:emerald"}
 		],
-		"result": {
+    "result": {
 			"item": "medieval:emerald_bars_0",
 			"count": 16
 		}
