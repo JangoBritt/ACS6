@@ -3,14 +3,49 @@
 	"texture_name": "atlas.items",
 	"texture_data": {
         //--- Medals --- //
+		"demise_medal": {
+			"textures": "textures/medals/demise_medal"
+		},
 		"purple_safe_medal": {
 			"textures": "textures/medals/purple_safe_medal"
 		},
-        "demise_medal": {
-			"textures": "textures/medals/demise_medal"
+		"server_tour_medal_01": {
+			"textures": "textures/medals/server_tour_medal_01"
 		},
-
-
+		"server_tour_medal_02": {
+			"textures": "textures/medals/server_tour_medal_02"
+		},
+		"server_tour_medal_03": {
+			"textures": "textures/medals/server_tour_medal_03"
+		},
+		"server_tour_medal_04": {
+			"textures": "textures/medals/server_tour_medal_04"
+		},
+		"server_tour_medal_05": {
+			"textures": "textures/medals/server_tour_medal_05"
+		},
+		"server_tour_medal_06": {
+			"textures": "textures/medals/server_tour_medal_06"
+		},
+		"server_tour_medal_07": {
+			"textures": "textures/medals/server_tour_medal_07"
+		},
+		"server_tour_medal_08": {
+			"textures": "textures/medals/server_tour_medal_08"
+		},
+		"server_tour_medal_09": {
+			"textures": "textures/medals/server_tour_medal_09"
+		},
+		"server_tour_medal_10": {
+			"textures": "textures/medals/server_tour_medal_10"
+		},
+		"server_tour_medal_11": {
+			"textures": "textures/medals/server_tour_medal_11"
+		},
+		"server_tour_medal_12": {
+			"textures": "textures/medals/server_tour_medal_12"
+		},
+        
         //--- Trophies --- //
 		"trophy_gold": {
 			"textures": "textures/items/trophy_gold"

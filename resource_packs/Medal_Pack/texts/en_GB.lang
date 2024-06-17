@@ -1,14 +1,37 @@
-item.athos_medal:purple_safe_medal.name=Purple Safe Medal
+## Medals:
+
 item.athos_medal:demise_medal.name=Demise Participant Medal
+item.athos_medal:purple_safe_medal.name=Purple Safe Medal
+item.athos_medal:server_tour_medal_01.name=July 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_02.name=August 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_03.name=September 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_04.name=October 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_05.name=November 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_06.name=December 2023 Server Tour Medal
+item.athos_medal:server_tour_medal_07.name=January 2024 Server Tour Medal
+item.athos_medal:server_tour_medal_08.name=February 2024 Server Tour Medal
+item.athos_medal:server_tour_medal_09.name=March 2024 Server Tour Medal
+item.athos_medal:server_tour_medal_10.name=April 2024 Server Tour Medal
+item.athos_medal:server_tour_medal_11.name=May 2024 Server Tour Medal
+item.athos_medal:server_tour_medal_12.name=June 2024 Server Tour Medal
+
+
+## Certificates:
 
 tile.athos_medal:donor_certificate.name=§bAthos Certificate§r
-tile.athos_medal:demise_trophy.name=§gDemise 1st Place Trophy!§r
+
+
+## Trophies:
 
 item.spawn_egg.entity.athos_medals:trophy_demise.name=[Athos] §gDemise 1st Place Trophy§r
 entity.athos_medals:trophy_demise=[Athos] §gDemise 1st Place Trophy§r
+tile.athos_medal:demise_trophy.name=§gDemise 1st Place Trophy!§r
 
 item.spawn_egg.entity.athos_medals:trophy_gold.name=Gold Trophy
 entity.athos_medals:trophy_gold=Gold Trophy
+
+
+## Books:
 
 item.athos_misc:space_book.name=§lSpaceFlight Technology§r§f\nLearn the Technology for Travelling to Mars
 item.athos_misc:acacia_book.name=§lSavanna Furnishings r§f\nWorking with Acacia Wood
