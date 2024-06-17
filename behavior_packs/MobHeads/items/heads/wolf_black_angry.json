@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fmh:wolf_black_angry_item"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fmh_wolf_black_angry_item"
+			},
+			"minecraft:entity_placer": {
+				"entity": "fmh:wolf_black_angry"
+			}
+		}
+	}
+}
