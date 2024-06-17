@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_medal:server_tour_medal_02",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "server_tour_medal_02",
+			"minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

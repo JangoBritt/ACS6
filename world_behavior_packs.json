@@ -55,11 +55,12 @@
 	{
 		"pack_id" : "f8898c09-6d29-44fe-8303-15dfda9aba44", //FXNT Mob Heads
 		"version" : [ 3, 4, 3 ]
+
 	},
 	
 	{
 		"pack_id" : "d9560f08-233c-4c1c-9a72-3f5b6ace7d32", //Athos Medals
-		"version" : [ 6, 0, 4 ]
+		"version" : [ 6, 0, 5 ]
 	},
 	
 	{

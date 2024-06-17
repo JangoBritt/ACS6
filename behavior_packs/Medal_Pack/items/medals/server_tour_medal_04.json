@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "athos_medal:server_tour_medal_04",
+			"category": "items",
+			"group": "itemGroup.name.medals"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:max_stack_size": 64,
+			"minecraft:foil": false,
+			"minecraft:stack_by_data": true,
+			"minecraft:icon": {
+				"texture": "server_tour_medal_04"
+			},
+			"minecraft:display_name": {
+				"value": "item.athos_medal:server_tour_medal_04.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.medal"
+			}
+		}
+	}
+}
