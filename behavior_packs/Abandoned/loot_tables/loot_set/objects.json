@@ -565,7 +565,7 @@
             }
           ]
         },
-        {"type": "item","weight": 75,"name": "farmersdelight:skillet","functions": [{"function": "set_count","count": 1}]},
+        {"type": "item","weight": 75,"name": "farmersdelight:skillet_block","functions": [{"function": "set_count","count": 1}]},
         {"type": "item","weight": 75,"name": "farmersdelight:cooking_pot","functions": [{"function": "set_count","count": 1}]}
 
       ]
