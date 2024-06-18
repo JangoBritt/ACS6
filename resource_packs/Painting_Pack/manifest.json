@@ -7,16 +7,16 @@
 		"description": "Pack By §6AthosCraft§r | Additional Paintings | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
 		"name": "§aPaintings Pack§r v6.0 [R]",
 		"uuid": "f71c753f-e73d-4959-ab45-af8ab1dafa80",
-		"version": [6, 0, 1],
+		"version": [6, 0, 2],
 		"min_engine_version": [1, 19, 0]
 	},
 	"modules": [{
 		"type": "resources",
 		"uuid": "ecc93689-e90e-4b6c-bdf9-17822b0bf05a",
-		"version": [6, 0, 1]
+		"version": [6, 0, 2]
 	}],
 	"dependencies": [{
 		"uuid": "91879d55-d90a-411b-8aff-21b58979b6a3",
-		"version": [6, 0, 1]
+		"version": [6, 0, 2]
 	}]
 }
