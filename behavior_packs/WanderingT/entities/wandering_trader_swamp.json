@@ -90,8 +90,22 @@
         "width": 0.6,
         "height": 1.9
       },
+      "minecraft:preferred_path": {
+				"max_fall_blocks": 2,
+				"jump_cost": 1,
+				"default_block_cost": 50,
+				"preferred_path_blocks": [
+					{
+						"cost": 1,
+						"blocks": [
+							"grass_path",
+							"rock_path_mr"
+						]
+					}
+				]
+			},
       "minecraft:movement": {
-        "value": 0.2
+        "value": 0.20
       },
       "minecraft:navigation.walk": {
         "can_path_over_water": true,

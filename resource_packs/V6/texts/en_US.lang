@@ -1777,6 +1777,14 @@ medieval.music_disc_creator_music_box=§bNow playing: Lena Raine - Creator (Musi
 medieval.music_disc_precipice=§bNow playing: Aaron Cherof - Precipice
 
 
-item.medieval:villager_hat_librarian=Librarian Hat
 item.medieval:villager_profession_librarian=Librarian Robe
+
+item.medieval:villager_hat_librarian=Librarian Hat
 item.medieval:villager_hat_farmer=Farmer Hat
+item.medieval:villager_hat_butcher=Butcher's Bandana
+item.medieval:villager_hat_armorer=Armorer's Visor
+item.medieval:villager_hat_fletcher=Fletcher Hat
+item.medieval:villager_hat_shepherd=Shepherd Hat
+item.medieval:villager_hat_weaponsmith=Weaponsmith's Eyepatch
+item.medieval:villager_hat_fisherman=Fisherman Hat
+item.medieval:villager_hat_cartographer=Cartographer's Monacle

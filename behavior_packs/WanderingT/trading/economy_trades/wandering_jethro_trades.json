@@ -32,7 +32,17 @@
 						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:penguin_item","quantity": 1}]},
 						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:pigeon_item","quantity": 1}]},
 						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:snail_item","quantity": 1}]},
-						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:sunflower_item","quantity": 1}]}
+						{"max_uses": 2,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_avatars:sunflower_item","quantity": 1}]},
+						
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_librarian","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_butcher","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_armorer","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_fletcher","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_shepherd","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_weaponsmith","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_fisherman","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_cartographer","quantity": 1}]},
+						{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "medieval:villager_hat_farmer","quantity": 1}]}
 					]
 				},
 				{ //ACS5 Economy Purchases - Stones
