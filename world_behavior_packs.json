@@ -48,7 +48,7 @@
 	
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Lamps
-		"subpack" : "none_scripting_events",
+		"subpack" : "fully_scripting_events",
 		"version" : [ 1, 8, 1 ]
 	},
 	
@@ -75,7 +75,7 @@
 	
 	{
 		"pack_id" : "10001000-ab12-1111-1111-a000a000a000", //Abandoned Ruins
-		"subpack" : "none_scripting_events",
+		"subpack" : "fully_scripting_events",
 		"version" : [ 1, 10, 11 ]
 	},
 	

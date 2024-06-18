@@ -50,7 +50,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon skeleton_horse ~ ~ ~ ~ ~"
+								"summon minecraft:skeleton_horse ~ ~ ~ ~ ~"
 							]
 						}
 					},

@@ -8,8 +8,8 @@
 			"crafting_table"
 		],
 		"pattern": [
-			"NCN",
-			"QEQ",
+			"XCX",
+			"NEN",
 			"ILI"
 		],
 		"key": {
@@ -19,8 +19,8 @@
 			"C": {
 				"item": "minecraft:iron_chestplate"
 			},
-			"Q": {
-				"item": "minecraft:quartz"
+			"X": {
+				"item": "farmersdelight:canvas"
 			},
 			"E": {
 				"item": "athos_avatars:lifesupport_item"

@@ -50,7 +50,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon piglin_brute ~ ~ ~ ~ ~"
+								"summon minecraft:piglin_brute ~ ~ ~ ~ ~"
 							]
 						}
 					},

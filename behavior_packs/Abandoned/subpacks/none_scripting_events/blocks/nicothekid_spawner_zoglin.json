@@ -50,7 +50,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon zoglin ~ ~ ~ ~ ~"
+								"summon minecraft:zoglin ~ ~ ~ ~ ~"
 							]
 						}
 					},

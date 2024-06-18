@@ -50,7 +50,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon wither_skeleton ~ ~ ~ ~ ~"
+								"summon minecraft:wither_skeleton ~ ~ ~ ~ ~"
 							]
 						}
 					},

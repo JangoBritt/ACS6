@@ -53,7 +53,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon zombie_horse ~ ~ ~ ~ ~"
+								"summon minecraft:zombie_horse ~ ~ ~ ~ ~"
 							]
 						}
 					},

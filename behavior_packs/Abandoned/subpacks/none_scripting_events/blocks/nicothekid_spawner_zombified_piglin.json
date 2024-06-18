@@ -50,7 +50,7 @@
 					{
 						"run_command": {
 							"command": [
-								"summon zombie_pigman ~ ~ ~ ~ ~"
+								"summon minecraft:zombie_pigman ~ ~ ~ ~ ~"
 							]
 						}
 					},

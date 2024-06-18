@@ -14,7 +14,7 @@
           "adjust_for_weather": false
         },
         "minecraft:weight": {
-          "default": 3
+          "default": 1
         },
         "minecraft:density_limit": {
           "surface": 1
