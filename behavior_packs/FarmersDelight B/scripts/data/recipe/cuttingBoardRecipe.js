@@ -20,7 +20,13 @@ const ItemofKnifeList = [
     "minecraft:chicken",
     "minecraft:mutton",
     "minecraft:cooked_mutton",
-    "minecraft:cooked_chicken"
+    "minecraft:cooked_chicken",
+    "minecraft:saddle",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_helmet",
+    "minecraft:leather_boots",
+    "minecraft:leather_leggings",
+    "minecraft:leather_horse_armor"
 ];
 const ItemofAxeList = [
     "minecraft:oak_door",
@@ -84,9 +90,13 @@ const BlockofPickaxeList = [
     "minecraft:amethyst_block",
     "minecraft:bricks",
     "minecraft:deepslate",
-    //"minecraft:quartz_block",
+    "minecraft:quartz_block",
     "minecraft:stone",
-    "minecraft:nether_brick"
+    "minecraft:nether_brick",
+    "minecraft:cut_copper",
+    "minecraft:cut_copper_slab",
+    "minecraft:cut_copper_stairs",
+    "minecraft:chiseled_copper"
 ];
 const BlockofKnifeList = [
     "minecraft:pumpkin",
