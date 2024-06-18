@@ -7,20 +7,20 @@
 		"description": "Pack By §6AthosCraft§r | Avatar Pack | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
 		"name": "§aAvatar Pack§r [R]",
 		"uuid": "04051855-530c-4cea-999b-9ead1c0850d9",
-		"version": [ 6, 0, 8 ],
+		"version": [ 6, 0, 9 ],
 		"min_engine_version": [ 1, 20, 81 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "5edbb13f-8e13-4b9a-86d1-0e992236268c",
-			"version": [ 6, 0, 8 ]
+			"version": [ 6, 0, 9 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "026d10cc-e079-4f2a-a95f-f822cbe01ffd",
-			"version": [ 6, 0, 8 ]
+			"version": [ 6, 0, 9 ]
 		}
 	]
 }
