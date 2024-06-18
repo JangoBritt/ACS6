@@ -118,44 +118,44 @@ execute as @s[name="VVangoWookie",tag=Demised] run tag @s remove Demised
 execute as @s[name="Wookieswife12",tag=Demised] run tag @s remove Demised
 execute as @s[name="xCGgamesx",tag=Demised] run tag @s remove Demised
 execute as @s[name="xRaistin",tag=Demised] run tag @s remove Demised
-execute as @s[name="Arsey RC",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Atlaskes",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Bigdog184382",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Calico Jacque",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="CDN Hambone",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Cragola",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Damo8030",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Darth Angelo",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Dcstar36",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="DiatomicSloth19",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="DingoZero",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="EMPRESSTlTAN",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="FiremanKing 316",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="FirstStorm5023",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Fr0mm1",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="garthcp",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="hillmanunited",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="JangoBritt",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="JonahMacD",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Kailio 1980",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="MastaTony",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Mids128",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="MxChlorine",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Ngarvi",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="NovaEmcarlo",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="OldCdnGamer",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Purplelady1022",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Qwikstreet",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Raul Del Fuego",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Rezpint",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="SFC Preston",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="SolarYard1998",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Stesko9190",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="TCC Segrub",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Tellis042",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Tonystar73",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="VVangoWookie",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="Wookieswife12",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="xCGgamesx",tag=Tagged] run tag @s remove Tagged
-execute as @s[name="xRaistin",tag=Tagged] run tag @s remove Tagged
+execute as @s[name="Arsey RC",tag=DJT] run tag @s remove DJT
+execute as @s[name="Atlaskes",tag=DJT] run tag @s remove DJT
+execute as @s[name="Bigdog184382",tag=DJT] run tag @s remove DJT
+execute as @s[name="Calico Jacque",tag=DJT] run tag @s remove DJT
+execute as @s[name="CDN Hambone",tag=DJT] run tag @s remove DJT
+execute as @s[name="Cragola",tag=DJT] run tag @s remove DJT
+execute as @s[name="Damo8030",tag=DJT] run tag @s remove DJT
+execute as @s[name="Darth Angelo",tag=DJT] run tag @s remove DJT
+execute as @s[name="Dcstar36",tag=DJT] run tag @s remove DJT
+execute as @s[name="DiatomicSloth19",tag=DJT] run tag @s remove DJT
+execute as @s[name="DingoZero",tag=DJT] run tag @s remove DJT
+execute as @s[name="EMPRESSTlTAN",tag=DJT] run tag @s remove DJT
+execute as @s[name="FiremanKing 316",tag=DJT] run tag @s remove DJT
+execute as @s[name="FirstStorm5023",tag=DJT] run tag @s remove DJT
+execute as @s[name="Fr0mm1",tag=DJT] run tag @s remove DJT
+execute as @s[name="garthcp",tag=DJT] run tag @s remove DJT
+execute as @s[name="hillmanunited",tag=DJT] run tag @s remove DJT
+execute as @s[name="JangoBritt",tag=DJT] run tag @s remove DJT
+execute as @s[name="JonahMacD",tag=DJT] run tag @s remove DJT
+execute as @s[name="Kailio 1980",tag=DJT] run tag @s remove DJT
+execute as @s[name="MastaTony",tag=DJT] run tag @s remove DJT
+execute as @s[name="Mids128",tag=DJT] run tag @s remove DJT
+execute as @s[name="MxChlorine",tag=DJT] run tag @s remove DJT
+execute as @s[name="Ngarvi",tag=DJT] run tag @s remove DJT
+execute as @s[name="NovaEmcarlo",tag=DJT] run tag @s remove DJT
+execute as @s[name="OldCdnGamer",tag=DJT] run tag @s remove DJT
+execute as @s[name="Purplelady1022",tag=DJT] run tag @s remove DJT
+execute as @s[name="Qwikstreet",tag=DJT] run tag @s remove DJT
+execute as @s[name="Raul Del Fuego",tag=DJT] run tag @s remove DJT
+execute as @s[name="Rezpint",tag=DJT] run tag @s remove DJT
+execute as @s[name="SFC Preston",tag=DJT] run tag @s remove DJT
+execute as @s[name="SolarYard1998",tag=DJT] run tag @s remove DJT
+execute as @s[name="Stesko9190",tag=DJT] run tag @s remove DJT
+execute as @s[name="TCC Segrub",tag=DJT] run tag @s remove DJT
+execute as @s[name="Tellis042",tag=DJT] run tag @s remove DJT
+execute as @s[name="Tonystar73",tag=DJT] run tag @s remove DJT
+execute as @s[name="VVangoWookie",tag=DJT] run tag @s remove DJT
+execute as @s[name="Wookieswife12",tag=DJT] run tag @s remove DJT
+execute as @s[name="xCGgamesx",tag=DJT] run tag @s remove DJT
+execute as @s[name="xRaistin",tag=DJT] run tag @s remove DJT
 function demise_tagged
