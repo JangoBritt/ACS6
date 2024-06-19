@@ -4,7 +4,7 @@
 		"name": "Lamps & Lanterns (v1.8.2) [Behavior Pack]",
 		"description": "Adding more light blocks for your survival game.",
 		"uuid": "10001000-1223-1111-1111-a000a000a000",
-		"version": [ 1, 8, 2 ],
+		"version": [ 1, 8, 3 ],
 		"min_engine_version": [ 1, 20, 30 ]
 	},
 	"metadata": {
@@ -15,20 +15,20 @@
 		{
 			"type": "data",
 			"uuid": "10001000-1223-1111-1111-100010001000",
-			"version": [ 1, 8, 2 ]
+			"version": [ 1, 8, 3 ]
 		},
 		{
 			"type": "script",
 			"language": "javascript",
 			"uuid": "10001000-1223-1111-1111-100010001000",
 			"entry": "scripts/main.js",
-			"version": [ 1, 8, 2 ]
+			"version": [ 1, 8, 3 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "20002000-1223-2222-2222-b000b000b000",
-			"version": [ 1, 8, 2 ]
+			"version": [ 1, 8, 3 ]
 		},
 		{
 			"module_name": "@minecraft/server",
