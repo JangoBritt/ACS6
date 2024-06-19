@@ -1,3 +1,4 @@
+give @s[tag=!Demised] athos_medal:demise_medal
 execute as @s[name="Arsey RC",tag=!Demised] run scoreboard players reset " Arsey RC" demise
 execute as @s[name="Atlaskes",tag=!Demised] run scoreboard players reset " Atlaskes" demise
 execute as @s[name="Bigdog184382",tag=!Demised] run scoreboard players reset " Bigdog184382" demise

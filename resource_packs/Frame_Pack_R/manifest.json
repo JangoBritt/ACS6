@@ -1,18 +1,20 @@
 {
 	"format_version": 2,
 	"metadata": {
-		"authors": ["AthosCraft"]
+		"authors": [ "AthosCraft" ]
 	},
 	"header": {
 		"description": "Pack By §6AthosCraft§r | Invisible Item Frames | Visit §9www.athoscraft.com§r",
-		"name": "§aFrame Pack§r v1.0",
+		"name": "§aFrame Pack§r v6.0",
 		"uuid": "8850b6e4-469e-4084-9d25-d5367dcb7c64",
-		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"version": [ 6, 0, 0 ],
+		"min_engine_version": [ 1, 16, 0 ]
 	},
-	"modules": [{
-		"type": "resources",
-		"uuid": "2318449b-7130-406e-b7e1-4f0cf5ac33c5",
-		"version": [1, 0, 0]
-	}]
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2318449b-7130-406e-b7e1-4f0cf5ac33c5",
+			"version": [ 6, 0, 0 ]
+		}
+	]
 }
