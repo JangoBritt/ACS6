@@ -1,1 +1,23 @@
-{"format_version":2,"header":{"description":"v7.4.1 - Pack by FoxyNoTail - Tiny blocks for your world - Visit www.foxynotail.com for more packs & add-ons - \u00a92023, FoxyNoTail","name":"Mini Blocks v7.4.1","uuid":"5f579963-21e7-4945-ac23-b11e2a0f018c","version":[7,4,1],"min_engine_version":[1,19,83]},"modules":[{"type":"resources","uuid":"433be2d1-16d3-438a-9535-8d0b3353e775","version":[7,4,1]}],"dependencies":[{"uuid":"91a21bbc-69c8-47b9-abf2-8ab6fdf6042b","version":[7,4,1]}]}
+{
+    "format_version": 2,
+    "header": {
+        "description": "Pack by FoxyNoTail - Based on v7.4.1 - Tiny blocks for your world - Visit www.foxynotail.com for more packs & add-ons - \u00a92023, FoxyNoTail",
+        "name": "Mini Blocks v7.4.2",
+        "uuid": "5f579963-21e7-4945-ac23-b11e2a0f018c",
+        "version": [ 7, 4, 2 ],
+        "min_engine_version": [ 1, 19, 83 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "433be2d1-16d3-438a-9535-8d0b3353e775",
+            "version": [ 7, 4, 2 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "91a21bbc-69c8-47b9-abf2-8ab6fdf6042b",
+            "version": [ 7, 4, 2 ]
+        }
+    ]
+}
