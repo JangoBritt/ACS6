@@ -2,13 +2,13 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "athos_painting:painting_s3",
+			"identifier": "athos_painting:painting_s5",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
 				"marco": "textures/entity/marco_3x2",
-				"cuadro1": "textures/cuadro3x2/3x2_s3"
+				"cuadro1": "textures/cuadro3x2/3x2_s5"
 			},
 			"geometry": {
 				"marco": "geometry.marco3x2",

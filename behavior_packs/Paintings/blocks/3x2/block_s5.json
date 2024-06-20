@@ -65,7 +65,7 @@
 								"condition": "query.block_property('athos_painting:block_rotation')==2",
 								"run_command": {
 									"command": [
-										"summon athos_painting:painting_s4 ~ ~-0.5 ~ facing_north"
+										"summon athos_painting:painting_s5 ~ ~-0.5 ~ facing_north"
 									]
 								}
 							},
@@ -73,7 +73,7 @@
 								"condition": "query.block_property('athos_painting:block_rotation')==3",
 								"run_command": {
 									"command": [
-										"summon athos_painting:painting_s4 ~ ~-0.5 ~ facing_south"
+										"summon athos_painting:painting_s5 ~ ~-0.5 ~ facing_south"
 									]
 								}
 							},
@@ -81,7 +81,7 @@
 								"condition": "query.block_property('athos_painting:block_rotation')==4",
 								"run_command": {
 									"command": [
-										"summon athos_painting:painting_s4 ~ ~-0.5 ~ facing_west"
+										"summon athos_painting:painting_s5 ~ ~-0.5 ~ facing_west"
 									]
 								}
 							},
@@ -89,7 +89,7 @@
 								"condition": "query.block_property('athos_painting:block_rotation')==5",
 								"run_command": {
 									"command": [
-										"summon athos_painting:painting_s4 ~ ~-0.5 ~ facing_east"
+										"summon athos_painting:painting_s5 ~ ~-0.5 ~ facing_east"
 									]
 								}
 							}
