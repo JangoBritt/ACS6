@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:box_item"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:paper"}
+		],
+		"result": {
+			"item": "mb:box_item",
+			"count": 1
+		}
+	}
+}
+

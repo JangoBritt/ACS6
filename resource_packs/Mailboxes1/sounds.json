@@ -1,0 +1,22 @@
+{
+    "block_sounds": {},
+    "entity_sounds": {
+        "entities": {
+            "mr:no_sound_mr": {
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
+                "pitch": [0.8,1],
+                "volume": 0
+            },
+            "mb:mailbox_container": {
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
+                "pitch": [0.8,1],
+                "volume": 0
+            },
+            "mb:postbox_container": {
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
+                "pitch": [0.8,1],
+                "volume": 0
+            }
+        }
+    }
+}

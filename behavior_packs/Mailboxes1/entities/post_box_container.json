@@ -1,0 +1,148 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mb:postbox_container",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mb:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "mr:no_sound_mr"
+				}
+			},
+			"mb:sensor": {
+				"minecraft:entity_sensor": {
+					"sensor_range": 15,
+					"minimum_count": 1,
+					"event_filters": {
+						"all_of": [
+							{ "test": "is_family", "subject": "other", "value": "player" }
+						]
+					},
+					"event": "mb:destroy"
+				},
+				"minecraft:collision_box": {
+					"width": 0.0,
+					"height": 0.0
+				}
+			}
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": [
+								{
+									"all_of": [
+										{
+											"subject": "player",
+											"test": "has_equipment",
+											"domain": "hand",
+											"operator": "==",
+											"value": "mb:box_item"
+										}
+									]
+								}
+							],
+							"event": "remove_box"
+						},
+						"use_item": true,
+						"play_sounds": "block.itemrfame.add_item",
+						"interact_text": "action.use_box_postbox"
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					  "shulker",
+					  "inanimate"
+				]
+		  	},
+			"minecraft:item_hopper": {},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.4
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": false,
+				"container_type": "inventory",
+				"inventory_size": 6,
+				"restrict_to_owner": false
+		  	},
+			"minecraft:on_death": {
+				"event": "mb:no_particle",
+				"target": "self"
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "mb:destroy",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~ ~ facing @p"
+					]
+				}
+			},
+			"mb:destroy": {
+				"run_command": {
+					"command": [
+						"kill @s",
+						"tp @e[type=item,r=1] ~~~"
+					]
+				}
+			},
+			"mb:sensor": {
+				"add": {
+					"component_groups": [
+						"mb:sensor"
+					]
+				}
+			},
+			"mb:no_particle": {
+				"add": {
+					"component_groups": [
+						"mb:no_particle"
+					]
+				}
+			}
+		}
+	}
+}

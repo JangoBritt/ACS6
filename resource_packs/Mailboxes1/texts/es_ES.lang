@@ -1,0 +1,44 @@
+tile.mb:post_box.name=Buzón de Correo
+tile.mb:acacia_mailbox.name=Buzón de Acacia #0
+tile.mb:birch_mailbox.name=Buzón de Abedul #0
+tile.mb:cherry_mailbox.name=Buzón de Cerezo #0
+tile.mb:crimson_mailbox.name=Buzón Carmesí #0
+tile.mb:dark_oak_mailbox.name=Buzón de Roble Oscuro #0
+tile.mb:jungle_mailbox.name=Buzón de Jungla #0
+tile.mb:mangrove_mailbox.name=Buzón de Manglar #0
+tile.mb:oak_mailbox.name=Buzón de Roble #0
+tile.mb:spruce_mailbox.name=Buzón de Abeto #0
+tile.mb:warped_mailbox.name=Buzón Deformado #0
+
+tile.mb:acacia_mail_box.name=Buzón de Acacia #1
+tile.mb:birch_mail_box.name=Buzón de Abedul #1
+tile.mb:cherry_mail_box.name=Buzón de Cerezo #1
+tile.mb:crimson_mail_box.name=Buzón Carmesí #1
+tile.mb:dark_oak_mail_box.name=Buzón de Roble Oscuro #1
+tile.mb:jungle_mail_box.name=Buzón de Jungla #1
+tile.mb:mangrove_mail_box.name=Buzón de Manglar #1
+tile.mb:oak_mail_box.name=Buzón de Roble #1
+tile.mb:spruce_mail_box.name=Buzón de Abeto #1
+tile.mb:warped_mail_box.name=Buzón Deformado #1
+
+item.mb:box_item=Paquete
+container.post_box=Buzón de Envio
+container.mb_mailbox=Buzón de Correo
+action.use_box_postbox=Enviar paquete
+
+form.mailbox_whitout_name=§cNo puedes crear un buzón sin nombre
+form.mailbox_exists=§cEl nombre de este buzón ya existe
+form.title.create_mailbox=Crear buzón
+form.text.create_mailbox_name=Ingresa un nombre
+form.mailbox_not_created=§cSe ha cancelado la creación del buzón
+form.mailbox_created=Se ha creado el buzón: §e%s
+form.error_show_form=§cHubo un error al crear el buzón
+form.no_mailboxes_dimension=§cNo hay buzones en esta dimensión
+form.empty_package=§cNo puedes enviar paquetes vacíos
+form.has_box=§cNo puedes enviar paquetes dentro de otros paquetes
+form.title.send_box=Enviar paquetes
+form.selection.send_box=Lista de buzones
+form.shipment_cancelled=§cEl envío ha sido cancelado
+form.box_sent=Has enviado un paquete a: §e%s
+form.problem_shipment=§cHubo un error al enviar el paquete
+form.box_already_used=§cEl paquete ya ha sido abierto

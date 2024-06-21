@@ -4,7 +4,10 @@
 		"pack_id" : "789cca7c-3df6-4109-8bfa-401324da390b", //MrCrayFish Furniture
 		"version" : [ 0, 0, 2 ]
 	},
-	
+	{
+		"pack_id": "67cbb081-a7de-456d-93e6-65303e257827",  //Mailboxes
+		"version": [ 0, 0 , 1 ]
+	},
 	{
 		"pack_id" : "7e27a118-06e8-4227-a578-0d5e3fe9c809", //FXNT Armor Stand
 		"version" : [ 3, 1, 2 ]

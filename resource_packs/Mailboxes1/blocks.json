@@ -1,0 +1,26 @@
+{
+	"format_version": [1, 1, 0],
+
+	"mb:post_box": {"textures": "mb:post_box","sound": "metal"},
+	"mb:acacia_mailbox": {"textures": "mb:acacia_mailbox","sound": "wood"},
+	"mb:birch_mailbox": {"textures": "mb:birch_mailbox","sound": "wood"},
+	"mb:cherry_mailbox": {"textures": "mb:cherry_mailbox","sound": "cherry_wood"},
+	"mb:crimson_mailbox": {"textures": "mb:crimson_mailbox","sound": "stem"},
+	"mb:dark_oak_mailbox": {"textures": "mb:dark_oak_mailbox","sound": "wood"},
+	"mb:jungle_mailbox": {"textures": "mb:jungle_mailbox","sound": "wood"},
+	"mb:mangrove_mailbox": {"textures": "mb:mangrove_mailbox","sound": "wood"},
+	"mb:oak_mailbox": {"textures": "mb:oak_mailbox","sound": "wood"},
+	"mb:spruce_mailbox": {"textures": "mb:spruce_mailbox","sound": "wood"},
+	"mb:warped_mailbox": {"textures": "mb:warped_mailbox","sound": "stem"},
+
+	"mb:acacia_mail_box": {"textures": "mb:acacia_mail_box","sound": "wood"},
+	"mb:birch_mail_box": {"textures": "mb:birch_mail_box","sound": "wood"},
+	"mb:cherry_mail_box": {"textures": "mb:cherry_mail_box","sound": "cherry_wood"},
+	"mb:crimson_mail_box": {"textures": "mb:crimson_mail_box","sound": "stem"},
+	"mb:dark_oak_mail_box": {"textures": "mb:dark_oak_mail_box","sound": "wood"},
+	"mb:jungle_mail_box": {"textures": "mb:jungle_mail_box","sound": "wood"},
+	"mb:mangrove_mail_box": {"textures": "mb:mangrove_mail_box","sound": "wood"},
+	"mb:oak_mail_box": {"textures": "mb:oak_mail_box","sound": "wood"},
+	"mb:spruce_mail_box": {"textures": "mb:spruce_mail_box","sound": "wood"},
+	"mb:warped_mail_box": {"textures": "mb:warped_mail_box","sound": "stem"}
+}
