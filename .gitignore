@@ -1,5 +1,5 @@
 db/
 level.dat
-level.dat.old
+level.dat_old
 .github/workflows/
 world_icon.jpeg
