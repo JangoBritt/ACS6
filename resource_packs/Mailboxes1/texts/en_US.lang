@@ -1,0 +1,45 @@
+tile.mb:post_box.name=Post Box #0
+tile.mb:acacia_mailbox.name=Acacia Mailbox #0
+tile.mb:birch_mailbox.name=Birch Mailbox #0
+tile.mb:cherry_mailbox.name=Cherry Mailbox #0
+tile.mb:crimson_mailbox.name=Crimson Mailbox #0
+tile.mb:dark_oak_mailbox.name=Dark Oak Mailbox #0
+tile.mb:jungle_mailbox.name=Jungle Mailbox #0
+tile.mb:mangrove_mailbox.name=Mangrove Mailbox #0
+tile.mb:oak_mailbox.name=Oak Mailbox #0
+tile.mb:spruce_mailbox.name=Spruce Mailbox #0
+tile.mb:warped_mailbox.name=Warped Mailbox #0
+
+tile.mb:acacia_mail_box.name=Acacia Mailbox #1
+tile.mb:birch_mail_box.name=Birch Mailbox #1
+tile.mb:cherry_mail_box.name=Cherry Mailbox #1
+tile.mb:crimson_mail_box.name=Crimson Mailbox #1
+tile.mb:dark_oak_mail_box.name=Dark Oak Mailbox #1
+tile.mb:jungle_mail_box.name=Jungle Mailbox #1
+tile.mb:mangrove_mail_box.name=Mangrove Mailbox #1
+tile.mb:oak_mail_box.name=Oak Mailbox #1
+tile.mb:spruce_mail_box.name=Spruce Mailbox #1
+tile.mb:warped_mail_box.name=Warped Mailbox #1
+
+item.mb:box_item=Package
+container.post_box=Post Box
+container.mb_mailbox=Mailbox
+action.use_box_postbox=Send Package
+
+form.mailbox_whitout_name=§cYou can't create a mailbox without a name
+form.mailbox_exists=§cThe name for this mailbox already exists
+form.title.create_mailbox=Create Mailbox
+form.text.create_mailbox_name=Enter a name
+form.mailbox_not_created=§cThe creation of the mailbox has been canceled
+form.mailbox_created=The mailbox has been created: §e%s
+form.error_show_form=§cThere was an error creating the mailbox
+form.no_mailboxes_dimension=§cThere are no mailboxes in this dimension
+form.empty_package=§cYou can't send empty packages
+form.has_box=§cYou can't send packages within other packages
+form.title.send_box=Send Packages
+form.selection.send_box=List of mailboxes
+form.shipment_cancelled=§cThe shipment has been canceled
+form.box_sent=You have sent a package to: §e%s
+form.problem_shipment=§cThere was an error sending the package
+form.box_already_used=§cThe package has already been opened
+form.restricted_item=§cYou cannot send Shulker boxes or writable books

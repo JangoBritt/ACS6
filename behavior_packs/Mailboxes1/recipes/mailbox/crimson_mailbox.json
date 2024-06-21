@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:crimson_mailbox"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#C#",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:crimson_planks"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "mb:crimson_mailbox",
+			"count": 1
+		}
+	}
+}
+
+

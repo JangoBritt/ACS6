@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Mailboxes 1.21.0 [RP] for Minecraft PE",
+		"name": "Mailboxes 1.21.0 [RP] §bBy EndXenoc",
+		"uuid": "67cbb081-a7de-456d-93e6-65303e257827",
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			17,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "resources",
+			"type": "resources",
+			"uuid": "14bd8338-8ce3-4370-889e-3a7c9af8ee7f",
+			"version": [
+				0,
+				0,
+				1
+			]
+		}
+	]
+}

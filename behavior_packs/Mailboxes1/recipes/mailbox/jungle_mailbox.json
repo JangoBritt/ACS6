@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:jungle_mailbox"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#C#",
+			" S "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:jungle_planks"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:jungle_book"}
+		],
+		"result": {
+			"item": "mb:jungle_mailbox",
+			"count": 1
+		}
+	}
+}
+
+

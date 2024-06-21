@@ -1,0 +1,29 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+ 		"mb.post_box": {"textures": "textures/blocks/mailbox/post_box"},
+		"mb.acacia_mailbox": {"textures": "textures/blocks/mailbox/acacia_mailbox"},
+		"mb.birch_mailbox": {"textures": "textures/blocks/mailbox/birch_mailbox"},
+		"mb.cherry_mailbox": {"textures": "textures/blocks/mailbox/cherry_mailbox"},
+		"mb.crimson_mailbox": {"textures": "textures/blocks/mailbox/crimson_mailbox"},
+		"mb.dark_oak_mailbox": {"textures": "textures/blocks/mailbox/dark_oak_mailbox"},
+		"mb.jungle_mailbox": {"textures": "textures/blocks/mailbox/jungle_mailbox"},
+		"mb.mangrove_mailbox": {"textures": "textures/blocks/mailbox/mangrove_mailbox"},
+		"mb.oak_mailbox": {"textures": "textures/blocks/mailbox/oak_mailbox"},
+		"mb.spruce_mailbox": {"textures": "textures/blocks/mailbox/spruce_mailbox"},
+		"mb.warped_mailbox": {"textures": "textures/blocks/mailbox/warped_mailbox"},
+		"mb.acacia_mail_box": {"textures": "textures/blocks/mailbox/acacia_mail_box"},
+		"mb.birch_mail_box": {"textures": "textures/blocks/mailbox/birch_mail_box"},
+		"mb.cherry_mail_box": {"textures": "textures/blocks/mailbox/cherry_mail_box"},
+		"mb.crimson_mail_box": {"textures": "textures/blocks/mailbox/crimson_mail_box"},
+		"mb.dark_oak_mail_box": {"textures": "textures/blocks/mailbox/dark_oak_mail_box"},
+		"mb.jungle_mail_box": {"textures": "textures/blocks/mailbox/jungle_mail_box"},
+		"mb.mangrove_mail_box": {"textures": "textures/blocks/mailbox/mangrove_mail_box"},
+		"mb.oak_mail_box": {"textures": "textures/blocks/mailbox/oak_mail_box"},
+		"mb.spruce_mail_box": {"textures": "textures/blocks/mailbox/spruce_mail_box"},
+		"mb.warped_mail_box": {"textures": "textures/blocks/mailbox/warped_mail_box"}
+	}
+}

@@ -4,7 +4,10 @@
 		"pack_id" : "b17755d2-3cc0-424b-89dd-558fc98513f5", //Bedrock Bridge
 		"version" : [ 1, 3, 10 ]
 	},
-	
+	{
+		"pack_id": "8c2947de-3f23-4e53-9081-9ecc4fd75be7",  //Mailboxes
+		"version": [ 0, 0,1 ]
+	},
 	{
 		"pack_id" : "438024d9-66a9-4cd8-ba41-bf61188c57b2", //MrCrayFish Furniture
 		"version" : [ 0, 0, 2 ]

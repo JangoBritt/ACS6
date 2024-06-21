@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Mailboxes 1.21.0 [BP] for Minecraft PE",
+		"name": "Mailboxes 1.21.0 [BP] §bBy EndXenoc",
+		"uuid": "8c2947de-3f23-4e53-9081-9ecc4fd75be7",
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			20,
+			30
+		]
+	},
+	"modules": [
+		{
+			"description": "Data",
+			"type": "data",
+			"uuid": "e584c4d3-f0c7-4dee-8a5c-c9bf2ad5072b",
+			"version": [
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"description": "JS",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "5bb61c8b-f153-4c15-bfed-5a87fade6ab8",
+			"version": [0,0,1],
+			"entry": "scripts/Main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
