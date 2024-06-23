@@ -31,7 +31,7 @@ execute as @s[name="Rezpint",tag=!DJT] run scoreboard players set " Rezpint" dem
 execute as @s[name="SFC Preston",tag=!DJT] run scoreboard players set " SFC Preston" demise 1
 execute as @s[name="SolarYard1998",tag=!DJT] run scoreboard players set " SolarYard1998" demise 1
 execute as @s[name="Stesko9190",tag=!DJT] run scoreboard players set " Stesko9190" demise 1
-execute as @s[name="TCC Segrub",tag=!DJT] run scoreboard players set " TCC Segrub" demise 1
+execute as @s[name="TCC_Segrub",tag=!DJT] run scoreboard players set " TCC_Segrub" demise 1
 execute as @s[name="Tellis042",tag=!DJT] run scoreboard players set " Tellis042" demise 1
 execute as @s[name="Tonystar73",tag=!DJT] run scoreboard players set " Tonystar73" demise 1
 execute as @s[name="VVangoWookie",tag=!DJT] run scoreboard players set " VVangoWookie" demise 1
@@ -71,7 +71,7 @@ execute as @s[name="Rezpint",tag=!DJT] run tag @s add DJT
 execute as @s[name="SFC Preston",tag=!DJT] run tag @s add DJT
 execute as @s[name="SolarYard1998",tag=!DJT] run tag @s add DJT
 execute as @s[name="Stesko9190",tag=!DJT] run tag @s add DJT
-execute as @s[name="TCC Segrub",tag=!DJT] run tag @s add DJT
+execute as @s[name="TCC_Segrub",tag=!DJT] run tag @s add DJT
 execute as @s[name="Tellis042",tag=!DJT] run tag @s add DJT
 execute as @s[name="Tonystar73",tag=!DJT] run tag @s add DJT
 execute as @s[name="VVangoWookie",tag=!DJT] run tag @s add DJT
