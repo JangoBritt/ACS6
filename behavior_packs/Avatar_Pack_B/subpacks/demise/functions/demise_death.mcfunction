@@ -32,7 +32,7 @@ execute as @s[name="Rezpint",tag=!Demised] run scoreboard players reset " Rezpin
 execute as @s[name="SFC Preston",tag=!Demised] run scoreboard players reset " SFC Preston" demise
 execute as @s[name="SolarYard1998",tag=!Demised] run scoreboard players reset " SolarYard1998" demise
 execute as @s[name="Stesko9190",tag=!Demised] run scoreboard players reset " Stesko9190" demise
-execute as @s[name="TCC Segrub",tag=!Demised] run scoreboard players reset " TCC Segrub" demise
+execute as @s[name="TCC_Segrub",tag=!Demised] run scoreboard players reset " TCC_Segrub" demise
 execute as @s[name="Tellis042",tag=!Demised] run scoreboard players reset " Tellis042" demise
 execute as @s[name="Tonystar73",tag=!Demised] run scoreboard players reset " Tonystar73" demise
 execute as @s[name="VVangoWookie",tag=!Demised] run scoreboard players reset " VVangoWookie" demise
@@ -72,7 +72,7 @@ execute as @s[name="Rezpint",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="SFC Preston",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="SolarYard1998",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="Stesko9190",tag=!Demised] run scoreboard players set @s dead 1
-execute as @s[name="TCC Segrub",tag=!Demised] run scoreboard players set @s dead 1
+execute as @s[name="TCC_Segrub",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="Tellis042",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="Tonystar73",tag=!Demised] run scoreboard players set @s dead 1
 execute as @s[name="VVangoWookie",tag=!Demised] run scoreboard players set @s dead 1
@@ -112,7 +112,7 @@ execute as @s[name="Rezpint",tag=!Demised] run tag @s add Demised
 execute as @s[name="SFC Preston",tag=!Demised] run tag @s add Demised
 execute as @s[name="SolarYard1998",tag=!Demised] run tag @s add Demised
 execute as @s[name="Stesko9190",tag=!Demised] run tag @s add Demised
-execute as @s[name="TCC Segrub",tag=!Demised] run tag @s add Demised
+execute as @s[name="TCC_Segrub",tag=!Demised] run tag @s add Demised
 execute as @s[name="Tellis042",tag=!Demised] run tag @s add Demised
 execute as @s[name="Tonystar73",tag=!Demised] run tag @s add Demised
 execute as @s[name="VVangoWookie",tag=!Demised] run tag @s add Demised

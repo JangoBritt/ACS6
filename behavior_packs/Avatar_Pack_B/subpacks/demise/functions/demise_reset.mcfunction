@@ -31,7 +31,7 @@ execute as @s[name="Rezpint"] run scoreboard players reset @s dead
 execute as @s[name="SFC Preston"] run scoreboard players reset @s dead
 execute as @s[name="SolarYard1998"] run scoreboard players reset @s dead
 execute as @s[name="Stesko9190"] run scoreboard players reset @s dead
-execute as @s[name="TCC Segrub"] run scoreboard players reset @s dead
+execute as @s[name="TCC_Segrub"] run scoreboard players reset @s dead
 execute as @s[name="Tellis042"] run scoreboard players reset @s dead
 execute as @s[name="Tonystar73"] run scoreboard players reset @s dead
 execute as @s[name="VVangoWookie"] run scoreboard players reset @s dead
@@ -71,7 +71,7 @@ execute as @s[name="Rezpint"] run scoreboard players reset " Rezpint" demise
 execute as @s[name="SFC Preston"] run scoreboard players reset " SFC Preston" demise
 execute as @s[name="SolarYard1998"] run scoreboard players reset " SolarYard1998" demise
 execute as @s[name="Stesko9190"] run scoreboard players reset " Stesko9190" demise
-execute as @s[name="TCC Segrub"] run scoreboard players reset " TCC Segrub" demise
+execute as @s[name="TCC_Segrub"] run scoreboard players reset " TCC_Segrub" demise
 execute as @s[name="Tellis042"] run scoreboard players reset " Tellis042" demise
 execute as @s[name="Tonystar73"] run scoreboard players reset " Tonystar73" demise
 execute as @s[name="VVangoWookie"] run scoreboard players reset " VVangoWookie" demise
@@ -111,7 +111,7 @@ execute as @s[name="Rezpint",tag=Demised] run tag @s remove Demised
 execute as @s[name="SFC Preston",tag=Demised] run tag @s remove Demised
 execute as @s[name="SolarYard1998",tag=Demised] run tag @s remove Demised
 execute as @s[name="Stesko9190",tag=Demised] run tag @s remove Demised
-execute as @s[name="TCC Segrub",tag=Demised] run tag @s remove Demised
+execute as @s[name="TCC_Segrub",tag=Demised] run tag @s remove Demised
 execute as @s[name="Tellis042",tag=Demised] run tag @s remove Demised
 execute as @s[name="Tonystar73",tag=Demised] run tag @s remove Demised
 execute as @s[name="VVangoWookie",tag=Demised] run tag @s remove Demised
@@ -151,7 +151,7 @@ execute as @s[name="Rezpint",tag=DJT] run tag @s remove DJT
 execute as @s[name="SFC Preston",tag=DJT] run tag @s remove DJT
 execute as @s[name="SolarYard1998",tag=DJT] run tag @s remove DJT
 execute as @s[name="Stesko9190",tag=DJT] run tag @s remove DJT
-execute as @s[name="TCC Segrub",tag=DJT] run tag @s remove DJT
+execute as @s[name="TCC_Segrub",tag=DJT] run tag @s remove DJT
 execute as @s[name="Tellis042",tag=DJT] run tag @s remove DJT
 execute as @s[name="Tonystar73",tag=DJT] run tag @s remove DJT
 execute as @s[name="VVangoWookie",tag=DJT] run tag @s remove DJT
