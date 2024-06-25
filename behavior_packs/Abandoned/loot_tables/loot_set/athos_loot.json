@@ -149,8 +149,8 @@
             {"type": "item","weight": 50,"name": "athos_misc:jungle_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:mangrove_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:oak_book","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_misc:spruce_book","functions": [{"function": "set_count","count": 1}]}
-//            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 50,"name": "athos_misc:spruce_book","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]}
 //            {"type": "item","weight": 50,"name": "athos_misc:space_book","functions": [{"function": "set_count","count": 1}]}
         ]
       },
@@ -171,7 +171,13 @@
             {"type": "item","weight": 50,"name": "athos_avatars:snail_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:sunflower_item","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_avatars:toypolicecar_item","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_avatars:toyswatvan_item","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 50,"name": "athos_avatars:toyswatvan_item","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:rope","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:straw","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:tatami_mat","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:half_tatami_mat_item","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:canvas","functions": [{"function": "set_count","count": 1}]},
+            {"type": "item","weight": 50,"name": "farmersdelight:canvas_rug","functions": [{"function": "set_count","count": 1}]}
         ]
       },
       { //currency
