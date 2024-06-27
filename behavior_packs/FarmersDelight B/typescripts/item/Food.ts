@@ -79,7 +79,7 @@ export class Food {
     }
     //狗粮与马食
     @methodEventSub(world.beforeEvents.playerInteractWithEntity)
-    feed(args: PlayerInteractWithEntityBeforeEvent) {
+    feed(args: PlayerInteractWithEntityBeforeEvent){
         const itemStack = args.itemStack;
         if (!itemStack) return;
         const target = args.target;
@@ -89,7 +89,7 @@ export class Food {
                 if (target.typeId != 'minecraft:wolf') return
                 args.cancel = true;
                 system.run(() => {
-                    if (EntityUtil.gameMode(player)) ItemUtil.clearItem(player.getComponent(EntityInventoryComponent.componentId)?.container as Container, player.selectedSlot);
+                    if (EntityUtil.gameMode(player)) ItemUtil.clearItem(player.getComponent(EntityInventoryComponent.componentId)?.container as Container, player.selectedSlotIndex);
                     target.addEffect('speed', 6000);
                     target.addEffect('strength', 6000);
                     target.addEffect('resistance', 6000);
@@ -99,10 +99,10 @@ export class Food {
                 if (!horseFeedTargets.includes(target.typeId)) return
                 args.cancel = true;
                 system.run(() => {
-                    if (EntityUtil.gameMode(player)) ItemUtil.clearItem(player.getComponent(EntityInventoryComponent.componentId)?.container as Container, player.selectedSlot);
+                    if (EntityUtil.gameMode(player)) ItemUtil.clearItem(player.getComponent(EntityInventoryComponent.componentId)?.container as Container, player.selectedSlotIndex);
                     const healthComp = target.getComponent('health');
                     healthComp?.resetToMaxValue();
-                    target.addEffect('speed', 6000, { amplifier: 1 });
+                    target.addEffect('speed', 6000, {amplifier: 1});
                     target.addEffect('jump_boost', 6000);
                 })
                 break;
@@ -110,22 +110,4 @@ export class Food {
     }
 }
 
-const horseFeedTargets = [
-    'minecraft:donkey',
-    'minecraft:horse',
-    'minecraft:mule',
-    'minecraft:llama',
-    'minecraft:trader_llama',
-    'medieval:chariot_acacia_0',
-    'medieval:chariot_birch_0',
-    'medieval:chariot_cherry_0',
-    'medieval:chariot_crimson_0',
-    'medieval:chariot_darkoak_0',
-    'medieval:chariot_jungle_0',
-    'medieval:chariot_mangrove_0',
-    'medieval:chariot_oak_0',
-    'medieval:chariot_spruce_0',
-    'medieval:chariot_warped_0',
-    'medieval:oak_chariot_0'
-]
-
+const horseFeedTargets = ['minecraft:donkey', 'minecraft:horse', 'minecraft:mule', 'minecraft:llama', 'minecraft:trader_llama']
