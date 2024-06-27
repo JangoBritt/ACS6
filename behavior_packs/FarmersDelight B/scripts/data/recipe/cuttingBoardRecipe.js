@@ -21,6 +21,7 @@ const ItemofKnifeList = [
     "minecraft:mutton",
     "minecraft:cooked_mutton",
     "minecraft:cooked_chicken",
+    "minecraft:wheat",
     "minecraft:saddle",
     "minecraft:leather_chestplate",
     "minecraft:leather_helmet",
