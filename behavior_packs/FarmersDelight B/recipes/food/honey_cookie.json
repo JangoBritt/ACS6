@@ -18,9 +18,10 @@
                 "item": "minecraft:honey_bottle"
             }
         ],
-        "result": {
-            "item": "farmersdelight:honey_cookie",
-            "count": 8
-        }
+        "result": 
+            {
+                "item": "farmersdelight:honey_cookie",
+                "count": 8
+            }
     }
 }
