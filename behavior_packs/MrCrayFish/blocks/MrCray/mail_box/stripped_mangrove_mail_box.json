@@ -30,9 +30,6 @@
 			"minecraft:map_color": "#f7781e"
 		},
 		"events": {
-			"block_placed": {
-				"run_command": {"command": ["execute unless entity @e[type=mr:container_mr,r=0.5] run summon mr:container_mr ~~~ ~~ mr:inventory_mail mail_box"]}
-			}
 		}
 	}
 }

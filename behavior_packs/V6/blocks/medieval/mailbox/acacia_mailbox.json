@@ -28,8 +28,7 @@
 			"minecraft:map_color": "#f7781e"
 		},
 		"events": {
-			"set_direction": {"set_block_property": {"medieval:direction": "query.cardinal_facing_2d - 2"}},
-			"container": {"sequence": [{"run_command": {"command": "summon medieval:mailbox_0 ~ ~ ~ facing @p minecraft:entity_spawned Mailbox"}}]}
+			"set_direction": {"set_block_property": {"medieval:direction": "query.cardinal_facing_2d - 2"}}
 		}
 	}
 }
