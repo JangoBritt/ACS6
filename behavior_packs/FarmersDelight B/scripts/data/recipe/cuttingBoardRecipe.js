@@ -46,7 +46,7 @@ const ItemofAxeList = [
     "minecraft:birch_sign",
     "minecraft:jungle_sign",
     "minecraft:acacia_sign",
-    "minecraft:darkoak_sign",
+    "minecraft:dark_oak_sign",
     "minecraft:mangrove_sign",
     "minecraft:cherry_sign",
     "minecraft:crimson_sign",

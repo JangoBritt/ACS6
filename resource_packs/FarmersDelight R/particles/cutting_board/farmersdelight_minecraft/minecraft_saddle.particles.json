@@ -43,9 +43,9 @@
         "description": {
             "basic_render_parameters": {
                 "material": "particles_alpha", 
-                "texture": "textures/items/sign_darkoak"
+                "texture": "textures/items/saddle"
             }, 
-            "identifier": "farmersdelight:minecraft_darkoak_sign"
+            "identifier": "farmersdelight:minecraft_saddle"
         }
     }
 }
