@@ -14,7 +14,27 @@
 					"into": "mr:no_sound_mr"
 				}
 			},
-			"mb:despawn": {"minecraft:instant_despawn": {}}
+			"mb:despawn": {"minecraft:instant_despawn": {}},
+			"mb:unlock": {
+				"minecraft:tameable": {
+					"probability": 1.0,
+					"tame_items": "paper",
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				}
+			},
+			"mb:lock_owner": {
+				"minecraft:inventory": {
+					"can_be_siphoned_from": false,
+					"container_type": "inventory",
+					"inventory_size": 18,
+					"restrict_to_owner": true
+				},
+				"minecraft:item_hopper": {},
+				"minecraft:is_tamed":{}
+			}
 		},
 		"components": {
 			"minecraft:type_family": {
@@ -50,7 +70,7 @@
 			},
 			"minecraft:nameable": {},
 			"minecraft:inventory": {
-				"can_be_siphoned_from": false,
+				"can_be_siphoned_from": true,
 				"container_type": "inventory",
 				"inventory_size": 18,
 				"restrict_to_owner": false
@@ -75,9 +95,9 @@
 		},
 		"events": {
 			"minecraft:entity_spawned": {
-				"run_command": {
-					"command": [
-						"tp @s ~~~ facing @p"
+				"add": {
+					"component_groups": [
+						"mb:unlock"
 					]
 				}
 			},
@@ -94,6 +114,10 @@
 						"mb:no_particle"
 					]
 				}
+			},
+			"minecraft:on_tame": {
+				"add": {"component_groups": ["mb:lock_owner"]},
+				"remove": {"component_groups": ["mb:unlock"]}
 			}
 		}
 	}
