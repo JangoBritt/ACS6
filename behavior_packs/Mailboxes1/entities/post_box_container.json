@@ -51,15 +51,14 @@
 							],
 							"event": "remove_box"
 						},
-						"use_item": true,
-						"play_sounds": "block.itemrfame.add_item",
+						"play_sounds": "block.itemframe.add_item",
 						"interact_text": "action.use_box_postbox"
 					}
 				]
 			},
 			"minecraft:type_family": {
 				"family": [
-					  "shulker",
+					  "chest",
 					  "inanimate"
 				]
 		  	},

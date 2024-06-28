@@ -136,7 +136,7 @@ world.beforeEvents.playerBreakBlock.subscribe((e) => {
 	
 	if (mailboxIndex !== -1) {
 		const mailboxPlayerOwner = allMailboxes[mailboxIndex].owner;
-		if (mailboxPlayerOwner !== player.name) {
+		if (!((mailboxPlayerOwner === player.name) || (player.getGameMode() === "creative") || player.hasTag("mailboxop"))) {
 			e.cancel = true;
 			return;
 		}
@@ -152,16 +152,11 @@ world.afterEvents.playerInteractWithEntity.subscribe((e) => {
 	if(!(item.typeId === "mb:box_item" && target.typeId === "mb:postbox_container")) return;
 	SendMenu(player, target);
 });
-function returnBox(player){
-	const returnItem = new ItemStack("mb:box_item", 1);
-	player.playSound('random.break');
-	player.dimension.spawnItem(returnItem, player.location);
-}
 function SendMenu(player, target) {
 	const listMailboxes = data.getMailboxesByDimension(player.dimension.id);
 	if (listMailboxes.length === 0) {
 		player.sendMessage({translate: 'form.no_mailboxes_dimension'});
-		returnBox(player);
+		player.playSound('random.break');
 		return;
 	}
 	const sendItemsInventory = target.getComponent("inventory").container;
@@ -177,19 +172,19 @@ function SendMenu(player, target) {
 			}
 			if(item.typeId === "minecraft:writable_book" || item.typeId.includes("_shulker_box")){
 				player.sendMessage({translate: 'form.restricted_item'});
-				returnBox(player);
+				player.playSound('random.break');
 				return;
 			}
 		}
 	}
 	if(inventoryItems.length === 0){
 		player.sendMessage({ translate: 'form.empty_package'});
-		returnBox(player);
+		player.playSound('random.break');
 		return;
 	}
 	if(hasBox){
 		player.sendMessage({ translate: 'form.has_box'});
-		returnBox(player);
+		player.playSound('random.break');
 		return;
 	}
 	listMailboxes.sort((a, b) => a.name.localeCompare(b.name));
@@ -201,7 +196,7 @@ function SendMenu(player, target) {
 	sendItemsForm.show(player).then(formData => {
 		if(formData.canceled){
 			player.sendMessage({ translate: 'form.shipment_cancelled'});
-			returnBox(player);
+			player.playSound('random.break');
 			return;
 		}
 		const [selection] = formData.formValues;
@@ -233,7 +228,17 @@ function SendMenu(player, target) {
 		dataBox.setBox(boxId, itemList);
 		newBoxItem.setLore(loreList);
 		sendItemsInventory.clearAll();
+		const playerInventory = player.getComponent("inventory").container;
+		let selectedSlot = player.selectedSlotIndex;
+		let itemHolding = playerInventory.getItem(selectedSlot);
+		if (itemHolding.amount > 1) {
+			playerInventory.setItem(selectedSlot, new ItemStack(itemHolding.typeId, itemHolding.amount - 1));
+		} else {
+			playerInventory.moveItem(selectedSlot, 0, sendItemsInventory);
+		}
+		sendItemsInventory.clearAll();
 		sendItemsInventory.addItem(newBoxItem);
+
 		let oldLocation = target.location;
 		let newLocation = {x:x+0.5, y:y+0.5, z:z+0.5};
 		target.teleport(newLocation);
@@ -245,7 +250,7 @@ function SendMenu(player, target) {
 	})
 	.catch((error) => {
 		player.sendMessage({ translate: 'form.problem_shipment'});
-		returnBox(player);
+		player.playSound('random.break');
 		return -1;
 	});
 }
