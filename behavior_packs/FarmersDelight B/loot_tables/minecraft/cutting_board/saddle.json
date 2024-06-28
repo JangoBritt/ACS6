@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecrafat:iron_nugget",
+          "name": "minecraft:iron_nugget",
           "functions": [
             {
               "function": "set_count",
