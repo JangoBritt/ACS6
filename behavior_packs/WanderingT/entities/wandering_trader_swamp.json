@@ -57,7 +57,7 @@
             "min_wait_time": 1,
             "max_wait_time": 1,
             "spawn_entity": "frog",
-            "spawn_event": "minecraft:ageable_grow_up",
+            "spawn_event": "minecraft:spawn_adult",
             "single_use": true,
             "num_to_spawn": 2,
             "should_leash": true

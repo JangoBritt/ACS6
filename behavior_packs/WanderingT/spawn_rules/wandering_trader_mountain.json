@@ -7,6 +7,12 @@
     },
     "conditions": [
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 360,
+          "identifier": "red:wandering_trader_athos",
+          "spawn_chance": 20
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {
           "min": 7,
@@ -30,6 +36,12 @@
         }
       },
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 360,
+          "identifier": "red:wandering_trader_athos",
+          "spawn_chance": 20
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {
           "min": 7,
@@ -73,7 +85,6 @@
         "minecraft:density_limit": {
           "surface": 1
         },
-    
         "minecraft:biome_filter": {
           "any_of": [
             {

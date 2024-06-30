@@ -57,7 +57,7 @@
             "min_wait_time": 1,
             "max_wait_time": 1,
             "spawn_entity": "mule",
-            "spawn_event": "minecraft:",
+            "spawn_event": "minecraft:spawn_adult",
             "single_use": true,
             "num_to_spawn": 1,
             "should_leash": true
@@ -66,7 +66,7 @@
             "min_wait_time": 1,
             "max_wait_time": 1,
             "spawn_entity": "llama",
-            "spawn_event": "minecraft:",
+            "spawn_event": "minecraft:spawn_adult",
             "single_use": true,
             "num_to_spawn": 1,
             "should_leash": true
