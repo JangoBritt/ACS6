@@ -57,7 +57,7 @@
             "min_wait_time": 0,
             "max_wait_time": 0,
             "spawn_entity": "goat",
-            "spawn_event": "minecraft:from_wandering_trader",
+            "spawn_event": "minecraft:spawn_adult",
             "single_use": true,
             "num_to_spawn": 2,
             "should_leash": true

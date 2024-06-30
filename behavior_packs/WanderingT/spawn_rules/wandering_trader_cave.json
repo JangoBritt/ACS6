@@ -7,6 +7,12 @@
     },
     "conditions": [
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 360,
+          "identifier": "red:wandering_trader_athos",
+          "spawn_chance": 20
+        },
         "minecraft:spawns_underground": {},
         "minecraft:brightness_filter": {
           "adjust_for_weather": false
@@ -39,6 +45,12 @@
         }
       },
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 360,
+          "identifier": "red:wandering_trader_athos",
+          "spawn_chance": 20
+        },
         "minecraft:spawns_underground": {},
         "minecraft:brightness_filter": {
           "adjust_for_weather": false
@@ -71,6 +83,12 @@
         }
       },
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 360,
+          "identifier": "red:wandering_trader_athos",
+          "spawn_chance": 20
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:spawns_on_block_filter": "minecraft:grass",
         "minecraft:brightness_filter": {
