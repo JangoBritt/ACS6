@@ -25,7 +25,7 @@
     },
     "distribution": {
       "iterations": 1,
-      "scatter_chance": 0.20,
+      "scatter_chance": 0.010,
       "x": {
         "distribution": "uniform",
         "extent": [ -16, 16 ]
