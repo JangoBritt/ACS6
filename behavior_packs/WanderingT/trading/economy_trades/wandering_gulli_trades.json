@@ -1,0 +1,30 @@
+{
+	"tiers": [
+		{
+			"groups": [
+
+				{ //Nether Blocks
+					"num_to_select": 4,
+					"trades": [
+						{"max_uses":10,"wants":[{"item":"minecraft:netherrack","quantity":8}],"gives":[{"item":"minecraft:crimson_nylium","quantity":8}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:netherrack","quantity":8}],"gives":[{"item":"minecraft:warped_nylium","quantity":8}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:cobblestone","quantity":64}],"gives":[{"item":"minecraft:netherrack","quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:sand","quantity":64}],"gives":[{"item":"minecraft:soul_sand","quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:dirt","quantity":64}],"gives":[{"item":"minecraft:soul_soil","quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:deepslate","quantity":64}],"gives":[{"item":"minecraft:blackstone","quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:slime","quantity":16}],"gives":[{"item":"minecraft:magma","quantity":16}]}
+            		]
+				},
+				{ //Nether Loots
+					"num_to_select": 2,
+					"trades": [
+						{"max_uses":5,"wants":[{"item":"minecraft:breeze_rod","quantity":8}],"gives":[{"item":"minecraft:blaze_rod","quantity":32}]},
+						{"max_uses":5,"wants":[{"item":"minecraft:gunpowder","quantity":32}],"gives":[{"item":"minecraft:ghast_tear","quantity":16}]},
+						{"max_uses":6,"wants":[{"item":"minecraft:skull:0","quantity":1},{"item":"minecraft:diamond","quantity":1}],"gives":[{"item":"minecraft:skull:1","quantity":1}]}
+						
+					]
+				}
+			]
+		}
+	]
+}
