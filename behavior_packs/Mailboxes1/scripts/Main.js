@@ -36,7 +36,7 @@ let validIds = [
 	"medieval:jungle_mailbox_0",
 	"medieval:mangrove_mailbox_0",
 	"medieval:oak_mailbox_0",
-	"medieval:dark oak_mailbox_0",
+	"medieval:dark_oak_mailbox_0",
 	"medieval:spruce_mailbox_0",
 	"medieval:warped_mailbox_0",
 
@@ -48,7 +48,7 @@ let validIds = [
 	"mr:stripped_jungle_mail_mr",
 	"mr:stripped_mangrove_mail_mr",
 	"mr:stripped_oak_mail_mr",
-	"mr:stripped_dark oak_mail_mr",
+	"mr:stripped_dark_oak_mail_mr",
 	"mr:stripped_spruce_mail_mr",
 	"mr:stripped_warped_mail_mr",
 	
@@ -60,7 +60,7 @@ let validIds = [
 	"mr:wood_jungle_mail_mr",
 	"mr:wood_mangrove_mail_mr",
 	"mr:wood_oak_mail_mr",
-	"mr:wood_dark oak_mail_mr",
+	"mr:wood_dark_oak_mail_mr",
 	"mr:wood_spruce_mail_mr",
 	"mr:wood_warped_mail_mr"
 ];
