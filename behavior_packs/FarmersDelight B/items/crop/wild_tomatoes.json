@@ -6,7 +6,7 @@
         "texture": "farmersdelight:wild_tomatoes"
       } ,
       "minecraft:block_placer": {
-        "block": "farmersdelight:wild_tomatoes_block"
+        "block": "farmersdelight:wild_tomatoes"
       },
       "minecraft:tags": {
         "tags": [
@@ -16,7 +16,7 @@
       }
     }, 
     "description": {
-      "identifier": "farmersdelight:wild_tomatoes",
+      "identifier": "farmersdelight:wild_tomatoes_item",
       "menu_category": {
         "category": "nature",
         "group": "itemGroup.name.nature"

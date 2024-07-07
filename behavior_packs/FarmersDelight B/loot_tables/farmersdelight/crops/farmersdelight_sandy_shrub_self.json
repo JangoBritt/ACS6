@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "farmersdelight:wild_rice_item",
+          "name": "farmersdelight:sandy_shrub_item",
           "functions": [
             {
               "function": "set_count",

@@ -90,7 +90,7 @@ export class Knife {
                 const age = permutation.getState('farmersdelight:growth');
                 if (age == 3) spawnLoot('farmersdelight/straw', block.dimension, block.location);
             }
-            else if (blockTypeId == "farmersdelight:sandy_shrub_block") {
+            else if (blockTypeId == "farmersdelight:sandy_shrub") {
                 spawnLoot('farmersdelight/straw_from_sandy_shrub', block.dimension, block.location);
             }
         }
