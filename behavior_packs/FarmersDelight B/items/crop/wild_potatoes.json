@@ -6,7 +6,7 @@
         "texture": "farmersdelight:wild_potatoes"
       } ,
       "minecraft:block_placer": {
-        "block": "farmersdelight:wild_potatoes_block"
+        "block": "farmersdelight:wild_potatoes"
       },
       "minecraft:tags": {
         "tags": [
@@ -16,7 +16,7 @@
       }
     }, 
     "description": {
-      "identifier": "farmersdelight:wild_potatoes",
+      "identifier": "farmersdelight:wild_potatoes_item",
       "menu_category": {
         "category": "nature",
         "group": "itemGroup.name.nature"

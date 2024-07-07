@@ -75,14 +75,23 @@ tile.farmersdelight:red_mushroom_colony.name=Red Mushroom Colony
 item.farmersdelight:brown_mushroom_colony_item=Brown Mushroom Colony
 item.farmersdelight:red_mushroom_colony_item=Red Mushroom Colony
 
-item.farmersdelight:wild_cabbages=Wild Cabbage
-item.farmersdelight:wild_tomatoes=Tomato Shrub
-item.farmersdelight:wild_onions=Wild Onion
-item.farmersdelight:wild_carrots=Wild Carrot
-item.farmersdelight:wild_potatoes=Wild Potato
-item.farmersdelight:wild_beetroots=Sea Beet
-item.farmersdelight:wild_rice=Wild Rice
-item.farmersdelight:sandy_shrub=Sandy Shrub
+item.farmersdelight:wild_cabbages_item=Wild Cabbage
+item.farmersdelight:wild_tomatoes_item=Tomato Shrub
+item.farmersdelight:wild_onions_item=Wild Onion
+item.farmersdelight:wild_carrots_item=Wild Carrot
+item.farmersdelight:wild_potatoes_item=Wild Potato
+item.farmersdelight:wild_beetroots_item=Sea Beet
+item.farmersdelight:wild_rice_item=Wild Rice
+item.farmersdelight:sandy_shrub_item=Sandy Shrub
+
+tile.farmersdelight:wild_cabbages.name=Wild Cabbage
+tile.farmersdelight:wild_tomatoes.name=Tomato Shrub
+tile.farmersdelight:wild_onions.name=Wild Onion
+tile.farmersdelight:wild_carrots.name=Wild Carrot
+tile.farmersdelight:wild_potatoes.name=Wild Potato
+tile.farmersdelight:wild_beetroots.name=Sea Beet
+tile.farmersdelight:wild_rice.name=Wild Rice
+tile.farmersdelight:sandy_shrub.name=Sandy Shrub
 
 tile.farmersdelight:apple_pie.name=Apple Pie
 tile.farmersdelight:sweet_berry_cheesecake.name=Sweet Berry Cheesecake
