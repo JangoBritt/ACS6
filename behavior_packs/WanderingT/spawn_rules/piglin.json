@@ -10,7 +10,8 @@
                 "minecraft:spawns_on_surface": {},
                 "minecraft:spawns_on_block_filter": [
                   "minecraft:netherrack",
-                  "minecraft:obsidian"
+                  "minecraft:obsidian",
+                  "minecraft:crying_obsidian"
                 ],
                 "minecraft:brightness_filter": {
                   "min": 2,
@@ -29,53 +30,53 @@
                   "operator": "==",
                   "value": "animal"
                 }
-              }//,
-            // {
-            //     "minecraft:spawns_underground": {},
-            //     "minecraft:spawns_on_block_prevented_filter": [
-            //         "minecraft:nether_wart_block",
-            //         "minecraft:shroomlight"
-            //     ],
-            //     "minecraft:difficulty_filter": {
-            //         "min": "peaceful",
-            //         "max": "hard"
-            //     },
-            //     "minecraft:weight": {
-            //         "default": 5
-            //     },
-            //     "minecraft:herd": {
-            //         "min_size": 2,
-            //         "max_size": 4
-            //     },
-            //     "minecraft:biome_filter": {
-            //         "test": "has_biome_tag",
-            //         "operator": "==",
-            //         "value": "spawn_piglin"
-            //     }
-            // },
-            // {
-            //     "minecraft:spawns_underground": {},
-            //     "minecraft:spawns_on_block_prevented_filter": [
-            //         "minecraft:nether_wart_block",
-            //         "minecraft:shroomlight"
-            //     ],
-            //     "minecraft:difficulty_filter": {
-            //         "min": "peaceful",
-            //         "max": "hard"
-            //     },
-            //     "minecraft:weight": {
-            //         "default": 15
-            //     },
-            //     "minecraft:herd": {
-            //         "min_size": 4,
-            //         "max_size": 4
-            //     },
-            //     "minecraft:biome_filter": {
-            //         "test": "has_biome_tag",
-            //         "operator": "==",
-            //         "value": "spawn_few_piglins"
-            //     }
-            // }
+              },
+            {
+                "minecraft:spawns_underground": {},
+                "minecraft:spawns_on_block_prevented_filter": [
+                    "minecraft:nether_wart_block",
+                    "minecraft:shroomlight"
+                ],
+                "minecraft:difficulty_filter": {
+                    "min": "peaceful",
+                    "max": "hard"
+                },
+                "minecraft:weight": {
+                    "default": 5
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "spawn_piglin"
+                }
+            },
+            {
+                "minecraft:spawns_underground": {},
+                "minecraft:spawns_on_block_prevented_filter": [
+                    "minecraft:nether_wart_block",
+                    "minecraft:shroomlight"
+                ],
+                "minecraft:difficulty_filter": {
+                    "min": "peaceful",
+                    "max": "hard"
+                },
+                "minecraft:weight": {
+                    "default": 15
+                },
+                "minecraft:herd": {
+                    "min_size": 4,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "spawn_few_piglins"
+                }
+            }
         ]
     }
 }
