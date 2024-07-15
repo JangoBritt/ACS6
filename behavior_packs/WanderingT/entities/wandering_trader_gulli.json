@@ -2,13 +2,99 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "red:wandering_trader_swamp",
+      "identifier": "red:wandering_trader_gulli",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
     },
 
     "component_groups": {
+
+      "interactable_piglin": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_equipment",
+                      "subject": "other",
+                      "domain": "hand",
+                      "value": "gold_ingot"
+                    },
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "has_component",
+                      "subject": "self",
+                      "operator": "!=",
+                      "value": "minecraft:is_baby"
+                    }
+                  ]
+                }
+              },
+              "barter": true,
+              "admire": true,
+              "use_item": true,
+              "cooldown_after_being_attacked": 20,
+              "interact_text": "action.interact.barter"
+            }
+          ]
+        }
+      },
+
+      "piglin_adult": {
+        "minecraft:group_size": {
+          "radius": 32,
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_component",
+                "operator": "!=",
+                "value": "minecraft:is_baby"
+              },
+              {
+                "test": "is_family",
+                "value": "piglin"
+              }
+            ]
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:barter": {
+          "barter_table": "loot_tables/entities/piglin_barter.json",
+          "cooldown_after_being_attacked": 20
+        },
+        "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+        },
+        "minecraft:celebrate_hunt": {
+          "celebration_targets": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "value": "hoglin"
+              }
+            ]
+          },
+          "broadcast": true,
+          "duration": 10,
+          "celebrate_sound": "celebrate",
+          "sound_interval": {
+            "range_min": 2.0,
+            "range_max": 5.0
+          },
+          "radius": 16
+        }
+        
+      },
+
       "managed": {
         "minecraft:managed_wandering_trader": {}
       },
@@ -23,9 +109,9 @@
           "broadcastAnger": true,
           "broadcastRange": 10,
           "broadcast_targets": [
-            "fox"
+            "piglin"
           ],
-          "broadcast_filters": { "test": "is_leashed_to", "subject": "other", "value": true },
+          // "broadcast_filters": { "test": "is_leashed_to", "subject": "other", "value": true },
           "calm_event": {
             "event": "minecraft:become_calm",
             "target": "self"
@@ -38,6 +124,81 @@
       "minecraft:type_family": {
         "family": [ "wandering_trader", "mob" ]
       },
+
+      //Piglin Bartering
+
+      "minecraft:inventory": {
+        "inventory_size": 8
+      },
+      "minecraft:admire_item": {
+        "duration": 8,
+        "cooldown_after_being_attacked": 20
+      },
+      "minecraft:behavior.admire_item": {
+        "priority": 2,
+        "admire_item_sound": "admire",
+        "sound_interval": {
+          "range_min": 2.0,
+          "range_max": 5.0
+        },
+        "on_admire_item_start": {
+          "event": "admire_item_started_event",
+          "target": "self"
+        },
+        "on_admire_item_stop": {
+          "event": "admire_item_stopped_event",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.barter": {
+        "priority": 3
+      },
+
+      "minecraft:behavior.pickup_items": {
+        "priority": 2,
+        "max_dist": 10,
+        "goal_radius": 2,
+        "speed_multiplier": 0.8,
+        "pickup_based_on_chance": false,
+        "can_pickup_any_item": false,
+        "cooldown_after_being_attacked": 20.0
+      },
+
+      "minecraft:behavior.avoid_block": {
+        "priority": 9,
+        "tick_interval": 5,
+        "search_range": 8,
+        "search_height": 4,
+        "sprint_speed_modifier": 1.1,
+        "target_selection_method": "nearest",
+        "target_blocks": [
+          "minecraft:soul_fire",
+          "minecraft:soul_lantern",
+          "minecraft:soul_torch",
+          "minecraft:item.soul_campfire"
+        ],
+        "avoid_block_sound": "retreat",
+        "sound_interval": {
+          "range_min": 2.0,
+          "range_max": 5.0
+        }
+      },
+
+      "minecraft:shareables": {
+        "singular_pickup": true,
+        "items": [
+          {
+            "item": "minecraft:gold_ingot",
+            "priority": 1,
+            "pickup_limit": 1,
+            "admire": true,
+            "barter": true
+          }
+        ]
+      },
+
+
+
       "minecraft:is_hidden_when_invisible": {
       },
       "minecraft:timer": {
@@ -50,23 +211,27 @@
           "event": "minecraft:start_despawn",
           "target": "self"
         }
-      },      
-      "minecraft:spawn_entity": {
-        "entities": [
-          {
-            "min_wait_time": 1,
-            "max_wait_time": 1,
-            "spawn_entity": "frog",
-            "spawn_event": "minecraft:spawn_adult",
-            "single_use": true,
-            "num_to_spawn": 2,
-            "should_leash": true
-          }
-        ]
       },
+
+
+      
+      "minecraft:spawn_entity": {
+       "entities": [
+         {
+           "min_wait_time": 0,
+           "max_wait_time": 0,
+           "spawn_entity": "minecraft:piglin",
+           "spawn_event": "minecraft:entity_spawned",
+           "single_use": true,
+           "num_to_spawn": 2,
+           "should_leash": false
+         }
+       ]
+      },
+ 
       "minecraft:economy_trade_table": {
-        "display_name": "entity.red:wandering_trader_swamp.name",
-        "table": "trading/economy_trades/wandering_swamp_trades.json",
+        "display_name": "entity.red:wandering_trader_gulli.name",
+        "table": "trading/economy_trades/wandering_gulli_trades.json",
         "new_screen": true
       },
       "minecraft:breathable": {
@@ -164,18 +329,18 @@
         ]
       },
       "minecraft:behavior.trade_with_player": {
-        "priority": 1
+        "priority": 4
       },
       "minecraft:behavior.trade_interest": {
           "priority": 5,
-          "within_radius": 6.0,
+          "within_radius": 3.0,
           "interest_time": 45.0,
           "remove_item_time": 1.0,
           "carried_item_switch_time": 2.0,
           "cooldown": 2.0
       },
       "minecraft:behavior.look_at_trading_player": {
-        "priority": 4
+        "priority": 6
       },
       "minecraft:behavior.panic": {
         "priority": 1,
@@ -241,7 +406,7 @@
                 { "test": "is_family", "subject": "other", "value": "zombie_pigman" },
                 { "test": "is_family", "subject": "other", "value": "illager" },
                 { "test": "is_family", "subject": "other", "value": "vex" },
-                { "test": "is_family", "subject": "other", "value": "monster" }
+                { "test": "is_family", "subject": "other", "value": "zoglin" }
               ]
             },
             "walk_speed_multiplier": 1.2,
@@ -249,6 +414,16 @@
           }
         ],
         "max_dist": 6
+      },
+      "minecraft:behavior.drink_milk": {
+        "priority": 5,
+        "filters": {
+          "all_of": [
+            { "test": "is_daytime", "value" : true },
+            { "test": "is_visible", "subject": "self", "value": false },
+            { "test": "is_avoiding_mobs", "subject": "self", "value": false }
+          ]
+        }
       },
       "minecraft:behavior.restrict_open_door": {
         "priority": 5
@@ -280,6 +455,20 @@
       }
     },
     "events": {
+
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "piglin_adult",
+            "interactable_piglin"
+          ]
+        },
+        "run_command": {
+					"command": [
+						"tellraw @a[r=100] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
+					]
+				}
+      },
       "minecraft:scheduled": {
         "add": {
           "component_groups": [
@@ -312,7 +501,23 @@
             "minecraft:scared"
           ]
         }
+      },
+      "admire_item_started_event": {
+        "remove": {
+          "component_groups": [
+            "interactable_piglin"
+          ]
+        }
+      },
+      "admire_item_stopped_event": {
+        "add": {
+          "component_groups": [
+            "interactable_piglin"
+          ]
+        }
       }
+
+
     }
   }
 }

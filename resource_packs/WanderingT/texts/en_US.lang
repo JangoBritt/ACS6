@@ -28,3 +28,5 @@ entity.red:wandering_trader_tk.name=TK-421
 item.spawn_egg.entity.red:wandering_trader_tk.name=Spawn StormTrader 
 entity.red:wandering_trader_tradernaut.name=Wandering Trader
 item.spawn_egg.entity.red:wandering_trader_tradernaut.name=Spawn Tradernaut 
+entity.red:wandering_trader_gulli.name=Gullinbursti
+item.spawn_egg.entity.red:wandering_trader_gulli.name=Spawn Gullinbursti 
