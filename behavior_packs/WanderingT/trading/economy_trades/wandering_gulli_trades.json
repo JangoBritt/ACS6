@@ -6,22 +6,44 @@
 				{ //Nether Blocks
 					"num_to_select": 4,
 					"trades": [
-						{"max_uses":10,"wants":[{"item":"minecraft:netherrack","quantity":8}],"gives":[{"item":"minecraft:crimson_nylium","quantity":8}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:netherrack","quantity":8}],"gives":[{"item":"minecraft:warped_nylium","quantity":8}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:cobblestone","quantity":64}],"gives":[{"item":"minecraft:netherrack","quantity":64}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:sand","quantity":64}],"gives":[{"item":"minecraft:soul_sand","quantity":64}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:dirt","quantity":64}],"gives":[{"item":"minecraft:soul_soil","quantity":64}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:deepslate","quantity":64}],"gives":[{"item":"minecraft:blackstone","quantity":64}]},
-						{"max_uses":10,"wants":[{"item":"minecraft:slime","quantity":16}],"gives":[{"item":"minecraft:magma","quantity":16}]}
+						{"max_uses":10,"wants":[{"item":"minecraft:netherrack",   		"quantity":8}], "gives":[{"item":"minecraft:crimson_nylium", "quantity":8}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:netherrack",   		"quantity":8}], "gives":[{"item":"minecraft:warped_nylium",  "quantity":8}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:cobblestone",  		"quantity":64}],"gives":[{"item":"minecraft:netherrack",     "quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:sand",         		"quantity":64}],"gives":[{"item":"minecraft:soul_sand",      "quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:dirt",         		"quantity":64}],"gives":[{"item":"minecraft:soul_soil",      "quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:cobbled_deepslate",  "quantity":64}],"gives":[{"item":"minecraft:blackstone",     "quantity":64}]},
+						{"max_uses":10,"wants":[{"item":"minecraft:slime",        		"quantity":16}],"gives":[{"item":"minecraft:magma",          "quantity":16}]},
+						{"max_uses":8, "wants":[{"item":"minecraft:blackstone",       	"quantity":16},
+												{"item":"minecraft:gold_nugget",        "quantity":32}], "gives":[{"item":"minecraft:gilded_blackstone",  "quantity":16}]}
             		]
 				},
 				{ //Nether Loots
 					"num_to_select": 2,
 					"trades": [
-						{"max_uses":5,"wants":[{"item":"minecraft:breeze_rod","quantity":8}],"gives":[{"item":"minecraft:blaze_rod","quantity":32}]},
-						{"max_uses":5,"wants":[{"item":"minecraft:gunpowder","quantity":32}],"gives":[{"item":"minecraft:ghast_tear","quantity":16}]},
-						{"max_uses":6,"wants":[{"item":"minecraft:skull:0","quantity":1},{"item":"minecraft:diamond","quantity":1}],"gives":[{"item":"minecraft:skull:1","quantity":1}]}
-						
+						{"max_uses":5, "wants":[{"item":"minecraft:breeze_rod",     	"quantity":8}], "gives":[{"item":"minecraft:blaze_rod",       "quantity":32}]},
+						{"max_uses":5, "wants":[{"item":"minecraft:gunpowder",      	"quantity":32}],"gives":[{"item":"minecraft:ghast_tear",      "quantity":16}]},
+						{"max_uses":8, "wants":[{"item":"minecraft:quartz_block",   	"quantity":16}],"gives":[{"item":"minecraft:quartz",   		  	"quantity":64}]},
+						{"max_uses":6, "wants":[{"item":"minecraft:skull:0",        	"quantity":1},
+												{"item":"minecraft:diamond",        	"quantity":1}], "gives":[{"item":"minecraft:skull:1",         "quantity":1}]},
+						{"max_uses":2, "wants":[{"item":"athos_currency:coin",      	"quantity":2}],"gives":[{"item":"minecraft:nether_wart",      "quantity":16}]},
+						{"max_uses":2, "wants":[{"item":"athos_currency:coin",      	"quantity":2}],"gives":[{"item":"minecraft:nether_wart",      "quantity":16}]}
+					]
+				},
+				{ //Nether Uniques
+					"num_to_select": 3,
+					"trades": [
+
+						{"max_uses":1, "wants":[{"item":"athos_currency:coin",      	"quantity":1}], "gives":[{"item":"athos_misc:nether_book",     "quantity":1}]},
+						{"max_uses":8, "wants":[{"item":"minecraft:diamond",       		"quantity":3}], "gives":[{"item":"minecraft:ancient_debris",  "quantity":1}]},
+
+						{"max_uses":1, "wants":[{"item":"minecraft:mojang_banner_pattern", "quantity":1}], "gives":[{"item":"minecraft:piglin_banner_pattern",  "quantity":1}]},
+						{"max_uses":1, "wants":[{"item":"minecraft:music_disc_relic",      "quantity":1}], "gives":[{"item":"minecraft:music_disc_pigstep",     "quantity":1}]},
+
+						{"max_uses":1, "wants":[{"item":"minecraft:netherite_upgrade_smithing_template", "quantity":1}], "gives":[{"item":"minecraft:rib_armor_trim_smithing_template",     "quantity":1}]},
+						{"max_uses":1, "wants":[{"item":"minecraft:netherite_upgrade_smithing_template", "quantity":1}], "gives":[{"item":"minecraft:snout_armor_trim_smithing_template",   "quantity":1}]},
+						{"max_uses":1, "wants":[{"item":"minecraft:netherrack",        					 "quantity":1},
+												{"item":"minecraft:diamond",							 "quantity":7}], "gives":[{"item":"minecraft:netherite_upgrade_smithing_template",  "quantity":1}]}
+
 					]
 				}
 			]

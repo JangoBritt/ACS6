@@ -109,9 +109,9 @@
           "broadcastAnger": true,
           "broadcastRange": 10,
           "broadcast_targets": [
-            "llama"
+            "piglin"
           ],
-          "broadcast_filters": { "test": "is_leashed_to", "subject": "other", "value": true },
+          // "broadcast_filters": { "test": "is_leashed_to", "subject": "other", "value": true },
           "calm_event": {
             "event": "minecraft:become_calm",
             "target": "self"
@@ -216,17 +216,17 @@
 
       
       "minecraft:spawn_entity": {
- //       "entities": [
- //         {
- //           "min_wait_time": 0,
- //           "max_wait_time": 0,
- //           "spawn_entity": "horse",
- //           "spawn_event": "minecraft:make_black",
- //           "single_use": true,
- //           "num_to_spawn": 2,
- //           "should_leash": true
- //         }
- //       ]
+       "entities": [
+         {
+           "min_wait_time": 0,
+           "max_wait_time": 0,
+           "spawn_entity": "minecraft:piglin",
+           "spawn_event": "minecraft:entity_spawned",
+           "single_use": true,
+           "num_to_spawn": 2,
+           "should_leash": false
+         }
+       ]
       },
  
       "minecraft:economy_trade_table": {
@@ -462,7 +462,12 @@
             "piglin_adult",
             "interactable_piglin"
           ]
-        }
+        },
+        "run_command": {
+					"command": [
+						"tellraw @a[r=100] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
+					]
+				}
       },
       "minecraft:scheduled": {
         "add": {
@@ -476,7 +481,12 @@
           "component_groups": [
             "despawning"
           ]
-        }
+        },
+        "run_command": {
+					"command": [
+						"tellraw @a[r=100] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
+					]
+				}
       },
       "minecraft:become_scared": {
         "add": {
