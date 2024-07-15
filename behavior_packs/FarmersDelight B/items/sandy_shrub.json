@@ -6,7 +6,7 @@
         "texture": "farmersdelight:sandy_shrub"
       } ,
       "minecraft:block_placer": {
-        "block": "farmersdelight:sandy_shrub_block"
+        "block": "farmersdelight:sandy_shrub"
       },
       "minecraft:tags": {
           "tags": [
@@ -15,7 +15,7 @@
       }
     }, 
     "description": {
-      "identifier": "farmersdelight:sandy_shrub",
+      "identifier": "farmersdelight:sandy_shrub_item",
       "menu_category": {
         "category": "nature",
         "group": "itemGroup.name.nature"
