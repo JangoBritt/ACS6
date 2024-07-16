@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "farmersdelight:wild_tomatoes",
+          "name": "farmersdelight:wild_tomatoes_item",
           "functions": [
             {
               "function": "set_count",

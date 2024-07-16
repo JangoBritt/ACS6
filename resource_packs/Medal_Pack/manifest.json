@@ -5,22 +5,22 @@
 	},
 	"header": {
 		"description": "Pack By §6AthosCraft§r | Medal Pack | Check the README for details | Visit §9www.athoscraft.com§r",
-		"name": "§aMedal Pack§r v6.0.7 [R]",
+		"name": "§aMedal Pack§r v6.0.8 [R]",
 		"uuid": "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9",
-		"version": [ 6, 0, 7 ],
+		"version": [ 6, 0, 8 ],
 		"min_engine_version": [ 1, 20, 81 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "db53c44a-5319-4ada-8780-68db228e2e2b",
-			"version": [ 6, 0, 7 ]
+			"version": [ 6, 0, 8 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "d9560f08-233c-4c1c-9a72-3f5b6ace7d32",
-			"version": [ 6, 0, 7 ]
+			"version": [ 6, 0, 8 ]
 		}
 	]
 }

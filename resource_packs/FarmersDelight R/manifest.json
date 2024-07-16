@@ -1,13 +1,13 @@
 {
     "format_version": 2,
     "header": {
-        "description": "pack.description",
-        "name": "pack.name",
+        "description": "Farmers Delight - Athos Edits",
+        "name": "Farmers Delight",
         "uuid": "98836a6c-fe16-60f4-87a4-5afb6439bd9f",
         "version": [
             1,
             7,
-            4
+            5
         ],
         "min_engine_version": [
             1,
@@ -33,7 +33,7 @@
             "version": [
                 1,
                 7,
-                4
+                5
             ]
         }
     ]
