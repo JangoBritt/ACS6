@@ -2,11 +2,17 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "red:wandering_trader_santa",
+      "identifier": "red:wandering_trader_gulli",
       "population_control": "animal"
     },
     "conditions": [
       {
+        "minecraft:delay_filter": {
+          "min": 300,
+          "max": 600,
+          "identifier": "red:wandering_trader_gulli",
+          "spawn_chance": 75
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:weight": {
           "default": 1.0,
@@ -15,7 +21,6 @@
         "minecraft:density_limit": {
           "surface": 1
         },
-    
         "minecraft:biome_filter": {
           "any_of": [
             {
@@ -32,27 +37,35 @@
         }
       },
       {
+        // "minecraft:delay_filter": {
+        //   "min": 30,
+        //   "max": 900,
+        //   "identifier": "red:wandering_trader_gulli",
+        //   "spawn_chance": 100
+        // },
         "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_on_block_filter": "minecraft:grass",
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:netherrack",
+          "minecraft:obsidian",
+          "minecraft:crying_obsidian"
+        ],
         "minecraft:brightness_filter": {
           "min": 7,
           "max": 15,
           "adjust_for_weather": false
         },
         "minecraft:weight": {
-          "default": 1.0,
-          "rarity": 8
+          "default": 100
         },
         "minecraft:density_limit": {
           "surface": 1
         },
-    
         "minecraft:biome_filter": {
           "any_of": [
             {
               "test": "has_biome_tag",
               "operator": "==",
-              "value": "flower_forest"
+              "value": "animal"
             }
           ]
         }
