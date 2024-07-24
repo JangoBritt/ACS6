@@ -5,6 +5,13 @@
       "minecraft:icon": {
         "texture": "farmersdelight:rice"
       },
+      "minecraft:block_placer": {
+        "block": "rice_block",
+        "use_on": [
+          "dirt",
+          "farmersdelight:rich_soil"
+        ]
+      },
       "minecraft:tags": {
         "tags": [
           "farmersdelight:is_rice",

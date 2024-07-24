@@ -20,11 +20,11 @@
 				"item": "minecraft:stick"
 			},
 			"#": {
-				"item": "minecraft:planks"
+				"tag": "minecraft:planks"
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:planks"},
+			{"tag": "minecraft:planks"},
 			{"item": "medieval:handsaw"},
 			{"item": "minecraft:stick"}
 		],

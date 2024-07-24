@@ -281,7 +281,7 @@
         },
         "run_command": {
 					"command": [
-						"tellraw @a[r=100] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
+						"tellraw @a[r=64] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
 					]
 				}
       },

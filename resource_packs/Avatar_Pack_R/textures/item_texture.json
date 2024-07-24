@@ -610,6 +610,9 @@
         },
         "space_book": {
             "textures": "textures/avatars/space_book"
+        },
+        "diving_helmet_item": {
+            "textures": "textures/avatars/wearables/diving_helmet/player_head_item"
         }
     }
 }
