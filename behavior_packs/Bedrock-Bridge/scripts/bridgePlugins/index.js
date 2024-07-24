@@ -17,4 +17,6 @@ import "./basicNicerChat/basicNicerChat"
 // import "./customCommandCompatibility"
 // import "./basicWarps/main"
 // import "./chatRank/main"
+
+ import "./afk"
  import "./TPS"
