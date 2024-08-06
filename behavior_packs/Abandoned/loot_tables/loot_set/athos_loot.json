@@ -148,8 +148,8 @@
             {"type": "item","weight": 50,"name": "athos_misc:mangrove_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:oak_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:spruce_book","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 10,"name": "athos_misc:space_book","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]}//,
+            // {"type": "item","weight": 10,"name": "athos_misc:space_book","functions": [{"function": "set_count","count": 1}]}
         ]
       },
       { //specials
