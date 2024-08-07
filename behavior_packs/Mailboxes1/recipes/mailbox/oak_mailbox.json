@@ -5,7 +5,7 @@
 			"identifier": "mb:oak_mailbox"
 		},
 		"tags": [
-			"crafting_table"
+			"workbench"
 		],
 		"pattern": [
 			" # ",

@@ -57,7 +57,7 @@
             "min_wait_time": 1,
             "max_wait_time": 1,
             "spawn_entity": "wolf",
-            "spawn_event": "minecraft:spawn_adult",
+            "spawn_event": "minecraft:entity_spawned",
             "single_use": true,
             "num_to_spawn": 2,
             "should_leash": true
@@ -300,7 +300,7 @@
         },
         "run_command": {
 					"command": [
-						"tellraw @a[r=100] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
+						"tellraw @a[r=64] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
 					]
 				}
       },

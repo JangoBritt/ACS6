@@ -5,7 +5,7 @@
 			"identifier": "mb:box_item"
 		},
 		"tags": [
-			"crafting_table"
+			"workbench"
 		],
 		"pattern": [
 			"###",

@@ -11,7 +11,6 @@
             {"type": "item","weight": 50,"name": "athos_painting:painting_mars","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_borg","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_yingyang","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_painting:painting_halloween","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_reunion","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_drop","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_rocket","functions": [{"function": "set_count","count": 1}]},
@@ -23,7 +22,6 @@
             {"type": "item","weight": 50,"name": "athos_painting:painting_pirate","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_cape","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_town","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_painting:painting_scholomance","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_raid","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_spirit","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_painting:painting_cherry","functions": [{"function": "set_count","count": 1}]},
@@ -150,8 +148,8 @@
             {"type": "item","weight": 50,"name": "athos_misc:mangrove_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:oak_book","functions": [{"function": "set_count","count": 1}]},
             {"type": "item","weight": 50,"name": "athos_misc:spruce_book","functions": [{"function": "set_count","count": 1}]},
-            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]}
-//            {"type": "item","weight": 50,"name": "athos_misc:space_book","functions": [{"function": "set_count","count": 1}]}
+            {"type": "item","weight": 50,"name": "athos_misc:nether_book","functions": [{"function": "set_count","count": 1}]}//,
+            // {"type": "item","weight": 10,"name": "athos_misc:space_book","functions": [{"function": "set_count","count": 1}]}
         ]
       },
       { //specials
