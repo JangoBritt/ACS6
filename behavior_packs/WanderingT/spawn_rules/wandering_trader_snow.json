@@ -10,7 +10,7 @@
         "minecraft:delay_filter": {
           "min": 300,
           "max": 360,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_snow",
           "spawn_chance": 75
         },
         "minecraft:spawns_on_surface": {},
@@ -50,7 +50,7 @@
         "minecraft:delay_filter": {
           "min": 300,
           "max": 360,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_snow",
           "spawn_chance": 75
         },
         "minecraft:spawns_on_surface": {},
