@@ -33,6 +33,11 @@
               "test": "has_biome_tag",
               "operator": "==",
               "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ocean"
             }
           ]
         }

@@ -7,6 +7,12 @@
     },
     "conditions": [
       {
+        "minecraft:delay_filter": {
+          "min": 1000,
+          "max": 3060,
+          "identifier": "red:wandering_trader_dummy",
+          "spawn_chance": 0
+        },
         "minecraft:spawns_on_surface": {},
         "minecraft:weight": {
           "default": 1.0,
