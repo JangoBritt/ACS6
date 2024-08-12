@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:red_mushroom"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:red_mushroom_crate"
+            }
+        ],
+        "result": {
+            "item": "minecraft:red_mushroom",
+            "count": 9
+        }
+    }
+}

@@ -101,7 +101,8 @@ const BlockofPickaxeList = [
 ];
 const BlockofKnifeList = [
     "minecraft:pumpkin",
-    "minecraft:melon_block"
+    "minecraft:melon_block",
+    "minecraft:honeycomb_block"
 ];
 const BlockofShovelList = [
     "minecraft:clay",

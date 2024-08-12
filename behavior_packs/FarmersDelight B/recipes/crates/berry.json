@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:berry"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:berry_crate"
+            }
+        ],
+        "result": {
+            "item": "minecraft:berry",
+            "count": 9
+        }
+    }
+}

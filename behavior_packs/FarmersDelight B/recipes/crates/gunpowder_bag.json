@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:gunpowder_bag"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW",
+            "WWW",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:gunpowder"
+            }
+        },
+        "result": {
+            "item": "farmersdelight:gunpowder_bag"
+        }
+    }
+}

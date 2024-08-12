@@ -268,3 +268,17 @@ farmersdelight.book.crop.onions=§rOnions can be obtained by breaking onion crop
 farmersdelight.book.crop.rice_crop_title=§l§pRice
 farmersdelight.book.crop.rice_crop=§rRice can be obtained by breaking rice crops, breaking wild rice, cutting rice panicles on the cutting board, or cutting wild rice on the cutting board. Wild rice generates in river biomes.
 farmersdelight.book.back=Back
+
+
+tile.farmersdelight:apple_crate.name=Apple Crate
+tile.farmersdelight:golden_apple_crate.name=Golden Apple Crate
+tile.farmersdelight:berry_crate.name=Sweet Berry Crate
+tile.farmersdelight:glowberry_crate.name=Glowberry Crate
+tile.farmersdelight:brown_mushroom_crate.name=Brown Mushroom Crate
+tile.farmersdelight:red_mushroom_crate.name=Red Mushroom Crate
+tile.farmersdelight:cod_crate.name=Cod Crate
+tile.farmersdelight:salmon_crate.name=Salmon Crate
+tile.farmersdelight:golen_carrot_crate.name=Golden Carrot Crate
+tile.farmersdelight:sugar_bag.name=Bag of Sugar
+tile.farmersdelight:gunpowder_bag.name=Bag of Gunpowder
+tile.farmersdelight:cocoabeans_bag.name=Bag of Cocoa Beans

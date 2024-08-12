@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:brown_mushroom"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:brown_mushroom_crate"
+            }
+        ],
+        "result": {
+            "item": "minecraft:brown_mushroom",
+            "count": 9
+        }
+    }
+}
