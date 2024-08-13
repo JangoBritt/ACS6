@@ -740,7 +740,7 @@ entity.fmh:zombie_villager_v2.name=Zombie Villager V2
 action.hint.exit.fmh:zombie_villager_v2=Jump to Exit
 
 item.fmh:bogged_mask=Bogged Mask
-item.fmh:breeze=Breeze Mask
+item.fmh:breeze_mask=Breeze Mask
 item.fmh:allay_mask=Allay Mask
 item.fmh:axolotl_blue_mask=Axolotl Blue Mask
 item.fmh:axolotl_cyan_mask=Axolotl Cyan Mask
