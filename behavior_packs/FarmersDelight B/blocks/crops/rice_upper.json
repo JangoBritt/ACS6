@@ -1,18 +1,14 @@
 {
-    "format_version": "1.20.0",
+    "format_version": "1.21.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmersdelight:rice_block_upper",
-            "properties": {
+            "states": {
                 "farmersdelight:growth": [
                     0,
                     1,
                     2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7
+                    3
                 ]
             }
         },
@@ -123,6 +119,15 @@
             }
         ],
         "components": {
+            "minecraft:tick": {
+                "interval_range": [
+                    1,
+                    1
+                ]
+            },
+            "minecraft:custom_components": [
+                "farmersdelight:rice"
+            ],
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.0
             },
@@ -135,11 +140,9 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.0
             },
-            "minecraft:breathability": "air",
+            
             "minecraft:collision_box": false,
-            "minecraft:on_interact": {
-                "event": "farmersdelight:on_interact"
-            },
+            
             "minecraft:placement_filter": {
                 "conditions": [
                     {
@@ -152,62 +155,8 @@
                     }
                 ]
             },
-            "minecraft:random_ticking": {
-                "on_tick": {
-                    "event": "grow_stage",
-                    "target": "self"
-                }
-            },
+            
             "tag:crop": {}
-        },
-        "events": {
-            "grow_stage": {
-                "randomize": [
-                    {
-                        "weight": 5
-                    },
-                    {
-                        "weight": 12,
-                        "set_block_state": {
-                            "farmersdelight:growth": "(query.block_state('farmersdelight:growth')<3) ? query.block_state('farmersdelight:growth') + 1 : 3"
-                        }
-                    }
-                ]
-            },
-            "farmersdelight:on_interact": {
-                "sequence": [
-                    {
-                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<3)",
-                        "trigger": {
-                            "event": "grow_stage"
-                        }
-                    },
-                    {
-                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<3)",
-                        "decrement_stack": {}
-                    },
-                    {
-                        "condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')&&(query.block_state('farmersdelight:growth')<3)",
-                        "run_command": {
-                            "command": [
-                                "particle minecraft:crop_growth_emitter ~~~"
-                            ]
-                        }
-                    },
-                    {
-                        "condition": "query.block_state('farmersdelight:growth')==3",
-                        "set_block_state": {
-                            "farmersdelight:growth": 0
-                        }
-                    },
-                    {
-                        "condition": "query.block_state('farmersdelight:growth')==3",
-                        "spawn_loot":{
-                            "table": "loot_tables/farmersdelight/crops/farmersdelight_rice_riped.json"
-                        }
-                    }
-                ]
-            }
         }
     }
 }

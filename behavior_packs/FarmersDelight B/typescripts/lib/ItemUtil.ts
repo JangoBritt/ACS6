@@ -1,4 +1,5 @@
-import { Container, ItemDurabilityComponent, ItemStack, ItemType } from "@minecraft/server";
+import { Block, Container, Entity, GameMode, ItemDurabilityComponent, ItemStack, ItemType, Player, Vector3 } from "@minecraft/server";
+import { RandomUtil } from "./RandomUtil";
 
 
 export class ItemUtil {
@@ -28,5 +29,56 @@ export class ItemUtil {
             container.setItem(index, undefined);
             return itemAmount;
         }
+    }
+    public static replaceItem(player: Player, slot: number, newItemStack: ItemStack) {
+        const container = player.getComponent("inventory")?.container;
+        if (!container) return;
+        const itemStack = container?.getItem(slot)
+        if (!itemStack) return;
+        container.addItem(newItemStack)
+        if (player.getGameMode() == GameMode.creative) return;
+        const itemAmount = itemStack.amount;
+        itemStack.amount = itemAmount - 1;
+        container.setItem(slot, itemStack);
+    }
+    public static spawnItem(target: Block | Entity, item: string | ItemStack, number: number = 1, location: Vector3|undefined= undefined) {
+        if (!location){
+            if (item instanceof ItemStack) {
+                if (target instanceof Block) {
+                    if (RandomUtil.probability(50)){
+                        target.dimension.spawnItem(item, target.center());
+                    }
+                    else{
+                        target.dimension.spawnItem(item, target.bottomCenter());
+                    };
+                    
+                };
+                if (target instanceof Entity) {
+                    target.dimension.spawnItem(item, target.location);
+                };
+            }
+            else {
+                if (target instanceof Block) {
+                    if (RandomUtil.probability(50)){
+                        target.dimension.spawnItem(new ItemStack(item, number), target.center());
+                    }
+                    else{
+                        target.dimension.spawnItem(new ItemStack(item, number), target.bottomCenter());
+                    };
+                }
+                if (target instanceof Entity) {
+                    target.dimension.spawnItem(new ItemStack(item, number), target.location);
+                };
+            }
+        }
+        else{
+            if (item instanceof ItemStack) {
+                target.dimension.spawnItem(item, location);
+            }
+            else {
+                target.dimension.spawnItem(new ItemStack(item, number), location);
+            };
+        };
+        
     }
 }

@@ -4,488 +4,81 @@
 		{
 			"description": {
 				"identifier": "geometry.cooking_pot",
-				"texture_width": 32,
-				"texture_height": 32,
+				"texture_width": 16,
+				"texture_height": 16,
 				"visible_bounds_width": 2,
 				"visible_bounds_height": 2.5,
-				"visible_bounds_offset": [
-					0,
-					0.75,
-					0
-				]
+				"visible_bounds_offset": [0, 0.75, 0]
 			},
 			"bones": [
 				{
-					"name": "cookingpot",
-					"pivot": [
-						-8,
-						8,
-						8
-					],
+					"name": "cooking pot",
+					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [
-								-6,
-								0,
-								-6
-							],
-							"size": [
-								12,
-								10,
-								12
-							],
+							"origin": [-1, 3, -1],
+							"size": [2, 12, 2],
+							"pivot": [0, 3, 0],
+							"rotation": [0, 0, -22.5],
 							"uv": {
-								"north": {
-									"uv": [
-										0,
-										19
-									],
-									"uv_size": [
-										12,
-										10
-									]
-								},
-								"east": {
-									"uv": [
-										0,
-										19
-									],
-									"uv_size": [
-										12,
-										10
-									]
-								},
-								"south": {
-									"uv": [
-										0,
-										19
-									],
-									"uv_size": [
-										12,
-										10
-									]
-								},
-								"west": {
-									"uv": [
-										0,
-										19
-									],
-									"uv_size": [
-										12,
-										10
-									]
-								},
-								"up": {
-									"uv": [
-										14,
-										14
-									],
-									"uv_size": [
-										-12,
-										-12
-									]
-								},
-								"down": {
-									"uv": [
-										31,
-										16
-									],
-									"uv_size": [
-										-12,
-										-12
-									]
-								}
+								"north": {"uv": [2, 2], "uv_size": [-2, 12], "material_instance": "part"},
+								"east": {"uv": [0, 2], "uv_size": [2, 12], "material_instance": "part"},
+								"south": {"uv": [2, 2], "uv_size": [-2, 12], "material_instance": "part"},
+								"west": {"uv": [0, 2], "uv_size": [2, 12], "material_instance": "part"},
+								"up": {"uv": [2, 2], "uv_size": [-2, -2], "material_instance": "part"},
+								"down": {"uv": [2, 2], "uv_size": [-2, -2], "material_instance": "part"}
 							}
 						},
 						{
-							"origin": [
-								-1,
-								10,
-								-1
-							],
-							"size": [
-								2,
-								5,
-								2
-							],
-							"pivot": [
-								0,
-								3,
-								0
-							],
-							"rotation": [
-								0,
-								0,
-								-22.5
-							],
+							"origin": [-6, 0, -6],
+							"size": [12, 10, 12],
 							"uv": {
-								"north": {
-									"uv": [
-										18,
-										2
-									],
-									"uv_size": [
-										-2,
-										5
-									]
-								},
-								"east": {
-									"uv": [
-										16,
-										2
-									],
-									"uv_size": [
-										2,
-										5
-									]
-								},
-								"south": {
-									"uv": [
-										18,
-										2
-									],
-									"uv_size": [
-										-2,
-										5
-									]
-								},
-								"west": {
-									"uv": [
-										16,
-										2
-									],
-									"uv_size": [
-										2,
-										5
-									]
-								},
-								"up": {
-									"uv": [
-										18,
-										2
-									],
-									"uv_size": [
-										-2,
-										-2
-									]
-								},
-								"down": {
-									"uv": [
-										18,
-										2
-									],
-									"uv_size": [
-										-2,
-										-2
-									]
-								}
+								"north": {"uv": [2, 6], "uv_size": [12, 10], "material_instance": "side"},
+								"east": {"uv": [2, 6], "uv_size": [12, 10], "material_instance": "side"},
+								"south": {"uv": [2, 6], "uv_size": [12, 10], "material_instance": "side"},
+								"west": {"uv": [2, 6], "uv_size": [12, 10], "material_instance": "side"},
+								"up": {"uv": [14, 14], "uv_size": [-12, -12], "material_instance": "top"},
+								"down": {"uv": [14, 14], "uv_size": [-12, -12], "material_instance": "bottom"}
 							}
 						},
 						{
-							"origin": [
-								-3,
-								7,
-								-8
-							],
-							"size": [
-								6,
-								2,
-								2
-							],
-							"pivot": [
-								0,
-								0,
-								0
-							],
-							"rotation": [
-								0,
-								-90,
-								0
-							],
+							"origin": [-8, 7, -3],
+							"size": [0, 2, 6],
+							"pivot": [-7, 8, 0],
+							"rotation": [0, 0, 90],
 							"uv": {
-								"north": {
-									"uv": [
-										20,
-										0
-									],
-									"uv_size": [
-										6,
-										2
-									]
-								},
-								"east": {
-									"uv": [
-										18,
-										0
-									],
-									"uv_size": [
-										2,
-										2
-									]
-								},
-								"south": {
-									"uv": [
-										26,
-										0
-									],
-									"uv_size": [
-										2,
-										2
-									]
-								},
-								"west": {
-									"uv": [
-										26,
-										0
-									],
-									"uv_size": [
-										2,
-										2
-									]
-								},
-								"up": {
-									"uv": [
-										26,
-										2
-									],
-									"uv_size": [
-										-6,
-										-2
-									]
-								},
-								"down": {
-									"uv": [
-										26,
-										4
-									],
-									"uv_size": [
-										-6,
-										-2
-									]
-								}
+								"east": {"uv": [4, 0], "uv_size": [6, 2], "material_instance": "part"}
 							}
 						},
 						{
-							"origin": [
-								-3,
-								7,
-								6
-							],
-							"size": [
-								6,
-								2,
-								2
-							],
-							"pivot": [
-								0,
-								0,
-								0
-							],
-							"rotation": [
-								0,
-								-90,
-								0
-							],
+							"origin": [8, 7, -3],
+							"size": [0, 2, 6],
+							"pivot": [7, 8, 0],
+							"rotation": [0, 0, -90],
 							"uv": {
-								"north": {
-									"uv": [
-										20,
-										0
-									],
-									"uv_size": [
-										6,
-										2
-									]
-								},
-								"east": {
-									"uv": [
-										18,
-										0
-									],
-									"uv_size": [
-										2,
-										2
-									]
-								},
-								"south": {
-									"uv": [
-										20,
-										0
-									],
-									"uv_size": [
-										6,
-										2
-									]
-								},
-								"west": {
-									"uv": [
-										26,
-										0
-									],
-									"uv_size": [
-										2,
-										2
-									]
-								},
-								"up": {
-									"uv": [
-										26,
-										2
-									],
-									"uv_size": [
-										-6,
-										-2
-									]
-								},
-								"down": {
-									"uv": [
-										26,
-										4
-									],
-									"uv_size": [
-										-6,
-										-2
-									]
-								}
-							}
-						}
-					]
-				},
-				{
-					"name": "handle",
-					"parent": "cookingpot",
-					"pivot": [
-						-8,
-						8,
-						8
-					],
-					"cubes": [
-						{
-							"origin": [
-								-7,
-								8,
-								0
-							],
-							"size": [
-								14,
-								8,
-								0
-							],
-							"uv": {
-								"north": {
-									"uv": [
-										15,
-										24
-									],
-									"uv_size": [
-										14,
-										8
-									]
-								},
-								"south": {
-									"uv": [
-										15,
-										24
-									],
-									"uv_size": [
-										14,
-										8
-									]
-								}
+								"west": {"uv": [10, 0], "uv_size": [-6, 2], "material_instance": "part"}
 							}
 						},
 						{
-							"origin": [
-								-7.01,
-								8,
-								-1
-							],
-							"size": [
-								0,
-								8,
-								2
-							],
+							"origin": [-8, 7, -3],
+							"size": [2, 2, 6],
 							"uv": {
-								"east": {
-									"uv": [
-										16,
-										16
-									],
-									"uv_size": [
-										-2,
-										8
-									]
-								},
-								"west": {
-									"uv": [
-										14,
-										16
-									],
-									"uv_size": [
-										2,
-										8
-									]
-								}
+								"north": {"uv": [10, 0], "uv_size": [2, 2], "material_instance": "part"},
+								"east": {"uv": [4, 2], "uv_size": [6, 2], "material_instance": "part"},
+								"south": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "part"},
+								"down": {"uv": [10, 4], "uv_size": [-6, -2], "material_instance": "part"}
 							}
 						},
 						{
-							"origin": [
-								7.01,
-								8,
-								-1
-							],
-							"size": [
-								0,
-								8,
-								2
-							],
+							"origin": [6, 7, -3],
+							"size": [2, 2, 6],
 							"uv": {
-								"east": {
-									"uv": [
-										16,
-										16
-									],
-									"uv_size": [
-										-2,
-										8
-									]
-								},
-								"west": {
-									"uv": [
-										14,
-										16
-									],
-									"uv_size": [
-										2,
-										8
-									]
-								}
+								"north": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "part"},
+								"south": {"uv": [10, 0], "uv_size": [2, 2], "material_instance": "part"},
+								"west": {"uv": [4, 2], "uv_size": [6, 2], "material_instance": "part",
+								"down": {"uv": [10, 4], "uv_size": [-6, -2], "material_instance": "part"}
 							}
-						},
-						{
-							"origin": [
-								-7.025,
-								16.01,
-								-1
-							],
-							"size": [
-								14.025,
-								0,
-								2
-							],
-							"uv": {
-								"up": {
-									"uv": [
-										30,
-										18
-									],
-									"uv_size": [
-										-14,
-										-2
-									]
-								}
-							}
-						}
+						}}
 					]
 				}
 			]

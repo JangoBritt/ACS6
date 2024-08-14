@@ -13,7 +13,7 @@
     "farmersdelight:safety_net": {
         "sound": "cloth"
     },
-    "farmersdelight:rope_block": {
+    "farmersdelight:rope": {
         "sound": "cloth"
     },
     "farmersdelight:cabbage_block": {
@@ -79,10 +79,7 @@
     "farmersdelight:wild_potatoes": {
         "sound": "grass"
     },
-    "farmersdelight:wild_rice_block": {
-        "sound": "grass"
-    },
-    "farmersdelight:wild_rice_upper_block": {
+    "farmersdelight:wild_rice": {
         "sound": "grass"
     },
     "farmersdelight:wild_tomatoes": {

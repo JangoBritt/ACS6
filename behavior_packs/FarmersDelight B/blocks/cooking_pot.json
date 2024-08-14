@@ -1,5 +1,5 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.21.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmersdelight:cooking_pot",
@@ -10,8 +10,7 @@
                 "minecraft:placement_direction": {
                     "enabled_states": [
                         "minecraft:cardinal_direction"
-                    ],
-                    "y_rotation_offset": 180.0
+                    ]
                 }
             }
         },
@@ -66,22 +65,29 @@
             }
         ],
         "components": {
+            "minecraft:custom_components": [
+                "farmersdelight:interact"
+            ],
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 6
             },
-            "minecraft:on_interact": {
-                "event": "farmersdelight:on_interact",
-                "target": "self"
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cooking_pot_side"
+                },
+                "top": {
+                    "texture": "cooking_pot_top"
+                },
+                "bottom": {
+                    "texture": "cooking_pot_bottom"
+                },
+                "part": {
+                    "texture": "cooking_pot_parts"
+                }
             },
-			"minecraft:material_instances": {
-				"*": {
-					"render_method": "alpha_test",
-					"texture": "cooking_pot"
-				}
-			},
             "minecraft:collision_box": {
                 "origin": [
                     -6.0,
@@ -109,9 +115,6 @@
             "minecraft:geometry": {
               "identifier": "geometry.cooking_pot"
             }
-        },
-        "events": {
-            "farmersdelight:on_interact": {}
         }
     }
 }

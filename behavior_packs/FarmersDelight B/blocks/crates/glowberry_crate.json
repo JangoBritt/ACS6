@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "farmersdelight:apple_crate",
+            "identifier": "farmersdelight:glowberry_crate",
             "menu_category": {
                 "category": "items"
             }
@@ -10,10 +10,10 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "apple_crate_side"
+                    "texture": "glowberry_crate_side"
                 },
                 "up": {
-                    "texture": "apple_crate_top"
+                    "texture": "glowberry_crate_top"
                 },
                 "down": {
                     "texture": "crate_bottom"

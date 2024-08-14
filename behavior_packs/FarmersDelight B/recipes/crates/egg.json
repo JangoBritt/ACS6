@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "farmersdelight:egg"
+            "identifier": "farmersdelight:egg_from_crate"
         },
         "tags": [
             "crafting_table"

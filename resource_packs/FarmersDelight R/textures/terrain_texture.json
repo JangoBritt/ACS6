@@ -484,11 +484,6 @@
 		"crate_bottom": {
 			"textures": "textures/blocks/crate_bottom"
 		},
-        "cooking_pot": {
-            "textures": [
-                "textures/blocks/cooking_pot"
-            ]
-        },
 		"cooking_pot_tray_top": {
 			"textures": "textures/blocks/cooking_pot_tray_top"
 		},
