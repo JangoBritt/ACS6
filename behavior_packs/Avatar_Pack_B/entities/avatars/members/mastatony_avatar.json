@@ -1527,7 +1527,7 @@
                 "is_pushable": false,
                 "is_pushable_by_piston": false
             },
-            "minecraft:fire_immune": true,
+            "minecraft:fire_immune": {},
             "minecraft:conditional_bandwidth_optimization": {}
         },
         "events": {
@@ -1847,70 +1847,70 @@
                 }
             },
             "athos_avatars:rotateAlign": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~ ~ 0 ~"
                     ]
                 }
             },
             "athos_avatars:rotateX": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~ ~ ~15"
                     ]
                 }
             },
             "athos_avatars:rotateXM": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~ ~ ~-15"
                     ]
                 }
             },
             "athos_avatars:positionX": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~0.05 ~ ~"
                     ]
                 }
             },
             "athos_avatars:positionXM": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~-0.05 ~ ~"
                     ]
                 }
             },
             "athos_avatars:positionY": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~0.05 ~"
                     ]
                 }
             },
             "athos_avatars:positionYM": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~-0.05 ~"
                     ]
                 }
             },
             "athos_avatars:positionZ": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~ ~0.05"
                     ]
                 }
             },
             "athos_avatars:positionZM": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "tp @s ~ ~ ~-0.05"
                     ]
                 }
             },
             "athos_avatars:lock": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "title @p actionbar Locked"
                     ]
@@ -1927,7 +1927,7 @@
                 }
             },
             "athos_avatars:unlock": {
-                "run_command": {
+                "queue_command": {
                     "command": [
                         "title @p actionbar Unlocked"
                     ]

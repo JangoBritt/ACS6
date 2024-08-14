@@ -1,13 +1,12 @@
 {
-	"format_version": "1.10",
+	"format_version": "1.10.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_currency:coin",
 			"category": "items"
 		},
 		"components": {
-			"minecraft:icon": "coin",
-			"minecraft:render_offsets": "miscellaneous"
+			"minecraft:icon": "coin"
 		}
 	}
 }

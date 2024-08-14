@@ -559,7 +559,7 @@ action.hint.exit.athos_avatars:holidayham=Jump to Exit
 entity.athos_avatars:holidayham.name=[Athos] Holiday Ham
 item.athos_avatars:holidayham_item=[Athos] Holiday Ham
 
-action.hint.exit.athos_avatars:lifesupport_head=Jump to Exit
+action.hint.exit.athos_avatars:lifesupport=Jump to Exit
 entity.athos_avatars:lifesupport.name=Life Support Unit
 item.athos_avatars:lifesupport_item=[Athos] Life Support Unit
 

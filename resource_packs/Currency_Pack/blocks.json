@@ -1,4 +1,9 @@
 {
+    "format_version": [
+      1,
+      1,
+      0
+    ],
 	"coin_crate": {
 		"textures": {
 			"up": "coin_crate_up",

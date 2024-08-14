@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "athos_avatars:menorah",
@@ -903,7 +903,7 @@
 				"is_pushable": false,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:fire_immune": true,
+			"minecraft:fire_immune": {},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
 		"events": {
@@ -1271,49 +1271,49 @@
 				}
 			},
 			"athos_avatars:rotateAlign": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~ ~ 0 ~"
 					]
 				}
 			},
 			"athos_avatars:positionX": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~0.05 ~ ~"
 					]
 				}
 			},
 			"athos_avatars:positionXM": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~-0.05 ~ ~"
 					]
 				}
 			},
 			"athos_avatars:positionY": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~0.05 ~"
 					]
 				}
 			},
 			"athos_avatars:positionYM": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~-0.05 ~"
 					]
 				}
 			},
 			"athos_avatars:positionZ": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~ ~0.05"
 					]
 				}
 			},
 			"athos_avatars:positionZM": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~ ~-0.05"
 					]

@@ -1,9 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_avatars:athosnaut_suit",
-			"category": "equipment"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
 			
@@ -19,31 +21,16 @@
 					"max": 90
 				}
 			},
-			"minecraft:armor": {
-				"protection": 5
-			},
 			"minecraft:wearable": {
+				"protection": 5,
 				"slot": "slot.armor.chest"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.chestplate"
 			},
-			"minecraft:icon": {
-				"texture": "athosnaut_suit_item"
-			},
-			"minecraft:render_offsets": "chestplates",
+            "minecraft:icon": "athosnaut_suit_item",
 			"minecraft:display_name": {
 				"value": "item.athos_avatars:athosnaut_suit"
-			},
-			"minecraft:on_use": {
-				"on_use": {"event": "sound"}
-			}
-		},
-		"events": {
-			"sound": {
-				"run_command": {
-					"command": ["playsound armor.equip_leather @s"]
-				}
 			}
 		}
 	}
