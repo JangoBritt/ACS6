@@ -22,7 +22,6 @@
         "identifier": "geometry.block.nicothekid_unit_cube"
       },
       "minecraft:map_color": "#000000",
-      "minecraft:breathability": "solid",
       "minecraft:collision_box": false,
       "minecraft:selection_box": false,
       "minecraft:light_dampening": 0,
