@@ -279,7 +279,7 @@
             "despawning"
           ]
         },
-        "run_command": {
+        "queue_command": {
 					"command": [
 						"tellraw @a[r=64] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
 					]

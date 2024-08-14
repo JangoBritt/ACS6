@@ -13,11 +13,7 @@
             "minecraft:icon": "coin_pile", 
 			"minecraft:display_name": {
 				"value": "Pile of Coin"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.currency"
 			}
-			
 		}
 	}
 }

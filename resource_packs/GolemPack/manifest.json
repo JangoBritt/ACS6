@@ -7,20 +7,20 @@
 		"description": "Pack By §6AthosCraft§r | Copper & Tuff Golems | §cExperimental Required§r | Visit §9www.athoscraft.com§r",
 		"name": "§aGolem Pack§r v6.0.2 [R]",
 		"uuid": "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09",
-		"version": [ 6, 0, 2 ],
+		"version": [ 6, 1, 0 ],
 		"min_engine_version": [ 1, 16, 0 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "95569c48-a2e9-4bfb-bbfa-ee3fbf5d1eab",
-			"version": [ 6, 0, 2 ]
+			"version": [ 6, 1, 0 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "25f31836-beb8-4f79-85f1-b3377e01ff07",
-			"version": [ 6, 0, 2 ]
+			"version": [ 6, 1, 0 ]
 		}
 	]
 }

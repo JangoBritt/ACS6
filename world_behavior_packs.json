@@ -8,7 +8,7 @@
 		
 	{
 		"pack_id" : "d0131071-9ec1-edcd-6871-857c700703d8", //Farmers Delight
-		"version" : [ 2, 0, 5 ]
+		"version" : [ 2, 1, 1 ]
 	},
 
 	{
@@ -24,7 +24,7 @@
 	{
 		"pack_id" : "fcd5a4e5-887c-4496-955c-5a89ab947f12", //Wandering Trader
 		"subpack" : "standard",
-		"version" : [ 6, 0, 3 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
@@ -49,14 +49,14 @@
 	
 	{
 		"pack_id" : "91879d55-d90a-411b-8aff-21b58979b6a3", //Athos Paintings
-		"version" : [ 6, 0, 3 ]
+		"version" : [ 6, 1, 0 ]
 	},
 
 	
 	{
 		"pack_id" : "10001000-1223-1111-1111-a000a000a000", //Lamps
 		"subpack" : "fully_scripting_events",
-		"version" : [ 1, 8, 3 ]
+		"version" : [ 1, 8, 4 ]
 	},
 	
 	{
@@ -72,7 +72,7 @@
 	
 	{
 		"pack_id" : "25f31836-beb8-4f79-85f1-b3377e01ff07", //Athos Golems
-		"version" : [ 6, 0, 2 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
@@ -89,6 +89,6 @@
 	{
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //Athos Avatars
 		"subpack" : "demise",
-		"version" : [ 6, 1, 2 ]
+		"version" : [ 6, 2, 0 ]
 	}
 ]

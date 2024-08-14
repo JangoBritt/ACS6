@@ -13,9 +13,6 @@
             "minecraft:icon": "coin", 
 			"minecraft:display_name": {
 				"value": "Coin"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.currency"
 			}
 		}
 	}

@@ -3,7 +3,7 @@
 		
 	{
 		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers Delight
-		"version" : [ 2, 0, 5 ]
+		"version" : [ 2, 1, 1 ]
 	},
 
 	{
@@ -54,12 +54,12 @@
 	
 	{
 		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps
-		"version" : [ 1, 8, 3 ]
+		"version" : [ 1, 8, 4 ]
 	},
 	
 	{
 		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09", //Athos Golems
-		"version" : [ 6, 0, 2 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{ 
@@ -79,11 +79,11 @@
 	
 	{
 		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113", //Wandering Trader
-		"version" : [ 6, 0, 3 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
 		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9", //Athos Avatars
-		"version" : [ 6, 1, 2 ]
+		"version" : [ 6, 2, 0 ]
 	}
 ]
