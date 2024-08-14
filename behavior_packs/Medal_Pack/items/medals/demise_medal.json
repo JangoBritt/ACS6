@@ -1,19 +1,17 @@
 {
-	"format_version": "1.16.0",
+	"format_version":"1.21.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_medal:demise_medal",
-			"category": "items",
-			"group": "itemGroup.name.medals"
+			"menu_category": {
+				"category": "items"
+			}
 		},
 		"components": {
 			"minecraft:hand_equipped": false,
 			"minecraft:max_stack_size": 64,
-			"minecraft:foil": false,
-			"minecraft:stack_by_data": true,
-			"minecraft:icon": {
-				"texture": "demise_medal"
-			},
+			"minecraft:stack_by_data": {},
+            "minecraft:icon": "demise_medal", 
 			"minecraft:display_name": {
 				"value": "item.athos_medal:demise_medal.name"
 			},

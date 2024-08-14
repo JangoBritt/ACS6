@@ -49,7 +49,7 @@
 	
 	{
 		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Athos Currency
-		"version" : [ 6, 0, 2 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
@@ -64,7 +64,7 @@
 	
 	{ 
 		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Athos Medals
-		"version" : [ 6, 0, 8 ]
+		"version" : [ 6, 1, 0 ]
 	},
 	
 	{

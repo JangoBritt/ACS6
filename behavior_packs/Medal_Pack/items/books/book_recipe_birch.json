@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "athos_misc:birch_book",
 			"menu_category": {
-				"category": "items",
-				"group": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {
