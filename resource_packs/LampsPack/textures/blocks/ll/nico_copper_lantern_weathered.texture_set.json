@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "nico_copper_lantern_weathered",
+        "metalness_emissive_roughness": "nico_copper_lantern_mer",
+        "heightmap": "nico_copper_lantern_normal"
+    }
+}

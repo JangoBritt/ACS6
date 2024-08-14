@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "nico_tuff_soul_lantern",
+        "metalness_emissive_roughness": "nico_lantern_mer",
+        "heightmap": "nico_lantern_normal"
+    }
+}
