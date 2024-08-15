@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marker.compass": {
+			"geometry": "Geometry.compass",
+			"materials": [
+				{
+					"*": "Material.npc"
+				}
+			],
+			"textures": [
+				"Texture.compass"
+			]
+		}
+	}
+}

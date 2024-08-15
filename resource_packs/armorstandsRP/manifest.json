@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "v2.0.88 | Pack By FoxyNoTail+cole | Markers & Adjustable Armor Standsbroken parts removed",
+    "name": "[COMBO] Armor Stands+ & Markers v2.99 [EX] [R]",
+    "uuid": "5c2e165b-9240-478e-a4b1-d98804e33476",
+    "version": [
+      2,
+      0,
+      99
+    ],
+    "min_engine_version": [
+      1,
+      18,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "7a37c765-b4ee-4086-9e59-8c85541d9d51",
+      "version": [
+        2,
+        0,
+        99
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2d0fd1e8-be04-40c0-a95d-92a6ca931976",
+      "version": [
+        2,
+        0,
+        99
+      ]
+    }
+  ]
+}

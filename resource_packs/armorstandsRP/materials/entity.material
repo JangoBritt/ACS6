@@ -1,0 +1,12 @@
+{
+	"materials": {
+		"version": "1.0.0",
+		"fnt_sphere:entity": {
+			"+states": [
+				"Blending",
+				"DisableCulling", 
+				"DisableDepthWrite"
+			]
+		}
+	}
+}

@@ -1,0 +1,377 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:armor_stand",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "armor_stand",
+				"sphere": "fnt_sphere",
+				"chunk": "npc",
+				"npc": "npc",
+				"entity": "entity",
+				"locked": "textures/entity/armor_stand_locked"
+			},
+			"textures": {
+				"default": "textures/entity/armor_stand",
+				"inner": "textures/sphere_inner",
+				"outer": "textures/sphere_outer",
+				"chunk": "textures/chunk_outer",
+				"compass": "textures/compass",
+				"num_0": "textures/num_0",
+				"num_1": "textures/num_1",
+				"num_2": "textures/num_2",
+				"num_3": "textures/num_3",
+				"num_4": "textures/num_4",
+				"num_5": "textures/num_5",
+				"num_6": "textures/num_6",
+				"num_7": "textures/num_7",
+				"num_8": "textures/num_8",
+				"num_9": "textures/num_9",
+				"num_m": "textures/num_m",
+				"num_b": "textures/num_b",
+				"num_e": "textures/num_e",
+				"days_in_game": "textures/days_in_game",
+				"time_ticks": "textures/time_ticks",
+				"fps": "textures/fps"
+			},
+			"geometry": {
+				"default": "geometry.fnt.armor_stand",
+				"inner": "geometry.marker.sphere_inner",
+				"outer": "geometry.marker.sphere_outer",
+				"chunk": "geometry.marker.chunk",
+				"chunk2": "geometry.marker.chunk3x3",
+				"chunk3": "geometry.marker.chunk5x5",
+				"compass": "geometry.marker.compass",
+				"sh_u": "geometry.marker.sh_u",
+				"sh_t": "geometry.marker.sh_t",
+				"sk_u": "geometry.marker.sk_u",
+				"sk_t": "geometry.marker.sk_t",
+				"sk_h": "geometry.marker.sk_h",
+				"sk_title": "geometry.marker.sk_title",
+				"sm_u": "geometry.marker.sm_u",
+				"sm_t": "geometry.marker.sm_t",
+				"sm_h": "geometry.marker.sm_h",
+				"sm_k": "geometry.marker.sm_k",
+				"sm_k2": "geometry.marker.sm_k2",
+				"sm_k3": "geometry.marker.sm_k3",
+				"sm_title": "geometry.marker.sm_title",
+				"cx_u": "geometry.marker.cx_u",
+				"cx_t": "geometry.marker.cx_t",
+				"cx_h": "geometry.marker.cx_h",
+				"cx_k": "geometry.marker.cx_k",
+				"cx_k2": "geometry.marker.cx_k2",
+				"cx_k3": "geometry.marker.cx_k3",
+				"cy_u": "geometry.marker.cy_u",
+				"cy_t": "geometry.marker.cy_t",
+				"cy_h": "geometry.marker.cy_h",
+				"cy_k": "geometry.marker.cy_k",
+				"cy_k2": "geometry.marker.cy_k2",
+				"cy_k3": "geometry.marker.cy_k3",
+				"cz_u": "geometry.marker.cz_u",
+				"cz_t": "geometry.marker.cz_t",
+				"cz_h": "geometry.marker.cz_h",
+				"cz_k": "geometry.marker.cz_k",
+				"cz_k2": "geometry.marker.cz_k2",
+				"cz_k3": "geometry.marker.cz_k3",
+				"spawner_inner": "geometry.marker.spawner_inner",
+				"spawner_outer": "geometry.marker.spawner_outer"
+			},
+			"animations": {
+				"default_pose": "animation.armor_stand.default_pose",
+				"no_pose": "animation.armor_stand.no_pose",
+				"solemn_pose": "animation.armor_stand.solemn_pose",
+				"athena_pose": "animation.armor_stand.athena_pose",
+				"brandish_pose": "animation.armor_stand.brandish_pose",
+				"honor_pose": "animation.armor_stand.honor_pose",
+				"entertain_pose": "animation.armor_stand.entertain_pose",
+				"salute_pose": "animation.armor_stand.salute_pose",
+				"riposte_pose": "animation.armor_stand.riposte_pose",
+				"zombie_pose": "animation.armor_stand.zombie_pose",
+				"cancan_a_pose": "animation.armor_stand.cancan_a_pose",
+				"cancan_b_pose": "animation.armor_stand.cancan_b_pose",
+				"hero_pose": "animation.armor_stand.hero_pose",
+				"wiggle": "animation.armor_stand.wiggle",
+				"controller.pose": "controller.animation.armor_stand.pose",
+				"controller.wiggling": "controller.animation.armor_stand.wiggle",
+				"marker_sphere": "animation.marker.sphere",
+				"marker_chunk": "animation.marker.chunk",
+				"marker_compass": "animation.marker.compass",
+				"marker_sh": "animation.marker.screen_h",
+				"marker_sk": "animation.marker.screen_k",
+				"marker_sm": "animation.marker.screen_m",
+				"rotateX_0": "animation.fnt.rotateX_0",
+				"rotateX_15": "animation.fnt.rotateX_15",
+				"rotateX_30": "animation.fnt.rotateX_30",
+				"rotateX_45": "animation.fnt.rotateX_45",
+				"rotateX_60": "animation.fnt.rotateX_60",
+				"rotateX_75": "animation.fnt.rotateX_75",
+				"rotateX_90": "animation.fnt.rotateX_90",
+				"rotateX_105": "animation.fnt.rotateX_105",
+				"rotateX_120": "animation.fnt.rotateX_120",
+				"rotateX_135": "animation.fnt.rotateX_135",
+				"rotateX_150": "animation.fnt.rotateX_150",
+				"rotateX_165": "animation.fnt.rotateX_165",
+				"rotateX_180": "animation.fnt.rotateX_180",
+				"rotateX_195": "animation.fnt.rotateX_195",
+				"rotateX_210": "animation.fnt.rotateX_210",
+				"rotateX_225": "animation.fnt.rotateX_225",
+				"rotateX_240": "animation.fnt.rotateX_240",
+				"rotateX_255": "animation.fnt.rotateX_255",
+				"rotateX_270": "animation.fnt.rotateX_270",
+				"rotateX_285": "animation.fnt.rotateX_285",
+				"rotateX_300": "animation.fnt.rotateX_300",
+				"rotateX_315": "animation.fnt.rotateX_315",
+				"rotateX_330": "animation.fnt.rotateX_330",
+				"rotateX_345": "animation.fnt.rotateX_345",
+				"rotateX": "controller.animation.fnt.rotateX",
+				"rotateZ_0": "animation.fnt.rotateZ_0",
+				"rotateZ_15": "animation.fnt.rotateZ_15",
+				"rotateZ_30": "animation.fnt.rotateZ_30",
+				"rotateZ_45": "animation.fnt.rotateZ_45",
+				"rotateZ_60": "animation.fnt.rotateZ_60",
+				"rotateZ_75": "animation.fnt.rotateZ_75",
+				"rotateZ_90": "animation.fnt.rotateZ_90",
+				"rotateZ_105": "animation.fnt.rotateZ_105",
+				"rotateZ_120": "animation.fnt.rotateZ_120",
+				"rotateZ_135": "animation.fnt.rotateZ_135",
+				"rotateZ_150": "animation.fnt.rotateZ_150",
+				"rotateZ_165": "animation.fnt.rotateZ_165",
+				"rotateZ_180": "animation.fnt.rotateZ_180",
+				"rotateZ_195": "animation.fnt.rotateZ_195",
+				"rotateZ_210": "animation.fnt.rotateZ_210",
+				"rotateZ_225": "animation.fnt.rotateZ_225",
+				"rotateZ_240": "animation.fnt.rotateZ_240",
+				"rotateZ_255": "animation.fnt.rotateZ_255",
+				"rotateZ_270": "animation.fnt.rotateZ_270",
+				"rotateZ_285": "animation.fnt.rotateZ_285",
+				"rotateZ_300": "animation.fnt.rotateZ_300",
+				"rotateZ_315": "animation.fnt.rotateZ_315",
+				"rotateZ_330": "animation.fnt.rotateZ_330",
+				"rotateZ_345": "animation.fnt.rotateZ_345",
+				"rotateZ": "controller.animation.fnt.rotateZ",
+				"sitting": "animation.fnt.sitting",
+				"sit": "controller.animation.fnt.sit"
+			},
+			"scripts": {
+				"initialize": [
+					"variable.armor_stand.pose_index = 0;",
+					"variable.armor_stand.hurt_time = 0;",
+					"variable.marker_chunk_type = 0;",
+					"variable.pos_x = 0;",
+					"variable.pos_y = 0;",
+					"variable.pos_z = 0;",
+					"variable.low_x = 0;",
+					"variable.low_y = 0;",
+					"variable.low_z = 0;",
+					"variable.chunk_x = 0;",
+					"variable.chunk_y = 0;",
+					"variable.chunk_z = 0;",
+					"variable.rot = 0;",
+					"variable.dist = 0;",
+					"variable.dist_u = 0;",
+					"variable.dist_t = 0;",
+					"variable.day = 0;",
+					"variable.day_u = 0;",
+					"variable.day_t = 0;",
+					"variable.day_h = 0;",
+					"variable.day_k = 0;",
+					"variable.day_k2 = 0;",
+					"variable.day_k3 = 0;",
+					"variable.fps = 0;",
+					"variable.fps_u = 0;",
+					"variable.fps_t = 0;",
+					"variable.fps_h = 0;",
+					"variable.time = 0;",
+					"variable.time_u = 0;",
+					"variable.time_t = 0;",
+					"variable.time_h = 0;",
+					"variable.time_k = 0;",
+					"variable.time_k2 = 0;",
+					"variable.time_k3 = 0;"
+				],
+				"animate": [
+					"controller.pose",
+					"controller.wiggling",
+					"marker_sphere",
+					"marker_chunk",
+					"marker_compass",
+					"marker_sh",
+					"marker_sk",
+					"marker_sm",
+					"rotateX",
+					"rotateZ",
+					"sit"
+				],
+				"pre_animation": [
+					"variable.marker_sphere = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 1;",
+					"variable.marker_chunk = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 2 || variable.armor_stand.pose_index == 3 || variable.armor_stand.pose_index == 4;",
+					"variable.marker_chunk_type = (variable.armor_stand.pose_index == 3 ? 1 : (variable.armor_stand.pose_index == 4 ? 2 : 0));",
+					// Filter out diagonal rotations for chunk due to mathematical issues
+					"variable.marker_chunk = (query.body_y_rotation == 45 || query.body_y_rotation == -45 || query.body_y_rotation == 135 || query.body_y_rotation == -135) ? 0 : variable.marker_chunk;",
+					"variable.marker_compass = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 5;",
+					"variable.marker_distance = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 6;",
+					"variable.marker_day = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 7;",
+					"variable.marker_time = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 8;",
+					"variable.marker_fps = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 9;",
+					"variable.marker_spawner = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 12;",
+					"variable.rot = query.body_y_rotation;",
+					"variable.pos_x = math.floor(query.position(0));",
+					"variable.pos_y = math.floor(query.position(1));",
+					"variable.pos_z = math.floor(query.position(2));",
+					"variable.low_x = math.floor(variable.pos_x/16)*16;",
+					"variable.low_y = math.floor(variable.pos_y/16)*16;",
+					"variable.low_z = math.floor(variable.pos_z/16)*16;",
+					// Rotation 0
+					"variable.chunk_x = (-((variable.pos_x - variable.low_x)*16))-8;",
+					"variable.chunk_y = (-((variable.pos_y - variable.low_y)*16))-257 ;",
+					"variable.chunk_z = ( ((variable.pos_z - variable.low_z)*16))+8;",
+					// Rotation 90
+					"variable.chunk_x_90 = (-((variable.pos_z - variable.low_z)*16))-8;",
+					"variable.chunk_z_90 = (-((variable.pos_x - variable.low_x)*16))-8;",
+					// Rotation -180
+					"variable.chunk_x_180 = (((variable.pos_x - variable.low_x)*16))+8;",
+					"variable.chunk_z_180 = (-((variable.pos_z - variable.low_z)*16))-8;",
+					// Rotation -90
+					"variable.chunk_x_m90 = (((variable.pos_z - variable.low_z)*16))+8;",
+					"variable.chunk_z_m90 = (((variable.pos_x - variable.low_x)*16))+8;",
+					// Possible rotations
+					//0, 45, 90, 135, -180 -135, -90, -45
+					// Ignoring -45, 45, -135, 135 rotations
+					"variable.chunk_x = variable.rot != 0 ? (variable.rot == 90 ? variable.chunk_x_90 : (variable.rot == -180 ? variable.chunk_x_180 : (variable.rot == -90 ? variable.chunk_x_m90 : 0))) : variable.chunk_x;",
+					"variable.chunk_z = variable.rot != 0 ? (variable.rot == 90 ? variable.chunk_z_90 : (variable.rot == -180 ? variable.chunk_z_180 : (variable.rot == -90 ? variable.chunk_z_m90 : 0))) : variable.chunk_z;",
+					// Distance from Camera
+					"variable.dist   = math.floor(query.distance_from_camera);",
+					"variable.dist_t = math.floor(variable.dist/10);",
+					"variable.dist_u = ((variable.dist/10) - variable.dist_t)*10;",
+					// Days
+					"variable.day    = query.day;",
+					"variable.day_k3 = math.floor(variable.day/100000);",
+					"variable.day_k2 = math.floor( ( variable.day - ( variable.day_k3*100000 ) ) / 10000 );",
+					"variable.day_k  = math.floor( ( variable.day - ( variable.day_k3*100000) - ( variable.day_k2*10000) ) / 1000 );",
+					"variable.day_h  = math.floor( ( variable.day - ( variable.day_k3*100000) - ( variable.day_k2*10000) - ( variable.day_k*1000) ) / 100 );",
+					"variable.day_t  = math.floor( ( variable.day - ( variable.day_k3*100000) - ( variable.day_k2*10000) - ( variable.day_k*1000) - ( variable.day_h*100) ) / 10 );",
+					"variable.day_u  = math.floor( ( variable.day - ( variable.day_k3*100000) - ( variable.day_k2*10000) - ( variable.day_k*1000) - ( variable.day_h*100) - ( variable.day_t*10) ) );",
+					// If days over max (999999+) set all to 9
+					"variable.day_k3 = variable.day > 999999 ? 9 : variable.day_k3;",
+					"variable.day_k2 = variable.day > 999999 ? 9 : variable.day_k2;",
+					"variable.day_k  = variable.day > 999999 ? 9 : variable.day_k;",
+					"variable.day_h  = variable.day > 999999 ? 9 : variable.day_h;",
+					"variable.day_t  = variable.day > 999999 ? 9 : variable.day_t;",
+					"variable.day_u  = variable.day > 999999 ? 9 : variable.day_u;",
+					// Time					
+					// Midnight, Sunrise, Day, Noon, Sunset
+					// 0 = 18000. 0.208 = 23000, 0.291 = 1000, 0.5 = 6000, 0.75 = 12000
+					"variable.time_ticks  = query.time_of_day*24000;",
+					"variable.time    = variable.time_ticks <= 6000 ? (variable.time_ticks + 18000) : (variable.time_ticks - 6000);",
+					"variable.time_k3 = math.floor(variable.time/100000);",
+					"variable.time_k2 = math.floor( ( variable.time - ( variable.time_k3*100000 ) ) / 10000 );",
+					"variable.time_k  = math.floor( ( variable.time - ( variable.time_k3*100000) - ( variable.time_k2*10000) ) / 1000 );",
+					"variable.time_h  = math.floor( ( variable.time - ( variable.time_k3*100000) - ( variable.time_k2*10000) - ( variable.time_k*1000) ) / 100 );",
+					"variable.time_t  = math.floor( ( variable.time - ( variable.time_k3*100000) - ( variable.time_k2*10000) - ( variable.time_k*1000) - ( variable.time_h*100) ) / 10 );",
+					"variable.time_u  = math.floor( ( variable.time - ( variable.time_k3*100000) - ( variable.time_k2*10000) - ( variable.time_k*1000) - ( variable.time_h*100) - ( variable.time_t*10) ) );",
+					// If Time over max (999999+) set all to 9
+					//"variable.time_k3 = variable.time > 99999 ? 9 : variable.time_k3;",
+					//"variable.time_k2 = variable.time > 99999 ? 9 : variable.time_k2;",
+					//"variable.time_k  = variable.time > 99999 ? 9 : variable.time_k;",
+					//"variable.time_h  = variable.time > 99999 ? 9 : variable.time_h;",
+					//"variable.time_t  = variable.time > 99999 ? 9 : variable.time_t;",
+					//"variable.time_u  = variable.time > 99999 ? 9 : variable.time_u;",
+					// FPS
+					"variable.fps   = 1/query.average_frame_time(30);",
+					"variable.fps_h = math.floor(variable.fps/100);",
+					"variable.fps_t = math.floor( ( variable.fps - ( variable.fps_h*100 ) ) / 10 );",
+					"variable.fps_u = math.floor( variable.fps - ( variable.fps_h*100) - ( variable.fps_t*10) );",
+					"variable.fps_h = variable.fps > 999 ? 9 : variable.fps_h;",
+					"variable.fps_t = variable.fps > 999 ? 9 : variable.fps_t;",
+					"variable.fps_u = variable.fps > 999 ? 9 : variable.fps_u;"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fnt.armor_stand",
+				{
+					"controller.render.marker.sphere_inner": "variable.marker_sphere"
+				},
+				{
+					"controller.render.marker.sphere_outer": "variable.marker_sphere"
+				},
+				{
+					"controller.render.marker.chunk": "variable.marker_chunk"
+				},
+				{
+					"controller.render.marker.compass": "variable.marker_compass"
+				},
+				{
+					"controller.render.marker.dist_u": "variable.marker_distance"
+				},
+				{
+					"controller.render.marker.dist_t": "variable.marker_distance"
+				},
+				{
+					"controller.render.marker.day_title": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_u": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_t": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_h": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_k": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_k2": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.day_k3": "variable.marker_day"
+				},
+				{
+					"controller.render.marker.fps_title": "variable.marker_fps"
+				},
+				{
+					"controller.render.marker.fps_h": "variable.marker_fps"
+				},
+				{
+					"controller.render.marker.fps_t": "variable.marker_fps"
+				},
+				{
+					"controller.render.marker.fps_u": "variable.marker_fps"
+				},
+				{
+					"controller.render.marker.time_ticks": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_u": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_t": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_h": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_k": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_k2": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_k3": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.time_k3": "variable.marker_time"
+				},
+				{
+					"controller.render.marker.spawner_inner": "variable.marker_spawner"
+				},
+				{
+					"controller.render.marker.spawner_outer": "variable.marker_spawner"
+				}
+			],
+			"enable_attachables": true
+		}
+	}
+}

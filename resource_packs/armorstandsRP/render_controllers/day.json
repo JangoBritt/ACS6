@@ -1,0 +1,178 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marker.day_title": {
+			"geometry": "Geometry.sm_title",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Texture.days_in_game"
+			]
+		},
+		"controller.render.marker.day_u": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_u",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_u]"
+			]
+		},
+		"controller.render.marker.day_t": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_t",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_t]"
+			]
+		},
+		"controller.render.marker.day_h": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_h",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_h]"
+			]
+		},
+		"controller.render.marker.day_k": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_k]"
+			]
+		},
+		"controller.render.marker.day_k2": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k2",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_k2]"
+			]
+		},
+		"controller.render.marker.day_k3": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k3",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.day_k3]"
+			]
+		}
+	}
+}

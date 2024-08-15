@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.marker.chunk": {
+			"loop": true,
+			"bones": {
+				"chunk": {
+					"rotation":	[ 0, "-variable.rot", 0 ],
+					"position": [ "variable.chunk_x", "variable.chunk_y", "variable.chunk_z" ]
+				}
+			}
+		}
+	}
+}

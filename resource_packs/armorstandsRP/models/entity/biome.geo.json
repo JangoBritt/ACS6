@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [		
+		{
+			"description": {
+				"identifier": "geometry.marker.biome",
+				"texture_width": 208,
+				"texture_height": 16,
+				"visible_bounds_width": 4096,
+				"visible_bounds_height": 4096,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "biome",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-48, 32, -48.1], "size": [96, 8, 8], "uv": [0, 0]},
+						{"origin": [-48, 32, 15.9], "size": [96, 8, 8], "pivot": [32, -7, 32], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-96, 32, -64.1], "size": [96, 8, 8], "pivot": [-16, -7, -32], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-80, 32, 15.9], "size": [96, 8, 8], "pivot": [-16, -7, 32], "rotation": [0, 180, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
