@@ -817,8 +817,8 @@
 						"weight": 1,
 						"queue_command": {
 							"command": [
-								"execute @s[tag=!copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready",
-								"execute @s[tag=copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready2"
+								"execute as @s[tag=!copper_golem_sitting] at @s run event entity @s athos_golem:button_ready",
+								"execute as @s[tag=copper_golem_sitting] at @s run event entity @s athos_golem:button_ready2"
 							]
 						},
 						"remove": {
@@ -878,10 +878,10 @@
 				},
 				"queue_command": {
 					"command": [
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
-						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
-						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
+						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
+						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
 					]
 				}
 			},
@@ -894,7 +894,7 @@
 				"queue_command": {
 					"command": [
 						"event entity @s athos_golem:button_refresh_start",
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.arms a 1 a a"
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.arms a 1 a a"
 					]
 				}
 			},
@@ -911,7 +911,7 @@
 				},
 				"queue_command": {
 					"command": [
-						"execute @s[tag=!oxidized_copper_golem] ~~~ summon athos_golem:golem_button_press ~~~"
+						"execute at @s as @s[tag=!oxidized_copper_golem] run summon athos_golem:golem_button_press ~~~"
 					]
 				}
 			},
@@ -1011,7 +1011,7 @@
 					"command": [
 						"tag @s remove exposed_copper_golem",
 						"tag @s add normal_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute at @s as @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1032,7 +1032,7 @@
 					"command": [
 						"tag @s remove weathered_copper_golem",
 						"tag @s add exposed_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute as @s at @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1054,7 +1054,7 @@
 					"command": [
 						"tag @s remove oxidized_copper_golem",
 						"tag @s add weathered_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute at @s as @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]

@@ -24,7 +24,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "acs5_avatars:coppergolem_item",
+                    "name": "athos_avatars:coppergolem_item",
                     "weight": 1,
                     "functions": [
                         {
@@ -38,7 +38,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "acs5_avatars:oxidizedcoppergolem_item",
+                    "name": "athos_avatars:oxidizedcoppergolem_item",
                     "weight": 1,
                     "functions": [
                         {
