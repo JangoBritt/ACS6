@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "nico_wdn_lantern_bamboo_down",
+        "metalness_emissive_roughness": "nico_wdn_lantern_mer",
+        "heightmap": "nico_wdn_lantern_normal"
+    }
+}

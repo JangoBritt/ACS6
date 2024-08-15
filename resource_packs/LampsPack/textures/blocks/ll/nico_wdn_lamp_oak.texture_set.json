@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "nico_wdn_lamp_oak",
+        "metalness_emissive_roughness": "nico_wdn_lamp_oak_mer",
+        "heightmap": "nico_wdn_lamp_oak_normal"
+    }
+}
