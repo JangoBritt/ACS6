@@ -7,4 +7,4 @@ If you find issues within the world, you can raise an issue here on GitHub, and 
 Happy Minecrafting!
 
 
-DISCLAIMER: This code is not for public distribution. 
+DISCLAIMER: This code is not for public distribution. It contains addons from other creators. No license was granted, and no license is given.
