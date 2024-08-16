@@ -24,8 +24,7 @@
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 9999.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.5},
 			"minecraft:map_color": "#f0efd3"
-		},
-		"events": {}
+		}
 	}
 }
 

@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "mb:post_box",
 			"menu_category": {
-				"category": "construction",
-				"group": "itemGroup.name.mailBoxes"
+				"category": "construction"
 			},
 			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}}
 		},
@@ -20,16 +19,10 @@
 			"minecraft:material_instances": {"*": {"texture": "mb.post_box","render_method": "alpha_test"}},
 			"minecraft:collision_box": {"origin": [-7,0,-5],"size": [14,16,10]},
 			"minecraft:selection_box": {"origin": [-7,0,-5],"size": [14,16,10]},
-			"minecraft:on_placed": {"event": "spawn"},
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 9999.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.5},
 			"minecraft:map_color": "#426ad6"
-		},
-		"events": {
-			"spawn": {
-				"run_command": {"command": ["execute unless entity @e[type=mb:postbox_container,r=0.5] run summon mb:postbox_container post_box ~~~"]}
-			}
 		}
 	}
 }
