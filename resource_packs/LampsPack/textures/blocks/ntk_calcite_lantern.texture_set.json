@@ -1,0 +1,8 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "ntk_calcite_lantern",
+    "metalness_emissive_roughness": "ntk_lantern_mer",
+    "heightmap": "ntk_lantern_normal"
+  }
+}

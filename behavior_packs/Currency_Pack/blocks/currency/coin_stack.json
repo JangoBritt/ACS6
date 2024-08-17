@@ -26,30 +26,8 @@
 					"face_dimming": true
 				}
 			},
-            "minecraft:selection_box": {
-				"origin": [
-					-4,
-					0,
-					-6
-				],
-				"size": [
-					8,
-					7,
-					8
-				]
-			},
-			"minecraft:collision_box": {
-				"origin": [
-					-4,
-					0,
-					-6
-				],
-				"size": [
-					8,
-					7,
-					8
-				]
-			},
+            "minecraft:selection_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
+			"minecraft:collision_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
 			"minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1
             },
@@ -58,54 +36,10 @@
             }
 		},
 		"permutations": [
-            {
-                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            90,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            270,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            180,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            0
-                        ]
-                    }
-                }
-            }
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } }
         ]
 	}
 }
