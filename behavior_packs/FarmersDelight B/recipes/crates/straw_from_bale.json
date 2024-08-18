@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farmersdelight:straw_from_bale"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "farmersdelight:straw_bale"
+            }
+        ],
+        "result": {
+            "item": "farmersdelight:straw",
+            "count": 9
+        }
+    }
+}

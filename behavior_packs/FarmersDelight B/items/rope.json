@@ -14,8 +14,7 @@
     "description": {
       "identifier": "farmersdelight:rope",
       "menu_category": {
-        "category": "Items",
-        "group": "itemGroup.name.items"
+        "category": "Items"
       }
     }
   }

@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:warped_tall_window"
       },
-      "minecraft:icon": "m.warped_tall_window",
+      "minecraft:icon": "warped_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_warped_tall_window"
       }

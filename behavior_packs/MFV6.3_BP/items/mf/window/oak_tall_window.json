@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:oak_tall_window"
       },
-      "minecraft:icon": "m.oak_tall_window",
+      "minecraft:icon": "oak_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_oak_tall_window"
       }

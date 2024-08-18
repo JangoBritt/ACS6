@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:jungle_tall_window"
       },
-      "minecraft:icon": "m.jungle_tall_window",
+      "minecraft:icon": "jungle_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_jungle_tall_window"
       }

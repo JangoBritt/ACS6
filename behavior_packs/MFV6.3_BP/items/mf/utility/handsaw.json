@@ -14,7 +14,7 @@
         "value": 10,
         "slot": "axe"
       },
-      "minecraft:icon": "m.beer_mug_empty_item",
+      "minecraft:icon": "handsaw",
       "minecraft:display_name": {
         "value": "item.medieval:handsaw"
       }
