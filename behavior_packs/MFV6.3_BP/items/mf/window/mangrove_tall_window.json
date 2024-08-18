@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:mangrove_tall_window"
       },
-      "minecraft:icon": "m.mangrove_tall_window",
+      "minecraft:icon": "mangrove_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_mangrove_tall_window"
       }

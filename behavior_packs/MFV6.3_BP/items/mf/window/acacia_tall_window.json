@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:acacia_tall_window"
       },
-      "minecraft:icon": "m.acacia_tall_window",
+      "minecraft:icon": "acacia_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_acacia_tall_window"
       }

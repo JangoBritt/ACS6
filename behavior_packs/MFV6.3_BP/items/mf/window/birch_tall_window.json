@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:birch_tall_window"
       },
-      "minecraft:icon": "m.birch_tall_window",
+      "minecraft:icon": "birch_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_birch_tall_window"
       }

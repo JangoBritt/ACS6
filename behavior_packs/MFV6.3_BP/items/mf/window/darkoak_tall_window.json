@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:darkoak_tall_window"
       },
-      "minecraft:icon": "m.darkoak_tall_window",
+      "minecraft:icon": "darkoak_tall_window",
       "minecraft:block_placer": {
         "block": "medieval:stripped_darkoak_tall_window"
       }
