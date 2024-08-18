@@ -12,7 +12,7 @@
       "minecraft:display_name": {
         "value": "item.medieval:scarecrow_item"
       },
-      "minecraft:icon": "scarecrow_item",
+      "minecraft:icon": "m.scarecrow_item",
       "minecraft:block_placer": {
         "block": "medieval:scarecrow_bot"
       }
