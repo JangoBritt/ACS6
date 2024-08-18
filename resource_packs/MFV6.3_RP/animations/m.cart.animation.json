@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.m.cart.wheels": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wheels1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [90, 0, 0],
+						"1.0": [180, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,219 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:beer_mug_empty",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "medieval:quantity": {
+          "values": {
+            "min": 0,
+            "max": 3
+          }
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:quantity') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/medieval_furniture/drops/beer_mug_empty_2.json"
+        },
+        "minecraft:collision_box": {
+          "origin": [
+            -7,
+            0.0,
+            -7
+          ],
+          "size": [
+            15,
+            8,
+            14
+          ]
+        },
+        "minecraft:selection_box": {
+          "origin": [
+            -7,
+            0.0,
+            -7
+          ],
+          "size": [
+            15,
+            8,
+            14
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:quantity') == 2",
+        "components": {
+          "minecraft:loot": "loot_tables/medieval_furniture/drops/beer_mug_empty_3.json"
+        },
+        "minecraft:collision_box": {
+          "origin": [
+            -8,
+            0.0,
+            -8
+          ],
+          "size": [
+            16,
+            8,
+            16
+          ]
+        },
+        "minecraft:selection_box": {
+          "origin": [
+            -8,
+            0.0,
+            -8
+          ],
+          "size": [
+            16,
+            8,
+            16
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:quantity') == 3",
+        "components": {
+          "minecraft:loot": "loot_tables/medieval_furniture/drops/beer_mug_empty_4.json"
+        },
+        "minecraft:collision_box": {
+          "origin": [
+            -8,
+            0.0,
+            -8
+          ],
+          "size": [
+            16,
+            16,
+            16
+          ]
+        },
+        "minecraft:selection_box": {
+          "origin": [
+            -8,
+            0.0,
+            -8
+          ],
+          "size": [
+            16,
+            16,
+            16
+          ]
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.m.beer_mug",
+        "bone_visibility": {
+          "beer_mug": "q.block_state('medieval:quantity') == 0",
+          "beer_mug2": "q.block_state('medieval:quantity') == 1",
+          "beer_mug3": "q.block_state('medieval:quantity') \u003e= 2",
+          "beer_mug4": "q.block_state('medieval:quantity') == 3",
+          "beer": false,
+          "beer2": false,
+          "beer3": false,
+          "beer4": false
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.beer_mug",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -3,
+          0.0,
+          -3
+        ],
+        "size": [
+          9,
+          8,
+          6
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -3,
+          0.0,
+          -3
+        ],
+        "size": [
+          9,
+          8,
+          6
+        ]
+      },
+      "minecraft:loot": "loot_tables/medieval_furniture/drops/beer_mug_empty.json",
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#24abab"
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:crimson_cabinet_tall",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "medieval:facing_direction": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "medieval:side": [
+          true,
+          false
+        ],
+        "medieval:close": [
+          true,
+          false
+        ],
+        "medieval:item": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.m.cabinet_tall_item"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:cabinet_south": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:cabinet_east": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 5",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "tag:cabinet_west": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:side')",
+        "components": {
+          "tag:cabinet": {}
+        }
+      },
+      {
+        "condition": "!q.block_state('medieval:side')",
+        "components": {
+          "tag:side": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:close')",
+        "components": {
+          "tag:cabinet_close": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:item') == 1",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.m.cabinet_tall_book",
+            "bone_visibility": {
+              "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+              "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+              "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
+              "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:item') == 2",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.m.cabinet_tall_potion",
+            "bone_visibility": {
+              "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+              "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+              "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
+              "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.m.cabinet_tall_bot",
+        "bone_visibility": {
+          "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+          "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
+          "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
+          "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+        }
+      },
+      "minecraft:material_instances": {
+        "planks": {
+          "texture": "m.crimson_planks",
+          "render_method": "alpha_test"
+        },
+        "metal": {
+          "texture": "light_gray_concrete",
+          "render_method": "alpha_test"
+        },
+        "*": {
+          "texture": "m.stripped_crimson",
+          "render_method": "alpha_test"
+        },
+        "book": {
+          "texture": "m.book_bookshelf",
+          "render_method": "alpha_test"
+        },
+        "potion": {
+          "texture": "m.potion_bookshelf",
+          "render_method": "alpha_test"
+        },
+        "potion1": {
+          "texture": "m.potion_bookshelf_1",
+          "render_method": "alpha_test"
+        }
+      },
+      "tag:crimson": {},
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#fcd7f9"
+    }
+  }
+}

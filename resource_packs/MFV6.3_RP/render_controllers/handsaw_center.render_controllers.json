@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.handsaw_center": {
+			"geometry": "Geometry.handsaw_center",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"textures": [
+				"Texture.weapon_handsaw"
+			]
+		},
+		"controller.render.handsaw_left": {
+			"geometry": "Geometry.handsaw_left",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"textures": [
+				"Texture.weapon_handsaw"
+			]
+		},
+		"controller.render.handsaw_right": {
+			"geometry": "Geometry.handsaw_right",
+			"materials": [
+				{ "*": "Material.default" }
+			],
+			"textures": [
+				"Texture.weapon_handsaw"
+			]
+		}
+	}
+}

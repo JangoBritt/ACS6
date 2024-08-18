@@ -114,14 +114,14 @@
 		},
 		"events": {
 			"minecraft:entity_spawned": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tp @s ~ ~ ~ facing @p"
 					]
 				}
 			},
 			"mb:destroy": {
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"kill @s",
 						"tp @e[type=item,r=1] ~~~"

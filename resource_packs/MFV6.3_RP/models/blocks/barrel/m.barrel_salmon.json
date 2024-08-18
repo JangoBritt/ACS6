@@ -1,0 +1,275 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_salmon",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "salmon",
+					"pivot": [1.95, 13.15, -4.075],
+					"rotation": [0, 7.5, -77.5],
+					"cubes": [
+						{
+							"origin": [10.1, 11, -5],
+							"size": [3, 4, 2],
+							"uv": {
+								"north": {"uv": [7, 4.5], "uv_size": [-1.5, 2], "material_instance": "salmon"},
+								"east": {"uv": [2.5, 8], "uv_size": [1, 2], "material_instance": "salmon"},
+								"south": {"uv": [5.5, 4.5], "uv_size": [1.5, 2], "material_instance": "salmon"},
+								"west": {"uv": [4.5, 4.5], "uv_size": [1, 2], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 4.5], "uv_size": [1.5, 1], "material_instance": "salmon"},
+								"down": {"uv": [6, 3], "uv_size": [-1.5, -1], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [2.1, 10, -5.5],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 3], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [4.5, 3], "uv_size": [-4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 0], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 1.5], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [2.1, 15, -4.05],
+							"size": [4, 1, 0.1],
+							"uv": {
+								"north": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"east": {"uv": [10.5, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"south": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"west": {"uv": [10, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"up": {"uv": [10, 1], "uv_size": [0.5, 0.05], "material_instance": "salmon"},
+								"down": {"uv": [10.5, 0.55], "uv_size": [-0.5, -0.05], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-5.9, 10, -5.5],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 1.5], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 3], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon2",
+					"pivot": [1.15, 13.2, -0.375],
+					"rotation": [28.15895, 5.20735, -66.50036],
+					"cubes": [
+						{
+							"origin": [9.3, 11.05, -1.3],
+							"size": [3, 4, 2],
+							"uv": {
+								"north": {"uv": [7, 4.5], "uv_size": [-1.5, 2], "material_instance": "salmon"},
+								"east": {"uv": [2.5, 8], "uv_size": [1, 2], "material_instance": "salmon"},
+								"south": {"uv": [5.5, 4.5], "uv_size": [1.5, 2], "material_instance": "salmon"},
+								"west": {"uv": [4.5, 4.5], "uv_size": [1, 2], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 4.5], "uv_size": [1.5, 1], "material_instance": "salmon"},
+								"down": {"uv": [6, 3], "uv_size": [-1.5, -1], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [1.3, 10.05, -1.8],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 3], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [4.5, 3], "uv_size": [-4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 0], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 1.5], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [1.3, 15.05, -0.35],
+							"size": [4, 1, 0.1],
+							"uv": {
+								"north": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"east": {"uv": [10.5, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"south": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"west": {"uv": [10, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"up": {"uv": [10, 1], "uv_size": [0.5, 0.05], "material_instance": "salmon"},
+								"down": {"uv": [10.5, 0.55], "uv_size": [-0.5, -0.05], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-6.7, 10.05, -1.8],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 1.5], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 3], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon5",
+					"pivot": [1.05, 11.8, 3.825],
+					"rotation": [4.15615, -4.76647, -67.22444],
+					"cubes": [
+						{
+							"origin": [9.2, 9.65, 2.9],
+							"size": [3, 4, 2],
+							"uv": {
+								"north": {"uv": [7, 4.5], "uv_size": [-1.5, 2], "material_instance": "salmon"},
+								"east": {"uv": [2.5, 8], "uv_size": [1, 2], "material_instance": "salmon"},
+								"south": {"uv": [5.5, 4.5], "uv_size": [1.5, 2], "material_instance": "salmon"},
+								"west": {"uv": [4.5, 4.5], "uv_size": [1, 2], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 4.5], "uv_size": [1.5, 1], "material_instance": "salmon"},
+								"down": {"uv": [6, 3], "uv_size": [-1.5, -1], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [1.2, 8.65, 2.4],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 3], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [4.5, 3], "uv_size": [-4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 0], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 1.5], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [1.2, 13.65, 3.85],
+							"size": [4, 1, 0.1],
+							"uv": {
+								"north": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"east": {"uv": [10.5, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"south": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"west": {"uv": [10, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"up": {"uv": [10, 1], "uv_size": [0.5, 0.05], "material_instance": "salmon"},
+								"down": {"uv": [10.5, 0.55], "uv_size": [-0.5, -0.05], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-6.8, 8.65, 2.4],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 1.5], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 3], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon3",
+					"pivot": [-4.15, 11.15, 2.175],
+					"rotation": [83.65818, -5.49911, -94.49751],
+					"cubes": [
+						{
+							"origin": [4, 9, 1.25],
+							"size": [3, 4, 2],
+							"uv": {
+								"north": {"uv": [7, 4.5], "uv_size": [-1.5, 2], "material_instance": "salmon"},
+								"east": {"uv": [2.5, 8], "uv_size": [1, 2], "material_instance": "salmon"},
+								"south": {"uv": [5.5, 4.5], "uv_size": [1.5, 2], "material_instance": "salmon"},
+								"west": {"uv": [4.5, 4.5], "uv_size": [1, 2], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 4.5], "uv_size": [1.5, 1], "material_instance": "salmon"},
+								"down": {"uv": [6, 3], "uv_size": [-1.5, -1], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-4, 8, 0.75],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 3], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [4.5, 3], "uv_size": [-4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 0], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 1.5], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-4, 13, 2.2],
+							"size": [4, 1, 0.1],
+							"uv": {
+								"north": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"east": {"uv": [10.5, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"south": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"west": {"uv": [10, 0.5], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"up": {"uv": [10, 1], "uv_size": [0.5, 0.05], "material_instance": "salmon"},
+								"down": {"uv": [10.5, 0.55], "uv_size": [-0.5, -0.05], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-12, 8, 0.75],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 1.5], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 3], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						}
+					]
+				},
+				{
+					"name": "salmon4",
+					"pivot": [-4.55, 9.55, -1.775],
+					"rotation": [-98.02309, -5.29909, 105.82018],
+					"cubes": [
+						{
+							"origin": [-7.4, 11.4, -2.5],
+							"size": [4, 1, 0.1],
+							"uv": {
+								"north": {"uv": [10, 0.5], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"east": {"uv": [10, 1], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"south": {"uv": [10.5, 1], "uv_size": [0.5, 0.5], "material_instance": "salmon"},
+								"west": {"uv": [10.5, 1], "uv_size": [0.05, 0.5], "material_instance": "salmon"},
+								"up": {"uv": [10, 1], "uv_size": [0.5, 0.05], "material_instance": "salmon"},
+								"down": {"uv": [10.5, 1.05], "uv_size": [-0.5, -0.05], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-12.4, 6.4, -3.2],
+							"size": [8, 5, 3],
+							"uv": {
+								"north": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"east": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"south": {"uv": [0.5, 5.5], "uv_size": [4, 2.5], "material_instance": "salmon"},
+								"west": {"uv": [3.5, 8], "uv_size": [1.5, 2.5], "material_instance": "salmon"},
+								"up": {"uv": [4.5, 1.5], "uv_size": [-4, 1.5], "material_instance": "salmon"},
+								"down": {"uv": [8.5, 3], "uv_size": [-4, -1.5], "material_instance": "salmon"}
+							}
+						},
+						{
+							"origin": [-18.4, 6.4, -1.7],
+							"size": [6, 5, 0],
+							"uv": {
+								"south": {"uv": [9, 0], "uv_size": [3, 2.5], "material_instance": "salmon"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:tall_window_cherry_upper_close",
+      "states": {
+        "medieval:direction": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "medieval:side": [
+          true,
+          false
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:direction') == 0",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:side') == true",
+        "components": {
+          "minecraft:geometry": "geometry.m.tall_window_top_close_0"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:side') == false",
+        "components": {
+          "minecraft:geometry": "geometry.m.tall_window_top_close_1"
+        }
+      }
+    ],
+    "components": {
+      "minecraft:geometry": "geometry.m.tall_window_top_close_0",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.stripped_cherry",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "glass": {
+          "texture": "glass",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "knob": {
+          "texture": "light_gray_concrete",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:map_color": "#ffc4f8",
+      "tag:tall_window": {},
+      "tag:tall_window_close": {},
+      "tag:medieval_furniture": {},
+      "minecraft:loot": "empty",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "stripped_cherry_tall_window"
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -2
+        ],
+        "size": [
+          16,
+          16,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -2
+        ],
+        "size": [
+          16,
+          16,
+          4
+        ]
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      }
+    }
+  }
+}

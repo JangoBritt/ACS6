@@ -1,0 +1,185 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_arrow",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "arrow",
+					"pivot": [-2.75, 12.25, 3.25],
+					"rotation": [-19.8423, 2.55868, 84.55239],
+					"cubes": [
+						{
+							"origin": [-10.75, 12.25, 0.75],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-10.75, 9.75, 3.25],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow2",
+					"pivot": [-2.75, 12.25, 0.25],
+					"rotation": [62.62127, -1.26471, 81.32953],
+					"cubes": [
+						{
+							"origin": [-10.75, 12.25, -2.25],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-10.75, 9.75, 0.25],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow3",
+					"pivot": [-2.75, 12.25, -2.75],
+					"rotation": [87.81369, -4.46529, 77.48283],
+					"cubes": [
+						{
+							"origin": [-10.75, 12.25, -5.25],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-10.75, 9.75, -2.75],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow4",
+					"pivot": [3.25, 12.25, -2.5],
+					"rotation": [44.38588, -14.03878, 97.66385],
+					"cubes": [
+						{
+							"origin": [-4.75, 12.25, -5],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-4.75, 9.75, -2.5],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow5",
+					"pivot": [-0.75, 12.25, -2.5],
+					"rotation": [77.31196, -12.16266, 95.63982],
+					"cubes": [
+						{
+							"origin": [-8.75, 12.25, -5],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-8.75, 9.75, -2.5],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow6",
+					"pivot": [0.5, 12.25, 2.75],
+					"rotation": [-21.9995, 9.52383, 87.69841],
+					"cubes": [
+						{
+							"origin": [-7.5, 12.25, 0.25],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-7.5, 9.75, 2.75],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow7",
+					"pivot": [3, 12.25, 2.75],
+					"rotation": [-37.35128, 11.8089, 98.39795],
+					"cubes": [
+						{
+							"origin": [-5, 12.25, 0.25],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-5, 9.75, 2.75],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				},
+				{
+					"name": "arrow8",
+					"pivot": [3.35, 12.25, -0.35],
+					"rotation": [-92.07178, 2.05581, 100.41186],
+					"cubes": [
+						{
+							"origin": [-4.65, 12.25, -2.85],
+							"size": [16, 0, 5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						},
+						{
+							"origin": [-4.65, 9.75, -0.35],
+							"size": [16, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 2.5], "material_instance": "rrow"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

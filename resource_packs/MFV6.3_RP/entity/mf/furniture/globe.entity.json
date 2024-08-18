@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:globe_entity",
+			"materials": {
+				"default": "entity"
+			},
+			"geometry": {
+				"default": "geometry.m.globe_entity"
+			},
+			"textures": {
+				"default": "textures/medieval_blocks/blocks/cartographer/globe"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"def_animation": "animation.m.globe_entity.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"def_animation"
+				]
+			}
+		}
+	}
+}

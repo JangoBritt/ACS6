@@ -23,7 +23,7 @@
 			"version": [
 				0,
 				0,
-				1
+				2
 			]
 		},
 		{
@@ -31,7 +31,7 @@
 			"language": "javascript",
 			"type": "script",
 			"uuid": "5bb61c8b-f153-4c15-bfed-5a87fade6ab8",
-			"version": [0,0,1],
+			"version": [0,0,2],
 			"entry": "scripts/Main.js"
 		}
 	],
@@ -42,7 +42,7 @@
 		},
 		{
 			"module_name": "@minecraft/server-ui",
-			"version": "1.2.0-beta"
+			"version": "1.3.0-beta"
 		}
 	]
 }

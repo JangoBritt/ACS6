@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:cart_oak_1",
+			"enable_attachables": true,
+			"hide_armor": false,
+			"materials": {
+				"default": "phantom",
+				"texture_alpha": "phantom"
+			},
+			"textures": {
+				"default": "textures/medieval_blocks/carriages/oak_cart2"
+			},
+			"geometry": {
+				"default": "geometry.m.cart2"
+			},
+			"sound_effects": {
+				"moving_start": "m.wagon_moving_start",
+				"moving": "m.wagon_moving",
+				"moving_end": "m.wagon_moving_end"
+			},
+			"animations": {
+				"wheels": "animation.m.cart.wheels",
+
+				"wagon.moving_start": "animation.m.wagon2.moving_start",
+				"wagon.moving_end": "animation.m.wagon2.moving_end",
+				"wagon.moving": "animation.m.wagon2.moving",
+				"wagon.move": "animation.m.wagon2.move_wagon",
+
+				"cart_movement": "controller.animation.cart"
+			},
+			"scripts": {
+				"animate": [
+					"cart_movement"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

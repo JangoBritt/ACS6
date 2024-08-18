@@ -1,68 +1,141 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:stripped_mangrove_park_bench_mr",
-			"menu_category": {
-                "category": "construction",
-                "group": "itemGroup.name.mrParkBench",
-                "is_hidden_in_commands": false
-            },
-			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
-			"states": {
-				"mr:state": [0,1,2,3,4]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]},"tag:mr.s.mangrove_park_n": {}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]},"tag:mr.s.mangrove_park_s": {}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]},"tag:mr.s.mangrove_park_w": {}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]},"tag:mr.s.mangrove_park_e": {}}}
-		],
-		"components": {
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.park_bench",
-				"bone_visibility": {
-					"bench": "q.block_state('mr:state') > 0",
-					"right": "q.block_state('mr:state') == 1 || q.block_state('mr:state') == 2",
-					"left": "q.block_state('mr:state') == 1 || q.block_state('mr:state') == 3",
-					"right2": "q.block_state('mr:state') == 4 || q.block_state('mr:state') == 3",
-					"left2": "q.block_state('mr:state') == 4 || q.block_state('mr:state') == 2",
-					"item": "q.block_state('mr:state') == 0"
-				}
-			},
-			"minecraft:breathability": "air",
-			"minecraft:material_instances": {"*": {"texture": "mr.stripped_mangrove","render_method": "opaque"},"wood": {"texture": "mr.planks_mangrove","render_method": "opaque"}},
-			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,9,16]},
-			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,9,16]},
-			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
-			"minecraft:on_interact": {"event": "sit_on_chair"},
-			"minecraft:on_placed": {"condition": "q.block_state('mr:state') == 0","event": "block_placed"},
-			"minecraft:on_player_placing": {"event": "block_placed"},
-			"minecraft:light_dampening": 1,
-			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#f7781e"
-		},
-		"events": {
-			"update": {
-				"sequence": [
-					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_n') && !q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_n')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_s') && !q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_s')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_w') && !q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_w')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_e') && !q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_e'))","set_block_state": {"mr:state": 1}},
-					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_n') && q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_n')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_s') && !q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_s')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_w') && !q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_w')) || (q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_e') && q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_e'))","set_block_state": {"mr:state": 2}},
-					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_n') && !q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_n')) || (q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_s') && q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_s')) || (q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_w') && q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_w')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_e') && !q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_e'))","set_block_state": {"mr:state": 3}},
-					{"condition": "(q.block_state('minecraft:cardinal_direction') == 'north' && q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_n') && q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_n')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_neighbor_has_any_tag(1,0,0,'mr.s.mangrove_park_s') && q.block_neighbor_has_any_tag(-1,0,0,'mr.s.mangrove_park_s')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_w') && q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_w')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_neighbor_has_any_tag(0,0,1,'mr.s.mangrove_park_e') && q.block_neighbor_has_any_tag(0,0,-1,'mr.s.mangrove_park_e'))","set_block_state": {"mr:state": 4}}
-				]
-			},
-			"sit_on_chair": {
-				"sequence": [
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~ ~ ~1","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~ ~ ~-1","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~1 ~ ~","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","run_command": {"command": ["execute unless entity @e[type=mr:chair_entity,r=0.5] run summon mr:chair_entity ~ ~ ~ facing ~-1 ~ ~","execute as @e[type=mr:chair_entity,c=1,r=0.5] at @s run ride @p[r=5,tag=!is_riding] start_riding @s teleport_rider"]}}
-				]
-			},
-			"block_placed": {"set_block_state": {"mr:state": 1}}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:stripped_mangrove_park_bench_mr",
+      "menu_category": {
+        "category": "construction",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "mr:state": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "tag:mr.s.mangrove_park_n": {}
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:mr.s.mangrove_park_s": {}
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:mr.s.mangrove_park_w": {}
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          },
+          "tag:mr.s.mangrove_park_e": {}
+        }
+      }
+    ],
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.park_bench",
+        "bone_visibility": {
+          "bench": "q.block_state('mr:state') \u003e 0",
+          "right": "q.block_state('mr:state') == 1 || q.block_state('mr:state') == 2",
+          "left": "q.block_state('mr:state') == 1 || q.block_state('mr:state') == 3",
+          "right2": "q.block_state('mr:state') == 4 || q.block_state('mr:state') == 3",
+          "left2": "q.block_state('mr:state') == 4 || q.block_state('mr:state') == 2",
+          "item": "q.block_state('mr:state') == 0"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.stripped_mangrove",
+          "render_method": "opaque"
+        },
+        "wood": {
+          "texture": "mr.planks_mangrove",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0.0,
+          -8
+        ],
+        "size": [
+          16,
+          9,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0.0,
+          -8
+        ],
+        "size": [
+          16,
+          9,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#f7781e"
+    }
+  }
 }

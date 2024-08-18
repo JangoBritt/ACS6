@@ -1,0 +1,121 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:birch_brown_chair",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.woolBirch",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "medieval:facing_direction": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:chair_south": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:chair_east": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 5",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "tag:chair_west": {}
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.chairs_2_bot",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.stripped_birch",
+          "render_method": "opaque"
+        },
+        "wool_carpet": {
+          "texture": "brown_bed",
+          "render_method": "opaque"
+        }
+      },
+      "tag:m.wood_chair": {},
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -7.0
+        ],
+        "size": [
+          16,
+          8,
+          14
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -7.0
+        ],
+        "size": [
+          16,
+          16,
+          14
+        ]
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#fff1a8"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:stripped_crimson_wooden_stairs",
+      "menu_category": {
+        "category": "construction",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "medieval:facing_direction": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "medieval:bot": [
+          0,
+          1
+        ],
+        "medieval:side": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "tag:wooden_stairs_north": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:wooden_stairs_south": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:wooden_stairs_east": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 5",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "tag:wooden_stairs_west": {}
+        }
+      }
+    ],
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.m.wooden_stairs",
+        "bone_visibility": {
+          "root": true,
+          "left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+          "bot": "q.block_state('medieval:bot') == 0 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
+          "top": "q.block_state('medieval:bot') == 1 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
+          "right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+          "bot2": "q.block_state('medieval:bot') == 0 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)",
+          "top2": "q.block_state('medieval:bot') == 1 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)"
+        }
+      },
+      "tag:wooden_stairs": {},
+      "tag:medieval_furniture": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.stripped_crimson",
+          "render_method": "opaque",
+          "ambient_occlusion": false
+        },
+        "planks": {
+          "texture": "crimson_planks",
+          "render_method": "opaque",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#BF1752"
+    }
+  }
+}

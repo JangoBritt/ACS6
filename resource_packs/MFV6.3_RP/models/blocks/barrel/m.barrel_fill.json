@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_fill",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "fill",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4.5, 14.75, -4.5],
+							"size": [9, 0, 9],
+							"uv": {
+								"up": {"uv": [3, 4], "uv_size": [9, 9], "material_instance": "fill"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

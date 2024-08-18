@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:bookshelf_14",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {      "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+      "minecraft:map_color": "#8c6930"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.barrel_beetroot",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "beetroot",
+					"pivot": [1.79572, 15.05, -1.98474],
+					"rotation": [9.9162, -1.2988, 14.8873],
+					"cubes": [
+						{
+							"origin": [-0.26025, 17.4, 0.25309],
+							"size": [5, 5, 0],
+							"pivot": [4.69403, 8.9, -1.46217],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"south": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [2.23975, 17.4, -2.24691],
+							"size": [0, 5, 5],
+							"pivot": [4.69403, 8.9, -1.46217],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [-0.75428, 12.9, -4.48474],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot2",
+					"pivot": [-2.50428, 16.5, -2.48474],
+					"rotation": [-7.3242, -1.6189, -12.3964],
+					"cubes": [
+						{
+							"origin": [-4.56025, 18.5, -0.24691],
+							"size": [5, 5, 0],
+							"pivot": [0.39403, 10, -1.96217],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"south": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [-2.06025, 18.5, -2.74691],
+							"size": [0, 5, 5],
+							"pivot": [0.39403, 10, -1.96217],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [-5.05428, 14, -4.98474],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot3",
+					"pivot": [-0.40428, 16.3, 2.11526],
+					"rotation": [-17.5, 0, 10],
+					"cubes": [
+						{
+							"origin": [-2.46025, 18.3, 4.35309],
+							"size": [5, 5, 0],
+							"pivot": [2.49403, 9.8, 2.63783],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"south": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [0.03975, 18.3, 1.85309],
+							"size": [0, 5, 5],
+							"pivot": [2.49403, 9.8, 2.63783],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [-2.95428, 13.8, -0.38474],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot4",
+					"pivot": [2.59572, 11.3, 2.91526],
+					"rotation": [-14.8845, 2.56289, 17.06588],
+					"cubes": [
+						{
+							"origin": [0.53975, 13.3, 5.15309],
+							"size": [5, 5, 0],
+							"pivot": [5.49403, 4.8, 3.43783],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"south": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [3.03975, 13.3, 2.65309],
+							"size": [0, 5, 5],
+							"pivot": [5.49403, 4.8, 3.43783],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 10], "uv_size": [5, 5], "material_instance": "beetroot"}
+							}
+						},
+						{
+							"origin": [0.04572, 8.8, 0.41526],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot5",
+					"pivot": [-2.70428, 11.3, 3.11526],
+					"rotation": [9.84514, -84.79905, -18.67132],
+					"cubes": [
+						{
+							"origin": [-5.25428, 8.1, 0.61526],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot6",
+					"pivot": [-2.70428, 11.3, -2.88474],
+					"rotation": [0.90215, 10.12354, -8.70734],
+					"cubes": [
+						{
+							"origin": [-5.25428, 8.3, -5.38474],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beetroot7",
+					"pivot": [2.39572, 11.3, -2.88474],
+					"rotation": [166.30849, -76.64398, -158.16417],
+					"cubes": [
+						{
+							"origin": [-0.15428, 7.3, -5.38474],
+							"size": [5, 5, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"east": {"uv": [3, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"south": {"uv": [3, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"west": {"uv": [0, 3], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "beetroot"},
+								"down": {"uv": [8, 5], "uv_size": [-5, -5], "material_instance": "beetroot"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

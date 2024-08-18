@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "medieval:wine_bottle_item",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:display_name": {
+        "value": "item.medieval:wine_bottle_item"
+      },
+      "minecraft:icon": "m.wine_bottle_item",
+      "minecraft:block_placer": {
+        "block": "medieval:wine_bottle"
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1,
+        "movement_modifier": 0.4
+      },
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 3,
+        "saturation_modifier": 0
+      }
+    }
+  }
+}

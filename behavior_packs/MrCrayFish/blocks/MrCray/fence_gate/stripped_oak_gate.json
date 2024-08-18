@@ -1,85 +1,130 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:stripped_oak_gate_mr",
-			"menu_category": {
-                "category": "construction",
-                "group": "itemGroup.name.fenceGate",
-                "is_hidden_in_commands": false
-            },
-			"states": {
-				"mr:direction": [0,1,2,3],
-				"mr:right": [0,1,2],
-				"mr:side": [false,true],
-				"mr:open": [false,true]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 1","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
-			{"condition": "q.block_state('mr:direction') == 2 || q.block_state('mr:direction') == 3","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
-			{"condition": "q.block_state('mr:open')","components": {"minecraft:collision_box": false}}
-		],
-		"components": {
-			"tag:mr.gate": {},
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.fence_gate",
-				"bone_visibility": {
-					"r": "(((!q.block_state('mr:side') && q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') && q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"l": "(((!q.block_state('mr:side') && q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') && q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"right": "(q.block_state('mr:right') == 2 && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"left": "(q.block_state('mr:right') == 1 && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"close_r": "(q.block_state('mr:right') == 2 && !q.block_state('mr:open') && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 && !q.block_state('mr:open') && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"close_l": "(q.block_state('mr:right') == 1 && !q.block_state('mr:open') && (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 && !q.block_state('mr:open') && (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-					"open_fr": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) && q.block_state('mr:open') && q.block_state('mr:right') == 2",
-					"open_br": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) && q.block_state('mr:open') && q.block_state('mr:right') == 1",
-					"open_fl": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) && q.block_state('mr:open') && q.block_state('mr:right') == 1",
-					"open_bl": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) && q.block_state('mr:open') && q.block_state('mr:right') == 2",
-					"item": "q.block_state('mr:right') == 0"
-				}
-			},
-			"minecraft:breathability": "air",
-			"minecraft:material_instances": {"*": {"texture": "mr.stripped_oak","render_method": "opaque"},"wood": {"texture": "mr.wood_oak","render_method": "opaque"}},
-			"minecraft:on_player_placing": {"event": "set_direction"},
-			"minecraft:on_placed": {"condition": "q.block_state('mr:right') == 0","event": "set_sided"},
-			"minecraft:on_interact": {"event": "open"},
-			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
-			"minecraft:collision_box": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
-			"minecraft:selection_box": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
-			"minecraft:light_dampening": 1,
-			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#f7781e"
-		},
-		"events": {
-			"set_direction": {"set_block_state": {"mr:direction": "q.cardinal_facing_2d - 2.0"}},
-			"set_sided": {
-				"sequence": [
-					{"condition": "(q.block_state('mr:direction') == 0 && !q.block_neighbor_has_any_tag(-1,0,0,'mr.gate')) || (q.block_state('mr:direction') == 1 && !q.block_neighbor_has_any_tag(1,0,0,'mr.gate')) || (q.block_state('mr:direction') == 2 && !q.block_neighbor_has_any_tag(0,0,1,'mr.gate')) || (q.block_state('mr:direction') == 3 && !q.block_neighbor_has_any_tag(0,0,-1,'mr.gate'))","set_block_state": {"mr:right": 1}},
-					{"condition": "(q.block_state('mr:direction') == 0 && q.block_neighbor_has_any_tag(-1,0,0,'mr.gate')) || (q.block_state('mr:direction') == 1 && q.block_neighbor_has_any_tag(1,0,0,'mr.gate')) || (q.block_state('mr:direction') == 2 && q.block_neighbor_has_any_tag(0,0,1,'mr.gate')) || (q.block_state('mr:direction') == 3 && q.block_neighbor_has_any_tag(0,0,-1,'mr.gate'))","set_block_state": {"mr:right": 2}}
-				]
-			},
-			"update": {
-				"sequence": [
-					{"condition": "(q.block_state('mr:direction') == 0 && !q.block_neighbor_has_any_tag(-1,0,0,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 0 && !q.block_neighbor_has_any_tag(1,0,0,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 1 && !q.block_neighbor_has_any_tag(1,0,0,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 1 && !q.block_neighbor_has_any_tag(-1,0,0,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 2 && !q.block_neighbor_has_any_tag(0,0,1,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 2 && !q.block_neighbor_has_any_tag(0,0,-1,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 3 && !q.block_neighbor_has_any_tag(0,0,-1,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 3 && !q.block_neighbor_has_any_tag(0,0,1,'mr.gate') && q.block_state('mr:right') == 1)","set_block_state": {"mr:side": false}},
-					{"condition": "(q.block_state('mr:direction') == 0 && q.block_neighbor_has_any_tag(-1,0,0,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 0 && q.block_neighbor_has_any_tag(1,0,0,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 1 && q.block_neighbor_has_any_tag(1,0,0,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 1 && q.block_neighbor_has_any_tag(-1,0,0,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 2 && q.block_neighbor_has_any_tag(0,0,1,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 2 && q.block_neighbor_has_any_tag(0,0,-1,'mr.gate') && q.block_state('mr:right') == 1) || (q.block_state('mr:direction') == 3 && q.block_neighbor_has_any_tag(0,0,-1,'mr.gate') && q.block_state('mr:right') == 2) || (q.block_state('mr:direction') == 3 && q.block_neighbor_has_any_tag(0,0,1,'mr.gate') && q.block_state('mr:right') == 1)","set_block_state": {"mr:side": true}}
-				]
-			},
-			"open": {
-				"sequence": [
-					{"condition": "q.block_state('mr:direction') == 0 && q.block_state('mr:right') == 1 && ((q.head_y_rotation(0) >= -90 && q.head_y_rotation(0) < 0) || (q.head_y_rotation(0) >= 0 && q.head_y_rotation(0) < 90))","set_block_state": {"mr:direction": 1,"mr:right": 2}},
-					{"condition": "q.block_state('mr:direction') == 0 && q.block_state('mr:right') == 2 && ((q.head_y_rotation(0) >= -90 && q.head_y_rotation(0) < 0) || (q.head_y_rotation(0) >= 0 && q.head_y_rotation(0) < 90))","set_block_state": {"mr:direction": 1,"mr:right": 1}},
-					{"condition": "q.block_state('mr:direction') == 1 && q.block_state('mr:right') == 1 && ((q.head_y_rotation(0) >= 90 && q.head_y_rotation(0) < 180) || (q.head_y_rotation(0) >= -180 && q.head_y_rotation(0) < -90))","set_block_state": {"mr:direction": 0,"mr:right": 2}},
-					{"condition": "q.block_state('mr:direction') == 1 && q.block_state('mr:right') == 2 && ((q.head_y_rotation(0) >= 90 && q.head_y_rotation(0) < 180) || (q.head_y_rotation(0) >= -180 && q.head_y_rotation(0) < -90))","set_block_state": {"mr:direction": 0,"mr:right": 1}},
-					{"condition": "q.block_state('mr:direction') == 2 && q.block_state('mr:right') == 1 && (q.head_y_rotation(0) >= -180 && q.head_y_rotation(0) < 0)","set_block_state": {"mr:direction": 3,"mr:right": 2}},
-					{"condition": "q.block_state('mr:direction') == 2 && q.block_state('mr:right') == 2 && (q.head_y_rotation(0) >= -180 && q.head_y_rotation(0) < 0)","set_block_state": {"mr:direction": 3,"mr:right": 1}},
-					{"condition": "q.block_state('mr:direction') == 3 && q.block_state('mr:right') == 1 && (q.head_y_rotation(0) >= 0 && q.head_y_rotation(0) < 180)","set_block_state": {"mr:direction": 2,"mr:right": 2}},
-					{"condition": "q.block_state('mr:direction') == 3 && q.block_state('mr:right') == 2 && (q.head_y_rotation(0) >= 0 && q.head_y_rotation(0) < 180)","set_block_state": {"mr:direction": 2,"mr:right": 1}},
-					{"condition": "!q.block_state('mr:open')","set_block_state": {"mr:open": true},"run_command": {"command": "playsound open.fence_gate @a ~ ~ ~ 1 0.9 1"}	},
-					{"condition": "q.block_state('mr:open')","set_block_state": {"mr:open": false},"run_command": {"command": "playsound close.fence_gate @a ~ ~ ~ 1 0.9 1"}}
-				]
-			}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:stripped_oak_gate_mr",
+      "menu_category": {
+        "category": "construction",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "mr:direction": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mr:right": [
+          0,
+          1,
+          2
+        ],
+        "mr:side": [
+          false,
+          true
+        ],
+        "mr:open": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('mr:direction') == 2 || q.block_state('mr:direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('mr:open')",
+        "components": {
+          "minecraft:collision_box": false
+        }
+      }
+    ],
+    "components": {
+      "tag:mr.gate": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.fence_gate",
+        "bone_visibility": {
+          "r": "(((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "l": "(((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "right": "(q.block_state('mr:right') == 2 \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "left": "(q.block_state('mr:right') == 1 \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "close_r": "(q.block_state('mr:right') == 2 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "close_l": "(q.block_state('mr:right') == 1 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
+          "open_fr": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 2",
+          "open_br": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 1",
+          "open_fl": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 1",
+          "open_bl": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 2",
+          "item": "q.block_state('mr:right') == 0"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.stripped_oak",
+          "render_method": "opaque"
+        },
+        "wood": {
+          "texture": "mr.wood_oak",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -2.0
+        ],
+        "size": [
+          16,
+          16,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -2.0
+        ],
+        "size": [
+          16,
+          16,
+          4
+        ]
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#f7781e"
+    }
+  }
 }

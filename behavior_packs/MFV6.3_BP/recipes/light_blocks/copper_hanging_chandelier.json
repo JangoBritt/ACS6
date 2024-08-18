@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:copper_hanging_chandelier"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			" B ",
+			"BCB",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:copper_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			},
+			"C": {
+				"item": "medieval:copper_chandelier",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:copper_ingot"},
+			{"item": "minecraft:candle"},
+			{"item": "medieval:copper_chandelier"}
+		],
+		"result": {
+			"item": "medieval:copper_hanging_chandelier",
+			"count": 1
+		}
+	}
+}

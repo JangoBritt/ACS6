@@ -1,72 +1,111 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:frigde_light_mr",
-			"menu_category": {
-                "category": "equipment",
-                "group": "itemGroup.name.mrPath",
-                "is_hidden_in_commands": false
-            },
-			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
-			"states": {
-				"mr:close": [true,false],
-				"mr:placed": [false,true]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
-		],
-		"components": {
-			"tag:mr.frigde":{},
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.fridge_bot",
-				"bone_visibility": {
-					"fridge": "q.block_state('mr:placed')",
-					"close": "q.block_state('mr:close') && q.block_state('mr:placed')",
-					"open": "!q.block_state('mr:close') && q.block_state('mr:placed')",
-					"item": "!q.block_state('mr:placed')"
-				}
-			},
-			"minecraft:breathability": "air",
-			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "opaque"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "opaque"}},
-			"minecraft:collision_box": true,
-			"minecraft:selection_box": true,
-			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [2,2],"looping": true},
-			"minecraft:on_interact": {"event": "open"},
-			"minecraft:on_placed": {"event": "block_placed"},
-			"minecraft:on_player_placing": {"event": "block_placed"},
-			"minecraft:light_dampening": 1,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#f7781e"
-		},
-		"events": {
-			"open": {
-				"sequence": [
-					{"condition": "q.block_state('mr:close')","run_command": {"command": ["playsound mr.fridge_open @a ~~~"]}},
-					{"condition": "!q.block_state('mr:close')","run_command": {"command": ["playsound mr.fridge_close @a ~~~"]}},
-					{"set_block_state": {"mr:close": "!q.block_state('mr:close')"}}
-				]
-			},
-			"block_placed": {
-				"sequence": [
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","run_command": {"command": ["setblock ~~1~ mr:frigde_light_top_mr[\"minecraft:cardinal_direction\"=\"north\"] keep"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","run_command": {"command": ["setblock ~~1~ mr:frigde_light_top_mr[\"minecraft:cardinal_direction\"=\"south\"] keep"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","run_command": {"command": ["setblock ~~1~ mr:frigde_light_top_mr[\"minecraft:cardinal_direction\"=\"west\"] keep"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","run_command": {"command": ["setblock ~~1~ mr:frigde_light_top_mr[\"minecraft:cardinal_direction\"=\"east\"] keep"]}},
-					{"run_command": {"command": ["execute positioned ~~0.5~ unless entity @e[type=mr:container_mr,r=0.5] run summon mr:container_mr ~~~ ~~ mr:inventory_27 fridge"]}},
-					{"set_block_state": {"mr:placed": true}}
-				]
-			},
-			"update": {
-				"sequence": [
-					{"condition": "!q.block_neighbor_has_any_tag(0,1,0,'mr.fridge_top')","run_command": {"command": ["setblock ~~~ air destroy"]}}
-				]
-			}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:frigde_light_mr",
+      "menu_category": {
+        "category": "equipment",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "mr:close": [
+          true,
+          false
+        ],
+        "mr:placed": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:mr.frigde": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.fridge_bot",
+        "bone_visibility": {
+          "fridge": "q.block_state('mr:placed')",
+          "close": "q.block_state('mr:close') \u0026\u0026 q.block_state('mr:placed')",
+          "open": "!q.block_state('mr:close') \u0026\u0026 q.block_state('mr:placed')",
+          "item": "!q.block_state('mr:placed')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.concrete_white",
+          "render_method": "opaque"
+        },
+        "concrete": {
+          "texture": "mr.concrete_light_gray",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 1,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#f7781e"
+    }
+  }
 }

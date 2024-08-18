@@ -1,0 +1,79 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:wagon_oak_2",
+			"enable_attachables": true,
+			"hide_armor": false,
+			"materials": {
+				"default": "phantom",
+				"texture_alpha": "phantom"
+			},
+			"textures": {
+				"base_brown": "textures/entity/horse2/horse_brown",
+				"base_white": "textures/entity/horse2/horse_white",
+				"base_creamy": "textures/entity/horse2/horse_creamy",
+				"base_chestnut": "textures/entity/horse2/horse_chestnut",
+				"base_black": "textures/entity/horse2/horse_black",
+				"base_gray": "textures/entity/horse2/horse_gray",
+				"base_darkbrown": "textures/entity/horse2/horse_darkbrown",
+				"markings_none": "textures/entity/horse2/horse_markings_none",
+				"markings_white": "textures/entity/horse2/horse_markings_white",
+				"markings_whitefield": "textures/entity/horse2/horse_markings_whitefield",
+				"markings_whitedots": "textures/entity/horse2/horse_markings_whitedots",
+				"markings_blackdots": "textures/entity/horse2/horse_markings_blackdots",
+				"armor_none": "textures/entity/horse2/armor/horse_armor_none",
+				"armor_leather": "textures/entity/horse2/armor/horse_armor_leather",
+				"armor_iron": "textures/entity/horse2/armor/horse_armor_iron",
+				"armor_gold": "textures/entity/horse2/armor/horse_armor_gold",
+				"armor_diamond": "textures/entity/horse2/armor/horse_armor_diamond",
+				"chariot_0": "textures/medieval_blocks/carriages/oak_wagon_2"
+			},
+			"geometry": {
+				"horse_chariot_0": "geometry.m.horse",
+				"chariot_0": "geometry.m.wagon2"
+			},
+			"sound_effects": {
+				"m.gallop_horse": "m.gallop_horse",
+				"moving_start": "m.wagon_moving_start",
+				"moving": "m.wagon_moving",
+				"moving_end": "m.wagon_moving_end"
+			},
+			"animations": {
+				"wheels": "animation.m.wagon2.wheels",
+				"horse_head": "animation.m.horse.head",
+
+				"wagon.moving_start": "animation.m.wagon2.moving_start",
+				"wagon.moving_end": "animation.m.wagon2.moving_end",
+				"wagon.moving": "animation.m.wagon2.moving",
+				"wagon.move": "animation.m.wagon2.move_wagon",
+
+				"walk_horse": "animation.m.horse.walk",
+				"walk_fast_horse": "animation.m.horse.walk_fast",
+				"grazing": "animation.m.horse.grazing",
+				"default": "animation.m.horse.default",
+				"eat": "animation.horse.v3.eat",
+				"rear": "animation.horse.v3.rear",
+				"tail": "animation.m.horse.tail",
+				"wagon_sounds": "controller.animation.wagon_2",
+				"controller": "controller.animation.horse_chariot_0"
+			},
+			"scripts": {
+				"animate": [
+					"wheels",
+					"wagon_sounds",
+					"horse_head",
+					"tail",
+					"controller",
+					{"wagon.move": "q.ground_speed > 0"},
+					{"walk_horse": "q.ground_speed > 0 && !q.property('medieval:gallop')"},
+					{"walk_fast_horse": "q.ground_speed > 0 && q.property('medieval:gallop')"}
+				]
+			},
+			"render_controllers": [
+				"controller.render.horse_chariot_0",
+				"controller.render.chariot_0"
+			]
+		}
+	}
+}
