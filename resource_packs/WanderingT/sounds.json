@@ -120,6 +120,143 @@
             },
             "pitch" : [ 0.80, 1.20 ],
             "volume" : 1.0
+         },
+         "red:wandering_trader_athos" : {
+            "events" : {
+               "ambient" : "mob.wanderingtrader.idle",
+               "death" : "mob.wanderingtrader.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.wanderingtrader.haggle",
+               "haggle.no" : "mob.wanderingtrader.no",
+               "haggle.yes" : "mob.wanderingtrader.yes",
+               "hurt" : "mob.wanderingtrader.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_jethro" : {
+            "events" : {
+               "ambient" : "mob.wanderingtrader.idle",
+               "death" : "mob.wanderingtrader.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.wanderingtrader.haggle",
+               "haggle.no" : "mob.wanderingtrader.no",
+               "haggle.yes" : "mob.wanderingtrader.yes",
+               "hurt" : "mob.wanderingtrader.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_santa" : {
+            "events" : {
+               "ambient" : "mob.wanderingtrader.idle",
+               "death" : "mob.wanderingtrader.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.wanderingtrader.haggle",
+               "haggle.no" : "mob.wanderingtrader.no",
+               "haggle.yes" : "mob.wanderingtrader.yes",
+               "hurt" : "mob.wanderingtrader.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_tk" : {
+            "events" : {
+               "ambient" : "mob.wanderingtrader.idle",
+               "death" : "mob.wanderingtrader.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.wanderingtrader.haggle",
+               "haggle.no" : "mob.wanderingtrader.no",
+               "haggle.yes" : "mob.wanderingtrader.yes",
+               "hurt" : "mob.wanderingtrader.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_tradernaut" : {
+            "events" : {
+               "ambient" : "mob.wanderingtrader.idle",
+               "death" : "mob.wanderingtrader.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.wanderingtrader.haggle",
+               "haggle.no" : "mob.wanderingtrader.no",
+               "haggle.yes" : "mob.wanderingtrader.yes",
+               "hurt" : "mob.wanderingtrader.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_gulli" : {
+            "events" : {
+               "ambient" : "mob.piglin.ambient",
+               "death" : "mob.piglin.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.piglin.jealous",
+               "haggle.no" : "mob.piglin.angry",
+               "haggle.yes" : "mob.piglin.celebrate",
+               "hurt" : "mob.piglin.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "red:wandering_trader_bunny" : {
+            "events" : {
+               "ambient" : {
+                  "pitch" : 4.0,
+                  "sound" : "mob.wanderingtrader.idle",
+                  "volume" : 1.2
+               },
+               "death" : "mob.rabbit.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : {
+                  "pitch" : 4.0,
+                  "sound" : "mob.wanderingtrader.haggle",
+                  "volume" : 1.2
+               },
+               "haggle.no" : {
+                  "pitch" : 4.0,
+                  "sound" : "mob.wanderingtrader.no",
+                  "volume" : 1.2
+               },
+               "haggle.yes" : {
+                  "pitch" : 4.0,
+                  "sound" : "mob.wanderingtrader.yes",
+                  "volume" : 1.2
+               },
+               "hurt" : "mob.rabbit.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+
+            },
+            "pitch" : [ 1, 1.20 ],
+            "volume" : 1.2
+         },
+         "red:wandering_trader_jack" : {
+            "events" : {
+               "ambient" : "mob.skeleton.say",
+               "death" : "mob.skeleton.death",
+               "disappeared" : "mob.wanderingtrader.disappeared",
+               "drink" : "mob.wanderingtrader.drink_potion",
+               "haggle" : "mob.skeleton.step",
+               "haggle.no" : "mob.skeleton.step",
+               "haggle.yes" : "mob.skeleton.step",
+               "hurt" : "mob.skeleton.hurt",
+               "reappeared" : "mob.wanderingtrader.reappeared"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
          }
       }
    }

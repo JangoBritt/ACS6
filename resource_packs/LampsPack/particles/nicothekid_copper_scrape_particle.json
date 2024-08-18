@@ -5,7 +5,7 @@
       "identifier": "nicothekid:copper_scrape_particle",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/particles/nicothekid_copper_scrape_particle"
+        "texture": "textures/particles/ntk_copper_scrape_particle"
       }
     },
     "components": {

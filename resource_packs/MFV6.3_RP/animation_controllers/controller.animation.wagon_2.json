@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wagon_2": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"moving_start": "q.ground_speed > 0"
+						}
+					]
+				},
+				"moving_start": {
+					"animations": [
+						"wagon.moving_start"
+					],
+					"transitions": [
+						{
+							"moving": "q.any_animation_finished && q.ground_speed"
+						},
+						{
+							"moving_end": "!q.ground_speed"
+						}
+					]
+				},
+				"moving": {
+					"animations": [
+						"wagon.moving"
+					],
+					"transitions": [
+						{
+							"moving_end": "!q.ground_speed"
+						}
+					]
+				},
+				"moving_end": {
+					"animations": [
+						"wagon.moving_end"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

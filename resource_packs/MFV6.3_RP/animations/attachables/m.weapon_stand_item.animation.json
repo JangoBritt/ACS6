@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.weapon_stand_item.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, -56, 148],
+					"position": [0, 24, 1]
+				}
+			}
+		},
+		"animation.weapon_stand_item.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [155, 0, 180],
+					"position": [0.1, 19.7, -4.2],
+					"scale": 0.85
+				}
+			}
+		}
+	}
+}

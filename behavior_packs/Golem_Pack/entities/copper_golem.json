@@ -422,6 +422,8 @@
 					"target_selection_method": "nearest",
 					"target_blocks": [
 						"wooden_button",
+						"cherry_button",
+						"mangrove_button",
 						"birch_button",
 						"spruce_button",
 						"jungle_button",
@@ -446,6 +448,8 @@
 					"target_selection_method": "nearest",
 					"target_blocks": [
 						"wooden_button",
+						"cherry_button",
+						"mangrove_button",
 						"birch_button",
 						"spruce_button",
 						"jungle_button",
@@ -488,10 +492,12 @@
 					"target_selection_method": "nearest",
 					"target_blocks": [
 						"wooden_button",
+						"cherry_button",
+						"mangrove_button",
 						"birch_button",
 						"spruce_button",
-						"acacia_button",
 						"jungle_button",
+						"acacia_button",
 						"dark_oak_button"
 					]
 				},
@@ -645,48 +651,63 @@
 					{
 						"cost": 1,
 						"blocks": [
-							"copper_block",
-							"cut_copper",
-							"cut_copper_slab",
-							"cut_copper_stairs",
-							"double_cut_copper_slab",
-							"exposed_copper",
-							"exposed_cut_copper",
-							"exposed_cut_copper_slab",
-							"exposed_cut_copper_stairs",
-							"exposed_double_cut_copper_slab",
-							"weathered_copper",
-							"weathered_cut_copper",
-							"weathered_cut_copper_slab",
-							"weathered_cut_copper_stairs",
-							"weathered_double_cut_copper_slab",
-							"oxidized_copper",
-							"oxidized_cut_copper",
-							"oxidized_cut_copper_slab",
-							"oxidized_cut_copper_stairs",
-							"oxidized_double_cut_copper_slab",
-							"raw_copper_block",
-							"waxed_copper",
-							"waxed_cut_copper",
-							"waxed_cut_copper_slab",
-							"waxed_cut_copper_stairs",
-							"waxed_double_cut_copper_slab",
-							"waxed_exposed_copper",
-							"waxed_exposed_cut_copper",
-							"waxed_exposed_cut_copper_slab",
-							"waxed_exposed_cut_copper_stairs",
-							"waxed_exposed_double_cut_copper_slab",
-							"waxed_weathered_copper",
-							"waxed_weathered_cut_copper",
-							"waxed_weathered_cut_copper_slab",
-							"waxed_weathered_cut_copper_stairs",
-							"waxed_weathered_double_cut_copper_slab",
+							"waxed_oxidized_chiseled_copper",
 							"waxed_oxidized_copper",
+							"waxed_oxidized_copper_bulb",
+							"waxed_oxidized_copper_grate",
+							"waxed_oxidized_copper_door",
+							"waxed_oxidized_copper_trapdoor",
 							"waxed_oxidized_cut_copper",
-							"waxed_oxidized_cut_copper_slab",
 							"waxed_oxidized_cut_copper_stairs",
-							"waxed_oxidized_double_cut_copper_slab",
-							"raw_copper_block"
+							"waxed_oxidized_cut_copper_slab",
+							"waxed_weathered_chiseled_copper",
+							"waxed_weathered_copper",
+							"waxed_weathered_copper_bulb",
+							"waxed_weathered_copper_grate",
+							"waxed_weathered_copper_door",
+							"waxed_weathered_copper_trapdoor",
+							"waxed_weathered_cut_copper",
+							"waxed_weathered_cut_copper_stairs",
+							"waxed_weathered_cut_copper_slab",
+							"waxed_exposed_chiseled_copper",
+							"waxed_exposed_copper",
+							"waxed_exposed_copper_bulb",
+							"waxed_exposed_copper_grate",
+							"waxed_exposed_copper_door",
+							"waxed_exposed_copper_trapdoor",
+							"waxed_exposed_cut_copper",
+							"waxed_exposed_cut_copper_stairs",
+							"waxed_exposed_cut_copper_slab",
+							"oxidized_chiseled_copper",
+							"oxidized_copper",
+							"oxidized_copper_bulb",
+							"oxidized_copper_grate",
+							"oxidized_copper_door",
+							"oxidized_copper_trapdoor",
+							"oxidized_cut_copper",
+							"oxidized_cut_copper_stairs",
+							"oxidized_cut_copper_slab",
+							"weathered_chiseled_copper",
+							"weathered_copper",
+							"weathered_copper_bulb",
+							"weathered_copper_grate",
+							"weathered_copper_door",
+							"weathered_copper_trapdoor",
+							"weathered_cut_copper",
+							"weathered_cut_copper_stairs",
+							"weathered_cut_copper_slab",
+							"exposed_chiseled_copper",
+							"exposed_copper",
+							"exposed_copper_bulb",
+							"exposed_copper_grate",
+							"exposed_copper_door",
+							"exposed_copper_trapdoor",
+							"exposed_cut_copper",
+							"exposed_cut_copper_stairs",
+							"exposed_cut_copper_slab",
+							"raw_copper_block",
+							"deepslate_copper_ore",
+							"copper_ore"
 						]
 					}
 				]
@@ -727,22 +748,20 @@
 				"avoid_damage_blocks": true
 			},
 			"minecraft:damage_sensor": {
-				"triggers": {
-					"on_damage": {
-						"filters": [
-							{
-								"test": "is_family",
-								"subject": "other",
-								"value": "lightning"
-							}
-						],
-						"event": "athos_golem:lightning_deoxidize"
-					},
-					"deals_damage": false
-				}
-			},
-			"minecraft:damage_sensor": {
 				"triggers": [
+					{
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								}
+							],
+							"event": "athos_golem:lightning_deoxidize"
+						},
+						"deals_damage": false
+					},
 					{
 						"on_damage": {
 							"filters": {
@@ -796,10 +815,10 @@
 				"randomize": [
 					{
 						"weight": 1,
-						"run_command": {
+						"queue_command": {
 							"command": [
-								"execute @s[tag=!copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready",
-								"execute @s[tag=copper_golem_sitting] ~~~ event entity @s athos_golem:button_ready2"
+								"execute as @s[tag=!copper_golem_sitting] at @s run event entity @s athos_golem:button_ready",
+								"execute as @s[tag=copper_golem_sitting] at @s run event entity @s athos_golem:button_ready2"
 							]
 						},
 						"remove": {
@@ -810,7 +829,7 @@
 					},
 					{
 						"weight": 19,
-						"run_command": {
+						"queue_command": {
 							"command": [
 								"testfor @s"
 							]
@@ -827,7 +846,7 @@
 						"athos_golem:copper_golem_alive"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s add normal_copper_golem"
 					]
@@ -844,7 +863,7 @@
 						"athos_golem:copper_golem_tame"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"playanimation @s animation.copper_golem.head_spin",
 						"effect @s slowness 1 255 true"
@@ -857,12 +876,12 @@
 						"athos_golem:button_press_timer"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
-						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
-						"execute @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press a 999 query.is_alive a",
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head a 999 query.is_alive",
+						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press2 a 999 query.is_alive a",
+						"execute at @s as @s[tag=copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.button_press_head2 a 999 query.is_alive"
 					]
 				}
 			},
@@ -872,10 +891,10 @@
 						"athos_golem:button_ready"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"event entity @s athos_golem:button_refresh_start",
-						"execute @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.arms a 1 a a"
+						"execute at @s as @s[tag=!copper_golem_sitting,tag=!oxidized_copper_golem] run playanimation @s animation.copper_golem.arms a 1 a a"
 					]
 				}
 			},
@@ -890,9 +909,9 @@
 						"athos_golem:button_press_timer2"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
-						"execute @s[tag=!oxidized_copper_golem] ~~~ summon athos_golem:golem_button_press ~~~"
+						"execute at @s as @s[tag=!oxidized_copper_golem] run summon athos_golem:golem_button_press ~~~"
 					]
 				}
 			},
@@ -933,7 +952,7 @@
 						"athos_golem:exposed_copper_golem"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s add exposed_copper_golem",
 						"tag @s remove normal_copper_golem"
@@ -951,7 +970,7 @@
 						"athos_golem:weathered_copper_golem"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s add weathered_copper_golem",
 						"tag @s remove exposed_copper_golem"
@@ -970,7 +989,7 @@
 						"athos_golem:oxidized_copper_golem"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s add oxidized_copper_golem",
 						"tag @s remove weathered_copper_golem"
@@ -988,11 +1007,11 @@
 						"athos_golem:normal_copper_golem"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s remove exposed_copper_golem",
 						"tag @s add normal_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute at @s as @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1009,11 +1028,11 @@
 						"athos_golem:exposed_copper_golem"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s remove weathered_copper_golem",
 						"tag @s add exposed_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute as @s at @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1031,11 +1050,11 @@
 						"athos_golem:copper_golem_alive"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s remove oxidized_copper_golem",
 						"tag @s add weathered_copper_golem",
-						"execute @s ~~~ particle athos_golem:wax_particle ~~0.5~",
+						"execute at @s as @s run particle athos_golem:wax_particle ~~0.5~",
 						"effect @s slowness 1 255 true",
 						"playsound scrape @a[r=10]"
 					]
@@ -1055,7 +1074,7 @@
 						"athos_golem:copper_golem_alive"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @s remove exposed_copper_golem",
 						"tag @s remove weathered_copper_golem",

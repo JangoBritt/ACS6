@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.marker.coords": {
+			"loop": true,
+			"bones": {
+				"coords_title": {
+					"rotation": [ 0.0, "query.life_time * 5.0", 0.0 ],
+					"scale": 0.4
+				},
+				"cx": {
+					"rotation": [ 0.0, "query.life_time * 5.0", 0.0 ],
+					"scale": 0.4
+				},
+				"cy": {
+					"rotation": [ 0.0, "query.life_time * 5.0", 0.0 ],
+					"scale": 0.4
+				},
+				"cz": {
+					"rotation": [ 0.0, "query.life_time * 5.0", 0.0 ],
+					"scale": 0.4
+				}
+			}
+		}
+	}
+}

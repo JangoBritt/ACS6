@@ -6,12 +6,12 @@
 			"animation_length": 4.26,
 			"timeline": {
 				"0.1": [
-					"/execute @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.head_spin",
-					"/execute @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.look_around",
+					"/execute as @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] at @s run playanimation @s animation.copper_golem.head_spin",
+					"/execute as @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] at @s run playanimation @s animation.copper_golem.look_around",
 					"/scoreboard objectives add golem_animation dummy",
 					"/scoreboard players random @s golem_animation 0 35",
-					"/execute @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.head_spin",
-					"/execute @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] ~~~ playanimation @s animation.copper_golem.look_around"
+					"/execute as @s[scores={golem_animation=1..2},tag=!oxidized_copper_golem] at @s run playanimation @s animation.copper_golem.head_spin",
+					"/execute as @s[scores={golem_animation=3..4},tag=!oxidized_copper_golem] at @s run playanimation @s animation.copper_golem.look_around"
 				]
 			}
 		},
@@ -24,7 +24,7 @@
 					"/scoreboard objectives add oxidationevent dummy",
 					"/scoreboard objectives add oxidationrandom dummy",
 					"/scoreboard players add @s oxidationevent 1",
-					"/execute @s[scores={oxidationevent=5..39},tag=!oxidation_checked] ~~~ scoreboard players random @s oxidationrandom 5 35",
+					"/execute as @s[scores={oxidationevent=5..39},tag=!oxidation_checked] at @s run scoreboard players random @s oxidationrandom 5 35",
 					"/event entity @s[scores={oxidationrandom=20},tag=weathered_copper_golem] athos_golem:oxidized",
 					"/event entity @s[scores={oxidationevent=40..90000},tag=weathered_copper_golem] athos_golem:oxidized",
 					"/scoreboard players set @s[scores={oxidationrandom=20},tag=oxidized_copper_golem] oxidationevent 0",

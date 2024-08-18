@@ -1,0 +1,468 @@
+{
+	"namespace": "chest",
+	"chest_label": {
+		"$new_container_title|default": "$container_title",
+		"text": "$new_container_title"
+	},
+	//-----------------------------------STOVE----------------------------------//
+	"stove_inventory@common.dialog_background_common": {
+		"texture": "textures/ui/stove_inventory"
+	},
+	"stove_inventory_inventory@chest.inventory_contents": {
+		"$grid_template": "chest.stove_inventory_inventory_template"
+	},
+	"stove_inventory_inventory_template@common.container_item": {
+		"$item_collection_name": "inventory_items"
+	},
+	"stove_inventory_hotbar@chest.hotbar_contents": {
+		"$grid_template": "chest.stove_inventory_hotbar_template"
+	},
+	"stove_inventory_hotbar_template@common.container_item": {
+		"$item_collection_name": "hotbar_items"
+	},
+	"stove_inventory_cell_image": {
+		"type": "image",
+		"texture": "textures/ui/empty_slot",
+		"layer": 1
+	},
+	"stove_inventory_grid": {
+		"type": "grid",
+		"size": [
+			52,
+			150
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			1,
+			6
+		],
+		"maximum_grid_items": 6,
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"stove_inventory_top_half": {
+		"type": "panel",
+		"$background_images": "stove_inventory_cell_image",
+		"size": [
+			"100%",
+			100
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{ "chest_label@chest.chest_label": {} },
+			{
+				"stove_inventory_grid@chest.stove_inventory_grid": {
+					"offset": [
+						65,
+						30
+					]
+				}
+			}
+		]
+	},
+	"stove_inventory_root_panel@small_root_panel": {
+		"$hotbar_contents": "chest.stove_inventory_hotbar",
+		"$inventory_contents": "chest.stove_inventory_inventory",
+		"size": [
+			203,
+			220
+		],
+		"$chest_panel": "chest.stove_inventory_top_half"
+	},
+	//-----------------------------------9 SLOTS--------------------------------//
+	"inventory_9_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -25],
+					"size": [166,20],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_9_root_panel@small_root_panel": {
+		"size": [190,150],
+		"$chest_panel": "chest.inventory_9_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------18 SLOTS--------------------------------//
+	"inventory_18_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -18],
+					"size": [166,38],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_18_root_panel@small_root_panel": {
+		"size": [190,165],
+		"$chest_panel": "chest.inventory_18_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------27 SLOTS--------------------------------//
+	"inventory_27_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -11],
+					"size": [166,56],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_27_root_panel@small_root_panel": {
+		"size": [190,180],
+		"$chest_panel": "chest.inventory_27_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//----------------------------------54 SLOTS--------------------------------//
+	"inventory_54_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, 20],
+					"size": [167,111],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"inventory_54_root_panel@small_root_panel": {
+		"size": [190,240],
+		"$chest_panel": "chest.inventory_54_container_panel",
+		"$backg|default": "common.dialog_background_opaque"
+	},
+	//--------------------------------------------------------------------------//
+	//--------------------------------------------------------------------------//
+	"custom_container_grid@common.container_grid": {
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"layer": 3,
+		"grid_item_template": "@common.container_item",
+		"collection_name": "container_items",
+		"$item_collection_name": "container_items"
+	},
+	//------------------------------POST BOX------------------------------------//
+	"post_box_backg@common.dialog_background_common": {
+		"texture": "textures/ui/mailbox/post_box_backg"
+	},
+	"post_box_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0,-25],
+					"size": [117,20],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"post_box_root_panel@small_root_panel": {
+		"size": [190,150],
+		"$chest_panel": "chest.post_box_container_panel",
+		"$backg|default": "chest.post_box_backg"
+	},
+	//--------------------------------------------------------------------------//
+	//------------------------------MAILBOXES-----------------------------------//
+	"mb_mailbox_backg@common.dialog_background_common": {
+		"texture": "textures/ui/mailbox/mailbox_backg"
+	},
+	"mb_mailbox_container_panel": {
+		"type": "panel",
+		"size": ["100%",102],
+		"offset": [0,11],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{"chest_label@chest.chest_label": {}},
+			{
+				"scrolling_panel@common.container_scroll_panel": {
+					"offset": [0, -18],
+					"size": [171,38],
+					"$scrolling_content|default": "chest.custom_container_grid"
+				}
+			}
+		]
+	},
+	"mb_mailbox_root_panel@small_root_panel": {
+		"size": [190,165],
+		"$chest_panel": "chest.mb_mailbox_container_panel",
+		"$backg|default": "chest.mb_mailbox_backg"
+	},
+	//--------------------------------------------------------------------------//
+	"small_chest_grid": {
+		"type": "grid",
+		"size": [
+			162,
+			54
+		],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"grid_dimensions": [
+			9,
+			3
+		],
+		"grid_item_template": "chest.chest_grid_item",
+		"collection_name": "container_items"
+	},
+	"small_chest_panel_top_half": {
+		"type": "panel",
+		"size": [
+			"100%",
+			"50%"
+		],
+		"offset": [
+			0,
+			12
+		],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{
+				"chest_label@chest.chest_label": {}
+			},
+			{
+				"small_chest_grid@chest.small_chest_grid": {
+					"offset": [
+						7,
+						9
+					]
+				}
+			}
+		]
+	},
+	"small_root_panel@common.root_panel": {
+		"$chest_panel|default": "chest.small_chest_panel_top_half",
+		"$backg|default": "$backg",
+		"layer": 1,
+		"controls": [
+			{
+				"common_panel@common.common_panel": {
+					"$dialog_background": "$backg"
+				}
+			},
+			{
+				"chest_panel": {
+					"type": "panel",
+					"layer": 5,
+					"controls": [
+						{"small_chest_panel_top_half@$chest_panel": {}},
+						{"inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}},
+						{"hotbar_grid@common.hotbar_grid_template": {}},
+						{"inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}}
+					]
+				}
+			},
+			{"inventory_selected_icon_button@common.inventory_selected_icon_button": {}},
+			{"gamepad_cursor@common.gamepad_cursor_button": {}}
+		]
+	},
+	"small_chest_panel": {
+		"type": "panel",
+		"controls": [
+			{"container_gamepad_helpers@common.container_gamepad_helpers": {}},
+			{"flying_item_renderer@common.flying_item_renderer": {"layer": 11}},
+			{"selected_item_details_factory@common.selected_item_details_factory": {"control_name": "@chest.selected_item_details"}},
+			{"item_lock_notification_factory@common.item_lock_notification_factory": {"control_name": "@common.item_lock_notification"}},
+			{"root_panel@$root_panel": {}}
+		]
+	},
+	"ender_chest_panel@chest.small_chest_panel": {},
+	"small_chest_screen@common.inventory_screen_common": {
+		"$close_on_player_hurt|default": true,
+		"close_on_player_hurt": "$close_on_player_hurt",
+		"$root_panel|default": "chest.small_root_panel",
+		"$backg|default": "common.dialog_background_opaque",
+		"$new_container_title|default": "$container_title",
+		"$container_size|default": 27,
+		"variables": [
+			{
+				"requires": "$desktop_screen",
+				"$screen_content": "chest.small_chest_panel",
+				"$screen_bg_content": "common.screen_background",
+				"$screen_background_alpha": 0.4
+			},
+			{
+				"requires": "$pocket_screen",
+				"$use_custom_pocket_toast": true,
+				"$screen_content": "pocket_containers.small_chest_panel"
+			},
+			{
+				"requires": "($new_container_title = 'Stove')",
+				"$use_custom_pocket_toast": false,
+				"$root_panel": "chest.stove_inventory_root_panel",
+				"$screen_content": "chest.stove_inventory_root_panel",
+				"$new_container_title": " ",
+				"$backg": "chest.stove_inventory",
+				"$container_size": 6,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'bedside_cabinet')",
+				"$use_custom_pocket_toast": false,
+				"$root_panel": "chest.inventory_9_root_panel",
+				"$screen_content": "chest.inventory_9_root_panel",
+				"$new_container_title": "inventory.mr.bedside_cabinet.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 9,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'desk_cabinet')",
+				"$use_custom_pocket_toast": false,
+				"$root_panel": "chest.inventory_9_root_panel",
+				"$screen_content": "chest.inventory_9_root_panel",
+				"$new_container_title": "inventory.mr.desk_cabinet.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 9,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'drawer')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_9_root_panel",
+				"$screen_content": "chest.inventory_9_root_panel",
+				"$new_container_title": "inventory.mr.kitchen_drawer.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 9,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'cooler')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_9_root_panel",
+				"$screen_content": "chest.inventory_9_root_panel",
+				"$new_container_title": "inventory.mr.cooler.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 9,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'mail_box')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_9_root_panel",
+				"$screen_content": "chest.inventory_9_root_panel",
+				"$new_container_title": "inventory.mr.mail_box.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 9,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'cabinet')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_18_root_panel",
+				"$screen_content": "chest.inventory_18_root_panel",
+				"$new_container_title": "inventory.mr.cabinet.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 18,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'crate')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_27_root_panel",
+				"$screen_content": "chest.inventory_27_root_panel",
+				"$new_container_title": "inventory.mr.crate.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 27,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'fridge')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_27_root_panel",
+				"$screen_content": "chest.inventory_27_root_panel",
+				"$new_container_title": "inventory.mr.fridge.name",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 27,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'post_box')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.post_box_root_panel",
+				"$screen_content": "chest.post_box_root_panel",
+				"$new_container_title": "container.post_box",
+				"$backg": "chest.post_box_backg",
+				"$container_size": 6,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'mb.mailbox')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.mb_mailbox_root_panel",
+				"$screen_content": "chest.mb_mailbox_root_panel",
+				"$new_container_title": "container.mb_mailbox",
+				"$backg": "chest.mb_mailbox_backg",
+				"$container_size": 18,
+				"$container_color": "small"
+			},
+			{
+				"requires": "($new_container_title = 'cabinet_tall')",
+				"$use_custom_pocket_toast": true,
+				"$root_panel": "chest.inventory_54_root_panel",
+				"$screen_content": "chest.inventory_54_root_panel",
+				"$new_container_title": "container.m.cabinet_tall",
+				"$backg": "common.dialog_background_opaque",
+				"$container_size": 54,
+				"$container_color": "small"
+			}
+		]
+	},
+	"ender_chest_screen@common.inventory_screen_common": {
+		"$close_on_player_hurt|default": true,
+		"close_on_player_hurt": "$close_on_player_hurt",
+		"$backg|default": "common.dialog_background_opaque",
+		"variables": [
+			{
+				"requires": "$desktop_screen",
+				"$screen_content": "chest.small_root_panel",
+				"$screen_bg_content": "common.screen_background"
+			},
+			{
+				"requires": "$pocket_screen",
+				"$screen_content": "pocket_containers.ender_chest_panel"
+			}
+		]
+	}
+}

@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_avatars:dingozero_head_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "dingozero_head_item"
-			},
+            "minecraft:icon": "dingozero_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "athos_avatars:dingozero_head"
 			}

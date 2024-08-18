@@ -1,0 +1,8 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "ntk_wooden_lamp_spruce",
+    "metalness_emissive_roughness": "ntk_wooden_lamp_spruce_mer",
+    "heightmap": "ntk_wooden_lamp_spruce_normal"
+  }
+}

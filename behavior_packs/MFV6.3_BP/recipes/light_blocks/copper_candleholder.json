@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "medieval:copper_candleholder"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"B",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:copper_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:candle",
+				"data": 0
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:copper_ingot"},
+			{"item": "minecraft:candle"}
+		],
+		"result": {
+			"item": "medieval:copper_candleholder",
+			"count": 1
+		}
+	}
+}

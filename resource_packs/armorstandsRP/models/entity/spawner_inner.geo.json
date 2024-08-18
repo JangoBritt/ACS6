@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marker.spawner_inner",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4096,
+				"visible_bounds_height": 4096,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "spawner",
+					"pivot": [0, -8, 0],
+					"cubes": [
+						{"origin": [-72, -32, 72], "size": [144, 48, 0], "uv": [0, 0]},
+						{"origin": [-72, -32, -72], "size": [144, 48, 0], "uv": [0, 0]},
+						{"origin": [0, -32, 0], "size": [144, 48, 0], "pivot": [72, -8, 0], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-144, -32, 0], "size": [144, 48, 0], "pivot": [-72, -8, 0], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-72, 16, -72], "size": [144, 0, 144], "uv": [0, 0]},
+						{"origin": [-72, -32, -72], "size": [144, 0, 144], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

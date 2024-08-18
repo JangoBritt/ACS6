@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "fmh:trader_llama_llama_creamy_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "fmh_trader_llama_llama_creamy_item"
-			},
+            "minecraft:icon": "fmh_trader_llama_llama_creamy_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:trader_llama_llama_creamy"
 			}

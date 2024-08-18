@@ -1,0 +1,102 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.m.weapon_stand_item_wood",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [5.5, 0, -4],
+							"size": [2, 8, 1.5],
+							"pivot": [0, 0, 0],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [11, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"east": {"uv": [12, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"south": {"uv": [1, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"west": {"uv": [0, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"down": {"uv": [5, 15], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [-7.5, 0, -4],
+							"size": [2, 8, 1.5],
+							"pivot": [0, 0, 0],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"east": {"uv": [12, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"south": {"uv": [12, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"west": {"uv": [0, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"down": {"uv": [15, 15], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [-7.5, 8, -4],
+							"size": [2, 1.5, 1.5],
+							"pivot": [0, 0, 0],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [1, 13], "uv_size": [4, 3], "material_instance": "block"},
+								"east": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "block"},
+								"south": {"uv": [11, 13], "uv_size": [4, 3], "material_instance": "block"},
+								"west": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "block"},
+								"up": {"uv": [15, 3], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [5.5, 8, -4],
+							"size": [2, 1.5, 1.5],
+							"pivot": [0, 0, 0],
+							"rotation": [-180, 0, 180],
+							"uv": {
+								"north": {"uv": [11, 13], "uv_size": [4, 3], "material_instance": "block"},
+								"east": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "block"},
+								"south": {"uv": [1, 13], "uv_size": [4, 3], "material_instance": "block"},
+								"west": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "block"},
+								"up": {"uv": [5, 3], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [3.45, 0, 0.5],
+							"size": [2, 8, 1.5],
+							"pivot": [-1, 8, 2],
+							"rotation": [-147.5, 0, 180],
+							"uv": {
+								"north": {"uv": [11, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"east": {"uv": [6, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"south": {"uv": [1, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"west": {"uv": [7, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"down": {"uv": [4, 3], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						},
+						{
+							"origin": [6.55, 0, 0.5],
+							"size": [2, 8, 1.5],
+							"pivot": [7, 8, 2],
+							"rotation": [-147.5, 0, 180],
+							"uv": {
+								"north": {"uv": [1, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"east": {"uv": [6, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"south": {"uv": [11, 0], "uv_size": [4, 16], "material_instance": "block"},
+								"west": {"uv": [7, 0], "uv_size": [3, 16], "material_instance": "block"},
+								"down": {"uv": [4, 3], "uv_size": [-4, -3], "material_instance": "block"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

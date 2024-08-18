@@ -1,5 +1,5 @@
 {
-	"format_version": "1.19.0",
+	"format_version": "1.20.80",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "athos_painting:painting_s4",
@@ -38,7 +38,7 @@
 		},
 		"component_groups": {
 			"athos_painting:despawn": {
-				"minecraft:instant_despawn": {}
+				"minecraft:despawn": {}
 			}
 		},
 		"components": {
@@ -75,34 +75,32 @@
 			"minecraft:pushable": {
 				"is_pushable": false,
 				"is_pushable_by_piston": false
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/painting_s4.json"
 			}
 		},
 		"events": {
-			"facing_north": {
-				"set_property": {
-					"athos_painting:rotation": 0
-				}
-			},
-			"facing_south": {
-				"set_property": {
-					"athos_painting:rotation": 1
-				}
-			},
-			"facing_west": {
-				"set_property": {
-					"athos_painting:rotation": 2
-				}
-			},
-			"facing_east": {
-				"set_property": {
-					"athos_painting:rotation": 3
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"execute as @s[rym=-45,ry=44] at @s run tp @s ~ ~ ~ 0 ~",
+						"execute as @s[rym=45,ry=134] at @s run tp @s ~ ~ ~ 90 ~",
+						"execute as @s[rym=135,ry=180] at @s run tp @s ~ ~ ~ 180 ~",
+
+						"execute as @s[rym=-180,ry=-135] at @s run tp @s ~ ~ ~ 180 ~",
+						"execute as @s[rym=-136,ry=-44] at @s run tp @s ~ ~ ~ -90 ~"
+					]
 				}
 			},
 			"despawn": {
 				"sequence": [
 					{
-						"run_command": {
-							"command": "loot spawn ~~~ loot painting_s4"
+						"queue_command": {
+							"command": [
+								"playsound block.itemframe.break @a[r=5] ~ ~ ~ 1 1",
+								"kill @s"
+							]
 						},
 						"add": {
 							"component_groups": [

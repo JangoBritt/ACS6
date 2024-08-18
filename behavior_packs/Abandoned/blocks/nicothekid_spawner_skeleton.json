@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:spawner_skeleton",
+      "menu_category": {
+				"category": "none",
+				"group": "none"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Mob Spawner: Skeleton",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_spawner_skeleton",
+          "render_method": "blend",
+          "ambient_occlusion": false,
+					"face_dimming": false
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_unit_cube"
+      },
+      "minecraft:map_color": "#000000",
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 5.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.05
+      },
+      "minecraft:tick": {
+        "interval_range": [ 10, 20 ]
+      },
+      "minecraft:custom_components": [
+        "nicothekid:spawner_skeleton_on_random_tick",
+        "nicothekid:spawner_skeleton_on_tick"
+      ],
+      "minecraft:loot": "loot_tables/empty.json",
+      "tag:mob_block_spawner": {},
+      "tag:nicothekid_blocks": {}
+    }
+  }
+}

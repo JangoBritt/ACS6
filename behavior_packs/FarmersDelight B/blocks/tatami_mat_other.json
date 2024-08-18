@@ -1,5 +1,5 @@
 {
-    "format_version": "1.20.0",
+    "format_version": "1.21.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmersdelight:tatami_mat_other",
@@ -14,7 +14,7 @@
                     "y_rotation_offset": 0.0
                 }
             },
-            "properties": {
+            "states": {
                 "farmersdelight:init": [
                     false,
                     true
@@ -72,15 +72,15 @@
             }
         ],
         "components": {
-            "minecraft:queued_ticking": {
+            "minecraft:tick": {
                 "interval_range": [
                     1,
                     1
-                ],
-                "on_tick": {
-                    "event": "farmersdelight:block_tick"
-                }
+                ]
             },
+            "minecraft:custom_components": [
+              "farmersdelight:tatami_mat"
+            ],
             "minecraft:material_instances": {
                 "*": {
                     "texture": "tatami_mat_even"
@@ -135,19 +135,6 @@
             },
             "tag:farmersdelight:tatami_mat": {},
             "tag:farmersdelight:straw_blocks": {}
-        },
-        "events": {
-            "farmersdelight:block_tick": {
-                "sequence": [
-                    {
-                        "run_command": {
-                            "command": [
-                                "scriptevent farmersdelight:tatami_mat_tick"
-                            ]
-                        }
-                    }
-                ]
-            }
         }
     }
 }

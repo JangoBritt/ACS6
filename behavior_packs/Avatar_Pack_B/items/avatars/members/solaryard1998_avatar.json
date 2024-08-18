@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_avatars:solaryard1998_avatar_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "solaryard1998_avatar_item"
-			},
+            "minecraft:icon": "solaryard1998_avatar_item", 
 			"minecraft:entity_placer": {
 				"entity": "athos_avatars:solaryard1998_avatar"
 			}

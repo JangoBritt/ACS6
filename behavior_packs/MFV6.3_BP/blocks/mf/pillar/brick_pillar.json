@@ -1,0 +1,66 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "endx:brick_pillar",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "endx:state": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('endx:state') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.pillar_0"
+        }
+      },
+      {
+        "condition": "q.block_state('endx:state') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.pillar_1"
+        }
+      },
+      {
+        "condition": "q.block_state('endx:state') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.pillar_2"
+        }
+      },
+      {
+        "condition": "q.block_state('endx:state') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.pillar_3"
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.pillar_0",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "brick_blocks",
+          "render_method": "opaque"
+        }
+      },
+      "tag:pillar": {},
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:map_color": "#B7452A"
+    }
+  }
+}

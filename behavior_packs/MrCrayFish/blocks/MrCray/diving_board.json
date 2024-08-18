@@ -1,53 +1,127 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:diving_board_mr",
-            "menu_category": {
-                "category": "equipment",
-                "group": "itemGroup.name.mrPath",
-                "is_hidden_in_commands": false
-            },
-			"states": {
-				"mr:direction": [0,1,2,3,4]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('mr:direction') == 1","components": {"minecraft:transformation": {"rotation": [0,0,0]},"tag:mr.diving_board_n":{}}},
-			{"condition": "q.block_state('mr:direction') == 2","components": {"minecraft:transformation": {"rotation": [0,180,0]},"tag:mr.diving_board_s":{}}},
-			{"condition": "q.block_state('mr:direction') == 3","components": {"minecraft:transformation": {"rotation": [0,90,0]},"tag:mr.diving_board_e":{}}},
-			{"condition": "q.block_state('mr:direction') == 4","components": {"minecraft:transformation": {"rotation": [0,-90,0]},"tag:mr.diving_board_w":{}}}
-		],
-		"components": {
-			"tag:mr.diving_board": {},
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.diving_board",
-				"bone_visibility": {
-					"item": "q.block_state('mr:direction') == 0",
-					"board": "q.block_state('mr:direction') > 0"
-				}
-			},
-			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "opaque"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "opaque"}},
-			"minecraft:on_player_placing": {"event": "set_direction"},
-			"minecraft:on_placed": {"event": "place_block","target": "self"},
-			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [2,2],"looping": true},
-			"minecraft:collision_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},
-			"minecraft:selection_box": {"origin": [-7.0,0.0,-8.0],"size": [14,6,16]},
-			"minecraft:light_dampening": 0,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#000000"
-		},
-		"events": {
-			"set_direction": {"set_block_state": {"mr:direction": "q.cardinal_facing_2d - 1"}},
-			"place_block": {"sequence": [
-				{"condition": "q.block_state('mr:direction') == 1","run_command": {"command": ["setblock ~ ~ ~-1 mr:board_controller_mr keep"]}},
-				{"condition": "q.block_state('mr:direction') == 2","run_command": {"command": ["setblock ~ ~ ~1 mr:board_controller_mr keep"]}},
-				{"condition": "q.block_state('mr:direction') == 3","run_command": {"command": ["setblock ~-1 ~ ~ mr:board_controller_mr keep"]}},
-				{"condition": "q.block_state('mr:direction') == 4","run_command": {"command": ["setblock ~1 ~ ~ mr:board_controller_mr keep"]}}]},
-			"update": {"sequence": [
-				{"condition": "(q.block_state('mr:direction') == 1 && !q.block_neighbor_has_any_tag(0,0,-1,'mr.board_n')) || (q.block_state('mr:direction') == 2 && !q.block_neighbor_has_any_tag(0,0,1,'mr.board_s')) || (q.block_state('mr:direction') == 3 && !q.block_neighbor_has_any_tag(-1,0,0,'mr.board_e')) || (q.block_state('mr:direction') == 4 && !q.block_neighbor_has_any_tag(1,0,0,'mr.board_w'))","run_command": {"command": ["setblock ~~~ air destroy"]}}
-			]}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:diving_board_mr",
+      "menu_category": {
+        "category": "equipment",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "mr:direction": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('mr:direction') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "tag:mr.diving_board_n": {}
+        }
+      },
+      {
+        "condition": "q.block_state('mr:direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:mr.diving_board_s": {}
+        }
+      },
+      {
+        "condition": "q.block_state('mr:direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:mr.diving_board_e": {}
+        }
+      },
+      {
+        "condition": "q.block_state('mr:direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "tag:mr.diving_board_w": {}
+        }
+      }
+    ],
+    "components": {
+      "tag:mr.diving_board": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.diving_board",
+        "bone_visibility": {
+          "item": "q.block_state('mr:direction') == 0",
+          "board": "q.block_state('mr:direction') \u003e 0"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.concrete_white",
+          "render_method": "opaque"
+        },
+        "concrete": {
+          "texture": "mr.concrete_light_gray",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -7.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          14,
+          6,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -7.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          14,
+          6,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#000000"
+    }
+  }
 }

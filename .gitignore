@@ -4,3 +4,6 @@ level.dat_old
 .github/workflows/
 world_icon.jpeg
 levelname.txt
+.mcattributes
+.vscode/
+.vscode/launch.json

@@ -1,0 +1,159 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:stripped_oak_table0",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "medieval:facing_direction": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "medieval:state": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "medieval:close": [
+          true,
+          false
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "tag:oak_table_north": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:oak_table_south": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:oak_table_east": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 5",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "tag:oak_table_west": {}
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == true",
+        "components": {
+          "minecraft:geometry": "geometry.table0_0"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == true",
+        "components": {
+          "minecraft:geometry": "geometry.table0_1"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == true",
+        "components": {
+          "minecraft:geometry": "geometry.table0_2"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 3 \u0026\u0026 q.block_state('medieval:close') == true",
+        "components": {
+          "minecraft:geometry": "geometry.table0_3"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == false",
+        "components": {
+          "minecraft:geometry": "geometry.table0_0_open"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == false",
+        "components": {
+          "minecraft:geometry": "geometry.table0_1_open"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == false",
+        "components": {
+          "minecraft:geometry": "geometry.table0_2_open"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 3 \u0026\u0026 q.block_state('medieval:close') == false",
+        "components": {
+          "minecraft:geometry": "geometry.table0_3_open"
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.table0_0",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.stripped_oak",
+          "render_method": "opaque"
+        },
+        "concrete": {
+          "texture": "light_gray_concrete",
+          "render_method": "opaque"
+        },
+        "planks": {
+          "texture": "m.oak_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#ab8b3f"
+    }
+  }
+}

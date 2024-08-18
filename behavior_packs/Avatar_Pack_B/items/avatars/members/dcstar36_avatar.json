@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_avatars:dcstar36_avatar_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "dcstar36_avatar_item"
-			},
+            "minecraft:icon": "dcstar36_avatar_item", 
 			"minecraft:entity_placer": {
 				"entity": "athos_avatars:dcstar36_avatar"
 			}

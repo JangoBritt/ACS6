@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marker.dist_u": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sh_u",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.dist_u]"
+			]
+		},
+		"controller.render.marker.dist_t": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sh_t",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.dist_t]"
+			]
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cupboard_close",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 15, 15],
+							"uv": {
+								"north": {"uv": [0, 1], "uv_size": [16, 15], "material_instance": "planks"},
+								"east": {"uv": [1, 1], "uv_size": [15, 15], "material_instance": "planks"},
+								"south": {"uv": [0, 1], "uv_size": [16, 15], "material_instance": "planks"},
+								"west": {"uv": [0, 1], "uv_size": [15, 15], "material_instance": "planks"},
+								"up": {"uv": [16, 15], "uv_size": [-16, -15], "material_instance": "planks"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -15], "material_instance": "planks"}
+							}
+						},
+						{
+							"origin": [-6.5, 1, 7],
+							"size": [6, 13, 1],
+							"uv": {
+								"north": {"uv": [1, 2], "uv_size": [6, 13], "material_instance": "wood"},
+								"east": {"uv": [0, 2], "uv_size": [1, 13], "material_instance": "wood"},
+								"south": {"uv": [9, 2], "uv_size": [6, 13], "material_instance": "wood"},
+								"west": {"uv": [15, 2], "uv_size": [1, 13], "material_instance": "wood"},
+								"up": {"uv": [15, 16], "uv_size": [-6, -1], "material_instance": "wood"},
+								"down": {"uv": [15, 1], "uv_size": [-6, -1], "material_instance": "wood"}
+							}
+						},
+						{
+							"origin": [0.5, 1, 7],
+							"size": [6, 13, 1],
+							"uv": {
+								"north": {"uv": [9, 2], "uv_size": [6, 13], "material_instance": "wood"},
+								"east": {"uv": [0, 2], "uv_size": [1, 13], "material_instance": "wood"},
+								"south": {"uv": [1, 2], "uv_size": [6, 13], "material_instance": "wood"},
+								"west": {"uv": [15, 2], "uv_size": [1, 13], "material_instance": "wood"},
+								"up": {"uv": [7, 16], "uv_size": [-6, -1], "material_instance": "wood"},
+								"down": {"uv": [7, 1], "uv_size": [-6, -1], "material_instance": "wood"}
+							}
+						},
+						{
+							"origin": [-3, 6, 8],
+							"size": [1, 4, 0.5],
+							"uv": {
+								"north": {"uv": [7, 6], "uv_size": [1, 4], "material_instance": "line"},
+								"east": {"uv": [7, 6], "uv_size": [0.5, 4], "material_instance": "line"},
+								"south": {"uv": [7, 6], "uv_size": [1, 4], "material_instance": "line"},
+								"west": {"uv": [7, 6], "uv_size": [0.5, 4], "material_instance": "line"},
+								"up": {"uv": [7, 6], "uv_size": [1, 0.5], "material_instance": "line"},
+								"down": {"uv": [8, 6.5], "uv_size": [-1, -0.5], "material_instance": "line"}
+							}
+						},
+						{
+							"origin": [2, 6, 8],
+							"size": [1, 4, 0.5],
+							"uv": {
+								"north": {"uv": [7, 6], "uv_size": [1, 4], "material_instance": "line"},
+								"east": {"uv": [7, 6], "uv_size": [0.5, 4], "material_instance": "line"},
+								"south": {"uv": [7, 6], "uv_size": [1, 4], "material_instance": "line"},
+								"west": {"uv": [7, 6], "uv_size": [0.5, 4], "material_instance": "line"},
+								"up": {"uv": [7, 6], "uv_size": [1, 0.5], "material_instance": "line"},
+								"down": {"uv": [8, 6.5], "uv_size": [-1, -0.5], "material_instance": "line"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone2",
+					"pivot": [0, 15.5, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-8, 15, -8],
+							"size": [16, 1, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "wood"},
+								"east": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "wood"},
+								"south": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "wood"},
+								"west": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "wood"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "wood"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "wood"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

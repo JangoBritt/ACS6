@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:wooden_lamp_oak",
+      "menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.candles"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Wooden Oak Lamp",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_wooden_lamp_oak",
+          "render_method": "blend",
+          "ambient_occlusion": false,
+					"face_dimming": false
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_wooden_lamp"
+      },
+      "minecraft:map_color": "#d0b45e",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 15,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_wooden_lamp_oak.json",
+      "tag:wooden_lamp_oak": {},
+      "tag:custom_wooden_lamp": {},
+      "tag:custom_lamp": {},
+      "tag:axe_diggable": {},
+      "tag:solid_block": {},
+      "tag:nicothekid_blocks": {},
+      "tag:wood": {}
+    }
+  }
+}

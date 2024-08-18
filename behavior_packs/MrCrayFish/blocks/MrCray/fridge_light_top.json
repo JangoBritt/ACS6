@@ -1,48 +1,116 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:frigde_light_top_mr",
-			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
-			"states": {
-				"mr:close": [true,false]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
-		],
-		"components": {
-			"tag:mr.fridge_top": {},
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.fridge_top",
-				"bone_visibility": {
-					"close": "q.block_state('mr:close')",
-					"open": "!q.block_state('mr:close')"
-				}
-			},
-			"minecraft:loot": "empty",
-			"minecraft:breathability": "air",
-			"minecraft:material_instances": {"*": {"texture": "mr.concrete_white","render_method": "opaque"},"concrete": {"texture": "mr.concrete_light_gray","render_method": "opaque"}},
-			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('mr.frigde')"}]}]},
-			"minecraft:collision_box": true,
-			"minecraft:selection_box": true,
-			"minecraft:on_interact": {"event": "open"},
-			"minecraft:light_dampening": 1,
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#f7781e"
-		},
-		"events": {
-			"open": {
-				"sequence": [
-					{"condition": "q.block_state('mr:close')","run_command": {"command": ["playsound mr.fridge_open @a ~~~"]}},
-					{"condition": "!q.block_state('mr:close')","run_command": {"command": ["playsound mr.fridge_close @a ~~~"]}},
-					{"set_block_state": {"mr:close": "!q.block_state('mr:close')"}}
-				]
-			}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:frigde_light_top_mr",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "mr:close": [
+          true,
+          false
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:mr.fridge_top": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.fridge_top",
+        "bone_visibility": {
+          "close": "q.block_state('mr:close')",
+          "open": "!q.block_state('mr:close')"
+        }
+      },
+      "minecraft:loot": "empty",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.concrete_white",
+          "render_method": "opaque"
+        },
+        "concrete": {
+          "texture": "mr.concrete_light_gray",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              {
+                "tags": "q.any_tag('mr.frigde')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:light_dampening": 1,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#f7781e"
+    }
+  }
 }

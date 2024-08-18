@@ -1,0 +1,169 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:big_barrel_rft",
+      "states": {
+        "medieval:direction": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "tag:m.barrel_rft_north": {},
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  {
+                    "tags": "q.any_tag('m.barrel_rfb_north')"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "tag:m.barrel_rft_south": {},
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  {
+                    "tags": "q.any_tag('m.barrel_rfb_south')"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "tag:m.barrel_rft_east": {},
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  {
+                    "tags": "q.any_tag('m.barrel_rfb_east')"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          },
+          "tag:m.barrel_rft_west": {},
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  {
+                    "tags": "q.any_tag('m.barrel_rfb_west')"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.m.no_stairs",
+      "minecraft:loot": "empty",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.empty",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0.0,
+          -6
+        ],
+        "size": [
+          13.6,
+          11.2,
+          14
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0.0,
+          -6
+        ],
+        "size": [
+          13.6,
+          11.2,
+          14
+        ]
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#24abab"
+    }
+  }
+}

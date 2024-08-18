@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.marker.compass": {
+			"loop": true,
+			"bones": {
+				"compass": {
+					"rotation":	[ 0, "-variable.rot+180", 0 ]
+				}
+			}
+		}
+	}
+}

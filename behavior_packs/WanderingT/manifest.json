@@ -4,13 +4,13 @@
 		"name": "Wandering Trader Plus BP v6.0.3",
 		"description": "Wandering Trader Plus by Redstone Games - Based on v1.0.4 - https://www.redstonegames.com.br",
 		"uuid": "fcd5a4e5-887c-4496-955c-5a89ab947f12",
-		"version": [ 6, 0, 3 ],
+		"version": [ 6, 1, 0 ],
 		"min_engine_version": [ 1, 16, 0 ]
 	},
 	"modules": [
 		{
 			"description": "Behavior Pack",
-			"version": [ 6, 0, 3 ],
+			"version": [ 6, 1, 0 ],
 			"uuid": "a3b1e5c9-df2a-4c69-9b84-d16f8d79dd36",
 			"type": "data"
 		}
@@ -18,7 +18,7 @@
 	"dependencies": [
 		{
 			"uuid": "b1c6e1b7-221b-4b6d-8691-85e35cf0e113",
-			"version": [ 6, 0, 3 ]
+			"version": [ 6, 1, 0 ]
 		}
 	],
 	"subpacks": [

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cart": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{"moving": "q.ground_speed > 0"}
+					]
+				},
+				"moving": {
+					"animations": [
+						"wheels"
+					],
+					"transitions": [
+						{"default": "!q.ground_speed"}
+					]
+				}
+			}
+		}
+	}
+}

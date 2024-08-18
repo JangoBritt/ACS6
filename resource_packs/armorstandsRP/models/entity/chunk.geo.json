@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marker.chunk",
+				"texture_width": 512,
+				"texture_height": 4096,
+				"visible_bounds_width": 4096,
+				"visible_bounds_height": 4096,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "chunk",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0.1, 0.5, -0.1], "size": [256, 2048, 0], "uv": [0, 0]},
+						{"origin": [0.1, 0.5, -255.9], "size": [256, 2048, 0], "uv": [0, 0]},
+						{"origin": [255.9, 0.5, -255.9], "size": [0, 2048, 256], "uv": [0, 0]},
+						{"origin": [0.1, 0.5, -255.9], "size": [0, 2048, 256], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

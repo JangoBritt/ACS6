@@ -1,26 +1,25 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
 			"identifier": "athos_currency:coin_crate",
-			"is_experimental": false,
 			"menu_category": {
-				"category": "items",
-				"group": "itemGroup.name.currency"
+				"category": "items"
 			}
 		},
 		"components": {
 			"minecraft:loot": "loot_tables/currency/coin_crate.json",
-			"minecraft:destroy_time": 0.3,
+            "minecraft:geometry": "geometry.block",
 			"minecraft:friction": 0.7,
 			"minecraft:map_color": "#815100",
-			"minecraft:block_light_absorption": 0.0,
-			"minecraft:block_light_emission": 0.0,
-			"minecraft:explosion_resistance": 1.0,
-			"minecraft:flammable": {
-				"flame_odds": 1,
-				"burn_odds": 1
-			}
+
+			"minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "tag:wood":{}
 		}
 	}
 }

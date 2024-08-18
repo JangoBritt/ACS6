@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "fmh:piglin_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "fmh_piglin_item"
-			},
+            "minecraft:icon": "fmh_piglin_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:piglin"
 			}

@@ -1,0 +1,235 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:wood_pendulum_clock_top",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "medieval:texture": {
+          "values": {
+            "min": 0,
+            "max": 9
+          }
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.acacia_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.birch_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.cherry_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.crimson_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.darkoak_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 5",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.jungle_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 6",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.mangrove_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 7",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.oak_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 8",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.spruce_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:texture') == 9",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "m.warped_pendulum_clock",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "tag:m.wood_pendulum_clock_top": {},
+      "minecraft:loot": "empty",
+      "minecraft:geometry": "geometry.m.pendulum_clock_top",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              {
+                "tags": "q.any_tag('m.wood_pendulum_clock')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0.0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0.0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#24abab"
+    }
+  }
+}

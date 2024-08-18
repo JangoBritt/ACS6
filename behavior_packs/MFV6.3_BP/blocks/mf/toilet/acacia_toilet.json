@@ -1,0 +1,135 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:acacia_toilet",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "medieval:facing_direction": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "medieval:state": [
+          0,
+          1
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 4",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:facing_direction') == 5",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.m.toilet_open"
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:state') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.m.toilet_close"
+        }
+      }
+    ],
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.m.toilet_open",
+      "minecraft:material_instances": {
+        "planks": {
+          "texture": "m.acacia_planks",
+          "render_method": "opaque"
+        },
+        "water": {
+          "texture": "water",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "m.stripped_acacia",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#db904f"
+    }
+  }
+}

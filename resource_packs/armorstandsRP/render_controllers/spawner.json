@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marker.spawner_inner": {
+			"geometry": "Geometry.spawner_inner",
+			"materials": [
+				{
+					"*": "Material.sphere"
+				}
+			],
+			"textures": [
+				"Texture.inner"
+			]
+		},
+		"controller.render.marker.spawner_outer": {
+			"geometry": "Geometry.spawner_outer",
+			"materials": [
+				{
+					"*": "Material.sphere"
+				}
+			],
+			"textures": [
+				"Texture.outer"
+			]
+		}
+	}
+}

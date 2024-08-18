@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "athos_avatars:rebeltrooper_head_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "rebeltrooper_head_item"
-			},
+            "minecraft:icon": "rebeltrooper_head_item", 
 			"minecraft:entity_placer": {
 				"entity": "athos_avatars:rebeltrooper_head"
 			}

@@ -1,0 +1,150 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:cart_oak_1",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"medieval:not_moving": {
+				"minecraft:variant": {"value": 0},
+				"minecraft:collision_box": {
+					"width": 2,
+					"height": 2
+				}
+			},
+			"medieval:moving_with_player": {
+				"minecraft:variant": {"value": 1},
+				"minecraft:collision_box": {
+					"width": 0,
+					"height": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/medieval_furniture/entities/wagon_0/horse_wagon_oak_0.json"
+			},
+			"minecraft:is_tamed": {},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{"test": "is_family","subject": "other","value": "player"},
+									{ "test": "is_variant", "subject": "self", "operator": "equals", "value": 0 },
+									{"test": "is_sneaking","subject": "other","operator": "==","value": false},
+									{"test": "has_equipment","subject": "other","domain": "hand","value": "lead"}
+								]
+							},
+							"target": "self",
+							"event": "medieval:set_as_rider"
+						},
+						"interact_text": "action.interact.remove_wagon"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{"test": "is_family","subject": "other","value": "player"},
+									{ "test": "is_variant", "subject": "self", "operator": "equals", "value": 0 },
+									{"test": "is_sneaking","subject": "other","operator": "==","value": true}
+								]
+							},
+							"target": "self",
+							"event": "medieval:facing_player"
+						},
+						"interact_text": "action.interact.remove_wagon"
+					}
+				]
+			},
+			"minecraft:entity_sensor": {
+				"sensor_range": 0.5,
+				"relative_range": false,
+				"minimum_count": 1,
+				"event_filters": {
+					"all_of": [
+						{ "test": "is_family", "subject": "other", "value": "player" },
+						{ "test": "is_sneaking", "subject": "other", "operator": "equals", "value": true},
+						{ "test": "on_ground", "subject": "other", "operator": "equals", "value": false},
+						{ "test": "is_moving", "subject": "other", "operator": "equals", "value": false },
+						{ "test": "rider_count", "subject": "other", "operator": ">=", "value": 1 }
+					]
+				},
+				"event": "medieval:remove_rider"
+			},
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"container_type": "horse"
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:is_chested": {},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 2
+			},
+			"minecraft:health": {
+				"value": {
+					"range_min": 15,
+					"range_max": 30
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": ["parrot_tame","inanimate"]
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:balloonable": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"medieval:set_as_rider": {
+				"add": {"component_groups": ["medieval:moving_with_player"]},
+				"queue_command": {
+					"command": [
+						"execute as @s at @s run say hi",
+						"ride @s evict_riders",
+						"ride @e[type=medieval:cart_oak_1,c=1] start_riding @s teleport_rider"
+					],
+					"target": "other"
+				}
+			},
+			"medieval:remove_rider": {
+				"add": {"component_groups": ["medieval:not_moving"]},
+				"remove": {"component_groups": ["medieval:moving_with_player"]},
+				"queue_command": {"command": ["tp @s ~~-1~"]}
+			},
+			"medieval:facing_player": {
+				"queue_command": {"command": ["tp @s ~~~ facing @p"]}
+			}
+		}
+	}
+}

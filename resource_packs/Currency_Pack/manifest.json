@@ -5,22 +5,22 @@
 	},
 	"header": {
 		"description": "Pack By §6AthosCraft§r | Currency Pack | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
-		"name": "§aCurrency Pack§r v6.0 [R]",
+		"name": "§aCurrency Pack§r v6.1 [R]",
 		"uuid": "910ddcde-dac0-4e42-846d-bbd345f6869e",
-		"version": [ 6, 0, 2 ],
+		"version": [ 6, 1, 0 ],
 		"min_engine_version": [ 1, 20, 81 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "3330a021-4afc-43ad-afc8-42215233ea4f",
-			"version": [ 6, 0, 2 ]
+			"version": [ 6, 1, 0 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "16dd192c-48b4-4318-b95a-deae1b50ab72",
-			"version": [ 6, 0, 2 ]
+			"version": [ 6, 1, 0 ]
 		}
 	]
 }

@@ -1,50 +1,38 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "Abandoned & Ruin Structures (v1.10.12) [Behavior Pack]",
-		"description": "Discover more structure in your world exploration.",
-		"uuid": "10001000-ab12-1111-1111-a000a000a000",
-		"version": [ 1, 10, 12 ],
-		"min_engine_version": [ 1, 20, 30 ]
-	},
-	"metadata": {
+  "format_version": 2,
+  "header": {
+    "name": "Abandoned & Ruin Structures (v1.10.21) [Behavior Pack]",
+    "description": "Discover more structure in your world exploration.",
+    "uuid": "10001000-ab12-1111-1111-a000a000a000",
+    "version": [ 1, 10, 21 ],
+    "min_engine_version": [ 1, 20, 30 ]
+  },
+  "metadata": {
 		"authors": [ "NicoTheKid" ],
 		"url": "https://mcpedl.com/user/dangel/"
 	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "10001000-ab12-1111-1111-100010001000",
-			"version": [ 1, 10, 12 ]
-		},
-		{
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "10001000-ab12-1111-1111-100010001000",
+      "version": [ 1, 10, 21 ]
+    },
+    {
 			"type": "script",
 			"language": "javascript",
-			"uuid": "ea5d80b7-ab12-350e-7044-b7a50a642baa",
+			"uuid": "ea5d80b7-b814-350e-7044-b7a50a642baa",
 			"entry": "scripts/main.js",
-			"version": [ 1, 10, 12 ]
+			"version": [ 1, 10, 21 ]
 		}
-	],
-	"dependencies": [
-		{
-			"uuid": "20002000-ab12-2222-2222-b000b000b000",
-			"version": [ 1, 10, 12 ]
-		},
-		{
+  ],
+  "dependencies": [
+    {
+      "uuid": "20002000-ab12-2222-2222-b000b000b000",
+      "version": [ 1, 10, 21 ]
+    },
+    {
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta"
+			"version": "1.13.0"
 		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "fully_scripting_events",
-			"name": "§e§lFully Scripting Events§r - Add more functions, but it may also add more bugs, especially on PC.",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "none_scripting_events",
-			"name": "§e§lNone Scripting Events§r - No new additional functions but it less bugs.",
-			"memory_tier": 1
-		}
-	]
+  ]
 }

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "medieval:stripped_cherry_ws",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/blocks/cherry_planks",
+				"wood": "textures/blocks/stripped_cherry_log_side"
+			},
+			"geometry": {
+				"default": "geometry.m.weapon_stand_item",
+				"wood": "geometry.m.weapon_stand_item_wood"
+			},
+			"animations": {
+				"first_person_hold": "animation.weapon_stand_item.first_person_hold",
+				"third_person_hold": "animation.weapon_stand_item.third_person_hold"
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.weapon_stand_item"
+			],
+			"scripts": {
+				"animate": [
+					{
+						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"third_person_hold": "!c.is_first_person"
+					}
+				]
+			}
+		}
+	}
+}

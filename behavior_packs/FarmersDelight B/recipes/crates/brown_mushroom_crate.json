@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:brown_mushroom_crate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW",
+            "WWW",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:brown_mushroom"
+            }
+        },
+        "result": {
+            "item": "farmersdelight:brown_mushroom_crate"
+        }
+    }
+}

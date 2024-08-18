@@ -1,0 +1,178 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.marker.time_ticks": {
+			"geometry": "Geometry.sm_title",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Texture.time_ticks"
+			]
+		},
+		"controller.render.marker.time_u": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_u",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_u]"
+			]
+		},
+		"controller.render.marker.time_t": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_t",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_t]"
+			]
+		},
+		"controller.render.marker.time_h": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_h",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_h]"
+			]
+		},
+		"controller.render.marker.time_k": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_k]"
+			]
+		},
+		"controller.render.marker.time_k2": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k2",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_k2]"
+			]
+		},
+		"controller.render.marker.time_k3": {
+			"arrays": {
+				"textures": {
+					"Array.numbers": [
+						"Texture.num_0",
+						"Texture.num_1",
+						"Texture.num_2",
+						"Texture.num_3",
+						"Texture.num_4",
+						"Texture.num_5",
+						"Texture.num_6",
+						"Texture.num_7",
+						"Texture.num_8",
+						"Texture.num_9"
+					]
+				}
+			},
+			"geometry": "Geometry.sm_k3",
+			"materials": [
+				{
+					"*": "Material.entity"
+				}
+			],
+			"textures": [
+				"Array.numbers[variable.time_k3]"
+			]
+		}
+	}
+}

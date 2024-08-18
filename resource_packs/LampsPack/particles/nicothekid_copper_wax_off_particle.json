@@ -5,7 +5,7 @@
       "identifier": "nicothekid:copper_wax_off_particle",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/particles/nicothekid_copper_wax_off_particle"
+        "texture": "textures/particles/ntk_copper_wax_off_particle"
       }
     },
     "components": {

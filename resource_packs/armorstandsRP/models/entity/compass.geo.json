@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marker.compass",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4096,
+				"visible_bounds_height": 4096,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "compass",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-16, 0, -16], "size": [32, 0, 32], "uv": [0, 64]}
+					]
+				},
+				{
+					"name": "north",
+					"parent": "compass",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-4, 0, -16], "size": [8, 0, 16], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "south",
+					"parent": "compass",
+					"pivot": [0, 16, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{"origin": [-4, 0, -16], "size": [8, 0, 16], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "east",
+					"parent": "compass",
+					"pivot": [0, 16, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{"origin": [-4, 0, -16], "size": [8, 0, 16], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "west",
+					"parent": "compass",
+					"pivot": [0, 16, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-4, 0, -16], "size": [8, 0, 16], "uv": [0, 48]}
+					]
+				}
+			]
+		}
+	]
+}

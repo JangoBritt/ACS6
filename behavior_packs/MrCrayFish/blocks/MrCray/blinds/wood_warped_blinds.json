@@ -1,92 +1,143 @@
 {
-	"format_version": "1.20.30",
-	"minecraft:block": {
-		"description": {
-			"identifier": "mr:wood_warped_blinds_mr",
-			"menu_category": {
-                "category": "items",
-                "group": "itemGroup.name.mrBlinds",
-                "is_hidden_in_commands": false
-            },
-			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
-			"states": {
-				"mr:close": [true,false],
-				"mr:top": [false,true]
-			}
-		},
-		"permutations": [
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
-			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
-		],
-		"components": {
-			"tag:mr.wb.warped": {},
-			"minecraft:geometry": {
-				"identifier": "geometry.mr.blinds",
-				"bone_visibility": {
-					"top": "!q.block_state('mr:top')",
-					"bot": "q.block_state('mr:top')",
-					"close_bot": "q.block_state('mr:close')",
-					"close_top": "q.block_state('mr:close') && q.block_state('mr:top')",
-					"open_bot": "!q.block_state('mr:close')",
-					"open_top": "!q.block_state('mr:close') && q.block_state('mr:top')"
-				}
-			},
-			"minecraft:breathability": "air",
-			"minecraft:material_instances": {"*": {"texture": "mr.wood_warped","render_method": "opaque"},"wood": {"texture": "mr.stripped_warped","render_method": "opaque"},"concrete": {"texture": "mr.concrete_white","render_method": "opaque"}},
-			"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,3]},
-			"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,3]},
-			"minecraft:queued_ticking": {"on_tick":{"event": "update"},"interval_range": [0,0],"looping": true},
-			"minecraft:on_interact": {"condition": "q.block_face > 1","event": "open"},
-			"minecraft:on_placed": {"event": "block_placed"},
-			"minecraft:light_dampening": 1,
-			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
-			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
-			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
-			"minecraft:map_color": "#f7781e"
-		},
-		"events": {
-			"open": {
-				"sequence": [
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('mr:close')","run_command": {"command": ["playsound mr.blinds_open @a ~~~"]}},
-					{"condition": "!q.block_state('mr:close')","run_command": {"command": ["playsound mr.blinds_close @a ~~~"]}},
-					{"set_block_state": {"mr:close": "!q.block_state('mr:close')"}}
-				]
-			},
-			"block_placed": {
-				"sequence": [
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"north\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('mr:close')","run_command": {"command": ["fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=false]","fill ~-1~-1~~1~1~ mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"south\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"west\",\"mr:close\"=false,\"mr:top\"=true]"]}},
-
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=true]"]}},
-					{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('mr:close')","run_command": {"command": ["fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=false] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=false]","fill ~~-1~-1~~1~1 mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=true,\"mr:top\"=true] replace mr:wood_warped_blinds_mr[\"minecraft:cardinal_direction\"=\"east\",\"mr:close\"=false,\"mr:top\"=true]"]}}
-				]
-			},
-			"update": {
-				"sequence": [
-					{"condition": "q.block_neighbor_has_any_tag(0,1,0,'mr.wb.warped')","set_block_state": {"mr:top": true}},
-					{"condition": "!q.block_neighbor_has_any_tag(0,1,0,'mr.wb.warped')","set_block_state": {"mr:top": false}}
-				]
-			}
-		}
-	}
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mr:wood_warped_blinds_mr",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "mr:close": [
+          true,
+          false
+        ],
+        "mr:top": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:mr.wb.warped": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.mr.blinds",
+        "bone_visibility": {
+          "top": "!q.block_state('mr:top')",
+          "bot": "q.block_state('mr:top')",
+          "close_bot": "q.block_state('mr:close')",
+          "close_top": "q.block_state('mr:close') \u0026\u0026 q.block_state('mr:top')",
+          "open_bot": "!q.block_state('mr:close')",
+          "open_top": "!q.block_state('mr:close') \u0026\u0026 q.block_state('mr:top')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mr.wood_warped",
+          "render_method": "opaque"
+        },
+        "wood": {
+          "texture": "mr.stripped_warped",
+          "render_method": "opaque"
+        },
+        "concrete": {
+          "texture": "mr.concrete_white",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          3
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          3
+        ]
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#f7781e"
+    }
+  }
 }

@@ -1,0 +1,92 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.inventory_entities": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                "sounds/damage/hit3"
+            ]
+        },
+        "m.gallop_horse": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {"name": "sounds/mob/horse/gallop1","volume":0.45},
+                {"name": "sounds/mob/horse/gallop2","volume":0.45},
+                {"name": "sounds/mob/horse/gallop3","volume":0.45},
+                {"name": "sounds/mob/horse/gallop4","volume":0.45}
+            ]
+        },
+        "m.beer_pour": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/medieval_furniture/beer/beer_pour",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "m.tic_pendulum_clock": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/medieval_furniture/clock/tic",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "m.tac_pendulum_clock": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/medieval_furniture/clock/tac",
+                    "volume": 0.7
+                }
+            ],
+            "max_distance": 15
+        },
+        "m.wagon_moving_start": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                "sounds/medieval_furniture/wagon/moving_start"
+            ]
+        },
+        "m.wagon_moving": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                {"name": "sounds/medieval_furniture/wagon/moving","volume": 1,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/moving2","volume": 1,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/moving3","volume": 1,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/moving4","volume": 1,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/moving5","volume": 1,"is3D": true}
+            ]
+        },
+        "m.wagon_moving_end": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                "sounds/medieval_furniture/wagon/moving_end"
+            ]
+        },
+        "m.horse_whip": {
+            "__use_legacy_max_distance": true,
+            "category": "neutral",
+            "sounds": [
+                {"name": "sounds/medieval_furniture/wagon/whip1","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip2","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip3","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip4","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip5","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip6","volume": 3,"is3D": true},
+                {"name": "sounds/medieval_furniture/wagon/whip7","volume": 3,"is3D": true}
+            ]
+        }
+    }
+}

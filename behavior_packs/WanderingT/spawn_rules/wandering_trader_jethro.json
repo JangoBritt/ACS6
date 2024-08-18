@@ -10,7 +10,7 @@
         "minecraft:delay_filter": {
           "min": 300,
           "max": 360,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_jethro",
           "spawn_chance": 75
         },
         "minecraft:spawns_on_surface": {},
@@ -33,6 +33,11 @@
               "test": "has_biome_tag",
               "operator": "==",
               "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ocean"
             }
           ]
         }
@@ -41,7 +46,7 @@
         "minecraft:delay_filter": {
           "min": 300,
           "max": 360,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_jethro",
           "spawn_chance": 75
         },
         "minecraft:spawns_on_surface": {},

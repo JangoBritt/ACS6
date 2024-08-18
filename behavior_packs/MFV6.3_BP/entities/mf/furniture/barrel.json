@@ -1,0 +1,115 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "medieval:barrel_cont",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"medieval:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"medieval:no_particle": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "medieval:entity_despawned"
+				}
+			},
+			"medieval:no_item": {"minecraft:variant": {"value": 0}},
+			"medieval:apple": {"minecraft:variant": {"value": 1}},
+			"medieval:beetroot": {"minecraft:variant": {"value": 2}},
+			"medieval:carrot": {"minecraft:variant": {"value": 3}},
+			"medieval:potato": {"minecraft:variant": {"value": 4}},
+			"medieval:wheat": {"minecraft:variant": {"value": 5}},
+			"medieval:bamboo": {"minecraft:variant": {"value": 6}},
+			"medieval:cod": {"minecraft:variant": {"value": 7}},
+			"medieval:salmon": {"minecraft:variant": {"value": 8}},
+			"medieval:golden_apple": {"minecraft:variant": {"value": 9}},
+			"medieval:golden_carrot": {"minecraft:variant": {"value": 10}},
+			"medieval:water_bucket": {"minecraft:variant": {"value": 11}},
+			"medieval:arrow": {"minecraft:variant": {"value": 12}},
+			"medieval:diamond": {"minecraft:variant": {"value": 13}},
+			"medieval:emerald": {"minecraft:variant": {"value": 14}},
+			"medieval:iron_ingot": {"minecraft:variant": {"value": 15}},
+			"medieval:gold_ingot": {"minecraft:variant": {"value": 16}},
+			"medieval:copper_ingot": {"minecraft:variant": {"value": 17}}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.92,
+				"height": 0.8
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "minecart_chest",
+				"can_be_siphoned_from": true,
+				"inventory_size": 27
+			},
+			"minecraft:on_death": {
+				"event": "medieval:no_particle",
+				"target": "self"
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "medieval:despawn",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"medieval:despawn": {"queue_command": {"command": ["kill @s"]}},
+			"medieval:no_particle": {"add": {"component_groups": ["medieval:no_particle"]}},
+			
+			"medieval:remove": {"add": {"component_groups": ["medieval:no_item"]}},
+			"medieval:apple": {"add": {"component_groups": ["medieval:apple"]}},
+			"medieval:beetroot": {"add": {"component_groups": ["medieval:beetroot"]}},
+			"medieval:carrot": {"add": {"component_groups": ["medieval:carrot"]}},
+			"medieval:potato": {"add": {"component_groups": ["medieval:potato"]}},
+			"medieval:wheat": {"add": {"component_groups": ["medieval:wheat"]}},
+			"medieval:bamboo": {"add": {"component_groups": ["medieval:bamboo"]}},
+			"medieval:cod": {"add": {"component_groups": ["medieval:cod"]}},
+			"medieval:salmon": {"add": {"component_groups": ["medieval:salmon"]}},
+			"medieval:golden_apple": {"add": {"component_groups": ["medieval:golden_apple"]}},
+			"medieval:golden_carrot": {"add": {"component_groups": ["medieval:golden_carrot"]}},
+			"medieval:water_bucket": {"add": {"component_groups": ["medieval:water_bucket"]}},
+			"medieval:arrow": {"add": {"component_groups": ["medieval:arrow"]}},
+			"medieval:diamond": {"add": {"component_groups": ["medieval:diamond"]}},
+			"medieval:emerald": {"add": {"component_groups": ["medieval:emerald"]}},
+			"medieval:iron_ingot": {"add": {"component_groups": ["medieval:iron_ingot"]}},
+			"medieval:gold_ingot": {"add": {"component_groups": ["medieval:gold_ingot"]}},
+			"medieval:copper_ingot": {"add": {"component_groups": ["medieval:copper_ingot"]}}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "medieval:barrel_cont",
+			"enable_attachables": false,
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/medieval_blocks/blocks/kitchen/empty",
+				"apple": "textures/medieval_blocks/blocks/food/apple",
+				"beetroot": "textures/medieval_blocks/blocks/food/beetroot",
+				"carrot": "textures/medieval_blocks/blocks/food/carrot",
+				"potato": "textures/medieval_blocks/blocks/food/potato",
+				"wheat": "textures/medieval_blocks/blocks/food/wheat",
+				"bamboo": "textures/blocks/bamboo_stem",
+				"cod": "textures/medieval_blocks/blocks/food/cod",
+				"salmon": "textures/medieval_blocks/blocks/food/salmon",
+				"golden_apple": "textures/medieval_blocks/blocks/food/golden_apple",
+				"golden_carrot": "textures/medieval_blocks/blocks/food/golden_carrot",
+				"water_bucket": "textures/medieval_blocks/blocks/food/water",
+				"arrow": "textures/entity/arrows",
+				"diamond": "textures/medieval_blocks/blocks/food/diamond",
+				"emerald": "textures/medieval_blocks/blocks/food/emerald",
+				"iron_ingot": "textures/medieval_blocks/blocks/food/iron_ingot",
+				"gold_ingot": "textures/medieval_blocks/blocks/food/gold_ingot",
+				"copper_ingot": "textures/medieval_blocks/blocks/food/copper_ingot"
+			}, 
+			"geometry": {
+				"default":"geometry.m.no_weapon",
+				"apple":"geometry.m.barrel_apple",
+				"beetroot":"geometry.m.barrel_beetroot",
+				"carrot":"geometry.m.barrel_carrot",
+				"potato":"geometry.m.barrel_potato",
+				"wheat":"geometry.m.barrel_wheat",
+				"bamboo":"geometry.m.barrel_bamboo",
+				"cod":"geometry.m.barrel_cod",
+				"salmon":"geometry.m.barrel_salmon",
+				"golden_apple":"geometry.m.barrel_apple",
+				"golden_carrot":"geometry.m.barrel_carrot",
+				"water":"geometry.m.barrel_fill",
+				"arrow":"geometry.m.barrel_arrow",
+				"diamond":"geometry.m.barrel_diamond",
+				"emerald":"geometry.m.barrel_emerald",
+				"iron_ingot":"geometry.m.barrel_ingot",
+				"gold_ingot":"geometry.m.barrel_ingot",
+				"copper_ingot":"geometry.m.barrel_ingot"
+			},
+			"render_controllers": [
+				"controller.render.barrel_item"
+			]
+		}
+	}
+}

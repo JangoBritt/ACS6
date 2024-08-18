@@ -41,6 +41,7 @@
       "minecraft:scale": 0,
       "minecraft:type_family": {
         "family": [
+          "stove",
           "farmersdelight_tick_block_entity"
         ]
       },
@@ -66,11 +67,7 @@
           ]
         }
       },
-      "farmersdelight:stove_tick": {
-        /*"run_command": {
-          "command": "execute unless block ~ ~ ~ farmersdelight:stove [] run event entity @e[r=0.5,type=farmersdelight:stove] farmersdelight:despawn"
-        }*/
-      }
+      "farmersdelight:stove_tick": {}
     }
   }
 }

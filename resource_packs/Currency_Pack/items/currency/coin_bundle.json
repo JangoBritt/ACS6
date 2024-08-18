@@ -6,8 +6,7 @@
 			"category": "items"
 		},
 		"components": {
-			"minecraft:icon": "coin_bundle",
-			"minecraft:render_offsets": "miscellaneous"
+			"minecraft:icon": "coin_bundle"
 		}
 	}
 }

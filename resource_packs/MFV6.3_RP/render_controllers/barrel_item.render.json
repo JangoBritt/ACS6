@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.barrel_item": {
+			"arrays": {
+				"textures": {
+					"Array.item_texture": [
+						"Texture.default",
+						"Texture.apple",
+						"Texture.beetroot",
+						"Texture.carrot",
+						"Texture.potato",
+						"Texture.wheat",
+						"Texture.bamboo",
+						"Texture.cod",
+						"Texture.salmon",
+						"Texture.golden_apple",
+						"Texture.golden_carrot",
+						"Texture.water_bucket",
+						"Texture.arrow",
+						"Texture.diamond",
+						"Texture.emerald",
+						"Texture.iron_ingot",
+						"Texture.gold_ingot",
+						"Texture.copper_ingot"
+					]
+				},
+				"geometries": {
+					"Array.item_model": [
+						"Geometry.default",
+						"Geometry.apple",
+						"Geometry.beetroot",
+						"Geometry.carrot",
+						"Geometry.potato",
+						"Geometry.wheat",
+						"Geometry.bamboo",
+						"Geometry.cod",
+						"Geometry.salmon",
+						"Geometry.golden_apple",
+						"Geometry.golden_carrot",
+						"Geometry.water",
+						"Geometry.arrow",
+						"Geometry.diamond",
+						"Geometry.emerald",
+						"Geometry.iron_ingot",
+						"Geometry.gold_ingot",
+						"Geometry.copper_ingot"
+					]
+				}
+			},
+			"geometry": "Array.item_model[query.variant]",
+			"materials": [
+				{"*": "Material.default"}
+			],
+			"textures": ["Array.item_texture[query.variant]"]
+		}
+	}
+}

@@ -1,13 +1,11 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "fmh:cat_jellie_item"
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "fmh_cat_jellie_item"
-			},
+            "minecraft:icon": "fmh_cat_jellie_item", 
 			"minecraft:entity_placer": {
 				"entity": "fmh:cat_jellie"
 			}

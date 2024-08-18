@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "medieval:stripped_birch_box2",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.chest",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "tag:medieval_furniture": {},
+      "minecraft:geometry": "geometry.box_2",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "m.stripped_birch",
+          "render_method": "opaque"
+        },
+        "planks": {
+          "texture": "m.birch_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:light_dampening": 0.0,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:map_color": "#fff1a8"
+    }
+  }
+}

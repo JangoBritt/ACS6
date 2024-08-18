@@ -1,20 +1,19 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
 			"identifier": "athos_currency:coin_stack",
 			"menu_category": {
-				"category": "items",
-				"group": "itemGroup.name.currency"
+				"category": "items"
 			},
-			"properties": {
-				"athos_currency:block_rotation": [
-					2,
-					3,
-					4,
-					5
-				]
-			}
+			"traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
 		},
 		"components": {
 			"minecraft:loot": "loot_tables/currency/coin_stack.json",
@@ -27,85 +26,20 @@
 					"face_dimming": true
 				}
 			},
-			
-			"minecraft:pick_collision": {
-				"origin": [
-					-4,
-					0,
-					-6
-				],
-				"size": [
-					8,
-					7,
-					8
-				]
-			},
-			"minecraft:entity_collision": {
-				"origin": [
-					-4,
-					0,
-					-6
-				],
-				"size": [
-					8,
-					7,
-					8
-				]
-			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:destroy_time": 0.1,
-			"minecraft:on_player_placing": {
-				"event": "athos_currency:update_rotation"
-			}
-		},
-		"events": {
-			"athos_currency:update_rotation": {
-				"set_block_property": {
-					"athos_currency:block_rotation": "query.cardinal_facing_2d"
-				}
-			}
+            "minecraft:selection_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
+			"minecraft:collision_box": { "origin": [ -4, 0, -6 ], "size": [ 8, 7, 8 ] },
+			"minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            }
 		},
 		"permutations": [
-			{
-				"condition": "query.block_property('athos_currency:block_rotation') == 2",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						180,
-						0
-					]
-				}
-			},
-			{
-				"condition": "query.block_property('athos_currency:block_rotation') == 3",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						0,
-						0
-					]
-				}
-			},
-			{
-				"condition": "query.block_property('athos_currency:block_rotation') == 4",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						270,
-						0
-					]
-				}
-			},
-			{
-				"condition": "query.block_property('athos_currency:block_rotation') == 5",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						90,
-						0
-					]
-				}
-			}
-		]
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+            { "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } }
+        ]
 	}
 }

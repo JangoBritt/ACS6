@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { system, world } from "@minecraft/server";
+import { DataDrivenEntityTriggerAfterEvent, system, world } from "@minecraft/server";
 import { methodEventSub } from "../../lib/eventHelper";
 import { BlockEntity } from "./BlockEntity";
 const xOffset = 0.3;
@@ -79,7 +79,7 @@ export class StoveBlockEntity extends BlockEntity {
                     if (cookTime <= 0) {
                         sco.removeParticipant(itemStack);
                         sco.setScore('amount', (sco.getScore('amount') ?? 0) - 1);
-                        entity.runCommandAsync(`loot spawn ${entity.location.x + 0.5} ${entity.location.y + 1} ${entity.location.z + 0.5} loot "${id[0]}/cook/${id[1]}"`);
+                        entity.runCommandAsync(`loot spawn ${entity.location.x + 0.5} ${entity.location.y + 1} ${entity.location.z + 0.5} loot "${name[0]}/cook/${name[1]}"`);
                     }
                 }
                 ;
@@ -106,20 +106,19 @@ export class StoveBlockEntity extends BlockEntity {
                         sco.removeParticipant(itemStack);
                         sco.setScore('amount', (sco.getScore('amount') ?? 0) - 1);
                         entity.runCommandAsync(`loot spawn ${entity.location.x + 0.5} ${entity.location.y + 1} ${entity.location.z + 0.5} loot "${name[0]}/cook/${name[1]}"`);
-                        console.warn(`loot spawn ${entity.location.x + 0.5} ${entity.location.y + 1} ${entity.location.z + 0.5} loot "${name[0]}/cook/${name[1]}"`);
                     }
                 }
                 ;
                 entity.dimension.spawnParticle(particleName, { x: x + stoveOffsets[parseInt(id[1]) - 1].y, y: y + 1.02, z: z + stoveOffsets[parseInt(id[1]) - 1].x });
             }
         }
-        super.blockEntityLoot(entityBlockData, "farmersdelight:stove", itemStackArr(itemStackScoresData) ?? null);
+        super.blockEntityLoot(entityBlockData, entityBlockData.entity.typeId, itemStackArr(itemStackScoresData) ?? null);
     }
 }
 __decorate([
-    methodEventSub(world.afterEvents.dataDrivenEntityTrigger, { entityTypes: ["farmersdelight:stove"], eventTypes: ["farmersdelight:stove_tick"] }),
+    methodEventSub(world.afterEvents.dataDrivenEntityTrigger, { eventTypes: ["farmersdelight:stove_tick"] }),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [DataDrivenEntityTriggerAfterEvent]),
     __metadata("design:returntype", void 0)
 ], StoveBlockEntity.prototype, "tick", null);
 //# sourceMappingURL=StoveBlockEntity.js.map

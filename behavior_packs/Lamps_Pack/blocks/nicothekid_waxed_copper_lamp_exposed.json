@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:waxed_copper_lamp_exposed",
+      "menu_category": {
+				"category": "items",
+				"group": "items"
+			}
+    },
+    "components": {
+      "minecraft:display_name": "Waxed Exposed Copper Lamp",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_waxed_copper_lamp_exposed",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.block.nicothekid_unit_cube"
+      },
+      "minecraft:map_color": "#ff8201",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 13,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:loot": "loot_tables/lamps_lanterns/blocks/nicothekid_waxed_copper_lamp_exposed.json",
+      "tag:waxed_copper_lamp_exposed": {},
+      "tag:copper_lamp": {},
+      "tag:custom_lamp": {},
+      "tag:pickaxe_diggable": {},
+      "tag:solid_block": {},
+      "tag:nicothekid_blocks": {},
+      "tag:stone": {},
+      "tag:metal": {}
+    }
+  }
+}

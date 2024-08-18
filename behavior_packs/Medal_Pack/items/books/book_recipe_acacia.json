@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "athos_misc:acacia_book",
 			"menu_category": {
-				"category": "items",
-				"group": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {
@@ -23,7 +22,7 @@
 				"duration": 5
 			},
 			"minecraft:display_name": {
-				"value": "§lSavanna Furnishings§f\nWorking with Acacia Wood"
+				"value": "§lSavanna Furnishings§r§f\nWorking with Acacia Wood"
 			},
 			"minecraft:food": {
 				"nutrition": 0,
