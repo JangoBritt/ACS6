@@ -32,5 +32,8 @@
 			"uuid": "10ba4924-e71c-47a3-a456-ff77d7ef4e7e",
 			"version": [ 6, 1, 4 ]
 		}
-    ]
+    ],
+    "capabilities": [
+        "raytraced"
+      ]
 }

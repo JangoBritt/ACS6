@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "glowberry_crate_side",
+        "metalness_emissive_roughness": "glowberry_crate_side_mer",
+        "heightmap": "glowberry_crate_side_normal"
+    }
+}

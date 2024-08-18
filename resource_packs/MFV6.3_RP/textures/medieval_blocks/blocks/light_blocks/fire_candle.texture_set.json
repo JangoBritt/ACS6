@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "fire_candle",
+        "metalness_emissive_roughness": "fire_candle_mer",
+        "heightmap": "fire_candle_normal"
+    }
+}
