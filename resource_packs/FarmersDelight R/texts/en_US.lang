@@ -26,6 +26,7 @@ entity.farmersdelight:warped_cabinet.name=Warped Cabinet
 entity.farmersdelight:cherry_cabinet.name=Cherry Cabinet
 entity.farmersdelight:bamboo_cabinet.name=Bamboo Cabinet
 item.farmersdelight:rope=Rope
+item.farmersdelight:rope_item=Rope
 tile.farmersdelight:safety_net.name=Safety Net
 tile.farmersdelight:canvas_rug.name=Canvas Rug
 tile.farmersdelight:tatami.name=Tatami Block
