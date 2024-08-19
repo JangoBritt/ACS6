@@ -11,7 +11,7 @@
           "min": 300,
           "max": 360,
           "identifier": "red:wandering_trader_mountain",
-          "spawn_chance": 75
+          "spawn_chance": 50
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {
@@ -40,7 +40,7 @@
           "min": 300,
           "max": 360,
           "identifier": "red:wandering_trader_mountain",
-          "spawn_chance": 75
+          "spawn_chance": 50
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {

@@ -11,7 +11,7 @@
           "min": 300,
           "max": 600,
           "identifier": "red:wandering_trader_gulli",
-          "spawn_chance": 75
+          "spawn_chance": 50
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:weight": {

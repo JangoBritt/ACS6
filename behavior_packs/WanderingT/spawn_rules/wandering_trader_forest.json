@@ -11,7 +11,7 @@
           "min": 300,
           "max": 360,
           "identifier": "red:wandering_trader_forest",
-          "spawn_chance": 75
+          "spawn_chance": 50
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:spawns_on_block_filter": "minecraft:grass",
@@ -48,7 +48,7 @@
           "min": 300,
           "max": 360,
           "identifier": "red:wandering_trader_forest",
-          "spawn_chance": 75
+          "spawn_chance": 50
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:spawns_on_block_filter": "minecraft:grass",
