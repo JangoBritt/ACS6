@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_cracked_polished_blackstone_bricks_soul_lantern_x_sand"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "COC",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:cracked_polished_blackstone_bricks"
+      },
+      "O": {
+        "item": "minecraft:soul_sand"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:cracked_polished_blackstone_bricks_soul_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cracked_polished_blackstone_bricks"
+      }
+    ]
+  }
+}

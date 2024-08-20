@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_andesite_soul_lantern_x_soul_soil"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "COC",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stone",
+        "data": 5
+      },
+      "O": {
+        "item": "minecraft:soul_soil"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:andesite_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stone",
+        "data": 5
+      }
+    ]
+  }
+}

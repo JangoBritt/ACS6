@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_wooden_lamp_crimson"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " A ",
+      "BCB",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:crimson_slab"
+      },
+      "B": {
+        "item": "minecraft:stick"
+      },
+      "C": {
+        "item": "minecraft:torch"
+      }
+    },
+    "result": {
+      "item": "nicothekid:wooden_lamp_crimson",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:crimson_slab"
+      }
+    ]
+  }
+}

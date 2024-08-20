@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_mossy_cobblestone_lantern_x_seagrass"
+    },
+    "priority": 4,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "LS",
+      "S "
+    ],
+    "key": {
+      "L": {
+        "item": "nicothekid:cobblestone_lantern"
+      },
+      "S": {
+        "item": "minecraft:seagrass"
+      }
+    },
+    "result": {
+      "item": "nicothekid:mossy_cobblestone_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:cobblestone_lantern"
+      }
+    ]
+  }
+}
