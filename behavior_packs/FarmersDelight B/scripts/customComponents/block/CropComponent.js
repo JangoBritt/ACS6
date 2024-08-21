@@ -22,7 +22,6 @@ class CropsComponent {
         const block = args.block;
         const player = args.player;
         const dimension = args.dimension;
-        const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
         const age = Number(block.permutation.getState("farmersdelight:growth"));
         const random = Math.floor(Math.random() * 101);
         if (!player)
@@ -30,6 +29,7 @@ class CropsComponent {
         const container = player.getComponent(EntityInventoryComponent.componentId)?.container;
         const lootTable = this.getLootTable();
         try {
+            const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
             if (itemId == "minecraft:bone_meal" && age < 7) {
                 world.playSound("item.bone_meal.use", block.location);
                 if (player?.getGameMode() == "creative") {
@@ -52,6 +52,10 @@ class CropsComponent {
             }
         }
         catch (error) {
+            if (age == 7) {
+                block.setPermutation(block.permutation.withState("farmersdelight:growth", this.getHarvest()));
+                spawnLoot(lootTable, dimension, { x: block.location.x, y: block.location.y, z: block.location.z });
+            }
         }
     }
     onRandomTick(args) {
@@ -169,7 +173,6 @@ class SugarCaneComponent {
         const face = args.face;
         const player = args.player;
         const dimension = args.dimension;
-        const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
         const age = Number(block.permutation.getState("farmersdelight:growth"));
         const random = Math.floor(Math.random() * 101);
         const topLocation = { x: block.location.x, y: block.location.y + 1, z: block.location.z };
@@ -177,6 +180,7 @@ class SugarCaneComponent {
             return;
         const container = player.getComponent(EntityInventoryComponent.componentId)?.container;
         try {
+            const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
             if (itemId == "minecraft:sugar_cane") {
                 if (face != Direction.Up)
                     return;
@@ -254,7 +258,6 @@ class RiceComponent {
         const block = args.block;
         const player = args.player;
         const dimension = args.dimension;
-        const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
         const growth = Number(block.permutation.getState("farmersdelight:growth"));
         const topLocation = { x: block.location.x, y: block.location.y + 1, z: block.location.z };
         const topBlockId = dimension.getBlock(topLocation)?.typeId;
@@ -265,6 +268,7 @@ class RiceComponent {
         const container = player.getComponent(EntityInventoryComponent.componentId)?.container;
         if (block.typeId == "farmersdelight:rice_block") {
             try {
+                const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
                 if (itemId == "minecraft:bone_meal") {
                     world.playSound("item.bone_meal.use", block.location);
                     if (player?.getGameMode() == "creative") {
@@ -301,6 +305,7 @@ class RiceComponent {
         }
         if (block.typeId == "farmersdelight:rice_block_upper") {
             try {
+                const itemId = player?.getComponent("inventory")?.container?.getSlot(player.selectedSlotIndex).typeId;
                 if (itemId == "minecraft:bone_meal" && growth < 3) {
                     world.playSound("item.bone_meal.use", block.location);
                     if (player?.getGameMode() == "creative") {
@@ -323,6 +328,10 @@ class RiceComponent {
                 }
             }
             catch (error) {
+                if (growth == 3) {
+                    block.setPermutation(block.permutation.withState("farmersdelight:growth", 0));
+                    spawnLoot("farmersdelight/crops/farmersdelight_rice_riped", dimension, { x: block.location.x, y: block.location.y, z: block.location.z });
+                }
             }
         }
     }

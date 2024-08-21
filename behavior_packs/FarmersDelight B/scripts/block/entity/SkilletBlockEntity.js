@@ -21,7 +21,7 @@ for (let i = 0; i < 5; i++) {
 //检查热源
 function heatCheck(block) {
     const blockBelow = block.below();
-    if (heatSources.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_source') || blockBelow?.hasTag('m.stove_on')) //Athos
+    if (heatSources.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_source'))
         return true;
     if (heatConductors.includes(blockBelow?.typeId) || blockBelow?.hasTag('farmersdelight:heat_conductors')) {
         const blockBelow2 = block.below(2);

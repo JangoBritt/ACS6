@@ -58,7 +58,10 @@
                 "conditions": [
                     {
                         "block_filter": [
-                            "farmersdelight:rich_soil"
+                            "farmersdelight:rich_soil",
+                            {
+                                "tags": "q.any_tag('rich_soil')"
+                            }
                         ],
                         "allowed_faces": [
                             "up"
