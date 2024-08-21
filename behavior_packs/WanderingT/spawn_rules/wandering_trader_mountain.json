@@ -8,10 +8,10 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 300,
-          "max": 360,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_mountain",
-          "spawn_chance": 50
+          "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {
@@ -37,10 +37,10 @@
       },
       {
         "minecraft:delay_filter": {
-          "min": 300,
-          "max": 360,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_mountain",
-          "spawn_chance": 50
+          "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},
         "minecraft:brightness_filter": {

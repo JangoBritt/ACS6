@@ -8,8 +8,8 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 300,
-          "max": 600,
+          "min": 600,
+          "max": 660,
           "identifier": "red:wandering_trader_gulli",
           "spawn_chance": 50
         },
