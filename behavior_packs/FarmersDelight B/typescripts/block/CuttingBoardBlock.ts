@@ -71,7 +71,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -83,7 +83,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -95,7 +95,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -107,7 +107,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -118,7 +118,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -129,7 +129,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -140,7 +140,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }
@@ -151,7 +151,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
             }

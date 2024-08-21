@@ -82,7 +82,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -95,7 +95,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -108,7 +108,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -121,7 +121,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', true);
                 isBlock = true;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -133,7 +133,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -145,7 +145,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
@@ -157,19 +157,19 @@ export class CuttingBoardBlock extends BlockWithEntity {
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
             }
             if (ItemofShearsList.includes(mainHand.typeId)) {
                 //原版需要剪刀的物品
-                entity.setDynamicProperty('farmersdelight:cutTool', `{"item": "minecraft:shears", "mode": "item"}`);
+                entity.setDynamicProperty('farmersdelight:cutTool', `{"item": "minecraft:shears", "mode": "tag"}`);
                 entity.setDynamicProperty('farmersdelight:blockEntityItemStackData', `{"item":"${mainHand.typeId}"}`);
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
                 if (EntityUtil.gameMode(player)) {
-                    ItemUtil.damageItem(container, player.selectedSlotIndex);
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
                 }
                 ;
                 canCut = true;
