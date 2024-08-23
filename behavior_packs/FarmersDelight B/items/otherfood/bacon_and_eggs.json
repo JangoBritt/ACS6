@@ -5,7 +5,8 @@
       "minecraft:food": {
         "can_always_eat": false,
         "nutrition": 10,
-        "saturation_modifier": 0.6
+        "saturation_modifier": 0.6,
+        "using_converts_to": "minecraft:bowl"
       },
       "minecraft:icon": {
         "textures": {
