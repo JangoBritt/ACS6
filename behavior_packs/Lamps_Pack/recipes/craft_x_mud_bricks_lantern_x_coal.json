@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_mud_bricks_lantern_x_coal"
     },
     "priority": 2,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       " S ",
       "COC",

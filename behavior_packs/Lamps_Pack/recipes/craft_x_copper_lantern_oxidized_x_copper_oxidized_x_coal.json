@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_copper_lantern_oxidized_x_copper_oxidized_x_coal"
     },
     "priority": 4,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       " A ",
       "CBC",
