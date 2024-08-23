@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_acacia_log"},
-			{"item": "minecraft:acacia_log"}
+			{"item": "athos_misc:acacia_book"}
 		],
 		"result": {
 			"item": "mr:stripped_acacia_cabinet_mr",

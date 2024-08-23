@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:mangrove_planks"},
-			{"item": "minecraft:mangrove_log"}
+			{"item": "athos_misc:mangrove_book"}
 		],
 		"result": {
 			"item": "mr:wood_mangrove_chair_mr",

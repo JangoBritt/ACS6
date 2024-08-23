@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:spruce_planks"},
-			{"item": "minecraft:spruce_log"}
+			{"item": "athos_misc:spruce_book"}
 		],
 		"result": {
 			"item": "mr:wood_spruce_chair_mr",

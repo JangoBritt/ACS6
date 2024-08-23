@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_crimson_bedside_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_crimson_stem"
+			},
+			"A": {
+				"item": "minecraft:crimson_stem"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:nether_book"}
+		],
+		"result": {
+			"item": "mr:stripped_crimson_bedside_cabinet_mr",
+			"count": 2
+		}
+	}
+}

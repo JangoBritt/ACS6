@@ -1,74 +1,40 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "mr:gray_concrete_drawer_mr",
-      "menu_category": {
-        "category": "items",
-        "is_hidden_in_commands": false
-      },
-      "traits": {
-        "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ]
-        }
-      },
-      "states": {
-        "mr:close": [
-          true,
-          false
-        ],
-        "mr:placed": [
-          false,
-          true
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'"
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'"
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'"
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'"
-      }
-    ],
-    "components": {
-      "minecraft:geometry": {
-        "identifier": "geometry.mr.drawer",
-        "bone_visibility": {
-          "drawer": "q.block_state('mr:placed')",
-          "close": "q.block_state('mr:close') \u0026\u0026 q.block_state('mr:placed')",
-          "open": "!q.block_state('mr:close') \u0026\u0026 q.block_state('mr:placed')",
-          "item": "!q.block_state('mr:placed')"
-        }
-      },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "mr.concrete_gray",
-          "render_method": "opaque"
-        },
-        "wood": {
-          "texture": "mr.concrete_white",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:collision_box": true,
-      "minecraft:selection_box": true,
-      "minecraft:light_dampening": 1,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:gray_concrete_drawer_mr",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.mrConcreteDrawer",
+				"is_hidden_in_commands": false
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"mr:close": [true,false]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.mr.drawer",
+				"bone_visibility": {
+					"close": "q.block_state('mr:close')",
+					"open": "!q.block_state('mr:close')"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "mr.concrete_gray","render_method": "opaque"},"wood": {"texture": "mr.concrete_white","render_method": "opaque"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 1,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mr:place_container"],
+			"minecraft:map_color": "#5f6161"
+		}
+	}
 }

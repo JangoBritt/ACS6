@@ -7,6 +7,8 @@
 			"is_spawnable": false,
 			"is_experimental": false
 		},
+		"component_groups": {
+		},
 		"components": {
 			"minecraft:instant_despawn": {}
 		}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_crimson_counter_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:crimson_stem"
+			},
+			"A": {
+				"item": "minecraft:crimson_planks"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:crimson_book"}
+		],
+		"result": {
+			"item": "mr:wood_crimson_counter_mr",
+			"count": 9
+		}
+	}
+}

@@ -19,7 +19,7 @@
 			},
 			"mr:inventory_9": {
 				"minecraft:inventory": {
-					"can_be_siphoned_from": true,
+					"can_be_siphoned_from": false,
 					"container_type": "inventory",
 					"inventory_size": 9,
 					"restrict_to_owner": false
@@ -27,7 +27,7 @@
 			},
 			"mr:inventory_18": {
 				"minecraft:inventory": {
-					"can_be_siphoned_from": true,
+					"can_be_siphoned_from": false,
 					"container_type": "inventory",
 					"inventory_size": 18,
 					"restrict_to_owner": false
@@ -35,7 +35,7 @@
 			},
 			"mr:inventory_27": {
 				"minecraft:inventory": {
-					"can_be_siphoned_from": true,
+					"can_be_siphoned_from": false,
 					"container_type": "inventory",
 					"inventory_size": 27,
 					"restrict_to_owner": false
@@ -47,14 +47,6 @@
 					"container_type": "inventory",
 					"inventory_size": 9,
 					"restrict_to_owner": true
-				},
-				"minecraft:tameable": {
-					"probability": 1.0,
-					"tame_items": "paper",
-					"tame_event": {
-						"event": "minecraft:on_tame",
-						"target": "self"
-					}
 				},
 				"minecraft:collision_box": {
 					"width": 0.75,
@@ -81,6 +73,14 @@
 			"minecraft:physics": {
 				"has_collision": false,
 				"has_gravity": false
+			},
+			"minecraft:tameable": {
+				"probability": 0.001,
+				"tame_items": "bedrock",
+				"tame_event": {
+					"event": "minecraft:on_tame",
+					"target": "self"
+				}
 			},
 			"minecraft:damage_sensor": {
 				"triggers": [
@@ -120,14 +120,7 @@
 			}
 		},
 		"events": {
-			"minecraft:entity_spawned": {
-				"queue_command": {
-					"command": [
-						"tp @s ~ ~ ~ facing @p"
-					]
-				}
-			},
-			"minecraft:on_tame": {"add": {"component_groups": ["mr:tamed"]}},
+			"minecraft:on_tame": {},
 			"mr:inventory_9": {
 				"add": {
 					"component_groups": ["mr:inventory_9"]

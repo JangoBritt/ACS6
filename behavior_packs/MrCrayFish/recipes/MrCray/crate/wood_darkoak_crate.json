@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:dark_oak_planks"},
-			{"item": "minecraft:dark_oak_log"}
+			{"item": "athos_misc:dark_oak_book"}
 		],
 		"result": {
 			"item": "mr:wood_darkoak_crate_mr",

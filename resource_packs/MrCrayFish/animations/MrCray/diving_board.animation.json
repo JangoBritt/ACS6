@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mr.diving_board.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [41.62343, 30.14508, -98.85651],
+					"position": [-1, 23, -1]
+				}
+			}
+		},
+		"animation.mr.diving_board.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [15, 0, 0],
+					"position": [0.3, 19.6, -9.2],
+					"scale": 0.85
+				}
+			}
+		}
+	}
+}

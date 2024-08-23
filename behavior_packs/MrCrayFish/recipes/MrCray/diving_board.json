@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mr:diving_board_mr"
+			"identifier": "mr:diving_board_item"
 		},
 		"tags": [
 			"workbench"
@@ -29,7 +29,7 @@
 			{"item": "minecraft:gray_concrete"}
 		],
 		"result": {
-			"item": "mr:diving_board_mr",
+			"item": "mr:diving_board_item",
 			"count": 1
 		}
 	}

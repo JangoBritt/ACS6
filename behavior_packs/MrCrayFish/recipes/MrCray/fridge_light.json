@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mr:frigde_light_mr"
+			"identifier": "mr:fridge_light_item"
 		},
 		"tags": [
 			"workbench"
@@ -29,7 +29,7 @@
 			{"item": "minecraft:chest"}
 		],
 		"result": {
-			"item": "mr:frigde_light_mr",
+			"item": "mr:fridge_light_item",
 			"count": 1
 		}
 	}

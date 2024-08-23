@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_birch_counter_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:birch_log"
+			},
+			"A": {
+				"item": "minecraft:birch_planks"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:birch_book"}
+		],
+		"result": {
+			"item": "mr:wood_birch_counter_mr",
+			"count": 9
+		}
+	}
+}

@@ -1,7 +1,8 @@
 {
 	"texture_data": {
-		"mr.spatula": {
-			"textures": "textures/MrCray/items/spatula.png"
-		}
+		"mr.spatula": {"textures": "textures/MrCray/items/spatula.png"},
+		"mr.diving_board_item": {"textures": "textures/MrCray/items/diving_board_item.png"},
+		"mr.fridge_dark_item": {"textures": "textures/MrCray/items/fridge_dark.png"},
+		"mr.fridge_light_item": {"textures": "textures/MrCray/items/fridge_light.png"}
 	}
 }

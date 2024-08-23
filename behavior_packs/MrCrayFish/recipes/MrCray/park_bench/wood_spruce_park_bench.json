@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:spruce_log"},
-			{"item": "minecraft:spruce_planks"}
+			{"item": "athos_misc:spruce_book"}
 		],
 		"result": {
 			"item": "mr:wood_spruce_park_bench_mr",

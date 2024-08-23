@@ -1,24 +1,24 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "MrCrayFish's Furniture Resource Pack | Port §bBy EndXenoc",
-        "name": "§bMrCrayFish's Furniture §fResource Pack",
-        "uuid": "789cca7c-3df6-4109-8bfa-401324da390b",
-        "version": [ 0, 0, 3 ],
-        "min_engine_version": [ 1, 20, 30 ]
-    },
-    "modules": [
-        {
-            "description": "MrCrayFish's Furniture Resource Pack | Port §bBy EndXenoc",
-            "type": "resources",
-            "uuid": "c5ac3814-04da-4184-9fe9-18e5523adbaf",
-            "version": [ 0, 0, 3 ]
-        }
-    ],
+	"format_version": 2,
+	"header": {
+		"description": "MrCrayFish Furniture V1.2 [RP]",
+		"name": "MrCrayFish Furniture V1.2 [RP]",
+		"uuid": "51284a03-e6fe-49e7-a042-aa0002a8e98f",
+		"version": [0,2,0],
+		"min_engine_version": [1,20,30]
+	},
+	"modules": [
+		{
+			"description": "resources",
+			"type": "resources",
+			"uuid": "dcc50c78-6ef5-401c-a3bc-06d57a86c588",
+			"version": [0,2,0]
+		}
+	],
 	"dependencies": [
 		{
-			"uuid": "438024d9-66a9-4cd8-ba41-bf61188c57b2",
-			"version": [ 0, 0, 3 ]
+			"uuid": "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
+			"version": [0,2,0]
 		}
 	]
 }

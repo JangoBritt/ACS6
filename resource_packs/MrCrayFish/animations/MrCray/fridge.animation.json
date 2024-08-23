@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mr.fridge.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [45.90057, -36.88421, -154.6774],
+					"position": [0, 23, 3]
+				}
+			}
+		},
+		"animation.mr.fridge.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, 20, -5.2],
+					"scale": 0.7
+				}
+			}
+		}
+	}
+}

@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:jungle_planks"},
-			{"item": "minecraft:jungle_log"}
+			{"item": "athos_misc:jungle_book"}
 		],
 		"result": {
 			"item": "mr:wood_jungle_desk_mr",

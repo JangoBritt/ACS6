@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_dark_oak_log"},
-			{"item": "minecraft:dark_oak_log"}
+			{"item": "athos_misc:dark_oak_book"}
 		],
 		"result": {
 			"item": "mr:stripped_darkoak_cabinet_mr",

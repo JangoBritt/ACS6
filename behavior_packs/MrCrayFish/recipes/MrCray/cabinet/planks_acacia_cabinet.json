@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:acacia_log"},
-			{"item": "minecraft:acacia_planks"}
+			{"item": "athos_misc:acacia_book"}
 		],
 		"result": {
 			"item": "mr:planks_acacia_cabinet_mr",

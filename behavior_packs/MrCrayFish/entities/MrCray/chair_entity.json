@@ -86,7 +86,8 @@
 						"pivot": [0,0,0]
 					}
 				]
-			}
+			},
+			"minecraft:body_rotation_blocked": {}
 		},
 		"events": {
 			"mr:despawn": {

@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:crimson_stem"},
-			{"item": "minecraft:crimson_planks"}
+			{"item": "athos_misc:crimson_book"}
 		],
 		"result": {
 			"item": "mr:planks_crimson_cabinet_mr",

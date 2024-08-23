@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:cherry_log"},
-			{"item": "minecraft:cherry_planks"}
+			{"item": "athos_misc:cherry_book"}
 		],
 		"result": {
 			"item": "mr:planks_cherry_cabinet_mr",

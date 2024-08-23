@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_jungle_log"},
-			{"item": "minecraft:jungle_log"}
+			{"item": "athos_misc:jungle_book"}
 		],
 		"result": {
 			"item": "mr:stripped_jungle_cabinet_mr",

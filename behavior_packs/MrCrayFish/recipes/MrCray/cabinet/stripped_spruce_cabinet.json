@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_spruce_log"},
-			{"item": "minecraft:spruce_log"}
+			{"item": "athos_misc:spruce_book"}
 		],
 		"result": {
 			"item": "mr:stripped_spruce_cabinet_mr",

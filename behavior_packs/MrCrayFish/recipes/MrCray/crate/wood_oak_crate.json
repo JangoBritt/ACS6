@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:oak_planks"},
-			{"item": "minecraft:oak_log"}
+			{"item": "athos_misc:oak_book"}
 		],
 		"result": {
 			"item": "mr:wood_oak_crate_mr",

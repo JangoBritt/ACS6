@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:gray_clay_trampoline_mr",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.mrClayTrampoline",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"mr:n": [0,1],
+				"mr:s": [0,1],
+				"mr:w": [0,1],
+				"mr:e": [0,1]
+			}
+		},
+		"permutations": [
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier":"geometry.mr.trampoline",
+				"bone_visibility": {
+					"root": true,
+					"n": "q.block_state('mr:n') == 0",
+					"leg_nw": "(q.block_state('mr:n') == 0 && q.block_state('mr:w') == 0)",
+					"leg_ne": "(q.block_state('mr:n') == 0 && q.block_state('mr:e') == 0)",
+					"c_nw": "(q.block_state('mr:n') == 1 && q.block_state('mr:w') == 0)",
+					"c_ne": "(q.block_state('mr:n') == 1 && q.block_state('mr:e') == 0)",
+					"s": "q.block_state('mr:s') == 0",
+					"leg_sw": "(q.block_state('mr:s') == 0 && q.block_state('mr:w') == 0)",
+					"leg_se": "(q.block_state('mr:s') == 0 && q.block_state('mr:e') == 0)",
+					"c_sw": "(q.block_state('mr:s') == 1 && q.block_state('mr:w') == 0)",
+					"c_se": "(q.block_state('mr:s') == 1 && q.block_state('mr:e') == 0)",
+					"w": "q.block_state('mr:w') == 0",
+					"nw": "q.block_state('mr:n') == 0 || q.block_state('mr:w') == 0",
+					"ne": "q.block_state('mr:n') == 0 || q.block_state('mr:e') == 0",
+					"sw": "q.block_state('mr:s') == 0 || q.block_state('mr:w') == 0",
+					"se": "q.block_state('mr:s') == 0 || q.block_state('mr:e') == 0",
+					"e": "q.block_state('mr:e') == 0"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "mr.clay_gray","render_method": "alpha_test"},"legs": {"texture": "mr.concrete_light_gray","render_method": "alpha_test"},"mesh": {"texture": "mr.mesh","render_method": "alpha_test"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mr:bounce", "mr:same_block_update"],
+			"minecraft:map_color": "#5f6161"
+		}
+	}
+}
+
