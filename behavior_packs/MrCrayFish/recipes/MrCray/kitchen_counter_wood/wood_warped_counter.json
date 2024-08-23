@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "athos_misc:warped_book"}
+			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
 			"item": "mr:wood_warped_counter_mr",

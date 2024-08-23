@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "athos_misc:crimson_book"}
+			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
 			"item": "mr:planks_crimson_cabinet_mr",
