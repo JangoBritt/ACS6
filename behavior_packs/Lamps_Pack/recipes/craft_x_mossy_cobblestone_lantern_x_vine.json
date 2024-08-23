@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_mossy_cobblestone_lantern_x_vine"
     },
     "priority": 2,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       "LV"
     ],

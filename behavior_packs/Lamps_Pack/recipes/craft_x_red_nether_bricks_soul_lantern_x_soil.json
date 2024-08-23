@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_red_nether_bricks_soul_lantern_x_soil"
     },
     "priority": 1,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       " S ",
       "COC",

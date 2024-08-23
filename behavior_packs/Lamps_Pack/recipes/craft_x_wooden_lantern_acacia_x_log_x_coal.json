@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_wooden_lantern_acacia_x_log_x_coal"
     },
     "priority": 2,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       "GCG",
       " W "

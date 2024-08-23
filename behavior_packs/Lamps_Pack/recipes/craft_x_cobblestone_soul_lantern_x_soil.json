@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_cobblestone_soul_lantern_x_soul_soil"
     },
     "priority": 1,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       " S ",
       "COC",

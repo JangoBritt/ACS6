@@ -5,7 +5,7 @@
       "identifier": "nicothekid:craft_x_wooden_lantern_bamboo_x_bamboo_block_x_charcoal"
     },
     "priority": 1,
-    "tags": [ "crafting_table" ],
+    "tags": [ "workbench" ],
     "pattern": [
       "GCG",
       " W "
