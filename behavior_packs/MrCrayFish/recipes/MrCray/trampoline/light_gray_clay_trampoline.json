@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:light_gray_clay_trampoline_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#I#",
+			"A A",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:light_gray_terracotta"
+			},
+			"A": {
+				"item": "minecraft:iron_ingot"
+			},
+			"I": {
+				"item": "minecraft:slime_ball"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:light_gray_terracotta"},
+			{"item": "minecraft:iron_ingot"},
+			{"item": "minecraft:slime_ball"}
+		],
+		"result": {
+			"item": "mr:light_gray_clay_trampoline_mr",
+			"count": 4
+		}
+	}
+}

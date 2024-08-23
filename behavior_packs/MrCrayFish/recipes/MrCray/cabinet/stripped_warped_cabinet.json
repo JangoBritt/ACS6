@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_warped_stem"},
-			{"item": "minecraft:warped_stem"}
+			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
 			"item": "mr:stripped_warped_cabinet_mr",

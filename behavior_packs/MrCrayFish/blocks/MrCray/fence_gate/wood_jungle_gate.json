@@ -1,134 +1,52 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "mr:wood_jungle_gate_mr",
-      "menu_category": {
-        "category": "construction",
-        "is_hidden_in_commands": false
-      },
-      "states": {
-        "mr:direction": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "mr:right": [
-          0,
-          1,
-          2
-        ],
-        "mr:side": [
-          false,
-          true
-        ],
-        "mr:open": [
-          false,
-          true
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 1",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('mr:direction') == 2 || q.block_state('mr:direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('mr:open')",
-        "components": {
-          "minecraft:collision_box": false
-        }
-      }
-    ],
-    "components": {
-      "tag:mr.gate": {},
-      "minecraft:geometry": {
-        "identifier": "geometry.mr.fence_gate",
-        "bone_visibility": {
-          "r": "(((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "l": "(((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 2) || q.block_state('mr:right') == 1) \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (((!q.block_state('mr:side') \u0026\u0026 q.block_state('mr:right') == 1) || q.block_state('mr:right') == 2) \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "right": "(q.block_state('mr:right') == 2 \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "left": "(q.block_state('mr:right') == 1 \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "close_r": "(q.block_state('mr:right') == 2 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 1 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "close_l": "(q.block_state('mr:right') == 1 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2)) || (q.block_state('mr:right') == 2 \u0026\u0026 !q.block_state('mr:open') \u0026\u0026 (q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3))",
-          "open_fr": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 2",
-          "open_br": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 1",
-          "open_fl": "(q.block_state('mr:direction') == 0 || q.block_state('mr:direction') == 2) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 1",
-          "open_bl": "(q.block_state('mr:direction') == 1 || q.block_state('mr:direction') == 3) \u0026\u0026 q.block_state('mr:open') \u0026\u0026 q.block_state('mr:right') == 2",
-          "item": "q.block_state('mr:right') == 0"
-        }
-      },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "mr.wood_jungle",
-          "render_method": "opaque"
-        },
-        "wood": {
-          "texture": "mr.concrete_light_gray",
-          "render_method": "opaque"
-        },
-        "planks": {
-          "texture": "mr.planks_jungle",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          -2.0
-        ],
-        "size": [
-          16,
-          16,
-          4
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          -2.0
-        ],
-        "size": [
-          16,
-          16,
-          4
-        ]
-      },
-      "minecraft:light_dampening": 1,
-      "minecraft:flammable": {
-        "catch_chance_modifier": 5,
-        "destroy_chance_modifier": 5
-      },
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:wood_jungle_gate_mr",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.fenceGate",
+				"is_hidden_in_commands": false
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"mr:side": [false, true],
+				"mr:right": [false, true],
+				"mr:open": [false,true]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}},
+			{"condition": "q.block_state('mr:open')","components": {"minecraft:collision_box": false}}
+		],
+		"components": {
+			"tag:is_solid": {},
+			"tag:mr.gate": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.mr.fence_gate",
+				"bone_visibility": {
+					"r": "q.block_state('mr:right') || (!q.block_state('mr:right') && !q.block_state('mr:side'))",
+					"l": "!q.block_state('mr:right') || (q.block_state('mr:right') && !q.block_state('mr:side'))",
+					"right": "q.block_state('mr:right')",
+					"left": "!q.block_state('mr:right')",
+					"close_r": "q.block_state('mr:right') && !q.block_state('mr:open')",
+					"close_l": "!q.block_state('mr:right') && !q.block_state('mr:open')",
+					"open_fr": "q.block_state('mr:right') && q.block_state('mr:open')",
+					"open_fl": "!q.block_state('mr:right') && q.block_state('mr:open')"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "mr.wood_jungle","render_method": "opaque"},"wood": {"texture": "mr.concrete_light_gray","render_method": "opaque"},"planks": {"texture": "mr.planks_jungle","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
+			"minecraft:selection_box": {"origin": [-8.0,0.0,-2.0],"size": [16,16,4]},
+			"minecraft:light_dampening": 1,
+			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mr:fence_gate"],
+			"minecraft:map_color": "#d6bc94"
+		}
+	}
 }

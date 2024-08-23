@@ -48,7 +48,7 @@ let validIds = [
 	"mr:stripped_jungle_mail_mr",
 	"mr:stripped_mangrove_mail_mr",
 	"mr:stripped_oak_mail_mr",
-	"mr:stripped_dark_oak_mail_mr",
+	"mr:stripped_darkoak_mail_mr",
 	"mr:stripped_spruce_mail_mr",
 	"mr:stripped_warped_mail_mr",
 	
@@ -60,7 +60,7 @@ let validIds = [
 	"mr:wood_jungle_mail_mr",
 	"mr:wood_mangrove_mail_mr",
 	"mr:wood_oak_mail_mr",
-	"mr:wood_dark_oak_mail_mr",
+	"mr:wood_darkoak_mail_mr",
 	"mr:wood_spruce_mail_mr",
 	"mr:wood_warped_mail_mr"
 ];

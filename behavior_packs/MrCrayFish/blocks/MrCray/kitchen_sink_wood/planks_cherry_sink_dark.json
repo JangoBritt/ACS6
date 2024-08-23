@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mr:planks_cherry_sink_dark_mr",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.mrWoodSinkDark",
+				"is_hidden_in_commands": false
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"mr:state": [0,1,2,3,4,5,6,7,8,9,10]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,270,0]}}}
+		],
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.mr.kitchen_sink",
+				"bone_visibility": {
+					"sink": true,
+					"water0": "q.block_state('mr:state') == 1",
+					"water1": "q.block_state('mr:state') == 2",
+					"water2": "q.block_state('mr:state') == 3",
+					"water3": "q.block_state('mr:state') == 4",
+					"water4": "q.block_state('mr:state') == 5",
+					"water5": "q.block_state('mr:state') == 6",
+					"water6": "q.block_state('mr:state') == 7",
+					"water7": "q.block_state('mr:state') == 8",
+					"water8": "q.block_state('mr:state') == 9",
+					"water9": "q.block_state('mr:state') == 10"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "mr.planks_cherry","render_method": "opaque"},"sink": {"texture": "mr.concrete_gray","render_method": "opaque"},"spout": {"texture": "mr.concrete_light_gray","render_method": "opaque"},"water": {"texture": "mr.water_flow","render_method": "opaque"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 1,
+			"minecraft:flammable": {"catch_chance_modifier":5,"destroy_chance_modifier":5},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mr:fill_sink"],
+			"minecraft:map_color": "#ffb5e0"
+		}
+	}
+}

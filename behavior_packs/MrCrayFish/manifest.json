@@ -1,24 +1,36 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "MrCrayFish's Furniture Behavior Pack | Port §bBy EndXenoc",
-        "name": "§bMrCrayFish's Furniture §fBehavior Pack",
-        "uuid": "438024d9-66a9-4cd8-ba41-bf61188c57b2",
-        "version": [ 0, 0, 3 ],
-        "min_engine_version": [ 1, 20, 30 ]
-    },
-    "modules": [
-        {
-            "description": "MrCrayFish's Furniture Behavior Pack | Port §bBy EndXenoc",
-            "type": "data",
-            "uuid": "f6216dec-5c9e-492a-aad6-6d9685acc1c5",
-            "version": [ 0, 0, 3 ]
-        }
-    ],
+	"format_version": 2,
+	"header": {
+		"description": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
+		"name": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
+		"uuid": "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
+		"version": [0,2,0],
+		"min_engine_version": [1,21,20]
+	},
+	"modules": [
+		{
+			"description": "data",
+			"type": "data",
+			"uuid": "332d3db8-0413-4a33-9b28-d1a7fc281645",
+			"version": [0,2,0]
+		},
+		{
+			"description": "Javascript",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "3e2d0654-bfc0-4ba8-be05-6fc91d4c0876",
+			"version": "0.1.2",
+			"entry": "scripts/main.js"
+		}
+	],
 	"dependencies": [
 		{
-			"uuid": "789cca7c-3df6-4109-8bfa-401324da390b",
-			"version": [ 0, 0, 3 ]
+			"uuid": "51284a03-e6fe-49e7-a042-aa0002a8e98f",
+			"version": [0,2,0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
 		}
 	]
 }

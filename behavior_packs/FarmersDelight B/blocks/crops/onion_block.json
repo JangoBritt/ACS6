@@ -194,6 +194,7 @@
             },
             {
                 "condition": "query.block_state('farmersdelight:growth') == 7",
+                
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -203,6 +204,7 @@
                             "render_method": "alpha_test"
                         }
                     },
+                    "minecraft:loot": "loot_tables/farmersdelight/crops/farmersdelight_onion_riped.json",
                     "minecraft:selection_box": {
                         "origin": [
                             -8,

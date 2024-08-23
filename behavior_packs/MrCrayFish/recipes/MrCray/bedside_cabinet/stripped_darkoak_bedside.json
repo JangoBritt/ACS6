@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_darkoak_bedside_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_dark_oak_log"
+			},
+			"A": {
+				"item": "minecraft:dark_oak_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:dark_oak_book"}
+		],
+		"result": {
+			"item": "mr:stripped_darkoak_bedside_cabinet_mr",
+			"count": 2
+		}
+	}
+}

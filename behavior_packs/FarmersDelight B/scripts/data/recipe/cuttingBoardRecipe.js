@@ -27,8 +27,23 @@ const ItemofKnifeList = [
     "minecraft:leather_helmet",
     "minecraft:leather_boots",
     "minecraft:leather_leggings",
-    "minecraft:leather_horse_armor"
+    "minecraft:leather_horse_armor",
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:blue_orchid",
+    "minecraft:cornflower",
+    "minecraft:dandelion",
+    "minecraft:ink_sac",
+    "minecraft:lily_of_the_valley",
+    "minecraft:orange_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:pink_tulip",
+    "minecraft:poppy",
+    "minecraft:red_tulip",
+    "minecraft:white_tulip",
+    "minecraft:wither_rose"
 ];
+const ItemofPickaxeList = [];
 const ItemofAxeList = [
     "minecraft:oak_door",
     "minecraft:spruce_door",
@@ -108,5 +123,8 @@ const BlockofShovelList = [
     "minecraft:clay",
     "minecraft:gravel"
 ];
-export { ItemofKnifeList, BlockofAxeList, BlockofKnifeList, ItemofBlockList, BlockofPickaxeList, BlockofShovelList, ItemofAxeList };
+const ItemofShearsList = [
+    "minecraft:saddle"
+];
+export { ItemofKnifeList, BlockofAxeList, BlockofKnifeList, ItemofBlockList, BlockofPickaxeList, BlockofShovelList, ItemofAxeList, ItemofPickaxeList, ItemofShearsList };
 //# sourceMappingURL=cuttingBoardRecipe.js.map

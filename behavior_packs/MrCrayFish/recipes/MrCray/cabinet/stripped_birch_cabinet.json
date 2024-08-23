@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_birch_log"},
-			{"item": "minecraft:birch_log"}
+			{"item": "athos_misc:birch_book"}
 		],
 		"result": {
 			"item": "mr:stripped_birch_cabinet_mr",

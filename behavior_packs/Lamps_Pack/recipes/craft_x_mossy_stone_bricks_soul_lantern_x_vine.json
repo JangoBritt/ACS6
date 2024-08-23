@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_mossy_stone_bricks_soul_lantern_x_vine"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "LV"
+    ],
+    "key": {
+      "L": {
+        "item": "nicothekid:stone_bricks_soul_lantern"
+      },
+      "V": {
+        "item": "minecraft:vine"
+      }
+    },
+    "result": {
+      "item": "nicothekid:mossy_stone_bricks_soul_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "nicothekid:stone_bricks_soul_lantern"
+      }
+    ]
+  }
+}

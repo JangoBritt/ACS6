@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:stripped_mangrove_bedside_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_mangrove_log"
+			},
+			"A": {
+				"item": "minecraft:mangrove_log"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:mangrove_book"}
+		],
+		"result": {
+			"item": "mr:stripped_mangrove_bedside_cabinet_mr",
+			"count": 2
+		}
+	}
+}

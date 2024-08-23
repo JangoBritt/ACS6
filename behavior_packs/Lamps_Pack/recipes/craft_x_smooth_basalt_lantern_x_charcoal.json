@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_smooth_basalt_lantern_x_charcoal"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "COC",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:smooth_basalt"
+      },
+      "O": {
+        "item": "minecraft:charcoal"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:smooth_basalt_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:smooth_basalt"
+      }
+    ]
+  }
+}

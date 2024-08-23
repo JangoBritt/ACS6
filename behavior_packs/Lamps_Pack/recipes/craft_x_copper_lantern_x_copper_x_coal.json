@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_copper_lantern_x_copper_x_coal"
+    },
+    "priority": 4,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " A ",
+      "CBC",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_block"
+      },
+      "B": {
+        "item": "minecraft:coal"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "nicothekid:copper_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:copper_block"
+      }
+    ]
+  }
+}

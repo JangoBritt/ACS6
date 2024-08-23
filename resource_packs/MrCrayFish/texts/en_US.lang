@@ -1,5 +1,4 @@
-﻿inventory.cabinet_tall.name=Cabinet Tall
-inventory.mr.bedside_cabinet.name=Bedside Cabinet
+﻿inventory.mr.bedside_cabinet.name=Bedside Cabinet
 inventory.mr.desk_cabinet.name=Desk Cabinet
 inventory.mr.kitchen_drawer.name=Kitchen Drawer
 inventory.mr.cooler.name=Cooler
@@ -534,11 +533,6 @@ tile.mr:red_clay_cooler_mr.name=Red Cooler
 tile.mr:white_clay_cooler_mr.name=White Cooler
 tile.mr:yellow_clay_cooler_mr.name=Yellow Cooler
 
-tile.mr:diving_board_mr.name=Diving Board
-tile.mr:frigde_light_mr.name=Frigde (Light)
-tile.mr:frigde_dark_mr.name=Fridge (Dark)
-tile.mr:rock_path_mr.name=Rock Path
-
 tile.mr:black_grill_mr.name=Black Grill
 tile.mr:blue_grill_mr.name=Blue Grill
 tile.mr:brown_grill_mr.name=Brown Grill
@@ -576,3 +570,7 @@ tile.mr:wood_spruce_blinds_mr.name=Spruce Blinds
 tile.mr:stripped_spruce_blinds_mr.name=Stripped Spruce Blinds
 tile.mr:wood_warped_blinds_mr.name=Warped Blinds
 tile.mr:stripped_warped_blinds_mr.name=Stripped Warped Blinds
+tile.mr:rock_path_mr.name=Rock Path
+item.mr:diving_board_item=Diving Board
+item.mr:fridge_dark_item=Fridge (Dark)
+item.mr:fridge_light_item=Fridge (Light)

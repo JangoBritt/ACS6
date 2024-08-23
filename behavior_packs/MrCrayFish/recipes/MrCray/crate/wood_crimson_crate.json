@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:crimson_planks"},
-			{"item": "minecraft:crimson_stem"}
+			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
 			"item": "mr:wood_crimson_crate_mr",

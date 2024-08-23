@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_cherry_bedside_cabinet_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"A A",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cherry_log"
+			},
+			"A": {
+				"item": "minecraft:cherry_planks"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:cherry_book"}
+		],
+		"result": {
+			"item": "mr:wood_cherry_bedside_cabinet_mr",
+			"count": 2
+		}
+	}
+}

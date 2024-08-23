@@ -74,132 +74,11 @@
 								{
 									"all_of": [
 										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 0}
+										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true }
 									]
 								}
 							],
-							"event": "mr:remove_kelp"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 1}
-									]
-								}
-							],
-							"event": "mr:remove_cod"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 2}
-									]
-								}
-							],
-							"event": "mr:remove_potato"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 3}
-									]
-								}
-							],
-							"event": "mr:remove_porkchop"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 4}
-									]
-								}
-							],
-							"event": "mr:remove_beef"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 5}
-									]
-								}
-							],
-							"event": "mr:remove_chicken"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 6}
-									]
-								}
-							],
-							"event": "mr:remove_mutton"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 7}
-									]
-								}
-							],
-							"event": "mr:remove_rabbit"
-						},
-						"interact_text":"action.interact.remove_food"
-					},
-					{
-						"on_interact": {
-							"filters": [
-								{
-									"all_of": [
-										{"test": "bool_property", "subject": "self", "domain": "mr:flipped", "operator": "equals", "value": true },
-										{"test": "bool_property", "subject": "self", "domain": "mr:cooked", "operator": "equals", "value": true },
-										{ "test": "is_variant", "subject": "self", "value": 8}
-									]
-								}
-							],
-							"event": "mr:remove_salmon"
+							"event": "mr:remove_food"
 						},
 						"interact_text":"action.interact.remove_food"
 					}
@@ -250,18 +129,19 @@
 						}
 					}
 				]
-			}
+			},
+			"minecraft:body_rotation_blocked": {}
 		},
 		"events": {
-			"mr:beef_mr": {"add": {"component_groups": ["mr:beef"]}},
-			"mr:chicken_mr": {"add": {"component_groups": ["mr:chicken"]}},
-			"mr:cod_mr": {"add": {"component_groups": ["mr:cod"]}},
-			"mr:kelp_mr": {"add": {"component_groups": ["mr:kelp"]}},
-			"mr:mutton_mr": {"add": {"component_groups": ["mr:mutton"]}},
-			"mr:porkchop_mr": {"add": {"component_groups": ["mr:porkchop"]}},
-			"mr:potato_mr": {"add": {"component_groups": ["mr:potato"]}},
-			"mr:rabbit_mr": {"add": {"component_groups": ["mr:rabbit"]}},
-			"mr:salmon_mr": {"add": {"component_groups": ["mr:salmon"]}},
+			"minecraft:beef": {"add": {"component_groups": ["mr:beef"]}},
+			"minecraft:chicken": {"add": {"component_groups": ["mr:chicken"]}},
+			"minecraft:cod": {"add": {"component_groups": ["mr:cod"]}},
+			"minecraft:kelp": {"add": {"component_groups": ["mr:kelp"]}},
+			"minecraft:mutton": {"add": {"component_groups": ["mr:mutton"]}},
+			"minecraft:porkchop": {"add": {"component_groups": ["mr:porkchop"]}},
+			"minecraft:potato": {"add": {"component_groups": ["mr:potato"]}},
+			"minecraft:rabbit": {"add": {"component_groups": ["mr:rabbit"]}},
+			"minecraft:salmon": {"add": {"component_groups": ["mr:salmon"]}},
 
 			"mr:despawn": {"add": {"component_groups": ["mr:despawn"]}},
 			"mr:remove_block": {
@@ -311,60 +191,7 @@
 					"mr:cooked": true
 				}
 			},
-			"mr:remove_kelp": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/dried_kelp\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_cod": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_cod\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_potato": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/baked_potato\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_porkchop": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_porkchop\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_beef": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_beef\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_chicken": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_chicken\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_mutton": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_mutton\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_rabbit": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_rabbit\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			},
-			"mr:remove_salmon": {
-				"queue_command": {
-					"command": ["playsound block.itemframe.remove_item @a ~~~","loot spawn ~~0.2~ loot \"MrCray/food/cooked_salmon\""]
-				},
-				"trigger": {"event": "mr:despawn"}
-			}
+			"mr:remove_food": {}
 		}
 	}
 }

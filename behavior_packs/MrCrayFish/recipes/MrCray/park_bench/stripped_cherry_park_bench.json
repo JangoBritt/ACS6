@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_cherry_log"},
-			{"item": "minecraft:cherry_planks"}
+			{"item": "athos_misc:cherry_book"}
 		],
 		"result": {
 			"item": "mr:stripped_cherry_park_bench_mr",

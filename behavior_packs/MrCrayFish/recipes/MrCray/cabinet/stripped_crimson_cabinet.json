@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_crimson_stem"},
-			{"item": "minecraft:crimson_stem"}
+			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
 			"item": "mr:stripped_crimson_cabinet_mr",

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_sandstone_lantern_x_charcoal"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "COC",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sandstone",
+        "data": 0
+      },
+      "O": {
+        "item": "minecraft:charcoal"
+      },
+      "C": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:sandstone_lantern",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:sandstone",
+        "data": 0
+      }
+    ]
+  }
+}

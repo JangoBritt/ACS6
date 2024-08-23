@@ -116,58 +116,6 @@
 							}
 						}
 					]
-				},
-				{
-					"name": "item",
-					"pivot": [0, 0, 0],
-					"rotation": [0, 180, 0],
-					"cubes": [
-						{
-							"origin": [-8, 0, -8],
-							"size": [2, 14, 15],
-							"uv": {
-								"north": {"uv": [0, 2], "uv_size": [2, 14], "material_instance": "wood"},
-								"east": {"uv": [1, 2], "uv_size": [15, 14], "material_instance": "wood"},
-								"south": {"uv": [14, 2], "uv_size": [2, 14], "material_instance": "wood"},
-								"west": {"uv": [0, 2], "uv_size": [15, 14], "material_instance": "wood"},
-								"down": {"uv": [16, 16], "uv_size": [-2, -15], "material_instance": "wood"}
-							}
-						},
-						{
-							"origin": [-6, 2, -7],
-							"size": [12, 12, 2],
-							"uv": {
-								"north": {"uv": [2, 2], "uv_size": [12, 12], "material_instance": "planks"},
-								"south": {"uv": [2, 2], "uv_size": [12, 12], "material_instance": "planks"},
-								"down": {"uv": [14, 15], "uv_size": [-12, -2], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [6, 0, -8],
-							"size": [2, 14, 15],
-							"uv": {
-								"north": {"uv": [14, 2], "uv_size": [2, 14], "material_instance": "wood"},
-								"east": {"uv": [1, 2], "uv_size": [15, 14], "material_instance": "wood"},
-								"south": {"uv": [0, 2], "uv_size": [2, 14], "material_instance": "wood"},
-								"west": {"uv": [0, 2], "uv_size": [15, 14], "material_instance": "wood"},
-								"down": {"uv": [2, 16], "uv_size": [-2, -15], "material_instance": "wood"}
-							}
-						},
-						{
-							"origin": [-8, 14, -8],
-							"size": [16, 2, 16],
-							"pivot": [0, 0, 0],
-							"rotation": [0, 90, 0],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [16, 2]},
-								"east": {"uv": [0, 0], "uv_size": [16, 2]},
-								"south": {"uv": [0, 0], "uv_size": [16, 2]},
-								"west": {"uv": [0, 0], "uv_size": [16, 2]},
-								"up": {"uv": [16, 16], "uv_size": [-16, -16]},
-								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
-							}
-						}
-					]
 				}
 			]
 		}

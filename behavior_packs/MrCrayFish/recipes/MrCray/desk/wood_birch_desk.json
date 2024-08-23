@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:birch_planks"},
-			{"item": "minecraft:birch_log"}
+			{"item": "athos_misc:birch_book"}
 		],
 		"result": {
 			"item": "mr:wood_birch_desk_mr",

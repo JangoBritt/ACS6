@@ -3,17 +3,17 @@
     "entity_sounds": {
         "entities": {
             "mr:no_sound_mr": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": "mob.inventory_entities"}},
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
                 "pitch": [0.8,1],
                 "volume": 0
             },
             "mr:container_mr": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": "mob.inventory_entities"}},
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
                 "pitch": [0.8,1],
                 "volume": 0
             },
             "mr:chair_entity": {
-                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": "mob.inventory_entities"}},
+                "events": {"death": {"pitch": [0.8,1],"volume": 0,"sound": ""}},
                 "pitch": [0.8,1],
                 "volume": 0
             }

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:planks_crimson_sink_dark_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"#I#",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gray_concrete"
+			},
+			"A": {
+				"item": "minecraft:crimson_planks"
+			},
+			"C": {
+				"item": "minecraft:bucket"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:gray_concrete"},
+			{"item": "minecraft:crimson_planks"},
+			{"item": "minecraft:bucket"},
+			{"item": "minecraft:iron_ingot"}
+		],
+		"result": {
+			"item": "mr:planks_crimson_sink_dark_mr",
+			"count": 2
+		}
+	}
+}

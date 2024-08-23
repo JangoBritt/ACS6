@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mr:wood_crimson_drawer_mr"
+		},
+		"tags": [
+			"workbench"
+		],
+		"pattern": [
+			"###",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:crimson_stem"
+			},
+			"A": {
+				"item": "minecraft:crimson_planks"
+			},
+			"C": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{"item": "athos_misc:crimson_book"}
+		],
+		"result": {
+			"item": "mr:wood_crimson_drawer_mr",
+			"count": 4
+		}
+	}
+}

@@ -21,8 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "minecraft:stripped_cherry_log"},
-			{"item": "minecraft:cherry_log"}
+			{"item": "athos_misc:cherry_book"}
 		],
 		"result": {
 			"item": "mr:stripped_cherry_cabinet_mr",

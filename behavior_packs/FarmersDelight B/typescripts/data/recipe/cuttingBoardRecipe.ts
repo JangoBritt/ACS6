@@ -21,8 +21,24 @@ const ItemofKnifeList: string[] = [
     "minecraft:chicken",
     "minecraft:mutton",
     "minecraft:cooked_mutton",
-    "minecraft:cooked_chicken"
+    "minecraft:cooked_chicken",
+
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:blue_orchid",
+    "minecraft:cornflower",
+    "minecraft:dandelion",
+    "minecraft:ink_sac",
+    "minecraft:lily_of_the_valley",
+    "minecraft:orange_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:pink_tulip",
+    "minecraft:poppy",
+    "minecraft:red_tulip",
+    "minecraft:white_tulip",
+    "minecraft:wither_rose"
 ];
+const ItemofPickaxeList: string[] = []
 const ItemofAxeList: string[] = [
     "minecraft:oak_door",
     "minecraft:spruce_door",
@@ -98,4 +114,7 @@ const BlockofShovelList: string[] = [
     "minecraft:gravel"
 ];
 
-export { ItemofKnifeList, BlockofAxeList, BlockofKnifeList, ItemofBlockList ,BlockofPickaxeList,BlockofShovelList,ItemofAxeList};
+const ItemofShearsList: string[] = [
+    "minecraft:saddle"
+];
+export { ItemofKnifeList, BlockofAxeList, BlockofKnifeList, ItemofBlockList ,BlockofPickaxeList,BlockofShovelList,ItemofAxeList,ItemofPickaxeList, ItemofShearsList};

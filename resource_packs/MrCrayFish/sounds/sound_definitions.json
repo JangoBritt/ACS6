@@ -1,13 +1,6 @@
 {
     "format_version": "1.14.0",
     "sound_definitions": {
-        "mob.inventory_entities": {
-            "__use_legacy_max_distance": true,
-            "category": "neutral",
-            "sounds": [
-                "sounds/damage/hit3"
-            ]
-        },
         "mr.cabinet_open": {
             "category": "neutral",
             "sounds": [

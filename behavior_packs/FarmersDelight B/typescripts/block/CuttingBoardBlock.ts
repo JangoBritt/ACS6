@@ -2,7 +2,7 @@ import { Block, BlockPermutation, Container, Entity, EntityInventoryComponent, I
 import { methodEventSub } from "../lib/eventHelper";
 import { BlockWithEntity } from "./BlockWithEntity";
 import { EntityUtil } from "../lib/EntityUtil";
-import { BlockofAxeList, BlockofKnifeList, BlockofPickaxeList, BlockofShovelList, ItemofAxeList, ItemofBlockList, ItemofKnifeList } from "../data/recipe/cuttingBoardRecipe";
+import { BlockofAxeList, BlockofKnifeList, BlockofPickaxeList, ItemofPickaxeList,BlockofShovelList, ItemofAxeList, ItemofBlockList, ItemofKnifeList, ItemofShearsList } from "../data/recipe/cuttingBoardRecipe";
 import { ItemUtil } from "../lib/ItemUtil";
 
 
@@ -74,7 +74,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                     ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
-            };
+            }
             if (BlockofKnifeList.includes(mainHand.typeId)) {
                 //需要刀的方块
                 entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "farmersdelight:is_knife", "mode": "tag"}`);
@@ -86,7 +86,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                     ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
-            };
+            }
             if (BlockofPickaxeList.includes(mainHand.typeId)) {
                 //需要镐子的方块
                 entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "minecraft:is_pickaxe", "mode": "tag"}`);
@@ -98,7 +98,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                     ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
-            };
+            }
             if (BlockofShovelList.includes(mainHand.typeId)) {
                 //需要铲的方块
                 entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "minecraft:is_shovel", "mode": "tag"}`);
@@ -110,7 +110,7 @@ export class CuttingBoardBlock extends BlockWithEntity {
                     ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
-            };
+            }
             if (ItemofBlockList.includes(mainHand.typeId) || ItemofKnifeList.includes(mainHand.typeId)) {
                 //原版需要刀的物品与野生作物
                 entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "farmersdelight:is_knife", "mode": "tag"}`);
@@ -121,10 +121,32 @@ export class CuttingBoardBlock extends BlockWithEntity {
                     ItemUtil.clearItem(container, player.selectedSlotIndex);
                 };
                 canCut = true;
-            };
+            }
             if (ItemofAxeList.includes(mainHand.typeId)) {
                 //原版需要斧头的物品
                 entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "minecraft:is_axe", "mode": "tag"}`);
+                entity.setDynamicProperty('farmersdelight:blockEntityItemStackData', `{"item":"${mainHand.typeId}"}`);
+                entity.setProperty('farmersdelight:is_block_mode', false);
+                isBlock = false;
+                if (EntityUtil.gameMode(player)) {
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
+                };
+                canCut = true;
+            }
+            if (ItemofPickaxeList.includes(mainHand.typeId)) {
+                //原版需要镐的物品
+                entity.setDynamicProperty('farmersdelight:cutTool', `{"tag": "minecraft:is_pickaxe", "mode": "tag"}`);
+                entity.setDynamicProperty('farmersdelight:blockEntityItemStackData', `{"item":"${mainHand.typeId}"}`);
+                entity.setProperty('farmersdelight:is_block_mode', false);
+                isBlock = false;
+                if (EntityUtil.gameMode(player)) {
+                    ItemUtil.clearItem(container, player.selectedSlotIndex);
+                };
+                canCut = true;
+            }
+            if (ItemofShearsList.includes(mainHand.typeId)) {
+                //原版需要剪刀的物品
+                entity.setDynamicProperty('farmersdelight:cutTool', `{"item": "minecraft:shears", "mode": "tag"}`);
                 entity.setDynamicProperty('farmersdelight:blockEntityItemStackData', `{"item":"${mainHand.typeId}"}`);
                 entity.setProperty('farmersdelight:is_block_mode', false);
                 isBlock = false;
