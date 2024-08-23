@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "athos_misc:dark_oak_book"}
+			{"item": "athos_misc:darkoak_book"}
 		],
 		"result": {
 			"item": "mr:wood_darkoak_chair_mr",
