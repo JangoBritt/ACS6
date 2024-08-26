@@ -90,7 +90,7 @@
 	
 	{
 		"pack_id" : "026d10cc-e079-4f2a-a95f-f822cbe01ffd", //Athos Avatars
-		"subpack" : "demise",
+		"subpack" : "standard",
 		"version" : [ 6, 2, 0 ]
 	}
 ]
