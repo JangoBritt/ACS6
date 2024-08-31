@@ -1,0 +1,10 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"athos_painting:marco": {
+		"textures": "s_marco"
+	}
+}

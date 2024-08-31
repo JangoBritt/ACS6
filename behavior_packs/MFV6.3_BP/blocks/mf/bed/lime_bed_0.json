@@ -107,12 +107,12 @@
         "identifier": "geometry.m.bed_0_top",
         "bone_visibility": {
           "item": "q.block_state('medieval:facing_direction') == 1",
-          "bed_left": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
-          "bed_right": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)",
-          "center": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 0)",
-          "left": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 1)",
-          "right": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 2)",
-          "middle": "q.block_state('medieval:facing_direction') \u003e 1 \u0026\u0026 (q.block_state('medieval:side') == 3)"
+          "bed_left": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
+          "bed_right": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)",
+          "center": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 0)",
+          "left": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 1)",
+          "right": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 2)",
+          "middle": "q.block_state('medieval:facing_direction') > 1 && (q.block_state('medieval:side') == 3)"
         }
       },
       "tag:bed_0_top": {},

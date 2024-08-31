@@ -112,10 +112,10 @@
           "minecraft:geometry": {
             "identifier": "geometry.m.cabinet_tall_book",
             "bone_visibility": {
-              "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-              "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-              "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
-              "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+              "close": "q.block_state('medieval:close') && q.block_state('medieval:side')",
+              "open": "!q.block_state('medieval:close') && q.block_state('medieval:side')",
+              "close2": "q.block_state('medieval:close') && !q.block_state('medieval:side')",
+              "open2": "!q.block_state('medieval:close') && !q.block_state('medieval:side')"
             }
           }
         }
@@ -126,10 +126,10 @@
           "minecraft:geometry": {
             "identifier": "geometry.m.cabinet_tall_potion",
             "bone_visibility": {
-              "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-              "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-              "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
-              "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+              "close": "q.block_state('medieval:close') && q.block_state('medieval:side')",
+              "open": "!q.block_state('medieval:close') && q.block_state('medieval:side')",
+              "close2": "q.block_state('medieval:close') && !q.block_state('medieval:side')",
+              "open2": "!q.block_state('medieval:close') && !q.block_state('medieval:side')"
             }
           }
         }
@@ -140,10 +140,10 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.cabinet_tall_bot",
         "bone_visibility": {
-          "close": "q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-          "open": "!q.block_state('medieval:close') \u0026\u0026 q.block_state('medieval:side')",
-          "close2": "q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')",
-          "open2": "!q.block_state('medieval:close') \u0026\u0026 !q.block_state('medieval:side')"
+          "close": "q.block_state('medieval:close') && q.block_state('medieval:side')",
+          "open": "!q.block_state('medieval:close') && q.block_state('medieval:side')",
+          "close2": "q.block_state('medieval:close') && !q.block_state('medieval:side')",
+          "open2": "!q.block_state('medieval:close') && !q.block_state('medieval:side')"
         }
       },
       "minecraft:material_instances": {

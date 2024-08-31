@@ -166,7 +166,7 @@
         "bone_visibility": {
           "beer_mug": "q.block_state('medieval:quantity') == 0",
           "beer_mug2": "q.block_state('medieval:quantity') == 1",
-          "beer_mug3": "q.block_state('medieval:quantity') \u003e= 2",
+          "beer_mug3": "q.block_state('medieval:quantity') >= 2",
           "beer_mug4": "q.block_state('medieval:quantity') == 3",
           "beer": false,
           "beer2": false,

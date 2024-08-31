@@ -36,7 +36,7 @@
     },
     "permutations": [
       {
-        "condition": "q.block_state('medieval:direction') == 0 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:direction') == 0 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -63,7 +63,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 1 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:direction') == 1 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -90,7 +90,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 2 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:direction') == 2 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -117,7 +117,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 3 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:direction') == 3 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -144,7 +144,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 0 \u0026\u0026 q.block_state('medieval:type') == 1",
+        "condition": "q.block_state('medieval:direction') == 0 && q.block_state('medieval:type') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -171,7 +171,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 1 \u0026\u0026 q.block_state('medieval:type') == 1",
+        "condition": "q.block_state('medieval:direction') == 1 && q.block_state('medieval:type') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -198,7 +198,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 2 \u0026\u0026 q.block_state('medieval:type') == 1",
+        "condition": "q.block_state('medieval:direction') == 2 && q.block_state('medieval:type') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -225,7 +225,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:direction') == 3 \u0026\u0026 q.block_state('medieval:type') == 1",
+        "condition": "q.block_state('medieval:direction') == 3 && q.block_state('medieval:type') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -252,7 +252,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 0 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 0 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 1 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 1 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 2 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 2 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -317,7 +317,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 3 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 3 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 4 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 4 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 5 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 5 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:texture') == 6 \u0026\u0026 q.block_state('medieval:type') == 0",
+        "condition": "q.block_state('medieval:texture') == 6 && q.block_state('medieval:type') == 0",
         "components": {
           "minecraft:material_instances": {
             "*": {

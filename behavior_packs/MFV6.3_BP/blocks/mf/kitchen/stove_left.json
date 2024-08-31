@@ -85,7 +85,7 @@
         }
       },
       {
-        "condition": "!q.block_state('medieval:stove_on') \u0026\u0026 q.block_state('medieval:placed')",
+        "condition": "!q.block_state('medieval:stove_on') && q.block_state('medieval:placed')",
         "components": {
           "minecraft:material_instances": {
             "*": {
@@ -123,7 +123,7 @@
         "bone_visibility": {
           "root": "q.block_state('medieval:placed')",
           "log": "q.block_state('medieval:placed')",
-          "fire": "q.block_state('medieval:stove_on') \u0026\u0026 q.block_state('medieval:placed')",
+          "fire": "q.block_state('medieval:stove_on') && q.block_state('medieval:placed')",
           "item": "!q.block_state('medieval:placed')"
         }
       },

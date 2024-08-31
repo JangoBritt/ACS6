@@ -78,7 +78,7 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.beer_barrel",
         "bone_visibility": {
-          "beer_mug": "q.block_state('medieval:beer_mug') \u003e 0",
+          "beer_mug": "q.block_state('medieval:beer_mug') > 0",
           "beer": "q.block_state('medieval:beer_mug') == 2",
           "beer2": "q.block_state('medieval:beer_mug') == 3",
           "beer3": "q.block_state('medieval:beer_mug') == 4"

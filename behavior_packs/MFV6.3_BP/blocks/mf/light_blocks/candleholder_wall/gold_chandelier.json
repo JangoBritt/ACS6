@@ -72,7 +72,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:facing_direction') == 1 \u0026\u0026 q.block_state('medieval:facing_wall') == 1",
+        "condition": "q.block_state('medieval:facing_direction') == 1 && q.block_state('medieval:facing_wall') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -84,7 +84,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:facing_direction') == 2 \u0026\u0026 q.block_state('medieval:facing_wall') == 1",
+        "condition": "q.block_state('medieval:facing_direction') == 2 && q.block_state('medieval:facing_wall') == 1",
         "components": {
           "minecraft:transformation": {
             "rotation": [
@@ -96,7 +96,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:facing_wall') \u003e 1",
+        "condition": "q.block_state('medieval:facing_wall') > 1",
         "components": {
           "minecraft:geometry": "geometry.m.chandelier_wall",
           "minecraft:collision_box": {

@@ -95,13 +95,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:side') == false \u0026\u0026 q.block_state('medieval:item') == 1",
+        "condition": "q.block_state('medieval:side') == false && q.block_state('medieval:item') == 1",
         "components": {
           "minecraft:geometry": "geometry.cabinet_tall_book_tops"
         }
       },
       {
-        "condition": "q.block_state('medieval:side') == true \u0026\u0026 q.block_state('medieval:item') == 1",
+        "condition": "q.block_state('medieval:side') == true && q.block_state('medieval:item') == 1",
         "components": {
           "minecraft:geometry": "geometry.cabinet_tall_book_top"
         }
