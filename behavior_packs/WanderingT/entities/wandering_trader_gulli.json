@@ -221,7 +221,7 @@
            "min_wait_time": 0,
            "max_wait_time": 0,
            "spawn_entity": "minecraft:piglin",
-           "spawn_event": "minecraft:entity_spawned",
+           "spawn_event": "minecraft:entity_born",
            "single_use": true,
            "num_to_spawn": 2,
            "should_leash": false
@@ -462,12 +462,7 @@
             "piglin_adult",
             "interactable_piglin"
           ]
-        },
-        "queue_command": {
-					"command": [
-						"tellraw @a[r=64] {\"rawtext\":[{\"text\":\"A Wandering Trader appears nearby\"}]}"
-					]
-				}
+        }
       },
       "minecraft:scheduled": {
         "add": {

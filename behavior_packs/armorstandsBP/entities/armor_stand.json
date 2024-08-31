@@ -1126,7 +1126,7 @@
 					"is_pushable": false,
 					"is_pushable_by_piston": false
 				},
-				"minecraft:fire_immune": true,
+				"minecraft:fire_immune": {},
 				"minecraft:damage_sensor": {
 					"triggers": {
 						"cause": "all",
@@ -1188,9 +1188,36 @@
 					"is_pushable": false,
 					"is_pushable_by_piston": true
 				},
-				"minecraft:fire_immune": false,
+				"minecraft:fire_immune": {},
 				"minecraft:interact": {
 					"interactions": [
+						{
+							"hurt_item": 0,
+							"interact_text": "Toggle Mini Block",
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "is_sneaking",
+											"subject": "player"
+										},
+										{
+											"test": "has_equipment",
+											"subject": "player",
+											"value": "blaze_powder"
+										}
+									]
+								},
+								"event": "fnt:toggleMiniblock",
+								"target": "self"
+							},
+							"play_sounds": "drop.slot",
+							"swing": true,
+							"use_item": false,
+							"particle_on_start": {
+								"particle_type": "minecraft:basic_crit_particle"
+							}
+						},
 						{
 							"hurt_item": 0,
 							"interact_text": "Toggle Geometry",
@@ -1654,6 +1681,30 @@
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
 		"events": {
+
+			"fnt:toggleMiniblock": {
+				"remove": {
+					"component_groups": [
+						"fnt:gravityOn",
+						"fnt:visible"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"fnt:rotateX_180",
+						"fnt:gravityOff",
+						"fnt:invisible"
+					]
+				},
+				"queue_command": {
+					"command": [
+						"playanimation @s animation.armor_stand.entertain_pose null 0 \"0\" align.arms",
+						"playanimation @s animation.player.move.arms.zombie null 0 \"0\" size.mini_block",
+						"tp @s ^ ^0.566 ^-0.377",
+						"tp @s ~ ~ ~ ~-9"
+					]
+				}
+			},
 			"minecraft:entity_spawned": {
 				"add": {
 					"component_groups": [
