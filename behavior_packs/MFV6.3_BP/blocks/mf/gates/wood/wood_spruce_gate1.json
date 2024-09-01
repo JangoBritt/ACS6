@@ -74,39 +74,39 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_close0"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 1 && q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_close1"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 2 && q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_close2"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_open0",
           "minecraft:collision_box": false
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 1 && q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_open1",
           "minecraft:collision_box": false
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 2 && q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.fence_gate2_open2",
           "minecraft:collision_box": false

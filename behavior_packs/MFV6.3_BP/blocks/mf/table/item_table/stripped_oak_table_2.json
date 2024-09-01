@@ -212,10 +212,10 @@
           "center2": "q.block_state('medieval:state') == 2",
           "center3": "q.block_state('medieval:state') == 3",
           "apple": "q.block_state('medieval:item') == 1 || q.block_state('medieval:item') == 2",
-          "apple2": "(q.block_state('medieval:item') == 1 || q.block_state('medieval:item') == 2) \u0026\u0026 (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
+          "apple2": "(q.block_state('medieval:item') == 1 || q.block_state('medieval:item') == 2) && (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
           "bamboo": "q.block_state('medieval:item') == 3",
           "bottle": "q.block_state('medieval:item') == 4 || q.block_state('medieval:item') == 5",
-          "bottle2": "(q.block_state('medieval:item') == 4 || q.block_state('medieval:item') == 5) \u0026\u0026 (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
+          "bottle2": "(q.block_state('medieval:item') == 4 || q.block_state('medieval:item') == 5) && (q.block_state('medieval:state') == 1 || q.block_state('medieval:state') == 3)",
           "book": "q.block_state('medieval:item') == 6"
         }
       },

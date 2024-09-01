@@ -89,13 +89,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand_empty"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop_empty"
         }
@@ -381,13 +381,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 12 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') == 12 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand_cactus"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 12 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') == 12 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop_cactus"
         }
@@ -420,13 +420,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 13 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') == 13 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand_bamboo"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 13 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') == 13 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop_bamboo"
         }
@@ -464,13 +464,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 14 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') == 14 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand_azalea"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 14 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') == 14 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop_azalea"
         }
@@ -513,13 +513,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 15 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') == 15 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand_azalea"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 15 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') == 15 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop_azalea"
         }
@@ -579,13 +579,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') \u003e= 1 \u0026\u0026 q.block_state('medieval:state') \u003c= 11 \u0026\u0026 q.block_state('medieval:top') == false",
+        "condition": "q.block_state('medieval:state') >= 1 && q.block_state('medieval:state') <= 11 && q.block_state('medieval:top') == false",
         "components": {
           "minecraft:geometry": "geometry.flower_standtop"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') \u003e= 1 \u0026\u0026 q.block_state('medieval:state') \u003c= 11 \u0026\u0026 q.block_state('medieval:top') == true",
+        "condition": "q.block_state('medieval:state') >= 1 && q.block_state('medieval:state') <= 11 && q.block_state('medieval:top') == true",
         "components": {
           "minecraft:geometry": "geometry.flower_stand"
         }

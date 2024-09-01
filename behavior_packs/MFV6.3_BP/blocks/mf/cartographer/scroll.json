@@ -196,7 +196,7 @@
         "identifier": "geometry.m.scroll_0",
         "bone_visibility": {
           "scroll": "q.block_state('medieval:quantity') == 0",
-          "scroll2": "q.block_state('medieval:quantity') \u003e= 1 \u0026\u0026 q.block_state('medieval:quantity') \u003c= 2",
+          "scroll2": "q.block_state('medieval:quantity') >= 1 && q.block_state('medieval:quantity') <= 2",
           "scroll3": "q.block_state('medieval:quantity') == 2",
           "scroll4": "q.block_state('medieval:quantity') == 3",
           "scroll5": "q.block_state('medieval:quantity') == 4"

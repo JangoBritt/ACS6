@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "description": "v2.0.88 | Pack By FoxyNoTail+cole | Markers & Adjustable Armor Standsbroken parts removed",
-    "name": "[COMBO] Armor Stands+ & Markers v2.99 [EX] [B]",
+    "description": "v2.1.0 | Pack By FoxyNoTail Athos Fork | Markers & Adjustable Armor Standsbroken parts removed",
+    "name": "[COMBO] Armor Stands+ & Markers v2.1 [EX] [B]",
     "uuid": "2d0fd1e8-be04-40c0-a95d-92a6ca931976",
     "version": [
       2,
-      0,
-      99
+      1,
+      0
     ],
     "min_engine_version": [
       1,
@@ -21,8 +21,8 @@
       "uuid": "14227a3c-8ad7-4cef-85f3-772d485db131",
       "version": [
         2,
-        0,
-        99
+        1,
+        0
       ]
     }
   ],
@@ -31,8 +31,8 @@
       "uuid": "5c2e165b-9240-478e-a4b1-d98804e33476",
       "version": [
         2,
-        0,
-        99
+        1,
+        0
       ]
     }
   ]

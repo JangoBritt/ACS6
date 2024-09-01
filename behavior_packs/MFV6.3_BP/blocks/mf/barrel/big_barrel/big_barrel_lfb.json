@@ -130,7 +130,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:beer_mug') \u003e 1",
+        "condition": "q.block_state('medieval:beer_mug') > 1",
         "components": {
           "minecraft:queued_ticking": {
             "on_tick": {
@@ -151,8 +151,8 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.spout_barrel",
         "bone_visibility": {
-          "spout": "q.block_state('medieval:beer_mug') \u003e 0",
-          "beer_mug": "q.block_state('medieval:beer_mug') \u003e 1",
+          "spout": "q.block_state('medieval:beer_mug') > 0",
+          "beer_mug": "q.block_state('medieval:beer_mug') > 1",
           "beer": "q.block_state('medieval:beer_mug') == 3",
           "beer2": "q.block_state('medieval:beer_mug') == 4",
           "beer3": "q.block_state('medieval:beer_mug') == 5"

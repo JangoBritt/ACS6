@@ -428,7 +428,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:top') == 1 \u0026\u0026 q.block_state('medieval:item') == 0",
+        "condition": "q.block_state('medieval:top') == 1 && q.block_state('medieval:item') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -463,10 +463,10 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.sign_0",
         "bone_visibility": {
-          "sign": "q.block_state('medieval:top') == 0 || q.block_state('medieval:item') \u003e 0",
+          "sign": "q.block_state('medieval:top') == 0 || q.block_state('medieval:item') > 0",
           "left": "q.block_state('medieval:item') == 1",
           "right": "q.block_state('medieval:item') == 2",
-          "item": "q.block_state('medieval:item') \u003e= 3"
+          "item": "q.block_state('medieval:item') >= 3"
         }
       },
       "minecraft:material_instances": {

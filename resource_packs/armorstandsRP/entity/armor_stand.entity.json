@@ -9,11 +9,11 @@
 				"sphere": "fnt_sphere",
 				"chunk": "npc",
 				"npc": "npc",
-				"entity": "entity",
-				"locked": "textures/entity/armor_stand_locked"
+				"entity": "entity"
 			},
 			"textures": {
 				"default": "textures/entity/armor_stand",
+                "locked": "textures/entity/armor_stand_locked",
 				"inner": "textures/sphere_inner",
 				"outer": "textures/sphere_outer",
 				"chunk": "textures/chunk_outer",

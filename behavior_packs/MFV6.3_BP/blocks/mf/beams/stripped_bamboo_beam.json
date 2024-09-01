@@ -6,6 +6,14 @@
       "menu_category": {
         "category": "construction"
       },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 270.0
+        }
+      },
       "states": {
         "medieval:facing_direction": [
           2,
@@ -16,8 +24,12 @@
       }
     },
     "permutations": [
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 2",
+      { "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+      { "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+      { "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+      { "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+
+      { "condition": "q.block_state('medieval:facing_direction') == 2",
         "components": {
           "minecraft:transformation": {
             "rotation": [
