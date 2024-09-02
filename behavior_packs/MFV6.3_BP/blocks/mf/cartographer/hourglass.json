@@ -73,7 +73,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:sand') > 0",
+        "condition": "q.block_state('medieval:sand') \u003e 0",
         "components": {
         }
       }

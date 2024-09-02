@@ -55,19 +55,19 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 0 && q.block_state('medieval:length') == 0",
+        "condition": "q.block_state('medieval:width') == 0 \u0026\u0026 q.block_state('medieval:length') == 0",
         "components": {
           "minecraft:geometry": "geometry.bridge_0"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 1 && q.block_state('medieval:length') == 0",
+        "condition": "q.block_state('medieval:width') == 1 \u0026\u0026 q.block_state('medieval:length') == 0",
         "components": {
           "minecraft:geometry": "geometry.bridge_00"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 2 && q.block_state('medieval:length') == 0",
+        "condition": "q.block_state('medieval:width') == 2 \u0026\u0026 q.block_state('medieval:length') == 0",
         "components": {
           "minecraft:geometry": "geometry.bridge_01"
         }
@@ -103,55 +103,55 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 0 && q.block_state('medieval:length') == 1",
+        "condition": "q.block_state('medieval:width') == 0 \u0026\u0026 q.block_state('medieval:length') == 1",
         "components": {
           "minecraft:geometry": "geometry.bridge_1"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 1 && q.block_state('medieval:length') == 1",
+        "condition": "q.block_state('medieval:width') == 1 \u0026\u0026 q.block_state('medieval:length') == 1",
         "components": {
           "minecraft:geometry": "geometry.bridge_10"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 2 && q.block_state('medieval:length') == 1",
+        "condition": "q.block_state('medieval:width') == 2 \u0026\u0026 q.block_state('medieval:length') == 1",
         "components": {
           "minecraft:geometry": "geometry.bridge_11"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 0 && q.block_state('medieval:length') == 2",
+        "condition": "q.block_state('medieval:width') == 0 \u0026\u0026 q.block_state('medieval:length') == 2",
         "components": {
           "minecraft:geometry": "geometry.bridge_2"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 1 && q.block_state('medieval:length') == 2",
+        "condition": "q.block_state('medieval:width') == 1 \u0026\u0026 q.block_state('medieval:length') == 2",
         "components": {
           "minecraft:geometry": "geometry.bridge_20"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 2 && q.block_state('medieval:length') == 2",
+        "condition": "q.block_state('medieval:width') == 2 \u0026\u0026 q.block_state('medieval:length') == 2",
         "components": {
           "minecraft:geometry": "geometry.bridge_21"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 0 && q.block_state('medieval:length') == 3",
+        "condition": "q.block_state('medieval:width') == 0 \u0026\u0026 q.block_state('medieval:length') == 3",
         "components": {
           "minecraft:geometry": "geometry.bridge_3"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 1 && q.block_state('medieval:length') == 3",
+        "condition": "q.block_state('medieval:width') == 1 \u0026\u0026 q.block_state('medieval:length') == 3",
         "components": {
           "minecraft:geometry": "geometry.bridge_30"
         }
       },
       {
-        "condition": "q.block_state('medieval:width') == 2 && q.block_state('medieval:length') == 3",
+        "condition": "q.block_state('medieval:width') == 2 \u0026\u0026 q.block_state('medieval:length') == 3",
         "components": {
           "minecraft:geometry": "geometry.bridge_31"
         }

@@ -89,21 +89,21 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 0 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 1 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 1 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_apple"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 2 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 2 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_apple",
           "minecraft:material_instances": {
@@ -120,7 +120,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 3 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 3 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_beetroot",
           "minecraft:material_instances": {
@@ -137,14 +137,14 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 4 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 4 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_bread"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 5 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 5 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_carrot",
           "minecraft:material_instances": {
@@ -161,28 +161,28 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 6 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 6 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_cod"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 7 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 7 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_potato"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 8 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 8 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_salmon"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 9 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 9 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_carrot",
           "minecraft:material_instances": {
@@ -199,28 +199,28 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 10 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 10 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_cookie"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 11 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 11 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_melon"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 12 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 12 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_bamboo"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 13 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 13 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -237,14 +237,14 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 14 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 14 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_egg"
         }
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 15 && q.block_state('medieval:food_2') == 0",
+        "condition": "q.block_state('medieval:food') == 15 \u0026\u0026 q.block_state('medieval:food_2') == 0",
         "components": {
           "minecraft:geometry": "geometry.basket_melon",
           "minecraft:material_instances": {
@@ -261,7 +261,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 0 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -278,7 +278,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 1 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 1 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -295,7 +295,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 2 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 2 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -312,7 +312,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 3 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 3 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -329,7 +329,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 4 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 4 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -346,7 +346,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 5 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 5 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -363,7 +363,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 6 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 6 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -380,7 +380,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 7 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 7 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -397,7 +397,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 8 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 8 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -414,7 +414,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 9 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 9 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -431,7 +431,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 10 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 10 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -448,7 +448,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 11 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 11 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -465,7 +465,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 12 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 12 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -482,7 +482,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 13 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 13 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -499,7 +499,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 14 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 14 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -516,7 +516,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 15 && q.block_state('medieval:food_2') == 1",
+        "condition": "q.block_state('medieval:food') == 15 \u0026\u0026 q.block_state('medieval:food_2') == 1",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -533,7 +533,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 0 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -550,7 +550,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 1 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 1 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -567,7 +567,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 2 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 2 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -584,7 +584,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 3 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 3 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -601,7 +601,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 4 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 4 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -618,7 +618,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 5 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 5 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -635,7 +635,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 6 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 6 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -652,7 +652,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 7 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 7 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -669,7 +669,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 8 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 8 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -686,7 +686,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 9 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 9 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -703,7 +703,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 10 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 10 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -720,7 +720,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 11 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 11 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -737,7 +737,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 12 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 12 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -754,7 +754,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 13 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 13 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -771,7 +771,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 14 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 14 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -788,7 +788,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 15 && q.block_state('medieval:food_2') == 2",
+        "condition": "q.block_state('medieval:food') == 15 \u0026\u0026 q.block_state('medieval:food_2') == 2",
         "components": {
           "minecraft:geometry": "geometry.basket_splash_bottle",
           "minecraft:material_instances": {
@@ -805,7 +805,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 0 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.basket_bottle",
           "minecraft:material_instances": {
@@ -822,7 +822,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 1 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 1 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.basket_firework",
           "minecraft:material_instances": {
@@ -839,7 +839,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 2 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 2 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_block",
           "minecraft:material_instances": {
@@ -860,7 +860,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 3 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 3 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_block",
           "minecraft:material_instances": {
@@ -881,7 +881,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 4 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 4 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_wheat",
           "minecraft:material_instances": {
@@ -898,7 +898,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 5 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 5 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_diamond",
           "minecraft:material_instances": {
@@ -915,7 +915,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 6 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 6 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_emerald",
           "minecraft:material_instances": {
@@ -932,7 +932,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 7 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 7 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_ingot",
           "minecraft:material_instances": {
@@ -949,7 +949,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 8 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 8 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_ingot",
           "minecraft:material_instances": {
@@ -966,7 +966,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 9 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 9 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.m.basket_ingot",
           "minecraft:material_instances": {
@@ -983,7 +983,7 @@
 
       },
       {
-        "condition": "q.block_state('medieval:food') == 10 && q.block_state('medieval:food_2') == 3",
+        "condition": "q.block_state('medieval:food') == 10 \u0026\u0026 q.block_state('medieval:food_2') == 3",
         "components": {
           "minecraft:geometry": "geometry.basket_potato",
           "minecraft:material_instances": {

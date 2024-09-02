@@ -465,8 +465,8 @@
           "left": "q.block_state('medieval:side') == 1",
           "right": "q.block_state('medieval:side') == 2",
           "middle": "q.block_state('medieval:side') == 3",
-          "top_left": "q.block_state('medieval:top') == true && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
-          "top_right": "q.block_state('medieval:top') == true && (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)"
+          "top_left": "q.block_state('medieval:top') == true \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1)",
+          "top_right": "q.block_state('medieval:top') == true \u0026\u0026 (q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2)"
         }
       },
       "minecraft:loot": "empty",

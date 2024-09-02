@@ -7,14 +7,6 @@
         "category": "construction",
         "is_hidden_in_commands": false
       },
-      "traits": {
-        "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ],
-          "y_rotation_offset": 270.0
-        }
-      },
       "states": {
         "medieval:facing_direction": [
           2,
@@ -29,18 +21,14 @@
       }
     },
     "permutations": [
-      { "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
-      { "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
-      { "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
-      { "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
-
-      { "condition": "q.block_state('medieval:facing_direction') <= 3",
+      {
+        "condition": "q.block_state('medieval:facing_direction') \u003c= 3",
         "components": {
           "tag:m.support_cherry_n": {}
         }
       },
       {
-        "condition": "q.block_state('medieval:facing_direction') >= 4",
+        "condition": "q.block_state('medieval:facing_direction') \u003e= 4",
         "components": {
           "tag:m.support_cherry_w": {}
         }
@@ -80,10 +68,10 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.support_0",
         "bone_visibility": {
-          "shelf_n": "q.block_state('medieval:facing_direction') == 2 && q.block_state('medieval:side') == 0",
-          "shelf_s": "q.block_state('medieval:facing_direction') == 3 && q.block_state('medieval:side') == 0",
-          "shelf_w": "q.block_state('medieval:facing_direction') == 4 && q.block_state('medieval:side') == 0",
-          "shelf_e": "q.block_state('medieval:facing_direction') == 5 && q.block_state('medieval:side') == 0"
+          "shelf_n": "q.block_state('medieval:facing_direction') == 2 \u0026\u0026 q.block_state('medieval:side') == 0",
+          "shelf_s": "q.block_state('medieval:facing_direction') == 3 \u0026\u0026 q.block_state('medieval:side') == 0",
+          "shelf_w": "q.block_state('medieval:facing_direction') == 4 \u0026\u0026 q.block_state('medieval:side') == 0",
+          "shelf_e": "q.block_state('medieval:facing_direction') == 5 \u0026\u0026 q.block_state('medieval:side') == 0"
         }
       },
       "minecraft:material_instances": {

@@ -58,13 +58,13 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:top') > 0",
+        "condition": "q.block_state('medieval:top') \u003e 0",
         "components": {
           "tag:streetlight_0_top": {}
         }
       },
       {
-        "condition": "q.block_state('medieval:top') > 0 && q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:top') \u003e 0 \u0026\u0026 q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -93,7 +93,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -122,7 +122,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -151,7 +151,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -180,7 +180,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -209,21 +209,9 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
-            "origin": [
-              -2,
-              0.0,
-              -8
-            ],
-            "size": [
-              4,
-              16,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
             "origin": [
               -2,
               0.0,
@@ -234,11 +222,23 @@
               16,
               16
             ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2,
+              0.0,
+              -8
+            ],
+            "size": [
+              4,
+              16,
+              16
+            ]
           }
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -267,7 +267,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -296,7 +296,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -325,7 +325,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -354,7 +354,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -383,7 +383,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 0 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -412,7 +412,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 0 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -441,40 +441,11 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 0",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 0",
         "components": {
           "minecraft:collision_box": {
             "origin": [
               -2,
-              0.0,
-              -8
-            ],
-            "size": [
-              10,
-              16,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -2,
-              0,
-              -8
-            ],
-            "size": [
-              10,
-              16,
-              16
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 0 && q.block_state('medieval:w') == 1",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
               0.0,
               -8
             ],
@@ -486,7 +457,7 @@
           },
           "minecraft:selection_box": {
             "origin": [
-              -8,
+              -2,
               0,
               -8
             ],
@@ -499,7 +470,36 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:e') == 1 && q.block_state('medieval:w') == 1",
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 0 \u0026\u0026 q.block_state('medieval:w') == 1",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0.0,
+              -8
+            ],
+            "size": [
+              10,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              10,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('medieval:n') == 1 \u0026\u0026 q.block_state('medieval:s') == 1 \u0026\u0026 q.block_state('medieval:e') == 1 \u0026\u0026 q.block_state('medieval:w') == 1",
         "components": {
           "minecraft:collision_box": {
             "origin": [
@@ -538,7 +538,7 @@
           "lantern_east": "q.block_state('medieval:w') == 1",
           "lantern_west": "q.block_state('medieval:e') == 1",
           "root_bot": "q.block_state('medieval:top') == 0",
-          "root_center": "q.block_state('medieval:top') > 0",
+          "root_center": "q.block_state('medieval:top') \u003e 0",
           "root_top": "q.block_state('medieval:top') == 2"
         }
       },

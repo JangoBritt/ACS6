@@ -39,7 +39,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:state2') == 1",
+        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:state2') == 1",
         "components": {
           "minecraft:geometry": "geometry.fences1_standing",
           "minecraft:collision_box": {
