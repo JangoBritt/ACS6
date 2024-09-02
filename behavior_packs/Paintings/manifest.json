@@ -7,7 +7,7 @@
 		"description": "Pack By §6AthosCraft§r | Additional Paintings | §cExperimental Required§r | Check the README for details | Visit §9www.athoscraft.com§r",
 		"name": "§aPaintings Pack§r v6.1 [B]",
 		"uuid": "91879d55-d90a-411b-8aff-21b58979b6a3",
-		"version": [ 6, 1, 01 ],
+		"version": [ 6, 1, 1 ],
 		"min_engine_version": [ 1, 20, 80 ]
 	},
 	"modules": [

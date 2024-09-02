@@ -108,7 +108,7 @@
         "bone_visibility": {
           "log": "q.block_state('medieval:quantity') == 0",
           "log1": "q.block_state('medieval:quantity') == 1",
-          "log2": "q.block_state('medieval:quantity') >= 2",
+          "log2": "q.block_state('medieval:quantity') \u003e= 2",
           "log3": "q.block_state('medieval:quantity') == 3"
         }
       },

@@ -49,7 +49,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:lantern') >= 1",
+        "condition": "q.block_state('medieval:lantern') \u003e= 1",
         "components": {
           "minecraft:light_emission": 15
         }
@@ -60,7 +60,7 @@
       "minecraft:geometry": {
         "identifier": "geometry.m.wooden_chandelier",
         "bone_visibility": {
-          "lantern": "q.block_state('medieval:lantern') >= 1"
+          "lantern": "q.block_state('medieval:lantern') \u003e= 1"
         }
       },
       "minecraft:material_instances": {

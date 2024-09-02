@@ -77,7 +77,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:food') == 0 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:food') == 0 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
         }
       },
@@ -441,7 +441,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:food') != 0 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:food') != 0 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
         }
       },

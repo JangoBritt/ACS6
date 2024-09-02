@@ -106,19 +106,19 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:open') == 1 && q.block_state('medieval:side') == true",
+        "condition": "q.block_state('medieval:open') == 1 \u0026\u0026 q.block_state('medieval:side') == true",
         "components": {
           "minecraft:geometry": "geometry.m.tall_window_bottom_1"
         }
       },
       {
-        "condition": "q.block_state('medieval:open') == 1 && q.block_state('medieval:side') == false",
+        "condition": "q.block_state('medieval:open') == 1 \u0026\u0026 q.block_state('medieval:side') == false",
         "components": {
           "minecraft:geometry": "geometry.m.tall_window_bottom_2"
         }
       },
       {
-        "condition": "q.block_state('medieval:open') == 2 && q.block_state('medieval:side') == true",
+        "condition": "q.block_state('medieval:open') == 2 \u0026\u0026 q.block_state('medieval:side') == true",
         "components": {
           "minecraft:geometry": "geometry.m.tall_window_bottom_3",
           "minecraft:collision_box": {
@@ -149,7 +149,7 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:open') == 2 && q.block_state('medieval:side') == false",
+        "condition": "q.block_state('medieval:open') == 2 \u0026\u0026 q.block_state('medieval:side') == false",
         "components": {
           "minecraft:geometry": "geometry.m.tall_window_bottom_4",
           "minecraft:collision_box": {

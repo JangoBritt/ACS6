@@ -79,49 +79,49 @@
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.table0_0"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 1 && q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.table0_1"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 2 && q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.table0_2"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 3 && q.block_state('medieval:close') == true",
+        "condition": "q.block_state('medieval:state') == 3 \u0026\u0026 q.block_state('medieval:close') == true",
         "components": {
           "minecraft:geometry": "geometry.table0_3"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 0 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 0 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.table0_0_open"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 1 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 1 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.table0_1_open"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 2 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 2 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.table0_2_open"
         }
       },
       {
-        "condition": "q.block_state('medieval:state') == 3 && q.block_state('medieval:close') == false",
+        "condition": "q.block_state('medieval:state') == 3 \u0026\u0026 q.block_state('medieval:close') == false",
         "components": {
           "minecraft:geometry": "geometry.table0_3_open"
         }
