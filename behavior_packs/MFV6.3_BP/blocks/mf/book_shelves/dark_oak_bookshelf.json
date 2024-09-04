@@ -1,0 +1,144 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:darkoak_bookshelf_0",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.dark_oak",
+                "is_hidden_in_commands": false
+            },
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}
+			},
+			"states": {
+				"medieval:side": [0,1,2,3],
+				"medieval:items": {"values":{"min":0,"max":15}}
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]},"tag:m.darkoak_bookshelf_0_north":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]},"tag:m.darkoak_bookshelf_0_south":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]},"tag:m.darkoak_bookshelf_0_west":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]},"tag:m.darkoak_bookshelf_0_east":{}}},
+			{"condition": "q.block_state('medieval:items') == 1","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_book_0",
+					"bone_visibility": {
+						"book": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"book_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"book_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			},
+			{"condition": "q.block_state('medieval:items') == 2","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_book_1",
+					"bone_visibility": {
+						"book": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"book_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"book_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			},
+			{"condition": "q.block_state('medieval:items') == 3","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_potion_0",
+					"bone_visibility": {
+						"potion": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"potion_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"potion_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			},
+			{"condition": "q.block_state('medieval:items') == 4","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_potion_1",
+					"bone_visibility": {
+						"potion": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"potion_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"potion_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			},
+			{"condition": "q.block_state('medieval:items') == 5","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_flower_0",
+					"bone_visibility": {
+						"flower": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"flower_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"flower_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			},
+			{"condition": "q.block_state('medieval:items') == 6","components": {
+				"minecraft:geometry": {
+					"identifier": "geometry.m.bookshelf_0_flower_1",
+					"bone_visibility": {
+						"flower": true,
+						"center": "q.block_state('medieval:side') == 0",
+						"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+						"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+						"right_side": "q.block_state('medieval:side') == 1",
+						"left_side": "q.block_state('medieval:side') == 2",
+						"mid_side": "q.block_state('medieval:side') == 3",
+						"flower_right": "(q.block_state('medieval:side') == 1 || q.block_state('medieval:side') == 3)",
+						"flower_left": "(q.block_state('medieval:side') == 2 || q.block_state('medieval:side') == 3)"
+					}
+				}}
+			}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.bookshelf_0",
+				"bone_visibility": {
+					"center": "q.block_state('medieval:side') == 0",
+					"right": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 1",
+					"left": "q.block_state('medieval:side') == 0 || q.block_state('medieval:side') == 2",
+					"right_side": "q.block_state('medieval:side') == 1",
+					"left_side": "q.block_state('medieval:side') == 2",
+					"mid_side": "q.block_state('medieval:side') == 3"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.dark_oak_bookshelf_0","render_method": "alpha_test"},"book": {"texture": "m.book_bookshelf","render_method": "alpha_test"},"potion": {"texture": "m.potion_bookshelf","render_method": "alpha_test"},"potion_1": {"texture": "m.potion_bookshelf_1","render_method": "alpha_test"},"flower_0": {"texture": "m.flower_bookshelf_0","render_method": "alpha_test","ambient_occlusion":false,"face_dimming":false},"flower_1": {"texture": "m.flower_bookshelf_1","render_method": "alpha_test","ambient_occlusion":false,"face_dimming":false},"pot": {"texture": "m.flower_bookshelf_0","render_method": "alpha_test"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:bookshelf_connection"],
+			"minecraft:map_color": "#3b2400"
+		}
+	}
+}

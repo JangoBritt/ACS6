@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:big_barrel_dark_oak_lbt",
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,180,0] },"tag:m.barrel_lbt_north":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,0,0] },"tag:m.barrel_lbt_south":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,90,0] },"tag:m.barrel_lbt_east":{}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,270,0] },"tag:m.barrel_lbt_west":{}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.m.large_barrel_011",
+			"minecraft:loot": "empty",
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": [{"tags": "q.any_tag('m.barrel_bot')"}]}]},
+			"minecraft:material_instances": {"*": {"texture": "m.large_barrel_dark_oak","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:destroy_large_barrel"],
+			"minecraft:map_color": "#3b2400"
+		}
+	}
+}

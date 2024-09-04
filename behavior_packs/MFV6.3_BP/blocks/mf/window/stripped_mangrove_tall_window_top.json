@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_tall_window_top",
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}},
+			"states": {
+				"medieval:side": [true,false],
+				"medieval:open": [false,true]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0] }}},
+			{"condition": "!q.block_state('medieval:open') && q.block_state('medieval:side')","components": {"minecraft:geometry": "geometry.m.tall_window_top_close_0"}},
+			{"condition": "!q.block_state('medieval:open') && !q.block_state('medieval:side')","components": {"minecraft:geometry": "geometry.m.tall_window_top_close_1"}},
+			{"condition": "q.block_state('medieval:open') && q.block_state('medieval:side')","components": {"minecraft:geometry": "geometry.m.tall_window_top_open_0","minecraft:collision_box": {"origin": [-8,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [4,16,10]}}},
+			{"condition": "q.block_state('medieval:open') && !q.block_state('medieval:side')","components": {"minecraft:geometry": "geometry.m.tall_window_top_open_1","minecraft:collision_box": {"origin": [4,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [4,0,-2],"size": [4,16,10]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:mf.door": {},
+			"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"],"block_filter": ["stripped_mangrove_tall_window"]}]},
+			"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:tall_window_top"],
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:map_color": "#a6324f"
+		}
+	}
+}

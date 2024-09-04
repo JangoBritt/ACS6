@@ -16,16 +16,6 @@
 					"delay": 0,
 					"into": "medieval:entity_despawned"
 				}
-			},
-			"medieval:tamed": {
-				"minecraft:is_tamed":{},
-				"minecraft:inventory": {
-					"container_type": "container",
-					"can_be_siphoned_from": false,
-					"inventory_size": 27,
-					"restrict_to_owner": true
-				},
-				"minecraft:item_hopper": {}
 			}
 		},
 		"components": {
@@ -54,8 +44,8 @@
 				"max": 1
 			},
 			"minecraft:tameable": {
-				"probability": 1.0,
-				"tame_items": "paper",
+				"probability": 0.01,
+				"tame_items": "bedrock",
 				"tame_event": {
 					"event": "minecraft:on_tame",
 					"target": "self"
@@ -64,6 +54,13 @@
 			"minecraft:on_death": {
 				"event": "medieval:no_particle",
 				"target": "self"
+			},
+			"minecraft:is_tamed":{},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"can_be_siphoned_from": false,
+				"inventory_size": 27,
+				"restrict_to_owner": true
 			},
 			"minecraft:inside_block_notifier": {
 				"block_list": [
@@ -80,10 +77,9 @@
 			}
 		},
 		"events": {
-			"minecraft:entity_spawned": {"queue_command": {"command": ["tp @s ~ ~ ~ facing @p"]}},
 			"medieval:despawn": {"queue_command": {"command": ["kill @s"]}},
 			"medieval:no_particle": {"add": {"component_groups": ["medieval:no_particle"]}},
-			"minecraft:on_tame": {"add": {"component_groups": ["medieval:tamed"]}}
+			"minecraft:on_tame": {}
 		}
 	}
 }

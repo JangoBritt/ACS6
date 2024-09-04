@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.dark_oak"
+			},
+			"identifier": "medieval:dark_oak_cabinet_tall_item"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.medieval:dark_oak_cabinet_tall_item"
+			},
+			"minecraft:icon": "m.dark_oak_cabinet_tall_item",
+			"minecraft:block_placer": {
+				"block": "medieval:darkoak_cabinet_tall"
+			}
+		}
+	}
+}
+

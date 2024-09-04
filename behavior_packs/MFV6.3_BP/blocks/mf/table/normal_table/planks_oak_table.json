@@ -1,70 +1,30 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:oak_planks_table",
-      "menu_category": {
-        "category": "construction"
-      },
-      "states": {
-        "medieval:table": [
-          true,
-          false
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:table') == false",
-        "components": {
-          "minecraft:geometry": "geometry.roof",
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              13,
-              -8
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              13,
-              -8
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          }
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "tag:normal_table": {},
-      "minecraft:geometry": "geometry.table",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "oak_planks",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:collision_box": true,
-      "minecraft:selection_box": true,
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#f0b030"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:oak_planks_table",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.trapdoor"
+			},
+			"states": {
+				"medieval:table": [true,false]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:table') == false","components": {"minecraft:geometry": "geometry.roof","minecraft:collision_box": {"origin": [-8,13,-8],"size": [16,3,16]},"minecraft:selection_box": {"origin": [-8,13,-8],"size": [16,3,16]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.table",
+			"minecraft:material_instances": {"*": {"texture": "m.oak_planks","render_method": "opaque"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:normal_table"],
+			"minecraft:map_color": "#ab8b3f"
+		}
+	}
 }

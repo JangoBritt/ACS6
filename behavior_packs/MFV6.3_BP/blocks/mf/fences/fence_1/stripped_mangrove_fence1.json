@@ -1,0 +1,57 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_mangrove_fence1",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.fence"
+			},
+			"states": {
+				"medieval:n": [0,1],
+				"medieval:s": [0,1],
+				"medieval:w": [0,1],
+				"medieval:e": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [4,16,4]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [4,16,4]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [4,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [4,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [10,16,4]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [10,16,4]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [10,16,4]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [10,16,4]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [4,16,16]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [4,16,16]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,4]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,4]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [10,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [10,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-2],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-2,0,-2],"size": [10,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [10,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [10,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 0 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [16,16,10]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [16,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 0 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,10]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 1 && q.block_state('medieval:e') == 0","components": {"minecraft:collision_box": {"origin": [-2,0,-8],"size": [10,16,16]},"minecraft:selection_box": {"origin": [-2,0,-8],"size": [10,16,16]}}},
+			{"condition": "q.block_state('medieval:n') == 1 && q.block_state('medieval:s') == 1 && q.block_state('medieval:w') == 0 && q.block_state('medieval:e') == 1","components": {"minecraft:collision_box": {"origin": [-8,0,-8],"size": [10,16,16]},"minecraft:selection_box": {"origin": [-8,0,-8],"size": [10,16,16]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:block_conection": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.fence_1",
+				"bone_visibility": {
+					"n": "q.block_state('medieval:n') == 1",
+					"s": "q.block_state('medieval:s') == 1",
+					"w": "q.block_state('medieval:w') == 1",
+					"e": "q.block_state('medieval:e') == 1"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "opaque"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:block_connection"],
+			"minecraft:map_color": "#a6324f"
+		}
+	}
+}
+

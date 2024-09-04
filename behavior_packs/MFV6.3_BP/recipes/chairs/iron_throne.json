@@ -21,7 +21,7 @@
 			}
 		},
 		"unlock": [
-			{"item": "athos_misc:oak_book"}
+			{"item": "minecraft:iron_sword"}
 		],
 		"result": {
 			"item": "medieval:iron_throne_bot",

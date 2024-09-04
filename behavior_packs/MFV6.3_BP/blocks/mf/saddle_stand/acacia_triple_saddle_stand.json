@@ -1,155 +1,39 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:acacia_triple_saddle_stand",
-      "menu_category": {
-        "category": "items"
-      },
-      "states": {
-        "medieval:facing_direction": [
-          2,
-          3,
-          4,
-          5
-        ],
-        "medieval:state": [
-          0,
-          1,
-          2,
-          3
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 2",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          },
-          "tag:south_stand": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 4",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          },
-          "tag:east_stand": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 5",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          },
-          "tag:west_stand": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 1",
-        "components": {
-          "minecraft:geometry": "geometry.saddle_triple_1",
-          "minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand1.json"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 2",
-        "components": {
-          "minecraft:geometry": "geometry.saddle_triple_2",
-          "minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand2.json"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 3",
-        "components": {
-          "minecraft:geometry": "geometry.saddle_triple_3",
-          "minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand3.json"
-        }
-      }
-    ],
-    "components": {
-      "minecraft:geometry": "geometry.saddle_triple_0",
-      "minecraft:material_instances": {
-        "wsaddle": {
-          "texture": "saddle_horse",
-          "render_method": "opaque"
-        },
-        "*": {
-          "texture": "m.stripped_acacia",
-          "render_method": "opaque"
-        }
-      },
-      "tag:m.triple_saddle_stand": {},
-      "tag:medieval_furniture": {},
-      "minecraft:placement_filter": {
-        "conditions": [
-          {
-            "allowed_faces": [
-              "up"
-            ]
-          }
-        ]
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -4.5,
-          0.0,
-          -8.0
-        ],
-        "size": [
-          9,
-          16,
-          16
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -4.5,
-          0.0,
-          -8.0
-        ],
-        "size": [
-          9,
-          16,
-          16
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:acacia_triple_saddle_stand",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.acacia"
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}},
+			"states": {
+				"medieval:state": [0,1,2,3]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0] }}},
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:geometry": "geometry.saddle_triple_1","minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand1.json"}},
+			{"condition": "q.block_state('medieval:state') == 2","components": {"minecraft:geometry": "geometry.saddle_triple_2","minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand2.json"}},
+			{"condition": "q.block_state('medieval:state') == 3","components": {"minecraft:geometry": "geometry.saddle_triple_3","minecraft:loot": "loot_tables/mf/saddle_stand/acacia_triple_saddle_stand3.json"}}
+		],
+		"components": {
+			"tag:m.triple_saddle_stand": {},
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.saddle_triple_0",
+			"minecraft:material_instances": {"wsaddle": {"texture": "saddle_horse","render_method": "opaque"},"*": {"texture": "m.stripped_acacia","render_method": "opaque"}},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces":["up"]}]},
+			"minecraft:collision_box": {"origin": [-4.5,0.0,-8.0],"size": [9,16,16]},
+			"minecraft:selection_box": {"origin": [-4.5,0.0,-8.0],"size": [9,16,16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:triple_saddle_stand"],
+			"minecraft:map_color": "#db904f"
+		}
+	}
 }

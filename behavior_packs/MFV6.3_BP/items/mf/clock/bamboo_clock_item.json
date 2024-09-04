@@ -1,22 +1,22 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:item": {
-    "description": {
-      "identifier": "medieval:bamboo_pendulum_clock_item",
-      "menu_category": {
-        "category": "items",
-        "group": "itemGroup.name.bamboo"
-      }
-    },
-    "components": {
-      "minecraft:max_stack_size": 64,
-      "minecraft:display_name": {
-        "value": "item.medieval:bamboo_clock_item"
-      },
-      "minecraft:icon": "m.bamboo_pendulum_clock_item",
-      "minecraft:block_placer": {
-        "block": "medieval:bamboo_pendulum_clock"
-      }
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "medieval:bamboo_pendulum_clock_item",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.bamboo"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "m.bamboo_pendulum_clock_item",
+			"minecraft:display_name": {
+				"value": "item.medieval:bamboo_clock_item"
+			},
+			"minecraft:block_placer": {
+				"block": "medieval:bamboo_pendulum_clock"
+			}
+		}
+	}
 }

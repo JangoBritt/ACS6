@@ -25,7 +25,7 @@
 			{"item": "athos_misc:mangrove_book"}
 		],
 		"result": {
-			"item": "medieval:stripped_mangrove_weapon_stand",
+			"item": "medieval:stripped_mangrove_ws",
 			"count": 1
 		}
 	}

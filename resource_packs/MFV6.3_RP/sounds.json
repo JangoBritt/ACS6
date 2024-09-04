@@ -1,20 +1,4 @@
 {
-	"block_sounds": {
-		"no_sound": {
-			"events": {
-				"break": {"pitch": [0.80,1.0],"sound": "","volume": 0.0},
-				"brush": {"pitch": [0.80,1.0],"sound": "","volume": 0.0},
-				"default": "",
-				"hit": {"pitch": 0.50,"sound": "","volume": 0.0},
-				"item.use.on": {"pitch": 0.80,"sound": ""},
-				"place": {"pitch": [0.80,1.0],"sound": "","volume": 0.0},
-				"power.off": {"pitch": 0.50,"sound": ""},
-				"power.on": {"pitch": 0.60,"sound": ""}
-			},
-			"pitch": 1.0,
-			"volume": 0.0
-		}
-	},
 	"entity_sounds": {
 		"entities": {
 			"medieval:drawer_container": {

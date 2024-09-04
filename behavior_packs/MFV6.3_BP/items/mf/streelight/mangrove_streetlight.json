@@ -1,21 +1,22 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:item": {
-    "description": {
-      "identifier": "medieval:mangrove_streetlight_0_item",
-      "menu_category": {
-        "category": "items"
-      }
-    },
-    "components": {
-      "minecraft:max_stack_size": 64,
-      "minecraft:display_name": {
-        "value": "item.medieval:mangrove_streetlight_0_item"
-      },
-      "minecraft:icon": "m.mangrove_streetlight_0_item",
-      "minecraft:block_placer": {
-        "block": "medieval:mangrove_streetlight_0"
-      }
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.mangrove"
+			},
+			"identifier": "medieval:mangrove_streetlight_0_item"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.medieval:mangrove_streetlight_0_item"
+			},
+			"minecraft:icon": "m.mangrove_streetlight_0_item",
+			"minecraft:block_placer": {
+				"block": "medieval:mangrove_streetlight_0"
+			}
+		}
+	}
 }

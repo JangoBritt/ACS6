@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.jungleWood"
+			},
+			"identifier": "medieval:jungle_wood_cabinet_tall_item"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.medieval:jungle_wood_cabinet_tall_item"
+			},
+			"minecraft:icon": "m.jungle_wood_cabinet_tall_item",
+			"minecraft:block_placer": {
+				"block": "medieval:jungle_wood_cabinet_tall"
+			}
+		}
+	}
+}
+

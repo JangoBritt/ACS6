@@ -16,7 +16,7 @@
 					"pivot": [0, 0, 0.5]
 				},
 				{
-					"name": "east",
+					"name": "e",
 					"parent": "bone",
 					"pivot": [0, 0, 0.5],
 					"cubes": [
@@ -110,7 +110,7 @@
 					]
 				},
 				{
-					"name": "west",
+					"name": "w",
 					"parent": "bone",
 					"pivot": [0, 0, 0.5],
 					"cubes": [
@@ -173,7 +173,7 @@
 					]
 				},
 				{
-					"name": "north",
+					"name": "n",
 					"parent": "bone",
 					"pivot": [0, 0, 0.5],
 					"cubes": [
@@ -236,7 +236,7 @@
 					]
 				},
 				{
-					"name": "south",
+					"name": "s",
 					"parent": "bone",
 					"pivot": [0, 0, 0.5],
 					"cubes": [

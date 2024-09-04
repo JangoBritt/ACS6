@@ -38,7 +38,7 @@
 		},
 		"components": {
 			"minecraft:collision_box": {
-				"width": 0.92,
+				"width": 0.98,
 				"height": 0.8
 			},
 			"minecraft:pushable": {
@@ -86,7 +86,8 @@
 						}
 					}
 				]
-			}
+			},
+			"minecraft:body_rotation_blocked": {}
 		},
 		"events": {
 			"medieval:despawn": {"queue_command": {"command": ["kill @s"]}},

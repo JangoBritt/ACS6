@@ -1,128 +1,37 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:mangrove_chandelier",
-      "menu_category": {
-        "category": "items"
-      },
-      "states": {
-        "medieval:lantern": [
-          0,
-          1,
-          2
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:lantern') == 2",
-        "components": {
-          "minecraft:material_instances": {
-            "*": {
-              "texture": "m.stripped_mangrove",
-              "render_method": "alpha_test",
-              "ambient_occlusion": false
-            },
-            "chain_1": {
-              "texture": "m.chain_1",
-              "render_method": "alpha_test",
-              "ambient_occlusion": false
-            },
-            "chain_2": {
-              "texture": "m.chain_2",
-              "render_method": "alpha_test",
-              "ambient_occlusion": false
-            },
-            "metal": {
-              "texture": "m.metal_0",
-              "render_method": "alpha_test",
-              "ambient_occlusion": false
-            },
-            "lantern": {
-              "texture": "m.soul_lantern",
-              "render_method": "alpha_test",
-              "ambient_occlusion": false,
-              "face_dimming": false
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:lantern') \u003e= 1",
-        "components": {
-          "minecraft:light_emission": 15
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": {
-        "identifier": "geometry.m.wooden_chandelier",
-        "bone_visibility": {
-          "lantern": "q.block_state('medieval:lantern') \u003e= 1"
-        }
-      },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "m.stripped_mangrove",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "chain_1": {
-          "texture": "m.chain_1",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "chain_2": {
-          "texture": "m.chain_2",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "metal": {
-          "texture": "m.metal_0",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "lantern": {
-          "texture": "m.lantern",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false,
-          "face_dimming": false
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8,
-          0.0,
-          -8
-        ],
-        "size": [
-          16,
-          16,
-          16
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8,
-          0.0,
-          -8
-        ],
-        "size": [
-          16,
-          16,
-          16
-        ]
-      },
-      "minecraft:light_dampening": 0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#47DCDE"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:mangrove_chandelier",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.mangrove"
+			},
+			"states": {
+				"medieval:lantern": [0,1,2]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:lantern') == 2","components": {"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test","ambient_occlusion": false},"chain_1": {"texture": "m.chain_1","render_method": "alpha_test","ambient_occlusion": false},"chain_2": {"texture": "m.chain_2","render_method": "alpha_test","ambient_occlusion": false},"metal": {"texture": "m.metal_0","render_method": "alpha_test","ambient_occlusion": false},"lantern": {"texture": "m.soul_lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}}}},
+			{"condition": "q.block_state('medieval:lantern') >= 1","components": {"minecraft:light_emission": 15}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.m.wooden_chandelier",
+				"bone_visibility": {
+					"lantern": "q.block_state('medieval:lantern') >= 1"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.stripped_mangrove","render_method": "alpha_test","ambient_occlusion": false},"chain_1": {"texture": "m.chain_1","render_method": "alpha_test","ambient_occlusion": false},"chain_2": {"texture": "m.chain_2","render_method": "alpha_test","ambient_occlusion": false},"metal": {"texture": "m.metal_0","render_method": "alpha_test","ambient_occlusion": false},"lantern": {"texture": "m.lantern","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false}},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["down"]}]},
+			"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
+			"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,16,16]},
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:wooden_chandelier"],
+			"minecraft:map_color": "#a6324f"
+		}
+	}
 }

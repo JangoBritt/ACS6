@@ -1,245 +1,47 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:scroll_0",
-      "menu_category": {
-        "category": "equipment",
-        "is_hidden_in_commands": false
-      },
-      "traits": {
-        "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ]
-        }
-      },
-      "states": {
-        "medieval:quantity": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              270,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:quantity') == 1",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0.0,
-              -7
-            ],
-            "size": [
-              16,
-              3,
-              14
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0.0,
-              -7
-            ],
-            "size": [
-              16,
-              3,
-              14
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:quantity') == 2",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0.0,
-              -7
-            ],
-            "size": [
-              16,
-              6,
-              14
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0.0,
-              -7
-            ],
-            "size": [
-              16,
-              6,
-              14
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:quantity') == 3",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0.0,
-              -8
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0.0,
-              -8
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:quantity') == 4",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0.0,
-              -4
-            ],
-            "size": [
-              16,
-              3,
-              12
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0.0,
-              -4
-            ],
-            "size": [
-              16,
-              3,
-              12
-            ]
-          }
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": {
-        "identifier": "geometry.m.scroll_0",
-        "bone_visibility": {
-          "scroll": "q.block_state('medieval:quantity') == 0",
-          "scroll2": "q.block_state('medieval:quantity') \u003e= 1 \u0026\u0026 q.block_state('medieval:quantity') \u003c= 2",
-          "scroll3": "q.block_state('medieval:quantity') == 2",
-          "scroll4": "q.block_state('medieval:quantity') == 3",
-          "scroll5": "q.block_state('medieval:quantity') == 4"
-        }
-      },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "m.scroll_0",
-          "render_method": "alpha_test"
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8,
-          0.0,
-          -3
-        ],
-        "size": [
-          16,
-          3,
-          6
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8,
-          0.0,
-          -3
-        ],
-        "size": [
-          16,
-          3,
-          6
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#24abab"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:scroll_0",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.cartographer"
+            },
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}},
+			"states": {
+				"medieval:quantity": [0,1,2,3,4]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]}}},
+			{"condition": "q.block_state('medieval:quantity') == 1","components": {"minecraft:collision_box": {"origin": [-8,0.0,-7],"size": [16,3,14]},"minecraft:selection_box": {"origin": [-8,0.0,-7],"size": [16,3,14]}}},
+			{"condition": "q.block_state('medieval:quantity') == 2","components": {"minecraft:collision_box": {"origin": [-8,0.0,-7],"size": [16,6,14]},"minecraft:selection_box": {"origin": [-8,0.0,-7],"size": [16,6,14]}}},
+			{"condition": "q.block_state('medieval:quantity') == 3","components": {"minecraft:collision_box": {"origin": [-8,0.0,-8],"size": [16,3,16]},"minecraft:selection_box": {"origin": [-8,0.0,-8],"size": [16,3,16]}}},
+			{"condition": "q.block_state('medieval:quantity') == 4","components": {"minecraft:collision_box": {"origin": [-8,0.0,-4],"size": [16,3,12]},"minecraft:selection_box": {"origin": [-8,0.0,-4],"size": [16,3,12]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier":"geometry.m.scroll_0",
+				"bone_visibility": {
+					"scroll": "q.block_state('medieval:quantity') == 0",
+					"scroll2": "q.block_state('medieval:quantity') >= 1 && q.block_state('medieval:quantity') <= 2",
+					"scroll3": "q.block_state('medieval:quantity') == 2",
+					"scroll4": "q.block_state('medieval:quantity') == 3",
+					"scroll5": "q.block_state('medieval:quantity') == 4"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.scroll_0","render_method": "alpha_test"}},
+			"minecraft:collision_box": {"origin": [-8,0.0,-3],"size": [16,3,6]},
+			"minecraft:selection_box": {"origin": [-8,0.0,-3],"size": [16,3,6]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:scroll"],
+			"minecraft:map_color": "#24abab"
+		}
+	}
 }
