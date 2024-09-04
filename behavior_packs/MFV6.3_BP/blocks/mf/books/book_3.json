@@ -1,247 +1,39 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:book_3",
-      "menu_category": {
-        "category": "items",
-        "group": "itemGroup.name.sign",
-        "is_hidden_in_commands": false
-      },
-      "states": {
-        "medieval:facing_direction": [
-          2,
-          3,
-          4,
-          5
-        ],
-        "medieval:status": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 2",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 4",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 5",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:status') == 1",
-        "components": {
-          "minecraft:geometry": "geometry.book"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:status') == 2",
-        "components": {
-          "minecraft:geometry": "geometry.four_books",
-          "minecraft:collision_box": {
-            "origin": [
-              -7.0,
-              0.0,
-              -7.0
-            ],
-            "size": [
-              14,
-              15,
-              14
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -7.0,
-              0.0,
-              -7.0
-            ],
-            "size": [
-              14,
-              15,
-              14
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:status') == 3",
-        "components": {
-          "minecraft:geometry": "geometry.small_books",
-          "minecraft:collision_box": {
-            "origin": [
-              -7.5,
-              0.0,
-              -7.5
-            ],
-            "size": [
-              15,
-              9,
-              15
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -7.5,
-              0.0,
-              -7.5
-            ],
-            "size": [
-              15,
-              9,
-              15
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:status') == 4",
-        "components": {
-          "minecraft:geometry": "geometry.stacked_books",
-          "minecraft:collision_box": {
-            "origin": [
-              -8.0,
-              0.0,
-              -8.0
-            ],
-            "size": [
-              16,
-              14,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8.0,
-              0.0,
-              -8.0
-            ],
-            "size": [
-              16,
-              14,
-              16
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:status') == 5",
-        "components": {
-          "minecraft:geometry": "geometry.m.book_4",
-          "minecraft:collision_box": {
-            "origin": [
-              -5.0,
-              0.0,
-              -7.0
-            ],
-            "size": [
-              10,
-              16,
-              14
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -5.0,
-              0.0,
-              -7.0
-            ],
-            "size": [
-              10,
-              16,
-              14
-            ]
-          }
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": "geometry.book",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "book_3",
-          "render_method": "opaque",
-          "ambient_occlusion": false
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -5.0,
-          0.0,
-          -7.0
-        ],
-        "size": [
-          10,
-          3,
-          14
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -5.0,
-          0.0,
-          -7.0
-        ],
-        "size": [
-          10,
-          3,
-          14
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 1.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.3
-      },
-      "minecraft:map_color": "#80461d"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:book_3",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.sign",
+				"is_hidden_in_commands": false
+			},
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}},
+			"states": {
+				"medieval:status": [1,2,3,4,5]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,270,0]}}},
+			{"condition": "q.block_state('medieval:status') == 2","components": {"minecraft:geometry": "geometry.four_books","minecraft:collision_box": {"origin": [-7.0,0.0,-7.0],"size": [14,15,14]},"minecraft:selection_box": {"origin": [-7.0,0.0,-7.0],"size": [14,15,14]}}},
+			{"condition": "q.block_state('medieval:status') == 3","components": {"minecraft:geometry": "geometry.small_books","minecraft:collision_box": {"origin": [-7.5,0.0,-7.5],"size": [15,9,15]},"minecraft:selection_box": {"origin": [-7.5,0.0,-7.5],"size": [15,9,15]}}},
+			{"condition": "q.block_state('medieval:status') == 4","components": {"minecraft:geometry": "geometry.stacked_books","minecraft:collision_box": {"origin": [-8.0,0.0,-8.0],"size": [16,14,16]},"minecraft:selection_box": {"origin": [-8.0,0.0,-8.0],"size": [16,14,16]}}},
+			{"condition": "q.block_state('medieval:status') == 5","components": {"minecraft:geometry": "geometry.m.book_4","minecraft:collision_box": {"origin": [-5.0,0.0,-7.0],"size": [10,16,14]},"minecraft:selection_box": {"origin": [-5.0,0.0,-7.0],"size": [10,16,14]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.book",
+			"minecraft:material_instances": {"*": {"texture": "book_3","render_method": "opaque","ambient_occlusion": false}},
+			"minecraft:collision_box": {"origin": [-5.0,0.0,-7.0],"size": [10,3,14]},
+			"minecraft:selection_box": {"origin": [-5.0,0.0,-7.0],"size": [10,3,14]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 1.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.3},
+			"minecraft:custom_components": ["mf:book"],
+			"minecraft:map_color": "#80461d"
+		}
+	}
 }

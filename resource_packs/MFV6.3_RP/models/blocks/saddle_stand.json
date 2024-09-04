@@ -23,7 +23,7 @@
 								"east": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
 								"south": {"uv": [4, 13], "uv_size": [8, 3], "material_instance": "wood"},
 								"west": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
-								"up": {"uv": [4, 0], "uv_size": [8, 3], "material_instance": "wood"},
+								"up": {"uv": [12, 3], "uv_size": [-8, -3], "material_instance": "wood"},
 								"down": {"uv": [12, 16], "uv_size": [-8, -3], "material_instance": "wood"}
 							}
 						},
@@ -35,7 +35,7 @@
 								"east": {"uv": [13, 5], "uv_size": [3, 8], "material_instance": "wood"},
 								"south": {"uv": [6, 5], "uv_size": [4, 8], "material_instance": "wood"},
 								"west": {"uv": [0, 5], "uv_size": [3, 8], "material_instance": "wood"},
-								"up": {"uv": [6, 0], "uv_size": [4, 3], "material_instance": "wood"},
+								"up": {"uv": [10, 3], "uv_size": [-4, -3], "material_instance": "wood"},
 								"down": {"uv": [10, 16], "uv_size": [-4, -3], "material_instance": "wood"}
 							}
 						},
@@ -47,7 +47,7 @@
 								"east": {"uv": [15, 0], "uv_size": [1, 5], "material_instance": "wood"},
 								"south": {"uv": [3, 0], "uv_size": [9, 5], "material_instance": "wood"},
 								"west": {"uv": [0, 0], "uv_size": [1, 5], "material_instance": "wood"},
-								"up": {"uv": [3, 0], "uv_size": [9, 1], "material_instance": "wood"},
+								"up": {"uv": [12, 1], "uv_size": [-9, -1], "material_instance": "wood"},
 								"down": {"uv": [12, 16], "uv_size": [-9, -1], "material_instance": "wood"}
 							}
 						},
@@ -59,7 +59,7 @@
 								"east": {"uv": [1, 1], "uv_size": [14, 2], "material_instance": "wood"},
 								"south": {"uv": [15, 1], "uv_size": [1, 2], "material_instance": "wood"},
 								"west": {"uv": [1, 1], "uv_size": [14, 2], "material_instance": "wood"},
-								"up": {"uv": [11, 1], "uv_size": [1, 14], "material_instance": "wood"},
+								"up": {"uv": [12, 15], "uv_size": [-1, -14], "material_instance": "wood"},
 								"down": {"uv": [12, 15], "uv_size": [-1, -14], "material_instance": "wood"}
 							}
 						},
@@ -71,7 +71,7 @@
 								"east": {"uv": [3, 10], "uv_size": [9, 2], "material_instance": "wood"},
 								"south": {"uv": [15, 10], "uv_size": [1, 2], "material_instance": "wood"},
 								"west": {"uv": [4, 10], "uv_size": [9, 2], "material_instance": "wood"},
-								"up": {"uv": [9, 3], "uv_size": [1, 9], "material_instance": "wood"},
+								"up": {"uv": [10, 12], "uv_size": [-1, -9], "material_instance": "wood"},
 								"down": {"uv": [10, 13], "uv_size": [-1, -9], "material_instance": "wood"}
 							}
 						},
@@ -83,7 +83,7 @@
 								"east": {"uv": [3, 10], "uv_size": [9, 2], "material_instance": "wood"},
 								"south": {"uv": [15, 10], "uv_size": [1, 2], "material_instance": "wood"},
 								"west": {"uv": [4, 10], "uv_size": [9, 2], "material_instance": "wood"},
-								"up": {"uv": [6, 3], "uv_size": [1, 9], "material_instance": "wood"},
+								"up": {"uv": [7, 12], "uv_size": [-1, -9], "material_instance": "wood"},
 								"down": {"uv": [7, 13], "uv_size": [-1, -9], "material_instance": "wood"}
 							}
 						},
@@ -95,7 +95,7 @@
 								"east": {"uv": [0, 13], "uv_size": [3, 3], "material_instance": "wood"},
 								"south": {"uv": [4, 13], "uv_size": [8, 3], "material_instance": "wood"},
 								"west": {"uv": [13, 13], "uv_size": [3, 3], "material_instance": "wood"},
-								"up": {"uv": [4, 13], "uv_size": [8, 3], "material_instance": "wood"},
+								"up": {"uv": [12, 16], "uv_size": [-8, -3], "material_instance": "wood"},
 								"down": {"uv": [12, 3], "uv_size": [-8, -3], "material_instance": "wood"}
 							}
 						},
@@ -107,7 +107,7 @@
 								"east": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 4], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [3, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [5, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [5, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -119,7 +119,7 @@
 								"east": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 4], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [7, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [9, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [9, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -131,7 +131,7 @@
 								"east": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 4], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 4], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [11, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [13, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [13, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -143,7 +143,7 @@
 								"east": {"uv": [0, 5], "uv_size": [3, 8], "material_instance": "wood"},
 								"south": {"uv": [6, 5], "uv_size": [4, 8], "material_instance": "wood"},
 								"west": {"uv": [13, 5], "uv_size": [3, 8], "material_instance": "wood"},
-								"up": {"uv": [6, 13], "uv_size": [4, 3], "material_instance": "wood"},
+								"up": {"uv": [10, 16], "uv_size": [-4, -3], "material_instance": "wood"},
 								"down": {"uv": [10, 3], "uv_size": [-4, -3], "material_instance": "wood"}
 							}
 						},
@@ -155,7 +155,7 @@
 								"east": {"uv": [1, 1], "uv_size": [14, 2], "material_instance": "wood"},
 								"south": {"uv": [15, 1], "uv_size": [1, 2], "material_instance": "wood"},
 								"west": {"uv": [1, 1], "uv_size": [14, 2], "material_instance": "wood"},
-								"up": {"uv": [4, 1], "uv_size": [1, 14], "material_instance": "wood"},
+								"up": {"uv": [5, 15], "uv_size": [-1, -14], "material_instance": "wood"},
 								"down": {"uv": [5, 15], "uv_size": [-1, -14], "material_instance": "wood"}
 							}
 						},
@@ -167,7 +167,7 @@
 								"east": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 0], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [11, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [13, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [13, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -179,7 +179,7 @@
 								"east": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 0], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [7, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [9, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [9, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -191,7 +191,7 @@
 								"east": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
 								"south": {"uv": [3, 0], "uv_size": [2, 1], "material_instance": "wood"},
 								"west": {"uv": [1, 0], "uv_size": [14, 1], "material_instance": "wood"},
-								"up": {"uv": [3, 1], "uv_size": [2, 14], "material_instance": "wood"},
+								"up": {"uv": [5, 15], "uv_size": [-2, -14], "material_instance": "wood"},
 								"down": {"uv": [5, 15], "uv_size": [-2, -14], "material_instance": "wood"}
 							}
 						},
@@ -203,7 +203,7 @@
 								"east": {"uv": [0, 0], "uv_size": [1, 5], "material_instance": "wood"},
 								"south": {"uv": [4, 0], "uv_size": [9, 5], "material_instance": "wood"},
 								"west": {"uv": [15, 0], "uv_size": [1, 5], "material_instance": "wood"},
-								"up": {"uv": [4, 15], "uv_size": [9, 1], "material_instance": "wood"},
+								"up": {"uv": [13, 16], "uv_size": [-9, -1], "material_instance": "wood"},
 								"down": {"uv": [13, 1], "uv_size": [-9, -1], "material_instance": "wood"}
 							}
 						}

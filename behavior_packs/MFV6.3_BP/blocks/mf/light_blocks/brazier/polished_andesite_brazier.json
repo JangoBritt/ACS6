@@ -1,135 +1,32 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:polished_andesite_brazier",
-      "menu_category": {
-        "category": "construction"
-      },
-      "states": {
-        "medieval:state": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "medieval:on_block": [
-          true,
-          false
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:state') == 0",
-        "components": {
-          "minecraft:geometry": "geometry.m.stone_campfire_0",
-          "minecraft:light_emission": 15,
-          "minecraft:collision_box": {
-            "origin": [
-              -6,
-              0,
-              -6
-            ],
-            "size": [
-              12,
-              11,
-              12
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 1",
-        "components": {
-          "minecraft:geometry": "geometry.m.stone_campfire_1",
-          "minecraft:light_emission": 15,
-          "minecraft:collision_box": {
-            "origin": [
-              -6,
-              0,
-              -6
-            ],
-            "size": [
-              12,
-              11,
-              12
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 2",
-        "components": {
-          "minecraft:geometry": "geometry.m.stone_campfire_2"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 3",
-        "components": {
-          "minecraft:geometry": "geometry.m.stone_campfire_3"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:on_block') == false",
-        "components": {
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": "geometry.m.stone_campfire_0",
-      "tag:brazier": {},
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "polished_andesite",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "fire": {
-          "texture": "campfire_fire",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false,
-          "face_dimming": false
-        },
-        "fire_base": {
-          "texture": "campfire_log_lit",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -6,
-          0,
-          -6
-        ],
-        "size": [
-          12,
-          16,
-          12
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -6,
-          0,
-          -6
-        ],
-        "size": [
-          12,
-          16,
-          12
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 6.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 1.0
-      },
-      "minecraft:map_color": "#969696"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:polished_andesite_brazier",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.braziers"
+			},
+			"states": {"medieval:state": [0,1,2,3],"medieval:on_block": [true,false]}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:state') == 0","components": {"minecraft:geometry": "geometry.m.stone_campfire_0","minecraft:light_emission": 15,"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,11,12]}}},
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:geometry": "geometry.m.stone_campfire_1","minecraft:light_emission": 15,"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,11,12]}}},
+			{"condition": "q.block_state('medieval:state') == 2","components": {"minecraft:geometry": "geometry.m.stone_campfire_2"}},
+			{"condition": "q.block_state('medieval:state') == 3","components": {"minecraft:geometry": "geometry.m.stone_campfire_3"}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.m.stone_campfire_0",
+			"tag:brazier": {},
+			"minecraft:material_instances": {"*": {"texture": "polished_andesite","render_method": "alpha_test","ambient_occlusion": false},"fire": {"texture": "campfire_fire","render_method": "alpha_test","ambient_occlusion": false,"face_dimming": false},"fire_base": {"texture": "campfire_log_lit","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:collision_box": {"origin": [-6,0,-6],"size": [12,16,12]},
+			"minecraft:selection_box": {"origin": [-6,0,-6],"size": [12,16,12]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 6.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 1.0},
+			"minecraft:custom_components": ["mf:brazier", "mf:set_on_fire"],
+			"minecraft:map_color": "#969696"
+		}
+	}
 }

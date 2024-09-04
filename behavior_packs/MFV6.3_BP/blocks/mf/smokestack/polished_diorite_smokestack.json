@@ -1,53 +1,30 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:polished_diorite_smokestack",
-      "menu_category": {
-        "category": "construction"
-      },
-      "states": {
-        "medieval:state": [
-          0,
-          1
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:state') == 0",
-        "components": {
-          "minecraft:geometry": "geometry.smokestack_top"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:state') == 1",
-        "components": {
-          "minecraft:geometry": "geometry.smokestack"
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": "geometry.smokestack_top",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "polished_diorite",
-          "render_method": "opaque",
-          "ambient_occlusion": false
-        }
-      },
-      "tag:smokestack": {},
-      "minecraft:collision_box": true,
-      "minecraft:selection_box": true,
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 6.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 1.0
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:polished_diorite_smokestack",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.smokestack"
+			},
+			"states": {"medieval:state": [0,1]}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:state') == 0","components": {"minecraft:geometry": "geometry.smokestack_top", "minecraft:tick": {"interval_range": [12,15],"looping": true},"minecraft:custom_components": ["mf:smokestack", "mf:smokestack_tick"]}},
+			{"condition": "q.block_state('medieval:state') == 1","components": {"minecraft:geometry": "geometry.smokestack"}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:mf.smokestack": {},
+			"minecraft:geometry": "geometry.smokestack_top",
+			"minecraft:material_instances": {"*": {"texture": "polished_diorite","render_method": "opaque","ambient_occlusion": false}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 6.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 1.0},
+			"minecraft:custom_components": ["mf:smokestack"],
+			"minecraft:map_color": "#f7781e"
+		}
+	}
 }

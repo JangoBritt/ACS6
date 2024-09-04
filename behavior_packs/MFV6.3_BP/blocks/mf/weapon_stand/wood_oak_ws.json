@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:wood_oak_weapon_stand_side",
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0] },"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["west"],"block_filter": ["medieval:wood_oak_weapon_stand"]}]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] },"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["east"],"block_filter": ["medieval:wood_oak_weapon_stand"]}]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0] },"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["south"],"block_filter": ["medieval:wood_oak_weapon_stand"]}]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0] },"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["north"],"block_filter": ["medieval:wood_oak_weapon_stand"]}]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.m.weapon_stand_right",
+			"minecraft:material_instances": {"*": {"texture": "m.wood_oak","render_method": "opaque"},"planks": {"texture": "m.oak_planks","render_method": "opaque"}},
+			"minecraft:loot": "empty",
+			"minecraft:collision_box": {"origin": [-8.0,0.0,-5.0],"size": [16,16,13]},
+			"minecraft:selection_box": {"origin": [-8.0,0.0,-5.0],"size": [16,16,13]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:weapon_stand_side"],
+			"minecraft:map_color": "#ab8b3f"
+		}
+	}
+}

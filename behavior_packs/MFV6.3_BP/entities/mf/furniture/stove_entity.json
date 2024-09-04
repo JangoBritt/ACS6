@@ -49,7 +49,6 @@
 				"inventory_size": 6,
 				"container_type": "container"
 			},
-			"minecraft:is_chested":{},
 			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:equip_item": {},
 			"minecraft:collision_box": {
@@ -88,9 +87,7 @@
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
 		"events": {
-			"medieval:despawn": {"queue_command": {"command": ["kill @s","kill @e[type=item,name=chest,c=1,r=2]"]}},
-			"minecraft:entity_spawned": {},
-
+			"medieval:despawn": {"queue_command": {"command": ["kill @s"]}},
 			"medieval:stove_on": {"set_property": {
 				"property:stove_on": true
 			}},

@@ -1,0 +1,16 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "medieval:acacia_wood_cabinet_tall_item",
+					"weight": 1
+				}
+			]
+		}
+	]
+}
+
+

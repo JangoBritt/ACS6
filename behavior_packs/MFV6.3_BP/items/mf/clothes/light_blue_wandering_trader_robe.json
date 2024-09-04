@@ -1,33 +1,34 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:item": {
-    "description": {
-      "identifier": "medieval:light_blue_wt_robe",
-      "menu_category": {
-        "category": "equipment"
-      }
-    },
-    "components": {
-      "minecraft:max_stack_size": 1,
-      "minecraft:enchantable": {
-        "value": 10,
-        "slot": "armor_torso"
-      },
-      "minecraft:durability": {
-        "max_durability": 110,
-        "damage_chance": {
-          "min": 40,
-          "max": 90
-        }
-      },
-      "minecraft:wearable": {
-        "slot": "slot.armor.chest",
-        "protection": 5
-      },
-      "minecraft:icon": "light_blue_wt_item",
-      "minecraft:display_name": {
-        "value": "item.medieval:light_blue_wt_robe"
-      }
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			},
+			"identifier": "medieval:light_blue_wt_robe"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_torso"
+			},
+			"minecraft:durability": {
+				"max_durability": 110,
+				"damage_chance": {
+					"min": 40,
+					"max": 90
+				}
+			},
+			"minecraft:wearable": {
+				"protection": 5,
+				"slot": "slot.armor.chest"
+			},
+			"minecraft:icon": "light_blue_wt_item",
+			"minecraft:display_name": {
+				"value": "item.medieval:light_blue_wt_robe"
+			}
+		}
+	}
 }

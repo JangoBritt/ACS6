@@ -1,234 +1,37 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:stripped_crimson_tall_window",
-      "states": {
-        "medieval:direction": [
-          2,
-          3,
-          4,
-          5
-        ],
-        "medieval:side": [
-          true,
-          false
-        ],
-        "medieval:open": [
-          0,
-          1,
-          2
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:direction') == 2",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          },
-          "tag:tall_window_south": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:direction') == 4",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          },
-          "tag:tall_window_east": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:direction') == 5",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          },
-          "tag:tall_window_west": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:side') == true",
-        "components": {
-          "tag:tall_window": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:side') == false",
-        "components": {
-          "tag:side": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:open') == 1 \u0026\u0026 q.block_state('medieval:side') == true",
-        "components": {
-          "minecraft:geometry": "geometry.m.tall_window_bottom_1"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:open') == 1 \u0026\u0026 q.block_state('medieval:side') == false",
-        "components": {
-          "minecraft:geometry": "geometry.m.tall_window_bottom_2"
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:open') == 2 \u0026\u0026 q.block_state('medieval:side') == true",
-        "components": {
-          "minecraft:geometry": "geometry.m.tall_window_bottom_3",
-          "minecraft:collision_box": {
-            "origin": [
-              4,
-              0,
-              -8
-            ],
-            "size": [
-              4,
-              16,
-              10
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              4,
-              0,
-              -8
-            ],
-            "size": [
-              4,
-              16,
-              10
-            ]
-          },
-          "tag:tall_window_open": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:open') == 2 \u0026\u0026 q.block_state('medieval:side') == false",
-        "components": {
-          "minecraft:geometry": "geometry.m.tall_window_bottom_4",
-          "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              4,
-              16,
-              10
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              4,
-              16,
-              10
-            ]
-          },
-          "tag:tall_window_open": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:open') == 1",
-        "components": {
-          "tag:tall_window_close": {}
-        }
-      }
-    ],
-    "components": {
-      "minecraft:geometry": "geometry.m.tall_window_bottom_0",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "stripped_crimson",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "glass": {
-          "texture": "glass",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        },
-        "knob": {
-          "texture": "light_gray_concrete",
-          "render_method": "alpha_test",
-          "ambient_occlusion": false
-        }
-      },
-      "tag:tall_window_crimson": {},
-      "tag:medieval_furniture": {},
-      "minecraft:placement_filter": {
-        "conditions": [
-          {
-            "allowed_faces": [
-              "up"
-            ]
-          }
-        ]
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8,
-          0,
-          -2
-        ],
-        "size": [
-          16,
-          16,
-          4
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8,
-          0,
-          -2
-        ],
-        "size": [
-          16,
-          16,
-          4
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:loot": "loot_tables/tall_window/crimson_tall_window.json",
-      "minecraft:map_color": "#000000"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:stripped_crimson_tall_window",
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}},
+			"states": {
+				"medieval:side": [true,false],
+				"medieval:open": [false,true]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": { "rotation": [0,0,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": { "rotation": [0,180,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": { "rotation": [0,90,0] }}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": { "rotation": [0,-90,0] }}},
+			{"condition": "!q.block_state('medieval:open') && q.block_state('medieval:side') == true","components": {"minecraft:geometry": "geometry.m.tall_window_bottom_1"}},
+			{"condition": "!q.block_state('medieval:open') && q.block_state('medieval:side') == false","components": {"minecraft:geometry": "geometry.m.tall_window_bottom_2"}},
+			{"condition": "q.block_state('medieval:open') && q.block_state('medieval:side') == true","components": {"minecraft:geometry": "geometry.m.tall_window_bottom_3","minecraft:collision_box": {"origin": [-8,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [-8,0,-2],"size": [4,16,10]}}},
+			{"condition": "q.block_state('medieval:open') && q.block_state('medieval:side') == false","components": {"minecraft:geometry": "geometry.m.tall_window_bottom_4","minecraft:collision_box": {"origin": [4,0,-2],"size": [4,16,10]},"minecraft:selection_box": {"origin": [4,0,-2],"size": [4,16,10]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"tag:mf.tall_window":{},
+			"minecraft:material_instances": {"*": {"texture": "m.stripped_crimson","render_method": "alpha_test","ambient_occlusion": false},"glass": {"texture": "glass","render_method": "alpha_test","ambient_occlusion": false},"knob": {"texture": "light_gray_concrete","render_method": "alpha_test","ambient_occlusion": false}},
+			"minecraft:placement_filter": {"conditions": [{"allowed_faces": ["up"]}]},
+			"minecraft:collision_box": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:selection_box": {"origin": [-8,0,-2],"size": [16,16,4]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:tall_window"],
+			"minecraft:loot": "loot_tables/tall_window/crimson_tall_window.json",
+			"minecraft:map_color": "#802a76"
+		}
+	}
 }

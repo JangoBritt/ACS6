@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "medieval:wood_darkoak_weapon_stand"
+			"identifier": "medieval:wood_dark_oak_weapon_stand"
 		},
 		"tags": [
 			"workbench"
@@ -25,7 +25,7 @@
 			{"item": "athos_misc:darkoak_book"}
 		],
 		"result": {
-			"item": "medieval:wood_darkoak_weapon_stand",
+			"item": "medieval:wood_dark_oak_ws",
 			"count": 1
 		}
 	}

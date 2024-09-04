@@ -1,21 +1,22 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:item": {
-    "description": {
-      "identifier": "medieval:stripped_mangrove_tall_window_item",
-      "menu_category": {
-        "category": "construction"
-      }
-    },
-    "components": {
-      "minecraft:max_stack_size": 64,
-      "minecraft:display_name": {
-        "value": "item.medieval:mangrove_tall_window"
-      },
-      "minecraft:icon": "mangrove_tall_window",
-      "minecraft:block_placer": {
-        "block": "medieval:stripped_mangrove_tall_window"
-      }
-    }
-  }
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.door"
+			},
+			"identifier": "medieval:stripped_mangrove_tall_window_item"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "item.medieval:stripped_mangrove_tall_window_item"
+			},
+			"minecraft:icon": "mangrove_tall_window",
+			"minecraft:block_placer": {
+				"block": "medieval:stripped_mangrove_tall_window"
+			}
+		}
+	}
 }

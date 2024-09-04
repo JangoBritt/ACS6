@@ -71,13 +71,6 @@
 			}
 		},
 		"events": {
-			"minecraft:entity_spawned": {
-				"queue_command": {
-					"command": [
-						"tp @s ~ ~ ~ facing @p"
-					]
-				}
-			},
 			"medieval:despawn": {
 				"queue_command": {
 					"command": [

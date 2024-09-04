@@ -6,221 +6,19 @@
 				"identifier": "geometry.m.bed_0_top",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
 			"bones": [
 				{
-					"name": "left",
+					"name": "block",
 					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [-8, 2, -7.5],
-							"size": [13, 12, 1],
-							"uv": {
-								"north": {"uv": [0, 8], "uv_size": [52, 48], "material_instance": "planks"},
-								"south": {"uv": [12, 8], "uv_size": [52, 48], "material_instance": "planks"},
-								"up": {"uv": [64, 4], "uv_size": [-52, -4], "material_instance": "planks"},
-								"down": {"uv": [64, 64], "uv_size": [-52, -4], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-8, 2, -6.5],
-							"size": [15, 2, 14.5],
-							"uv": {
-								"south": {"uv": [4, 48], "uv_size": [60, 8], "material_instance": "planks"},
-								"down": {"uv": [64, 56], "uv_size": [-60, -56], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-8, -6.5, -8],
-							"size": [15, 14.5, 4],
-							"pivot": [0, 0, 0],
-							"rotation": [-90, 0, 0],
-							"uv": {
-								"north": {"uv": [22, 23], "uv_size": [-15, -15], "material_instance": "bed"},
-								"up": {"uv": [22, 19], "uv_size": [-15, 4], "material_instance": "bed"}
-							}
-						},
-						{
-							"origin": [-7, 7.65, -6],
-							"size": [12, 1.5, 5],
-							"pivot": [0, 8.75, -2.5],
-							"rotation": [-20, 0, 0],
-							"uv": {
-								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"east": {"uv": [12, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"south": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"west": {"uv": [11, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
-								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
-							}
-						}
-					]
-				},
-				{
-					"name": "center",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [-5, 2, -7.5],
-							"size": [10, 12, 1],
-							"uv": {
-								"north": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
-								"south": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
-								"up": {"uv": [52, 4], "uv_size": [-40, -4], "material_instance": "planks"},
-								"down": {"uv": [52, 64], "uv_size": [-40, -4], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-7, 2, -6.5],
-							"size": [14, 2, 14.5],
-							"uv": {
-								"south": {"uv": [4, 48], "uv_size": [56, 8], "material_instance": "planks"},
-								"down": {"uv": [60, 56], "uv_size": [-56, -56], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-7, -6.5, -8],
-							"size": [14, 14.5, 4],
-							"pivot": [0, 0, 0],
-							"rotation": [-90, 0, 0],
-							"uv": {
-								"north": {"uv": [21, 23], "uv_size": [-14, -15], "material_instance": "bed"},
-								"up": {"uv": [21, 19], "uv_size": [-14, 4], "material_instance": "bed"}
-							}
-						},
-						{
-							"origin": [-5, 7.65, -6],
-							"size": [10, 1.5, 5],
-							"pivot": [0, 8.75, -2.5],
-							"rotation": [-20, 0, 0],
-							"uv": {
-								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"east": {"uv": [12, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"south": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"west": {"uv": [11, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
-								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
-							}
-						}
-					]
-				},
-				{
-					"name": "bed_left",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [7, -8, 2],
-							"size": [1, 13, 7],
-							"pivot": [0, 0, 0],
-							"rotation": [90, 0, 0],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"east": {"uv": [56, 64], "uv_size": [-28, -52], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"west": {"uv": [56, 52], "uv_size": [-28, -52], "material_instance": "stripped_wood"}
-							}
-						},
-						{
-							"origin": [0, -8, -8],
-							"size": [16, 3, 3],
-							"pivot": [0, 0, 0],
-							"rotation": [0, 0, -90],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [0, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 0], "uv_size": [-64, 12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
-							}
-						}
-					]
-				},
-				{
-					"name": "bed_right",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [-8, -8, 2],
-							"size": [1, 13, 7],
-							"pivot": [0, 0, 0],
-							"rotation": [90, 0, 0],
-							"uv": {
-								"north": {"uv": [60, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"east": {"uv": [28, 12], "uv_size": [28, 52], "material_instance": "stripped_wood"},
-								"south": {"uv": [60, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"west": {"uv": [28, 0], "uv_size": [28, 52], "material_instance": "stripped_wood"}
-							}
-						},
-						{
-							"origin": [0, 5, -8],
-							"size": [16, 3, 3],
-							"pivot": [0, 0, 0],
-							"rotation": [0, 0, -90],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 52], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 12], "uv_size": [-64, -12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
-							}
-						}
-					]
-				},
-				{
-					"name": "right",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{
-							"origin": [-5, 2, -7.5],
-							"size": [13, 12, 1],
-							"uv": {
-								"north": {"uv": [12, 8], "uv_size": [52, 48], "material_instance": "planks"},
-								"south": {"uv": [0, 8], "uv_size": [52, 48], "material_instance": "planks"},
-								"up": {"uv": [52, 4], "uv_size": [-52, -4], "material_instance": "planks"},
-								"down": {"uv": [52, 64], "uv_size": [-52, -4], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-7, 2, -6.5],
-							"size": [15, 2, 14.5],
-							"uv": {
-								"south": {"uv": [0, 48], "uv_size": [60, 8], "material_instance": "planks"},
-								"down": {"uv": [60, 56], "uv_size": [-60, -56], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-7, -6.5, -8],
-							"size": [15, 14.5, 4],
-							"pivot": [0, 0, 0],
-							"rotation": [-90, 0, 0],
-							"uv": {
-								"north": {"uv": [21, 23], "uv_size": [-15, -15], "material_instance": "bed"},
-								"up": {"uv": [21, 19], "uv_size": [-15, 4], "material_instance": "bed"}
-							}
-						},
-						{
-							"origin": [-5, 7.65, -6],
-							"size": [11, 1.5, 5],
-							"pivot": [0, 8.75, -2.5],
-							"rotation": [-20, 0, 0],
-							"uv": {
-								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"east": {"uv": [12, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"south": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
-								"west": {"uv": [11, 12], "uv_size": [5, 2], "material_instance": "bed"},
-								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
-								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
-							}
-						}
-					]
+					"rotation": [0, 180, 0]
 				},
 				{
 					"name": "middle",
+					"parent": "block",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -268,67 +66,42 @@
 					]
 				},
 				{
-					"name": "item",
+					"name": "right",
+					"parent": "block",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
-							"origin": [-3.5, 1, -7.25],
-							"size": [7, 1, 7.25],
+							"origin": [-5, 2, -7.5],
+							"size": [13, 12, 1],
 							"uv": {
-								"south": {"uv": [4, 48], "uv_size": [56, 8], "material_instance": "planks"},
-								"down": {"uv": [60, 56], "uv_size": [-56, -56], "material_instance": "planks"}
+								"north": {"uv": [12, 8], "uv_size": [52, 48], "material_instance": "planks"},
+								"south": {"uv": [0, 8], "uv_size": [52, 48], "material_instance": "planks"},
+								"up": {"uv": [52, 4], "uv_size": [-52, -4], "material_instance": "planks"},
+								"down": {"uv": [52, 64], "uv_size": [-52, -4], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [0, 2.5, -8],
-							"size": [8, 1.5, 1.5],
-							"pivot": [0, 0, -4],
-							"rotation": [0, 0, -90],
+							"origin": [-7, 2, -6.5],
+							"size": [15, 2, 14.5],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 52], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 12], "uv_size": [-64, -12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
+								"south": {"uv": [0, 48], "uv_size": [60, 8], "material_instance": "planks"},
+								"down": {"uv": [60, 56], "uv_size": [-60, -56], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [-2.5, 1, -7.75],
-							"size": [5, 6, 0.5],
-							"uv": {
-								"north": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
-								"south": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
-								"up": {"uv": [52, 4], "uv_size": [-40, -4], "material_instance": "planks"},
-								"down": {"uv": [52, 64], "uv_size": [-40, -4], "material_instance": "planks"}
-							}
-						},
-						{
-							"origin": [-4, -4, -3],
-							"size": [0.5, 6.5, 3.5],
-							"pivot": [0, 0, -4],
-							"rotation": [90, 0, 0],
-							"uv": {
-								"north": {"uv": [60, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"east": {"uv": [28, 12], "uv_size": [28, 52], "material_instance": "stripped_wood"},
-								"south": {"uv": [60, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"west": {"uv": [28, 0], "uv_size": [28, 52], "material_instance": "stripped_wood"}
-							}
-						},
-						{
-							"origin": [-3.5, -3.25, -8],
-							"size": [7, 7.25, 2],
-							"pivot": [0, 0, -4],
+							"origin": [-7, -6.5, -8],
+							"size": [15, 14.5, 4],
+							"pivot": [0, 0, 0],
 							"rotation": [-90, 0, 0],
 							"uv": {
-								"north": {"uv": [21, 23], "uv_size": [-14, -15], "material_instance": "bed"},
-								"up": {"uv": [21, 19], "uv_size": [-14, 4], "material_instance": "bed"}
+								"north": {"uv": [21, 23], "uv_size": [-15, -15], "material_instance": "bed"},
+								"up": {"uv": [21, 19], "uv_size": [-15, 4], "material_instance": "bed"}
 							}
 						},
 						{
-							"origin": [-2.5, 3.825, -7],
-							"size": [5, 0.75, 2.5],
-							"pivot": [0, 4.375, -5.25],
+							"origin": [-5, 7.65, -6],
+							"size": [11, 1.5, 5],
+							"pivot": [0, 8.75, -2.5],
 							"rotation": [-20, 0, 0],
 							"uv": {
 								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
@@ -338,25 +111,51 @@
 								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
 								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
 							}
-						},
+						}
+					]
+				},
+				{
+					"name": "bed_right",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
 						{
-							"origin": [0, -4, -8],
-							"size": [8, 1.5, 1.5],
-							"pivot": [0, 0, -4],
-							"rotation": [0, 0, -90],
+							"origin": [-8, -8, 2],
+							"size": [1, 13, 7],
+							"pivot": [0, 0, 0],
+							"rotation": [90, 0, 0],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [0, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 0], "uv_size": [-64, 12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
+								"north": {"uv": [60, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
+								"east": {"uv": [28, 12], "uv_size": [28, 52], "material_instance": "stripped_wood"},
+								"south": {"uv": [60, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
+								"west": {"uv": [28, 0], "uv_size": [28, 52], "material_instance": "stripped_wood"}
 							}
 						},
 						{
-							"origin": [3.5, -4, -3],
-							"size": [0.5, 6.5, 3.5],
-							"pivot": [0, 0, -4],
+							"origin": [0, 5, -8],
+							"size": [16, 3, 3],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 0, -90],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
+								"east": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 52], "uv_size": [64, 12], "material_instance": "stripped_wood"},
+								"west": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
+								"up": {"uv": [64, 12], "uv_size": [-64, -12], "material_instance": "stripped_wood"},
+								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bed_left",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [7, -8, 2],
+							"size": [1, 13, 7],
+							"pivot": [0, 0, 0],
 							"rotation": [90, 0, 0],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
@@ -366,83 +165,115 @@
 							}
 						},
 						{
-							"origin": [-3.5, 1, 0],
-							"size": [7, 1, 6.75],
+							"origin": [0, -8, -8],
+							"size": [16, 3, 3],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 0, -90],
 							"uv": {
-								"north": {"uv": [4, 48], "uv_size": [56, 8], "material_instance": "planks"},
-								"down": {"uv": [60, 64], "uv_size": [-56, -52], "material_instance": "planks"}
+								"north": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
+								"east": {"uv": [52, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
+								"south": {"uv": [0, 0], "uv_size": [64, 12], "material_instance": "stripped_wood"},
+								"west": {"uv": [0, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
+								"up": {"uv": [64, 0], "uv_size": [-64, 12], "material_instance": "stripped_wood"},
+								"down": {"uv": [64, 64], "uv_size": [-64, -12], "material_instance": "stripped_wood"}
+							}
+						}
+					]
+				},
+				{
+					"name": "center",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 2, -7.5],
+							"size": [10, 12, 1],
+							"uv": {
+								"north": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
+								"south": {"uv": [12, 8], "uv_size": [40, 48], "material_instance": "planks"},
+								"up": {"uv": [52, 4], "uv_size": [-40, -4], "material_instance": "planks"},
+								"down": {"uv": [52, 64], "uv_size": [-40, -4], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [-4, -2.5, 5],
-							"size": [0.5, 6.5, 3.5],
-							"pivot": [0, 0, 4],
-							"rotation": [90, 0, 0],
+							"origin": [-7, 2, -6.5],
+							"size": [14, 2, 14.5],
 							"uv": {
-								"north": {"uv": [60, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"east": {"uv": [28, 0], "uv_size": [28, 52], "material_instance": "stripped_wood"},
-								"south": {"uv": [60, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"west": {"uv": [28, 12], "uv_size": [28, 52], "material_instance": "stripped_wood"}
+								"south": {"uv": [4, 48], "uv_size": [56, 8], "material_instance": "planks"},
+								"down": {"uv": [60, 56], "uv_size": [-56, -56], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [-3.5, -4, 0],
-							"size": [7, 6.75, 2],
-							"pivot": [0, 0, 4],
+							"origin": [-7, -6.5, -8],
+							"size": [14, 14.5, 4],
+							"pivot": [0, 0, 0],
 							"rotation": [-90, 0, 0],
 							"uv": {
-								"north": {"uv": [21, 37], "uv_size": [-14, -14], "material_instance": "bed"},
-								"down": {"uv": [21, 27], "uv_size": [-14, -4], "material_instance": "bed"}
+								"north": {"uv": [21, 23], "uv_size": [-14, -15], "material_instance": "bed"},
+								"up": {"uv": [21, 19], "uv_size": [-14, 4], "material_instance": "bed"}
 							}
 						},
 						{
-							"origin": [3.5, -2.5, 5],
-							"size": [0.5, 6.5, 3.5],
-							"pivot": [0, 0, 4],
-							"rotation": [90, 0, 0],
+							"origin": [-5, 7.65, -6],
+							"size": [10, 1.5, 5],
+							"pivot": [0, 8.75, -2.5],
+							"rotation": [-20, 0, 0],
 							"uv": {
-								"north": {"uv": [0, 12], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"east": {"uv": [56, 52], "uv_size": [-28, -52], "material_instance": "stripped_wood"},
-								"south": {"uv": [0, 0], "uv_size": [4, 52], "material_instance": "stripped_wood"},
-								"west": {"uv": [56, 64], "uv_size": [-28, -52], "material_instance": "stripped_wood"}
+								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
+								"east": {"uv": [12, 12], "uv_size": [5, 2], "material_instance": "bed"},
+								"south": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
+								"west": {"uv": [11, 12], "uv_size": [5, 2], "material_instance": "bed"},
+								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
+								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
+							}
+						}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -7.5],
+							"size": [13, 12, 1],
+							"uv": {
+								"north": {"uv": [0, 8], "uv_size": [52, 48], "material_instance": "planks"},
+								"south": {"uv": [12, 8], "uv_size": [52, 48], "material_instance": "planks"},
+								"up": {"uv": [64, 4], "uv_size": [-52, -4], "material_instance": "planks"},
+								"down": {"uv": [64, 64], "uv_size": [-52, -4], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [0, 2.5, 6.5],
-							"size": [6.5, 1.5, 1.5],
-							"pivot": [0, 0, 4],
-							"rotation": [0, 0, -90],
+							"origin": [-8, 2, -6.5],
+							"size": [15, 2, 14.5],
 							"uv": {
-								"north": {"uv": [12, 0], "uv_size": [52, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [12, 0], "uv_size": [52, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [0, 52], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 64], "uv_size": [-52, -12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 64], "uv_size": [-52, -12], "material_instance": "stripped_wood"}
+								"south": {"uv": [4, 48], "uv_size": [60, 8], "material_instance": "planks"},
+								"down": {"uv": [64, 56], "uv_size": [-60, -56], "material_instance": "planks"}
 							}
 						},
 						{
-							"origin": [-2.5, 1, 6.75],
-							"size": [5, 4, 0.5],
+							"origin": [-8, -6.5, -8],
+							"size": [15, 14.5, 4],
+							"pivot": [0, 0, 0],
+							"rotation": [-90, 0, 0],
 							"uv": {
-								"north": {"uv": [12, 24], "uv_size": [40, 32], "material_instance": "planks"},
-								"south": {"uv": [12, 24], "uv_size": [40, 32], "material_instance": "planks"},
-								"up": {"uv": [52, 60], "uv_size": [-40, -4], "material_instance": "planks"},
-								"down": {"uv": [52, 8], "uv_size": [-40, -4], "material_instance": "planks"}
+								"north": {"uv": [22, 23], "uv_size": [-15, -15], "material_instance": "bed"},
+								"up": {"uv": [22, 19], "uv_size": [-15, 4], "material_instance": "bed"}
 							}
 						},
 						{
-							"origin": [0, -4, 6.5],
-							"size": [6.5, 1.5, 1.5],
-							"pivot": [0, 0, 4],
-							"rotation": [0, 0, -90],
+							"origin": [-7, 7.65, -6],
+							"size": [12, 1.5, 5],
+							"pivot": [0, 8.75, -2.5],
+							"rotation": [-20, 0, 0],
 							"uv": {
-								"north": {"uv": [12, 52], "uv_size": [52, 12], "material_instance": "stripped_wood"},
-								"east": {"uv": [52, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"south": {"uv": [12, 52], "uv_size": [52, 12], "material_instance": "stripped_wood"},
-								"west": {"uv": [0, 0], "uv_size": [12, 12], "material_instance": "stripped_wood"},
-								"up": {"uv": [64, 0], "uv_size": [-52, 12], "material_instance": "stripped_wood"},
-								"down": {"uv": [64, 12], "uv_size": [-52, -12], "material_instance": "stripped_wood"}
+								"north": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
+								"east": {"uv": [12, 12], "uv_size": [5, 2], "material_instance": "bed"},
+								"south": {"uv": [8, 12], "uv_size": [12, 2], "material_instance": "bed"},
+								"west": {"uv": [11, 12], "uv_size": [5, 2], "material_instance": "bed"},
+								"up": {"uv": [8, 8], "uv_size": [12, 5], "material_instance": "bed"},
+								"down": {"uv": [20, 13], "uv_size": [-12, -5], "material_instance": "bed"}
 							}
 						}
 					]

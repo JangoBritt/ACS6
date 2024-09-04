@@ -1,88 +1,28 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:scarecrow_bot",
-      "traits": {
-        "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ]
-        }
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          },
-          "tag:scarecrow_south": {}
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          },
-          "tag:scarecrow_east": {}
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          },
-          "tag:scarecrow_west": {}
-        }
-      }
-    ],
-    "components": {
-      "minecraft:geometry": "geometry.m.scarecrow_bot",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "m.scarecrow_bot",
-          "render_method": "alpha_test"
-        }
-      },
-      "minecraft:collision_box": true,
-      "minecraft:selection_box": true,
-      "minecraft:loot": "loot_tables/medieval_furniture/drops/scarecrow.json",
-      "minecraft:light_dampening": 0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 1.0
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:scarecrow_bot",
+			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+            {"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+            {"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,-90,0]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.m.scarecrow_bot",
+			"minecraft:material_instances": {"*": {"texture": "m.scarecrow_bot","render_method": "alpha_test"}},
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:loot": "loot_tables/medieval_furniture/drops/scarecrow.json",
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.6},
+			"minecraft:custom_components": ["mf:scarecrow"],
+			"minecraft:map_color": "#f7781e"
+		}
+	}
 }

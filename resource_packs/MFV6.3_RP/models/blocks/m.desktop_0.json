@@ -14,6 +14,7 @@
 				{
 					"name": "bone",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-8, 0, -8],
@@ -171,6 +172,7 @@
 				{
 					"name": "bone",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-6, 1, 7],
@@ -877,6 +879,7 @@
 				{
 					"name": "bone",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-6, 10, 7],
@@ -893,7 +896,7 @@
 									"material_instance": "awood"
 								},
 								"south": {
-									"uv": [2, 1],
+									"uv": [2, 2],
 									"uv_size": [12, 4],
 									"material_instance": "awood"
 								},
@@ -1572,6 +1575,7 @@
 				{
 					"name": "bone",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-5, 1, 7],
@@ -2278,6 +2282,7 @@
 				{
 					"name": "bone",
 					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
 					"cubes": [
 						{
 							"origin": [-5, 0, -8],

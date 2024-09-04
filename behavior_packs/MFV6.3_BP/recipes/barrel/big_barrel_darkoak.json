@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "medieval:big_barrel_darkoak"
+			"identifier": "medieval:big_barrel_dark_oak"
 		},
 		"tags": [
 			"workbench"
@@ -20,7 +20,7 @@
 			{"item": "minecraft:dark_oak_log"}
 		],
     "result": {
-			"item": "medieval:big_barrel_darkoak",
+			"item": "medieval:big_barrel_dark_oak",
 			"count": 1
 		}
 	}

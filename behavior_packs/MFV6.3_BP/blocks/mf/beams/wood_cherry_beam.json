@@ -1,111 +1,32 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:cherry_wood_beam",
-      "menu_category": {
-        "category": "construction"
-      },
-      "states": {
-        "medieval:facing_direction": [
-          2,
-          3,
-          4,
-          5
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 2",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 4",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 5",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          }
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": "geometry.beam0",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "m.wood_cherry",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8.0,
-          8.0,
-          -8.0
-        ],
-        "size": [
-          16,
-          8,
-          16
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8.0,
-          8.0,
-          -8.0
-        ],
-        "size": [
-          16,
-          8,
-          16
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#fcd7f9"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:cherry_wood_beam",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stairs"
+			},
+			"traits": {
+				"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north'","components": {"minecraft:transformation": {"rotation": [0,0,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south'","components": {"minecraft:transformation": {"rotation": [0,180,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west'","components": {"minecraft:transformation": {"rotation": [0,90,0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east'","components": {"minecraft:transformation": {"rotation": [0,-90,0]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": "geometry.beam0",
+			"minecraft:material_instances": {"*": {"texture": "m.wood_cherry","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
+			"minecraft:selection_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:map_color": "#ffb5e0"
+		}
+	}
 }

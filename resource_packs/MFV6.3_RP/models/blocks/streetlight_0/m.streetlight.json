@@ -24,11 +24,21 @@
 							"origin": [-1.5, 11, -8],
 							"size": [3, 3, 6],
 							"uv": {
-								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
 								"east": {"uv": [10, 2], "uv_size": [6, 3], "material_instance": "awood"},
 								"west": {"uv": [0, 2], "uv_size": [6, 3], "material_instance": "awood"},
 								"up": {"uv": [10, 6], "uv_size": [-3, -6], "material_instance": "awood"},
 								"down": {"uv": [10, 16], "uv_size": [-3, -6], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 7],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"west": {"uv": [9, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"up": {"uv": [10, 16], "uv_size": [-3, -7], "material_instance": "awood"},
+								"down": {"uv": [10, 7], "uv_size": [-3, -7], "material_instance": "awood"}
 							}
 						},
 						{
@@ -73,6 +83,17 @@
 								"south": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"},
 								"west": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"}
 							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 7],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"west": {"uv": [9, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"up": {"uv": [10, 16], "uv_size": [-3, -7], "material_instance": "awood"},
+								"down": {"uv": [10, 7], "uv_size": [-3, -7], "material_instance": "awood"}
+							}
 						}
 					]
 				},
@@ -104,6 +125,17 @@
 								"south": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"},
 								"west": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"}
 							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 7],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"west": {"uv": [9, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"up": {"uv": [10, 16], "uv_size": [-3, -7], "material_instance": "awood"},
+								"down": {"uv": [10, 7], "uv_size": [-3, -7], "material_instance": "awood"}
+							}
 						}
 					]
 				},
@@ -134,6 +166,17 @@
 								"east": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"},
 								"south": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"},
 								"west": {"uv": [7, 1], "uv_size": [2, 15], "material_instance": "awood"}
+							}
+						},
+						{
+							"origin": [-1.5, 11, -15],
+							"size": [3, 3, 7],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
+								"east": {"uv": [0, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"west": {"uv": [9, 2], "uv_size": [7, 3], "material_instance": "awood"},
+								"up": {"uv": [10, 16], "uv_size": [-3, -7], "material_instance": "awood"},
+								"down": {"uv": [10, 7], "uv_size": [-3, -7], "material_instance": "awood"}
 							}
 						}
 					]

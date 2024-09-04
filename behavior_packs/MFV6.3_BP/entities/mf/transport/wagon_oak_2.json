@@ -135,16 +135,48 @@
 			},
 			"minecraft:is_tamed": {},
 			"minecraft:rideable": {
-				"seat_count": 1,
+				"seat_count": 5,
 				"rider_can_interact": true,
 				"crouching_skip_interact": true,
 				"family_types": [
 					"player"
 				],
 				"interact_text": "action.interact.ride.horse",
-				"seats": {
-					"position": [0, 0.9, -0.05]
-				}
+				"seats": [
+					{
+						"position": [0, 0.9, -0.05],
+						"min_rider_count": 0,
+						"max_rider_count": 5
+					},
+					{
+						"position": [0.9, 0.95, -1.8], 
+						"rotate_rider_by": 90,
+						"min_rider_count": 1,
+						"max_rider_count": 4,
+						"lock_rider_rotation": 90
+					},
+					{
+						"position": [-0.9, 0.95, -1.8],
+						"rotate_rider_by": -90,
+						"min_rider_count": 2,
+						"max_rider_count": 3,
+						"lock_rider_rotation": 90
+					},
+					{
+						"position": [0.9, 0.95, -3.1],
+						"rotate_rider_by": 90,
+						"min_rider_count": 3,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 90
+					},
+					{
+						"position": [-0.9, 0.95, -3.1],
+						"rotate_rider_by": -90,
+						"min_rider_count": 4,
+						"max_rider_count": 1,
+						"lock_rider_rotation": 90
+					}
+				]
 			},
 			"minecraft:interact": {
 				"interactions": [
@@ -274,47 +306,19 @@
 						"interact_text": "action.interact.saddle"
 					},
 					{
-						"play_sounds": "random.anvil_use",
-						"on_interact": {
-							"filters": {
-								"all_of": [
-									{
-										"test": "has_equipment",
-										"subject": "other",
-										"domain": "hand",
-										"value": "medieval:handsaw"
-									},
-									{
-										"test": "is_family",
-										"subject": "other",
-										"value": "player"
-									},
-									{
-										"test": "is_sneak_held",
-										"subject": "other",
-										"value": false
-									}
-								]
-							},
-							"target": "self",
-							"event": "medieval:become_horse"
-						},
-						"use_item": true,
-						"interact_text": "action.interact.remove_wagon"
-					},
-					{
 						"play_sounds": "m.horse_whip",
 						"on_interact": {
 							"filters": {
 								"all_of": [
 									{"test": "is_family","subject": "other","value": "player"},
+									{"test": "is_riding", "subject": "other", "operator": "equals", "value": true},
 									{ "test": "rider_count", "subject": "self", "operator": ">=", "value": 1 }
 								]
 							},
 							"target": "self",
 							"event": "medieval:set_gallop"
 						},
-						"interact_text": "action.interact.remove_wagon"
+						"interact_text": "action.interact.apply_speed"
 					}
 				]
 			},
@@ -369,12 +373,8 @@
 				"hitboxes": [
 					{
 						"width": 3,
-						"height": 5,
-						"pivot": [
-							0,
-							0.75,
-							0.8
-						]
+						"height": 3.5,
+						"pivot": [0, 1.75, 0]
 					}
 				]
 			},

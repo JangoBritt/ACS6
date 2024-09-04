@@ -25,7 +25,7 @@
 			{"item": "athos_misc:nether_book"}
 		],
 		"result": {
-			"item": "medieval:stripped_warped_weapon_stand",
+			"item": "medieval:stripped_warped_ws",
 			"count": 1
 		}
 	}

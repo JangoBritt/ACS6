@@ -137,7 +137,8 @@
 				"value": 1,
 				"max": 1,
 				"min": 1
-			}
+			},
+			"minecraft:body_rotation_blocked": {}
 		},
 		"events": {
 			"medieval:no_particle": {
@@ -224,7 +225,7 @@
 					}
 				]
 			},
-			"disc_11": {
+			"music_disc_11": {
 				"add": {"component_groups": ["disc_11"]},
 				"queue_command": {
 					"command": [
@@ -234,7 +235,7 @@
 					]
 				}
 			},
-			"disc_13": {
+			"music_disc_13": {
 				"add": {"component_groups": ["disc_13"]},
 				"queue_command": {
 					"command": [
@@ -244,7 +245,7 @@
 					]
 				}
 			},
-			"disc_blocks": {
+			"music_disc_blocks": {
 				"add": {"component_groups": ["disc_blocks"]},
 				"queue_command": {
 					"command": [
@@ -254,7 +255,7 @@
 					]
 				}
 			},
-			"disc_cat": {
+			"music_disc_cat": {
 				"add": {"component_groups": ["disc_cat"]},
 				"queue_command": {
 					"command": [
@@ -264,7 +265,7 @@
 					]
 				}
 			},
-			"disc_chirp": {
+			"music_disc_chirp": {
 				"add": {"component_groups": ["disc_chirp"]},
 				"queue_command": {
 					"command": [
@@ -274,7 +275,7 @@
 					]
 				}
 			},
-			"disc_far": {
+			"music_disc_far": {
 				"add": {"component_groups": ["disc_far"]},
 				"queue_command": {
 					"command": [
@@ -284,7 +285,7 @@
 					]
 				}
 			},
-			"disc_mall": {
+			"music_disc_mall": {
 				"add": {"component_groups": ["disc_mall"]},
 				"queue_command": {
 					"command": [
@@ -294,7 +295,7 @@
 					]
 				}
 			},
-			"disc_mellohi": {
+			"music_disc_mellohi": {
 				"add": {"component_groups": ["disc_mellohi"]},
 				"queue_command": {
 					"command": [
@@ -304,7 +305,7 @@
 					]
 				}
 			},
-			"disc_otherside": {
+			"music_disc_otherside": {
 				"add": {"component_groups": ["disc_otherside"]},
 				"queue_command": {
 					"command": [
@@ -314,7 +315,7 @@
 					]
 				}
 			},
-			"disc_pigstep": {
+			"music_disc_pigstep": {
 				"add": {"component_groups": ["disc_pigstep"]},
 				"queue_command": {
 					"command": [
@@ -324,7 +325,7 @@
 					]
 				}
 			},
-			"disc_stal": {
+			"music_disc_stal": {
 				"add": {"component_groups": ["disc_stal"]},
 				"queue_command": {
 					"command": [
@@ -334,7 +335,7 @@
 					]
 				}
 			},
-			"disc_strad": {
+			"music_disc_strad": {
 				"add": {"component_groups": ["disc_strad"]},
 				"queue_command": {
 					"command": [
@@ -344,7 +345,7 @@
 					]
 				}
 			},
-			"disc_wait": {
+			"music_disc_wait": {
 				"add": {"component_groups": ["disc_wait"]},
 				"queue_command": {
 					"command": [
@@ -354,7 +355,7 @@
 					]
 				}
 			},
-			"disc_ward": {
+			"music_disc_ward": {
 				"add": {"component_groups": ["disc_ward"]},
 				"queue_command": {
 					"command": [
@@ -364,7 +365,7 @@
 					]
 				}
 			},
-			"disc_5": {
+			"music_disc_5": {
 				"add": {"component_groups": ["disc_5"]},
 				"queue_command": {
 					"command": [
@@ -374,7 +375,7 @@
 					]
 				}
 			},
-			"disc_relic": {
+			"music_disc_relic": {
 				"add": {"component_groups": ["disc_relic"]},
 				"queue_command": {
 					"command": [
@@ -384,7 +385,7 @@
 					]
 				}
 			},
-			"disc_creator": {
+			"music_disc_creator": {
 				"add": {"component_groups": ["disc_creator"]},
 				"queue_command": {
 					"command": [
@@ -394,7 +395,7 @@
 					]
 				}
 			},
-			"disc_creator_music_box": {
+			"music_disc_creator_music_box": {
 				"add": {"component_groups": ["disc_creator_music_box"]},
 				"queue_command": {
 					"command": [
@@ -404,7 +405,7 @@
 					]
 				}
 			},
-			"disc_precipice": {
+			"music_disc_precipice": {
 				"add": {"component_groups": ["disc_precipice"]},
 				"queue_command": {
 					"command": [

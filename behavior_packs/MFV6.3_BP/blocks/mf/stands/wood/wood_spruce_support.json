@@ -1,154 +1,41 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "medieval:spruce_wood_support",
-      "menu_category": {
-        "category": "construction",
-        "is_hidden_in_commands": false
-      },
-      "states": {
-        "medieval:facing_direction": [
-          2,
-          3,
-          4,
-          5
-        ],
-        "medieval:side": [
-          0,
-          1
-        ]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 2",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              0,
-              0
-            ]
-          },
-          "tag:m.support_wspruce_n": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 3",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              180,
-              0
-            ]
-          },
-          "tag:m.support_wspruce_n": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 4",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              90,
-              0
-            ]
-          },
-          "tag:m.support_wspruce_w": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:facing_direction') == 5",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": [
-              0,
-              -90,
-              0
-            ]
-          },
-          "tag:m.support_wspruce_w": {}
-        }
-      },
-      {
-        "condition": "q.block_state('medieval:side') == 1",
-        "components": {
-          "minecraft:collision_box": {
-            "origin": [
-              -8.0,
-              13,
-              -8.0
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8.0,
-              13,
-              -8.0
-            ],
-            "size": [
-              16,
-              3,
-              16
-            ]
-          }
-        }
-      }
-    ],
-    "components": {
-      "tag:medieval_furniture": {},
-      "minecraft:geometry": {
-        "identifier": "geometry.support_0",
-        "bone_visibility": {
-          "shelf": "q.block_state('medieval:side') == 0"
-        }
-      },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "m.wood_spruce",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:collision_box": {
-        "origin": [
-          -8.0,
-          8.0,
-          -8.0
-        ],
-        "size": [
-          16,
-          8,
-          16
-        ]
-      },
-      "minecraft:selection_box": {
-        "origin": [
-          -8.0,
-          8.0,
-          -8.0
-        ],
-        "size": [
-          16,
-          8,
-          16
-        ]
-      },
-      "minecraft:light_dampening": 0.0,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
-      },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
-      },
-      "minecraft:map_color": "#f7781e"
-    }
-  }
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "medieval:spruce_wood_support",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.supports",
+                "is_hidden_in_commands": false
+            },
+			"states": {
+				"medieval:facing_direction": [2,3,4,5],
+				"medieval:side": [0,1]
+			}
+		},
+		"permutations": [
+			{"condition": "q.block_state('medieval:facing_direction') == 2","components": {"minecraft:transformation": { "rotation": [0,0,0]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 3","components": {"minecraft:transformation": { "rotation": [0,180,0]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 4","components": {"minecraft:transformation": { "rotation": [0,90,0]}}},
+			{"condition": "q.block_state('medieval:facing_direction') == 5","components": {"minecraft:transformation": { "rotation": [0,-90,0]}}},
+			{"condition": "q.block_state('medieval:side') == 1","components": {"minecraft:collision_box": {"origin": [-8.0,13,-8.0],"size": [16,3,16]},"minecraft:selection_box": {"origin": [-8.0,13,-8.0],"size": [16,3,16]}}}
+		],
+		"components": {
+			"tag:medieval_furniture": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.support_0",
+				"bone_visibility": {
+					"shelf": "q.block_state('medieval:side') == 0"
+				}
+			},
+			"minecraft:material_instances": {"*": {"texture": "m.wood_spruce","render_method": "opaque"}},
+			"minecraft:collision_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
+			"minecraft:selection_box": {"origin": [-8.0,8.0,-8.0],"size": [16,8,16]},
+			"minecraft:light_dampening": 0.0,
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 3.0},
+			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.8},
+			"minecraft:custom_components": ["mf:old_rotation2", "mf:support_connection"],
+			"minecraft:map_color": "#91662a"
+		}
+	}
 }

@@ -13,21 +13,10 @@
 			"bones": [
 				{
 					"name": "lantern2",
-					"pivot": [3, 7.9, -1.1],
+					"pivot": [3, 7.9, -0.1],
 					"cubes": [
 						{
-							"origin": [-1.5, 11, -1],
-							"size": [3, 3, 9],
-							"uv": {
-								"north": {"uv": [7, 2], "uv_size": [3, 3], "material_instance": "awood"},
-								"east": {"uv": [0, 2], "uv_size": [9, 3], "material_instance": "awood"},
-								"west": {"uv": [7, 2], "uv_size": [9, 3], "material_instance": "awood"},
-								"up": {"uv": [7, 7], "uv_size": [3, 9], "material_instance": "awood"},
-								"down": {"uv": [10, 9], "uv_size": [-3, -9], "material_instance": "awood"}
-							}
-						},
-						{
-							"origin": [-1.6, 10.9, 1],
+							"origin": [-1.6, 10.9, 2],
 							"size": [3.2, 3.2, 3],
 							"uv": {
 								"east": {"uv": [1, 10], "uv_size": [4, 4], "material_instance": "metal2"},
@@ -41,10 +30,10 @@
 				{
 					"name": "bone",
 					"parent": "lantern2",
-					"pivot": [0, 11, 2.6],
+					"pivot": [0, 11, 3.6],
 					"cubes": [
 						{
-							"origin": [-2.88, -3.28, -0.4],
+							"origin": [-2.88, -3.28, 0.6],
 							"size": [5.76, 6.72, 5.76],
 							"uv": {
 								"north": {"uv": [0, 2], "uv_size": [6, 7], "material_instance": "lantern"},
@@ -56,7 +45,7 @@
 							}
 						},
 						{
-							"origin": [-1.92, 3.44, 0.56],
+							"origin": [-1.92, 3.44, 1.56],
 							"size": [3.84, 1.92, 3.84],
 							"uv": {
 								"north": {"uv": [1, 0], "uv_size": [4, 2], "material_instance": "lantern"},
@@ -67,27 +56,27 @@
 							}
 						},
 						{
-							"origin": [0.08485, 5.36, 1.07515],
+							"origin": [0.08485, 5.36, 2.07515],
 							"size": [0, 1.92, 2.88],
-							"pivot": [0, 11, 2.6],
+							"pivot": [0, 11, 3.6],
 							"rotation": [0, 45, 0],
 							"uv": {
 								"east": {"uv": [11, 10], "uv_size": [3, 2], "material_instance": "lantern"}
 							}
 						},
 						{
-							"origin": [-1.35515, 6.32, 2.51515],
+							"origin": [-1.35515, 6.32, 3.51515],
 							"size": [2.88, 3.84, 0],
-							"pivot": [0, 11, 2.6],
+							"pivot": [0, 11, 3.6],
 							"rotation": [0, 45, 0],
 							"uv": {
 								"south": {"uv": [11, 1], "uv_size": [3, 4], "material_instance": "lantern"}
 							}
 						},
 						{
-							"origin": [0.08485, 9.2, 1.07515],
+							"origin": [0.08485, 9.2, 2.07515],
 							"size": [0, 1.92, 2.88],
-							"pivot": [0, 11, 2.6],
+							"pivot": [0, 11, 3.6],
 							"rotation": [0, 45, 0],
 							"uv": {
 								"east": {"uv": [11, 6], "uv_size": [3, 2], "material_instance": "lantern"}

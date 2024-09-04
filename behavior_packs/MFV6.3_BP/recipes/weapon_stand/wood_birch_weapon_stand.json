@@ -25,7 +25,7 @@
 			{"item": "athos_misc:birch_book"}
 		],
 		"result": {
-			"item": "medieval:wood_birch_weapon_stand",
+			"item": "medieval:wood_birch_ws",
 			"count": 1
 		}
 	}
