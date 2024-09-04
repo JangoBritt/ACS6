@@ -110,6 +110,11 @@
               "test": "has_biome_tag",
               "operator": "==",
               "value": "flower_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "deep_dark"
             }
           ]
         }
