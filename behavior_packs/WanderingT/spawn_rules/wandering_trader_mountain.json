@@ -8,8 +8,8 @@
     "conditions": [
       {
         "minecraft:delay_filter": {
-          "min": 600,
-          "max": 660,
+          "min": 1800,
+          "max": 2400,
           "identifier": "red:wandering_trader_mountain",
           "spawn_chance": 25
         },
