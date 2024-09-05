@@ -171,7 +171,7 @@
             { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:savanna_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
             { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:snow_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
             { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:swamp_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
-            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:taiga_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:taiga_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false }
           ]
         },
         {
