@@ -162,157 +162,16 @@
       "total_exp_required": 70,
       "groups": [
         {
-          "num_to_select": 3,
+          "num_to_select": 2,
           "trades": [
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:blue_wt_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:desert_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:jungle_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:plains_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:savanna_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:snow_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 6,
-                  "price_multiplier": 0.2
-                }
-              ],
-              "gives": [
-                {
-                  "item": "medieval:swamp_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {
-              "wants": [
-                {"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}
-              ],
-              "gives": [
-                {
-                  "item": "medieval:taiga_robe",
-                  "quantity": 1
-                }
-              ],
-              "trader_exp": 20,
-              "max_uses": 1,
-              "reward_exp": false
-            },
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_librarian","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_butcher","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_armorer","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_fletcher","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_shepherd","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_weaponsmith","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_fisherman","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_cartographer","quantity": 1}]},
-            {"max_uses": 1,"wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_farmer","quantity": 1}]}
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:blue_wt_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:desert_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:jungle_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:plains_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:savanna_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:snow_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:swamp_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [ { "item": "minecraft:emerald", "quantity": 6, "price_multiplier": 0.2 } ], "gives": [ { "item": "medieval:taiga_robe", "quantity": 1 } ], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
           ]
         },
         {
@@ -371,6 +230,23 @@
     {
       "total_exp_required": 150,
       "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+
+
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_librarian","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_butcher","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_armorer","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_fletcher","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_shepherd","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_weaponsmith","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_fisherman","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_cartographer","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false },
+            { "wants": [{"item": "minecraft:emerald","quantity": 6,"price_multiplier": 0.2}],"gives": [{"item": "medieval:villager_hat_farmer","quantity": 1}], "trader_exp": 20, "max_uses": 1, "reward_exp": false }
+          ]
+        },
+
         {
           "num_to_select": 1,
           "trades": [
