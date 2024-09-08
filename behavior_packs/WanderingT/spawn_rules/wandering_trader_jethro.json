@@ -10,7 +10,7 @@
         "minecraft:delay_filter": {
           "min": 1800,
           "max": 2400,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_jethro",
           "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},

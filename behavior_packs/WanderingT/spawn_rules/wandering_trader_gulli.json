@@ -10,7 +10,7 @@
         "minecraft:delay_filter": {
           "min": 1800,
           "max": 2400,
-          "identifier": "red:wandering_trader_athos",
+          "identifier": "red:wandering_trader_gulli",
           "spawn_chance": 25
         },
         "minecraft:spawns_on_surface": {},
@@ -25,18 +25,8 @@
           "any_of": [
             {
               "test": "has_biome_tag",
-              "operator": "==",
-              "value": "extreme_hills"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "deep_dark"
+              "operator": "!=",
+              "value": "animal"
             }
           ]
         }
@@ -89,15 +79,6 @@
         },
         "minecraft:density_limit": {
           "surface": 1
-        },
-        "minecraft:biome_filter": {
-          "any_of": [
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "animal"
-            }
-          ]
         }
       }
     ]
