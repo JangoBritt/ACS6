@@ -26,9 +26,9 @@
                   "max_size": 3
                 },
                 "minecraft:biome_filter": {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "animal"
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "monster"
                 }
               },
             {
