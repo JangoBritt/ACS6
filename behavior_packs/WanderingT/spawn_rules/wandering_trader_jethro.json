@@ -25,18 +25,8 @@
           "any_of": [
             {
               "test": "has_biome_tag",
-              "operator": "==",
-              "value": "extreme_hills"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "deep_dark"
+              "operator": "!=",
+              "value": "animal"
             }
           ]
         }
