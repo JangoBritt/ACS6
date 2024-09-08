@@ -541,7 +541,7 @@
 										"test": "is_family",
 										"subject": "other",
 										"operator": "!=",
-										"value": "mobvotejs7:tuff_golem"
+										"value": "athos_golem:tuff_golem"
 									}
 								]
 							},

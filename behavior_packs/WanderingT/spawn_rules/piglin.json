@@ -14,8 +14,8 @@
                   "minecraft:crying_obsidian"
                 ],
                 "minecraft:brightness_filter": {
-                  "min": 2,
-                  "max": 15,
+                  "min": 0,
+                  "max": 4,
                   "adjust_for_weather": false
                 },
                 "minecraft:weight": {
@@ -26,9 +26,9 @@
                   "max_size": 3
                 },
                 "minecraft:biome_filter": {
-                  "test": "has_biome_tag",
-                  "operator": "==",
-                  "value": "animal"
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "monster"
                 }
               },
             {
