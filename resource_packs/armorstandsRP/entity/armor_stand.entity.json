@@ -201,7 +201,8 @@
 					"marker_sm",
 					"rotateX",
 					"rotateZ",
-					"sit"
+					"sit",
+					"scale" //structura @RavinMadHatter
 				],
 				"pre_animation": [
 					"variable.marker_sphere = query.get_equipped_item_name('main_hand') == 'banner' && variable.armor_stand.pose_index == 1;",
@@ -289,87 +290,34 @@
 			},
 			"render_controllers": [
 				"controller.render.fnt.armor_stand",
-				{
-					"controller.render.marker.sphere_inner": "variable.marker_sphere"
-				},
-				{
-					"controller.render.marker.sphere_outer": "variable.marker_sphere"
-				},
-				{
-					"controller.render.marker.chunk": "variable.marker_chunk"
-				},
-				{
-					"controller.render.marker.compass": "variable.marker_compass"
-				},
-				{
-					"controller.render.marker.dist_u": "variable.marker_distance"
-				},
-				{
-					"controller.render.marker.dist_t": "variable.marker_distance"
-				},
-				{
-					"controller.render.marker.day_title": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_u": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_t": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_h": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_k": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_k2": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.day_k3": "variable.marker_day"
-				},
-				{
-					"controller.render.marker.fps_title": "variable.marker_fps"
-				},
-				{
-					"controller.render.marker.fps_h": "variable.marker_fps"
-				},
-				{
-					"controller.render.marker.fps_t": "variable.marker_fps"
-				},
-				{
-					"controller.render.marker.fps_u": "variable.marker_fps"
-				},
-				{
-					"controller.render.marker.time_ticks": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_u": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_t": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_h": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_k": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_k2": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_k3": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.time_k3": "variable.marker_time"
-				},
-				{
-					"controller.render.marker.spawner_inner": "variable.marker_spawner"
-				},
-				{
-					"controller.render.marker.spawner_outer": "variable.marker_spawner"
-				}
+				{ "controller.render.marker.sphere_inner": "variable.marker_sphere" },
+				{ "controller.render.marker.sphere_outer": "variable.marker_sphere" },
+				{ "controller.render.marker.chunk": "variable.marker_chunk" },
+				{ "controller.render.marker.compass": "variable.marker_compass" },
+				{ "controller.render.marker.dist_u": "variable.marker_distance" },
+				{ "controller.render.marker.dist_t": "variable.marker_distance" },
+				{ "controller.render.marker.day_title": "variable.marker_day" },
+				{ "controller.render.marker.day_u": "variable.marker_day" },
+				{ "controller.render.marker.day_t": "variable.marker_day" },
+				{ "controller.render.marker.day_h": "variable.marker_day" },
+				{ "controller.render.marker.day_k": "variable.marker_day" },
+				{ "controller.render.marker.day_k2": "variable.marker_day" },
+				{ "controller.render.marker.day_k3": "variable.marker_day" },
+				{ "controller.render.marker.fps_title": "variable.marker_fps" },
+				{ "controller.render.marker.fps_h": "variable.marker_fps" },
+				{ "controller.render.marker.fps_t": "variable.marker_fps" },
+				{ "controller.render.marker.fps_u": "variable.marker_fps" },
+				{ "controller.render.marker.time_ticks": "variable.marker_time" },
+				{ "controller.render.marker.time_u": "variable.marker_time" },
+				{ "controller.render.marker.time_t": "variable.marker_time" },
+				{ "controller.render.marker.time_h": "variable.marker_time" },
+				{ "controller.render.marker.time_k": "variable.marker_time" },
+				{ "controller.render.marker.time_k2": "variable.marker_time" },
+				{ "controller.render.marker.time_k3": "variable.marker_time" },
+				{ "controller.render.marker.time_k3": "variable.marker_time" },
+				{ "controller.render.marker.spawner_inner": "variable.marker_spawner" },
+				{ "controller.render.marker.spawner_outer": "variable.marker_spawner" },
+				"controller.render.armor_stand.ghost_blocks" //structura @RavinMadHatter
 			],
 			"enable_attachables": true
 		}
