@@ -4,7 +4,7 @@
 		"description": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
 		"name": "MrCrayFish Furniture V1.2 [BP 1.21.20+]",
 		"uuid": "95cc40f0-999b-49b8-8311-c8aaaa887ed6",
-		"version": [0,2,0],
+		"version": [1,2,1],
 		"min_engine_version": [1,21,20]
 	},
 	"modules": [
@@ -12,7 +12,7 @@
 			"description": "data",
 			"type": "data",
 			"uuid": "332d3db8-0413-4a33-9b28-d1a7fc281645",
-			"version": [0,2,0]
+			"version": [1,2,1]
 		},
 		{
 			"description": "Javascript",
@@ -26,7 +26,7 @@
 	"dependencies": [
 		{
 			"uuid": "51284a03-e6fe-49e7-a042-aa0002a8e98f",
-			"version": [0,2,0]
+			"version": [1,2,1]
 		},
 		{
 			"module_name": "@minecraft/server",

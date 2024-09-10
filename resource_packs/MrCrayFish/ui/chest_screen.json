@@ -360,11 +360,11 @@
 			{
 				"requires": "($new_container_title = 'drawer')",
 				"$use_custom_pocket_toast": true,
-				"$root_panel": "chest.inventory_9_root_panel",
-				"$screen_content": "chest.inventory_9_root_panel",
+				"$root_panel": "chest.inventory_18_root_panel",
+				"$screen_content": "chest.inventory_18_root_panel",
 				"$new_container_title": "inventory.mr.kitchen_drawer.name",
 				"$backg": "common.dialog_background_opaque",
-				"$container_size": 9,
+				"$container_size": 18,
 				"$container_color": "small"
 			},
 			{

@@ -28,7 +28,7 @@ export class MrPlaceContainer {
 			{ key: "_bedside_cabinet_mr", nameTag: "bedside_cabinet", event: "mr:inventory_9" },
 			{ key: "_cabinet_mr", nameTag: "cabinet", event: "mr:inventory_18", exclude: ["bedside", "desk"] },
 			{ key: "_crate_mr", nameTag: "crate", event: "mr:inventory_27" },
-			{ key: "_drawer_mr", nameTag: "drawer", event: "mr:inventory_9" },
+			{ key: "_drawer_mr", nameTag: "drawer", event: "mr:inventory_18" },
 			{ key: "_cooler_mr", nameTag: "cooler", event: "mr:inventory_9", adjustY: -0.2 },
 			{ key: "_desk_cabinet_mr", nameTag: "desk_cabinet", event: "mr:inventory_9" }
 		];
