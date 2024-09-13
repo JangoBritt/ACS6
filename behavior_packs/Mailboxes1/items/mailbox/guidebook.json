@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.Box"
+			},
+			"identifier": "mb:guidebook_mailboxes"
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+                    "minecraft:bookshelf_books"
+                ]
+            },
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:icon": "mb.guidebook_mailboxes",
+			"minecraft:display_name": {
+				"value": "item.mb:guidebook_mailboxes"
+			},
+			"minecraft:custom_components": ["mb:guidebook"]
+		}
+	}
+}

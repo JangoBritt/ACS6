@@ -27,23 +27,28 @@
             {
               "test": "has_biome_tag",
               "operator": "==",
-              "value": "animal"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "extreme_hills"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "ocean"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "deep_dark"
+              "value": "void" //"monster"
             }
+            // {
+            //   "test": "has_biome_tag",
+            //   "operator": "==",
+            //   "value": "animal"
+            // },
+            // {
+            //   "test": "has_biome_tag",
+            //   "operator": "==",
+            //   "value": "extreme_hills"
+            // },
+            // {
+            //   "test": "has_biome_tag",
+            //   "operator": "==",
+            //   "value": "ocean"
+            // },
+            // {
+            //   "test": "has_biome_tag",
+            //   "operator": "==",
+            //   "value": "deep_dark"
+            // }
           ]
         }
       },
@@ -74,7 +79,7 @@
             {
               "test": "has_biome_tag",
               "operator": "==",
-              "value": "flower_forest"
+              "value": "void" //"flower_forest"
             }
           ]
         }

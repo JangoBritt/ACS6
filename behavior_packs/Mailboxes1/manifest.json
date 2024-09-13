@@ -1,48 +1,40 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Mailboxes 1.21.0 [BP] for Minecraft PE",
-		"name": "Mailboxes 1.21.0 [BP] §bBy EndXenoc",
-		"uuid": "8c2947de-3f23-4e53-9081-9ecc4fd75be7",
-		"version": [
-			0,
-			0,
-			1
-		],
-		"min_engine_version": [
-			1,
-			20,
-			30
-		]
+		"description": "Mailboxes V1.2 [BP 1.21.20+]",
+		"name": "Mailboxes V1.2 [BP 1.21.20+] §bBy EndXenoc",
+		"uuid": "3a36b38b-3e54-4cb4-b99d-139e1c275901",
+		"version": [1,2,0],
+		"min_engine_version": [1,21,20]
 	},
 	"modules": [
 		{
-			"description": "Data",
+			"description": "data",
 			"type": "data",
-			"uuid": "e584c4d3-f0c7-4dee-8a5c-c9bf2ad5072b",
-			"version": [
-				0,
-				0,
-				2
-			]
+			"uuid": "e1250ef0-4d7a-45cf-bcfd-9b14ba75239c",
+			"version": [1,2,0]
 		},
 		{
-			"description": "JS",
+			"description": "javascript",
 			"language": "javascript",
 			"type": "script",
-			"uuid": "5bb61c8b-f153-4c15-bfed-5a87fade6ab8",
-			"version": [0,0,2],
-			"entry": "scripts/Main.js"
+			"uuid": "44e5a098-4639-47cd-bd22-ce9a75063bf0",
+			"version": [1,2,0],
+			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
+			"uuid": "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b",
+			"version": [1,2,0]
+		},
+		{
 			"module_name": "@minecraft/server",
-			"version": "1.14.0-beta"
+			"version": "1.13.0"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
-			"version": "1.3.0-beta"
+			"version": "1.2.0"
 		}
 	]
 }

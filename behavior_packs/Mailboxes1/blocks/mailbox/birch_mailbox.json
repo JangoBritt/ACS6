@@ -1,10 +1,11 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mb:birch_mailbox",
 			"menu_category": {
-				"category": "construction"
+				"category": "construction",
+				"group": "itemGroup.name.mailBoxes"
 			},
 			"traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"],"y_rotation_offset": 180}}
 		},
@@ -22,8 +23,8 @@
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 9999.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.5},
+			"minecraft:custom_components": ["mb:mailbox"],
 			"minecraft:map_color": "#f0efd3"
 		}
 	}
 }
-

@@ -42,3 +42,25 @@ form.shipment_cancelled=§cEl envío ha sido cancelado
 form.box_sent=Has enviado un paquete a: §e%s
 form.problem_shipment=§cHubo un error al enviar el paquete
 form.box_already_used=§cEl paquete ya ha sido abierto
+form.restricted_item=§cNo puedes enviar cajas de Shulker ni libros escribibles
+
+form.text.create_mailbox_placeholder=Máx. 25 caracteres
+form.create.resctric_to_owner=Restringir al propietario
+form.open_box.message=§lEste paquete contiene un mensaje:§r %s
+form.send_menu.player_list=Lista de jugadores
+form.send_menu.select_player=Selecciona un jugador
+form.send_menu.player_mailboxes=Buzones de %s
+form.send_menu.message_optional=Mensaje (Opcional)
+form.send_menu.message=Mensaje
+form.send_menu.hide_items=Ocultar ítems
+form.send_menu.inventory_full=El buzón tiene el inventario lleno
+item.mb:guidebook_mailboxes=Libro guía [Mailboxes]
+
+guidebook.page_2_0=§lIntroducción§r                                                       El Addon Mailboxes introduce buzones y paquetes de madera en el juego. Este Addon es muy útil, ya que te permite enviar paquetes a cualquier parte, tanto si juegas en solitario como con amigos.
+guidebook.page_3_0=§lBuzones§r                    Para empezar, tienes que construir un nuevo buzón utilizando la mesa de trabajo. Para ello, necesitas tablones de madera o troncos sin corteza.
+guidebook.page_4_0=Este bloque recibe paquetes. Colócalo, interactúa con él para asignarle un nombre y elige si el inventario será privado o accesible para todos.
+guidebook.page_5_0=§lBuzon de envío§r             Este buzón permite enviar ítems a otros jugadores mediante paquetes.
+guidebook.page_5_1=§lPaquetes
+guidebook.page_6_0=Coloca al menos un ítem en el buzón de envío e interactúa con el bloque usando un paquete para seleccionar un buzón de destino.
+guidebook.page_7_0=Selecciona un buzón, deja un mensaje opcional (se mostrará al abrir el paquete) y decide si ocultar el contenido del paquete.
+guidebook.page_8_0=Al enviar el paquete, se consumirá uno de tu inventario. Si el buzón de destino está lleno, no podrás enviarlo.                           Ten en cuenta que ítems como cajas de Shulker o paquetes llenos no se pueden enviar.

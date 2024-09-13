@@ -13,22 +13,6 @@
 					"delay": 0,
 					"into": "mr:no_sound_mr"
 				}
-			},
-			"mb:sensor": {
-				"minecraft:entity_sensor": {
-					"sensor_range": 15,
-					"minimum_count": 1,
-					"event_filters": {
-						"all_of": [
-							{ "test": "is_family", "subject": "other", "value": "player" }
-						]
-					},
-					"event": "mb:destroy"
-				},
-				"minecraft:collision_box": {
-					"width": 0.0,
-					"height": 0.0
-				}
 			}
 		},
 		"components": {
@@ -65,7 +49,7 @@
 			"minecraft:item_hopper": {},
 			"minecraft:collision_box": {
 				"width": 1,
-				"height": 0.4
+				"height": 0.2
 			},
 			"minecraft:pushable": {
 				"is_pushable": false,
@@ -125,13 +109,6 @@
 					"command": [
 						"kill @s",
 						"tp @e[type=item,r=1] ~~~"
-					]
-				}
-			},
-			"mb:sensor": {
-				"add": {
-					"component_groups": [
-						"mb:sensor"
 					]
 				}
 			},

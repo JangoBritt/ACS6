@@ -1,0 +1,140 @@
+{
+	"namespace": "server_form",
+	"long_form": {
+		"type": "panel",
+		"size": ["100%", "100%"],
+		"controls": [
+			{
+				"long_form@common_dialogs.main_panel_no_buttons": {
+					"$title_panel": "common_dialogs.standard_title_label",
+					"$title_size": [ "100% - 14px", 10 ],
+					"size": [225, 200],
+					"$text_name": "#title_text",
+					"$title_text_binding_type": "none",
+					"$child_control": "server_form.long_form_panel",
+					"layer": 2,
+					"bindings": [
+						{
+							"binding_name": "#title_text"
+						},
+						{
+							"binding_type": "view",
+							"source_property_name": "((#title_text - 'Mailbox Guidebook') = #title_text)",
+							"target_property_name": "#visible"
+						}
+					]
+				}
+			},
+			{
+				"mailbox_guidebook": {
+					"type": "panel",
+					"size": ["100%", "100%"],
+					"layer": 2,
+					"controls": [
+						{
+							"main_panel@server_form.main_panel": {}
+						}
+					],
+					"bindings": [
+						{
+							"binding_name": "#title_text"
+						},
+						{
+							"binding_type": "view",
+							"source_property_name": "(not ((#title_text - 'Mailbox Guidebook') = #title_text))",
+							"target_property_name": "#visible"
+						}
+					]
+				}
+			}
+		]
+	},
+	"main_panel": {
+		"type": "panel",
+		"size": ["100%", "100%"],
+		"controls": [
+			{
+				"long_form_dynamic_buttons_panel": {
+					"type": "stack_panel",
+					"size": ["100%c", 50],
+					"orientation": "horizontal",
+					"anchor_from": "center",
+					"anchor_to": "center",
+
+					"factory": {
+						"name": "buttons",
+						"control_name": "server_form.custom_button"
+					},
+					"collection_name": "form_buttons",
+					"bindings": [
+						{
+							"binding_name": "#form_button_length",
+							"binding_name_override": "#collection_length"
+						}
+					]
+				}
+			},
+			{
+				"bg_image": {
+					"type": "image",
+					"size": [350,250],
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"texture": "textures/ui/mailbox/guide/guidebook_bg",
+					"layer": 3,
+					"controls": [
+						{
+							"guidebook": {
+								"type": "panel",
+								"size": [324, 190],
+								"offset": [0,-10],
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"controls": [
+									{"page-1-2@mailbox_guidebook.page-1-2": {}},
+									{"page-3-4@mailbox_guidebook.page-3-4": {}},
+									{"page-5-6@mailbox_guidebook.page-5-6": {}},
+									{"page-7-8@mailbox_guidebook.page-7-8": {}}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"close_button@common.close_button": {
+					"$close_button_offset": [
+						170,
+						-120
+					]
+				}
+			}
+		]
+	},
+	"custom_button": {
+		"type": "panel",
+		"size": [306, 18],
+		"controls": [
+			{
+				"main_ui": {
+					"type": "panel",
+					"size": ["100%", "100%"],
+					"offset": [0, 115.5],
+					"controls": [
+						{
+							"panel_name": {
+								"type": "panel",
+								"size": ["100%", "100%"],
+								"controls": [
+									{
+										"inventory_item@mailbox_guidebook.inventory_item": {}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}
