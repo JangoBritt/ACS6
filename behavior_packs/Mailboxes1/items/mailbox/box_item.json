@@ -1,11 +1,12 @@
 {
-	"format_version": "1.20.80",
+	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mb:box_item",
 			"menu_category": {
-				"category": "items"
-			}
+				"category": "equipment",
+				"group": "itemGroup.name.Box"
+			},
+			"identifier": "mb:box_item"
 		},
 		"components": {
 			"minecraft:max_stack_size": 16,

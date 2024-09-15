@@ -1,0 +1,58 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mb:box_container",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mb:despawn": {"minecraft:instant_despawn": {}}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					  "chest",
+					  "inanimate"
+				]
+		  	},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:nameable": {},
+			"minecraft:persistent": {},
+			"minecraft:tick_world": {},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": true,
+				"container_type": "inventory",
+				"inventory_size": 6,
+				"restrict_to_owner": true
+		  	}
+		},
+		"events": {
+			"mb:despawn": {"add": {"component_groups": ["mb:despawn"]}}
+		}
+	}
+}

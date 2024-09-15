@@ -41,6 +41,14 @@
 					"restrict_to_owner": false
 				}
 			},
+			"mr:inventory_54": {
+				"minecraft:inventory": {
+					"can_be_siphoned_from": true,
+					"container_type": "inventory",
+					"inventory_size": 54,
+					"restrict_to_owner": false
+				}
+			},
 			"mr:inventory_mail": {
 				"minecraft:inventory": {
 					"can_be_siphoned_from": false,

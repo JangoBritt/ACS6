@@ -410,8 +410,8 @@
 			{
 				"requires": "($new_container_title = 'fridge')",
 				"$use_custom_pocket_toast": true,
-				"$root_panel": "chest.inventory_27_root_panel",
-				"$screen_content": "chest.inventory_27_root_panel",
+				"$root_panel": "chest.inventory_54_root_panel",
+				"$screen_content": "chest.inventory_54_root_panel",
 				"$new_container_title": "inventory.mr.fridge.name",
 				"$backg": "common.dialog_background_opaque",
 				"$container_size": 27,

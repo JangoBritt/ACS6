@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mb:guidebook_mailboxes"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" P ",
+			"P#P",
+			" P "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:book"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			}
+		},
+		"unlock": [
+			{"item": "minecraft:book"},
+			{"item": "minecraft:leather"},
+			{"item": "minecraft:paper"}
+		],
+		"result": {
+			"item": "mb:guidebook_mailboxes",
+			"count": 1
+		}
+	}
+}
+
+
+
