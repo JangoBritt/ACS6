@@ -1,88 +1,88 @@
 
 [
-	
+		
 	{
-		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f",
+		"pack_id" : "98836a6c-fe16-60f4-87a4-5afb6439bd9f", //Farmers Delight
 		"version" : [ 2, 1, 4 ]
 	},
-	
+
 	{
-		"pack_id" : "51284a03-e6fe-49e7-a042-aa0002a8e98f",
+		"pack_id" : "51284a03-e6fe-49e7-a042-aa0002a8e98f", //MrCrayFish Furniture
 		"version" : [ 1, 2, 1 ]
 	},
-	
+
 	{
-		"pack_id" : "67cbb081-a7de-456d-93e6-65303e257827",
-		"version" : [ 0, 0, 2 ]
+		"pack_id" : "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b",  //Mailboxes
+		"version" : [ 1, 2, 1 ]
 	},
-	
+
 	{
-		"pack_id" : "5c2e165b-9240-478e-a4b1-d98804e33476",
+		"pack_id" : "5c2e165b-9240-478e-a4b1-d98804e33476", //FXNT Armor Stand
 		"version" : [ 2, 1, 1 ]
 	},
-	
 	{
-		"pack_id" : "5f579963-21e7-4945-ac23-b11e2a0f018c",
+		"pack_id" : "5f579963-21e7-4945-ac23-b11e2a0f018c", //FXNT MiniBlocks
 		"version" : [ 7, 4, 3 ]
 	},
 	
 	{
-		"pack_id" : "ac9817a6-8634-4493-b7e1-70b560d28cbe",
+		"pack_id" : "ac9817a6-8634-4493-b7e1-70b560d28cbe", //Medieval Furniture
 		"version" : [ 6, 4, 0 ]
 	},
+
 	
 	{
-		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543",
+		"pack_id" : "43120e01-773d-4667-a1cd-fb5d6fb84543", //Athos Glass
 		"version" : [ 6, 0, 0 ]
 	},
 	
 	{
-		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64",
+		"pack_id" : "8850b6e4-469e-4084-9d25-d5367dcb7c64", //Athos Frames
 		"version" : [ 6, 0, 0 ]
 	},
 	
 	{
-		"pack_id" : "20002000-ab12-2222-2222-b000b000b000",
-		"version" : [ 1, 10, 12 ]
+		"pack_id" : "20002000-ab12-2222-2222-b000b000b000", //Abandoned Ruins
+		"version" : [ 1, 10, 21 ]
 	},
 	
 	{
-		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e",
+		"pack_id" : "910ddcde-dac0-4e42-846d-bbd345f6869e", //Athos Currency
 		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
-		"pack_id" : "20002000-1223-2222-2222-b000b000b000",
+		"pack_id" : "20002000-1223-2222-2222-b000b000b000", //Lamps
 		"version" : [ 1, 8, 4 ]
 	},
 	
 	{
-		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09",
+		"pack_id" : "3a0fc7bb-4703-47fb-935f-bd6a1d9cac09", //Athos Golems
+		"version" : [ 6, 1, 0 ]
+	},
+	
+	{ 
+		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9", //Athos Medals
 		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
-		"pack_id" : "3a71bf5a-e4fc-4cc1-aece-dcd17980a3d9",
-		"version" : [ 6, 1, 0 ]
-	},
-	
-	{
-		"pack_id" : "8cc04773-f094-4871-9998-d7a1bc27fbdf",
+		"pack_id" : "8cc04773-f094-4871-9998-d7a1bc27fbdf", //FXNT Mob Heads
 		"version" : [ 3, 5, 0 ]
 	},
 	
 	{
-		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80",
+		"pack_id" : "f71c753f-e73d-4959-ab45-af8ab1dafa80", //Athos Paintings
 		"version" : [ 6, 1, 1 ]
 	},
 	
 	{
-		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113",
+		"pack_id" : "b1c6e1b7-221b-4b6d-8691-85e35cf0e113", //Wandering Trader
 		"version" : [ 6, 1, 0 ]
 	},
 	
 	{
-		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9",
+		"pack_id" : "04051855-530c-4cea-999b-9ead1c0850d9", //Athos Avatars
 		"version" : [ 6, 2, 1 ]
 	}
 ]

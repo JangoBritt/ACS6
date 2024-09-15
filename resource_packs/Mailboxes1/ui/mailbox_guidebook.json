@@ -1,0 +1,373 @@
+{
+	"namespace": "mailbox_guidebook",
+	"inventory_button@common.button": {
+		"$pressed_button_name": "button.form_button_click",
+		"hover_control": "hover",
+		"controls": [
+			{
+				"hover@mailbox_guidebook.hover_control": {}
+			}
+		],
+		"bindings": [
+			{
+				"binding_name": "#null",
+				"binding_type": "collection",
+				"binding_condition": "none",
+				"binding_collection_name": "form_buttons"
+			},
+			{
+				"binding_name": "#null",
+				"binding_type": "collection_details",
+				"binding_collection_name": "form_buttons"
+			},
+			{
+				"binding_name": "#form_button_text",
+				"binding_type": "collection",
+				"binding_collection_name": "form_buttons"
+			},
+			{
+				"binding_name": "#null",
+				"binding_type": "view",
+				"source_property_name": "(not (#form_button_text = ''))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"hover_control": {
+		"type": "panel",
+		"size": ["100%c","100%c"],
+		"controls": [
+			{
+				"hovering_image": {
+					"type": "panel",
+					"size": [28,18],
+					"controls": [
+						{
+							"highlight_slot": {
+								"type": "image",
+								"texture": "textures/ui/mailbox/guide/slot",
+								"layer": 10
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"inventory_item": {
+		"type": "stack_panel",
+		"size": [28,18],
+		"layer": 2,
+		"controls": [
+			{
+				"inventory_button@mailbox_guidebook.inventory_button": {}
+			}
+		]
+	},
+	"page-1-2": {
+		"type": "panel",
+		"$page_name": "Mailbox Guidebook 1 - 2",
+		"controls": [
+			{
+				"page_left": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"controls": [
+						{
+							"paper-1": {
+								"type": "image",
+								"size": [150,50],
+								"anchor_from": "center",
+								"anchor_to": "center",
+								"texture": "textures/ui/mailbox/guide/guidebook_title"
+							}
+						}
+					]
+				}
+			},
+			{
+				"page_right": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_right",
+					"anchor_to": "top_right",
+					"controls": [
+						{
+							"paper-2-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_2_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-2-2": {
+								"type": "image",
+								"size": [150,100],
+								"offset": [0,100],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-1"
+							}
+						}
+					]
+				}
+			}
+		],
+		"bindings": [
+			{
+				"binding_name": "#title_text"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#title_text - $page_name) = #title_text))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"page-3-4": {
+		"type": "panel",
+		"$page_name": "Mailbox Guidebook 3 - 4",
+		"controls": [
+			{
+				"page_left": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"controls": [
+						{
+							"paper-3-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_3_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-3-2": {
+								"type": "image",
+								"size": [150,55],
+								"offset": [0,75],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-2-1"
+							}
+						},
+						{
+							"paper-3-3": {
+								"type": "image",
+								"size": [150,55],
+								"offset": [0,135],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-2-2"
+							}
+						}
+					]
+				}
+			},
+			{
+				"page_right": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_right",
+					"anchor_to": "top_right",
+					"controls": [
+						{
+							"paper-4-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_4_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-4-2": {
+								"type": "image",
+								"size": [150,125],
+								"offset": [0,65],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-3"
+							}
+						}
+					]
+				}
+			}
+		],
+		"bindings": [
+			{
+				"binding_name": "#title_text"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#title_text - $page_name) = #title_text))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"page-5-6": {
+		"type": "panel",
+		"$page_name": "Mailbox Guidebook 5 - 6",
+		"controls": [
+			{
+				"page_left": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"controls": [
+						{
+							"paper-5-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_5_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-5-2": {
+								"type": "image",
+								"size": [150,55],
+								"offset": [0,55],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-5-1"
+							}
+						},
+						{
+							"paper-5-3": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"offset": [0,115],
+								"text": "guidebook.page_5_1",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-5-4": {
+								"type": "image",
+								"size": [150,55],
+								"offset": [0,130],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-5-2"
+							}
+						}
+					]
+				}
+			},
+			{
+				"page_right": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_right",
+					"anchor_to": "top_right",
+					"controls": [
+						{
+							"paper-6-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_6_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-6-2": {
+								"type": "image",
+								"size": [150,125],
+								"offset": [0,65],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-6-1"
+							}
+						}
+					]
+				}
+			}
+		],
+		"bindings": [
+			{
+				"binding_name": "#title_text"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#title_text - $page_name) = #title_text))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"page-7-8": {
+		"type": "panel",
+		"$page_name": "Mailbox Guidebook 7 - 8",
+		"controls": [
+			{
+				"page_left": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_left",
+					"anchor_to": "top_left",
+					"controls": [
+						{
+							"paper-7-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_7_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						},
+						{
+							"paper-7-2": {
+								"type": "image",
+								"size": [150,125],
+								"offset": [0,65],
+								"anchor_from": "top_middle",
+								"anchor_to": "top_middle",
+								"texture": "textures/ui/mailbox/guide/guidebook_page-7-1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"page_right": {
+					"type": "panel",
+					"size": [150,190],
+					"offset": [0,0],
+					"anchor_from": "top_right",
+					"anchor_to": "top_right",
+					"controls": [
+						{
+							"paper-8-1": {
+								"type": "label",
+								"size": ["100%","100%"],
+								"text": "guidebook.page_8_0",
+								"color": [0.56, 0.33, 0.23]
+							}
+						}
+					]
+				}
+			}
+		],
+		"bindings": [
+			{
+				"binding_name": "#title_text"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not ((#title_text - $page_name) = #title_text))",
+				"target_property_name": "#visible"
+			}
+		]
+	}
+}

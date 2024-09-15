@@ -17,22 +17,27 @@
 			"mb:despawn": {"minecraft:instant_despawn": {}},
 			"mb:unlock": {
 				"minecraft:tameable": {
-					"probability": 1.0,
-					"tame_items": "paper",
+					"probability": 0.001,
+					"tame_items": "bedrock",
 					"tame_event": {
 						"event": "minecraft:on_tame",
 						"target": "self"
 					}
+				},
+				"minecraft:inventory": {
+					"can_be_siphoned_from": true,
+					"container_type": "inventory",
+					"inventory_size": 18,
+					"restrict_to_owner": false
 				}
 			},
 			"mb:lock_owner": {
 				"minecraft:inventory": {
-					"can_be_siphoned_from": false,
+					"can_be_siphoned_from": true,
 					"container_type": "inventory",
 					"inventory_size": 18,
 					"restrict_to_owner": true
 				},
-				"minecraft:item_hopper": {},
 				"minecraft:is_tamed":{}
 			}
 		},
@@ -43,7 +48,6 @@
 					  "inanimate"
 				]
 		  	},
-			"minecraft:item_hopper": {},
 			"minecraft:collision_box": {
 				"width": 1,
 				"height": 0.4
@@ -52,6 +56,8 @@
 				"is_pushable": false,
 				"is_pushable_by_piston": false
 			},
+			"minecraft:persistent": {},
+			"minecraft:tick_world": {},
 			"minecraft:physics": {
 				"has_collision": false,
 				"has_gravity": false
@@ -69,12 +75,6 @@
 				"max": 1
 			},
 			"minecraft:nameable": {},
-			"minecraft:inventory": {
-				"can_be_siphoned_from": true,
-				"container_type": "inventory",
-				"inventory_size": 18,
-				"restrict_to_owner": false
-		  	},
 			"minecraft:on_death": {
 				"event": "mb:no_particle",
 				"target": "self"
@@ -95,25 +95,13 @@
 		},
 		"events": {
 			"minecraft:entity_spawned": {
-				"add": {
-					"component_groups": [
-						"mb:unlock"
-					]
-				}
+				"add": {"component_groups": ["mb:unlock"]}
 			},
 			"mb:destroy": {
-				"queue_command": {
-					"command": [
-						"kill @s"
-					]
-				}
+				"queue_command": {"command": ["kill @s"]}
 			},
 			"mb:no_particle": {
-				"add": {
-					"component_groups": [
-						"mb:no_particle"
-					]
-				}
+				"add": {"component_groups": ["mb:no_particle"]}
 			},
 			"minecraft:on_tame": {
 				"add": {"component_groups": ["mb:lock_owner"]},

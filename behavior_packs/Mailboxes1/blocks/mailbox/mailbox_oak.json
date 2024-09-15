@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.30",
+	"format_version": "1.21.10",
 	"minecraft:block": {
 		"description": {
 			"identifier": "mb:oak_mail_box",
@@ -18,14 +18,13 @@
 		"components": {
 			"minecraft:geometry": "geometry.mb.wooden_mailbox",
 			"minecraft:material_instances": {"*": {"texture": "mb.oak_mail_box","render_method": "alpha_test"}},
-			"minecraft:collision_box": {"origin": [-6,0,-5.5],"size": [12,16,12]},
-			"minecraft:selection_box": {"origin": [-6,0,-5.5],"size": [12,16,12]},
+			"minecraft:collision_box": {"origin": [-6, 0, -8],"size": [12, 16, 16]},
+			"minecraft:selection_box": {"origin": [-6, 0, -8],"size": [12, 16, 16]},
 			"minecraft:light_dampening": 0.0,
 			"minecraft:destructible_by_explosion": {"explosion_resistance": 9999.0},
 			"minecraft:destructible_by_mining": {"seconds_to_destroy": 0.5},
+			"minecraft:custom_components": ["mb:mailbox"],
 			"minecraft:map_color": "#ab8b3f"
 		}
 	}
 }
-
-

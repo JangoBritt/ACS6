@@ -1,10 +1,9 @@
-import { world, EnchantmentTypes, ItemEnchantableComponent } from '@minecraft/server';
+import { world } from '@minecraft/server';
 
 class Box {
     constructor(id, itemList) {
         this.id = id;
         this.itemList = itemList;
-
     }
 }
 class BoxItem {

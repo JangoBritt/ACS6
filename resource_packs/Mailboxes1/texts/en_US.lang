@@ -42,4 +42,25 @@ form.shipment_cancelled=§cThe shipment has been canceled
 form.box_sent=You have sent a package to: §e%s
 form.problem_shipment=§cThere was an error sending the package
 form.box_already_used=§cThe package has already been opened
-form.restricted_item=§cYou cannot send Shulker boxes or writable books
+form.restricted_item=§cYou cannot send Shulker boxes
+
+form.text.create_mailbox_placeholder=Max. 25 characters
+form.create.resctric_to_owner=Restrict to owner
+form.open_box.message=§lThis package contains a message:§r %s
+form.send_menu.player_list=Players list
+form.send_menu.select_player=Select a player
+form.send_menu.player_mailboxes=%s mailboxes
+form.send_menu.message_optional=Message (Optional)
+form.send_menu.message=Message
+form.send_menu.hide_items=Hide items
+form.send_menu.inventory_full=The mailbox inventory is full
+item.mb:guidebook_mailboxes=Guide book [Mailboxes]
+
+guidebook.page_2_0=§lIntroduction§r                                                        The Mailboxes Addon introduces mailboxes and packages into the game. This Addon is very useful, as it allows you to send packages anywhere, whether you play alone or with friends.
+guidebook.page_3_0=§lMailboxes§r                      To begin, you need to craft a new mailbox using the crafting table. For this, you need wooden planks or stripped logs.
+guidebook.page_4_0=This block receives packages. Place it, interact with it to assign it a name and choose whether the inventory will be private or accessible to all.
+guidebook.page_5_0=§lPost Box§r                       This mailbox allows you to send items to other players via boxes.
+guidebook.page_5_1=§lPackages
+guidebook.page_6_0=Places at least one item in the post box and interacts with the block using a package to select a destination box.
+guidebook.page_7_0=Select a mailbox, leave an optional message (it will be displayed when the package is opened) and decide whether to hide the package contents.
+guidebook.page_8_0=When sending the package, one of your inventory will be consumed. If the destination mailbox is full, you will not be able to send it.                   Note that items such as Shulker boxes or full packages cannot be sent.
