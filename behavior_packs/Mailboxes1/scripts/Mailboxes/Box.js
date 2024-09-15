@@ -55,7 +55,14 @@ export class MbOpenBox {
 			}
 			const box = dataBox.getBoxById(boxId);
 			if (!box) {
-				source.sendMessage({ translate: 'form.box_already_used'});
+				for (let i = 1; i < itemStack.getLore().length; i++) {
+					const parts = itemStack.getLore()[i].split(' x');
+					const itemName = parts[0].toLowerCase().replace(/\s+/g, '_').replace('§7', '');
+					const quantity = parseInt(parts[1], 10);
+					const minecraftId = `minecraft:${itemName}`;
+					source.dimension.spawnItem(new ItemStack(minecraftId, quantity), source.location);
+				}
+				decrementItemInHand(source);
 				return;
 			}
 			for (let i = 0; i < box.itemList.length; i++) {

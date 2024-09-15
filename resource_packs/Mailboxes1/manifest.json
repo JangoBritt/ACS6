@@ -4,7 +4,7 @@
 		"description": "Mailboxes V1.2 [RP]",
 		"name": "Mailboxes V1.2 [RP] §bBy EndXenoc",
 		"uuid": "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b",
-		"version": [1,2,0],
+		"version": [1,2,1],
 		"min_engine_version": [1,20,0]
 	},
 	"modules": [
@@ -12,13 +12,13 @@
 			"description": "resources",
 			"type": "resources",
 			"uuid": "4e1ce503-30d4-4fd9-bcf2-0e7c7e367a08",
-			"version": [1,2,0]
+			"version": [1,2,1]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "3a36b38b-3e54-4cb4-b99d-139e1c275901",
-			"version": [1,2,0]
+			"version": [1,2,1]
 		}
 	]
 }

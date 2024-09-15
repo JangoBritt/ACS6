@@ -4,7 +4,7 @@
 		"description": "Mailboxes V1.2 [BP 1.21.20+]",
 		"name": "Mailboxes V1.2 [BP 1.21.20+] §bBy EndXenoc",
 		"uuid": "3a36b38b-3e54-4cb4-b99d-139e1c275901",
-		"version": [1,2,0],
+		"version": [1,2,1],
 		"min_engine_version": [1,21,20]
 	},
 	"modules": [
@@ -12,21 +12,21 @@
 			"description": "data",
 			"type": "data",
 			"uuid": "e1250ef0-4d7a-45cf-bcfd-9b14ba75239c",
-			"version": [1,2,0]
+			"version": [1,2,1]
 		},
 		{
 			"description": "javascript",
 			"language": "javascript",
 			"type": "script",
 			"uuid": "44e5a098-4639-47cd-bd22-ce9a75063bf0",
-			"version": [1,2,0],
+			"version": [1,2,1],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "9a4bc60d-9e2e-4638-b93b-9b354bb6c64b",
-			"version": [1,2,0]
+			"version": [1,2,1]
 		},
 		{
 			"module_name": "@minecraft/server",
