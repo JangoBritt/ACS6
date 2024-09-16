@@ -144,6 +144,11 @@
 					"component_groups": ["mr:inventory_27"]
 				}
 			},
+			"mr:inventory_54": {
+				"add": {
+					"component_groups": ["mr:inventory_54"]
+				}
+			},
 			"mr:inventory_mail": {
 				"add": {
 					"component_groups": ["mr:inventory_mail"]
