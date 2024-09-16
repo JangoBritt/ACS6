@@ -30,8 +30,8 @@ export class MrFridge {
 			} else {
 				topBlock.setPermutation(BlockPermutation.resolve("mr:fridge_light_top_mr", {"minecraft:cardinal_direction": direction}));
 			}
-			const container = dimension.spawnEntity("mr:container_mr", {x: block.x + 0.5, y: block.y + 1, z: block.z + 0.5});
-			container.triggerEvent("mr:inventory_27");
+			const container = dimension.spawnEntity("mr:container_mr", {x: block.x + 0.5, y: block.y + 0.9, z: block.z + 0.5});
+			container.triggerEvent("mr:inventory_54");
 			container.nameTag = "fridge";
 		} else {e.cancel = true;}
 	}
