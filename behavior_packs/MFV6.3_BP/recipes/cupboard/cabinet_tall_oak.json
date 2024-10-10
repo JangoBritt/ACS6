@@ -20,7 +20,7 @@
 			{"item": "minecraft:oak_log"}
 		],
     "result": {
-			"item": "medieval:oak_cabinet_tall",
+			"item": "medieval:oak_cabinet_tall_item",
 			"count": 1
 		}
 	}
