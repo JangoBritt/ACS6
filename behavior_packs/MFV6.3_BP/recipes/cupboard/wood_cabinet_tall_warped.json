@@ -20,7 +20,7 @@
 			{"item": "minecraft:warped_stem"}
 		],
     "result": {
-			"item": "medieval:warped_wood_cabinet_tall",
+			"item": "medieval:warped_wood_cabinet_tall_item",
 			"count": 1
 		}
 	}

@@ -20,7 +20,7 @@
 			{"item": "minecraft:spruce_log"}
 		],
     "result": {
-			"item": "medieval:spruce_wood_cabinet_tall",
+			"item": "medieval:spruce_wood_cabinet_tall_item",
 			"count": 1
 		}
 	}

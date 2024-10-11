@@ -20,7 +20,7 @@
 			{"item": "minecraft:mangrove_log"}
 		],
     "result": {
-			"item": "medieval:mangrove_wood_cabinet_tall",
+			"item": "medieval:mangrove_wood_cabinet_tall_item",
 			"count": 1
 		}
 	}

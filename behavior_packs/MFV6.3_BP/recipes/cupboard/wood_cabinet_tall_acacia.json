@@ -20,7 +20,7 @@
 			{"item": "minecraft:acacia_log"}
 		],
     "result": {
-			"item": "medieval:acacia_wood_cabinet_tall",
+			"item": "medieval:acacia_wood_cabinet_tall_item",
 			"count": 1
 		}
 	}
