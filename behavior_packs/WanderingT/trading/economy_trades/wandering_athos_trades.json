@@ -62,8 +62,8 @@
 				{"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:salmon_slice","quantity": 1}]},
 				{"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:beef_patty","quantity": 1}]},
 				{"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:dog_food","quantity": 1}]},
-				{"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:horse_feed","quantity": 1}]}//,
-				// {"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_misc:space_book","quantity": 1}]}
+				{"max_uses": 2,"wants": [{"item": "minecraft:emerald","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "farmersdelight:horse_feed","quantity": 1}]},
+				{"max_uses": 1,"wants": [{"item": "athos_currency:coin","quantity": {"min": 5,"max": 12}}],"gives": [{"item": "athos_misc:space_book","quantity": 1}]}
             ]
 				},
 				{ //ACS5 Economy Purchases - Stones
