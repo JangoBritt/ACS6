@@ -559,7 +559,7 @@ action.hint.exit.athos_avatars:holidayham=Jump to Exit
 entity.athos_avatars:holidayham.name=[Athos] Holiday Ham
 item.athos_avatars:holidayham_item=[Athos] Holiday Ham
 
-action.hint.exit.athos_avatars:lifesupport_head=Jump to Exit
+action.hint.exit.athos_avatars:lifesupport=Jump to Exit
 entity.athos_avatars:lifesupport.name=Life Support Unit
 item.athos_avatars:lifesupport_item=[Athos] Life Support Unit
 
@@ -677,3 +677,10 @@ item.athos_avatars:stereo_glasses_mask=[Athos] 3D Glasses
 item.athos_avatars:sunglasses_mask=[Athos] Sunglases
 item.athos_avatars:xwing_helmet_mask=[Athos] X-Wing Helmet
 item.athos_avatars:diving_helmet_mask=[Athos] Diving Helmet
+
+action.hint.exit.athos_avatars:acaito333_head=Jump to Exit
+entity.athos_avatars:acaito333_avatar.name=Autumn's Avatar
+entity.athos_avatars:acaito333_head.name=Autumn's Head
+item.athos_avatars:acaito333_avatar_item=Autumn's Avatar
+item.athos_avatars:acaito333_head_item=Autumn's Head
+item.athos_avatars:acaito333_mask=Autumn's Mask

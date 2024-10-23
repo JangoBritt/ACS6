@@ -8,13 +8,13 @@ Param
     [Parameter(Mandatory=$true,ValueFromPipeline=$true,HelpMessage="Display Name:")]
     [System.String]
     $Display_Name,
-
-    [Parameter(Mandatory=$true,ValueFromPipeline=$true,HelpMessage="Type")]
+    
+    [Parameter(Mandatory=$true,ValueFromPipeline=$true,HelpMessage="Type [members | wearables | specials | uniques]:")]
     [ValidateSet("members","wearables","specials","uniques")]
     [System.String]
     $rootfolder,
 
-    [Parameter(Mandatory=$false,ValueFromPipeline=$true,HelpMessage="Skin size")]
+    [Parameter(Mandatory=$false,ValueFromPipeline=$true,HelpMessage="Skin size:")]
     [ValidateSet("large","small")]
     [System.String]
     $Skin_Size,
@@ -49,7 +49,7 @@ Switch ($rootfolder) {
 
  "members" {
     $basetemplate = "tonystar73"
-    if ($Gamertag.Length -eq 0) {$Gamertag = Read-Host -Prompt "Gamertag"}    
+    if ($Gamertag.Length -eq 0) {$Gamertag = Read-Host -Prompt "GamerTag:"}    
  }
 
 }
@@ -59,9 +59,9 @@ Switch ($rootfolder) {
 $isHead=""
 $isMask=""
 if ($rootfolder -eq "members" -or $rootfolder -eq "specials") {
-    if ($Skin_Size.Length -eq 0) {$Skin_Size = Read-Host -Prompt "Skin Size (large | small)"}
+    if ($Skin_Size.Length -eq 0) {$Skin_Size = Read-Host -Prompt "Skin Size [large | small]:"}
     
-    copy-item "$ScriptPath\$BPFolder\entities\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$BPFolder\entities\avatars\$($rootfolder)\$($newunique)_avatar.json")C
+    copy-item "$ScriptPath\$BPFolder\entities\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$BPFolder\entities\avatars\$($rootfolder)\$($newunique)_avatar.json")
     copy-item "$ScriptPath\$BPFolder\items\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$BPFolder\items\avatars\$($rootfolder)\$($newunique)_avatar.json")
     copy-item "$ScriptPath\$BPFolder\loot_tables\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$BPFolder\loot_tables\avatars\$($rootfolder)\$($newunique)_avatar.json")
     copy-item "$ScriptPath\$BPFolder\recipes\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$BPFolder\recipes\avatars\$($rootfolder)\$($newunique)_avatar.json")
@@ -108,8 +108,9 @@ if ($rootfolder -eq "members" -or $rootfolder -eq "specials") {
     copy-item "$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($basetemplate)_avatar.json" ("$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json")
                                                               
     (Get-Content "$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json") -replace $basetemplate, $newunique | out-file -Encoding ASCII $("$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json")
-    (Get-Content "$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json") -replace 'variable.style = 0', 'variable.style = $Skin_size_int' | out-file -Encoding ASCII $("$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json")
-
+    if ($Skin_Size="small") {
+        (Get-Content "$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json") -replace 'variable.style = 0;', 'variable.style = 1;' | out-file -Encoding ASCII $("$ScriptPath\$RPFolder\entity\avatars\$($rootfolder)\$($newunique)_avatar.json")
+    }
 }
 
      
