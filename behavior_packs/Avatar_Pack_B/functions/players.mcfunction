@@ -38,3 +38,4 @@ give @s[name="VVangoWookie"] athos_avatars:vvangowookie_head_item
 give @s[name="Wookieswife12"] athos_avatars:wookieswife12_head_item
 give @s[name="xCGgamesx"] athos_avatars:xcggamesx_head_item
 give @s[name="xRaistin"] athos_avatars:xraistin_head_item
+give @s[name="acaito333"] athos_avatars:acaito333_head_item

@@ -613,6 +613,12 @@
         },
         "diving_helmet_item": {
             "textures": "textures/avatars/wearables/diving_helmet/player_head_item"
+        },
+        "acaito333_avatar_item": {
+            "textures": "textures/avatars/members/acaito333/avatar_item"
+        },
+        "acaito333_head_item": {
+            "textures": "textures/avatars/members/acaito333/player_head_item"
         }
     }
 }

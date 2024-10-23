@@ -437,8 +437,8 @@
     "textures/avatars/wearables/cat_ears/skin1",
     "textures/avatars/wearables/cat_ears2/player_head_item",
     "textures/avatars/wearables/cat_ears2/skin1",
-	"textures/avatars/wearables/dead_astronaut/dead_astronaut_suit"
-	"textures/avatars/wearables/dead_astronaut/dead_astronaut_suit_item"
+	"textures/avatars/wearables/dead_astronaut/dead_astronaut_suit",
+	"textures/avatars/wearables/dead_astronaut/dead_astronaut_suit_item",
     "textures/avatars/wearables/dead_astronaut/player_head_item",
     "textures/avatars/wearables/dead_astronaut/skin1",
     "textures/avatars/wearables/easter_crown/player_head_item",
@@ -474,5 +474,10 @@
     "textures/avatars/wearables/xwing_helmet/player_head_item",
     "textures/avatars/wearables/xwing_helmet/skin1",
     "textures/avatars/wearables/diving_helmet/player_head_item",
-    "textures/avatars/wearables/diving_helmet/skin1"
+    "textures/avatars/wearables/diving_helmet/skin1",
+    "textures/avatars/members/acaito333/player_head_item",
+    "textures/avatars/members/acaito333/skin1",
+    "textures/avatars/members/acaito333/avatar_item",
+    "textures/avatars/members/acaito333/skin2",
+    "textures/avatars/members/acaito333/skin3"
 ]
