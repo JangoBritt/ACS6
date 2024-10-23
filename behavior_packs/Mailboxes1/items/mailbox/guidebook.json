@@ -14,7 +14,7 @@
                     "minecraft:bookshelf_books"
                 ]
             },
-			"minecraft:max_stack_size": 1,
+			"minecraft:max_stack_size": 16,
 			"minecraft:hand_equipped": false,
 			"minecraft:icon": "mb.guidebook_mailboxes",
 			"minecraft:display_name": {
